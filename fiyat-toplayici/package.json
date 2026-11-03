@@ -1,0 +1,17 @@
+{
+  "name": "fiyat-toplayici",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "aktar": "tsx malzeme-aktar.ts",
+    "topla": "node topla.mjs",
+    "hepsi": "npm run aktar && npm run topla",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

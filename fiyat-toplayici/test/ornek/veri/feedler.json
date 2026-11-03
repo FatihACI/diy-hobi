@@ -1,0 +1,4 @@
+[
+  { "magaza": "Test Mağazası A", "dosya": "feed-a.xml" },
+  { "magaza": "Bozuk Mağaza", "dosya": "yok.xml" }
+]

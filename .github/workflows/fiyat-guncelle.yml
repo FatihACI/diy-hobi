@@ -1,0 +1,36 @@
+# Fiyatları her gün otomatik toplar ve fiyat-toplayici/cikti/fiyatlar.json dosyasını günceller.
+# Uygulama bu dosyayı GitHub üzerinden okur.
+name: Fiyatları güncelle
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # her gün 06:17 (Türkiye saati)
+  workflow_dispatch:        # GitHub'da "Run workflow" ile elle de çalıştırılabilir
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fiyat-toplayici
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm test
+      - run: npm run hepsi
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+      - name: Değiştiyse kaydet
+        run: |
+          git config user.name "fiyat-botu"
+          git config user.email "fiyat-botu@users.noreply.github.com"
+          git add cikti/fiyatlar.json
+          git diff --cached --quiet || (git commit -m "Fiyatlar güncellendi" && git push)

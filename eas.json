@@ -1,0 +1,12 @@
+{
+  "cli": { "version": ">= 16.0.0", "appVersionSource": "local" },
+  "build": {
+    "onizleme": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" }
+    },
+    "yayin": {
+      "android": { "buildType": "app-bundle" }
+    }
+  }
+}

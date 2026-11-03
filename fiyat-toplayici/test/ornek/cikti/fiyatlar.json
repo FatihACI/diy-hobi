@@ -1,0 +1,36 @@
+{
+  "surum": 1,
+  "guncelleme": "2026-11-03T00:00:00.000Z",
+  "fiyatlar": {
+    "aa2": [
+      {
+        "magaza": "Test Mağazası A",
+        "fiyat": 74.5,
+        "url": "https://ornek.test/a/2",
+        "guncelleme": "2026-11-03T00:00:00.000Z"
+      },
+      {
+        "magaza": "Test Hırdavat",
+        "fiyat": 1049.9,
+        "url": "https://ornek.test/tekerlek",
+        "guncelleme": "2026-11-01"
+      }
+    ],
+    "co5": [
+      {
+        "magaza": "Test Mağazası A",
+        "fiyat": 39.9,
+        "url": "https://ornek.test/a/3",
+        "guncelleme": "2026-11-03T00:00:00.000Z"
+      }
+    ],
+    "tl3": [
+      {
+        "magaza": "Test Mağazası A",
+        "fiyat": 15,
+        "url": "https://ornek.test/a/5",
+        "guncelleme": "2026-11-03T00:00:00.000Z"
+      }
+    ]
+  }
+}

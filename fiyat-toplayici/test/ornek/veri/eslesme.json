@@ -1,0 +1,5 @@
+{
+  "tl3": { "arama": "5mm led", "zorunlu": ["led", "5mm"], "haric": ["şerit", "ampul"], "max": 200 },
+  "ns2": { "arama": "kapasitif nem sensörü", "zorunlu": ["kapasitif", "nem", "sensor"] },
+  "co5": { "haric": ["kompresör", "bahçe"] }
+}

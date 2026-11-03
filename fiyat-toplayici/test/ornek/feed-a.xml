@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+<title>Test Mağazası A</title>
+<item><g:id>1</g:id><title>Ahşap Tekerlek 40 mm 4'lü Paket</title><link>https://ornek.test/a/1</link><g:price>89,90 TRY</g:price><g:availability>in stock</g:availability></item>
+<item><g:id>2</g:id><title>Ahşap Tekerlek 40mm</title><link>https://ornek.test/a/2</link><g:price>120.00 TRY</g:price><g:sale_price>74.50 TRY</g:sale_price><g:availability>in stock</g:availability></item>
+<item><g:id>3</g:id><title>Akvaryum Hava Hortumu 5 Metre</title><link>https://ornek.test/a/3</link><g:price>39,90 TRY</g:price><g:availability>in stock</g:availability></item>
+<item><g:id>4</g:id><title>Kompresör Hava Hortumu 10 m</title><link>https://ornek.test/a/4</link><g:price>450,00 TRY</g:price><g:availability>in stock</g:availability></item>
+<item><g:id>5</g:id><title>5mm LED Kırmızı 10 Adet</title><link>https://ornek.test/a/5</link><g:price>15,00 TRY</g:price><g:availability>in stock</g:availability></item>
+<item><g:id>6</g:id><title>LED Şerit 5mm 5 Metre</title><link>https://ornek.test/a/6</link><g:price>149,00 TRY</g:price><g:availability>in stock</g:availability></item>
+<item><g:id>7</g:id><title>Kapasitif Toprak Nem Sensörü v1.2</title><link>https://ornek.test/a/7</link><g:price>42,00 TRY</g:price><g:availability>out of stock</g:availability></item>
+</channel>
+</rss>

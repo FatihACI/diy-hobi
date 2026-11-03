@@ -1,0 +1,20 @@
+{
+  "aa4": { "arama": "su bazlı oyuncak boyası", "zorunlu": ["boya"], "haric": ["sprey"] },
+  "aa7": { "arama": "matkap ahşap uç 7 mm", "zorunlu": ["7", "mm", "ahsap", "uc"] },
+  "kk1": { "arama": "renkli keçe 20x30", "zorunlu": ["kece"], "haric": ["terlik", "çanta"] },
+  "st1": { "arama": "misina 0,25 mm", "zorunlu": ["misina", "0,25"] },
+  "st2": { "arama": "misina 0,20 mm", "zorunlu": ["misina", "0,20"] },
+  "sk3": { "arama": "örgü misina pe 0,12", "zorunlu": ["misina", "pe"] },
+  "na1": { "arama": "akvaryum 30 litre", "zorunlu": ["akvaryum", "30"], "haric": ["filtre", "isitici", "lamba", "yem"] },
+  "na3": { "arama": "akvaryum ısıtıcı 50w", "zorunlu": ["akvaryum", "isitici", "50"] },
+  "kt1": { "arama": "kayın kesme tahtası kereste", "zorunlu": ["kayin"] },
+  "kt3": { "arama": "gıdaya uygun mineral yağ ahşap", "zorunlu": ["mineral", "yag"] },
+  "tl1": { "arama": "arduino uno r3", "zorunlu": ["uno"], "haric": ["kutu", "kılıf", "shield", "kit"] },
+  "tl3": { "arama": "5mm led", "zorunlu": ["led", "5mm"], "haric": ["şerit", "ampul", "panel"], "max": 300 },
+  "tl4": { "arama": "220 ohm direnç", "zorunlu": ["220", "direnc"] },
+  "tl5": { "arama": "jumper kablo erkek erkek", "zorunlu": ["jumper", "erkek"] },
+  "ns2": { "arama": "kapasitif toprak nem sensörü", "zorunlu": ["kapasitif", "nem", "sensor"] },
+  "at2": { "arama": "ds18b20 su geçirmez", "zorunlu": ["ds18b20"] },
+  "at3": { "arama": "16x2 lcd i2c", "zorunlu": ["lcd", "i2c"] },
+  "ps2": { "arama": "hc-sr04 ultrasonik", "zorunlu": ["hc", "sr04"] }
+}

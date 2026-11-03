@@ -1,0 +1,793 @@
+[
+  {
+    "id": "aa1",
+    "ad": "Çam blok 4×8×18 cm",
+    "miktar": "1 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa2",
+    "ad": "Ahşap tekerlek Ø40 mm",
+    "miktar": "4 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa3",
+    "ad": "Ahşap dübel çubuk Ø6 mm",
+    "miktar": "30 cm",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa4",
+    "ad": "Su bazlı oyuncak boyası (EN 71-3)",
+    "miktar": "1 set",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa5",
+    "ad": "Ahşap tutkalı",
+    "miktar": "1 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa6",
+    "ad": "Zımpara kağıdı 120/240",
+    "miktar": "2 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa7",
+    "ad": "Matkap + Ø7 mm ahşap ucu",
+    "miktar": "1 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "aa8",
+    "ad": "El testeresi",
+    "miktar": "1 adet",
+    "projeId": "ahsap-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk1",
+    "ad": "Renkli keçe (20×30 cm)",
+    "miktar": "6 renk",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk2",
+    "ad": "Nakış ipliği",
+    "miktar": "4 renk",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk3",
+    "ad": "Kör uçlu nakış iğnesi",
+    "miktar": "2 adet",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk4",
+    "ad": "Kumaş tutkalı",
+    "miktar": "1 adet",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk5",
+    "ad": "Kumaş makası",
+    "miktar": "1 adet",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "kk6",
+    "ad": "Terzi tebeşiri",
+    "miktar": "1 adet",
+    "projeId": "kece-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp1",
+    "ad": "Karton rulo (havlu/tuvalet kağıdı)",
+    "miktar": "10–15 adet",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp2",
+    "ad": "Büyük karton kutu",
+    "miktar": "1 adet",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp3",
+    "ad": "Kağıt maskeleme bandı",
+    "miktar": "1 rulo",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp4",
+    "ad": "Sıcak silikon tabancası + çubuk",
+    "miktar": "1 set",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp5",
+    "ad": "Maket bıçağı",
+    "miktar": "1 adet",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "bp6",
+    "ad": "Cam bilye",
+    "miktar": "10 adet",
+    "projeId": "bilye-parkuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "st1",
+    "ad": "Misina 0,25 mm (ana beden)",
+    "miktar": "100 m",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st2",
+    "ad": "Köstek misinası 0,20 mm",
+    "miktar": "50 m",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st3",
+    "ad": "Kaydırmalı şamandıra 3–5 g",
+    "miktar": "2 adet",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st4",
+    "ad": "Fırdöndü (no. 10)",
+    "miktar": "5 adet",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st5",
+    "ad": "Olta iğnesi no. 8–10",
+    "miktar": "1 paket",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st6",
+    "ad": "Saçma kurşun seti",
+    "miktar": "1 kutu",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st7",
+    "ad": "Şamandıra stoperi",
+    "miktar": "1 paket",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "st8",
+    "ad": "Misina makası / tırnak makası",
+    "miktar": "1 adet",
+    "projeId": "samandirali-takim",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sk1",
+    "ad": "Spin kamış 2,10–2,40 m (5–25 g)",
+    "miktar": "1 adet",
+    "projeId": "spin-kurulum",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sk2",
+    "ad": "Spin makara 2500–3000 boy",
+    "miktar": "1 adet",
+    "projeId": "spin-kurulum",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sk3",
+    "ad": "Örgü (PE) misina 0,10–0,14 mm",
+    "miktar": "150 m",
+    "projeId": "spin-kurulum",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sk4",
+    "ad": "Florokarbon lider 0,25–0,30 mm",
+    "miktar": "50 m",
+    "projeId": "spin-kurulum",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sk5",
+    "ad": "Klipsli fırdöndü",
+    "miktar": "10 adet",
+    "projeId": "spin-kurulum",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy1",
+    "ad": "Balsa veya ıhlamur ahşap çıta 2×2 cm",
+    "miktar": "30 cm",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy2",
+    "ad": "Polikarbonat levha 1 mm (dil için)",
+    "miktar": "10×10 cm",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy3",
+    "ad": "Paslanmaz çelik tel 0,8 mm",
+    "miktar": "1 m",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy4",
+    "ad": "Üçlü iğne no. 6",
+    "miktar": "2 adet",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy5",
+    "ad": "Halka (split ring) no. 3",
+    "miktar": "5 adet",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy6",
+    "ad": "Akrilik boya + astar",
+    "miktar": "1 set",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy7",
+    "ad": "İki bileşenli epoksi (5 dk)",
+    "miktar": "1 set",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy8",
+    "ad": "Kurşun ağırlık (yapışkan)",
+    "miktar": "1 paket",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy9",
+    "ad": "Maket bıçağı + zımpara seti",
+    "miktar": "1 set",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "sy10",
+    "ad": "Kargaburun pense",
+    "miktar": "1 adet",
+    "projeId": "ahsap-sahte-yem",
+    "kategoriId": "balikcilik"
+  },
+  {
+    "id": "na1",
+    "ad": "Akvaryum 30 L",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na2",
+    "ad": "Askı veya iç filtre (30 L uyumlu)",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na3",
+    "ad": "Akvaryum ısıtıcı 50 W (termostatlı)",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na4",
+    "ad": "Bitki LED aydınlatma",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na5",
+    "ad": "Aquasoil (bitki toprağı)",
+    "miktar": "5 L",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na6",
+    "ad": "Dekor taşı / kök",
+    "miktar": "1 set",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na7",
+    "ad": "Canlı bitki seti (kolay türler)",
+    "miktar": "1 set",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na8",
+    "ad": "Su düzenleyici (klor giderici)",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na9",
+    "ad": "Su test kiti (NH3/NO2/NO3/pH)",
+    "miktar": "1 set",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "na10",
+    "ad": "Termometre",
+    "miktar": "1 adet",
+    "projeId": "nano-bitkili",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf1",
+    "ad": "Filtre süngeri (orta gözenek) 10×10×15 cm",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf2",
+    "ad": "PVC boru Ø20 mm",
+    "miktar": "25 cm",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf3",
+    "ad": "PVC kapak Ø20 mm",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf4",
+    "ad": "Hava pompası (akvaryum)",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf5",
+    "ad": "Hava hortumu",
+    "miktar": "2 m",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf6",
+    "ad": "Çek valf (geri tepme önleyici)",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf7",
+    "ad": "Hava taşı (küçük)",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "sf8",
+    "ad": "Matkap + Ø4 mm uç",
+    "miktar": "1 adet",
+    "projeId": "sunger-filtre",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co1",
+    "ad": "PET şişe 2 L",
+    "miktar": "1 adet",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co2",
+    "ad": "Toz şeker",
+    "miktar": "2 su bardağı",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co3",
+    "ad": "Kuru maya",
+    "miktar": "½ çay kaşığı",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co4",
+    "ad": "Karbonat",
+    "miktar": "½ çay kaşığı",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co5",
+    "ad": "Hava hortumu",
+    "miktar": "2 m",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co6",
+    "ad": "Çek valf",
+    "miktar": "1 adet",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co7",
+    "ad": "Kabarcık sayacı",
+    "miktar": "1 adet",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co8",
+    "ad": "CO₂ difüzörü (seramik)",
+    "miktar": "1 adet",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "co9",
+    "ad": "Silikon (akvaryum uyumlu)",
+    "miktar": "1 adet",
+    "projeId": "diy-co2",
+    "kategoriId": "akvaryum"
+  },
+  {
+    "id": "kt1",
+    "ad": "Masif sert ağaç (kayın/meşe/ceviz) 35×22×2 cm",
+    "miktar": "1 adet",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kt2",
+    "ad": "Zımpara 80/120/180/240",
+    "miktar": "1 set",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kt3",
+    "ad": "Gıdaya uygun mineral yağ",
+    "miktar": "250 ml",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kt4",
+    "ad": "Pamuklu bez",
+    "miktar": "2 adet",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kt5",
+    "ad": "Dekupaj testere",
+    "miktar": "1 adet",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kt6",
+    "ad": "Eksantrik zımpara makinesi",
+    "miktar": "1 adet",
+    "projeId": "kesme-tahtasi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr1",
+    "ad": "Masif çam tahta 60×20×4 cm",
+    "miktar": "1 adet",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr2",
+    "ad": "Gizli raf konsolu (60 cm)",
+    "miktar": "1 adet",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr3",
+    "ad": "Duvar tipine uygun dübel + vida",
+    "miktar": "1 set",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr4",
+    "ad": "Ahşap vernik veya yağ",
+    "miktar": "250 ml",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr5",
+    "ad": "Matkap + ahşap uç seti",
+    "miktar": "1 adet",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr6",
+    "ad": "Su terazisi",
+    "miktar": "1 adet",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "yr7",
+    "ad": "Kablo/metal dedektörü",
+    "miktar": "1 adet",
+    "projeId": "yuzer-raf",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak1",
+    "ad": "Çam tahta 1,8×12 cm",
+    "miktar": "2 m",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak2",
+    "ad": "Kontrplak 6 mm (taban)",
+    "miktar": "30×20 cm",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak3",
+    "ad": "Ahşap tutkalı (D3)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak4",
+    "ad": "Ahşap vidası 3,5×30 mm",
+    "miktar": "16 adet",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak5",
+    "ad": "Gönye",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak6",
+    "ad": "Gönye testere veya el testeresi",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ak7",
+    "ad": "İşkence",
+    "miktar": "2 adet",
+    "projeId": "ahsap-kutu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tl1",
+    "ad": "Arduino Uno (uyumlu)",
+    "miktar": "1 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "tl2",
+    "ad": "Breadboard",
+    "miktar": "1 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "tl3",
+    "ad": "LED kırmızı/sarı/yeşil 5 mm",
+    "miktar": "3 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "tl4",
+    "ad": "Direnç 220 Ω",
+    "miktar": "3 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "tl5",
+    "ad": "Jumper kablo (erkek-erkek)",
+    "miktar": "10 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "tl6",
+    "ad": "USB kablo",
+    "miktar": "1 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns1",
+    "ad": "Arduino Uno / Nano",
+    "miktar": "1 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns2",
+    "ad": "Kapasitif toprak nem sensörü v1.2",
+    "miktar": "1 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns3",
+    "ad": "Aktif buzzer 5 V",
+    "miktar": "1 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns4",
+    "ad": "Kırmızı LED + 220 Ω direnç",
+    "miktar": "1 set",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns5",
+    "ad": "Jumper kablo",
+    "miktar": "10 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns6",
+    "ad": "5 V USB adaptör",
+    "miktar": "1 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at1",
+    "ad": "Arduino Uno / Nano",
+    "miktar": "1 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at2",
+    "ad": "DS18B20 su geçirmez sıcaklık sensörü",
+    "miktar": "1 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at3",
+    "ad": "16×2 LCD + I2C modülü",
+    "miktar": "1 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at4",
+    "ad": "Direnç 4,7 kΩ",
+    "miktar": "1 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at5",
+    "ad": "Jumper kablo",
+    "miktar": "10 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "at6",
+    "ad": "5 V USB adaptör",
+    "miktar": "1 adet",
+    "projeId": "akvaryum-termometre",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ps1",
+    "ad": "Arduino Uno / Nano",
+    "miktar": "1 adet",
+    "projeId": "park-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ps2",
+    "ad": "HC-SR04 ultrasonik sensör",
+    "miktar": "1 adet",
+    "projeId": "park-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ps3",
+    "ad": "Pasif buzzer",
+    "miktar": "1 adet",
+    "projeId": "park-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ps4",
+    "ad": "Breadboard",
+    "miktar": "1 adet",
+    "projeId": "park-sensoru",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ps5",
+    "ad": "Jumper kablo",
+    "miktar": "10 adet",
+    "projeId": "park-sensoru",
+    "kategoriId": "elektronik"
+  }
+]
