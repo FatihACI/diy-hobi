@@ -41,7 +41,12 @@ test("feed: indirimli fiyat ve stok durumu", () => {
 
 test("uçtan uca: manuel + feed, bozuk feed diğerlerini durdurmaz", async () => {
   const kok = new URL("./ornek/", import.meta.url);
-  const sessiz = { ad: "sahte", topla: async () => { throw new Error("çöktü"); } };
+  const sessiz = {
+    ad: "sahte",
+    topla: async () => {
+      throw new Error("çöktü");
+    },
+  };
   const c = await calistir({ kok, kaynaklar: [manuel, xmlFeed, sessiz], bugun: "2026-11-03T00:00:00.000Z" });
   const f = c.fiyatlar;
 

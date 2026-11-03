@@ -15,9 +15,9 @@ export default function Liste() {
   const ust = useSafeAreaInsets().top;
 
   // Listedeki malzemeleri projeye göre grupla
-  const gruplar = PROJELER
-    .map((p) => ({ p, kalemler: p.malzemeler.filter((m) => st.liste[m.id]) }))
-    .filter((g) => g.kalemler.length);
+  const gruplar = PROJELER.map((p) => ({ p, kalemler: p.malzemeler.filter((m) => st.liste[m.id]) })).filter(
+    (g) => g.kalemler.length,
+  );
 
   const tumKalemler = gruplar.flatMap((g) => g.kalemler);
   const alinan = tumKalemler.filter((m) => st.liste[m.id].alindi).length;
@@ -41,8 +41,10 @@ export default function Liste() {
   };
 
   return (
-    <ScrollView style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}>
+    <ScrollView
+      style={{ backgroundColor: renk.arkaPlan }}
+      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
+    >
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
         <Text style={yazi.dev}>Alışveriş Listesi</Text>
         {tumKalemler.length > 0 && (
@@ -50,11 +52,17 @@ export default function Liste() {
             <Pressable accessibilityLabel="Listeyi paylaş" onPress={paylas} hitSlop={10} style={s.ustBtn}>
               <Ikon name="share-variant" size={20} color={renk.ana} />
             </Pressable>
-            <Pressable accessibilityLabel="Listeyi temizle" hitSlop={10} style={s.ustBtn} onPress={() =>
-              Alert.alert("Listeyi temizle", "Tüm malzemeler listeden silinsin mi?", [
-                { text: "Vazgeç", style: "cancel" },
-                { text: "Temizle", style: "destructive", onPress: st.listeyiTemizle },
-              ])}>
+            <Pressable
+              accessibilityLabel="Listeyi temizle"
+              hitSlop={10}
+              style={s.ustBtn}
+              onPress={() =>
+                Alert.alert("Listeyi temizle", "Tüm malzemeler listeden silinsin mi?", [
+                  { text: "Vazgeç", style: "cancel" },
+                  { text: "Temizle", style: "destructive", onPress: st.listeyiTemizle },
+                ])
+              }
+            >
               <Ikon name="trash-can-outline" size={20} color={renk.tehlike} />
             </Pressable>
           </View>
@@ -68,7 +76,9 @@ export default function Liste() {
           <View style={s.ozet}>
             <View>
               <Text style={yazi.kucuk}>Alınan</Text>
-              <Text style={s.ozetDeger}>{alinan} / {tumKalemler.length}</Text>
+              <Text style={s.ozetDeger}>
+                {alinan} / {tumKalemler.length}
+              </Text>
             </View>
             <View style={{ alignItems: "flex-end" }}>
               <Text style={yazi.kucuk}>Tahmini toplam</Text>
@@ -94,12 +104,18 @@ export default function Liste() {
                     return (
                       <View key={m.id} style={[s.satir, i > 0 && s.ayrac]}>
                         <Pressable onPress={() => st.alindiDegistir(m.id)} hitSlop={8}>
-                          <Ikon name={ok ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"} size={24}
-                            color={ok ? renk.basari : renk.yaziIkincil} />
+                          <Ikon
+                            name={ok ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
+                            size={24}
+                            color={ok ? renk.basari : renk.yaziIkincil}
+                          />
                         </Pressable>
                         <View style={{ flex: 1 }}>
                           <Text style={[yazi.govde, ok && s.ustuCizili]}>{m.ad}</Text>
-                          <Text style={yazi.kucuk}>{m.miktar}{f ? ` · ${f.magaza}` : ""}</Text>
+                          <Text style={yazi.kucuk}>
+                            {m.miktar}
+                            {f ? ` · ${f.magaza}` : ""}
+                          </Text>
                         </View>
                         <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
                         <Pressable onPress={() => st.listedenCikar(m.id)} hitSlop={8}>
@@ -119,8 +135,25 @@ export default function Liste() {
 }
 
 const s = StyleSheet.create({
-  ustBtn: { width: 40, height: 40, borderRadius: 20, backgroundColor: renk.kart, borderWidth: 1, borderColor: renk.cizgi, alignItems: "center", justifyContent: "center" },
-  ozet: { flexDirection: "row", justifyContent: "space-between", backgroundColor: renk.kart, borderRadius: kose.l, padding: bosluk.l, marginTop: bosluk.l, ...golge },
+  ustBtn: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: renk.kart,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ozet: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    backgroundColor: renk.kart,
+    borderRadius: kose.l,
+    padding: bosluk.l,
+    marginTop: bosluk.l,
+    ...golge,
+  },
   ozetDeger: { fontSize: 22, fontWeight: "800", color: renk.yazi, marginTop: 2 },
   grupBaslik: { flexDirection: "row", alignItems: "center", gap: bosluk.s, marginBottom: bosluk.s },
   grupIkon: { width: 28, height: 28, borderRadius: 8, alignItems: "center", justifyContent: "center" },

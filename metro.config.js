@@ -3,9 +3,6 @@ const { getDefaultConfig } = require("expo/metro-config");
 
 const config = getDefaultConfig(__dirname);
 const onceki = config.resolver.blockList;
-config.resolver.blockList = [
-  ...(Array.isArray(onceki) ? onceki : onceki ? [onceki] : []),
-  /fiyat-toplayici[\/\\].*/,
-];
+config.resolver.blockList = [...(Array.isArray(onceki) ? onceki : onceki ? [onceki] : []), /fiyat-toplayici[\/\\].*/];
 
 module.exports = config;

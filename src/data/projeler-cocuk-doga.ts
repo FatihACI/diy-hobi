@@ -5,8 +5,13 @@ import { a, m } from "./yardimci";
 export const COCUK_DOGA: Proje[] = [
   // ───────────────────────── MAKET & DİORAMA ─────────────────────────
   {
-    id: "plastik-maket", kategoriId: "maket", ikon: "airplane",
-    ad: "Plastik Uçak Maketi Montajı ve Boyama", zorluk: "Orta", sure: "2–3 gün (kuruma dahil)", yas: "12+ yaş",
+    id: "plastik-maket",
+    kategoriId: "maket",
+    ikon: "airplane",
+    ad: "Plastik Uçak Maketi Montajı ve Boyama",
+    zorluk: "Orta",
+    sure: "2–3 gün (kuruma dahil)",
+    yas: "12+ yaş",
     ozet: "1/72 ölçekli bir uçak maketini temiz birleştirme, boyama ve çıkartma uygulama.",
     malzemeler: [
       m("pm1", "1/72 ölçek plastik uçak maketi", "1 kutu"),
@@ -19,13 +24,25 @@ export const COCUK_DOGA: Proje[] = [
       m("pm8", "Zımpara çubuğu (400–1000 kum)", "2 adet"),
     ],
     adimlar: [
-      a("Talimatı incele", "Kutudaki şemayı baştan sona oku; parçaların hangi adımda takılacağını ve renk kodlarını işaretle."),
-      a("Parçaları kes", "Parçaları yan keskiyle dallarından kes; kalan çapakları maket bıçağı ve zımpara çubuğuyla düzelt."),
-      a("Kokpiti boya ve birleştir", "İç parçalar sonradan boyanamaz; önce kokpiti boya, kuruyunca gövde yarılarını yapıştır."),
+      a(
+        "Talimatı incele",
+        "Kutudaki şemayı baştan sona oku; parçaların hangi adımda takılacağını ve renk kodlarını işaretle.",
+      ),
+      a(
+        "Parçaları kes",
+        "Parçaları yan keskiyle dallarından kes; kalan çapakları maket bıçağı ve zımpara çubuğuyla düzelt.",
+      ),
+      a(
+        "Kokpiti boya ve birleştir",
+        "İç parçalar sonradan boyanamaz; önce kokpiti boya, kuruyunca gövde yarılarını yapıştır.",
+      ),
       a("Ek yerlerini düzelt", "Kuruyan ek yerlerini 400 sonra 1000 kumla zımparala."),
       a("Astarla", "İnce kat sprey astar at; boyanın tutunmasını ve kusurları görmeyi sağlar."),
       a("Boya", "Açık renklerden koyuya doğru, ince ve birkaç kat halinde boya."),
-      a("Çıkartmaları uygula", "Su kaydırmalı çıkartmayı ılık suda 20 saniye beklet, yerine kaydır, peçeteyle suyunu al."),
+      a(
+        "Çıkartmaları uygula",
+        "Su kaydırmalı çıkartmayı ılık suda 20 saniye beklet, yerine kaydır, peçeteyle suyunu al.",
+      ),
     ],
     ipuclari: [
       "Boyayı biraz suyla incelterek iki ince kat sürmek, tek kalın kattan çok daha düzgün sonuç verir.",
@@ -37,8 +54,12 @@ export const COCUK_DOGA: Proje[] = [
     ],
   },
   {
-    id: "diorama-zemin", kategoriId: "maket", ikon: "image-filter-hdr",
-    ad: "Diorama Zemini: Çim, Toprak ve Kaya", zorluk: "Kolay", sure: "3 saat + 1 gün kuruma",
+    id: "diorama-zemin",
+    kategoriId: "maket",
+    ikon: "image-filter-hdr",
+    ad: "Diorama Zemini: Çim, Toprak ve Kaya",
+    zorluk: "Kolay",
+    sure: "3 saat + 1 gün kuruma",
     ozet: "Maketlerin altına koymak için gerçekçi doğa zemini.",
     malzemeler: [
       m("dz1", "MDF taban 20×30 cm", "1 adet"),
@@ -50,8 +71,14 @@ export const COCUK_DOGA: Proje[] = [
       m("dz7", "Akrilik boya (kahverengi, gri, siyah)", "3 adet"),
     ],
     adimlar: [
-      a("Araziyi şekillendir", "Straforu parçalar halinde keserek tepe ve yükseltiler oluştur, tabana tutkalla yapıştır."),
-      a("Yüzeyi kapla", "Strafor ve tabanın üstüne ince kat alçı sür; kaya kısımlarını buruşuk folyo bastırarak dokulandır."),
+      a(
+        "Araziyi şekillendir",
+        "Straforu parçalar halinde keserek tepe ve yükseltiler oluştur, tabana tutkalla yapıştır.",
+      ),
+      a(
+        "Yüzeyi kapla",
+        "Strafor ve tabanın üstüne ince kat alçı sür; kaya kısımlarını buruşuk folyo bastırarak dokulandır.",
+      ),
       a("Boya", "Kuruyunca toprağı kahverengi, kayaları gri boya; kayalara kuru fırçayla açık gri vurarak hacim ver."),
       a("Çakıl ekle", "Patika ve dere yatağına tutkal sür, üstüne kum ve çakıl serp."),
       a("Çimlendir", "Çim alanlarına sulandırılmış tutkal sür, çim tozunu serp; fazlasını ters çevirip silkele."),
@@ -60,13 +87,15 @@ export const COCUK_DOGA: Proje[] = [
       "Çim tozunu serpip üstüne hafifçe üflersen lifler dikleşir ve daha gerçekçi görünür.",
       "Gerçek doğa fotoğraflarına bakarak renk seçmek sonucu çok iyileştirir.",
     ],
-    guvenlik: [
-      "Straforu kızgın telle keseceksen ortamı mutlaka havalandır; çıkan duman zararlıdır.",
-    ],
+    guvenlik: ["Straforu kızgın telle keseceksen ortamı mutlaka havalandır; çıkan duman zararlıdır."],
   },
   {
-    id: "mini-oda", kategoriId: "maket", ikon: "sofa-outline",
-    ad: "Kutu İçinde Minyatür Oda (Roombox)", zorluk: "Orta", sure: "1–2 gün",
+    id: "mini-oda",
+    kategoriId: "maket",
+    ikon: "sofa-outline",
+    ad: "Kutu İçinde Minyatür Oda (Roombox)",
+    zorluk: "Orta",
+    sure: "1–2 gün",
     ozet: "Ayakkabı kutusu boyutunda, ışıklı minyatür bir oda.",
     malzemeler: [
       m("mo1", "Kontrplak veya kalın mukavva 3 mm", "1 levha"),
@@ -78,10 +107,16 @@ export const COCUK_DOGA: Proje[] = [
       m("mo7", "Maket bıçağı + cetvel", "1 set", true),
     ],
     adimlar: [
-      a("Kutuyu kur", "Taban 25×18 cm, arka ve iki yan duvar 18 cm yüksekliğinde kes; ön tarafı açık kalacak şekilde birleştir."),
+      a(
+        "Kutuyu kur",
+        "Taban 25×18 cm, arka ve iki yan duvar 18 cm yüksekliğinde kes; ön tarafı açık kalacak şekilde birleştir.",
+      ),
       a("Zemin ve duvarlar", "Zemine balsa çıtalarla parke döşe, duvarlara desenli kağıt yapıştır."),
       a("Pencere aç", "Yan duvara pencere kesip arkasına asetat (şeffaf plastik) yapıştır."),
-      a("Mobilyaları yap", "Balsa ve mukavvadan masa, raf ve yatak gibi parçaları 1/12 ölçekte (1 cm = 12 cm) yap ve boya."),
+      a(
+        "Mobilyaları yap",
+        "Balsa ve mukavvadan masa, raf ve yatak gibi parçaları 1/12 ölçekte (1 cm = 12 cm) yap ve boya.",
+      ),
       a("Işıklandır", "LED'i tavana sabitle, pil yuvasını kutunun arkasına gizle."),
     ],
     ipuclari: [
@@ -96,8 +131,13 @@ export const COCUK_DOGA: Proje[] = [
 
   // ───────────────────────── RC & DRONE ─────────────────────────
   {
-    id: "bluetooth-araba", kategoriId: "rc", ikon: "car-connected",
-    ad: "Telefonla Kumandalı Arduino Araba", zorluk: "Orta", sure: "3–4 saat", yas: "12+ yaş (gözetimle)",
+    id: "bluetooth-araba",
+    kategoriId: "rc",
+    ikon: "car-connected",
+    ad: "Telefonla Kumandalı Arduino Araba",
+    zorluk: "Orta",
+    sure: "3–4 saat",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Bluetooth modülüyle telefondan yönetilen iki motorlu araba.",
     malzemeler: [
       m("ba1", "2WD akıllı araba şasi kiti (motorlu)", "1 kit"),
@@ -110,11 +150,23 @@ export const COCUK_DOGA: Proje[] = [
     ],
     adimlar: [
       a("Şasiyi kur", "Kitteki motorları, tekerlekleri ve sarhoş tekerleği şasiye vidala."),
-      a("Motor sürücüsünü bağla", "Motorları L298N'nin OUT1-2 ve OUT3-4 uçlarına bağla. IN1–IN4 pinlerini Arduino 5, 6, 9, 10'a bağla."),
-      a("Bluetooth'u bağla", "HC-05: VCC→5V, GND→GND, TX→Arduino pin 2. Arduino pin 3 → 1 kΩ → HC-05 RX, RX ile GND arasına 2 kΩ (gerilim bölücü)."),
+      a(
+        "Motor sürücüsünü bağla",
+        "Motorları L298N'nin OUT1-2 ve OUT3-4 uçlarına bağla. IN1–IN4 pinlerini Arduino 5, 6, 9, 10'a bağla.",
+      ),
+      a(
+        "Bluetooth'u bağla",
+        "HC-05: VCC→5V, GND→GND, TX→Arduino pin 2. Arduino pin 3 → 1 kΩ → HC-05 RX, RX ile GND arasına 2 kΩ (gerilim bölücü).",
+      ),
       a("Gücü bağla", "Pil yuvasını L298N'nin 12V girişine, L298N GND'sini Arduino GND'sine bağla."),
-      a("Kodu yükle", "Kodu yüklerken Bluetooth bağlıysa sorun olmaz; çünkü yazılımsal seri port (pin 2–3) kullanıyoruz."),
-      a("Telefona bağlan", "Play Store'dan bir 'Bluetooth RC Controller' uygulaması kur, HC-05 ile eşleştir (şifre genelde 1234)."),
+      a(
+        "Kodu yükle",
+        "Kodu yüklerken Bluetooth bağlıysa sorun olmaz; çünkü yazılımsal seri port (pin 2–3) kullanıyoruz.",
+      ),
+      a(
+        "Telefona bağlan",
+        "Play Store'dan bir 'Bluetooth RC Controller' uygulaması kur, HC-05 ile eşleştir (şifre genelde 1234).",
+      ),
     ],
     ipuclari: [
       "Araba ters gidiyorsa o motorun iki kablosunu yer değiştir.",
@@ -151,8 +203,13 @@ void loop() {
 }`,
   },
   {
-    id: "depron-planor", kategoriId: "rc", ikon: "airplane-takeoff",
-    ad: "Elle Atılan Depron Planör", zorluk: "Kolay", sure: "2 saat", yas: "8+ yaş (gözetimle)",
+    id: "depron-planor",
+    kategoriId: "rc",
+    ikon: "airplane-takeoff",
+    ad: "Elle Atılan Depron Planör",
+    zorluk: "Kolay",
+    sure: "2 saat",
+    yas: "8+ yaş (gözetimle)",
     ozet: "Motorsuz, hafif köpük levhadan uzun süzülen planör.",
     malzemeler: [
       m("dp1", "Depron / XPS köpük levha 3–6 mm", "1 levha"),
@@ -165,23 +222,33 @@ void loop() {
     adimlar: [
       a("Parçaları kes", "Kanat 60×10 cm, yatay kuyruk 20×6 cm, dikey kuyruk 8×7 cm kes."),
       a("Kanada profil ver", "Kanadın ön kenarını zımparayla yuvarlat, arka kenarı incelt."),
-      a("Dihedral ver", "Kanadı ortadan hafifçe kesip uçlar 4–5 cm yukarıda kalacak şekilde açıyla yapıştır; dengeyi artırır."),
+      a(
+        "Dihedral ver",
+        "Kanadı ortadan hafifçe kesip uçlar 4–5 cm yukarıda kalacak şekilde açıyla yapıştır; dengeyi artırır.",
+      ),
       a("Birleştir", "Kanadı çubuğun önden 1/3'üne, kuyrukları arka uca yapıştır."),
-      a("Ağırlık merkezini ayarla", "Burna ağırlık ekleyerek uçağı kanat genişliğinin önden %30'u noktasından parmakla tuttuğunda dengede kalacak hale getir."),
-      a("Deneme uçuşu", "Çimenlik alanda burnu hafif aşağıda, düz ve yumuşak at; dalıyorsa ağırlığı azalt, havalanıp düşüyorsa artır."),
+      a(
+        "Ağırlık merkezini ayarla",
+        "Burna ağırlık ekleyerek uçağı kanat genişliğinin önden %30'u noktasından parmakla tuttuğunda dengede kalacak hale getir.",
+      ),
+      a(
+        "Deneme uçuşu",
+        "Çimenlik alanda burnu hafif aşağıda, düz ve yumuşak at; dalıyorsa ağırlığı azalt, havalanıp düşüyorsa artır.",
+      ),
     ],
     ipuclari: [
       "Rüzgarsız bir akşamüstü en iyi deneme zamanıdır.",
       "Kuyruğun arka kenarını hafifçe yukarı bükmek burun kalkışını düzeltir.",
     ],
-    guvenlik: [
-      "İnsanlara, hayvanlara ve araçlara doğru atma.",
-      "Kesimi yetişkin yapmalı.",
-    ],
+    guvenlik: ["İnsanlara, hayvanlara ve araçlara doğru atma.", "Kesimi yetişkin yapmalı."],
   },
   {
-    id: "mini-drone", kategoriId: "rc", ikon: "quadcopter",
-    ad: "Mini FPV Drone (Tiny Whoop) Montajı", zorluk: "Zor", sure: "1 gün",
+    id: "mini-drone",
+    kategoriId: "rc",
+    ikon: "quadcopter",
+    ad: "Mini FPV Drone (Tiny Whoop) Montajı",
+    zorluk: "Zor",
+    sure: "1 gün",
     ozet: "Pervane korumalı, evde uçabilen küçük drone'u parça parça birleştirme.",
     malzemeler: [
       m("md1", "65–75 mm whoop gövdesi (pervane korumalı)", "1 adet"),
@@ -195,9 +262,18 @@ void loop() {
     ],
     adimlar: [
       a("Motorları tak", "Motorları gövdeye vidala; dönüş yönlerine dikkat et (çaprazlar aynı yönde)."),
-      a("Kartı yerleştir", "Uçuş kartını titreşim lastikleriyle gövdenin ortasına, ok işareti öne bakacak şekilde oturt."),
-      a("Motor kablolarını lehimle", "Motor kablolarını kısaltıp karttaki pedlere lehimle; lehimler parlak ve temiz olmalı."),
-      a("Yazılımı ayarla", "Kartı bilgisayara bağla, Betaflight Configurator ile motor yönlerini ve kumanda eşleşmesini ayarla."),
+      a(
+        "Kartı yerleştir",
+        "Uçuş kartını titreşim lastikleriyle gövdenin ortasına, ok işareti öne bakacak şekilde oturt.",
+      ),
+      a(
+        "Motor kablolarını lehimle",
+        "Motor kablolarını kısaltıp karttaki pedlere lehimle; lehimler parlak ve temiz olmalı.",
+      ),
+      a(
+        "Yazılımı ayarla",
+        "Kartı bilgisayara bağla, Betaflight Configurator ile motor yönlerini ve kumanda eşleşmesini ayarla.",
+      ),
       a("Pervaneleri tak", "Pervaneleri EN SON tak; yönlerini motorların dönüşüne göre kontrol et."),
       a("İlk uçuş", "Geniş, boş bir odada, düşük gazla ve 'angle' (dengeli) modda dene."),
     ],
@@ -214,8 +290,12 @@ void loop() {
 
   // ───────────────────────── TERRARYUM ─────────────────────────
   {
-    id: "kapali-terraryum", kategoriId: "terraryum", ikon: "bottle-tonic-outline",
-    ad: "Kapalı Yosun Terraryumu", zorluk: "Kolay", sure: "1,5 saat",
+    id: "kapali-terraryum",
+    kategoriId: "terraryum",
+    ikon: "bottle-tonic-outline",
+    ad: "Kapalı Yosun Terraryumu",
+    zorluk: "Kolay",
+    sure: "1,5 saat",
     ozet: "Kendi suyunu döndüren, ayda bir bakım isteyen kapaklı cam bahçe.",
     malzemeler: [
       m("kt-a", "Kapaklı cam kavanoz (3–5 L)", "1 adet"),
@@ -241,8 +321,12 @@ void loop() {
     guvenlik: ["Toprakla çalışırken eldiven kullan, sonra elini yıka."],
   },
   {
-    id: "sukulent-terraryum", kategoriId: "terraryum", ikon: "cactus",
-    ad: "Açık Sukulent Terraryumu", zorluk: "Kolay", sure: "1 saat",
+    id: "sukulent-terraryum",
+    kategoriId: "terraryum",
+    ikon: "cactus",
+    ad: "Açık Sukulent Terraryumu",
+    zorluk: "Kolay",
+    sure: "1 saat",
     ozet: "Az sulama isteyen kaktüs ve sukulentlerle açık cam kase.",
     malzemeler: [
       m("st-a", "Geniş ağızlı cam kase", "1 adet"),
@@ -266,8 +350,12 @@ void loop() {
     guvenlik: ["Kaktüsleri kalın eldivenle veya katlanmış kağıtla tut."],
   },
   {
-    id: "asili-terraryum", kategoriId: "terraryum", ikon: "lightbulb-outline",
-    ad: "Asılı Hava Bitkisi Terraryumu", zorluk: "Kolay", sure: "45 dk",
+    id: "asili-terraryum",
+    kategoriId: "terraryum",
+    ikon: "lightbulb-outline",
+    ad: "Asılı Hava Bitkisi Terraryumu",
+    zorluk: "Kolay",
+    sure: "45 dk",
     ozet: "Topraksız yaşayan Tillandsia ile asılabilen küre terraryum.",
     malzemeler: [
       m("at-a", "Asılı cam küre (açık ağızlı)", "1 adet"),
@@ -288,8 +376,12 @@ void loop() {
 
   // ───────────────────────── KUŞ EVİ & EVCİL HAYVAN ─────────────────────────
   {
-    id: "kus-yuvasi", kategoriId: "kus-evi", ikon: "home-variant-outline",
-    ad: "Ahşap Kuş Yuvası", zorluk: "Orta", sure: "3 saat",
+    id: "kus-yuvasi",
+    kategoriId: "kus-evi",
+    ikon: "home-variant-outline",
+    ad: "Ahşap Kuş Yuvası",
+    zorluk: "Orta",
+    sure: "3 saat",
     ozet: "Serçe ve baştankara gibi küçük kuşlar için yuva kutusu.",
     malzemeler: [
       m("ky1", "İşlenmemiş çam tahta 15 mm", "1,5 m"),
@@ -301,7 +393,10 @@ void loop() {
     ],
     adimlar: [
       a("Parçaları kes", "Ön/arka 12×25 cm, yanlar 12×20 cm, taban 12×12 cm, çatı 18×18 cm."),
-      a("Giriş deliğini aç", "Ön parçaya üstten 6 cm aşağıda Ø32 mm delik aç; daha büyük delik saldırgan kuşları davet eder."),
+      a(
+        "Giriş deliğini aç",
+        "Ön parçaya üstten 6 cm aşağıda Ø32 mm delik aç; daha büyük delik saldırgan kuşları davet eder.",
+      ),
       a("Havalandırma ve drenaj", "Yanların üst kısmına 2–3 küçük havalandırma, tabana 4 adet Ø6 mm drenaj deliği aç."),
       a("Birleştir", "Yanları, önü ve arkayı tabana vidala; içi boyamadan ham bırak."),
       a("Çatıyı tak", "Çatıyı menteşeyle tak ki sonbaharda yuvayı temizlemek için açılabilsin."),
@@ -317,8 +412,13 @@ void loop() {
     ],
   },
   {
-    id: "kus-yemligi", kategoriId: "kus-evi", ikon: "seed-outline",
-    ad: "Pet Şişeden Kuş Yemliği", zorluk: "Kolay", sure: "30 dk", yas: "6+ yaş (gözetimle)",
+    id: "kus-yemligi",
+    kategoriId: "kus-evi",
+    ikon: "seed-outline",
+    ad: "Pet Şişeden Kuş Yemliği",
+    zorluk: "Kolay",
+    sure: "30 dk",
+    yas: "6+ yaş (gözetimle)",
     ozet: "Atık şişe ve tahta kaşıklarla kışın kuşları besleyen yemlik.",
     malzemeler: [
       m("yk1", "1,5 L pet şişe (temiz, kuru)", "1 adet"),
@@ -328,8 +428,14 @@ void loop() {
       m("yk5", "Maket bıçağı", "1 adet", true),
     ],
     adimlar: [
-      a("Kaşık deliklerini aç", "Şişenin alt kısmında karşılıklı iki delik aç; biri diğerinden 2 cm aşağıda olsun. Kaşığı içeriden dışarı geçir."),
-      a("Yem deliğini büyüt", "Kaşık hazne tarafında, kaşığın üstüne gelen deliği yemin akacağı kadar (yaklaşık 8 mm) büyüt."),
+      a(
+        "Kaşık deliklerini aç",
+        "Şişenin alt kısmında karşılıklı iki delik aç; biri diğerinden 2 cm aşağıda olsun. Kaşığı içeriden dışarı geçir.",
+      ),
+      a(
+        "Yem deliğini büyüt",
+        "Kaşık hazne tarafında, kaşığın üstüne gelen deliği yemin akacağı kadar (yaklaşık 8 mm) büyüt.",
+      ),
       a("İkinci kaşık", "90° döndürüp birkaç cm yukarıda aynı işlemi tekrarla."),
       a("Doldur ve as", "Şişeyi yemle doldur, kapağına ip bağla ve kedilerin ulaşamayacağı bir dala as."),
     ],
@@ -340,8 +446,12 @@ void loop() {
     guvenlik: ["Kesimi yetişkin yapmalı.", "Yemliği ayda bir sabunlu suyla yıka; hastalık yayılmasını önler."],
   },
   {
-    id: "kedi-tirmalama", kategoriId: "kus-evi", ikon: "cat",
-    ad: "Sisal İpli Kedi Tırmalama Direği", zorluk: "Kolay", sure: "2 saat",
+    id: "kedi-tirmalama",
+    kategoriId: "kus-evi",
+    ikon: "cat",
+    ad: "Sisal İpli Kedi Tırmalama Direği",
+    zorluk: "Kolay",
+    sure: "2 saat",
     ozet: "Mobilyaları korumak için sağlam tabanlı tırmalama direği.",
     malzemeler: [
       m("kd1", "Kontrplak taban 40×40 cm, 18 mm", "1 adet"),
@@ -370,8 +480,12 @@ void loop() {
 
   // ───────────────────────── BAHÇE & SAKSI ─────────────────────────
   {
-    id: "kratky-marul", kategoriId: "bahce", ikon: "sprout",
-    ad: "Topraksız Marul (Kratky Hidroponik)", zorluk: "Kolay", sure: "1 saat + 5 hafta büyüme",
+    id: "kratky-marul",
+    kategoriId: "bahce",
+    ikon: "sprout",
+    ad: "Topraksız Marul (Kratky Hidroponik)",
+    zorluk: "Kolay",
+    sure: "1 saat + 5 hafta büyüme",
     ozet: "Pompasız, elektriksiz su kültürüyle mutfakta marul yetiştirme.",
     malzemeler: [
       m("hk1", "Opak plastik kutu, kapaklı (10–15 L)", "1 adet"),
@@ -390,15 +504,16 @@ void loop() {
       a("Bekle", "Su seviyesi düştükçe kökler hava boşluğuna uzar; su ekleme, bitki kendi tüketir."),
       a("Hasat", "4–5 hafta sonra dış yapraklardan başlayarak hasat et."),
     ],
-    ipuclari: [
-      "Kutu ışık geçirmemeli; yoksa suda yosun büyür.",
-      "Pencere önü veya basit bir bitki LED'i yeterlidir.",
-    ],
+    ipuclari: ["Kutu ışık geçirmemeli; yoksa suda yosun büyür.", "Pencere önü veya basit bir bitki LED'i yeterlidir."],
     guvenlik: ["Besin solüsyonunu çocukların ve hayvanların ulaşamayacağı yerde sakla."],
   },
   {
-    id: "damla-sulama", kategoriId: "bahce", ikon: "water-pump",
-    ad: "Balkon Damla Sulama Sistemi", zorluk: "Orta", sure: "2 saat",
+    id: "damla-sulama",
+    kategoriId: "bahce",
+    ikon: "water-pump",
+    ad: "Balkon Damla Sulama Sistemi",
+    zorluk: "Orta",
+    sure: "2 saat",
     ozet: "Musluğa veya bidona bağlanan, saksıları tek tek sulayan sistem.",
     malzemeler: [
       m("ds1", "Damla sulama başlangıç seti (16 mm)", "1 set"),
@@ -413,7 +528,10 @@ void loop() {
       a("Zamanlayıcıyı tak", "Musluk → zamanlayıcı → ana hortum sırasıyla bağla."),
       a("Delikleri aç", "Her saksının hizasında ana hortumu zımbayla del, mikro hortum bağlantısını tak."),
       a("Damlatıcıları yerleştir", "Mikro hortumun ucuna damlatıcıyı takıp çubuğuyla saksı toprağına sabitle."),
-      a("Test ve ayar", "Suyu aç; büyük saksılarda damlatıcıyı açık, küçüklerde kısık ayarla. Zamanlayıcıyı sabah erken saate kur."),
+      a(
+        "Test ve ayar",
+        "Suyu aç; büyük saksılarda damlatıcıyı açık, küçüklerde kısık ayarla. Zamanlayıcıyı sabah erken saate kur.",
+      ),
     ],
     ipuclari: [
       "Yazın sabah 5–10 dakikalık bir sulama çoğu balkon bitkisi için yeterlidir.",
@@ -422,8 +540,12 @@ void loop() {
     guvenlik: ["Hortumları yürüme yolundan geçirme; takılıp düşme riski oluşur."],
   },
   {
-    id: "solucan-kompost", kategoriId: "bahce", ikon: "recycle",
-    ad: "Solucan Gübresi Kutusu (Vermikompost)", zorluk: "Kolay", sure: "1 saat + 2–3 ay",
+    id: "solucan-kompost",
+    kategoriId: "bahce",
+    ikon: "recycle",
+    ad: "Solucan Gübresi Kutusu (Vermikompost)",
+    zorluk: "Kolay",
+    sure: "1 saat + 2–3 ay",
     ozet: "Mutfak atıklarını kırmızı solucanlarla değerli gübreye çevirme.",
     malzemeler: [
       m("sk-a", "Kapaklı plastik kutu (40–60 L)", "2 adet"),
@@ -433,16 +555,28 @@ void loop() {
       m("sk-e", "Matkap + Ø6 mm uç", "1 adet", true),
     ],
     adimlar: [
-      a("Kutuyu del", "Bir kutunun tabanına sıvı akması için 15–20 delik, yan üst kısımlarına havalandırma delikleri aç. Delikli kutuyu deliksiz olanın içine oturt; alttaki sızıntı suyunu toplar."),
-      a("Yatağı hazırla", "Gazeteyi şeritler halinde yırt, hindistan cevizi lifiyle karıştır, sünger kıvamında nemlendir."),
+      a(
+        "Kutuyu del",
+        "Bir kutunun tabanına sıvı akması için 15–20 delik, yan üst kısımlarına havalandırma delikleri aç. Delikli kutuyu deliksiz olanın içine oturt; alttaki sızıntı suyunu toplar.",
+      ),
+      a(
+        "Yatağı hazırla",
+        "Gazeteyi şeritler halinde yırt, hindistan cevizi lifiyle karıştır, sünger kıvamında nemlendir.",
+      ),
       a("Solucanları ekle", "Solucanları yatağın üstüne bırak; kendileri içeri girer."),
       a("Besle", "Haftada 1–2 kez sebze-meyve kabukları, çay posası ve yumurta kabuğunu küçük parçalar halinde göm."),
-      a("Hasat", "2–3 ay sonra koyu, toprak kokulu gübreyi bir kenara toplayıp karşı tarafa taze yem koy; solucanlar oraya geçer."),
+      a(
+        "Hasat",
+        "2–3 ay sonra koyu, toprak kokulu gübreyi bir kenara toplayıp karşı tarafa taze yem koy; solucanlar oraya geçer.",
+      ),
     ],
     ipuclari: [
       "Et, süt ürünü, yağ, narenciye ve soğan ekleme; koku ve sorun yapar.",
       "Alttaki sızıntı suyunu 1/10 suyla seyreltip bitkilere verebilirsin.",
     ],
-    guvenlik: ["Gübreyle çalıştıktan sonra ellerini yıka.", "Kutuyu doğrudan güneşte ve donda bırakma; solucanlar ölür."],
+    guvenlik: [
+      "Gübreyle çalıştıktan sonra ellerini yıka.",
+      "Kutuyu doğrudan güneşte ve donda bırakma; solucanlar ölür.",
+    ],
   },
 ];

@@ -4,8 +4,7 @@ import { KATEGORI_CIZIM } from "./kategori";
 // Keçe kukla gövdesi (x merkez, üst y)
 const kukla = (x: number, ust: number) =>
   `M${x - 14} 140 L${x - 14} ${ust + 18} Q${x - 14} ${ust} ${x} ${ust} Q${x + 14} ${ust} ${x + 14} ${ust + 18} L${x + 14} 140`;
-const yuz = (x: number, y: number) =>
-  `M${x - 4} ${y + 8} Q${x} ${y + 12} ${x + 4} ${y + 8}`;
+const yuz = (x: number, y: number) => `M${x - 4} ${y + 8} Q${x} ${y + 12} ${x + 4} ${y + 8}`;
 
 // Üçlü iğne (x, y = gövdeye bağlandığı nokta)
 const ucluIgne = (x: number, y: number) =>
@@ -36,15 +35,29 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: kukla(115, 60) + " Z", w: 2, dolgu: true },
       // yüzler
       { d: yuz(45, 82) + " " + yuz(80, 72) + " " + yuz(115, 84), w: 1.2 },
-      { d: "M43 86 L47 86 M78 76 L82 76 M113 88 L117 88 M104 90 L96 88 M104 92 L96 94 M126 90 L134 88 M126 92 L134 94", w: 1 },
+      {
+        d: "M43 86 L47 86 M78 76 L82 76 M113 88 L117 88 M104 90 L96 88 M104 92 L96 94 M126 90 L134 88 M126 92 L134 94",
+        w: 1,
+      },
       // dikiş izleri
-      { d: "M34 120 L34 82 M56 120 L56 82 M69 120 L69 70 M91 120 L91 70 M104 120 L104 84 M126 120 L126 84", w: 0.9, kesik: true },
+      {
+        d: "M34 120 L34 82 M56 120 L56 82 M69 120 L69 70 M91 120 L91 70 M104 120 L104 84 M126 120 L126 84",
+        w: 0.9,
+        kesik: true,
+      },
       // iğne + iplik
       { d: "M132 34 L154 10", w: 1.6 },
       { d: daire(151, 13.5, 1.5), w: 0.8 },
       { d: "M151 13 Q160 34 146 44 Q130 52 140 30", w: 0.9 },
     ],
-    noktalar: [[41, 80, 1.8], [49, 80, 1.8], [76, 70, 1.8], [84, 70, 1.8], [111, 82, 1.8], [119, 82, 1.8]],
+    noktalar: [
+      [41, 80, 1.8],
+      [49, 80, 1.8],
+      [76, 70, 1.8],
+      [84, 70, 1.8],
+      [111, 82, 1.8],
+      [119, 82, 1.8],
+    ],
   },
 
   "bilye-parkuru": {
@@ -68,7 +81,10 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: "M106 132 L110 150 L132 150 L136 132", w: 1.8, dolgu: true },
       { d: daire(121, 132, 15, 3), w: 1.4 },
     ],
-    noktalar: [[40, 30, 1.2], [94, 77, 1.2]],
+    noktalar: [
+      [40, 30, 1.2],
+      [94, 77, 1.2],
+    ],
   },
 
   // ─── BALIKÇILIK ───
@@ -87,13 +103,15 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: "M24 138 Q34 130 44 138 Q34 146 24 138 Z M24 138 L17 133 L17 143 Z", w: 1.3, dolgu: true },
       { d: "M14 112 L40 112 M110 124 L150 124 M100 146 L130 146", w: 0.6 },
     ],
-    noktalar: [[80, 116, 3], [80, 124, 2.4], [40, 137, 1]],
+    noktalar: [
+      [80, 116, 3],
+      [80, 124, 2.4],
+      [40, 137, 1],
+    ],
   },
 
   "spin-kurulum": {
-    taramalar: [
-      { id: "p1", sinir: kutu(28, 72, 30, 30), kutu: [28, 72, 30, 30], aralik: 3, sonra: 3 },
-    ],
+    taramalar: [{ id: "p1", sinir: kutu(28, 72, 30, 30), kutu: [28, 72, 30, 30], aralik: 3, sonra: 3 }],
     cizgiler: [
       { d: "M6 42 L154 28", w: 3 },
       { d: "M64 38 L78 37 L74 62 L68 62 Z", w: 1.6, dolgu: true },
@@ -111,7 +129,13 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
 
   "ahsap-sahte-yem": {
     taramalar: [
-      { id: "y1", sinir: "M30 80 Q40 58 90 60 Q130 62 140 80 Q130 98 90 100 Q40 102 30 80 Z", kutu: [30, 58, 112, 16], aralik: 3.5, sonra: 1 },
+      {
+        id: "y1",
+        sinir: "M30 80 Q40 58 90 60 Q130 62 140 80 Q130 98 90 100 Q40 102 30 80 Z",
+        kutu: [30, 58, 112, 16],
+        aralik: 3.5,
+        sonra: 1,
+      },
     ],
     cizgiler: [
       { d: "M32 84 L8 102 L14 108 L36 90", w: 1.6, dolgu: true },
@@ -133,26 +157,50 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
 
   "sunger-filtre": {
     taramalar: [
-      { id: "f1", sinir: "M52 82 L108 82 Q112 82 112 86 L112 142 Q112 146 108 146 L52 146 Q48 146 48 142 L48 86 Q48 82 52 82 Z", kutu: [48, 82, 64, 64], aralik: 6 },
+      {
+        id: "f1",
+        sinir: "M52 82 L108 82 Q112 82 112 86 L112 142 Q112 146 108 146 L52 146 Q48 146 48 142 L48 86 Q48 82 52 82 Z",
+        kutu: [48, 82, 64, 64],
+        aralik: 6,
+      },
     ],
     cizgiler: [
       { d: dalga(6, 40, 13), w: 1 },
       { d: "M6 150 Q80 146 154 150", w: 1.2 },
-      { d: "M52 82 L108 82 Q112 82 112 86 L112 142 Q112 146 108 146 L52 146 Q48 146 48 142 L48 86 Q48 82 52 82 Z", w: 2 },
+      {
+        d: "M52 82 L108 82 Q112 82 112 86 L112 142 Q112 146 108 146 L52 146 Q48 146 48 142 L48 86 Q48 82 52 82 Z",
+        w: 2,
+      },
       { d: kutu(72, 26, 16, 56), w: 1.8, dolgu: true },
       { d: kutu(70, 22, 20, 6), w: 1.4, dolgu: true },
       { d: "M80 22 Q80 6 46 8 Q20 10 14 32", w: 1.3 },
       { d: daire(80, 66, 3) + daire(78, 54, 2.4) + daire(81, 44, 2) + daire(84, 16, 2) + daire(88, 8, 1.5), w: 1 },
-      { d: daire(60, 96, 3, 2) + daire(96, 102, 3, 2) + daire(66, 124, 2.5, 2) + daire(100, 132, 3, 2) + daire(82, 116, 2, 1.5), w: 0.9 },
+      {
+        d:
+          daire(60, 96, 3, 2) +
+          daire(96, 102, 3, 2) +
+          daire(66, 124, 2.5, 2) +
+          daire(100, 132, 3, 2) +
+          daire(82, 116, 2, 1.5),
+        w: 0.9,
+      },
     ],
   },
 
   "diy-co2": {
     taramalar: [
-      { id: "c1", sinir: "M40 60 Q40 50 48 46 L48 34 L60 34 L60 46 Q68 50 68 60 L68 140 Q68 146 62 146 L46 146 Q40 146 40 140 Z", kutu: [40, 92, 28, 56], aralik: 3.5 },
+      {
+        id: "c1",
+        sinir: "M40 60 Q40 50 48 46 L48 34 L60 34 L60 46 Q68 50 68 60 L68 140 Q68 146 62 146 L46 146 Q40 146 40 140 Z",
+        kutu: [40, 92, 28, 56],
+        aralik: 3.5,
+      },
     ],
     cizgiler: [
-      { d: "M40 60 Q40 50 48 46 L48 34 L60 34 L60 46 Q68 50 68 60 L68 140 Q68 146 62 146 L46 146 Q40 146 40 140 Z", w: 2 },
+      {
+        d: "M40 60 Q40 50 48 46 L48 34 L60 34 L60 46 Q68 50 68 60 L68 140 Q68 146 62 146 L46 146 Q40 146 40 140 Z",
+        w: 2,
+      },
       { d: kutu(46, 26, 16, 8), w: 1.6, dolgu: true },
       { d: "M40 92 q7 -3 14 0 t14 0", w: 1.2 },
       { d: daire(48, 86, 2) + daire(58, 84, 1.5) + daire(62, 88, 1.8), w: 0.9 },
@@ -170,8 +218,21 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
   // ─── AHŞAP ───
   "kesme-tahtasi": {
     taramalar: [
-      { id: "t1", sinir: "M24 142 L24 149 Q26 158 36 156 L136 136 Q146 134 144 125 L144 118 Q146 128 136 130 L36 150 Q26 152 24 142 Z", kutu: [24, 118, 122, 40], aralik: 3 },
-      { id: "t2", sinir: "M106 88 L136 82 L138 90 L108 96 Z", kutu: [106, 82, 32, 14], aralik: 2.5, ters: true, sonra: 5 },
+      {
+        id: "t1",
+        sinir:
+          "M24 142 L24 149 Q26 158 36 156 L136 136 Q146 134 144 125 L144 118 Q146 128 136 130 L36 150 Q26 152 24 142 Z",
+        kutu: [24, 118, 122, 40],
+        aralik: 3,
+      },
+      {
+        id: "t2",
+        sinir: "M106 88 L136 82 L138 90 L108 96 Z",
+        kutu: [106, 82, 32, 14],
+        aralik: 2.5,
+        ters: true,
+        sonra: 5,
+      },
     ],
     cizgiler: [
       { d: "M20 70 L120 50 Q130 48 132 58 L144 118 Q146 128 136 130 L36 150 Q26 152 24 142 Z", w: 2, dolgu: true },
@@ -183,7 +244,12 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: daire(62, 132, 9) + daire(80, 136, 9), w: 1.4, dolgu: true },
       { d: daire(62, 132, 5) + daire(80, 136, 5), w: 0.8 },
     ],
-    noktalar: [[60, 131, 0.9], [64, 133, 0.9], [78, 135, 0.9], [82, 137, 0.9]],
+    noktalar: [
+      [60, 131, 0.9],
+      [64, 133, 0.9],
+      [78, 135, 0.9],
+      [82, 137, 0.9],
+    ],
   },
 
   "yuzer-raf": {
@@ -224,7 +290,12 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: "M30 100 L100 120 M100 120 L140 100", w: 1.1 },
       { d: "M40 92 Q66 96 90 104 M40 110 Q64 116 92 124", w: 0.7 },
     ],
-    noktalar: [[34, 86, 1.4], [34, 114, 1.4], [96, 106, 1.4], [96, 134, 1.4]],
+    noktalar: [
+      [34, 86, 1.4],
+      [34, 114, 1.4],
+      [96, 106, 1.4],
+      [96, 134, 1.4],
+    ],
   },
 
   // ─── ELEKTRONİK ───
@@ -234,7 +305,11 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { id: "l3", sinir: daire(80, 102, 12), kutu: [68, 90, 24, 24], aralik: 3, sonra: 4 },
     ],
     cizgiler: [
-      { d: "M64 14 L96 14 Q102 14 102 20 L102 118 Q102 124 96 124 L64 124 Q58 124 58 118 L58 20 Q58 14 64 14 Z", w: 2, dolgu: true },
+      {
+        d: "M64 14 L96 14 Q102 14 102 20 L102 118 Q102 124 96 124 L64 124 Q58 124 58 118 L58 20 Q58 14 64 14 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: "M64 30 Q80 18 96 30 M64 63 Q80 51 96 63 M64 96 Q80 84 96 96", w: 1.3 },
       { d: daire(80, 36, 12), w: 1.6, dolgu: true },
       { d: daire(80, 69, 12), w: 1.6, dolgu: true },
@@ -255,7 +330,11 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
       { d: kutu(36, 84, 88, 10), w: 1.8, dolgu: true },
       { d: "M44 96 q6 -3 12 0 t12 0 t12 0 t12 0 t12 0 t12 0", w: 0.9 },
       { d: "M66 92 Q60 64 70 40 M66 92 Q74 70 72 56", w: 1.6 },
-      { d: "M70 40 Q54 34 50 46 Q62 52 70 40 Z M68 60 Q82 52 88 62 Q76 70 68 60 Z M64 72 Q48 66 46 78 Q58 82 64 72 Z", w: 1.3, dolgu: true },
+      {
+        d: "M70 40 Q54 34 50 46 Q62 52 70 40 Z M68 60 Q82 52 88 62 Q76 70 68 60 Z M64 72 Q48 66 46 78 Q58 82 64 72 Z",
+        w: 1.3,
+        dolgu: true,
+      },
       { d: kutu(94, 40, 20, 18), w: 1.6, dolgu: true },
       { d: "M98 58 L110 58 L110 108 L104 116 L98 108 Z", w: 1.6, dolgu: true },
       { d: "M101 64 L101 104 M107 64 L107 104", w: 0.8 },
@@ -266,7 +345,13 @@ export const PROJE_CIZIM: Record<string, Cizim> = {
 
   "akvaryum-termometre": {
     taramalar: [
-      { id: "m1", sinir: "M114 112 L122 112 L122 136 Q118 142 114 136 Z", kutu: [112, 112, 12, 30], aralik: 2.5, sonra: 9 },
+      {
+        id: "m1",
+        sinir: "M114 112 L122 112 L122 136 Q118 142 114 136 Z",
+        kutu: [112, 112, 12, 30],
+        aralik: 2.5,
+        sonra: 9,
+      },
     ],
     cizgiler: [
       { d: kutu(14, 20, 90, 44), w: 2, dolgu: true },

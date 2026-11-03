@@ -1,4 +1,4 @@
-import { Cizim, daire, dalga, kutu, zikzak } from "./arac";
+import { Cizim, daire, kutu } from "./arac";
 
 // Çember üzerinde eşit aralıklı noktalar (boncuk dizisi, mandala halkası)
 const halka = (cx: number, cy: number, r: number, adet: number, br: number, ry = r) =>
@@ -11,9 +11,7 @@ const halka = (cx: number, cy: number, r: number, adet: number, br: number, ry =
 export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
   // ─── MUM & SABUN ───
   "soya-mum": {
-    taramalar: [
-      { id: "k", sinir: kutu(96, 128, 52, 10), kutu: [96, 128, 52, 10], aralik: 3, sonra: 6 },
-    ],
+    taramalar: [{ id: "k", sinir: kutu(96, 128, 52, 10), kutu: [96, 128, 52, 10], aralik: 3, sonra: 6 }],
     cizgiler: [
       { d: "M30 70 L90 70 L90 140 Q90 148 82 148 L38 148 Q30 148 30 140 Z", w: 2, dolgu: true },
       { d: daire(60, 70, 30, 6), w: 1.6, dolgu: true },
@@ -38,7 +36,12 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
       { d: daire(132, 40, 6) + daire(144, 26, 4) + daire(122, 22, 3) + daire(136, 60, 2.5), w: 1.1 },
       { d: "M70 90 L78 88 M86 118 L94 116", w: 0.8 },
     ],
-    noktalar: [[66, 59, 1.4], [72, 57, 1.2], [62, 113, 1.4], [68, 111, 1.2]],
+    noktalar: [
+      [66, 59, 1.4],
+      [72, 57, 1.2],
+      [62, 113, 1.4],
+      [68, 111, 1.2],
+    ],
   },
 
   "soguk-sabun": {
@@ -63,9 +66,15 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
   "epoksi-altlik": {
     cizgiler: [
       { d: daire(56, 62, 38), w: 2, dolgu: true },
-      { d: "M22 66 q8 -6 16 0 t16 0 t16 0 t16 0 M26 78 q6 -4 12 0 t12 0 t12 0 t12 0 t10 0 M34 50 q6 -4 12 0 t12 0 t12 0", w: 1 },
+      {
+        d: "M22 66 q8 -6 16 0 t16 0 t16 0 t16 0 M26 78 q6 -4 12 0 t12 0 t12 0 t12 0 t10 0 M34 50 q6 -4 12 0 t12 0 t12 0",
+        w: 1,
+      },
       { d: daire(104, 104, 38), w: 2, dolgu: true },
-      { d: "M70 108 q8 -6 16 0 t16 0 t16 0 t16 0 M74 120 q6 -4 12 0 t12 0 t12 0 t12 0 M80 92 q6 -4 12 0 t12 0 t12 0 t8 0", w: 1 },
+      {
+        d: "M70 108 q8 -6 16 0 t16 0 t16 0 t16 0 M74 120 q6 -4 12 0 t12 0 t12 0 t12 0 M80 92 q6 -4 12 0 t12 0 t12 0 t8 0",
+        w: 1,
+      },
       { d: daire(104, 104, 32), w: 0.8 },
       { d: "M120 82 Q130 92 132 104", w: 0.9 },
     ],
@@ -73,7 +82,12 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
 
   "nehir-tahta": {
     taramalar: [
-      { id: "n", sinir: "M60 20 Q72 40 64 60 Q56 82 70 104 Q80 124 72 140 L96 140 Q104 120 94 100 Q84 80 92 58 Q100 36 88 20 Z", kutu: [56, 20, 48, 120], aralik: 3.5 },
+      {
+        id: "n",
+        sinir: "M60 20 Q72 40 64 60 Q56 82 70 104 Q80 124 72 140 L96 140 Q104 120 94 100 Q84 80 92 58 Q100 36 88 20 Z",
+        kutu: [56, 20, 48, 120],
+        aralik: 3.5,
+      },
     ],
     cizgiler: [
       { d: "M24 20 L136 20 L136 140 L24 140 Z", w: 2 },
@@ -100,9 +114,7 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
 
   // ─── MAKROME ───
   "makrome-aski": {
-    taramalar: [
-      { id: "s", sinir: "M56 104 L104 104 L98 140 L62 140 Z", kutu: [56, 104, 48, 36], aralik: 4 },
-    ],
+    taramalar: [{ id: "s", sinir: "M56 104 L104 104 L98 140 L62 140 Z", kutu: [56, 104, 48, 36], aralik: 4 }],
     cizgiler: [
       { d: daire(80, 12, 6), w: 1.6 },
       { d: kutu(76, 18, 8, 10), w: 1.4, dolgu: true },
@@ -123,18 +135,32 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
     cizgiler: [
       { d: "M20 24 L140 24", w: 4 },
       { d: "M20 24 Q80 4 140 24", w: 1 },
-      { d: "M34 24 L34 60 M46 24 L46 70 M58 24 L58 80 M70 24 L70 88 M80 24 L80 92 M90 24 L90 88 M102 24 L102 80 M114 24 L114 70 M126 24 L126 60", w: 1.2 },
+      {
+        d: "M34 24 L34 60 M46 24 L46 70 M58 24 L58 80 M70 24 L70 88 M80 24 L80 92 M90 24 L90 88 M102 24 L102 80 M114 24 L114 70 M126 24 L126 60",
+        w: 1.2,
+      },
       { d: "M32 40 L128 40", w: 2 },
-      { d: daire(52, 54, 4) + daire(80, 54, 4) + daire(108, 54, 4) + daire(66, 68, 4) + daire(94, 68, 4) + daire(80, 82, 4), w: 1.3, dolgu: true },
-      { d: "M34 60 L34 104 M46 70 L46 118 M58 80 L58 130 M70 88 L70 140 M80 92 L80 146 M90 88 L90 140 M102 80 L102 130 M114 70 L114 118 M126 60 L126 104", w: 0.8 },
+      {
+        d:
+          daire(52, 54, 4) +
+          daire(80, 54, 4) +
+          daire(108, 54, 4) +
+          daire(66, 68, 4) +
+          daire(94, 68, 4) +
+          daire(80, 82, 4),
+        w: 1.3,
+        dolgu: true,
+      },
+      {
+        d: "M34 60 L34 104 M46 70 L46 118 M58 80 L58 130 M70 88 L70 140 M80 92 L80 146 M90 88 L90 140 M102 80 L102 130 M114 70 L114 118 M126 60 L126 104",
+        w: 0.8,
+      },
       { d: "M34 104 L80 146 L126 104", w: 1, kesik: true },
     ],
   },
 
   amigurumi: {
-    taramalar: [
-      { id: "b", sinir: daire(66, 112, 30), kutu: [36, 82, 60, 60], aralik: 5 },
-    ],
+    taramalar: [{ id: "b", sinir: daire(66, 112, 30), kutu: [36, 82, 60, 60], aralik: 5 }],
     cizgiler: [
       { d: daire(66, 112, 30), w: 2, dolgu: true },
       { d: daire(48, 34, 9) + daire(84, 34, 9), w: 1.8, dolgu: true },
@@ -148,7 +174,10 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
       { d: "M150 60 Q154 50 148 52", w: 1.6 },
       { d: "M118 138 L126 132 L132 118 L124 122 Z", w: 1.2, dolgu: true },
     ],
-    noktalar: [[56, 54, 2.4], [76, 54, 2.4]],
+    noktalar: [
+      [56, 54, 2.4],
+      [76, 54, 2.4],
+    ],
   },
 
   // ─── KİL ───
@@ -174,9 +203,7 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
   },
 
   "taki-tabagi": {
-    taramalar: [
-      { id: "t", sinir: "M18 86 Q20 128 80 130 Q140 128 142 86 Z", kutu: [18, 100, 124, 30], aralik: 4 },
-    ],
+    taramalar: [{ id: "t", sinir: "M18 86 Q20 128 80 130 Q140 128 142 86 Z", kutu: [18, 100, 124, 30], aralik: 4 }],
     cizgiler: [
       { d: "M18 86 Q20 128 80 130 Q140 128 142 86", w: 2, dolgu: true },
       { d: daire(80, 86, 62, 16), w: 2, dolgu: true },
@@ -186,13 +213,15 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
       { d: daire(108, 80, 2.5), w: 1.2, dolgu: true },
       { d: "M40 40 Q60 30 70 46 Q60 56 46 52", w: 0.8, kesik: true },
     ],
-    noktalar: [[88, 92, 1.4], [94, 94, 1.4], [100, 94, 1.4]],
+    noktalar: [
+      [88, 92, 1.4],
+      [94, 94, 1.4],
+      [100, 94, 1.4],
+    ],
   },
 
   "kil-miknatis": {
-    taramalar: [
-      { id: "p", sinir: "M84 40 L146 52 L104 132 Z", kutu: [84, 40, 62, 92], aralik: 4, sonra: 5 },
-    ],
+    taramalar: [{ id: "p", sinir: "M84 40 L146 52 L104 132 Z", kutu: [84, 40, 62, 92], aralik: 4, sonra: 5 }],
     cizgiler: [
       { d: "M10 100 Q18 60 58 60 Q78 62 80 80 Q64 74 52 84 Q44 96 52 112 Q26 118 10 100 Z", w: 1.8, dolgu: true },
       { d: "M26 70 Q34 88 28 108 M42 62 Q48 78 42 96 M58 62 Q60 70 56 78", w: 1.2 },
@@ -206,9 +235,7 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
 
   // ─── DERİ ───
   "deri-kartlik": {
-    taramalar: [
-      { id: "c", sinir: "M30 76 L130 76 L130 130 L30 130 Z", kutu: [30, 76, 100, 54], aralik: 4, sonra: 2 },
-    ],
+    taramalar: [{ id: "c", sinir: "M30 76 L130 76 L130 130 L30 130 Z", kutu: [30, 76, 100, 54], aralik: 4, sonra: 2 }],
     cizgiler: [
       { d: "M30 50 L130 50 L130 130 L30 130 Z", w: 2, dolgu: true },
       { d: kutu(40, 26, 80, 48), w: 1.6, dolgu: true },
@@ -240,7 +267,13 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
 
   "deri-kemer": {
     taramalar: [
-      { id: "b", sinir: "M20 90 Q20 40 80 40 Q140 40 140 90 Q140 140 80 140 Q20 140 20 90 Z M44 90 Q44 64 80 64 Q116 64 116 90 Q116 116 80 116 Q44 116 44 90 Z", kutu: [20, 40, 120, 100], aralik: 5 },
+      {
+        id: "b",
+        sinir:
+          "M20 90 Q20 40 80 40 Q140 40 140 90 Q140 140 80 140 Q20 140 20 90 Z M44 90 Q44 64 80 64 Q116 64 116 90 Q116 116 80 116 Q44 116 44 90 Z",
+        kutu: [20, 40, 120, 100],
+        aralik: 5,
+      },
     ],
     cizgiler: [
       { d: "M20 90 Q20 40 80 40 Q140 40 140 90 Q140 140 80 140 Q20 140 20 90", w: 2 },
@@ -278,7 +311,13 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
 
   "boncuk-kupe": {
     taramalar: [
-      { id: "a", sinir: "M50 86 Q68 110 68 124 Q68 144 50 144 Q32 144 32 124 Q32 110 50 86 Z", kutu: [32, 86, 36, 58], aralik: 3, sonra: 3 },
+      {
+        id: "a",
+        sinir: "M50 86 Q68 110 68 124 Q68 144 50 144 Q32 144 32 124 Q32 110 50 86 Z",
+        kutu: [32, 86, 36, 58],
+        aralik: 3,
+        sonra: 3,
+      },
     ],
     cizgiler: [
       { d: "M50 14 Q36 14 38 30 L50 42", w: 1.4 },
@@ -312,13 +351,15 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
   },
 
   "tas-boyama": {
-    taramalar: [
-      { id: "t", sinir: daire(70, 84, 52, 42), kutu: [18, 42, 104, 84], aralik: 6 },
-    ],
+    taramalar: [{ id: "t", sinir: daire(70, 84, 52, 42), kutu: [18, 42, 104, 84], aralik: 6 }],
     cizgiler: [
       { d: daire(70, 84, 52, 42), w: 2.2, dolgu: true },
       { d: daire(70, 84, 8), w: 1.4, dolgu: true },
-      { d: halka(70, 84, 16, 10, 3) + halka(70, 84, 26, 16, 3.5) + halka(70, 84, 36, 20, 2.5, 30), w: 1.2, dolgu: true },
+      {
+        d: halka(70, 84, 16, 10, 3) + halka(70, 84, 26, 16, 3.5) + halka(70, 84, 36, 20, 2.5, 30),
+        w: 1.2,
+        dolgu: true,
+      },
       { d: daire(128, 128, 24, 18), w: 2, dolgu: true },
       { d: halka(128, 128, 10, 8, 2.4) + daire(128, 128, 4), w: 1.1, dolgu: true },
       { d: "M120 20 L150 50", w: 2.4 },
@@ -329,8 +370,20 @@ export const PROJE_EL_SANATLARI: Record<string, Cizim> = {
   "akiskan-resim": {
     cizgiler: [
       { d: kutu(24, 40, 100, 80), w: 2, dolgu: true },
-      { d: "M24 70 Q50 50 70 74 Q90 98 124 76 M24 96 Q46 84 62 100 Q80 116 106 104 Q116 100 124 108 M50 40 Q60 58 84 52 Q104 46 112 40", w: 1.4 },
-      { d: daire(46, 78, 5) + daire(58, 86, 3) + daire(88, 82, 6) + daire(100, 90, 3.5) + daire(78, 58, 4) + daire(40, 104, 3.5), w: 1 },
+      {
+        d: "M24 70 Q50 50 70 74 Q90 98 124 76 M24 96 Q46 84 62 100 Q80 116 106 104 Q116 100 124 108 M50 40 Q60 58 84 52 Q104 46 112 40",
+        w: 1.4,
+      },
+      {
+        d:
+          daire(46, 78, 5) +
+          daire(58, 86, 3) +
+          daire(88, 82, 6) +
+          daire(100, 90, 3.5) +
+          daire(78, 58, 4) +
+          daire(40, 104, 3.5),
+        w: 1,
+      },
       { d: "M30 120 L34 136 L46 136 L50 120 M98 120 L102 136 L114 136 L118 120", w: 1.4 },
       { d: "M120 20 L150 12 L156 40 L130 46 Z", w: 1.8, dolgu: true },
       { d: "M128 44 Q124 56 116 62", w: 1.6 },

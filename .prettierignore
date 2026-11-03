@@ -1,0 +1,6 @@
+node_modules
+dist
+.expo
+fiyat-toplayici/node_modules
+fiyat-toplayici/cikti
+package-lock.json

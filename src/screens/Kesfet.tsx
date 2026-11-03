@@ -19,15 +19,20 @@ export default function Kesfet() {
     const t = normal(q.trim());
     if (!t) return [];
     return PROJELER.filter((p) =>
-      [p.ad, p.ozet, KATEGORILER.find((k) => k.id === p.kategoriId)!.ad, ...p.malzemeler.map((m) => m.ad)]
-        .some((s) => normal(s).includes(t)));
+      [p.ad, p.ozet, KATEGORILER.find((k) => k.id === p.kategoriId)!.ad, ...p.malzemeler.map((m) => m.ad)].some((s) =>
+        normal(s).includes(t),
+      ),
+    );
   }, [q]);
 
   const onecikan = PROJELER.filter((p) => p.zorluk === "Kolay").slice(0, 5);
   const yeni = [...PROJELER].reverse().slice(0, 6);
 
   return (
-    <ScrollView style={{ backgroundColor: renk.arkaPlan }} contentContainerStyle={{ paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}>
+    <ScrollView
+      style={{ backgroundColor: renk.arkaPlan }}
+      contentContainerStyle={{ paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
+    >
       <View style={s.yatayPad}>
         <Text style={s.selam}>Bugün ne yapıyoruz?</Text>
         <Text style={yazi.dev}>Evde Hobi</Text>
@@ -39,32 +44,51 @@ export default function Kesfet() {
         <View style={[s.yatayPad, { gap: bosluk.m, marginTop: bosluk.l }]}>
           <Text style={yazi.kucuk}>{sonuc.length} sonuç</Text>
           {sonuc.length === 0 && <Bos ikon="magnify-close" baslik="Sonuç yok" metin="Farklı bir kelime dene." />}
-          {sonuc.map((p) => <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />)}
+          {sonuc.map((p) => (
+            <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
+          ))}
         </View>
       ) : (
         <>
-          <View style={s.yatayPad}><Bolum baslik="Kategoriler" /></View>
+          <View style={s.yatayPad}>
+            <Bolum baslik="Kategoriler" />
+          </View>
           <FlatList
-            horizontal showsHorizontalScrollIndicator={false}
-            data={KATEGORILER} keyExtractor={(k) => k.id}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={KATEGORILER}
+            keyExtractor={(k) => k.id}
             contentContainerStyle={{ paddingHorizontal: bosluk.l, gap: bosluk.m }}
             renderItem={({ item }) => (
-              <KategoriKart k={item} sayi={kategoriProjeleri(item.id).length}
-                onPress={() => nav.navigate("Kategori", { id: item.id })} />
+              <KategoriKart
+                k={item}
+                sayi={kategoriProjeleri(item.id).length}
+                onPress={() => nav.navigate("Kategori", { id: item.id })}
+              />
             )}
           />
 
-          <View style={s.yatayPad}><Bolum baslik="Yeni başlayanlar için" /></View>
+          <View style={s.yatayPad}>
+            <Bolum baslik="Yeni başlayanlar için" />
+          </View>
           <FlatList
-            horizontal showsHorizontalScrollIndicator={false}
-            data={onecikan} keyExtractor={(p) => p.id}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={onecikan}
+            keyExtractor={(p) => p.id}
             contentContainerStyle={{ paddingHorizontal: bosluk.l, gap: bosluk.m, paddingBottom: 6 }}
-            renderItem={({ item }) => <ProjeKart yatay p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />}
+            renderItem={({ item }) => (
+              <ProjeKart yatay p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />
+            )}
           />
 
-          <View style={s.yatayPad}><Bolum baslik="Son eklenenler" /></View>
+          <View style={s.yatayPad}>
+            <Bolum baslik="Son eklenenler" />
+          </View>
           <View style={[s.yatayPad, { gap: bosluk.m }]}>
-            {yeni.map((p) => <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />)}
+            {yeni.map((p) => (
+              <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
+            ))}
           </View>
         </>
       )}

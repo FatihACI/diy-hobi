@@ -40,11 +40,15 @@ function Sekmeler() {
         tabBarIcon: ({ focused, color }) => (
           <Ikon name={IKONLAR[route.name][focused ? 0 : 1]} size={24} color={color} />
         ),
-      })}>
+      })}
+    >
       <Tab.Screen name="Keşfet" component={Kesfet} />
       <Tab.Screen name="Kategoriler" component={Kategoriler} />
-      <Tab.Screen name="Liste" component={Liste}
-        options={{ tabBarBadge: bekleyen || undefined, tabBarBadgeStyle: { backgroundColor: renk.ana } }} />
+      <Tab.Screen
+        name="Liste"
+        component={Liste}
+        options={{ tabBarBadge: bekleyen || undefined, tabBarBadgeStyle: { backgroundColor: renk.ana } }}
+      />
       <Tab.Screen name="Favoriler" component={Favoriler} />
     </Tab.Navigator>
   );
@@ -57,14 +61,14 @@ export default function App() {
     <SafeAreaProvider>
       <StoreProvider>
         <FiyatProvider>
-        <NavigationContainer theme={tema}>
-          <StatusBar style="dark" />
-          <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
-            <Stack.Screen name="Sekmeler" component={Sekmeler} />
-            <Stack.Screen name="Kategori" component={KategoriDetay} />
-            <Stack.Screen name="Proje" component={ProjeDetay} />
-          </Stack.Navigator>
-        </NavigationContainer>
+          <NavigationContainer theme={tema}>
+            <StatusBar style="dark" />
+            <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
+              <Stack.Screen name="Sekmeler" component={Sekmeler} />
+              <Stack.Screen name="Kategori" component={KategoriDetay} />
+              <Stack.Screen name="Proje" component={ProjeDetay} />
+            </Stack.Navigator>
+          </NavigationContainer>
         </FiyatProvider>
       </StoreProvider>
     </SafeAreaProvider>

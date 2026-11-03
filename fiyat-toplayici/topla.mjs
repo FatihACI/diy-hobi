@@ -10,7 +10,8 @@ import * as xmlFeed from "./kaynaklar/xml-feed.mjs";
 const KOK = new URL("./", import.meta.url);
 const KAYNAKLAR = [manuel, xmlFeed, amazon];
 const log = (s) => console.log(s);
-const okuJson = (kok, yol, varsayilan) => (existsSync(new URL(yol, kok)) ? JSON.parse(readFileSync(new URL(yol, kok), "utf8")) : varsayilan);
+const okuJson = (kok, yol, varsayilan) =>
+  existsSync(new URL(yol, kok)) ? JSON.parse(readFileSync(new URL(yol, kok), "utf8")) : varsayilan;
 
 export async function calistir({ kaynaklar = KAYNAKLAR, bugun = new Date().toISOString(), kok = KOK } = {}) {
   const oku = (yol, v) => okuJson(kok, yol, v);
@@ -58,5 +59,8 @@ export async function calistir({ kaynaklar = KAYNAKLAR, bugun = new Date().toISO
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  calistir().catch((e) => { console.error(e.message); process.exit(1); });
+  calistir().catch((e) => {
+    console.error(e.message);
+    process.exit(1);
+  });
 }

@@ -1,12 +1,10 @@
-import { Cizim, daire, dalga, kutu, zikzak } from "./arac";
+import { Cizim, daire, kutu } from "./arac";
 
 // 15 yeni kategori çizimi (viewBox 0 0 160 160)
 export const KATEGORI_EK: Record<string, Cizim> = {
   // Standında uçak maketi
   maket: {
-    taramalar: [
-      { id: "w", sinir: "M70 74 L104 74 L92 112 L78 112 Z", kutu: [70, 74, 34, 38], aralik: 3, sonra: 1 },
-    ],
+    taramalar: [{ id: "w", sinir: "M70 74 L104 74 L92 112 L78 112 Z", kutu: [70, 74, 34, 38], aralik: 3, sonra: 1 }],
     cizgiler: [
       { d: "M24 72 Q30 62 60 62 L128 63 Q146 65 148 71 Q146 78 128 79 L60 80 Q30 81 24 72 Z", w: 2, dolgu: true },
       { d: "M70 74 L104 74 L92 112 L78 112 Z", w: 1.8, dolgu: true },
@@ -24,7 +22,13 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   // Dört pervaneli drone (üstten)
   rc: {
     taramalar: [
-      { id: "g", sinir: "M68 64 L92 64 Q96 64 96 68 L96 92 Q96 96 92 96 L68 96 Q64 96 64 92 L64 68 Q64 64 68 64 Z", kutu: [64, 64, 32, 32], aralik: 3, sonra: 5 },
+      {
+        id: "g",
+        sinir: "M68 64 L92 64 Q96 64 96 68 L96 92 Q96 96 92 96 L68 96 Q64 96 64 92 L64 68 Q64 64 68 64 Z",
+        kutu: [64, 64, 32, 32],
+        aralik: 3,
+        sonra: 5,
+      },
     ],
     cizgiler: [
       { d: daire(40, 40, 22) + daire(120, 40, 22) + daire(40, 120, 22) + daire(120, 120, 22), w: 1, kesik: true },
@@ -32,7 +36,11 @@ export const KATEGORI_EK: Record<string, Cizim> = {
       { d: "M80 80 L40 40 M80 80 L120 40 M80 80 L40 120 M80 80 L120 120", w: 1.2 },
       { d: daire(40, 40, 7) + daire(120, 40, 7) + daire(40, 120, 7) + daire(120, 120, 7), w: 1.8, dolgu: true },
       { d: "M24 34 L56 46 M104 46 L136 34 M24 126 L56 114 M104 114 L136 126", w: 1.6 },
-      { d: "M68 64 L92 64 Q96 64 96 68 L96 92 Q96 96 92 96 L68 96 Q64 96 64 92 L64 68 Q64 64 68 64 Z", w: 2, dolgu: true },
+      {
+        d: "M68 64 L92 64 Q96 64 96 68 L96 92 Q96 96 92 96 L68 96 Q64 96 64 92 L64 68 Q64 64 68 64 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: daire(80, 60, 4), w: 1.4, dolgu: true },
     ],
   },
@@ -41,10 +49,19 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   terraryum: {
     taramalar: [
       { id: "l", sinir: kutu(48, 30, 64, 10), kutu: [48, 30, 64, 10], aralik: 3, sonra: 1 },
-      { id: "d", sinir: "M38 132 L122 132 L122 138 Q122 146 114 146 L46 146 Q38 146 38 138 Z", kutu: [38, 132, 84, 14], aralik: 3 },
+      {
+        id: "d",
+        sinir: "M38 132 L122 132 L122 138 Q122 146 114 146 L46 146 Q38 146 38 138 Z",
+        kutu: [38, 132, 84, 14],
+        aralik: 3,
+      },
     ],
     cizgiler: [
-      { d: "M50 40 L110 40 L110 48 Q124 56 124 72 L124 136 Q124 146 114 146 L46 146 Q36 146 36 136 L36 72 Q36 56 50 48 Z", w: 2, dolgu: true },
+      {
+        d: "M50 40 L110 40 L110 48 Q124 56 124 72 L124 136 Q124 146 114 146 L46 146 Q36 146 36 136 L36 72 Q36 56 50 48 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: kutu(48, 30, 64, 10), w: 1.8, dolgu: true },
       { d: "M37 122 Q60 116 80 120 T123 118", w: 1.3 },
       { d: "M37 132 L123 132", w: 1 },
@@ -54,14 +71,17 @@ export const KATEGORI_EK: Record<string, Cizim> = {
       { d: "M84 112 L84 104 M78 104 Q84 96 90 104 Z", w: 1.2, dolgu: true },
       { d: "M116 60 L116 100", w: 0.8 },
     ],
-    noktalar: [[50, 126, 1.2], [66, 127, 1], [96, 126, 1.2], [108, 127, 1]],
+    noktalar: [
+      [50, 126, 1.2],
+      [66, 127, 1],
+      [96, 126, 1.2],
+      [108, 127, 1],
+    ],
   },
 
   // Kuş evi ve tepesinde kuş
   "kus-evi": {
-    taramalar: [
-      { id: "h", sinir: daire(80, 88, 9), kutu: [71, 79, 18, 18], aralik: 2.2, sonra: 2 },
-    ],
+    taramalar: [{ id: "h", sinir: daire(80, 88, 9), kutu: [71, 79, 18, 18], aralik: 2.2, sonra: 2 }],
     cizgiler: [
       { d: "M52 68 L80 46 L108 68 L108 130 L52 130 Z", w: 2, dolgu: true },
       { d: "M42 74 L80 40 L118 74", w: 3 },
@@ -82,7 +102,13 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   bahce: {
     taramalar: [
       { id: "s", sinir: "M48 98 L56 146 L104 146 L112 98 Z", kutu: [48, 124, 64, 22], aralik: 4 },
-      { id: "k", sinir: "M126 102 Q140 98 146 112 Q146 128 132 136 Q122 124 126 102 Z", kutu: [122, 98, 26, 40], aralik: 3, sonra: 8 },
+      {
+        id: "k",
+        sinir: "M126 102 Q140 98 146 112 Q146 128 132 136 Q122 124 126 102 Z",
+        kutu: [122, 98, 26, 40],
+        aralik: 3,
+        sonra: 8,
+      },
     ],
     cizgiler: [
       { d: "M48 98 L56 146 L104 146 L112 98 Z", w: 2, dolgu: true },
@@ -98,12 +124,23 @@ export const KATEGORI_EK: Record<string, Cizim> = {
     ],
   },
 
-
   // Kavanoz mum ve sabun
   "mum-sabun": {
     taramalar: [
-      { id: "m", sinir: "M34 90 L82 90 L82 140 Q82 146 76 146 L40 146 Q34 146 34 140 Z", kutu: [34, 112, 48, 34], aralik: 3.5 },
-      { id: "s", sinir: "M92 120 L138 112 L146 124 L100 132 Z", kutu: [92, 112, 54, 20], aralik: 3, ters: true, sonra: 6 },
+      {
+        id: "m",
+        sinir: "M34 90 L82 90 L82 140 Q82 146 76 146 L40 146 Q34 146 34 140 Z",
+        kutu: [34, 112, 48, 34],
+        aralik: 3.5,
+      },
+      {
+        id: "s",
+        sinir: "M92 120 L138 112 L146 124 L100 132 Z",
+        kutu: [92, 112, 54, 20],
+        aralik: 3,
+        ters: true,
+        sonra: 6,
+      },
     ],
     cizgiler: [
       { d: "M34 82 L82 82 L82 140 Q82 146 76 146 L40 146 Q34 146 34 140 Z", w: 2, dolgu: true },
@@ -121,9 +158,7 @@ export const KATEGORI_EK: Record<string, Cizim> = {
 
   // Bardaktan kalıba reçine dökümü
   epoksi: {
-    taramalar: [
-      { id: "b", sinir: "M70 28 L112 20 L118 54 L82 64 Z", kutu: [70, 20, 48, 44], aralik: 3, sonra: 0 },
-    ],
+    taramalar: [{ id: "b", sinir: "M70 28 L112 20 L118 54 L82 64 Z", kutu: [70, 20, 48, 44], aralik: 3, sonra: 0 }],
     cizgiler: [
       { d: "M70 28 L112 20 L118 54 L82 64 Z", w: 2, dolgu: true },
       { d: "M72 34 Q66 40 70 46", w: 1.4 },
@@ -140,12 +175,22 @@ export const KATEGORI_EK: Record<string, Cizim> = {
     cizgiler: [
       { d: "M14 30 L146 30", w: 4 },
       { d: daire(14, 30, 4) + daire(146, 30, 4), w: 1.4, dolgu: true },
-      { d: "M30 30 L30 70 M42 30 L42 80 M54 30 L54 90 M66 30 L66 100 M78 30 L78 104 M90 30 L90 100 M102 30 L102 90 M114 30 L114 80 M126 30 L126 70", w: 1.3 },
-      { d: daire(36, 46, 5) + daire(60, 46, 5) + daire(84, 46, 5) + daire(108, 46, 5) + daire(120, 46, 5), w: 1.4, dolgu: true },
+      {
+        d: "M30 30 L30 70 M42 30 L42 80 M54 30 L54 90 M66 30 L66 100 M78 30 L78 104 M90 30 L90 100 M102 30 L102 90 M114 30 L114 80 M126 30 L126 70",
+        w: 1.3,
+      },
+      {
+        d: daire(36, 46, 5) + daire(60, 46, 5) + daire(84, 46, 5) + daire(108, 46, 5) + daire(120, 46, 5),
+        w: 1.4,
+        dolgu: true,
+      },
       { d: daire(48, 66, 5) + daire(72, 66, 5) + daire(96, 66, 5) + daire(112, 64, 4), w: 1.4, dolgu: true },
       { d: daire(60, 86, 5) + daire(84, 86, 5), w: 1.4, dolgu: true },
       { d: daire(72, 104, 5), w: 1.4, dolgu: true },
-      { d: "M30 70 L30 108 M42 80 L42 120 M54 90 L54 132 M66 100 L66 144 M78 104 L78 150 M90 100 L90 144 M102 90 L102 132 M114 80 L114 120 M126 70 L126 108", w: 0.8 },
+      {
+        d: "M30 70 L30 108 M42 80 L42 120 M54 90 L54 132 M66 100 L66 144 M78 104 L78 150 M90 100 L90 144 M102 90 L102 132 M114 80 L114 120 M126 70 L126 108",
+        w: 0.8,
+      },
       { d: "M30 14 L80 4 L130 14", w: 1 },
     ],
   },
@@ -153,7 +198,12 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   // Desenli vazo ve merdane
   kil: {
     taramalar: [
-      { id: "v", sinir: "M60 30 L100 30 L96 44 Q126 64 120 104 Q114 140 80 144 Q46 140 40 104 Q34 64 64 44 Z", kutu: [34, 108, 92, 36], aralik: 3.5 },
+      {
+        id: "v",
+        sinir: "M60 30 L100 30 L96 44 Q126 64 120 104 Q114 140 80 144 Q46 140 40 104 Q34 64 64 44 Z",
+        kutu: [34, 108, 92, 36],
+        aralik: 3.5,
+      },
     ],
     cizgiler: [
       { d: "M60 30 L100 30 L96 44 Q126 64 120 104 Q114 140 80 144 Q46 140 40 104 Q34 64 64 44 Z", w: 2, dolgu: true },
@@ -169,10 +219,20 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   // Dikişli deri cüzdan ve iğne
   deri: {
     taramalar: [
-      { id: "c", sinir: "M30 50 L130 50 Q138 50 138 58 L138 74 L30 74 Z", kutu: [30, 50, 108, 24], aralik: 3.5, sonra: 1 },
+      {
+        id: "c",
+        sinir: "M30 50 L130 50 Q138 50 138 58 L138 74 L30 74 Z",
+        kutu: [30, 50, 108, 24],
+        aralik: 3.5,
+        sonra: 1,
+      },
     ],
     cizgiler: [
-      { d: "M30 50 L130 50 Q138 50 138 58 L138 122 Q138 130 130 130 L30 130 Q22 130 22 122 L22 58 Q22 50 30 50 Z", w: 2, dolgu: true },
+      {
+        d: "M30 50 L130 50 Q138 50 138 58 L138 122 Q138 130 130 130 L30 130 Q22 130 22 122 L22 58 Q22 50 30 50 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: "M30 50 L130 50 Q138 50 138 58 L138 74 L30 74 Z", w: 1.6, dolgu: true },
       { d: "M28 56 L28 124 L132 124 L132 56", w: 1, kesik: true },
       { d: "M80 80 L80 120", w: 0.8, kesik: true },
@@ -203,14 +263,28 @@ export const KATEGORI_EK: Record<string, Cizim> = {
   // Palet ve fırça
   pirografi: {
     cizgiler: [
-      { d: "M30 60 Q40 26 86 26 Q136 28 138 70 Q140 100 112 104 Q96 104 98 118 Q100 136 76 136 Q30 134 24 100 Q22 80 30 60 Z", w: 2, dolgu: true },
+      {
+        d: "M30 60 Q40 26 86 26 Q136 28 138 70 Q140 100 112 104 Q96 104 98 118 Q100 136 76 136 Q30 134 24 100 Q22 80 30 60 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: daire(56, 112, 9), w: 1.6 },
-      { d: daire(56, 56, 8) + daire(84, 46, 8) + daire(112, 56, 8) + daire(118, 82, 7) + daire(44, 84, 8), w: 1.4, dolgu: true },
+      {
+        d: daire(56, 56, 8) + daire(84, 46, 8) + daire(112, 56, 8) + daire(118, 82, 7) + daire(44, 84, 8),
+        w: 1.4,
+        dolgu: true,
+      },
       { d: "M100 150 L148 92", w: 3 },
       { d: "M144 96 L152 86 Q158 80 154 92 L148 100 Z", w: 1.4, dolgu: true },
       { d: "M108 140 L116 132", w: 1 },
     ],
-    noktalar: [[56, 56, 2], [112, 56, 2], [118, 82, 2], [84, 46, 2], [44, 84, 2]],
+    noktalar: [
+      [56, 56, 2],
+      [112, 56, 2],
+      [118, 82, 2],
+      [84, 46, 2],
+      [44, 84, 2],
+    ],
   },
 
   // 3D yazıcı: çerçeve, tabla, baskı, makara
@@ -249,9 +323,7 @@ export const KATEGORI_EK: Record<string, Cizim> = {
 
   // Alet çantası, çekiç ve anahtar
   "ev-tamir": {
-    taramalar: [
-      { id: "c", sinir: kutu(20, 86, 120, 54), kutu: [20, 86, 120, 54], aralik: 5, sonra: 4 },
-    ],
+    taramalar: [{ id: "c", sinir: kutu(20, 86, 120, 54), kutu: [20, 86, 120, 54], aralik: 5, sonra: 4 }],
     cizgiler: [
       { d: "M50 30 L58 30 L58 92 L50 92 Z", w: 1.8, dolgu: true },
       { d: "M34 20 L74 20 L74 32 L34 32 Z M74 22 L84 18 M74 30 L84 34", w: 1.8, dolgu: true },

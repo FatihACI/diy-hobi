@@ -1,6 +1,18 @@
 [
   { "id": "aa2", "ad": "Ahşap tekerlek Ø40 mm", "miktar": "4 adet", "projeId": "ahsap-araba", "kategoriId": "oyuncak" },
   { "id": "co5", "ad": "Hava hortumu", "miktar": "2 m", "projeId": "diy-co2", "kategoriId": "akvaryum" },
-  { "id": "tl3", "ad": "LED kırmızı/sarı/yeşil 5 mm", "miktar": "3 adet", "projeId": "trafik-lambasi", "kategoriId": "elektronik" },
-  { "id": "ns2", "ad": "Kapasitif toprak nem sensörü v1.2", "miktar": "1 adet", "projeId": "nem-sensoru", "kategoriId": "elektronik" }
+  {
+    "id": "tl3",
+    "ad": "LED kırmızı/sarı/yeşil 5 mm",
+    "miktar": "3 adet",
+    "projeId": "trafik-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ns2",
+    "ad": "Kapasitif toprak nem sensörü v1.2",
+    "miktar": "1 adet",
+    "projeId": "nem-sensoru",
+    "kategoriId": "elektronik"
+  }
 ]

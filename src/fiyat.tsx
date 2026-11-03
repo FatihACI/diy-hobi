@@ -10,11 +10,17 @@ import { Fiyat, Malzeme, Proje } from "./data/types";
 
 const ADRES = process.env.EXPO_PUBLIC_FIYAT_URL;
 const ONBELLEK = "evde-hobi-fiyatlar-v1";
-const TAZELIK_MS = 6 * 60 * 60 * 1000;   // 6 saatten eskiyse yeniden indir
+const TAZELIK_MS = 6 * 60 * 60 * 1000; // 6 saatten eskiyse yeniden indir
 const ESKI_MS = 7 * 24 * 60 * 60 * 1000; // 7 günden eski fiyatlarda uyarı göster
 
 type Dosya = { surum: number; guncelleme: string; fiyatlar: Record<string, Fiyat[]> };
-type Kayit = { dosya: Dosya; indirilme: number };
+type Kayit = { dosya: Dosya; indirilme: number; eski?: boolean };
+
+// Fiyat tarihi 7 günden eskiyse işaretle (saat okuması render dışında yapılır)
+const eskiIsaretle = (k: Kayit): Kayit => ({
+  ...k,
+  eski: Date.now() - new Date(k.dosya.guncelleme).getTime() > ESKI_MS,
+});
 export type FiyatDurum = "kapali" | "yukleniyor" | "hazir" | "hata";
 
 type Api = {
@@ -31,9 +37,20 @@ const Ctx = createContext<Api | null>(null);
 
 // Gelen dosyanın biçimini doğrula; bozuk veri uygulamayı bozmasın
 function gecerliMi(x: any): x is Dosya {
-  return x && typeof x.guncelleme === "string" && x.fiyatlar && typeof x.fiyatlar === "object" &&
-    Object.values(x.fiyatlar).every((l: any) => Array.isArray(l) &&
-      l.every((f: any) => typeof f.fiyat === "number" && f.fiyat > 0 && typeof f.url === "string" && /^https:\/\//.test(f.url)));
+  return (
+    x &&
+    typeof x.guncelleme === "string" &&
+    x.fiyatlar &&
+    typeof x.fiyatlar === "object" &&
+    Object.values(x.fiyatlar).every(
+      (l: any) =>
+        Array.isArray(l) &&
+        l.every(
+          (f: any) =>
+            typeof f.fiyat === "number" && f.fiyat > 0 && typeof f.url === "string" && /^https:\/\//.test(f.url),
+        ),
+    )
+  );
 }
 
 export function FiyatProvider({ children }: { children: ReactNode }) {
@@ -50,7 +67,7 @@ export function FiyatProvider({ children }: { children: ReactNode }) {
       const j = await r.json();
       if (!gecerliMi(j)) throw new Error("geçersiz fiyat dosyası");
       const yeni = { dosya: j, indirilme: Date.now() };
-      setKayit(yeni);
+      setKayit(eskiIsaretle(yeni));
       setDurum("hazir");
       AsyncStorage.setItem(ONBELLEK, JSON.stringify(yeni)).catch(() => {});
     } catch {
@@ -65,7 +82,13 @@ export function FiyatProvider({ children }: { children: ReactNode }) {
       let k: Kayit | null = null;
       try {
         const s = await AsyncStorage.getItem(ONBELLEK);
-        if (s) { k = JSON.parse(s); if (k && gecerliMi(k.dosya)) { setKayit(k); setDurum("hazir"); } else k = null; }
+        if (s) {
+          k = JSON.parse(s);
+          if (k && gecerliMi(k.dosya)) {
+            setKayit(eskiIsaretle(k));
+            setDurum("hazir");
+          } else k = null;
+        }
       } catch {}
       if (!k || Date.now() - k.indirilme > TAZELIK_MS) await indir();
     })();
@@ -78,12 +101,16 @@ export function FiyatProvider({ children }: { children: ReactNode }) {
   const api: Api = {
     durum,
     guncelleme,
-    eskiMi: !!guncelleme && Date.now() - new Date(guncelleme).getTime() > ESKI_MS,
+    eskiMi: !!kayit?.eski,
     teklifler,
     enUcuz,
     maliyet: (p) => {
       const fiyatli = p.malzemeler.filter((m) => enUcuz(m));
-      return { toplam: fiyatli.reduce((t, m) => t + enUcuz(m)!.fiyat, 0), fiyatliSayi: fiyatli.length, tumu: p.malzemeler.length };
+      return {
+        toplam: fiyatli.reduce((t, m) => t + enUcuz(m)!.fiyat, 0),
+        fiyatliSayi: fiyatli.length,
+        tumu: p.malzemeler.length,
+      };
     },
     yenile: indir,
   };

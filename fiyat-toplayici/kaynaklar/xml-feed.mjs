@@ -25,16 +25,18 @@ export function feedUrunleri(xml) {
   // RSS 2.0 (channel.item) veya Atom (feed.entry)
   let items = j?.rss?.channel?.item ?? j?.feed?.entry ?? [];
   if (!Array.isArray(items)) items = [items];
-  return items.map((it) => {
-    const indirimli = fiyatCoz(it.sale_price);
-    const normalFiyat = fiyatCoz(it.price);
-    return {
-      baslik: String(it.title ?? ""),
-      url: String(it.link ?? ""),
-      fiyat: indirimli > 0 ? indirimli : normalFiyat,
-      stokta: !it.availability || /in.?stock|stokta/i.test(String(it.availability)),
-    };
-  }).filter((u) => u.baslik && u.url && u.fiyat > 0);
+  return items
+    .map((it) => {
+      const indirimli = fiyatCoz(it.sale_price);
+      const normalFiyat = fiyatCoz(it.price);
+      return {
+        baslik: String(it.title ?? ""),
+        url: String(it.link ?? ""),
+        fiyat: indirimli > 0 ? indirimli : normalFiyat,
+        stokta: !it.availability || /in.?stock|stokta/i.test(String(it.availability)),
+      };
+    })
+    .filter((u) => u.baslik && u.url && u.fiyat > 0);
 }
 
 export async function topla({ malzemeler, kurallar, kok, log }) {

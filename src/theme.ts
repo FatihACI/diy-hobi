@@ -5,7 +5,7 @@ export const renk = {
   yazi: "#111827",
   yaziIkincil: "#6B7280",
   cizgi: "#E5E7EB",
-  ana: "#E8590C",        // marka turuncusu
+  ana: "#E8590C", // marka turuncusu
   anaAcik: "#FFF1E8",
   basari: "#16A34A",
   basariAcik: "#DCFCE7",

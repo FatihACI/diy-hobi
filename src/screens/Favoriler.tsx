@@ -13,14 +13,18 @@ export default function Favoriler() {
   const projeler = PROJELER.filter((p) => favoriler.includes(p.id));
 
   return (
-    <ScrollView style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}>
+    <ScrollView
+      style={{ backgroundColor: renk.arkaPlan }}
+      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
+    >
       <Text style={yazi.dev}>Favoriler</Text>
       {projeler.length === 0 ? (
         <Bos ikon="heart-outline" baslik="Henüz favori yok" metin="Beğendiğin projelerde ♡ simgesine dokun." />
       ) : (
         <View style={{ gap: bosluk.m, marginTop: bosluk.l }}>
-          {projeler.map((p) => <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />)}
+          {projeler.map((p) => (
+            <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
+          ))}
         </View>
       )}
     </ScrollView>

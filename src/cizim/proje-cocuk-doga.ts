@@ -1,4 +1,4 @@
-import { Cizim, daire, dalga, kutu, zikzak } from "./arac";
+import { Cizim, daire, kutu } from "./arac";
 
 // Maket, RC, Terraryum, Kuş Evi, Bahçe projeleri (viewBox 0 0 160 160)
 export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
@@ -74,7 +74,11 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { id: "t2", sinir: kutu(20, 98, 12, 26), kutu: [20, 98, 12, 26], aralik: 2.5, sonra: 2 },
     ],
     cizgiler: [
-      { d: "M38 40 L86 40 Q96 40 96 50 L96 120 Q96 130 86 130 L38 130 Q32 130 32 124 L32 46 Q32 40 38 40 Z", w: 2, dolgu: true },
+      {
+        d: "M38 40 L86 40 Q96 40 96 50 L96 120 Q96 130 86 130 L38 130 Q32 130 32 124 L32 46 Q32 40 38 40 Z",
+        w: 2,
+        dolgu: true,
+      },
       { d: kutu(20, 46, 12, 26), w: 1.6, dolgu: true },
       { d: kutu(20, 98, 12, 26), w: 1.6, dolgu: true },
       { d: "M96 46 L108 46 L108 70 L96 70 M96 100 L108 100 L108 124 L96 124", w: 1.6 },
@@ -85,7 +89,11 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { d: "M56 98 L56 86 M70 98 L72 86", w: 0.8 },
       { d: "M58 30 Q64 24 70 30 M54 24 Q64 14 74 24", w: 1.1 },
       // telefon
-      { d: "M118 60 L144 60 Q148 60 148 64 L148 112 Q148 116 144 116 L118 116 Q114 116 114 112 L114 64 Q114 60 118 60 Z", w: 1.8, dolgu: true },
+      {
+        d: "M118 60 L144 60 Q148 60 148 64 L148 112 Q148 116 144 116 L118 116 Q114 116 114 112 L114 64 Q114 60 118 60 Z",
+        w: 1.8,
+        dolgu: true,
+      },
       { d: kutu(118, 66, 26, 40), w: 1 },
       { d: "M131 72 L131 80 M127 76 L131 72 L135 76 M131 100 L131 92 M127 96 L131 100 L135 96", w: 1.1 },
     ],
@@ -93,9 +101,7 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
 
   // Süzülen planör (üstten) + uçuş yolu
   "depron-planor": {
-    taramalar: [
-      { id: "k", sinir: "M18 72 L142 72 L136 84 L24 84 Z", kutu: [18, 72, 124, 12], aralik: 4, sonra: 1 },
-    ],
+    taramalar: [{ id: "k", sinir: "M18 72 L142 72 L136 84 L24 84 Z", kutu: [18, 72, 124, 12], aralik: 4, sonra: 1 }],
     cizgiler: [
       { d: "M80 34 Q84 38 84 50 L82 136 L78 136 L76 50 Q76 38 80 34 Z", w: 1.8, dolgu: true },
       { d: "M18 72 L142 72 L136 84 L24 84 Z", w: 2, dolgu: true },
@@ -110,9 +116,7 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
 
   // Tiny whoop: 4 kanal + kart + pil
   "mini-drone": {
-    taramalar: [
-      { id: "p", sinir: kutu(68, 70, 24, 22), kutu: [68, 70, 24, 22], aralik: 2.5, sonra: 6 },
-    ],
+    taramalar: [{ id: "p", sinir: kutu(68, 70, 24, 22), kutu: [68, 70, 24, 22], aralik: 2.5, sonra: 6 }],
     cizgiler: [
       { d: daire(44, 44, 26) + daire(116, 44, 26) + daire(44, 116, 26) + daire(116, 116, 26), w: 2.2, dolgu: true },
       { d: daire(44, 44, 21) + daire(116, 44, 21) + daire(44, 116, 21) + daire(116, 116, 21), w: 0.8 },
@@ -143,7 +147,13 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { d: "M44 108 q4 -8 10 -6 q4 -4 8 2 M106 108 q4 -6 10 -4 q4 -2 6 4", w: 1.2, dolgu: true },
       { d: "M112 64 L114 92", w: 0.8 },
     ],
-    noktalar: [[50, 70, 1], [116, 76, 1.2], [56, 58, 0.9], [104, 60, 1], [84, 62, 0.8]],
+    noktalar: [
+      [50, 70, 1],
+      [116, 76, 1.2],
+      [56, 58, 0.9],
+      [104, 60, 1],
+      [84, 62, 0.8],
+    ],
   },
 
   // Kasede sukulent ve kaktüs
@@ -160,7 +170,11 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { d: "M110 70 L118 70 L118 58 Q122 52 126 58 L126 76 L110 78", w: 1.6, dolgu: true },
       { d: "M96 60 L92 58 M112 62 L114 60 M96 76 L92 76 M124 64 L128 62", w: 0.9 },
       // ekeverya rozeti
-      { d: "M56 96 Q44 88 40 78 Q52 80 58 90 Q56 74 64 66 Q70 78 66 92 Q76 80 88 80 Q84 92 70 98 Z", w: 1.6, dolgu: true },
+      {
+        d: "M56 96 Q44 88 40 78 Q52 80 58 90 Q56 74 64 66 Q70 78 66 92 Q76 80 88 80 Q84 92 70 98 Z",
+        w: 1.6,
+        dolgu: true,
+      },
       { d: "M60 92 L58 82 M66 92 L72 84", w: 0.8 },
       { d: daire(34, 98, 5, 3) + daire(126, 98, 6, 3), w: 1.2, dolgu: true },
     ],
@@ -168,16 +182,17 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
 
   // Asılı cam küre ve hava bitkisi
   "asili-terraryum": {
-    taramalar: [
-      { id: "k", sinir: daire(80, 92, 52), kutu: [28, 124, 104, 22], aralik: 3.5 },
-    ],
+    taramalar: [{ id: "k", sinir: daire(80, 92, 52), kutu: [28, 124, 104, 22], aralik: 3.5 }],
     cizgiler: [
       { d: "M80 4 L80 34", w: 1.2 },
       { d: daire(80, 37, 4), w: 1.4 },
       { d: daire(80, 92, 52), w: 2, dolgu: true },
       { d: "M42 72 Q80 98 118 72 Q80 54 42 72 Z", w: 1.4 },
       { d: "M34 124 Q80 132 126 124", w: 1.1 },
-      { d: "M80 122 Q60 110 50 92 M80 122 Q70 100 72 84 M80 122 Q86 100 98 88 M80 122 Q100 112 112 98 M80 122 Q62 118 54 110 M80 122 Q96 120 106 112", w: 1.4 },
+      {
+        d: "M80 122 Q60 110 50 92 M80 122 Q70 100 72 84 M80 122 Q86 100 98 88 M80 122 Q100 112 112 98 M80 122 Q62 118 54 110 M80 122 Q96 120 106 112",
+        w: 1.4,
+      },
       { d: "M110 60 Q118 70 118 82", w: 0.8 },
     ],
   },
@@ -204,7 +219,12 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
   // Kaşıklı pet şişe yemlik ve kuş
   "kus-yemligi": {
     taramalar: [
-      { id: "y", sinir: "M58 40 L102 40 L102 140 Q102 146 96 146 L64 146 Q58 146 58 140 Z", kutu: [58, 96, 44, 50], aralik: 3 },
+      {
+        id: "y",
+        sinir: "M58 40 L102 40 L102 140 Q102 146 96 146 L64 146 Q58 146 58 140 Z",
+        kutu: [58, 96, 44, 50],
+        aralik: 3,
+      },
     ],
     cizgiler: [
       { d: "M80 4 L80 18", w: 1.2 },
@@ -221,19 +241,31 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { d: "M126 92 L116 96 L122 88", w: 1.2, dolgu: true },
       { d: "M134 96 L132 102 M140 96 L140 102", w: 1 },
     ],
-    noktalar: [[142, 84, 1.4], [130, 106, 1], [134, 104, 1]],
+    noktalar: [
+      [142, 84, 1.4],
+      [130, 106, 1],
+      [134, 104, 1],
+    ],
   },
 
   // Sisal ipli tırmalama direği
   "kedi-tirmalama": {
     taramalar: [
-      { id: "t", sinir: "M20 128 L20 136 L80 152 L80 144 Z M80 144 L80 152 L140 136 L140 128 Z", kutu: [20, 128, 120, 24], aralik: 3 },
+      {
+        id: "t",
+        sinir: "M20 128 L20 136 L80 152 L80 144 Z M80 144 L80 152 L140 136 L140 128 Z",
+        kutu: [20, 128, 120, 24],
+        aralik: 3,
+      },
     ],
     cizgiler: [
       { d: "M20 128 L80 112 L140 128 L80 144 Z", w: 2, dolgu: true },
       { d: "M20 128 L20 136 L80 152 L140 136 L140 128 M80 144 L80 152", w: 2 },
       { d: "M66 128 L66 28 Q80 22 94 28 L94 128 Q80 134 66 128 Z", w: 2, dolgu: true },
-      { d: "M66 36 Q80 40 94 36 M66 46 Q80 50 94 46 M66 56 Q80 60 94 56 M66 66 Q80 70 94 66 M66 76 Q80 80 94 76 M66 86 Q80 90 94 86 M66 96 Q80 100 94 96 M66 106 Q80 110 94 106 M66 116 Q80 120 94 116", w: 0.9 },
+      {
+        d: "M66 36 Q80 40 94 36 M66 46 Q80 50 94 46 M66 56 Q80 60 94 56 M66 66 Q80 70 94 66 M66 76 Q80 80 94 76 M66 86 Q80 90 94 86 M66 96 Q80 100 94 96 M66 106 Q80 110 94 106 M66 116 Q80 120 94 116",
+        w: 0.9,
+      },
       { d: "M94 34 Q118 40 118 70", w: 1 },
       { d: daire(118, 76, 6), w: 1.5, dolgu: true },
       { d: daire(32, 104, 3) + daire(26, 98, 1.6) + daire(31, 95, 1.6) + daire(37, 97, 1.6), w: 1 },
@@ -243,34 +275,51 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
 
   // Kratky kutusu: marul, kökler, su
   "kratky-marul": {
-    taramalar: [
-      { id: "s", sinir: "M24 100 L136 100 L130 146 L30 146 Z", kutu: [24, 100, 112, 46], aralik: 4 },
-    ],
+    taramalar: [{ id: "s", sinir: "M24 100 L136 100 L130 146 L30 146 Z", kutu: [24, 100, 112, 46], aralik: 4 }],
     cizgiler: [
       { d: "M20 70 L140 70 L130 146 L30 146 Z", w: 2, dolgu: true },
       { d: kutu(16, 62, 128, 8), w: 1.8, dolgu: true },
       { d: "M24 100 q7 -3 14 0 t14 0 t14 0 t14 0 t14 0 t14 0 t14 0 t14 0", w: 1 },
       { d: "M44 70 L48 84 L60 84 L64 70 M96 70 L100 84 L112 84 L116 70", w: 1.4 },
       { d: "M52 84 Q50 100 46 116 M56 84 Q58 104 54 124 M104 84 Q102 100 100 118 M108 84 Q112 104 110 122", w: 0.9 },
-      { d: "M54 62 Q36 56 34 40 Q46 40 52 50 Q46 30 56 22 Q64 32 60 50 Q68 34 80 36 Q76 54 54 62 Z", w: 1.5, dolgu: true },
-      { d: "M106 62 Q88 56 86 40 Q98 40 104 50 Q98 30 108 22 Q116 32 112 50 Q120 34 132 36 Q128 54 106 62 Z", w: 1.5, dolgu: true },
+      {
+        d: "M54 62 Q36 56 34 40 Q46 40 52 50 Q46 30 56 22 Q64 32 60 50 Q68 34 80 36 Q76 54 54 62 Z",
+        w: 1.5,
+        dolgu: true,
+      },
+      {
+        d: "M106 62 Q88 56 86 40 Q98 40 104 50 Q98 30 108 22 Q116 32 112 50 Q120 34 132 36 Q128 54 106 62 Z",
+        w: 1.5,
+        dolgu: true,
+      },
       { d: "M54 60 L50 44 M58 58 L64 44 M106 60 L102 44 M110 58 L116 44", w: 0.8 },
     ],
   },
 
   // Musluk, zamanlayıcı, hat ve damlayan saksılar
   "damla-sulama": {
-    taramalar: [
-      { id: "z", sinir: kutu(10, 60, 18, 22), kutu: [10, 60, 18, 22], aralik: 2.5, sonra: 1 },
-    ],
+    taramalar: [{ id: "z", sinir: kutu(10, 60, 18, 22), kutu: [10, 60, 18, 22], aralik: 2.5, sonra: 1 }],
     cizgiler: [
       { d: "M6 40 L26 40 L26 48 L16 48 L16 60", w: 2 },
       { d: kutu(10, 60, 18, 22), w: 1.6, dolgu: true },
       { d: "M19 82 L19 140 L154 140", w: 2.4 },
-      { d: "M30 140 L30 62 Q30 56 38 58 L46 64 M78 140 L78 62 Q78 56 86 58 L94 64 M123 140 L123 66 Q123 60 130 62 L138 68", w: 1 },
-      { d: "M36 68 L40 98 L68 98 L72 68 Z M84 68 L88 98 L116 98 L120 68 Z M128 72 L131 98 L153 98 L156 72 Z", w: 1.7, dolgu: true },
-      { d: "M54 68 Q50 50 58 38 M58 50 q-8 -4 -10 -12 M102 68 Q104 46 112 36 M106 52 q8 -4 10 -10 M142 72 Q140 58 146 48", w: 1.3 },
-      { d: "M47 66 Q44 72 47 74 Q50 72 47 66 Z M95 66 Q92 72 95 74 Q98 72 95 66 Z M139 70 Q136 76 139 78 Q142 76 139 70 Z", w: 1 },
+      {
+        d: "M30 140 L30 62 Q30 56 38 58 L46 64 M78 140 L78 62 Q78 56 86 58 L94 64 M123 140 L123 66 Q123 60 130 62 L138 68",
+        w: 1,
+      },
+      {
+        d: "M36 68 L40 98 L68 98 L72 68 Z M84 68 L88 98 L116 98 L120 68 Z M128 72 L131 98 L153 98 L156 72 Z",
+        w: 1.7,
+        dolgu: true,
+      },
+      {
+        d: "M54 68 Q50 50 58 38 M58 50 q-8 -4 -10 -12 M102 68 Q104 46 112 36 M106 52 q8 -4 10 -10 M142 72 Q140 58 146 48",
+        w: 1.3,
+      },
+      {
+        d: "M47 66 Q44 72 47 74 Q50 72 47 66 Z M95 66 Q92 72 95 74 Q98 72 95 66 Z M139 70 Q136 76 139 78 Q142 76 139 70 Z",
+        w: 1,
+      },
     ],
     noktalar: [[19, 70, 1.6]],
   },
@@ -287,7 +336,10 @@ export const PROJE_COCUK_DOGA: Record<string, Cizim> = {
       { d: kutu(22, 120, 116, 28), w: 2 },
       { d: "M26 60 Q50 54 80 60 T134 58", w: 1.2 },
       { d: "M40 80 q6 -6 12 0 t12 0 M84 96 q6 -6 12 0 t10 2 M100 72 q6 4 12 -2 M44 104 q4 6 12 2", w: 1.6 },
-      { d: daire(34, 120, 1.5) + daire(54, 120, 1.5) + daire(74, 120, 1.5) + daire(94, 120, 1.5) + daire(114, 120, 1.5), w: 0.9 },
+      {
+        d: daire(34, 120, 1.5) + daire(54, 120, 1.5) + daire(74, 120, 1.5) + daire(94, 120, 1.5) + daire(114, 120, 1.5),
+        w: 0.9,
+      },
       // elma koçanı ve muz kabuğu
       { d: "M56 40 Q50 30 56 22 Q62 26 62 22 Q70 30 64 40 Q60 44 56 40 Z M60 22 L60 16", w: 1.4, dolgu: true },
       { d: "M86 42 Q96 22 112 26 Q102 30 98 42 M98 42 Q106 36 118 40", w: 1.4 },

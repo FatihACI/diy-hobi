@@ -4,10 +4,10 @@ import { fireEvent, render, screen } from "@testing-library/react-native";
 import App from "../App";
 import { PROJELER } from "../src/data/projeler";
 
-jest.mock("react-native-safe-area-context", () =>
-  require("react-native-safe-area-context/jest/mock").default);
+jest.mock("react-native-safe-area-context", () => require("react-native-safe-area-context/jest/mock").default);
 jest.mock("@react-native-async-storage/async-storage", () =>
-  require("@react-native-async-storage/async-storage/jest/async-storage-mock"));
+  require("@react-native-async-storage/async-storage/jest/async-storage-mock"),
+);
 
 const geri = () => fireEvent.press(screen.getAllByLabelText("Geri").at(-1)!);
 
@@ -28,7 +28,8 @@ test("uygulama açılır ve ekranlar gezilir", async () => {
   await fireEvent.press(screen.getByLabelText("Favorilere ekle"));
   await fireEvent.press(screen.getByText("Malzemeleri listeye ekle"));
   expect(await screen.findByText("Tüm malzemeler listede")).toBeTruthy();
-  await geri(); await geri();
+  await geri();
+  await geri();
 
   await fireEvent.press(screen.getAllByText("Liste").at(-1)!);
   expect(await screen.findByText("Alışveriş Listesi")).toBeTruthy();

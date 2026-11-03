@@ -19,7 +19,8 @@ describe("içerik", () => {
   });
 
   test("her kategoride en az 3 proje", () => {
-    for (const k of KATEGORILER) expect([k.id, PROJELER.filter((p) => p.kategoriId === k.id).length >= 3]).toEqual([k.id, true]);
+    for (const k of KATEGORILER)
+      expect([k.id, PROJELER.filter((p) => p.kategoriId === k.id).length >= 3]).toEqual([k.id, true]);
   });
 
   test("her proje eksiksiz ve çizimli", () => {

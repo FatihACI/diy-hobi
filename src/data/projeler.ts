@@ -8,8 +8,13 @@ import { TEKNIK_EV } from "./projeler-teknik-ev";
 const ILK_PROJELER: Proje[] = [
   // ───────────────────────── OYUNCAK ─────────────────────────
   {
-    id: "ahsap-araba", kategoriId: "oyuncak", ikon: "car-side",
-    ad: "Ahşap Oyuncak Araba", zorluk: "Kolay", sure: "3 saat", yas: "3+ yaş",
+    id: "ahsap-araba",
+    kategoriId: "oyuncak",
+    ikon: "car-side",
+    ad: "Ahşap Oyuncak Araba",
+    zorluk: "Kolay",
+    sure: "3 saat",
+    yas: "3+ yaş",
     ozet: "Tek parça ahşap bloktan, dönen tekerlekli klasik oyuncak araba.",
     malzemeler: [
       m("aa1", "Çam blok 4×8×18 cm", "1 adet"),
@@ -24,10 +29,16 @@ const ILK_PROJELER: Proje[] = [
     adimlar: [
       a("Şablonu çiz", "Bloğun yan yüzüne araba profilini (kabin + kaput) kurşun kalemle çiz."),
       a("Kes", "Bloğu mengeneye sabitle, kabin çıkıntısını el testeresiyle kes."),
-      a("Aks deliklerini aç", "Alt kenardan 1,5 cm yukarıda, ön ve arkada Ø7 mm delikleri bir yandan diğerine düz del. Delik dübelden geniş olmalı ki aks dönsün."),
+      a(
+        "Aks deliklerini aç",
+        "Alt kenardan 1,5 cm yukarıda, ön ve arkada Ø7 mm delikleri bir yandan diğerine düz del. Delik dübelden geniş olmalı ki aks dönsün.",
+      ),
       a("Zımparala", "Önce 120, sonra 240 kum ile tüm köşeleri yuvarlat. Kıymık kalmamalı."),
       a("Boya", "Oyuncak standardına uygun su bazlı boya ile boya, 24 saat kurut."),
-      a("Tekerlekleri tak", "Dübeli kes (gövde eni + 2 cm), deliğe geçir, iki uca tekerlekleri tutkalla sabitle. Tekerlek gövdeye sürtmemeli."),
+      a(
+        "Tekerlekleri tak",
+        "Dübeli kes (gövde eni + 2 cm), deliğe geçir, iki uca tekerlekleri tutkalla sabitle. Tekerlek gövdeye sürtmemeli.",
+      ),
     ],
     ipuclari: [
       "Aks deliği dübelden 1 mm geniş olursa araba çok rahat yuvarlanır.",
@@ -40,8 +51,13 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "kece-kukla", kategoriId: "oyuncak", ikon: "hand-wave",
-    ad: "Keçe Parmak Kuklası Seti", zorluk: "Kolay", sure: "2 saat", yas: "6+ yaş (gözetimle)",
+    id: "kece-kukla",
+    kategoriId: "oyuncak",
+    ikon: "hand-wave",
+    ad: "Keçe Parmak Kuklası Seti",
+    zorluk: "Kolay",
+    sure: "2 saat",
+    yas: "6+ yaş (gözetimle)",
     ozet: "Hayvan figürlü 5 parmak kuklası; hikâye anlatmak için ideal.",
     malzemeler: [
       m("kk1", "Renkli keçe (20×30 cm)", "6 renk"),
@@ -54,7 +70,10 @@ const ILK_PROJELER: Proje[] = [
     adimlar: [
       a("Kalıp hazırla", "Kağıda 4×7 cm, üstü yuvarlak bir parmak kalıbı çiz ve kes."),
       a("Keçeyi kes", "Her kukla için kalıptan aynı renkte 2 parça kes."),
-      a("Yüz detaylarını yap", "Göz, kulak, burun gibi küçük parçaları farklı renklerden kes, ön parçaya yapıştır veya dik."),
+      a(
+        "Yüz detaylarını yap",
+        "Göz, kulak, burun gibi küçük parçaları farklı renklerden kes, ön parçaya yapıştır veya dik.",
+      ),
       a("Dik", "İki parçayı üst üste koy, alt kısım açık kalacak şekilde kenarlardan battaniye dikişiyle dik."),
       a("Bitir", "İplik uçlarını içeriden düğümle, fazlalıkları kes."),
     ],
@@ -68,8 +87,13 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "bilye-parkuru", kategoriId: "oyuncak", ikon: "chart-timeline-variant",
-    ad: "Karton Bilye Parkuru", zorluk: "Kolay", sure: "2–3 saat", yas: "5+ yaş (gözetimle)",
+    id: "bilye-parkuru",
+    kategoriId: "oyuncak",
+    ikon: "chart-timeline-variant",
+    ad: "Karton Bilye Parkuru",
+    zorluk: "Kolay",
+    sure: "2–3 saat",
+    yas: "5+ yaş (gözetimle)",
     ozet: "Atık karton rulolarla duvara/kutuya kurulan bilye yolu.",
     malzemeler: [
       m("bp1", "Karton rulo (havlu/tuvalet kağıdı)", "10–15 adet"),
@@ -98,8 +122,12 @@ const ILK_PROJELER: Proje[] = [
 
   // ───────────────────────── BALIKÇILIK ─────────────────────────
   {
-    id: "samandirali-takim", kategoriId: "balikcilik", ikon: "hook",
-    ad: "Şamandıralı Olta Takımı Kurma", zorluk: "Kolay", sure: "30 dk",
+    id: "samandirali-takim",
+    kategoriId: "balikcilik",
+    ikon: "hook",
+    ad: "Şamandıralı Olta Takımı Kurma",
+    zorluk: "Kolay",
+    sure: "30 dk",
     ozet: "Kıyıdan ve iskeleden balık için en temel şamandıralı takım.",
     malzemeler: [
       m("st1", "Misina 0,25 mm (ana beden)", "100 m"),
@@ -130,8 +158,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "spin-kurulum", kategoriId: "balikcilik", ikon: "rotate-right",
-    ad: "Spin Takımı Kurulumu ve Misina Sarma", zorluk: "Kolay", sure: "45 dk",
+    id: "spin-kurulum",
+    kategoriId: "balikcilik",
+    ikon: "rotate-right",
+    ad: "Spin Takımı Kurulumu ve Misina Sarma",
+    zorluk: "Kolay",
+    sure: "45 dk",
     ozet: "Makaraya misinayı doğru sarma ve sahte yem için bağlantı.",
     malzemeler: [
       m("sk1", "Spin kamış 2,10–2,40 m (5–25 g)", "1 adet", true),
@@ -144,7 +176,10 @@ const ILK_PROJELER: Proje[] = [
       a("Makarayı tak", "Makarayı kamışın makara yuvasına oturt, somunu sık."),
       a("Misinayı halkalardan geçir", "Kepçeyi aç, misinayı en alttaki halkadan başlayarak geçir."),
       a("Bobine bağla", "Misinayı bobine iki tur sarıp makara düğümüyle bağla, kepçeyi kapat."),
-      a("Gergin sar", "Misina makarasını bir kalem üzerinden döndürerek, misinayı parmaklarınla hafif gergin tutarak sar. Bobinin ağzına 2 mm kalana kadar doldur."),
+      a(
+        "Gergin sar",
+        "Misina makarasını bir kalem üzerinden döndürerek, misinayı parmaklarınla hafif gergin tutarak sar. Bobinin ağzına 2 mm kalana kadar doldur.",
+      ),
       a("Lider ekle", "Örgü misinanın ucuna 1–1,5 m florokarbon lideri FG veya çift uni düğümüyle bağla."),
       a("Klipsi bağla", "Liderin ucuna klipsli fırdöndüyü bağla; sahte yemi buraya takarsın."),
     ],
@@ -158,8 +193,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "ahsap-sahte-yem", kategoriId: "balikcilik", ikon: "fish",
-    ad: "Ahşap Sahte Yem (Crankbait) Yapımı", zorluk: "Zor", sure: "2 gün (kuruma dahil)",
+    id: "ahsap-sahte-yem",
+    kategoriId: "balikcilik",
+    ikon: "fish",
+    ad: "Ahşap Sahte Yem (Crankbait) Yapımı",
+    zorluk: "Zor",
+    sure: "2 gün (kuruma dahil)",
     ozet: "Dilli, yüzen ahşap sahte yemi baştan sona kendin yap.",
     malzemeler: [
       m("sy1", "Balsa veya ıhlamur ahşap çıta 2×2 cm", "30 cm"),
@@ -197,8 +236,12 @@ const ILK_PROJELER: Proje[] = [
 
   // ───────────────────────── AKVARYUM ─────────────────────────
   {
-    id: "nano-bitkili", kategoriId: "akvaryum", ikon: "sprout",
-    ad: "Bitkili Nano Akvaryum Kurulumu", zorluk: "Orta", sure: "1 gün + 4–6 hafta döngü",
+    id: "nano-bitkili",
+    kategoriId: "akvaryum",
+    ikon: "sprout",
+    ad: "Bitkili Nano Akvaryum Kurulumu",
+    zorluk: "Orta",
+    sure: "1 gün + 4–6 hafta döngü",
     ozet: "20–30 litrelik, canlı bitkili, düşük bakımlı nano akvaryum.",
     malzemeler: [
       m("na1", "Akvaryum 30 L", "1 adet", true),
@@ -219,7 +262,10 @@ const ILK_PROJELER: Proje[] = [
       a("Bitkileri dik", "Toprağı spreyle nemlendir, cımbızla bitkileri dik: arkaya uzun, öne kısa türler."),
       a("Suyu yavaşça doldur", "Toprak kalkmasın diye suyu tabak veya poşet üzerine dök; su düzenleyici ekle."),
       a("Ekipmanı çalıştır", "Filtre, ısıtıcı (24–26 °C) ve ışığı (günde 6–8 saat) çalıştır."),
-      a("Azot döngüsünü bekle", "4–6 hafta balıksız çalıştır. Test kitinde amonyak ve nitrit 0 olunca ilk canlıları ekle."),
+      a(
+        "Azot döngüsünü bekle",
+        "4–6 hafta balıksız çalıştır. Test kitinde amonyak ve nitrit 0 olunca ilk canlıları ekle.",
+      ),
     ],
     ipuclari: [
       "İlk haftalarda ışığı 6 saatte tut; yosun patlamasını azaltır.",
@@ -233,8 +279,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "sunger-filtre", kategoriId: "akvaryum", ikon: "air-filter",
-    ad: "Sünger Filtre Yapımı", zorluk: "Kolay", sure: "1 saat",
+    id: "sunger-filtre",
+    kategoriId: "akvaryum",
+    ikon: "air-filter",
+    ad: "Sünger Filtre Yapımı",
+    zorluk: "Kolay",
+    sure: "1 saat",
     ozet: "Hava pompasıyla çalışan, yavru ve karides tankları için ideal ucuz filtre.",
     malzemeler: [
       m("sf1", "Filtre süngeri (orta gözenek) 10×10×15 cm", "1 adet"),
@@ -264,8 +314,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "diy-co2", kategoriId: "akvaryum", ikon: "molecule-co2",
-    ad: "Mayalı DIY CO₂ Sistemi", zorluk: "Orta", sure: "1 saat",
+    id: "diy-co2",
+    kategoriId: "akvaryum",
+    ikon: "molecule-co2",
+    ad: "Mayalı DIY CO₂ Sistemi",
+    zorluk: "Orta",
+    sure: "1 saat",
     ozet: "Şeker ve maya ile bitkili akvaryuma ucuz CO₂ desteği.",
     malzemeler: [
       m("co1", "PET şişe 2 L", "1 adet"),
@@ -279,7 +333,10 @@ const ILK_PROJELER: Proje[] = [
       m("co9", "Silikon (akvaryum uyumlu)", "1 adet"),
     ],
     adimlar: [
-      a("Kapağı hazırla", "Şişe kapağını hortum çapında del, hortumu geçir ve iki yandan silikonla sızdırmaz yap. 24 saat kurut."),
+      a(
+        "Kapağı hazırla",
+        "Şişe kapağını hortum çapında del, hortumu geçir ve iki yandan silikonla sızdırmaz yap. 24 saat kurut.",
+      ),
       a("Karışımı yap", "Şekeri 1,5 L ılık suda erit, karbonat ekle. Ilık suda aktifleştirdiğin mayayı ekle."),
       a("Hattı kur", "Şişe → kabarcık sayacı → çek valf → difüzör sırasıyla bağla."),
       a("Yerleştir", "Difüzörü filtre çıkışının yakınına, akvaryumun altına koy."),
@@ -298,8 +355,12 @@ const ILK_PROJELER: Proje[] = [
 
   // ───────────────────────── AHŞAP ─────────────────────────
   {
-    id: "kesme-tahtasi", kategoriId: "ahsap", ikon: "knife",
-    ad: "Masif Kesme Tahtası", zorluk: "Kolay", sure: "3 saat + 1 gün yağ",
+    id: "kesme-tahtasi",
+    kategoriId: "ahsap",
+    ikon: "knife",
+    ad: "Masif Kesme Tahtası",
+    zorluk: "Kolay",
+    sure: "3 saat + 1 gün yağ",
     ozet: "Sert ağaçtan, gıdaya uygun yağ ile bitirilmiş mutfak tahtası.",
     malzemeler: [
       m("kt1", "Masif sert ağaç (kayın/meşe/ceviz) 35×22×2 cm", "1 adet"),
@@ -316,10 +377,7 @@ const ILK_PROJELER: Proje[] = [
       a("Lifleri kaldır", "Yüzeyi nemli bezle sil, kuruyunca kalkan lifleri 240 ile hafifçe al."),
       a("Yağla", "Bol mineral yağ sür, 20 dk beklet, fazlasını sil. 3–4 kat tekrarla."),
     ],
-    ipuclari: [
-      "Çam gibi yumuşak ağaçlar bıçak izi tutar; sert ağaç tercih et.",
-      "Ayda bir yağlarsan tahta çatlamaz.",
-    ],
+    ipuclari: ["Çam gibi yumuşak ağaçlar bıçak izi tutar; sert ağaç tercih et.", "Ayda bir yağlarsan tahta çatlamaz."],
     guvenlik: [
       "Vernik veya cila kullanma; sadece gıdaya uygun yağ.",
       "Zımparada toz maskesi, kesimde koruyucu gözlük kullan.",
@@ -327,8 +385,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "yuzer-raf", kategoriId: "ahsap", ikon: "bookshelf",
-    ad: "Gizli Bağlantılı Yüzer Duvar Rafı", zorluk: "Orta", sure: "4 saat",
+    id: "yuzer-raf",
+    kategoriId: "ahsap",
+    ikon: "bookshelf",
+    ad: "Gizli Bağlantılı Yüzer Duvar Rafı",
+    zorluk: "Orta",
+    sure: "4 saat",
     ozet: "Görünür konsolu olmayan, modern duvar rafı.",
     malzemeler: [
       m("yr1", "Masif çam tahta 60×20×4 cm", "1 adet"),
@@ -358,8 +420,12 @@ const ILK_PROJELER: Proje[] = [
     ],
   },
   {
-    id: "ahsap-kutu", kategoriId: "ahsap", ikon: "package-variant-closed",
-    ad: "Ahşap Saklama Kutusu", zorluk: "Kolay", sure: "3 saat",
+    id: "ahsap-kutu",
+    kategoriId: "ahsap",
+    ikon: "package-variant-closed",
+    ad: "Ahşap Saklama Kutusu",
+    zorluk: "Kolay",
+    sure: "3 saat",
     ozet: "Tutkal ve vidayla birleştirilen çok amaçlı saklama kutusu.",
     malzemeler: [
       m("ak1", "Çam tahta 1,8×12 cm", "2 m"),
@@ -381,16 +447,17 @@ const ILK_PROJELER: Proje[] = [
       "Taşan tutkalı hemen nemli bezle sil; kuruyunca boya tutmaz.",
       "Köşegenleri ölç: eşitse kutu tam gönyededir.",
     ],
-    guvenlik: [
-      "Kesim sırasında parçayı işkenceyle sabitle.",
-      "Koruyucu gözlük ve toz maskesi kullan.",
-    ],
+    guvenlik: ["Kesim sırasında parçayı işkenceyle sabitle.", "Koruyucu gözlük ve toz maskesi kullan."],
   },
 
   // ───────────────────────── ELEKTRONİK ─────────────────────────
   {
-    id: "trafik-lambasi", kategoriId: "elektronik", ikon: "traffic-light",
-    ad: "Arduino Trafik Lambası", zorluk: "Kolay", sure: "1 saat",
+    id: "trafik-lambasi",
+    kategoriId: "elektronik",
+    ikon: "traffic-light",
+    ad: "Arduino Trafik Lambası",
+    zorluk: "Kolay",
+    sure: "1 saat",
     ozet: "Arduino'ya başlangıç: 3 LED ile çalışan trafik lambası.",
     malzemeler: [
       m("tl1", "Arduino Uno (uyumlu)", "1 adet", true),
@@ -403,15 +470,15 @@ const ILK_PROJELER: Proje[] = [
     adimlar: [
       a("Arduino IDE kur", "arduino.cc adresinden Arduino IDE'yi indir ve kur."),
       a("LED'leri yerleştir", "LED'leri breadboard'a tak; uzun bacak (+) dirence gidecek."),
-      a("Bağla", "Kırmızı → pin 8, Sarı → pin 9, Yeşil → pin 10; her LED'in önüne 220 Ω direnç. Kısa bacakları GND'ye bağla."),
+      a(
+        "Bağla",
+        "Kırmızı → pin 8, Sarı → pin 9, Yeşil → pin 10; her LED'in önüne 220 Ω direnç. Kısa bacakları GND'ye bağla.",
+      ),
       a("Kodu yükle", "Aşağıdaki kodu IDE'ye yapıştır, Araçlar'dan kart ve portu seç, 'Yükle'ye bas."),
       a("Geliştir", "Süreleri değiştir veya bir buton ekleyerek yaya geçidi yap."),
     ],
     ipuclari: ["LED yanmıyorsa ters takılmıştır; çevir."],
-    guvenlik: [
-      "Direnç kullanmadan LED bağlama; LED ve pin zarar görür.",
-      "Devreyi kurarken USB kablosunu çıkar.",
-    ],
+    guvenlik: ["Direnç kullanmadan LED bağlama; LED ve pin zarar görür.", "Devreyi kurarken USB kablosunu çıkar."],
     kod: `const int KIRMIZI = 8, SARI = 9, YESIL = 10;
 
 void setup() {
@@ -434,8 +501,12 @@ void loop() {
 }`,
   },
   {
-    id: "nem-sensoru", kategoriId: "elektronik", ikon: "water-percent",
-    ad: "Saksı Toprak Nem Uyarıcısı", zorluk: "Kolay", sure: "1,5 saat",
+    id: "nem-sensoru",
+    kategoriId: "elektronik",
+    ikon: "water-percent",
+    ad: "Saksı Toprak Nem Uyarıcısı",
+    zorluk: "Kolay",
+    sure: "1,5 saat",
     ozet: "Toprak kuruyunca LED yakan ve bip sesi veren sulama hatırlatıcı.",
     malzemeler: [
       m("ns1", "Arduino Uno / Nano", "1 adet", true),
@@ -482,8 +553,12 @@ void loop() {
 }`,
   },
   {
-    id: "akvaryum-termometre", kategoriId: "elektronik", ikon: "thermometer-water",
-    ad: "Akvaryum Dijital Termometre", zorluk: "Orta", sure: "2 saat",
+    id: "akvaryum-termometre",
+    kategoriId: "elektronik",
+    ikon: "thermometer-water",
+    ad: "Akvaryum Dijital Termometre",
+    zorluk: "Orta",
+    sure: "2 saat",
     ozet: "Su geçirmez sensör ve LCD ekranla akvaryum sıcaklık göstergesi.",
     malzemeler: [
       m("at1", "Arduino Uno / Nano", "1 adet", true),
@@ -497,7 +572,10 @@ void loop() {
       a("Kütüphaneleri kur", "Arduino IDE → Kütüphane Yöneticisi: OneWire, DallasTemperature, LiquidCrystal I2C."),
       a("Sensörü bağla", "Kırmızı → 5V, Siyah → GND, Sarı (data) → pin 2. Data ile 5V arasına 4,7 kΩ direnç tak."),
       a("LCD'yi bağla", "LCD I2C: VCC → 5V, GND → GND, SDA → A4, SCL → A5 (Uno)."),
-      a("Kodu yükle", "Ekranda bir şey görünmezse LCD adresini 0x3F olarak dene ve I2C modülündeki kontrast vidasını çevir."),
+      a(
+        "Kodu yükle",
+        "Ekranda bir şey görünmezse LCD adresini 0x3F olarak dene ve I2C modülündeki kontrast vidasını çevir.",
+      ),
       a("Yerleştir", "Sadece prob ucunu suya daldır; Arduino ve ekranı akvaryumdan uzakta, kuru yerde tut."),
     ],
     ipuclari: ["Tropikal balıklar için ideal aralık genelde 24–28 °C."],
@@ -538,8 +616,12 @@ void loop() {
 }`,
   },
   {
-    id: "park-sensoru", kategoriId: "elektronik", ikon: "car-brake-alert",
-    ad: "Ultrasonik Park Sensörü", zorluk: "Orta", sure: "1,5 saat",
+    id: "park-sensoru",
+    kategoriId: "elektronik",
+    ikon: "car-brake-alert",
+    ad: "Ultrasonik Park Sensörü",
+    zorluk: "Orta",
+    sure: "1,5 saat",
     ozet: "Engel yaklaştıkça hızlanan bip sesiyle mesafe uyarıcı.",
     malzemeler: [
       m("ps1", "Arduino Uno / Nano", "1 adet", true),

@@ -4,8 +4,8 @@ name: Fiyatları güncelle
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # her gün 06:17 (Türkiye saati)
-  workflow_dispatch:        # GitHub'da "Run workflow" ile elle de çalıştırılabilir
+    - cron: "17 3 * * *" # her gün 06:17 (Türkiye saati)
+  workflow_dispatch: # GitHub'da "Run workflow" ile elle de çalıştırılabilir
 
 permissions:
   contents: write

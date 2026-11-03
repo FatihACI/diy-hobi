@@ -3,7 +3,7 @@ import { createContext, ReactNode, useContext, useEffect, useState } from "react
 
 // Telefonda kalıcı tutulan kullanıcı verisi
 type Durum = {
-  favoriler: string[];                     // proje id'leri
+  favoriler: string[]; // proje id'leri
   liste: { [malzemeId: string]: { projeId: string; alindi: boolean } };
   bitenAdimlar: { [projeId: string]: number[] };
 };
@@ -44,14 +44,14 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     favoriDegistir: (pid) =>
       setD((x) => ({
         ...x,
-        favoriler: x.favoriler.includes(pid)
-          ? x.favoriler.filter((f) => f !== pid)
-          : [...x.favoriler, pid],
+        favoriler: x.favoriler.includes(pid) ? x.favoriler.filter((f) => f !== pid) : [...x.favoriler, pid],
       })),
     listeyeEkle: (pid, ids) =>
       setD((x) => {
         const liste = { ...x.liste };
-        ids.forEach((id) => { if (!liste[id]) liste[id] = { projeId: pid, alindi: false }; });
+        ids.forEach((id) => {
+          if (!liste[id]) liste[id] = { projeId: pid, alindi: false };
+        });
         return { ...x, liste };
       }),
     listedenCikar: (mid) =>

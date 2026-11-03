@@ -5,8 +5,12 @@ import { a, m } from "./yardimci";
 export const EL_SANATLARI: Proje[] = [
   // ───────────────────────── MUM & SABUN ─────────────────────────
   {
-    id: "soya-mum", kategoriId: "mum-sabun", ikon: "candle",
-    ad: "Kavanozda Kokulu Soya Mumu", zorluk: "Kolay", sure: "2 saat + 24 saat soğuma",
+    id: "soya-mum",
+    kategoriId: "mum-sabun",
+    ikon: "candle",
+    ad: "Kavanozda Kokulu Soya Mumu",
+    zorluk: "Kolay",
+    sure: "2 saat + 24 saat soğuma",
     ozet: "Soya mumu ve esansla temiz yanan kavanoz mum.",
     malzemeler: [
       m("sm1", "Soya mumu (pul)", "500 g"),
@@ -36,8 +40,13 @@ export const EL_SANATLARI: Proje[] = [
     ],
   },
   {
-    id: "gliserin-sabun", kategoriId: "mum-sabun", ikon: "hand-wash-outline",
-    ad: "Eritip Dökme Gliserin Sabun", zorluk: "Kolay", sure: "1 saat + 2 saat donma", yas: "8+ yaş (gözetimle)",
+    id: "gliserin-sabun",
+    kategoriId: "mum-sabun",
+    ikon: "hand-wash-outline",
+    ad: "Eritip Dökme Gliserin Sabun",
+    zorluk: "Kolay",
+    sure: "1 saat + 2 saat donma",
+    yas: "8+ yaş (gözetimle)",
     ozet: "Hazır sabun bazıyla kostik soda kullanmadan şeffaf sabun.",
     malzemeler: [
       m("gs1", "Şeffaf gliserin sabun bazı", "500 g"),
@@ -61,8 +70,12 @@ export const EL_SANATLARI: Proje[] = [
     ],
   },
   {
-    id: "soguk-sabun", kategoriId: "mum-sabun", ikon: "flask-outline",
-    ad: "Soğuk İşlem Zeytinyağlı Sabun", zorluk: "Zor", sure: "2 saat + 4–6 hafta kür",
+    id: "soguk-sabun",
+    kategoriId: "mum-sabun",
+    ikon: "flask-outline",
+    ad: "Soğuk İşlem Zeytinyağlı Sabun",
+    zorluk: "Zor",
+    sure: "2 saat + 4–6 hafta kür",
     ozet: "Zeytinyağı ve kostik soda ile geleneksel yöntemle doğal sabun.",
     malzemeler: [
       m("ss1", "Sızma olmayan zeytinyağı", "700 g"),
@@ -76,7 +89,10 @@ export const EL_SANATLARI: Proje[] = [
     ],
     adimlar: [
       a("Korun ve tart", "Gözlük, eldiven ve uzun kollu giy. Tüm malzemeleri gram gram tart; ölçüyü göz kararı yapma."),
-      a("Soda çözeltisi", "Havalandırılan yerde, kostik sodayı SUYUN ÜSTÜNE yavaşça ekle (asla tersini yapma) ve karıştır. Isınır ve buhar çıkarır; buharı soluma."),
+      a(
+        "Soda çözeltisi",
+        "Havalandırılan yerde, kostik sodayı SUYUN ÜSTÜNE yavaşça ekle (asla tersini yapma) ve karıştır. Isınır ve buhar çıkarır; buharı soluma.",
+      ),
       a("Yağları hazırla", "Yağları birlikte 40–45 °C'ye ısıt."),
       a("Birleştir", "Soda çözeltisi de 40–45 °C'ye inince yağlara dök, blenderla kısa aralıklarla karıştır."),
       a("İz (trace)", "Karışım puding kıvamına gelip yüzeyde iz bırakınca kalıba dök."),
@@ -97,8 +113,12 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── EPOKSİ ─────────────────────────
   {
-    id: "epoksi-altlik", kategoriId: "epoksi", ikon: "circle-double",
-    ad: "Okyanus Desenli Epoksi Bardak Altlığı", zorluk: "Orta", sure: "1 saat + 48 saat kuruma",
+    id: "epoksi-altlik",
+    kategoriId: "epoksi",
+    ikon: "circle-double",
+    ad: "Okyanus Desenli Epoksi Bardak Altlığı",
+    zorluk: "Orta",
+    sure: "1 saat + 48 saat kuruma",
     ozet: "Beyaz dalga efektli, mavi tonlarda reçine altlık seti.",
     malzemeler: [
       m("ea1", "Şeffaf epoksi reçine seti (1:1)", "500 g"),
@@ -110,21 +130,25 @@ export const EL_SANATLARI: Proje[] = [
     ],
     adimlar: [
       a("Hazırlık", "Düz bir yüzeye naylon ser, eldiven ve maske tak, ortamı havalandır."),
-      a("Ölç ve karıştır", "Reçine ve sertleştiriciyi ambalajdaki oranda ölç, 3 dakika kenarları da sıyırarak yavaşça karıştır."),
+      a(
+        "Ölç ve karıştır",
+        "Reçine ve sertleştiriciyi ambalajdaki oranda ölç, 3 dakika kenarları da sıyırarak yavaşça karıştır.",
+      ),
       a("Renklere ayır", "Karışımı 3 kaba böl: koyu mavi, turkuaz ve beyaz renklendir."),
       a("Katmanla dök", "Kalıba önce koyu mavi, sonra turkuaz, en son kenara beyaz dök."),
       a("Dalga yap", "Isı tabancasını uzaktan tutarak beyazı turkuazın üstüne üfle; dantel gibi dalgalar oluşur."),
       a("Kurut", "48 saat tozdan korunmuş halde, düz zeminde beklet."),
     ],
     ipuclari: ["Ortam sıcaklığı 20–25 °C olmalı; soğukta reçine bulanıklaşır ve geç kurur."],
-    guvenlik: [
-      "Reçineye çıplak elle dokunma; zamanla alerji yapabilir.",
-      "Kapalı ortamda çalışma; havalandırma şart.",
-    ],
+    guvenlik: ["Reçineye çıplak elle dokunma; zamanla alerji yapabilir.", "Kapalı ortamda çalışma; havalandırma şart."],
   },
   {
-    id: "nehir-tahta", kategoriId: "epoksi", ikon: "waves",
-    ad: "Nehir Desenli Epoksi Servis Tahtası", zorluk: "Zor", sure: "2 gün + 1 hafta tam kürlenme",
+    id: "nehir-tahta",
+    kategoriId: "epoksi",
+    ikon: "waves",
+    ad: "Nehir Desenli Epoksi Servis Tahtası",
+    zorluk: "Zor",
+    sure: "2 gün + 1 hafta tam kürlenme",
     ozet: "İki canlı kenarlı ahşap arasında şeffaf mavi 'nehir'.",
     malzemeler: [
       m("nt1", "Canlı kenarlı ceviz/meşe tahta (2 parça)", "40×12×2,5 cm"),
@@ -137,8 +161,14 @@ export const EL_SANATLARI: Proje[] = [
     ],
     adimlar: [
       a("Ahşabı hazırla", "Kabukları fırçayla temizle, ahşap tamamen kuru olmalı."),
-      a("Kalıbı kur", "Tabanı ve kenarları koli bandıyla kapla (epoksi banda yapışmaz), köşeleri silikonla sızdırmaz yap."),
-      a("Ahşapları yerleştir", "Tahtaları canlı kenarları ortada boşluk kalacak şekilde koy, yüzmesinler diye üstten sabitle."),
+      a(
+        "Kalıbı kur",
+        "Tabanı ve kenarları koli bandıyla kapla (epoksi banda yapışmaz), köşeleri silikonla sızdırmaz yap.",
+      ),
+      a(
+        "Ahşapları yerleştir",
+        "Tahtaları canlı kenarları ortada boşluk kalacak şekilde koy, yüzmesinler diye üstten sabitle.",
+      ),
       a("Mühürleme katı", "Önce ince bir kat şeffaf epoksiyle ahşap kenarlarını boya; kabarcık çıkmasını önler."),
       a("Döküm", "Pigmentli epoksiyi katlar halinde dök (ürünün izin verdiği maksimum kalınlığı aşma)."),
       a("Kalıptan çıkar ve zımparala", "48–72 saat sonra çıkar, 80'den 400'e kadar zımparala."),
@@ -152,8 +182,12 @@ export const EL_SANATLARI: Proje[] = [
     ],
   },
   {
-    id: "epoksi-kolye", kategoriId: "epoksi", ikon: "flower-outline",
-    ad: "Kuru Çiçekli Reçine Kolye Ucu", zorluk: "Kolay", sure: "1 saat + 24 saat",
+    id: "epoksi-kolye",
+    kategoriId: "epoksi",
+    ikon: "flower-outline",
+    ad: "Kuru Çiçekli Reçine Kolye Ucu",
+    zorluk: "Kolay",
+    sure: "1 saat + 24 saat",
     ozet: "Gerçek kuru çiçekleri reçine içine hapseden kolye ucu.",
     malzemeler: [
       m("ek1", "UV reçine veya hızlı epoksi", "50 g"),
@@ -176,8 +210,12 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── MAKROME & ÖRGÜ ─────────────────────────
   {
-    id: "makrome-aski", kategoriId: "makrome", ikon: "pot-mix",
-    ad: "Makrome Saksı Askısı", zorluk: "Kolay", sure: "1,5 saat",
+    id: "makrome-aski",
+    kategoriId: "makrome",
+    ikon: "pot-mix",
+    ad: "Makrome Saksı Askısı",
+    zorluk: "Kolay",
+    sure: "1,5 saat",
     ozet: "Temel düğümlerle tavana asılan saksı tutucu.",
     malzemeler: [
       m("ma1", "Pamuk makrome ipi 4 mm", "20 m"),
@@ -197,8 +235,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Tavan kancasını saksı + su ağırlığını taşıyacak dübelle tak."],
   },
   {
-    id: "makrome-duvar", kategoriId: "makrome", ikon: "texture",
-    ad: "Makrome Duvar Süsü", zorluk: "Orta", sure: "3 saat",
+    id: "makrome-duvar",
+    kategoriId: "makrome",
+    ikon: "texture",
+    ad: "Makrome Duvar Süsü",
+    zorluk: "Orta",
+    sure: "3 saat",
     ozet: "Ahşap çubuğa asılan, saçaklı bohem duvar süsü.",
     malzemeler: [
       m("md-a", "Pamuk makrome ipi 3–5 mm", "40 m"),
@@ -217,8 +259,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Makası kapalı ve çocukların ulaşamayacağı yerde tut."],
   },
   {
-    id: "amigurumi", kategoriId: "makrome", ikon: "teddy-bear",
-    ad: "Tığ İşi Amigurumi Ayıcık", zorluk: "Orta", sure: "6–8 saat",
+    id: "amigurumi",
+    kategoriId: "makrome",
+    ikon: "teddy-bear",
+    ad: "Tığ İşi Amigurumi Ayıcık",
+    zorluk: "Orta",
+    sure: "6–8 saat",
     ozet: "Spiral örgüyle küçük, doldurulmuş ayıcık.",
     malzemeler: [
       m("am1", "Pamuklu ip (4 kalınlık)", "2 yumak"),
@@ -244,8 +290,12 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── POLİMER KİL & SERAMİK ─────────────────────────
   {
-    id: "kil-kupe", kategoriId: "kil", ikon: "shape-outline",
-    ad: "Polimer Kil Küpe", zorluk: "Kolay", sure: "1,5 saat + fırın",
+    id: "kil-kupe",
+    kategoriId: "kil",
+    ikon: "shape-outline",
+    ad: "Polimer Kil Küpe",
+    zorluk: "Kolay",
+    sure: "1,5 saat + fırın",
     ozet: "Mermer desenli, hafif ve renkli polimer kil küpeler.",
     malzemeler: [
       m("kk-a", "Polimer kil (3–4 renk)", "4 paket"),
@@ -270,8 +320,13 @@ export const EL_SANATLARI: Proje[] = [
     ],
   },
   {
-    id: "taki-tabagi", kategoriId: "kil", ikon: "bowl-mix-outline",
-    ad: "Hava ile Kuruyan Kil Takı Tabağı", zorluk: "Kolay", sure: "1 saat + 24 saat kuruma", yas: "6+ yaş",
+    id: "taki-tabagi",
+    kategoriId: "kil",
+    ikon: "bowl-mix-outline",
+    ad: "Hava ile Kuruyan Kil Takı Tabağı",
+    zorluk: "Kolay",
+    sure: "1 saat + 24 saat kuruma",
+    yas: "6+ yaş",
     ozet: "Fırına gerek olmadan, kenarı yaldızlı küçük takı tabağı.",
     malzemeler: [
       m("tt1", "Hava ile kuruyan kil (beyaz)", "500 g"),
@@ -291,8 +346,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Bu tabak yiyecek için uygun değildir; sadece dekoratif kullan."],
   },
   {
-    id: "kil-miknatis", kategoriId: "kil", ikon: "food-croissant",
-    ad: "Minyatür Yiyecek Buzdolabı Magneti", zorluk: "Orta", sure: "2 saat + fırın",
+    id: "kil-miknatis",
+    kategoriId: "kil",
+    ikon: "food-croissant",
+    ad: "Minyatür Yiyecek Buzdolabı Magneti",
+    zorluk: "Orta",
+    sure: "2 saat + fırın",
     ozet: "Polimer kilden kruvasan, pizza dilimi gibi minik magnetler.",
     malzemeler: [
       m("km1", "Polimer kil (bej, kahve, kırmızı, sarı)", "4 paket"),
@@ -308,7 +367,9 @@ export const EL_SANATLARI: Proje[] = [
       a("Pişir", "Ambalajdaki sıcaklıkta pişir."),
       a("Mıknatısı yapıştır", "Soğuyunca arkasına mıknatısı yapıştır."),
     ],
-    ipuclari: ["Pizza için ince açılmış bej kilin üstüne kırmızı sos, sarı rendelenmiş kil ve minik pepperoniler ekle."],
+    ipuclari: [
+      "Pizza için ince açılmış bej kilin üstüne kırmızı sos, sarı rendelenmiş kil ve minik pepperoniler ekle.",
+    ],
     guvenlik: [
       "Neodyum mıknatıslar küçük çocuklar için çok tehlikelidir; yutulursa acil tıbbi yardım gerekir.",
       "Gerçek yiyeceğe benzeyen magnetleri çocukların ulaşamayacağı yerde kullan.",
@@ -317,8 +378,12 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── DERİ ─────────────────────────
   {
-    id: "deri-kartlik", kategoriId: "deri", ikon: "card-account-details-outline",
-    ad: "El Dikişli Deri Kartlık", zorluk: "Orta", sure: "3 saat",
+    id: "deri-kartlik",
+    kategoriId: "deri",
+    ikon: "card-account-details-outline",
+    ad: "El Dikişli Deri Kartlık",
+    zorluk: "Orta",
+    sure: "3 saat",
     ozet: "İki cepli, saraç dikişiyle dikilmiş ince kartlık.",
     malzemeler: [
       m("dk1", "Bitkisel tabaklanmış deri 1,2–1,5 mm", "20×30 cm"),
@@ -337,11 +402,18 @@ export const EL_SANATLARI: Proje[] = [
       a("Kenarları bitir", "Kenarları yuvarlatıcıyla yuvarlat, kenar cilası sürüp bezle parlatana kadar ov."),
     ],
     ipuclari: ["Saraç dikişi, tek ip kopsa bile sökülmez; makine dikişinden dayanıklıdır."],
-    guvenlik: ["Bıçakla keserken cetveli parmaklarının önünde tut.", "Tokmakla vururken parmaklarını zımbadan uzak tut."],
+    guvenlik: [
+      "Bıçakla keserken cetveli parmaklarının önünde tut.",
+      "Tokmakla vururken parmaklarını zımbadan uzak tut.",
+    ],
   },
   {
-    id: "deri-anahtarlik", kategoriId: "deri", ikon: "key-variant",
-    ad: "Deri Anahtarlık", zorluk: "Kolay", sure: "1 saat",
+    id: "deri-anahtarlik",
+    kategoriId: "deri",
+    ikon: "key-variant",
+    ad: "Deri Anahtarlık",
+    zorluk: "Kolay",
+    sure: "1 saat",
     ozet: "Perçinli, harf damgalı kişisel anahtarlık.",
     malzemeler: [
       m("da1", "Deri şerit 2,5×20 cm", "1 adet"),
@@ -360,8 +432,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Tokmakla çalışırken sert ve sağlam bir zemin kullan."],
   },
   {
-    id: "deri-kemer", kategoriId: "deri", ikon: "seatbelt",
-    ad: "Deri Kemer", zorluk: "Orta", sure: "3 saat",
+    id: "deri-kemer",
+    kategoriId: "deri",
+    ikon: "seatbelt",
+    ad: "Deri Kemer",
+    zorluk: "Orta",
+    sure: "3 saat",
     ozet: "Tek parça deri şeritten, tokası değiştirilebilir kemer.",
     malzemeler: [
       m("dkm1", "Kemer şeridi (3,5 cm, 3–4 mm deri)", "1 adet"),
@@ -383,8 +459,13 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── TAKI ─────────────────────────
   {
-    id: "dogal-tas-bileklik", kategoriId: "taki", ikon: "circle-multiple-outline",
-    ad: "Doğal Taş Elastik Bileklik", zorluk: "Kolay", sure: "30 dk", yas: "8+ yaş",
+    id: "dogal-tas-bileklik",
+    kategoriId: "taki",
+    ikon: "circle-multiple-outline",
+    ad: "Doğal Taş Elastik Bileklik",
+    zorluk: "Kolay",
+    sure: "30 dk",
+    yas: "8+ yaş",
     ozet: "Doğal taş boncuklarla bileğe göre ayarlanan bileklik.",
     malzemeler: [
       m("db1", "Doğal taş boncuk 8 mm", "25 adet"),
@@ -404,8 +485,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Küçük boncuklar 3 yaş altı için boğulma riski taşır."],
   },
   {
-    id: "tel-sarma-kolye", kategoriId: "taki", ikon: "necklace",
-    ad: "Tel Sarma Taş Kolye", zorluk: "Orta", sure: "1,5 saat",
+    id: "tel-sarma-kolye",
+    kategoriId: "taki",
+    ikon: "necklace",
+    ad: "Tel Sarma Taş Kolye",
+    zorluk: "Orta",
+    sure: "1,5 saat",
     ozet: "Ham kuvars taşını bakır tel ile sararak kolye ucu yapma.",
     malzemeler: [
       m("tk1", "Ham kuvars / doğal kristal", "1 adet"),
@@ -426,8 +511,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Kesilen tel uçları sıçrar; keserken gözlük tak ve ucu elinle tut."],
   },
   {
-    id: "boncuk-kupe", kategoriId: "taki", ikon: "water-outline",
-    ad: "Damla Boncuk Küpe", zorluk: "Kolay", sure: "40 dk",
+    id: "boncuk-kupe",
+    kategoriId: "taki",
+    ikon: "water-outline",
+    ad: "Damla Boncuk Küpe",
+    zorluk: "Kolay",
+    sure: "40 dk",
     ozet: "İğne çivi ve kancalarla basit sallantılı küpe.",
     malzemeler: [
       m("bk1", "Cam damla boncuk", "2 adet"),
@@ -448,8 +537,12 @@ export const EL_SANATLARI: Proje[] = [
 
   // ───────────────────────── PİROGRAFİ & RESİM ─────────────────────────
   {
-    id: "pirografi-pano", kategoriId: "pirografi", ikon: "fire",
-    ad: "Ahşap Yakma Desenli Pano", zorluk: "Orta", sure: "3 saat",
+    id: "pirografi-pano",
+    kategoriId: "pirografi",
+    ikon: "fire",
+    ad: "Ahşap Yakma Desenli Pano",
+    zorluk: "Orta",
+    sure: "3 saat",
     ozet: "Pirografi kalemiyle ahşap kütük dilimine desen yakma.",
     malzemeler: [
       m("py1", "Ahşap kütük dilimi (ıhlamur/kayın)", "1 adet"),
@@ -473,8 +566,13 @@ export const EL_SANATLARI: Proje[] = [
     ],
   },
   {
-    id: "tas-boyama", kategoriId: "pirografi", ikon: "dots-circle",
-    ad: "Mandala Taş Boyama", zorluk: "Kolay", sure: "1,5 saat", yas: "7+ yaş",
+    id: "tas-boyama",
+    kategoriId: "pirografi",
+    ikon: "dots-circle",
+    ad: "Mandala Taş Boyama",
+    zorluk: "Kolay",
+    sure: "1,5 saat",
+    yas: "7+ yaş",
     ozet: "Deniz taşlarına noktalarla mandala deseni.",
     malzemeler: [
       m("tb1", "Düz, pürüzsüz deniz taşı", "3–5 adet"),
@@ -493,8 +591,12 @@ export const EL_SANATLARI: Proje[] = [
     guvenlik: ["Kamuya açık alanlardan ve korunan kıyılardan taş toplama yasak olabilir; satın alınmış taş kullan."],
   },
   {
-    id: "akiskan-resim", kategoriId: "pirografi", ikon: "palette-outline",
-    ad: "Akışkan Akrilik Resim (Pouring)", zorluk: "Kolay", sure: "1 saat + 2 gün kuruma",
+    id: "akiskan-resim",
+    kategoriId: "pirografi",
+    ikon: "palette-outline",
+    ad: "Akışkan Akrilik Resim (Pouring)",
+    zorluk: "Kolay",
+    sure: "1 saat + 2 gün kuruma",
     ozet: "Boyaları tuvale dökerek hücreli, mermer desenli soyut tablo.",
     malzemeler: [
       m("ar1", "Tuval 30×30 cm", "1 adet"),

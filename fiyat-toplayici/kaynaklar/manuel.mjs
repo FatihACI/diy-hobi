@@ -15,7 +15,13 @@ export async function topla({ malzemeler, kok }) {
     .filter((s) => s.trim() && !s.startsWith("#") && !s.startsWith("malzemeId"))
     .map((s) => {
       const [malzemeId, magaza, fiyat, url, tarih] = s.split(";").map((x) => x.trim());
-      return { malzemeId, magaza, fiyat: Number(fiyat.replace(/\./g, "").replace(",", ".")), url, guncelleme: tarih || null };
+      return {
+        malzemeId,
+        magaza,
+        fiyat: Number(fiyat.replace(/\./g, "").replace(",", ".")),
+        url,
+        guncelleme: tarih || null,
+      };
     })
     .filter((t) => ids.has(t.malzemeId) && t.fiyat > 0 && t.url?.startsWith("http"));
 }

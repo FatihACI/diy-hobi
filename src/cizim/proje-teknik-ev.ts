@@ -39,9 +39,7 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
 
   // Kapaklı kutu + ölçü okları
   "tinkercad-kutu": {
-    taramalar: [
-      { id: "y", sinir: "M110 96 L140 80 L140 120 L110 136 Z", kutu: [110, 80, 30, 56], aralik: 3.5 },
-    ],
+    taramalar: [{ id: "y", sinir: "M110 96 L140 80 L140 120 L110 136 Z", kutu: [110, 80, 30, 56], aralik: 3.5 }],
     cizgiler: [
       { d: "M30 96 L110 96 L140 80 L60 80 Z", w: 1.6, dolgu: true },
       { d: "M38 94 L106 94 L130 82 L64 82 Z", w: 0.9 },
@@ -49,7 +47,10 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
       { d: "M30 50 L110 50 L140 34 L60 34 Z", w: 1.8, dolgu: true },
       { d: "M30 50 L30 58 L110 58 L140 42 L140 34 M110 50 L110 58", w: 1.8 },
       { d: "M44 62 L104 62 L124 52", w: 0.9, kesik: true },
-      { d: "M30 146 L110 146 M30 142 L30 150 M110 142 L110 150 M36 143 L30 146 L36 149 M104 143 L110 146 L104 149", w: 1 },
+      {
+        d: "M30 146 L110 146 M30 142 L30 150 M110 142 L110 150 M36 143 L30 146 L36 149 M104 143 L110 146 L104 149",
+        w: 1,
+      },
       { d: "M18 96 L18 136 M14 96 L22 96 M14 136 L22 136", w: 1 },
       { d: "M70 66 L70 76 M66 72 L70 76 L74 72", w: 1.2 },
     ],
@@ -57,9 +58,7 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
 
   // Lastik, levye ve yama
   "ic-lastik": {
-    taramalar: [
-      { id: "l", sinir: daire(70, 88, 58) + " " + daire(70, 88, 44), kutu: [12, 30, 116, 116], aralik: 5 },
-    ],
+    taramalar: [{ id: "l", sinir: daire(70, 88, 58) + " " + daire(70, 88, 44), kutu: [12, 30, 116, 116], aralik: 5 }],
     cizgiler: [
       { d: daire(70, 88, 58), w: 2.4 },
       { d: daire(70, 88, 44), w: 1.8, dolgu: true },
@@ -76,7 +75,13 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
   // Aynakol dişlisi, zincir ve yağ şişesi
   "zincir-bakim": {
     taramalar: [
-      { id: "s", sinir: "M112 40 L132 40 L132 76 Q132 82 126 82 L118 82 Q112 82 112 76 Z", kutu: [112, 40, 20, 42], aralik: 3, sonra: 4 },
+      {
+        id: "s",
+        sinir: "M112 40 L132 40 L132 76 Q132 82 126 82 L118 82 Q112 82 112 76 Z",
+        kutu: [112, 40, 20, 42],
+        aralik: 3,
+        sonra: 4,
+      },
     ],
     cizgiler: [
       { d: zikzak(18, 100, 18, 100, 1, 0) + " " + daire(52, 100, 34), w: 2 },
@@ -111,9 +116,7 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
 
   // Musluk, damla, conta ve anahtar
   "musluk-conta": {
-    taramalar: [
-      { id: "c", sinir: daire(124, 116, 18) + " " + daire(124, 116, 8), kutu: [106, 98, 36, 36], aralik: 3 },
-    ],
+    taramalar: [{ id: "c", sinir: daire(124, 116, 18) + " " + daire(124, 116, 8), kutu: [106, 98, 36, 36], aralik: 3 }],
     cizgiler: [
       { d: "M10 50 L40 50 L40 70 L10 70", w: 2 },
       { d: "M40 52 L94 52 Q104 52 104 62 L104 80 L92 80 L92 66 L40 66", w: 2, dolgu: true },
@@ -129,9 +132,7 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
 
   // Duvar, delik, çatlak, macunlu spatula
   "duvar-tamir": {
-    taramalar: [
-      { id: "m", sinir: "M84 104 L130 84 L140 104 L96 124 Z", kutu: [84, 84, 56, 40], aralik: 3, sonra: 4 },
-    ],
+    taramalar: [{ id: "m", sinir: "M84 104 L130 84 L140 104 L96 124 Z", kutu: [84, 84, 56, 40], aralik: 3, sonra: 4 }],
     cizgiler: [
       { d: kutu(14, 14, 100, 132), w: 1.4 },
       { d: daire(50, 50, 7), w: 1.8, dolgu: true },
@@ -147,12 +148,13 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
 
   // Küvet köşesi ve silikon tabancası
   "silikon-yenileme": {
-    taramalar: [
-      { id: "f", sinir: "M10 96 L150 96 L150 150 L10 150 Z", kutu: [10, 96, 140, 54], aralik: 6 },
-    ],
+    taramalar: [{ id: "f", sinir: "M10 96 L150 96 L150 150 L10 150 Z", kutu: [10, 96, 140, 54], aralik: 6 }],
     cizgiler: [
       { d: "M10 10 L10 96 L150 96", w: 1.6 },
-      { d: "M30 10 L30 96 M50 10 L50 96 M70 10 L70 96 M90 10 L90 96 M110 10 L110 96 M130 10 L130 96 M10 30 L150 30 M10 50 L150 50 M10 70 L150 70", w: 0.5 },
+      {
+        d: "M30 10 L30 96 M50 10 L50 96 M70 10 L70 96 M90 10 L90 96 M110 10 L110 96 M130 10 L130 96 M10 30 L150 30 M10 50 L150 50 M10 70 L150 70",
+        w: 0.5,
+      },
       { d: "M10 96 Q14 120 40 124 L150 124", w: 2, dolgu: true },
       { d: "M10 100 L96 100", w: 3.2 },
       { d: "M96 100 L108 92", w: 1.6 },

@@ -4,14 +4,23 @@
 // fiyat (varsa) min–max aralığında olmalı.
 
 export const normal = (s) =>
-  s.toLocaleLowerCase("tr-TR")
-    .replace(/[ıİ]/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g")
-    .replace(/ü/g, "u").replace(/ö/g, "o").replace(/ç/g, "c")
-    .replace(/[^a-z0-9ø×,.]+/g, " ").trim();
+  s
+    .toLocaleLowerCase("tr-TR")
+    .replace(/[ıİ]/g, "i")
+    .replace(/ş/g, "s")
+    .replace(/ğ/g, "g")
+    .replace(/ü/g, "u")
+    .replace(/ö/g, "o")
+    .replace(/ç/g, "c")
+    .replace(/[^a-z0-9ø×,.]+/g, " ")
+    .trim();
 
 // Malzeme adından varsayılan arama kelimeleri: parantez ve ölçüleri at
 export function varsayilanArama(ad) {
-  return ad.replace(/\(.*?\)/g, "").replace(/\d+([.,]\d+)?\s*(×\s*\d+([.,]\d+)?)*\s*(mm|cm|m|g|kg|ml|l|w|v|ω|kω)?\b/gi, "").trim();
+  return ad
+    .replace(/\(.*?\)/g, "")
+    .replace(/\d+([.,]\d+)?\s*(×\s*\d+([.,]\d+)?)*\s*(mm|cm|m|g|kg|ml|l|w|v|ω|kω)?\b/gi, "")
+    .trim();
 }
 
 export function kuralOlustur(malzeme, ozel = {}) {

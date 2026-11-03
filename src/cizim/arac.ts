@@ -3,11 +3,11 @@
 export type Cizgi = { d: string; w?: number; dolgu?: boolean; kesik?: boolean };
 export type Tarama = {
   id: string;
-  sinir: string;                              // tarama bu şeklin içine kırpılır
-  kutu: [number, number, number, number];     // taranacak alan (x, y, en, boy)
+  sinir: string; // tarama bu şeklin içine kırpılır
+  kutu: [number, number, number, number]; // taranacak alan (x, y, en, boy)
   aralik?: number;
   ters?: boolean;
-  sonra?: number;                             // hangi çizgiden sonra çizilsin (varsayılan: en başta)
+  sonra?: number; // hangi çizgiden sonra çizilsin (varsayılan: en başta)
 };
 export type Cizim = { cizgiler: Cizgi[]; taramalar?: Tarama[]; noktalar?: [number, number, number][] };
 
@@ -15,17 +15,18 @@ export type Cizim = { cizgiler: Cizgi[]; taramalar?: Tarama[]; noktalar?: [numbe
 export function taramaYollari([x, y, w, h]: Tarama["kutu"], aralik: number, ters?: boolean) {
   const d: string[] = [];
   for (let t = -h; t < w; t += aralik) {
-    d.push(ters
-      ? `M${x + t} ${y} L${x + t + h} ${y + h}`
-      : `M${x + t} ${y + h} L${x + t + h} ${y}`);
+    d.push(ters ? `M${x + t} ${y} L${x + t + h} ${y + h}` : `M${x + t} ${y + h} L${x + t + h} ${y}`);
   }
   return d.join(" ");
 }
 
 // Testere dişi gibi zikzak
 export function zikzak(x1: number, y1: number, x2: number, y2: number, n: number, boy: number) {
-  const dx = (x2 - x1) / n, dy = (y2 - y1) / n;
-  const len = Math.hypot(dx, dy), nx = (-dy / len) * boy, ny = (dx / len) * boy;
+  const dx = (x2 - x1) / n,
+    dy = (y2 - y1) / n;
+  const len = Math.hypot(dx, dy),
+    nx = (-dy / len) * boy,
+    ny = (dx / len) * boy;
   let d = `M${x1} ${y1}`;
   for (let i = 0; i < n; i++) {
     d += ` L${x1 + dx * (i + 0.5) + nx} ${y1 + dy * (i + 0.5) + ny} L${x1 + dx * (i + 1)} ${y1 + dy * (i + 1)}`;

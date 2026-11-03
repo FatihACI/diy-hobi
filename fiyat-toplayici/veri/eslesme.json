@@ -5,7 +5,11 @@
   "st1": { "arama": "misina 0,25 mm", "zorunlu": ["misina", "0,25"] },
   "st2": { "arama": "misina 0,20 mm", "zorunlu": ["misina", "0,20"] },
   "sk3": { "arama": "örgü misina pe 0,12", "zorunlu": ["misina", "pe"] },
-  "na1": { "arama": "akvaryum 30 litre", "zorunlu": ["akvaryum", "30"], "haric": ["filtre", "isitici", "lamba", "yem"] },
+  "na1": {
+    "arama": "akvaryum 30 litre",
+    "zorunlu": ["akvaryum", "30"],
+    "haric": ["filtre", "isitici", "lamba", "yem"]
+  },
   "na3": { "arama": "akvaryum ısıtıcı 50w", "zorunlu": ["akvaryum", "isitici", "50"] },
   "kt1": { "arama": "kayın kesme tahtası kereste", "zorunlu": ["kayin"] },
   "kt3": { "arama": "gıdaya uygun mineral yağ ahşap", "zorunlu": ["mineral", "yag"] },
