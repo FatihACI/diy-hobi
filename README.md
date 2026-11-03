@@ -2,13 +2,20 @@
 
 Evde yapılabilecek hobi projelerini adım adım anlatan, malzeme listesini (BOM) ve güvenilir mağazalardaki en düşük fiyatı gösteren Android uygulaması. Expo / React Native ile yazıldı.
 
+## Çizimleri kontrol etme
+
+```
+npx --prefix fiyat-toplayici tsx araclar/cizim-onizle.ts > cizimler.html
+```
+Oluşan `cizimler.html` dosyasını tarayıcıda açınca tüm karakalem çizimler ızgara halinde görünür.
+
 ## Klasör yapısı
 
 ```
 App.tsx                 Navigasyon (alt sekmeler + ekran yığını)
 src/
   theme.ts              Renkler, boşluklar, yazı stilleri
-  data/                 Kategoriler, projeler (içerik burada)
+  data/                 Kategoriler (20, 4 grup) ve projeler (grup başına ayrı dosya)
   cizim/                Karakalem çizim verileri (kategori + proje)
   cizimler.tsx          Çizimleri ekrana basan bileşen
   fiyat.tsx             Fiyatları internetten okur, önbelleğe alır
@@ -74,7 +81,7 @@ Bitince verilen linkten APK'yı telefona indirip kur. Play Store için `--profil
 ## Testler
 
 ```
-npm test                        # uygulama: Android ortamında tüm ekranlar + 16 proje
+npm test                        # uygulama: içerik bütünlüğü + Android ortamında tüm ekranlar ve 61 proje
 cd fiyat-toplayici && npm test  # fiyat toplayıcı
 ```
 

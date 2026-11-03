@@ -20,8 +20,11 @@ export type Malzeme = {
 
 export type Adim = { baslik: string; aciklama: string };
 
+export type KategoriGrubu = "Çocuk & Oyun" | "Doğa & Hayvan" | "El Sanatları" | "Teknik & Ev";
+
 export type Kategori = {
   id: string;
+  grup: KategoriGrubu;
   ad: string;
   aciklama: string;
   ikon: IkonAdi;

@@ -4,7 +4,8 @@
     "strict": true
   },
   "exclude": [
+    "node_modules",
     "fiyat-toplayici",
-    "node_modules"
+    "araclar"
   ]
 }

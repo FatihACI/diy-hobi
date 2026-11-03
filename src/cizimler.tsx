@@ -5,7 +5,14 @@ import { useId } from "react";
 import Svg, { Circle, ClipPath, Defs, G, Path } from "react-native-svg";
 import { Cizim as CizimVeri, taramaYollari } from "./cizim/arac";
 import { KATEGORI_CIZIM } from "./cizim/kategori";
+import { KATEGORI_EK } from "./cizim/kategori-ek";
 import { PROJE_CIZIM } from "./cizim/proje";
+import { PROJE_COCUK_DOGA } from "./cizim/proje-cocuk-doga";
+import { PROJE_EL_SANATLARI } from "./cizim/proje-el-sanatlari";
+import { PROJE_TEKNIK_EV } from "./cizim/proje-teknik-ev";
+
+export const TUM_KATEGORI_CIZIM = { ...KATEGORI_CIZIM, ...KATEGORI_EK };
+export const TUM_PROJE_CIZIM = { ...PROJE_CIZIM, ...PROJE_COCUK_DOGA, ...PROJE_EL_SANATLARI, ...PROJE_TEKNIK_EV };
 
 const KALEM = "#2B2B2B";
 export const KAGIT_RENGI = "#FBF8F1";
@@ -52,11 +59,11 @@ function CizimSvg({ veri, anahtar: ad, boyut }: { veri: CizimVeri; anahtar: stri
 }
 
 export function KategoriCizim({ id, boyut = 140 }: { id: string; boyut?: number }) {
-  const v = KATEGORI_CIZIM[id];
+  const v = TUM_KATEGORI_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`k-${id}`} boyut={boyut} /> : null;
 }
 
 export function ProjeCizim({ id, boyut = 120 }: { id: string; boyut?: number }) {
-  const v = PROJE_CIZIM[id];
+  const v = TUM_PROJE_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`p-${id}`} boyut={boyut} /> : null;
 }

@@ -1,12 +1,11 @@
-import { Malzeme, Proje } from "./types";
+import { Proje } from "./types";
+import { a, m } from "./yardimci";
+import { COCUK_DOGA } from "./projeler-cocuk-doga";
+import { EL_SANATLARI } from "./projeler-el-sanatlari";
+import { TEKNIK_EV } from "./projeler-teknik-ev";
 
-// Kısa yazım yardımcısı: m("id", "ad", "miktar", aletMi)
-const m = (id: string, ad: string, miktar: string, arac = false): Malzeme =>
-  ({ id, ad, miktar, arac });
-
-const a = (baslik: string, aciklama: string) => ({ baslik, aciklama });
-
-export const PROJELER: Proje[] = [
+// İlk 5 kategori (oyuncak, balıkçılık, akvaryum, ahşap, elektronik)
+const ILK_PROJELER: Proje[] = [
   // ───────────────────────── OYUNCAK ─────────────────────────
   {
     id: "ahsap-araba", kategoriId: "oyuncak", ikon: "car-side",
@@ -582,6 +581,8 @@ void loop() {
 }`,
   },
 ];
+
+export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLARI, ...TEKNIK_EV];
 
 export const projeBul = (id: string) => PROJELER.find((p) => p.id === id)!;
 export const kategoriProjeleri = (kid: string) => PROJELER.filter((p) => p.kategoriId === kid);
