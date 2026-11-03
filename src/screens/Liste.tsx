@@ -47,10 +47,10 @@ export default function Liste() {
         <Text style={yazi.dev}>Alışveriş Listesi</Text>
         {tumKalemler.length > 0 && (
           <View style={{ flexDirection: "row", gap: bosluk.m }}>
-            <Pressable onPress={paylas} hitSlop={10} style={s.ustBtn}>
+            <Pressable accessibilityLabel="Listeyi paylaş" onPress={paylas} hitSlop={10} style={s.ustBtn}>
               <Ikon name="share-variant" size={20} color={renk.ana} />
             </Pressable>
-            <Pressable hitSlop={10} style={s.ustBtn} onPress={() =>
+            <Pressable accessibilityLabel="Listeyi temizle" hitSlop={10} style={s.ustBtn} onPress={() =>
               Alert.alert("Listeyi temizle", "Tüm malzemeler listeden silinsin mi?", [
                 { text: "Vazgeç", style: "cancel" },
                 { text: "Temizle", style: "destructive", onPress: st.listeyiTemizle },

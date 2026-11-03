@@ -23,7 +23,7 @@ export default function KategoriDetay({ route, navigation }: P) {
     <ScrollView style={{ backgroundColor: renk.arkaPlan }} contentContainerStyle={{ paddingBottom: bosluk.xxl }}>
       <LinearGradient colors={k.renkler} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}
         style={[s.kapak, { paddingTop: ust + bosluk.s }]}>
-        <Pressable onPress={navigation.goBack} style={s.geri} hitSlop={10}>
+        <Pressable accessibilityLabel="Geri" accessibilityRole="button" onPress={navigation.goBack} style={s.geri} hitSlop={10}>
           <Ikon name="arrow-left" size={22} color="#fff" />
         </Pressable>
         <Ikon name={k.ikon} size={48} color="#fff" />

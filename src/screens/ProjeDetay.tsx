@@ -35,10 +35,10 @@ export default function ProjeDetay({ route, navigation }: P) {
         {/* Kapak */}
         <View style={[s.kapak, { paddingTop: ins.top + bosluk.s, borderTopColor: k.renkler[0] }]}>
           <View style={s.ustBar}>
-            <Pressable onPress={navigation.goBack} style={s.yuvarlak} hitSlop={10}>
+            <Pressable accessibilityLabel="Geri" accessibilityRole="button" onPress={navigation.goBack} style={s.yuvarlak} hitSlop={10}>
               <Ikon name="arrow-left" size={22} color={renk.yazi} />
             </Pressable>
-            <Pressable onPress={() => st.favoriDegistir(p.id)} style={s.yuvarlak} hitSlop={10}>
+            <Pressable accessibilityLabel={fav ? "Favorilerden çıkar" : "Favorilere ekle"} accessibilityRole="button" onPress={() => st.favoriDegistir(p.id)} style={s.yuvarlak} hitSlop={10}>
               <Ikon name={fav ? "heart" : "heart-outline"} size={22} color={fav ? renk.tehlike : renk.yazi} />
             </Pressable>
           </View>

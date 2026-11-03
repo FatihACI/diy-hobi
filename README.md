@@ -70,3 +70,14 @@ eas build -p android --profile onizleme
 Bitince verilen linkten APK'yı telefona indirip kur. Play Store için `--profile yayin` (AAB) kullanılır.
 
 > ⚠️ `app.json` içindeki `android.package` (şu an geçici: `com.evdehobi.app`) Play Store'a ilk yüklemeden sonra **değiştirilemez**. Uygulama adı kesinleşince güncelle.
+
+## Testler
+
+```
+npm test                        # uygulama: Android ortamında tüm ekranlar + 16 proje
+cd fiyat-toplayici && npm test  # fiyat toplayıcı
+```
+
+## Sorun giderme
+
+Expo Go açılmıyor / "Unable to resolve module" hatası: `node_modules` klasörünü silip `npm install`, sonra `npx expo start -c` (önbelleği temizler).
