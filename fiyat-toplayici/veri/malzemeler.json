@@ -2597,6 +2597,573 @@
     "kategoriId": "ev-tamir"
   },
   {
+    "id": "ahsap-kasik-1",
+    "ad": "Taze ıhlamur/kayın parçası 25×6×3 cm",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-kasik-2",
+    "ad": "Oyma bıçağı (düz)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-kasik-3",
+    "ad": "Kaşık oyma bıçağı (kanca)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-kasik-4",
+    "ad": "Kesilmeye dayanıklı eldiven",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-kasik-5",
+    "ad": "Zımpara 120–320",
+    "miktar": "1 set",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-kasik-6",
+    "ad": "Gıdaya uygun yağ",
+    "miktar": "1 adet",
+    "projeId": "ahsap-kasik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "cicek-kutusu-1",
+    "ad": "Çam tahta 2×15 cm",
+    "miktar": "2,5 m",
+    "projeId": "cicek-kutusu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "cicek-kutusu-2",
+    "ad": "Paslanmaz vida 4×40",
+    "miktar": "20 adet",
+    "projeId": "cicek-kutusu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "cicek-kutusu-3",
+    "ad": "Dış cephe ahşap boyası",
+    "miktar": "1 adet",
+    "projeId": "cicek-kutusu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "cicek-kutusu-4",
+    "ad": "Naylon astar (delikli)",
+    "miktar": "1 adet",
+    "projeId": "cicek-kutusu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "cicek-kutusu-5",
+    "ad": "Testere + matkap",
+    "miktar": "1 set",
+    "projeId": "cicek-kutusu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "servis-tepsisi-1",
+    "ad": "Kontrplak 6 mm (taban)",
+    "miktar": "45×30 cm",
+    "projeId": "servis-tepsisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "servis-tepsisi-2",
+    "ad": "Masif çıta 1,5×6 cm",
+    "miktar": "2 m",
+    "projeId": "servis-tepsisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "servis-tepsisi-3",
+    "ad": "Ahşap tutkalı + küçük çivi",
+    "miktar": "1 set",
+    "projeId": "servis-tepsisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "servis-tepsisi-4",
+    "ad": "Panç / Forstner uç Ø25 mm",
+    "miktar": "1 adet",
+    "projeId": "servis-tepsisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "servis-tepsisi-5",
+    "ad": "Gıdaya uygun yağ",
+    "miktar": "1 adet",
+    "projeId": "servis-tepsisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kitap-standi-1",
+    "ad": "Kontrplak veya masif tahta 12 mm",
+    "miktar": "40×30 cm",
+    "projeId": "kitap-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kitap-standi-2",
+    "ad": "Küçük menteşe",
+    "miktar": "1 adet",
+    "projeId": "kitap-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kitap-standi-3",
+    "ad": "Ahşap çıta (alt dayanak)",
+    "miktar": "25 cm",
+    "projeId": "kitap-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kitap-standi-4",
+    "ad": "Dekupaj testere",
+    "miktar": "1 adet",
+    "projeId": "kitap-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ayakkabilik-1",
+    "ad": "Çam tahta 2×25 cm",
+    "miktar": "4 m",
+    "projeId": "ayakkabilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ayakkabilik-2",
+    "ad": "Çıta 2×4 cm",
+    "miktar": "3 m",
+    "projeId": "ayakkabilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ayakkabilik-3",
+    "ad": "Vida 4×50",
+    "miktar": "40 adet",
+    "projeId": "ayakkabilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ayakkabilik-4",
+    "ad": "Ahşap vernik",
+    "miktar": "1 adet",
+    "projeId": "ayakkabilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ayakkabilik-5",
+    "ad": "Daire/dekupaj testere + matkap",
+    "miktar": "1 set",
+    "projeId": "ayakkabilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "duvar-askilik-1",
+    "ad": "Masif tahta 2×12×80 cm",
+    "miktar": "1 adet",
+    "projeId": "duvar-askilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "duvar-askilik-2",
+    "ad": "Ahşap dübel çubuk Ø18 mm veya metal kanca",
+    "miktar": "5 adet",
+    "projeId": "duvar-askilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "duvar-askilik-3",
+    "ad": "Ahşap tutkalı",
+    "miktar": "1 adet",
+    "projeId": "duvar-askilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "duvar-askilik-4",
+    "ad": "Duvar dübeli + vida",
+    "miktar": "3 set",
+    "projeId": "duvar-askilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "duvar-askilik-5",
+    "ad": "Matkap + Ø18 mm uç",
+    "miktar": "1 set",
+    "projeId": "duvar-askilik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-saat-1",
+    "ad": "Kütük dilimi veya kontrplak daire Ø30 cm",
+    "miktar": "1 adet",
+    "projeId": "ahsap-saat",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-saat-2",
+    "ad": "Akrep yelkovan + saat mekanizması seti",
+    "miktar": "1 set",
+    "projeId": "ahsap-saat",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-saat-3",
+    "ad": "AA pil",
+    "miktar": "1 adet",
+    "projeId": "ahsap-saat",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-saat-4",
+    "ad": "Matkap + Ø8 mm uç",
+    "miktar": "1 adet",
+    "projeId": "ahsap-saat",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-saat-5",
+    "ad": "Mat vernik",
+    "miktar": "1 adet",
+    "projeId": "ahsap-saat",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "palet-sehpa-1",
+    "ad": "HT damgalı palet",
+    "miktar": "1 adet",
+    "projeId": "palet-sehpa",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "palet-sehpa-2",
+    "ad": "Frenli tekerlek",
+    "miktar": "4 adet",
+    "projeId": "palet-sehpa",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "palet-sehpa-3",
+    "ad": "Eksantrik zımpara + 60–180 kum",
+    "miktar": "1 set",
+    "projeId": "palet-sehpa",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "palet-sehpa-4",
+    "ad": "Ahşap vernik veya yağ",
+    "miktar": "1 adet",
+    "projeId": "palet-sehpa",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "palet-sehpa-5",
+    "ad": "Cam (isteğe bağlı üst tabla)",
+    "miktar": "1 adet",
+    "projeId": "palet-sehpa",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tabure-1",
+    "ad": "Kayın lata 4×4 cm",
+    "miktar": "2 m",
+    "projeId": "tabure",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tabure-2",
+    "ad": "Masif tahta 3×30×30 cm (oturak)",
+    "miktar": "1 adet",
+    "projeId": "tabure",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tabure-3",
+    "ad": "Ahşap tutkalı (D3)",
+    "miktar": "1 adet",
+    "projeId": "tabure",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tabure-4",
+    "ad": "Kavelalar Ø8 mm",
+    "miktar": "16 adet",
+    "projeId": "tabure",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tabure-5",
+    "ad": "Kavela seti + matkap",
+    "miktar": "1 set",
+    "projeId": "tabure",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tablet-standi-1",
+    "ad": "Masif sert ağaç 4×6×15 cm",
+    "miktar": "1 adet",
+    "projeId": "tablet-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tablet-standi-2",
+    "ad": "Gönye testere",
+    "miktar": "1 adet",
+    "projeId": "tablet-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tablet-standi-3",
+    "ad": "Zımpara 120/240",
+    "miktar": "2 adet",
+    "projeId": "tablet-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "tablet-standi-4",
+    "ad": "Ahşap yağı",
+    "miktar": "1 adet",
+    "projeId": "tablet-standi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "baharat-rafi-1",
+    "ad": "Çam tahta 1,5×8 cm",
+    "miktar": "2 m",
+    "projeId": "baharat-rafi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "baharat-rafi-2",
+    "ad": "Ahşap çıta (korkuluk) 1×1 cm",
+    "miktar": "1 m",
+    "projeId": "baharat-rafi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "baharat-rafi-3",
+    "ad": "Küçük vida + tutkal",
+    "miktar": "1 set",
+    "projeId": "baharat-rafi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "baharat-rafi-4",
+    "ad": "Duvar askı aparatı",
+    "miktar": "2 adet",
+    "projeId": "baharat-rafi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "anahtar-panosu-1",
+    "ad": "Masif tahta 2×15×35 cm",
+    "miktar": "1 adet",
+    "projeId": "anahtar-panosu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "anahtar-panosu-2",
+    "ad": "Raf tahtası 1,5×8×35 cm",
+    "miktar": "1 adet",
+    "projeId": "anahtar-panosu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "anahtar-panosu-3",
+    "ad": "Vidalı küçük kanca",
+    "miktar": "5 adet",
+    "projeId": "anahtar-panosu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "anahtar-panosu-4",
+    "ad": "Duvar askısı",
+    "miktar": "2 adet",
+    "projeId": "anahtar-panosu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "anahtar-panosu-5",
+    "ad": "Boya veya vernik",
+    "miktar": "1 adet",
+    "projeId": "anahtar-panosu",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "resim-cercevesi-1",
+    "ad": "Çerçeve çıtası (kanallı) 2×4 cm",
+    "miktar": "2 m",
+    "projeId": "resim-cercevesi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "resim-cercevesi-2",
+    "ad": "Gönye kutusu + testere",
+    "miktar": "1 set",
+    "projeId": "resim-cercevesi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "resim-cercevesi-3",
+    "ad": "Köşe işkencesi",
+    "miktar": "1 adet",
+    "projeId": "resim-cercevesi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "resim-cercevesi-4",
+    "ad": "Ahşap tutkalı",
+    "miktar": "1 adet",
+    "projeId": "resim-cercevesi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "resim-cercevesi-5",
+    "ad": "Cam veya pleksi + arka MDF",
+    "miktar": "1 set",
+    "projeId": "resim-cercevesi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "bitki-merdiveni-1",
+    "ad": "Çam lata 2×4 cm",
+    "miktar": "6 m",
+    "projeId": "bitki-merdiveni",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "bitki-merdiveni-2",
+    "ad": "Raf tahtası 2×15 cm",
+    "miktar": "2 m",
+    "projeId": "bitki-merdiveni",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "bitki-merdiveni-3",
+    "ad": "Menteşe + emniyet zinciri",
+    "miktar": "1 set",
+    "projeId": "bitki-merdiveni",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "bitki-merdiveni-4",
+    "ad": "Dış mekan verniği",
+    "miktar": "1 adet",
+    "projeId": "bitki-merdiveni",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "bitki-merdiveni-5",
+    "ad": "Testere + matkap",
+    "miktar": "1 set",
+    "projeId": "bitki-merdiveni",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kutuk-kalemlik-1",
+    "ad": "Kuru dal parçası Ø8–10 cm, 12 cm boy",
+    "miktar": "1 adet",
+    "projeId": "kutuk-kalemlik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kutuk-kalemlik-2",
+    "ad": "Forstner uç Ø12 mm",
+    "miktar": "1 adet",
+    "projeId": "kutuk-kalemlik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kutuk-kalemlik-3",
+    "ad": "Matkap (sehpalı tercih)",
+    "miktar": "1 adet",
+    "projeId": "kutuk-kalemlik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "kutuk-kalemlik-4",
+    "ad": "Mat vernik",
+    "miktar": "1 adet",
+    "projeId": "kutuk-kalemlik",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-lamba-1",
+    "ad": "Masif ahşap blok (gövde)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-lamba",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-lamba-2",
+    "ad": "Hazır kablolu lamba duy seti (fişli, anahtarlı)",
+    "miktar": "1 set",
+    "projeId": "ahsap-lamba",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-lamba-3",
+    "ad": "Abajur",
+    "miktar": "1 adet",
+    "projeId": "ahsap-lamba",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-lamba-4",
+    "ad": "Uzun matkap ucu Ø10 mm",
+    "miktar": "1 adet",
+    "projeId": "ahsap-lamba",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "ahsap-lamba-5",
+    "ad": "LED ampul (düşük ısı)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-lamba",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "havlu-askisi-1",
+    "ad": "Masif tahta 2×12×15 cm (taban)",
+    "miktar": "1 adet",
+    "projeId": "havlu-askisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "havlu-askisi-2",
+    "ad": "Ahşap dübel çubuk Ø25 mm",
+    "miktar": "30 cm",
+    "projeId": "havlu-askisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "havlu-askisi-3",
+    "ad": "Matkap + Forstner uç Ø25 mm",
+    "miktar": "1 set",
+    "projeId": "havlu-askisi",
+    "kategoriId": "ahsap"
+  },
+  {
+    "id": "havlu-askisi-4",
+    "ad": "Ahşap tutkalı",
+    "miktar": "1 adet",
+    "projeId": "havlu-askisi",
+    "kategoriId": "ahsap"
+  },
+  {
     "id": "su-degisimi-1",
     "ad": "Akvaryum sifonu (çan uçlu)",
     "miktar": "1 adet",
@@ -4193,6 +4760,3380 @@
     "kategoriId": "balikcilik"
   },
   {
+    "id": "kalibrasyon-kupu-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "kalibrasyon-kupu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kalibrasyon-kupu-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "kalibrasyon-kupu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kalibrasyon-kupu-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "kalibrasyon-kupu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kalibrasyon-kupu-4",
+    "ad": "Dijital kumpas",
+    "miktar": "1 adet",
+    "projeId": "kalibrasyon-kupu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tabla-seviyeleme-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "tabla-seviyeleme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tabla-seviyeleme-2",
+    "ad": "A4 kağıt",
+    "miktar": "1 adet",
+    "projeId": "tabla-seviyeleme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tabla-seviyeleme-3",
+    "ad": "Tabla seviyeleme test dosyası",
+    "miktar": "—",
+    "projeId": "tabla-seviyeleme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kablo-klipsi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "kablo-klipsi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kablo-klipsi-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "kablo-klipsi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kablo-klipsi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "kablo-klipsi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kablo-klipsi-4",
+    "ad": "Kumpas (masa kalınlığı)",
+    "miktar": "1 adet",
+    "projeId": "kablo-klipsi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "duvar-anahtar-askisi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "duvar-anahtar-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "duvar-anahtar-askisi-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "duvar-anahtar-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "duvar-anahtar-askisi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "duvar-anahtar-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "duvar-anahtar-askisi-4",
+    "ad": "Vida + dübel",
+    "miktar": "2 adet",
+    "projeId": "duvar-anahtar-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kendi-sulayan-saksi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "kendi-sulayan-saksi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kendi-sulayan-saksi-2",
+    "ad": "PETG filament",
+    "miktar": "1 makara",
+    "projeId": "kendi-sulayan-saksi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kendi-sulayan-saksi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "kendi-sulayan-saksi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kendi-sulayan-saksi-4",
+    "ad": "Pamuk fitil",
+    "miktar": "20 cm",
+    "projeId": "kendi-sulayan-saksi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "filament-kurutma-1",
+    "ad": "Filament kurutma kutusu veya ayarlı gıda kurutucu",
+    "miktar": "1 adet",
+    "projeId": "filament-kurutma",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "filament-kurutma-2",
+    "ad": "Silika jel",
+    "miktar": "1 paket",
+    "projeId": "filament-kurutma",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "filament-kurutma-3",
+    "ad": "Kilitli saklama kutusu",
+    "miktar": "1 adet",
+    "projeId": "filament-kurutma",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "filament-kurutma-4",
+    "ad": "Higrometre",
+    "miktar": "1 adet",
+    "projeId": "filament-kurutma",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "dis-macunu-sikacagi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "dis-macunu-sikacagi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "dis-macunu-sikacagi-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "dis-macunu-sikacagi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "dis-macunu-sikacagi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "dis-macunu-sikacagi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kurabiye-kalibi-3d-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "kurabiye-kalibi-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kurabiye-kalibi-3d-2",
+    "ad": "Gıdaya uygun PLA veya PETG",
+    "miktar": "1 makara",
+    "projeId": "kurabiye-kalibi-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kurabiye-kalibi-3d-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "kurabiye-kalibi-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kurabiye-kalibi-3d-4",
+    "ad": "Streç film",
+    "miktar": "1 rulo",
+    "projeId": "kurabiye-kalibi-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "cekmece-bolme-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "cekmece-bolme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "cekmece-bolme-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "cekmece-bolme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "cekmece-bolme-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "cekmece-bolme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "cekmece-bolme-4",
+    "ad": "Mezura",
+    "miktar": "1 adet",
+    "projeId": "cekmece-bolme",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "renkli-anahtarlik-3d-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "renkli-anahtarlik-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "renkli-anahtarlik-3d-2",
+    "ad": "PLA filament (2 renk)",
+    "miktar": "2 makara",
+    "projeId": "renkli-anahtarlik-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "renkli-anahtarlik-3d-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "renkli-anahtarlik-3d",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "vidali-kapakli-kutu-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "vidali-kapakli-kutu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "vidali-kapakli-kutu-2",
+    "ad": "PLA filament 1,75 mm",
+    "miktar": "1 makara",
+    "projeId": "vidali-kapakli-kutu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "vidali-kapakli-kutu-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "vidali-kapakli-kutu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tpu-telefon-kilifi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "tpu-telefon-kilifi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tpu-telefon-kilifi-2",
+    "ad": "TPU 95A filament",
+    "miktar": "1 makara",
+    "projeId": "tpu-telefon-kilifi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "tpu-telefon-kilifi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "tpu-telefon-kilifi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "nozul-degisimi-1",
+    "ad": "Yedek nozul (0,4 mm)",
+    "miktar": "1 adet",
+    "projeId": "nozul-degisimi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "nozul-degisimi-2",
+    "ad": "Nozul anahtarı / 7 mm lokma",
+    "miktar": "1 adet",
+    "projeId": "nozul-degisimi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "nozul-degisimi-3",
+    "ad": "Penseli ısıya dayanıklı eldiven",
+    "miktar": "1 adet",
+    "projeId": "nozul-degisimi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "nozul-degisimi-4",
+    "ad": "Akupunktur iğnesi (temizleme)",
+    "miktar": "1 adet",
+    "projeId": "nozul-degisimi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "litofan-lamba-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "litofan-lamba",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "litofan-lamba-2",
+    "ad": "Beyaz PLA",
+    "miktar": "1 makara",
+    "projeId": "litofan-lamba",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "litofan-lamba-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "litofan-lamba",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "litofan-lamba-4",
+    "ad": "Pilli LED çay mumu veya LED şerit",
+    "miktar": "1 adet",
+    "projeId": "litofan-lamba",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "eklemli-ejderha-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "eklemli-ejderha",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "eklemli-ejderha-2",
+    "ad": "İpek (silk) PLA",
+    "miktar": "1 makara",
+    "projeId": "eklemli-ejderha",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "eklemli-ejderha-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "eklemli-ejderha",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kulaklik-askisi-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "kulaklik-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kulaklik-askisi-2",
+    "ad": "PETG filament",
+    "miktar": "1 makara",
+    "projeId": "kulaklik-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kulaklik-askisi-3",
+    "ad": "Dilimleme yazılımı (Cura / PrusaSlicer, ücretsiz)",
+    "miktar": "—",
+    "projeId": "kulaklik-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "kulaklik-askisi-4",
+    "ad": "Ahşap vidası veya güçlü çift taraflı bant",
+    "miktar": "2 adet",
+    "projeId": "kulaklik-askisi",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "baski-hata-cozumu-1",
+    "ad": "FDM 3D yazıcı",
+    "miktar": "1 adet",
+    "projeId": "baski-hata-cozumu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "baski-hata-cozumu-2",
+    "ad": "Tabla yapıştırıcısı (glue stick)",
+    "miktar": "1 adet",
+    "projeId": "baski-hata-cozumu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "baski-hata-cozumu-3",
+    "ad": "İzopropil alkol + bez",
+    "miktar": "1 set",
+    "projeId": "baski-hata-cozumu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "baski-hata-cozumu-4",
+    "ad": "Test modeli (stringing test)",
+    "miktar": "—",
+    "projeId": "baski-hata-cozumu",
+    "kategoriId": "baski3d"
+  },
+  {
+    "id": "surus-oncesi-kontrol-1",
+    "ad": "Pompa + basınç göstergesi",
+    "miktar": "1 adet",
+    "projeId": "surus-oncesi-kontrol",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "surus-oncesi-kontrol-2",
+    "ad": "Alyan (allen) anahtar seti",
+    "miktar": "1 set",
+    "projeId": "surus-oncesi-kontrol",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "surus-oncesi-kontrol-3",
+    "ad": "Zincir yağı",
+    "miktar": "1 adet",
+    "projeId": "surus-oncesi-kontrol",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "lastik-basinci-1",
+    "ad": "Göstergeli ayak pompası",
+    "miktar": "1 adet",
+    "projeId": "lastik-basinci",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "lastik-basinci-2",
+    "ad": "Presta/Schrader adaptörü",
+    "miktar": "1 adet",
+    "projeId": "lastik-basinci",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "lastik-basinci-3",
+    "ad": "Dijital lastik basınç ölçer",
+    "miktar": "1 adet",
+    "projeId": "lastik-basinci",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "vites-ayari-1",
+    "ad": "Alyan (allen) anahtar seti",
+    "miktar": "1 set",
+    "projeId": "vites-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "vites-ayari-2",
+    "ad": "Yıldız tornavida",
+    "miktar": "1 adet",
+    "projeId": "vites-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "vites-ayari-3",
+    "ad": "Bisiklet standı (veya ters çevirme)",
+    "miktar": "1 adet",
+    "projeId": "vites-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "zincir-asinma-degisim-1",
+    "ad": "Zincir aşınma ölçer",
+    "miktar": "1 adet",
+    "projeId": "zincir-asinma-degisim",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "zincir-asinma-degisim-2",
+    "ad": "Zincir kırıcı (zincir cıvatası aleti)",
+    "miktar": "1 adet",
+    "projeId": "zincir-asinma-degisim",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "zincir-asinma-degisim-3",
+    "ad": "Yeni zincir + bağlantı halkası (quick link)",
+    "miktar": "1 adet",
+    "projeId": "zincir-asinma-degisim",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "zincir-asinma-degisim-4",
+    "ad": "Bağlantı halkası pensesi",
+    "miktar": "1 adet",
+    "projeId": "zincir-asinma-degisim",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "disk-balata-1",
+    "ad": "Uyumlu disk fren balatası",
+    "miktar": "1 çift",
+    "projeId": "disk-balata",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "disk-balata-2",
+    "ad": "Balata ayırıcı veya plastik levye",
+    "miktar": "1 adet",
+    "projeId": "disk-balata",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "disk-balata-3",
+    "ad": "Alyan (allen) anahtar seti",
+    "miktar": "1 set",
+    "projeId": "disk-balata",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "disk-balata-4",
+    "ad": "İzopropil alkol",
+    "miktar": "1 adet",
+    "projeId": "disk-balata",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "hidrolik-fren-hava-1",
+    "ad": "Üreticiye uygun hava alma kiti",
+    "miktar": "1 set",
+    "projeId": "hidrolik-fren-hava",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "hidrolik-fren-hava-2",
+    "ad": "Üreticinin belirttiği fren sıvısı (mineral yağ veya DOT)",
+    "miktar": "1 şişe",
+    "projeId": "hidrolik-fren-hava",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "hidrolik-fren-hava-3",
+    "ad": "Nitril eldiven",
+    "miktar": "1 kutu",
+    "projeId": "hidrolik-fren-hava",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "hidrolik-fren-hava-4",
+    "ad": "Kağıt havlu",
+    "miktar": "1 rulo",
+    "projeId": "hidrolik-fren-hava",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "sele-yukseklik-1",
+    "ad": "Alyan (allen) anahtar seti",
+    "miktar": "1 set",
+    "projeId": "sele-yukseklik",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "sele-yukseklik-2",
+    "ad": "Mezura",
+    "miktar": "1 adet",
+    "projeId": "sele-yukseklik",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "sele-yukseklik-3",
+    "ad": "Bant (işaret için)",
+    "miktar": "1 adet",
+    "projeId": "sele-yukseklik",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "gidon-bandi-1",
+    "ad": "Gidon bandı seti (tıpa ve bitiş bandı dahil)",
+    "miktar": "1 set",
+    "projeId": "gidon-bandi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "gidon-bandi-2",
+    "ad": "Elektrik bandı",
+    "miktar": "1 rulo",
+    "projeId": "gidon-bandi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "gidon-bandi-3",
+    "ad": "Makas",
+    "miktar": "1 adet",
+    "projeId": "gidon-bandi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "jant-ayari-1",
+    "ad": "Jant teli anahtarı (uygun ölçü)",
+    "miktar": "1 adet",
+    "projeId": "jant-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "jant-ayari-2",
+    "ad": "Bisiklet standı veya ters çevirme",
+    "miktar": "1 adet",
+    "projeId": "jant-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "jant-ayari-3",
+    "ad": "Kablo bağı (gösterge olarak)",
+    "miktar": "1 adet",
+    "projeId": "jant-ayari",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "pedal-degisimi-1",
+    "ad": "Pedal anahtarı 15 mm veya 8 mm alyan",
+    "miktar": "1 adet",
+    "projeId": "pedal-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "pedal-degisimi-2",
+    "ad": "Gres yağı",
+    "miktar": "1 adet",
+    "projeId": "pedal-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "pedal-degisimi-3",
+    "ad": "Yeni pedal seti",
+    "miktar": "1 çift",
+    "projeId": "pedal-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "fren-kablosu-degisimi-1",
+    "ad": "Fren teli + kılıf",
+    "miktar": "1 set",
+    "projeId": "fren-kablosu-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "fren-kablosu-degisimi-2",
+    "ad": "Kablo kesici",
+    "miktar": "1 adet",
+    "projeId": "fren-kablosu-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "fren-kablosu-degisimi-3",
+    "ad": "Alyan (allen) anahtar seti",
+    "miktar": "1 set",
+    "projeId": "fren-kablosu-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "fren-kablosu-degisimi-4",
+    "ad": "Kablo uç kapağı",
+    "miktar": "2 adet",
+    "projeId": "fren-kablosu-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "tubeless-donusum-1",
+    "ad": "Tubeless jant bandı",
+    "miktar": "1 rulo",
+    "projeId": "tubeless-donusum",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "tubeless-donusum-2",
+    "ad": "Tubeless sibop",
+    "miktar": "2 adet",
+    "projeId": "tubeless-donusum",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "tubeless-donusum-3",
+    "ad": "Sızdırmazlık sıvısı",
+    "miktar": "1 şişe",
+    "projeId": "tubeless-donusum",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "tubeless-donusum-4",
+    "ad": "Kompresör veya şarjlı tubeless pompa",
+    "miktar": "1 adet",
+    "projeId": "tubeless-donusum",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kaset-temizligi-1",
+    "ad": "Bisiklet yağ sökücü (biyobozunur)",
+    "miktar": "1 şişe",
+    "projeId": "kaset-temizligi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kaset-temizligi-2",
+    "ad": "Kaset fırçası",
+    "miktar": "1 adet",
+    "projeId": "kaset-temizligi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kaset-temizligi-3",
+    "ad": "Bez",
+    "miktar": "2 adet",
+    "projeId": "kaset-temizligi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kaset-temizligi-4",
+    "ad": "Zincir yağı",
+    "miktar": "1 adet",
+    "projeId": "kaset-temizligi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-isik-montaji-1",
+    "ad": "Şarjlı ön beyaz ışık",
+    "miktar": "1 adet",
+    "projeId": "bisiklet-isik-montaji",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-isik-montaji-2",
+    "ad": "Şarjlı arka kırmızı ışık",
+    "miktar": "1 adet",
+    "projeId": "bisiklet-isik-montaji",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-isik-montaji-3",
+    "ad": "Tekerlek ve pedal reflektörü",
+    "miktar": "1 set",
+    "projeId": "bisiklet-isik-montaji",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-yikama-1",
+    "ad": "Kova + ılık su",
+    "miktar": "1 adet",
+    "projeId": "bisiklet-yikama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-yikama-2",
+    "ad": "Bisiklet şampuanı",
+    "miktar": "1 şişe",
+    "projeId": "bisiklet-yikama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-yikama-3",
+    "ad": "Yumuşak fırça ve sünger seti",
+    "miktar": "1 set",
+    "projeId": "bisiklet-yikama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "bisiklet-yikama-4",
+    "ad": "Mikrofiber bez",
+    "miktar": "2 adet",
+    "projeId": "bisiklet-yikama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kis-depolama-1",
+    "ad": "Bisiklet askısı veya stand",
+    "miktar": "1 adet",
+    "projeId": "kis-depolama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kis-depolama-2",
+    "ad": "Bez + temizleyici",
+    "miktar": "1 set",
+    "projeId": "kis-depolama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kis-depolama-3",
+    "ad": "Zincir yağı",
+    "miktar": "1 adet",
+    "projeId": "kis-depolama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "kis-depolama-4",
+    "ad": "Bisiklet örtüsü",
+    "miktar": "1 adet",
+    "projeId": "kis-depolama",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "dis-lastik-degisimi-1",
+    "ad": "Yeni dış lastik (jant ölçüsüne uygun)",
+    "miktar": "1 adet",
+    "projeId": "dis-lastik-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "dis-lastik-degisimi-2",
+    "ad": "Plastik lastik sökme levyesi",
+    "miktar": "2 adet",
+    "projeId": "dis-lastik-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "dis-lastik-degisimi-3",
+    "ad": "Pompa",
+    "miktar": "1 adet",
+    "projeId": "dis-lastik-degisimi",
+    "kategoriId": "bisiklet"
+  },
+  {
+    "id": "deri-cuzdan-1",
+    "ad": "Bitkisel tabaklanmış deri 1,2 mm",
+    "miktar": "30×30 cm",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-cuzdan-2",
+    "ad": "Mumlu dikiş ipi 0,6 mm",
+    "miktar": "5 m",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-cuzdan-3",
+    "ad": "Zımba seti (4 mm, 4 dişli)",
+    "miktar": "1 set",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-cuzdan-4",
+    "ad": "Dikiş iğnesi (2 adet)",
+    "miktar": "2 adet",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-cuzdan-5",
+    "ad": "Kenar kırıcı + kenar cilası",
+    "miktar": "1 set",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-cuzdan-6",
+    "ad": "Deri yapıştırıcısı",
+    "miktar": "1 adet",
+    "projeId": "deri-cuzdan",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-saat-kayisi-1",
+    "ad": "Bitkisel tabaklı deri 1,8 mm",
+    "miktar": "10×30 cm",
+    "projeId": "deri-saat-kayisi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-saat-kayisi-2",
+    "ad": "Saat kayış pimi (yaylı pim)",
+    "miktar": "2 adet",
+    "projeId": "deri-saat-kayisi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-saat-kayisi-3",
+    "ad": "Toka",
+    "miktar": "1 adet",
+    "projeId": "deri-saat-kayisi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-saat-kayisi-4",
+    "ad": "Zımba seti + yuvarlak zımba",
+    "miktar": "1 set",
+    "projeId": "deri-saat-kayisi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-saat-kayisi-5",
+    "ad": "Dikiş ipi + iğne",
+    "miktar": "1 set",
+    "projeId": "deri-saat-kayisi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kalemlik-1",
+    "ad": "Yumuşak deri 1 mm",
+    "miktar": "30×25 cm",
+    "projeId": "deri-kalemlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kalemlik-2",
+    "ad": "Deri bağcık",
+    "miktar": "60 cm",
+    "projeId": "deri-kalemlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kalemlik-3",
+    "ad": "Dikiş ipi + iğne",
+    "miktar": "1 set",
+    "projeId": "deri-kalemlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kalemlik-4",
+    "ad": "Zımba",
+    "miktar": "1 adet",
+    "projeId": "deri-kalemlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-bileklik-1",
+    "ad": "Deri şerit 2 cm × 22 cm",
+    "miktar": "1 adet",
+    "projeId": "deri-bileklik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-bileklik-2",
+    "ad": "Çıtçıt seti",
+    "miktar": "1 set",
+    "projeId": "deri-bileklik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-bileklik-3",
+    "ad": "Çıtçıt pensesi veya çakma aparatı",
+    "miktar": "1 adet",
+    "projeId": "deri-bileklik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-bileklik-4",
+    "ad": "Maket bıçağı + cetvel",
+    "miktar": "1 set",
+    "projeId": "deri-bileklik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tasma-1",
+    "ad": "Kalın bitkisel deri 3 mm",
+    "miktar": "4×60 cm",
+    "projeId": "deri-tasma",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tasma-2",
+    "ad": "Toka + D-halka",
+    "miktar": "1 set",
+    "projeId": "deri-tasma",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tasma-3",
+    "ad": "Çift başlı perçin",
+    "miktar": "6 adet",
+    "projeId": "deri-tasma",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tasma-4",
+    "ad": "Perçin çakma seti",
+    "miktar": "1 set",
+    "projeId": "deri-tasma",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tasma-5",
+    "ad": "Kenar cilası",
+    "miktar": "1 adet",
+    "projeId": "deri-tasma",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-pasaport-kilifi-1",
+    "ad": "Bitkisel deri 1,2 mm",
+    "miktar": "25×20 cm",
+    "projeId": "deri-pasaport-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-pasaport-kilifi-2",
+    "ad": "Dikiş ipi + 2 iğne",
+    "miktar": "1 set",
+    "projeId": "deri-pasaport-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-pasaport-kilifi-3",
+    "ad": "Zımba seti",
+    "miktar": "1 set",
+    "projeId": "deri-pasaport-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-pasaport-kilifi-4",
+    "ad": "Kenar kırıcı",
+    "miktar": "1 adet",
+    "projeId": "deri-pasaport-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kulaklik-tutucu-1",
+    "ad": "Deri parçası",
+    "miktar": "10×5 cm",
+    "projeId": "deri-kulaklik-tutucu",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kulaklik-tutucu-2",
+    "ad": "Çıtçıt seti",
+    "miktar": "4 set",
+    "projeId": "deri-kulaklik-tutucu",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kulaklik-tutucu-3",
+    "ad": "Çıtçıt aparatı",
+    "miktar": "1 adet",
+    "projeId": "deri-kulaklik-tutucu",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kulaklik-tutucu-4",
+    "ad": "Maket bıçağı",
+    "miktar": "1 adet",
+    "projeId": "deri-kulaklik-tutucu",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-makas-kilifi-1",
+    "ad": "Kalın bitkisel deri 3 mm",
+    "miktar": "20×20 cm",
+    "projeId": "deri-makas-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-makas-kilifi-2",
+    "ad": "Kalın dikiş ipi",
+    "miktar": "2 m",
+    "projeId": "deri-makas-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-makas-kilifi-3",
+    "ad": "Zımba",
+    "miktar": "1 set",
+    "projeId": "deri-makas-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-makas-kilifi-4",
+    "ad": "Kemer ilmeği için ek şerit",
+    "miktar": "1 adet",
+    "projeId": "deri-makas-kilifi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-anahtar-cebi-1",
+    "ad": "Deri",
+    "miktar": "15×12 cm",
+    "projeId": "deri-anahtar-cebi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-anahtar-cebi-2",
+    "ad": "Anahtar halkası vidası",
+    "miktar": "1 set",
+    "projeId": "deri-anahtar-cebi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-anahtar-cebi-3",
+    "ad": "Çıtçıt",
+    "miktar": "1 set",
+    "projeId": "deri-anahtar-cebi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-anahtar-cebi-4",
+    "ad": "Dikiş ipi + iğne",
+    "miktar": "1 set",
+    "projeId": "deri-anahtar-cebi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tabak-tepsi-1",
+    "ad": "Kalın deri 2 mm",
+    "miktar": "20×20 cm",
+    "projeId": "deri-tabak-tepsi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tabak-tepsi-2",
+    "ad": "Çıtçıt veya perçin",
+    "miktar": "4 set",
+    "projeId": "deri-tabak-tepsi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tabak-tepsi-3",
+    "ad": "Çakma seti",
+    "miktar": "1 set",
+    "projeId": "deri-tabak-tepsi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tabak-tepsi-4",
+    "ad": "Cetvel + maket bıçağı",
+    "miktar": "1 set",
+    "projeId": "deri-tabak-tepsi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-damgalama-1",
+    "ad": "Bitkisel tabaklı deri (krom değil)",
+    "miktar": "20×20 cm",
+    "projeId": "deri-damgalama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-damgalama-2",
+    "ad": "Deri damga seti",
+    "miktar": "1 set",
+    "projeId": "deri-damgalama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-damgalama-3",
+    "ad": "Ham deri tokmak (poli)",
+    "miktar": "1 adet",
+    "projeId": "deri-damgalama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-damgalama-4",
+    "ad": "Mermer veya granit altlık",
+    "miktar": "1 adet",
+    "projeId": "deri-damgalama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-damgalama-5",
+    "ad": "Sünger + su",
+    "miktar": "1 set",
+    "projeId": "deri-damgalama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-boyama-1",
+    "ad": "Ham deri ürün",
+    "miktar": "1 adet",
+    "projeId": "deri-boyama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-boyama-2",
+    "ad": "Deri boyası (alkol veya su bazlı)",
+    "miktar": "1 şişe",
+    "projeId": "deri-boyama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-boyama-3",
+    "ad": "Yün parçası / sünger",
+    "miktar": "1 paket",
+    "projeId": "deri-boyama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-boyama-4",
+    "ad": "Deri cilası (resolene benzeri)",
+    "miktar": "1 adet",
+    "projeId": "deri-boyama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-boyama-5",
+    "ad": "Nitril eldiven",
+    "miktar": "1 kutu",
+    "projeId": "deri-boyama",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kitap-kapagi-1",
+    "ad": "Kalın yumuşak deri 2 mm",
+    "miktar": "24×22 cm",
+    "projeId": "deri-kitap-kapagi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kitap-kapagi-2",
+    "ad": "Yuvarlak elastik ip",
+    "miktar": "1 m",
+    "projeId": "deri-kitap-kapagi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kitap-kapagi-3",
+    "ad": "Metal uç (lastik ucu)",
+    "miktar": "1 adet",
+    "projeId": "deri-kitap-kapagi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kitap-kapagi-4",
+    "ad": "Zımba 3 mm",
+    "miktar": "1 adet",
+    "projeId": "deri-kitap-kapagi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kemer-canta-1",
+    "ad": "Orta kalınlıkta deri 1,4 mm",
+    "miktar": "50×40 cm",
+    "projeId": "deri-kemer-canta",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kemer-canta-2",
+    "ad": "Metal fermuar 18 cm",
+    "miktar": "1 adet",
+    "projeId": "deri-kemer-canta",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kemer-canta-3",
+    "ad": "Dikiş ipi + iğne",
+    "miktar": "1 set",
+    "projeId": "deri-kemer-canta",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kemer-canta-4",
+    "ad": "Zımba seti",
+    "miktar": "1 set",
+    "projeId": "deri-kemer-canta",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-kemer-canta-5",
+    "ad": "Deri yapıştırıcısı",
+    "miktar": "1 adet",
+    "projeId": "deri-kemer-canta",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-sehpa-altlik-1",
+    "ad": "Kalın bitkisel deri 3 mm",
+    "miktar": "25×25 cm",
+    "projeId": "deri-sehpa-altlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-sehpa-altlik-2",
+    "ad": "Yuvarlak kalıp veya pergel bıçağı",
+    "miktar": "1 adet",
+    "projeId": "deri-sehpa-altlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-sehpa-altlik-3",
+    "ad": "Damga (isteğe bağlı)",
+    "miktar": "1 adet",
+    "projeId": "deri-sehpa-altlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-sehpa-altlik-4",
+    "ad": "Su geçirmez deri cilası",
+    "miktar": "1 adet",
+    "projeId": "deri-sehpa-altlik",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tamir-bakim-1",
+    "ad": "Deri temizleyici",
+    "miktar": "1 adet",
+    "projeId": "deri-tamir-bakim",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tamir-bakim-2",
+    "ad": "Deri besleyici krem",
+    "miktar": "1 adet",
+    "projeId": "deri-tamir-bakim",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tamir-bakim-3",
+    "ad": "Mikrofiber bez",
+    "miktar": "2 adet",
+    "projeId": "deri-tamir-bakim",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-tamir-bakim-4",
+    "ad": "Renkli deri onarım kremi",
+    "miktar": "1 adet",
+    "projeId": "deri-tamir-bakim",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-canta-sapi-1",
+    "ad": "Kalın deri şerit 3 cm × 60 cm",
+    "miktar": "2 adet",
+    "projeId": "deri-canta-sapi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-canta-sapi-2",
+    "ad": "Çift başlı perçin",
+    "miktar": "8 adet",
+    "projeId": "deri-canta-sapi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-canta-sapi-3",
+    "ad": "Perçin çakma seti",
+    "miktar": "1 set",
+    "projeId": "deri-canta-sapi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "deri-canta-sapi-4",
+    "ad": "Dikiş sökücü",
+    "miktar": "1 adet",
+    "projeId": "deri-canta-sapi",
+    "kategoriId": "deri"
+  },
+  {
+    "id": "led-yanip-sonme-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "led-yanip-sonme",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "led-yanip-sonme-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "led-yanip-sonme",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "led-yanip-sonme-3",
+    "ad": "5 mm LED",
+    "miktar": "1 adet",
+    "projeId": "led-yanip-sonme",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "led-yanip-sonme-4",
+    "ad": "220 Ω direnç",
+    "miktar": "1 adet",
+    "projeId": "led-yanip-sonme",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "butonlu-led-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "butonlu-led",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "butonlu-led-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "butonlu-led",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "butonlu-led-3",
+    "ad": "Push buton",
+    "miktar": "1 adet",
+    "projeId": "butonlu-led",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "butonlu-led-4",
+    "ad": "LED + 220 Ω direnç",
+    "miktar": "1 set",
+    "projeId": "butonlu-led",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "pot-led-parlaklik-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "pot-led-parlaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "pot-led-parlaklik-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "pot-led-parlaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "pot-led-parlaklik-3",
+    "ad": "10 kΩ potansiyometre",
+    "miktar": "1 adet",
+    "projeId": "pot-led-parlaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "pot-led-parlaklik-4",
+    "ad": "LED + 220 Ω direnç",
+    "miktar": "1 set",
+    "projeId": "pot-led-parlaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ldr-gece-lambasi-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "ldr-gece-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ldr-gece-lambasi-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "ldr-gece-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ldr-gece-lambasi-3",
+    "ad": "LDR (foto direnç)",
+    "miktar": "1 adet",
+    "projeId": "ldr-gece-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ldr-gece-lambasi-4",
+    "ad": "10 kΩ direnç",
+    "miktar": "1 adet",
+    "projeId": "ldr-gece-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "ldr-gece-lambasi-5",
+    "ad": "Beyaz LED + 220 Ω direnç",
+    "miktar": "2 set",
+    "projeId": "ldr-gece-lambasi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "servo-kontrol-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "servo-kontrol",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "servo-kontrol-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "servo-kontrol",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "servo-kontrol-3",
+    "ad": "SG90 mikro servo",
+    "miktar": "1 adet",
+    "projeId": "servo-kontrol",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "servo-kontrol-4",
+    "ad": "10 kΩ potansiyometre",
+    "miktar": "1 adet",
+    "projeId": "servo-kontrol",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "rgb-led-renk-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "rgb-led-renk",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "rgb-led-renk-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "rgb-led-renk",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "rgb-led-renk-3",
+    "ad": "RGB LED (ortak katot)",
+    "miktar": "1 adet",
+    "projeId": "rgb-led-renk",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "rgb-led-renk-4",
+    "ad": "220 Ω direnç",
+    "miktar": "3 adet",
+    "projeId": "rgb-led-renk",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "buzzer-melodi-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "buzzer-melodi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "buzzer-melodi-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "buzzer-melodi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "buzzer-melodi-3",
+    "ad": "Pasif buzzer",
+    "miktar": "1 adet",
+    "projeId": "buzzer-melodi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "buzzer-melodi-4",
+    "ad": "Push buton",
+    "miktar": "1 adet",
+    "projeId": "buzzer-melodi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "reaksiyon-oyunu-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "reaksiyon-oyunu",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "reaksiyon-oyunu-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "reaksiyon-oyunu",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "reaksiyon-oyunu-3",
+    "ad": "LED + 220 Ω direnç",
+    "miktar": "1 set",
+    "projeId": "reaksiyon-oyunu",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "reaksiyon-oyunu-4",
+    "ad": "Push buton",
+    "miktar": "1 adet",
+    "projeId": "reaksiyon-oyunu",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "reaksiyon-oyunu-5",
+    "ad": "Buzzer (isteğe bağlı)",
+    "miktar": "1 adet",
+    "projeId": "reaksiyon-oyunu",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "hareket-alarmi-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "hareket-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "hareket-alarmi-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "hareket-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "hareket-alarmi-3",
+    "ad": "HC-SR501 PIR sensör",
+    "miktar": "1 adet",
+    "projeId": "hareket-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "hareket-alarmi-4",
+    "ad": "Aktif buzzer",
+    "miktar": "1 adet",
+    "projeId": "hareket-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "hareket-alarmi-5",
+    "ad": "Kırmızı LED + 220 Ω direnç",
+    "miktar": "1 set",
+    "projeId": "hareket-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lcd-sicaklik-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "lcd-sicaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lcd-sicaklik-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "lcd-sicaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lcd-sicaklik-3",
+    "ad": "DHT11 sensör modülü",
+    "miktar": "1 adet",
+    "projeId": "lcd-sicaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lcd-sicaklik-4",
+    "ad": "16×2 LCD + I2C modülü",
+    "miktar": "1 adet",
+    "projeId": "lcd-sicaklik",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "su-seviye-alarmi-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "su-seviye-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "su-seviye-alarmi-2",
+    "ad": "Su seviye sensörü modülü",
+    "miktar": "1 adet",
+    "projeId": "su-seviye-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "su-seviye-alarmi-3",
+    "ad": "Aktif buzzer",
+    "miktar": "1 adet",
+    "projeId": "su-seviye-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "su-seviye-alarmi-4",
+    "ad": "9 V pil + klipsli jak",
+    "miktar": "1 set",
+    "projeId": "su-seviye-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "akilli-saksi-pompa-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "akilli-saksi-pompa",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "akilli-saksi-pompa-2",
+    "ad": "Kapasitif toprak nem sensörü",
+    "miktar": "1 adet",
+    "projeId": "akilli-saksi-pompa",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "akilli-saksi-pompa-3",
+    "ad": "5 V mini dalgıç pompa + hortum",
+    "miktar": "1 set",
+    "projeId": "akilli-saksi-pompa",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "akilli-saksi-pompa-4",
+    "ad": "5 V röle modülü veya MOSFET modülü",
+    "miktar": "1 adet",
+    "projeId": "akilli-saksi-pompa",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "akilli-saksi-pompa-5",
+    "ad": "Su haznesi (pet şişe)",
+    "miktar": "1 adet",
+    "projeId": "akilli-saksi-pompa",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "elektronik-zar-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "elektronik-zar",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "elektronik-zar-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "elektronik-zar",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "elektronik-zar-3",
+    "ad": "LED",
+    "miktar": "6 adet",
+    "projeId": "elektronik-zar",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "elektronik-zar-4",
+    "ad": "220 Ω direnç",
+    "miktar": "6 adet",
+    "projeId": "elektronik-zar",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "elektronik-zar-5",
+    "ad": "Push buton",
+    "miktar": "1 adet",
+    "projeId": "elektronik-zar",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-2",
+    "ad": "Breadboard + jumper kablo seti",
+    "miktar": "1 set",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-3",
+    "ad": "TMP36 sıcaklık sensörü",
+    "miktar": "1 adet",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-4",
+    "ad": "5 V DC fan",
+    "miktar": "1 adet",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-5",
+    "ad": "Lojik seviye MOSFET modülü",
+    "miktar": "1 adet",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "sicaklik-fan-6",
+    "ad": "1N4007 diyot",
+    "miktar": "1 adet",
+    "projeId": "sicaklik-fan",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "kapi-alarmi-1",
+    "ad": "Arduino Uno + USB kablosu",
+    "miktar": "1 adet",
+    "projeId": "kapi-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "kapi-alarmi-2",
+    "ad": "Manyetik kapı sensörü (reed + mıknatıs)",
+    "miktar": "1 set",
+    "projeId": "kapi-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "kapi-alarmi-3",
+    "ad": "Aktif buzzer",
+    "miktar": "1 adet",
+    "projeId": "kapi-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "kapi-alarmi-4",
+    "ad": "Jumper kablo",
+    "miktar": "1 set",
+    "projeId": "kapi-alarmi",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-1",
+    "ad": "Yanıp sönen LED lehim kiti (555 tabanlı)",
+    "miktar": "1 adet",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-2",
+    "ad": "Ayarlı havya + stand",
+    "miktar": "1 set",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-3",
+    "ad": "Lehim teli (kurşunsuz, reçine özlü)",
+    "miktar": "1 makara",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-4",
+    "ad": "Yan keski",
+    "miktar": "1 adet",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-5",
+    "ad": "Nemli sünger veya pirinç temizleyici",
+    "miktar": "1 adet",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "lehim-baslangic-6",
+    "ad": "Koruyucu gözlük",
+    "miktar": "1 adet",
+    "projeId": "lehim-baslangic",
+    "kategoriId": "elektronik"
+  },
+  {
+    "id": "epoksi-anahtarlik-1",
+    "ad": "Şeffaf epoksi seti",
+    "miktar": "100 g",
+    "projeId": "epoksi-anahtarlik",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-anahtarlik-2",
+    "ad": "Harf silikon kalıbı",
+    "miktar": "1 set",
+    "projeId": "epoksi-anahtarlik",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-anahtarlik-3",
+    "ad": "Sim, pul veya kuru çiçek",
+    "miktar": "1 paket",
+    "projeId": "epoksi-anahtarlik",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-anahtarlik-4",
+    "ad": "Anahtarlık halkası + vida halkası",
+    "miktar": "3 set",
+    "projeId": "epoksi-anahtarlik",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-anahtarlik-5",
+    "ad": "Ölçü kabı + karıştırma çubuğu",
+    "miktar": "1 set",
+    "projeId": "epoksi-anahtarlik",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kase-1",
+    "ad": "Epoksi seti",
+    "miktar": "200 g",
+    "projeId": "epoksi-kase",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kase-2",
+    "ad": "Silikon kase kalıbı (iç-dış)",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kase",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kase-3",
+    "ad": "Altın varak",
+    "miktar": "1 paket",
+    "projeId": "epoksi-kase",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kase-4",
+    "ad": "Pigment (beyaz, mavi)",
+    "miktar": "1 set",
+    "projeId": "epoksi-kase",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kase-5",
+    "ad": "Nitril eldiven",
+    "miktar": "1 kutu",
+    "projeId": "epoksi-kase",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tepsi-1",
+    "ad": "Epoksi seti",
+    "miktar": "600 g",
+    "projeId": "epoksi-tepsi",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tepsi-2",
+    "ad": "Kontrplak taban + kenar bandı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tepsi",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tepsi-3",
+    "ad": "Kırık cam / kristal taşlar",
+    "miktar": "200 g",
+    "projeId": "epoksi-tepsi",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tepsi-4",
+    "ad": "Pigment (mor, beyaz, altın)",
+    "miktar": "1 set",
+    "projeId": "epoksi-tepsi",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tepsi-5",
+    "ad": "Isı tabancası",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tepsi",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-saat-1",
+    "ad": "Epoksi seti",
+    "miktar": "500 g",
+    "projeId": "epoksi-saat",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-saat-2",
+    "ad": "Yuvarlak silikon kalıp Ø30 cm",
+    "miktar": "1 adet",
+    "projeId": "epoksi-saat",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-saat-3",
+    "ad": "Pigment (mavi, turkuaz, beyaz)",
+    "miktar": "1 set",
+    "projeId": "epoksi-saat",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-saat-4",
+    "ad": "Saat mekanizması + ibreler",
+    "miktar": "1 set",
+    "projeId": "epoksi-saat",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-saat-5",
+    "ad": "Matkap + 8 mm uç",
+    "miktar": "1 adet",
+    "projeId": "epoksi-saat",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-bardak-alti-agac-1",
+    "ad": "İnce kütük dilimi (kurumuş)",
+    "miktar": "4 adet",
+    "projeId": "epoksi-bardak-alti-agac",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-bardak-alti-agac-2",
+    "ad": "Epoksi seti",
+    "miktar": "300 g",
+    "projeId": "epoksi-bardak-alti-agac",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-bardak-alti-agac-3",
+    "ad": "Silikon altlık kalıbı",
+    "miktar": "1 set",
+    "projeId": "epoksi-bardak-alti-agac",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-bardak-alti-agac-4",
+    "ad": "Pigment",
+    "miktar": "1 adet",
+    "projeId": "epoksi-bardak-alti-agac",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-bardak-alti-agac-5",
+    "ad": "Zımpara 120–600",
+    "miktar": "1 set",
+    "projeId": "epoksi-bardak-alti-agac",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-harf-1",
+    "ad": "Harf silikon kalıbı (büyük)",
+    "miktar": "1 adet",
+    "projeId": "epoksi-harf",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-harf-2",
+    "ad": "Epoksi seti",
+    "miktar": "300 g",
+    "projeId": "epoksi-harf",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-harf-3",
+    "ad": "Pilli LED taban (lamba altlığı)",
+    "miktar": "1 adet",
+    "projeId": "epoksi-harf",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-harf-4",
+    "ad": "Fosforlu veya sedefli pigment",
+    "miktar": "1 adet",
+    "projeId": "epoksi-harf",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "telefon-kilifi-recine-1",
+    "ad": "Şeffaf silikon/sert kılıf",
+    "miktar": "1 adet",
+    "projeId": "telefon-kilifi-recine",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "telefon-kilifi-recine-2",
+    "ad": "Preslenmiş çiçek",
+    "miktar": "1 paket",
+    "projeId": "telefon-kilifi-recine",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "telefon-kilifi-recine-3",
+    "ad": "UV reçine",
+    "miktar": "30 g",
+    "projeId": "telefon-kilifi-recine",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "telefon-kilifi-recine-4",
+    "ad": "UV lamba",
+    "miktar": "1 adet",
+    "projeId": "telefon-kilifi-recine",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kesme-tahtasi-sap-1",
+    "ad": "Sert ağaç tahta (sap kısmı oyulmuş)",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kesme-tahtasi-sap",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kesme-tahtasi-sap-2",
+    "ad": "Gıdaya uygun sertifikalı epoksi",
+    "miktar": "200 g",
+    "projeId": "epoksi-kesme-tahtasi-sap",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kesme-tahtasi-sap-3",
+    "ad": "Pigment",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kesme-tahtasi-sap",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kesme-tahtasi-sap-4",
+    "ad": "Koli bandı",
+    "miktar": "1 rulo",
+    "projeId": "epoksi-kesme-tahtasi-sap",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kesme-tahtasi-sap-5",
+    "ad": "Zımpara + yağ",
+    "miktar": "1 set",
+    "projeId": "epoksi-kesme-tahtasi-sap",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kitap-ayraci-1",
+    "ad": "Ayraç silikon kalıbı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kitap-ayraci",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kitap-ayraci-2",
+    "ad": "UV reçine veya epoksi",
+    "miktar": "50 g",
+    "projeId": "epoksi-kitap-ayraci",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kitap-ayraci-3",
+    "ad": "Kuru yaprak",
+    "miktar": "1 paket",
+    "projeId": "epoksi-kitap-ayraci",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kitap-ayraci-4",
+    "ad": "Kurdele / püskül",
+    "miktar": "2 adet",
+    "projeId": "epoksi-kitap-ayraci",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kolye-sise-1",
+    "ad": "Yarım küre silikon kalıp Ø2 cm",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kolye-sise",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kolye-sise-2",
+    "ad": "UV reçine",
+    "miktar": "30 g",
+    "projeId": "epoksi-kolye-sise",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kolye-sise-3",
+    "ad": "İnce kum, minik deniz kabuğu",
+    "miktar": "1 tutam",
+    "projeId": "epoksi-kolye-sise",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kolye-sise-4",
+    "ad": "Mavi pigment",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kolye-sise",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kolye-sise-5",
+    "ad": "Kolye halkası + zincir",
+    "miktar": "1 set",
+    "projeId": "epoksi-kolye-sise",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-masa-kaplama-1",
+    "ad": "Kaplama tipi epoksi (masa büyüklüğüne göre)",
+    "miktar": "2–4 kg",
+    "projeId": "epoksi-masa-kaplama",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-masa-kaplama-2",
+    "ad": "Zımpara makinesi + 80–180 kum",
+    "miktar": "1 set",
+    "projeId": "epoksi-masa-kaplama",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-masa-kaplama-3",
+    "ad": "Spatula ve rulo",
+    "miktar": "1 set",
+    "projeId": "epoksi-masa-kaplama",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-masa-kaplama-4",
+    "ad": "Isı tabancası",
+    "miktar": "1 adet",
+    "projeId": "epoksi-masa-kaplama",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-masa-kaplama-5",
+    "ad": "Koli bandı",
+    "miktar": "1 rulo",
+    "projeId": "epoksi-masa-kaplama",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tabak-duvar-1",
+    "ad": "Ahşap pano 30×30 cm",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tabak-duvar",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tabak-duvar-2",
+    "ad": "Epoksi seti",
+    "miktar": "400 g",
+    "projeId": "epoksi-tabak-duvar",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tabak-duvar-3",
+    "ad": "Pigment (4–5 renk)",
+    "miktar": "1 set",
+    "projeId": "epoksi-tabak-duvar",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tabak-duvar-4",
+    "ad": "Kaplar ve çubuklar",
+    "miktar": "1 set",
+    "projeId": "epoksi-tabak-duvar",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tabak-duvar-5",
+    "ad": "Isı tabancası",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tabak-duvar",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-dugme-1",
+    "ad": "Düğme silikon kalıbı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-dugme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-dugme-2",
+    "ad": "UV reçine",
+    "miktar": "30 g",
+    "projeId": "epoksi-dugme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-dugme-3",
+    "ad": "Sim/pigment",
+    "miktar": "1 set",
+    "projeId": "epoksi-dugme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-dugme-4",
+    "ad": "İnce matkap ucu 1,5 mm + el matkabı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-dugme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tamir-1",
+    "ad": "Az viskoziteli epoksi",
+    "miktar": "100 g",
+    "projeId": "epoksi-tamir",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tamir-2",
+    "ad": "Pigment (siyah veya şeffaf)",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tamir",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tamir-3",
+    "ad": "Koli bandı",
+    "miktar": "1 rulo",
+    "projeId": "epoksi-tamir",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tamir-4",
+    "ad": "Spatula",
+    "miktar": "1 adet",
+    "projeId": "epoksi-tamir",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-tamir-5",
+    "ad": "Zımpara 120–400",
+    "miktar": "1 set",
+    "projeId": "epoksi-tamir",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-mum-tutucu-1",
+    "ad": "Mumluk silikon kalıbı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-mum-tutucu",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-mum-tutucu-2",
+    "ad": "Epoksi seti",
+    "miktar": "200 g",
+    "projeId": "epoksi-mum-tutucu",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-mum-tutucu-3",
+    "ad": "Pigment ve varak",
+    "miktar": "1 set",
+    "projeId": "epoksi-mum-tutucu",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-mum-tutucu-4",
+    "ad": "Tealight mum (metal kaplı)",
+    "miktar": "2 adet",
+    "projeId": "epoksi-mum-tutucu",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kalem-1",
+    "ad": "Kalem kiti (mekanizma + boru)",
+    "miktar": "1 set",
+    "projeId": "epoksi-kalem",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kalem-2",
+    "ad": "Epoksi veya poliüretan döküm reçinesi",
+    "miktar": "100 g",
+    "projeId": "epoksi-kalem",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kalem-3",
+    "ad": "Kalem boşluğu kalıbı",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kalem",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kalem-4",
+    "ad": "Mini ahşap torna + kalem mandreli",
+    "miktar": "1 set",
+    "projeId": "epoksi-kalem",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kalem-5",
+    "ad": "Zımpara 240–2000 + cila",
+    "miktar": "1 set",
+    "projeId": "epoksi-kalem",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kabarcik-onleme-1",
+    "ad": "Isı tabancası / mini pürmüz",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kabarcik-onleme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kabarcik-onleme-2",
+    "ad": "Dijital terazi",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kabarcik-onleme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kabarcik-onleme-3",
+    "ad": "Ilık su banyosu",
+    "miktar": "1 kap",
+    "projeId": "epoksi-kabarcik-onleme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "epoksi-kabarcik-onleme-4",
+    "ad": "Termometre",
+    "miktar": "1 adet",
+    "projeId": "epoksi-kabarcik-onleme",
+    "kategoriId": "epoksi"
+  },
+  {
+    "id": "kapi-gicirtisi-1",
+    "ad": "Silikon sprey veya beyaz lityum gres",
+    "miktar": "1 adet",
+    "projeId": "kapi-gicirtisi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-gicirtisi-2",
+    "ad": "Çivi ve çekiç",
+    "miktar": "1 set",
+    "projeId": "kapi-gicirtisi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-gicirtisi-3",
+    "ad": "Bez",
+    "miktar": "1 adet",
+    "projeId": "kapi-gicirtisi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-ayari-1",
+    "ad": "Tornavida seti",
+    "miktar": "1 set",
+    "projeId": "kapi-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-ayari-2",
+    "ad": "Daha uzun ahşap vidası (5×60 mm)",
+    "miktar": "4 adet",
+    "projeId": "kapi-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-ayari-3",
+    "ad": "Tebeşir",
+    "miktar": "1 adet",
+    "projeId": "kapi-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "lavabo-sifon-temizligi-1",
+    "ad": "Kova",
+    "miktar": "1 adet",
+    "projeId": "lavabo-sifon-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "lavabo-sifon-temizligi-2",
+    "ad": "Lastik eldiven",
+    "miktar": "1 çift",
+    "projeId": "lavabo-sifon-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "lavabo-sifon-temizligi-3",
+    "ad": "Eski diş fırçası",
+    "miktar": "1 adet",
+    "projeId": "lavabo-sifon-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "lavabo-sifon-temizligi-4",
+    "ad": "Lavabo pompası",
+    "miktar": "1 adet",
+    "projeId": "lavabo-sifon-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "rezervuar-ic-takim-1",
+    "ad": "Rezervuar iç takım seti (doldurma + boşaltma)",
+    "miktar": "1 set",
+    "projeId": "rezervuar-ic-takim",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "rezervuar-ic-takim-2",
+    "ad": "Ayarlı pense",
+    "miktar": "1 adet",
+    "projeId": "rezervuar-ic-takim",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "rezervuar-ic-takim-3",
+    "ad": "Sünger + kova",
+    "miktar": "1 set",
+    "projeId": "rezervuar-ic-takim",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dolap-mentese-ayari-1",
+    "ad": "Yıldız tornavida",
+    "miktar": "1 adet",
+    "projeId": "dolap-mentese-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dolap-mentese-ayari-2",
+    "ad": "Yedek dolap menteşesi (aynı tip)",
+    "miktar": "1 adet",
+    "projeId": "dolap-mentese-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dolap-mentese-ayari-3",
+    "ad": "El feneri",
+    "miktar": "1 adet",
+    "projeId": "dolap-mentese-ayari",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "raf-montaji-1",
+    "ad": "Darbeli matkap + matkap uçları",
+    "miktar": "1 set",
+    "projeId": "raf-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "raf-montaji-2",
+    "ad": "Duvar tipine uygun dübel + vida",
+    "miktar": "1 set",
+    "projeId": "raf-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "raf-montaji-3",
+    "ad": "Su terazisi",
+    "miktar": "1 adet",
+    "projeId": "raf-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "raf-montaji-4",
+    "ad": "Kablo-boru dedektörü",
+    "miktar": "1 adet",
+    "projeId": "raf-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "raf-montaji-5",
+    "ad": "Raf ve konsol",
+    "miktar": "1 set",
+    "projeId": "raf-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-boyama-1",
+    "ad": "İç cephe boyası",
+    "miktar": "7,5 L",
+    "projeId": "duvar-boyama",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-boyama-2",
+    "ad": "Astar",
+    "miktar": "2,5 L",
+    "projeId": "duvar-boyama",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-boyama-3",
+    "ad": "Rulo + tava + uzatma sapı",
+    "miktar": "1 set",
+    "projeId": "duvar-boyama",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-boyama-4",
+    "ad": "Kestirme fırçası",
+    "miktar": "1 adet",
+    "projeId": "duvar-boyama",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-boyama-5",
+    "ad": "Maskeleme bandı + naylon örtü",
+    "miktar": "1 set",
+    "projeId": "duvar-boyama",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "fayans-derz-yenileme-1",
+    "ad": "Derz kazıyıcı",
+    "miktar": "1 adet",
+    "projeId": "fayans-derz-yenileme",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "fayans-derz-yenileme-2",
+    "ad": "Hazır derz dolgusu",
+    "miktar": "2 kg",
+    "projeId": "fayans-derz-yenileme",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "fayans-derz-yenileme-3",
+    "ad": "Lastik mala",
+    "miktar": "1 adet",
+    "projeId": "fayans-derz-yenileme",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "fayans-derz-yenileme-4",
+    "ad": "Sünger + kova",
+    "miktar": "1 set",
+    "projeId": "fayans-derz-yenileme",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "pencere-fitili-1",
+    "ad": "Kendinden yapışkanlı köpük/kauçuk fitil (D veya P profil)",
+    "miktar": "10 m",
+    "projeId": "pencere-fitili",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "pencere-fitili-2",
+    "ad": "Makas",
+    "miktar": "1 adet",
+    "projeId": "pencere-fitili",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "pencere-fitili-3",
+    "ad": "İzopropil alkol + bez",
+    "miktar": "1 set",
+    "projeId": "pencere-fitili",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-kolu-degisimi-1",
+    "ad": "Yeni kapı kolu seti (aynı aks ölçüsü)",
+    "miktar": "1 set",
+    "projeId": "kapi-kolu-degisimi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-kolu-degisimi-2",
+    "ad": "Tornavida + alyan seti",
+    "miktar": "1 set",
+    "projeId": "kapi-kolu-degisimi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kapi-kolu-degisimi-3",
+    "ad": "Silikon sprey (yay yağlama)",
+    "miktar": "1 adet",
+    "projeId": "kapi-kolu-degisimi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "laminat-cizik-tamiri-1",
+    "ad": "Parke tamir mum ve kalem seti",
+    "miktar": "1 set",
+    "projeId": "laminat-cizik-tamiri",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "laminat-cizik-tamiri-2",
+    "ad": "Plastik spatula",
+    "miktar": "1 adet",
+    "projeId": "laminat-cizik-tamiri",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "laminat-cizik-tamiri-3",
+    "ad": "Yumuşak bez",
+    "miktar": "1 adet",
+    "projeId": "laminat-cizik-tamiri",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dus-basligi-kirec-1",
+    "ad": "Beyaz sirke",
+    "miktar": "500 ml",
+    "projeId": "dus-basligi-kirec",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dus-basligi-kirec-2",
+    "ad": "Kilitli poşet",
+    "miktar": "1 adet",
+    "projeId": "dus-basligi-kirec",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dus-basligi-kirec-3",
+    "ad": "Lastik bant",
+    "miktar": "1 adet",
+    "projeId": "dus-basligi-kirec",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "dus-basligi-kirec-4",
+    "ad": "Eski diş fırçası",
+    "miktar": "1 adet",
+    "projeId": "dus-basligi-kirec",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "tv-duvar-montaji-1",
+    "ad": "TV'nin ağırlığına ve VESA ölçüsüne uygun askı aparatı",
+    "miktar": "1 adet",
+    "projeId": "tv-duvar-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "tv-duvar-montaji-2",
+    "ad": "Darbeli matkap + matkap uçları",
+    "miktar": "1 set",
+    "projeId": "tv-duvar-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "tv-duvar-montaji-3",
+    "ad": "Su terazisi",
+    "miktar": "1 adet",
+    "projeId": "tv-duvar-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "tv-duvar-montaji-4",
+    "ad": "Kablo-boru dedektörü",
+    "miktar": "1 adet",
+    "projeId": "tv-duvar-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kornis-montaji-1",
+    "ad": "Korniş veya perde rayı seti",
+    "miktar": "1 set",
+    "projeId": "kornis-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kornis-montaji-2",
+    "ad": "Darbeli matkap + matkap uçları",
+    "miktar": "1 set",
+    "projeId": "kornis-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kornis-montaji-3",
+    "ad": "Su terazisi + metre",
+    "miktar": "1 set",
+    "projeId": "kornis-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kornis-montaji-4",
+    "ad": "Dübel + vida",
+    "miktar": "1 set",
+    "projeId": "kornis-montaji",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-kagidi-1",
+    "ad": "Duvar kağıdı",
+    "miktar": "rulo sayısı duvara göre",
+    "projeId": "duvar-kagidi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-kagidi-2",
+    "ad": "Duvar kağıdı tutkalı",
+    "miktar": "1 paket",
+    "projeId": "duvar-kagidi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-kagidi-3",
+    "ad": "Tutkal rulosu + plastik spatula",
+    "miktar": "1 set",
+    "projeId": "duvar-kagidi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-kagidi-4",
+    "ad": "Maket bıçağı (bol yedek uçlu)",
+    "miktar": "1 adet",
+    "projeId": "duvar-kagidi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "duvar-kagidi-5",
+    "ad": "Çekül veya lazer terazi",
+    "miktar": "1 adet",
+    "projeId": "duvar-kagidi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kuf-temizligi-1",
+    "ad": "Küf temizleyici sprey veya seyreltilmiş çamaşır suyu",
+    "miktar": "1 adet",
+    "projeId": "kuf-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kuf-temizligi-2",
+    "ad": "Nitril eldiven + maske + gözlük",
+    "miktar": "1 set",
+    "projeId": "kuf-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kuf-temizligi-3",
+    "ad": "Fırça + bez",
+    "miktar": "1 set",
+    "projeId": "kuf-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kuf-temizligi-4",
+    "ad": "Küf önleyici boya (isteğe bağlı)",
+    "miktar": "1 adet",
+    "projeId": "kuf-temizligi",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "radyator-hava-alma-1",
+    "ad": "Radyatör hava alma anahtarı veya düz tornavida",
+    "miktar": "1 adet",
+    "projeId": "radyator-hava-alma",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "radyator-hava-alma-2",
+    "ad": "Kova veya kap",
+    "miktar": "1 adet",
+    "projeId": "radyator-hava-alma",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "radyator-hava-alma-3",
+    "ad": "Bez + küçük kap",
+    "miktar": "1 set",
+    "projeId": "radyator-hava-alma",
+    "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "kil-saksi-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "500 g",
+    "projeId": "kil-saksi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saksi-2",
+    "ad": "Kil şekillendirme aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-saksi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saksi-3",
+    "ad": "Akrilik boya + su geçirmez vernik",
+    "miktar": "1 set",
+    "projeId": "kil-saksi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saksi-4",
+    "ad": "Plastik iç saksı",
+    "miktar": "1 adet",
+    "projeId": "kil-saksi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-boncuk-1",
+    "ad": "Polimer kil (çeşitli renk)",
+    "miktar": "4 paket",
+    "projeId": "kil-boncuk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-boncuk-2",
+    "ad": "Kürdan veya boncuk iğnesi",
+    "miktar": "1 paket",
+    "projeId": "kil-boncuk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-boncuk-3",
+    "ad": "Fırın kağıdı",
+    "miktar": "1 rulo",
+    "projeId": "kil-boncuk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-boncuk-4",
+    "ad": "Parlak vernik",
+    "miktar": "1 adet",
+    "projeId": "kil-boncuk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hayvan-figur-1",
+    "ad": "Polimer kil",
+    "miktar": "3 paket",
+    "projeId": "kil-hayvan-figur",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hayvan-figur-2",
+    "ad": "Alüminyum tel (iskelet)",
+    "miktar": "50 cm",
+    "projeId": "kil-hayvan-figur",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hayvan-figur-3",
+    "ad": "Kil aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-hayvan-figur",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hayvan-figur-4",
+    "ad": "Toz pastel (yanak)",
+    "miktar": "1 adet",
+    "projeId": "kil-hayvan-figur",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mekan-plakasi-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "300 g",
+    "projeId": "kil-mekan-plakasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mekan-plakasi-2",
+    "ad": "Harf damga seti",
+    "miktar": "1 set",
+    "projeId": "kil-mekan-plakasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mekan-plakasi-3",
+    "ad": "Merdane",
+    "miktar": "1 adet",
+    "projeId": "kil-mekan-plakasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mekan-plakasi-4",
+    "ad": "Jüt ip",
+    "miktar": "50 cm",
+    "projeId": "kil-mekan-plakasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mekan-plakasi-5",
+    "ad": "Akrilik boya + vernik",
+    "miktar": "1 set",
+    "projeId": "kil-mekan-plakasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-yuzuk-tabagi-1",
+    "ad": "Polimer kil (beyaz)",
+    "miktar": "2 paket",
+    "projeId": "kil-yuzuk-tabagi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-yuzuk-tabagi-2",
+    "ad": "Alüminyum folyo",
+    "miktar": "1 parça",
+    "projeId": "kil-yuzuk-tabagi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-yuzuk-tabagi-3",
+    "ad": "Kil aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-yuzuk-tabagi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-yuzuk-tabagi-4",
+    "ad": "Altın yaldız boya",
+    "miktar": "1 adet",
+    "projeId": "kil-yuzuk-tabagi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-miknatis-meyve-1",
+    "ad": "Polimer kil (kırmızı, yeşil, sarı, beyaz, siyah)",
+    "miktar": "5 paket",
+    "projeId": "kil-miknatis-meyve",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-miknatis-meyve-2",
+    "ad": "Neodyum mıknatıs 10 mm",
+    "miktar": "6 adet",
+    "projeId": "kil-miknatis-meyve",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-miknatis-meyve-3",
+    "ad": "Güçlü yapıştırıcı",
+    "miktar": "1 adet",
+    "projeId": "kil-miknatis-meyve",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-miknatis-meyve-4",
+    "ad": "Bıçak (kil için)",
+    "miktar": "1 adet",
+    "projeId": "kil-miknatis-meyve",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "seramik-kupa-boyama-1",
+    "ad": "Düz beyaz porselen kupa",
+    "miktar": "2 adet",
+    "projeId": "seramik-kupa-boyama",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "seramik-kupa-boyama-2",
+    "ad": "Porselen boya kalemi",
+    "miktar": "3 renk",
+    "projeId": "seramik-kupa-boyama",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "seramik-kupa-boyama-3",
+    "ad": "İzopropil alkol + pamuk",
+    "miktar": "1 set",
+    "projeId": "seramik-kupa-boyama",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "seramik-kupa-boyama-4",
+    "ad": "Ev fırını",
+    "miktar": "1 adet",
+    "projeId": "seramik-kupa-boyama",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mum-tutucu-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "300 g",
+    "projeId": "kil-mum-tutucu",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mum-tutucu-2",
+    "ad": "Merdane",
+    "miktar": "1 adet",
+    "projeId": "kil-mum-tutucu",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mum-tutucu-3",
+    "ad": "Mum (ölçü almak için)",
+    "miktar": "1 adet",
+    "projeId": "kil-mum-tutucu",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-mum-tutucu-4",
+    "ad": "Akrilik boya + vernik",
+    "miktar": "1 set",
+    "projeId": "kil-mum-tutucu",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kase-carkli-1",
+    "ad": "Çömlek kili (stoneware)",
+    "miktar": "2 kg",
+    "projeId": "kil-kase-carkli",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kase-carkli-2",
+    "ad": "Çömlek çarkı",
+    "miktar": "1 adet",
+    "projeId": "kil-kase-carkli",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kase-carkli-3",
+    "ad": "Sünger, tel ve şekillendirme aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-kase-carkli",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kase-carkli-4",
+    "ad": "Seramik fırını erişimi (atölye)",
+    "miktar": "—",
+    "projeId": "kil-kase-carkli",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-sabunluk-1",
+    "ad": "Polimer kil (2 renk)",
+    "miktar": "3 paket",
+    "projeId": "kil-sabunluk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-sabunluk-2",
+    "ad": "Merdane",
+    "miktar": "1 adet",
+    "projeId": "kil-sabunluk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-sabunluk-3",
+    "ad": "Pipet (delik açmak için)",
+    "miktar": "1 adet",
+    "projeId": "kil-sabunluk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-sabunluk-4",
+    "ad": "Su geçirmez parlak vernik",
+    "miktar": "1 adet",
+    "projeId": "kil-sabunluk",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-isim-kolye-1",
+    "ad": "Polimer kil",
+    "miktar": "1 paket",
+    "projeId": "kil-isim-kolye",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-isim-kolye-2",
+    "ad": "Harf kesici kalıp",
+    "miktar": "1 set",
+    "projeId": "kil-isim-kolye",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-isim-kolye-3",
+    "ad": "Kolye halkası + zincir",
+    "miktar": "1 set",
+    "projeId": "kil-isim-kolye",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-isim-kolye-4",
+    "ad": "İğne",
+    "miktar": "1 adet",
+    "projeId": "kil-isim-kolye",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-tabak-baski-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "500 g",
+    "projeId": "kil-tabak-baski",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-tabak-baski-2",
+    "ad": "Taze yaprak (belirgin damarlı)",
+    "miktar": "3 adet",
+    "projeId": "kil-tabak-baski",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-tabak-baski-3",
+    "ad": "Merdane",
+    "miktar": "1 adet",
+    "projeId": "kil-tabak-baski",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-tabak-baski-4",
+    "ad": "Kase (kalıp)",
+    "miktar": "1 adet",
+    "projeId": "kil-tabak-baski",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-tabak-baski-5",
+    "ad": "Boya + vernik",
+    "miktar": "1 set",
+    "projeId": "kil-tabak-baski",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-minyatur-pasta-1",
+    "ad": "Polimer kil (pastel renkler)",
+    "miktar": "4 paket",
+    "projeId": "kil-minyatur-pasta",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-minyatur-pasta-2",
+    "ad": "Sıvı polimer kil (krema)",
+    "miktar": "1 adet",
+    "projeId": "kil-minyatur-pasta",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-minyatur-pasta-3",
+    "ad": "Kil aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-minyatur-pasta",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-minyatur-pasta-4",
+    "ad": "Toz pastel",
+    "miktar": "1 adet",
+    "projeId": "kil-minyatur-pasta",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kalemlik-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "500 g",
+    "projeId": "kil-kalemlik",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kalemlik-2",
+    "ad": "Kil aletleri",
+    "miktar": "1 set",
+    "projeId": "kil-kalemlik",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kalemlik-3",
+    "ad": "Su (birleştirme)",
+    "miktar": "1 kap",
+    "projeId": "kil-kalemlik",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-kalemlik-4",
+    "ad": "Boya + vernik",
+    "miktar": "1 set",
+    "projeId": "kil-kalemlik",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-esarp-halkasi-1",
+    "ad": "Polimer kil",
+    "miktar": "2 paket",
+    "projeId": "kil-esarp-halkasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-esarp-halkasi-2",
+    "ad": "Kalın kalem veya boru (kalıp)",
+    "miktar": "1 adet",
+    "projeId": "kil-esarp-halkasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-esarp-halkasi-3",
+    "ad": "Fırın kağıdı",
+    "miktar": "1 parça",
+    "projeId": "kil-esarp-halkasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-esarp-halkasi-4",
+    "ad": "Vernik",
+    "miktar": "1 adet",
+    "projeId": "kil-esarp-halkasi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saat-1",
+    "ad": "Hava ile kuruyan kil",
+    "miktar": "1 kg",
+    "projeId": "kil-saat",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saat-2",
+    "ad": "Saat mekanizması + ibreler",
+    "miktar": "1 set",
+    "projeId": "kil-saat",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saat-3",
+    "ad": "Merdane",
+    "miktar": "1 adet",
+    "projeId": "kil-saat",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saat-4",
+    "ad": "Pipet (merkez delik)",
+    "miktar": "1 adet",
+    "projeId": "kil-saat",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-saat-5",
+    "ad": "Boya + vernik",
+    "miktar": "1 set",
+    "projeId": "kil-saat",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hediye-etiketi-1",
+    "ad": "Beyaz hava ile kuruyan kil",
+    "miktar": "300 g",
+    "projeId": "kil-hediye-etiketi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hediye-etiketi-2",
+    "ad": "Damga veya dantel (doku)",
+    "miktar": "1 adet",
+    "projeId": "kil-hediye-etiketi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hediye-etiketi-3",
+    "ad": "Kurabiye kalıpları",
+    "miktar": "1 set",
+    "projeId": "kil-hediye-etiketi",
+    "kategoriId": "kil"
+  },
+  {
+    "id": "kil-hediye-etiketi-4",
+    "ad": "İp / kurdele",
+    "miktar": "2 m",
+    "projeId": "kil-hediye-etiketi",
+    "kategoriId": "kil"
+  },
+  {
     "id": "kus-banyosu-1",
     "ad": "Toprak saksı (farklı boy)",
     "miktar": "3 adet",
@@ -5327,6 +9268,1021 @@
     "kategoriId": "maket"
   },
   {
+    "id": "makrome-anahtarlik-1",
+    "ad": "Makrome ipi 3 mm",
+    "miktar": "3 m",
+    "projeId": "makrome-anahtarlik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-anahtarlik-2",
+    "ad": "Anahtarlık halkası",
+    "miktar": "1 adet",
+    "projeId": "makrome-anahtarlik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-anahtarlik-3",
+    "ad": "Makas",
+    "miktar": "1 adet",
+    "projeId": "makrome-anahtarlik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-anahtarlik-4",
+    "ad": "Tarak",
+    "miktar": "1 adet",
+    "projeId": "makrome-anahtarlik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-bileklik-1",
+    "ad": "Mumlu makrome ipi 1 mm",
+    "miktar": "2 m",
+    "projeId": "makrome-bileklik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-bileklik-2",
+    "ad": "Boncuk (isteğe bağlı)",
+    "miktar": "3 adet",
+    "projeId": "makrome-bileklik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-bileklik-3",
+    "ad": "Bant (masaya sabitlemek için)",
+    "miktar": "1 adet",
+    "projeId": "makrome-bileklik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-bileklik-4",
+    "ad": "Çakmak",
+    "miktar": "1 adet",
+    "projeId": "makrome-bileklik",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-ayna-1",
+    "ad": "Yuvarlak ayna Ø25 cm",
+    "miktar": "1 adet",
+    "projeId": "makrome-ayna",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-ayna-2",
+    "ad": "Makrome ipi 4 mm",
+    "miktar": "30 m",
+    "projeId": "makrome-ayna",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-ayna-3",
+    "ad": "Ahşap halka Ø30 cm",
+    "miktar": "1 adet",
+    "projeId": "makrome-ayna",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-ayna-4",
+    "ad": "Sıcak silikon",
+    "miktar": "1 adet",
+    "projeId": "makrome-ayna",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-perde-1",
+    "ad": "Makrome ipi 4–5 mm",
+    "miktar": "200 m",
+    "projeId": "makrome-perde",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-perde-2",
+    "ad": "Ahşap çubuk 100 cm",
+    "miktar": "1 adet",
+    "projeId": "makrome-perde",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-perde-3",
+    "ad": "Askı kancası",
+    "miktar": "2 adet",
+    "projeId": "makrome-perde",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-perde-4",
+    "ad": "Makas + mezura",
+    "miktar": "1 set",
+    "projeId": "makrome-perde",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tuy-1",
+    "ad": "Pamuk tek bükümlü ip 3–5 mm",
+    "miktar": "5 m",
+    "projeId": "makrome-tuy",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tuy-2",
+    "ad": "Kalın orta ip (omurga)",
+    "miktar": "40 cm",
+    "projeId": "makrome-tuy",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tuy-3",
+    "ad": "Kumaş sertleştirici sprey",
+    "miktar": "1 adet",
+    "projeId": "makrome-tuy",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tuy-4",
+    "ad": "Makas + tel fırça",
+    "miktar": "1 set",
+    "projeId": "makrome-tuy",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "cilgin-yorgan-1",
+    "ad": "Akrilik veya pamuk ip (çeşitli renk)",
+    "miktar": "10 yumak",
+    "projeId": "cilgin-yorgan",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "cilgin-yorgan-2",
+    "ad": "Tığ 4–5 mm",
+    "miktar": "1 adet",
+    "projeId": "cilgin-yorgan",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "cilgin-yorgan-3",
+    "ad": "Yün iğnesi",
+    "miktar": "1 adet",
+    "projeId": "cilgin-yorgan",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-atki-1",
+    "ad": "Kalın yün ip",
+    "miktar": "3 yumak",
+    "projeId": "orgu-atki",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-atki-2",
+    "ad": "Şiş 7–8 mm",
+    "miktar": "1 çift",
+    "projeId": "orgu-atki",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-atki-3",
+    "ad": "Yün iğnesi",
+    "miktar": "1 adet",
+    "projeId": "orgu-atki",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bere-1",
+    "ad": "Yün veya akrilik ip (orta kalınlık)",
+    "miktar": "2 yumak",
+    "projeId": "orgu-bere",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bere-2",
+    "ad": "Yuvarlak şiş 5 mm, 40 cm",
+    "miktar": "1 adet",
+    "projeId": "orgu-bere",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bere-3",
+    "ad": "Çorap şişi 5 mm",
+    "miktar": "1 set",
+    "projeId": "orgu-bere",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bere-4",
+    "ad": "Ponpon yapıcı",
+    "miktar": "1 adet",
+    "projeId": "orgu-bere",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "amigurumi-ahtapot-1",
+    "ad": "Pamuk amigurumi ipi",
+    "miktar": "1 yumak",
+    "projeId": "amigurumi-ahtapot",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "amigurumi-ahtapot-2",
+    "ad": "Tığ 2,5 mm",
+    "miktar": "1 adet",
+    "projeId": "amigurumi-ahtapot",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "amigurumi-ahtapot-3",
+    "ad": "Elyaf",
+    "miktar": "50 g",
+    "projeId": "amigurumi-ahtapot",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "amigurumi-ahtapot-4",
+    "ad": "Nakış ipi (göz)",
+    "miktar": "1 adet",
+    "projeId": "amigurumi-ahtapot",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-sepet-1",
+    "ad": "Penye ip (t-shirt yarn)",
+    "miktar": "2 yumak",
+    "projeId": "orgu-sepet",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-sepet-2",
+    "ad": "Tığ 10–12 mm",
+    "miktar": "1 adet",
+    "projeId": "orgu-sepet",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-sepet-3",
+    "ad": "Halka belirleyici",
+    "miktar": "1 adet",
+    "projeId": "orgu-sepet",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bardak-alti-1",
+    "ad": "Pamuk ip",
+    "miktar": "1 yumak",
+    "projeId": "orgu-bardak-alti",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bardak-alti-2",
+    "ad": "Tığ 3,5 mm",
+    "miktar": "1 adet",
+    "projeId": "orgu-bardak-alti",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-bardak-alti-3",
+    "ad": "Yün iğnesi",
+    "miktar": "1 adet",
+    "projeId": "orgu-bardak-alti",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-canta-1",
+    "ad": "Pamuk makrome ipi 3 mm",
+    "miktar": "60 m",
+    "projeId": "makrome-canta",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-canta-2",
+    "ad": "Ahşap kulp halkası",
+    "miktar": "2 adet",
+    "projeId": "makrome-canta",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-canta-3",
+    "ad": "Makas + mezura",
+    "miktar": "1 set",
+    "projeId": "makrome-canta",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tavuk-1",
+    "ad": "Makrome ipi 3 mm",
+    "miktar": "80 m",
+    "projeId": "makrome-tavuk",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tavuk-2",
+    "ad": "Metal halka Ø20 ve Ø30 cm",
+    "miktar": "2 adet",
+    "projeId": "makrome-tavuk",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tavuk-3",
+    "ad": "Hazır sarkıt avize kablosu (duy + rozet)",
+    "miktar": "1 set",
+    "projeId": "makrome-tavuk",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-tavuk-4",
+    "ad": "LED ampul",
+    "miktar": "1 adet",
+    "projeId": "makrome-tavuk",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "ponpon-hali-1",
+    "ad": "Kalın yün/akrilik ip",
+    "miktar": "8 yumak",
+    "projeId": "ponpon-hali",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "ponpon-hali-2",
+    "ad": "Ponpon yapıcı",
+    "miktar": "1 adet",
+    "projeId": "ponpon-hali",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "ponpon-hali-3",
+    "ad": "Kaymaz plastik file (ızgara)",
+    "miktar": "60×90 cm",
+    "projeId": "ponpon-hali",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "ponpon-hali-4",
+    "ad": "Makas",
+    "miktar": "1 adet",
+    "projeId": "ponpon-hali",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-corap-1",
+    "ad": "Kalın çorap yünü",
+    "miktar": "2 yumak",
+    "projeId": "orgu-corap",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-corap-2",
+    "ad": "Çorap şişi 4 mm (5'li)",
+    "miktar": "1 set",
+    "projeId": "orgu-corap",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-corap-3",
+    "ad": "Yün iğnesi",
+    "miktar": "1 adet",
+    "projeId": "orgu-corap",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "orgu-corap-4",
+    "ad": "Halka belirleyici",
+    "miktar": "2 adet",
+    "projeId": "orgu-corap",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "tel-tava-orgu-1",
+    "ad": "Penye veya pamuk ip",
+    "miktar": "1 yumak",
+    "projeId": "tel-tava-orgu",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "tel-tava-orgu-2",
+    "ad": "Tığ 6 mm",
+    "miktar": "1 adet",
+    "projeId": "tel-tava-orgu",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "tel-tava-orgu-3",
+    "ad": "Ahşap halka",
+    "miktar": "1 adet",
+    "projeId": "tel-tava-orgu",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-duvar-rafi-1",
+    "ad": "Makrome ipi 5 mm",
+    "miktar": "20 m",
+    "projeId": "makrome-duvar-rafi",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-duvar-rafi-2",
+    "ad": "Ahşap raf tahtası 40×15 cm (4 delikli)",
+    "miktar": "1 adet",
+    "projeId": "makrome-duvar-rafi",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-duvar-rafi-3",
+    "ad": "Ahşap halka",
+    "miktar": "1 adet",
+    "projeId": "makrome-duvar-rafi",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "makrome-duvar-rafi-4",
+    "ad": "Matkap + Ø10 mm uç",
+    "miktar": "1 adet",
+    "projeId": "makrome-duvar-rafi",
+    "kategoriId": "makrome"
+  },
+  {
+    "id": "ahsap-fitil-mum-1",
+    "ad": "Soya veya hindistan cevizi mumu",
+    "miktar": "400 g",
+    "projeId": "ahsap-fitil-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "ahsap-fitil-mum-2",
+    "ad": "Ahşap fitil + metal tutucu",
+    "miktar": "2 adet",
+    "projeId": "ahsap-fitil-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "ahsap-fitil-mum-3",
+    "ad": "Mum esansı",
+    "miktar": "25 ml",
+    "projeId": "ahsap-fitil-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "ahsap-fitil-mum-4",
+    "ad": "Geniş ağızlı kavanoz",
+    "miktar": "2 adet",
+    "projeId": "ahsap-fitil-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "ahsap-fitil-mum-5",
+    "ad": "Termometre",
+    "miktar": "1 adet",
+    "projeId": "ahsap-fitil-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "bal-mumu-mum-1",
+    "ad": "Petek desenli bal mumu levhası",
+    "miktar": "4 adet",
+    "projeId": "bal-mumu-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "bal-mumu-mum-2",
+    "ad": "Pamuk fitil (kalın)",
+    "miktar": "1 m",
+    "projeId": "bal-mumu-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "bal-mumu-mum-3",
+    "ad": "Saç kurutma makinesi",
+    "miktar": "1 adet",
+    "projeId": "bal-mumu-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "bal-mumu-mum-4",
+    "ad": "Maket bıçağı + cetvel",
+    "miktar": "1 set",
+    "projeId": "bal-mumu-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalip-mum-1",
+    "ad": "Parafin veya soya mumu (sütun tipi)",
+    "miktar": "500 g",
+    "projeId": "kalip-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalip-mum-2",
+    "ad": "Silikon mum kalıbı",
+    "miktar": "1 adet",
+    "projeId": "kalip-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalip-mum-3",
+    "ad": "Pamuk fitil + iğne",
+    "miktar": "1 set",
+    "projeId": "kalip-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalip-mum-4",
+    "ad": "Mum boyası",
+    "miktar": "1 adet",
+    "projeId": "kalip-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalip-mum-5",
+    "ad": "Lastik bant / çubuk",
+    "miktar": "1 set",
+    "projeId": "kalip-mum",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-erit-yenile-1",
+    "ad": "Mum artıkları",
+    "miktar": "300 g",
+    "projeId": "mum-erit-yenile",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-erit-yenile-2",
+    "ad": "Eski konserve kutusu (eritme kabı)",
+    "miktar": "1 adet",
+    "projeId": "mum-erit-yenile",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-erit-yenile-3",
+    "ad": "Yeni fitil",
+    "miktar": "2 adet",
+    "projeId": "mum-erit-yenile",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-erit-yenile-4",
+    "ad": "Kavanoz veya kalıp",
+    "miktar": "2 adet",
+    "projeId": "mum-erit-yenile",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-erit-yenile-5",
+    "ad": "Süzgeç / tülbent",
+    "miktar": "1 adet",
+    "projeId": "mum-erit-yenile",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-1",
+    "ad": "Kozmetik soya mumu",
+    "miktar": "150 g",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-2",
+    "ad": "Shea yağı",
+    "miktar": "50 g",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-3",
+    "ad": "Tatlı badem yağı",
+    "miktar": "50 ml",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-4",
+    "ad": "Cilde uygun uçucu yağ (lavanta)",
+    "miktar": "10 damla",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-5",
+    "ad": "Ağızlı metal kap",
+    "miktar": "1 adet",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "masaj-mumu-6",
+    "ad": "Pamuk fitil",
+    "miktar": "1 adet",
+    "projeId": "masaj-mumu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "sivi-sabun-1",
+    "ad": "Rendelenmiş katı sabun",
+    "miktar": "1 su bardağı",
+    "projeId": "sivi-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "sivi-sabun-2",
+    "ad": "Su",
+    "miktar": "1,5 L",
+    "projeId": "sivi-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "sivi-sabun-3",
+    "ad": "Gliserin",
+    "miktar": "1 yemek kaşığı",
+    "projeId": "sivi-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "sivi-sabun-4",
+    "ad": "Pompalı şişe",
+    "miktar": "2 adet",
+    "projeId": "sivi-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "sivi-sabun-5",
+    "ad": "Rende",
+    "miktar": "1 adet",
+    "projeId": "sivi-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "tuz-banyosu-1",
+    "ad": "İngiliz tuzu (magnezyum sülfat)",
+    "miktar": "2 su bardağı",
+    "projeId": "tuz-banyosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "tuz-banyosu-2",
+    "ad": "İri deniz tuzu",
+    "miktar": "1 su bardağı",
+    "projeId": "tuz-banyosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "tuz-banyosu-3",
+    "ad": "Lavanta veya okaliptüs uçucu yağı",
+    "miktar": "15 damla",
+    "projeId": "tuz-banyosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "tuz-banyosu-4",
+    "ad": "Kurutulmuş çiçek",
+    "miktar": "1 avuç",
+    "projeId": "tuz-banyosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "tuz-banyosu-5",
+    "ad": "Kapaklı cam kavanoz",
+    "miktar": "2 adet",
+    "projeId": "tuz-banyosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-1",
+    "ad": "Karbonat",
+    "miktar": "1 su bardağı",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-2",
+    "ad": "Sitrik asit (limon tuzu)",
+    "miktar": "1/2 su bardağı",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-3",
+    "ad": "Mısır nişastası",
+    "miktar": "1/2 su bardağı",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-4",
+    "ad": "Kozmetik yağ (badem)",
+    "miktar": "2 yemek kaşığı",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-5",
+    "ad": "Cadı fındığı suyu veya su (sprey)",
+    "miktar": "az",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "banyo-bombasi-6",
+    "ad": "Banyo bombası kalıbı",
+    "miktar": "1 set",
+    "projeId": "banyo-bombasi",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "dudak-balsami-1",
+    "ad": "Kozmetik bal mumu pastil",
+    "miktar": "1 yemek kaşığı",
+    "projeId": "dudak-balsami",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "dudak-balsami-2",
+    "ad": "Shea yağı",
+    "miktar": "1 yemek kaşığı",
+    "projeId": "dudak-balsami",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "dudak-balsami-3",
+    "ad": "Hindistan cevizi yağı",
+    "miktar": "1 yemek kaşığı",
+    "projeId": "dudak-balsami",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "dudak-balsami-4",
+    "ad": "Boş balsam tüpü veya küçük kutu",
+    "miktar": "5 adet",
+    "projeId": "dudak-balsami",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalipli-sabun-hediye-1",
+    "ad": "Beyaz ve şeffaf gliserin sabun bazı",
+    "miktar": "1 kg",
+    "projeId": "kalipli-sabun-hediye",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalipli-sabun-hediye-2",
+    "ad": "Çiçek şekilli silikon kalıp",
+    "miktar": "2 adet",
+    "projeId": "kalipli-sabun-hediye",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalipli-sabun-hediye-3",
+    "ad": "Kozmetik boya ve esans",
+    "miktar": "1 set",
+    "projeId": "kalipli-sabun-hediye",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalipli-sabun-hediye-4",
+    "ad": "Şeffaf ambalaj ve kurdele",
+    "miktar": "1 set",
+    "projeId": "kalipli-sabun-hediye",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kalipli-sabun-hediye-5",
+    "ad": "İzopropil alkol sprey",
+    "miktar": "1 adet",
+    "projeId": "kalipli-sabun-hediye",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kecili-sabun-1",
+    "ad": "Katı sabun kalıbı",
+    "miktar": "2 adet",
+    "projeId": "kecili-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kecili-sabun-2",
+    "ad": "Yün keçe elyafı (merinos)",
+    "miktar": "30 g",
+    "projeId": "kecili-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kecili-sabun-3",
+    "ad": "Ilık sabunlu su",
+    "miktar": "1 kap",
+    "projeId": "kecili-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kecili-sabun-4",
+    "ad": "Naylon çorap",
+    "miktar": "1 adet",
+    "projeId": "kecili-sabun",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kahve-sabunu-1",
+    "ad": "Beyaz gliserin sabun bazı",
+    "miktar": "500 g",
+    "projeId": "kahve-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kahve-sabunu-2",
+    "ad": "Kurutulmuş kahve telvesi",
+    "miktar": "2 yemek kaşığı",
+    "projeId": "kahve-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kahve-sabunu-3",
+    "ad": "Kahve veya portakal esansı",
+    "miktar": "5 ml",
+    "projeId": "kahve-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "kahve-sabunu-4",
+    "ad": "Silikon kalıp",
+    "miktar": "1 adet",
+    "projeId": "kahve-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-1",
+    "ad": "Zeytinyağı",
+    "miktar": "1000 g",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-2",
+    "ad": "Kostik soda (saf NaOH)",
+    "miktar": "128 g",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-3",
+    "ad": "Saf su",
+    "miktar": "330 g",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-4",
+    "ad": "Hassas terazi",
+    "miktar": "1 adet",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-5",
+    "ad": "El blenderı",
+    "miktar": "1 adet",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "zeytinyagli-kastil-6",
+    "ad": "Gözlük + eldiven",
+    "miktar": "1 set",
+    "projeId": "zeytinyagli-kastil",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "defne-sabunu-1",
+    "ad": "Zeytinyağı",
+    "miktar": "800 g",
+    "projeId": "defne-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "defne-sabunu-2",
+    "ad": "Defne yağı",
+    "miktar": "200 g",
+    "projeId": "defne-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "defne-sabunu-3",
+    "ad": "Kostik soda (saf NaOH)",
+    "miktar": "129 g",
+    "projeId": "defne-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "defne-sabunu-4",
+    "ad": "Saf su",
+    "miktar": "330 g",
+    "projeId": "defne-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "defne-sabunu-5",
+    "ad": "Hassas terazi + blender + koruyucu ekipman",
+    "miktar": "1 set",
+    "projeId": "defne-sabunu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-boyama-1",
+    "ad": "Beyaz sütun mum",
+    "miktar": "3 adet",
+    "projeId": "mum-boyama",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-boyama-2",
+    "ad": "Desenli peçete",
+    "miktar": "2 adet",
+    "projeId": "mum-boyama",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-boyama-3",
+    "ad": "Saç kurutma makinesi",
+    "miktar": "1 adet",
+    "projeId": "mum-boyama",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-boyama-4",
+    "ad": "Yağlı kağıt",
+    "miktar": "1 yaprak",
+    "projeId": "mum-boyama",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-boyama-5",
+    "ad": "Mum için akrilik boya (isteğe bağlı)",
+    "miktar": "1 set",
+    "projeId": "mum-boyama",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "oda-kokusu-1",
+    "ad": "Dar ağızlı cam şişe",
+    "miktar": "1 adet",
+    "projeId": "oda-kokusu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "oda-kokusu-2",
+    "ad": "Rattan çubuk",
+    "miktar": "8 adet",
+    "projeId": "oda-kokusu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "oda-kokusu-3",
+    "ad": "Koku taşıyıcı baz yağı (DPG veya tatlı badem)",
+    "miktar": "80 ml",
+    "projeId": "oda-kokusu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "oda-kokusu-4",
+    "ad": "Uçucu yağ veya oda kokusu esansı",
+    "miktar": "20 ml",
+    "projeId": "oda-kokusu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-vazosu-1",
+    "ad": "Düz cam bardak",
+    "miktar": "3 adet",
+    "projeId": "mum-vazosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-vazosu-2",
+    "ad": "Preslenmiş kuru çiçek ve yaprak",
+    "miktar": "1 paket",
+    "projeId": "mum-vazosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-vazosu-3",
+    "ad": "Dekupaj tutkalı (mat)",
+    "miktar": "1 adet",
+    "projeId": "mum-vazosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-vazosu-4",
+    "ad": "Yumuşak fırça",
+    "miktar": "1 adet",
+    "projeId": "mum-vazosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
+    "id": "mum-vazosu-5",
+    "ad": "Tealight mum",
+    "miktar": "3 adet",
+    "projeId": "mum-vazosu",
+    "kategoriId": "mum-sabun"
+  },
+  {
     "id": "oy-ay1",
     "ad": "Kontrplak 9 mm (kavak veya huş)",
     "miktar": "30×20 cm",
@@ -5971,6 +10927,503 @@
     "kategoriId": "oyuncak"
   },
   {
+    "id": "pirografi-kasik-1",
+    "ad": "Ahşap kaşık (işlenmemiş)",
+    "miktar": "3 adet",
+    "projeId": "pirografi-kasik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kasik-2",
+    "ad": "Pirografi kalemi + uçlar",
+    "miktar": "1 set",
+    "projeId": "pirografi-kasik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kasik-3",
+    "ad": "Kurşun kalem",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kasik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kasik-4",
+    "ad": "Gıdaya uygun mineral yağ",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kasik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kesme-tahtasi-1",
+    "ad": "Ahşap kesme tahtası",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kesme-tahtasi",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kesme-tahtasi-2",
+    "ad": "Pirografi kalemi",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kesme-tahtasi",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kesme-tahtasi-3",
+    "ad": "Karbon kağıdı",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kesme-tahtasi",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kesme-tahtasi-4",
+    "ad": "Yazdırılmış yazı şablonu",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kesme-tahtasi",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-portre-1",
+    "ad": "Ihlamur veya kavak pano 20×25 cm",
+    "miktar": "1 adet",
+    "projeId": "pirografi-portre",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-portre-2",
+    "ad": "Ayarlı pirografi cihazı + ince uçlar",
+    "miktar": "1 set",
+    "projeId": "pirografi-portre",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-portre-3",
+    "ad": "Referans fotoğraf",
+    "miktar": "1 adet",
+    "projeId": "pirografi-portre",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-portre-4",
+    "ad": "Karbon kağıdı",
+    "miktar": "1 adet",
+    "projeId": "pirografi-portre",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-saat-1",
+    "ad": "Kurumuş kütük dilimi Ø30 cm",
+    "miktar": "1 adet",
+    "projeId": "pirografi-saat",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-saat-2",
+    "ad": "Pirografi kalemi",
+    "miktar": "1 adet",
+    "projeId": "pirografi-saat",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-saat-3",
+    "ad": "Saat mekanizması",
+    "miktar": "1 set",
+    "projeId": "pirografi-saat",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-saat-4",
+    "ad": "Matkap + 8 mm uç",
+    "miktar": "1 adet",
+    "projeId": "pirografi-saat",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-saat-5",
+    "ad": "Şeffaf vernik",
+    "miktar": "1 adet",
+    "projeId": "pirografi-saat",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-mandala-1",
+    "ad": "Kontrplak pano 30×30 cm",
+    "miktar": "1 adet",
+    "projeId": "pirografi-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-mandala-2",
+    "ad": "Pergel + iletki",
+    "miktar": "1 set",
+    "projeId": "pirografi-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-mandala-3",
+    "ad": "Pirografi kalemi + bilye uç",
+    "miktar": "1 set",
+    "projeId": "pirografi-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-mandala-4",
+    "ad": "Kurşun kalem",
+    "miktar": "1 adet",
+    "projeId": "pirografi-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kutu-1",
+    "ad": "Ahşap kutu (işlenmemiş)",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kutu",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kutu-2",
+    "ad": "Pirografi kalemi",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kutu",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kutu-3",
+    "ad": "Desen şablonu",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kutu",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kutu-4",
+    "ad": "Ahşap boyası (isteğe bağlı)",
+    "miktar": "1 set",
+    "projeId": "pirografi-kutu",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-deri-1",
+    "ad": "Bitkisel tabaklı deri",
+    "miktar": "15×15 cm",
+    "projeId": "pirografi-deri",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-deri-2",
+    "ad": "Ayarlı pirografi cihazı",
+    "miktar": "1 adet",
+    "projeId": "pirografi-deri",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-deri-3",
+    "ad": "Kurşun kalem",
+    "miktar": "1 adet",
+    "projeId": "pirografi-deri",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-deri-4",
+    "ad": "Deri cilası",
+    "miktar": "1 adet",
+    "projeId": "pirografi-deri",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kalemlik-1",
+    "ad": "Ahşap kalemlik",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kalemlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kalemlik-2",
+    "ad": "Pirografi kalemi",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kalemlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-kalemlik-3",
+    "ad": "Şablon",
+    "miktar": "1 adet",
+    "projeId": "pirografi-kalemlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akrilik-tuval-manzara-1",
+    "ad": "Tuval 30×40 cm",
+    "miktar": "1 adet",
+    "projeId": "akrilik-tuval-manzara",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akrilik-tuval-manzara-2",
+    "ad": "Akrilik boya seti",
+    "miktar": "1 set",
+    "projeId": "akrilik-tuval-manzara",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akrilik-tuval-manzara-3",
+    "ad": "Fırça seti (düz ve yuvarlak)",
+    "miktar": "1 set",
+    "projeId": "akrilik-tuval-manzara",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akrilik-tuval-manzara-4",
+    "ad": "Palet + su kabı",
+    "miktar": "1 set",
+    "projeId": "akrilik-tuval-manzara",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tas-boyama-mandala-1",
+    "ad": "Düz yuvarlak taş",
+    "miktar": "3 adet",
+    "projeId": "tas-boyama-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tas-boyama-mandala-2",
+    "ad": "Akrilik boya",
+    "miktar": "1 set",
+    "projeId": "tas-boyama-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tas-boyama-mandala-3",
+    "ad": "Nokta aletleri (dotting tools)",
+    "miktar": "1 set",
+    "projeId": "tas-boyama-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tas-boyama-mandala-4",
+    "ad": "Vernik",
+    "miktar": "1 adet",
+    "projeId": "tas-boyama-mandala",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "suluboya-kartpostal-1",
+    "ad": "Suluboya kağıdı 300 g",
+    "miktar": "4 adet",
+    "projeId": "suluboya-kartpostal",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "suluboya-kartpostal-2",
+    "ad": "Suluboya seti",
+    "miktar": "1 set",
+    "projeId": "suluboya-kartpostal",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "suluboya-kartpostal-3",
+    "ad": "Yuvarlak fırça no. 6",
+    "miktar": "1 adet",
+    "projeId": "suluboya-kartpostal",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "suluboya-kartpostal-4",
+    "ad": "Maskeleme bandı",
+    "miktar": "1 rulo",
+    "projeId": "suluboya-kartpostal",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tisort-boyama-1",
+    "ad": "Pamuklu tişört (yıkanmış)",
+    "miktar": "1 adet",
+    "projeId": "tisort-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tisort-boyama-2",
+    "ad": "Kumaş boyası",
+    "miktar": "1 set",
+    "projeId": "tisort-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tisort-boyama-3",
+    "ad": "Şablon (asetat veya karton)",
+    "miktar": "1 adet",
+    "projeId": "tisort-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tisort-boyama-4",
+    "ad": "Sünger fırça",
+    "miktar": "2 adet",
+    "projeId": "tisort-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "tisort-boyama-5",
+    "ad": "Karton (iç astar)",
+    "miktar": "1 adet",
+    "projeId": "tisort-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "cam-boyama-1",
+    "ad": "Cam kavanoz",
+    "miktar": "2 adet",
+    "projeId": "cam-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "cam-boyama-2",
+    "ad": "Cam boyası + kontür",
+    "miktar": "1 set",
+    "projeId": "cam-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "cam-boyama-3",
+    "ad": "Alkol + pamuk",
+    "miktar": "1 set",
+    "projeId": "cam-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "cam-boyama-4",
+    "ad": "İnce fırça",
+    "miktar": "1 adet",
+    "projeId": "cam-boyama",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "string-art-1",
+    "ad": "Ahşap pano 30×30 cm",
+    "miktar": "1 adet",
+    "projeId": "string-art",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "string-art-2",
+    "ad": "Başlı çivi 2 cm",
+    "miktar": "100 adet",
+    "projeId": "string-art",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "string-art-3",
+    "ad": "Nakış ipi",
+    "miktar": "3 çile",
+    "projeId": "string-art",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "string-art-4",
+    "ad": "Çekiç",
+    "miktar": "1 adet",
+    "projeId": "string-art",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "string-art-5",
+    "ad": "Kağıt şablon",
+    "miktar": "1 adet",
+    "projeId": "string-art",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-baslangic-1",
+    "ad": "Artık ıhlamur tahtası",
+    "miktar": "1 adet",
+    "projeId": "pirografi-baslangic",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-baslangic-2",
+    "ad": "Pirografi kalemi + uç seti",
+    "miktar": "1 set",
+    "projeId": "pirografi-baslangic",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-baslangic-3",
+    "ad": "Pense (uç değiştirmek için)",
+    "miktar": "1 adet",
+    "projeId": "pirografi-baslangic",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-1",
+    "ad": "Seramik fayans 10×10 cm",
+    "miktar": "4 adet",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-2",
+    "ad": "Akrilik boya",
+    "miktar": "4 renk",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-3",
+    "ad": "Akış ortamı (pouring medium)",
+    "miktar": "1 şişe",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-4",
+    "ad": "Plastik bardak",
+    "miktar": "5 adet",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-5",
+    "ad": "Silikon yağı (hücre için)",
+    "miktar": "1 adet",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "akiskan-resim-bardak-alti-6",
+    "ad": "Keçe ayak",
+    "miktar": "16 adet",
+    "projeId": "akiskan-resim-bardak-alti",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-isimlik-1",
+    "ad": "Ahşap üçgen prizma blok",
+    "miktar": "1 adet",
+    "projeId": "pirografi-isimlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-isimlik-2",
+    "ad": "Pirografi kalemi",
+    "miktar": "1 adet",
+    "projeId": "pirografi-isimlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-isimlik-3",
+    "ad": "Yazı şablonu",
+    "miktar": "1 adet",
+    "projeId": "pirografi-isimlik",
+    "kategoriId": "pirografi"
+  },
+  {
+    "id": "pirografi-isimlik-4",
+    "ad": "Ahşap yağı",
+    "miktar": "1 adet",
+    "projeId": "pirografi-isimlik",
+    "kategoriId": "pirografi"
+  },
+  {
     "id": "rc-tk1",
     "ad": "XPS köpük levha 3 cm",
     "miktar": "1 levha",
@@ -6599,6 +12052,496 @@
     "miktar": "1 adet",
     "projeId": "servo-test",
     "kategoriId": "rc"
+  },
+  {
+    "id": "taki-isimli-bileklik-1",
+    "ad": "Elastik takı ipi 0,8 mm",
+    "miktar": "1 m",
+    "projeId": "taki-isimli-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-isimli-bileklik-2",
+    "ad": "Harf boncuk seti",
+    "miktar": "1 paket",
+    "projeId": "taki-isimli-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-isimli-bileklik-3",
+    "ad": "Renkli ara boncuk",
+    "miktar": "1 paket",
+    "projeId": "taki-isimli-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-isimli-bileklik-4",
+    "ad": "Takı yapıştırıcısı",
+    "miktar": "1 adet",
+    "projeId": "taki-isimli-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-inci-kolye-1",
+    "ad": "Tatlı su incisi",
+    "miktar": "1 dizi",
+    "projeId": "taki-inci-kolye",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-inci-kolye-2",
+    "ad": "İpek ipi (iğneli)",
+    "miktar": "2 m",
+    "projeId": "taki-inci-kolye",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-inci-kolye-3",
+    "ad": "Kilit + ip ucu (bead tip)",
+    "miktar": "1 set",
+    "projeId": "taki-inci-kolye",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-inci-kolye-4",
+    "ad": "Düğüm aleti veya tığ",
+    "miktar": "1 adet",
+    "projeId": "taki-inci-kolye",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kupe-halka-1",
+    "ad": "Gümüş kaplama tel 0,8 mm",
+    "miktar": "1 m",
+    "projeId": "taki-kupe-halka",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kupe-halka-2",
+    "ad": "Boncuk",
+    "miktar": "10 adet",
+    "projeId": "taki-kupe-halka",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kupe-halka-3",
+    "ad": "Yuvarlak uçlu pense",
+    "miktar": "1 adet",
+    "projeId": "taki-kupe-halka",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kupe-halka-4",
+    "ad": "Kesme pensesi",
+    "miktar": "1 adet",
+    "projeId": "taki-kupe-halka",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kupe-halka-5",
+    "ad": "Silindir (şişe veya kalem)",
+    "miktar": "1 adet",
+    "projeId": "taki-kupe-halka",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-yuzuk-tel-1",
+    "ad": "Bakır veya gümüş kaplama tel 0,8 mm",
+    "miktar": "1 m",
+    "projeId": "taki-yuzuk-tel",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-yuzuk-tel-2",
+    "ad": "Doğal taş boncuk 8 mm",
+    "miktar": "1 adet",
+    "projeId": "taki-yuzuk-tel",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-yuzuk-tel-3",
+    "ad": "Yüzük çubuğu (mandrel)",
+    "miktar": "1 adet",
+    "projeId": "taki-yuzuk-tel",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-yuzuk-tel-4",
+    "ad": "Pense seti",
+    "miktar": "1 set",
+    "projeId": "taki-yuzuk-tel",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-hayat-agaci-1",
+    "ad": "Tel 0,4 mm",
+    "miktar": "5 m",
+    "projeId": "taki-hayat-agaci",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-hayat-agaci-2",
+    "ad": "Kalın tel halka 1,2 mm (Ø4 cm)",
+    "miktar": "1 adet",
+    "projeId": "taki-hayat-agaci",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-hayat-agaci-3",
+    "ad": "Taş cips boncuk",
+    "miktar": "1 paket",
+    "projeId": "taki-hayat-agaci",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-hayat-agaci-4",
+    "ad": "Pense seti",
+    "miktar": "1 set",
+    "projeId": "taki-hayat-agaci",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-hayat-agaci-5",
+    "ad": "Kolye zinciri",
+    "miktar": "1 adet",
+    "projeId": "taki-hayat-agaci",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dogal-tas-kupe-1",
+    "ad": "Doğal taş boncuk",
+    "miktar": "2 adet",
+    "projeId": "taki-dogal-tas-kupe",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dogal-tas-kupe-2",
+    "ad": "İğneli çivi (head pin)",
+    "miktar": "2 adet",
+    "projeId": "taki-dogal-tas-kupe",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dogal-tas-kupe-3",
+    "ad": "Küpe kancası (nikelsiz)",
+    "miktar": "2 adet",
+    "projeId": "taki-dogal-tas-kupe",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dogal-tas-kupe-4",
+    "ad": "Yuvarlak + kesme pense",
+    "miktar": "1 set",
+    "projeId": "taki-dogal-tas-kupe",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-zincir-bileklik-1",
+    "ad": "Açık halka 6 mm (tel 1 mm)",
+    "miktar": "200 adet",
+    "projeId": "taki-zincir-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-zincir-bileklik-2",
+    "ad": "Düz uçlu pense",
+    "miktar": "2 adet",
+    "projeId": "taki-zincir-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-zincir-bileklik-3",
+    "ad": "Kilit",
+    "miktar": "1 adet",
+    "projeId": "taki-zincir-bileklik",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-tas-sarma-1",
+    "ad": "Delinmemiş doğal taş",
+    "miktar": "1 adet",
+    "projeId": "taki-kolye-tas-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-tas-sarma-2",
+    "ad": "Tel 0,6 mm",
+    "miktar": "1 m",
+    "projeId": "taki-kolye-tas-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-tas-sarma-3",
+    "ad": "Pense seti",
+    "miktar": "1 set",
+    "projeId": "taki-kolye-tas-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-tas-sarma-4",
+    "ad": "Deri kolye ipi",
+    "miktar": "60 cm",
+    "projeId": "taki-kolye-tas-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kum-boncuk-1",
+    "ad": "Miyuki Delica kum boncuk (3 renk)",
+    "miktar": "3 paket",
+    "projeId": "taki-kum-boncuk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kum-boncuk-2",
+    "ad": "Boncuk ipi (nylon)",
+    "miktar": "1 makara",
+    "projeId": "taki-kum-boncuk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kum-boncuk-3",
+    "ad": "Boncuk iğnesi",
+    "miktar": "2 adet",
+    "projeId": "taki-kum-boncuk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kum-boncuk-4",
+    "ad": "Desen şablonu (kareli kağıt)",
+    "miktar": "1 adet",
+    "projeId": "taki-kum-boncuk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kum-boncuk-5",
+    "ad": "Kilit",
+    "miktar": "1 adet",
+    "projeId": "taki-kum-boncuk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sac-tokasi-1",
+    "ad": "Metal çıtçıt toka",
+    "miktar": "4 adet",
+    "projeId": "taki-sac-tokasi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sac-tokasi-2",
+    "ad": "İnci ve boncuk",
+    "miktar": "1 paket",
+    "projeId": "taki-sac-tokasi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sac-tokasi-3",
+    "ad": "İnce tel 0,3 mm",
+    "miktar": "2 m",
+    "projeId": "taki-sac-tokasi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sac-tokasi-4",
+    "ad": "Takı yapıştırıcısı",
+    "miktar": "1 adet",
+    "projeId": "taki-sac-tokasi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-halhal-1",
+    "ad": "Mumlu ip 1 mm",
+    "miktar": "1 m",
+    "projeId": "taki-halhal",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-halhal-2",
+    "ad": "Delikli deniz kabuğu",
+    "miktar": "5 adet",
+    "projeId": "taki-halhal",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-halhal-3",
+    "ad": "Boncuk",
+    "miktar": "1 paket",
+    "projeId": "taki-halhal",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-brosh-1",
+    "ad": "Keçe",
+    "miktar": "2 parça",
+    "projeId": "taki-brosh",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-brosh-2",
+    "ad": "Boncuk ve pul",
+    "miktar": "1 paket",
+    "projeId": "taki-brosh",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-brosh-3",
+    "ad": "Broş iğnesi",
+    "miktar": "1 adet",
+    "projeId": "taki-brosh",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-brosh-4",
+    "ad": "Dikiş iğnesi + ip",
+    "miktar": "1 set",
+    "projeId": "taki-brosh",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-uzunluk-1",
+    "ad": "İnce zincir (3 çeşit)",
+    "miktar": "3 × 50 cm",
+    "projeId": "taki-kolye-uzunluk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-uzunluk-2",
+    "ad": "Çoklu kilit (layering clasp)",
+    "miktar": "1 adet",
+    "projeId": "taki-kolye-uzunluk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-uzunluk-3",
+    "ad": "Halka",
+    "miktar": "6 adet",
+    "projeId": "taki-kolye-uzunluk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kolye-uzunluk-4",
+    "ad": "Düz pense",
+    "miktar": "2 adet",
+    "projeId": "taki-kolye-uzunluk",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-temizleme-1",
+    "ad": "Alüminyum folyo",
+    "miktar": "1 parça",
+    "projeId": "taki-temizleme",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-temizleme-2",
+    "ad": "Karbonat",
+    "miktar": "2 yemek kaşığı",
+    "projeId": "taki-temizleme",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-temizleme-3",
+    "ad": "Sıcak su",
+    "miktar": "1 kase",
+    "projeId": "taki-temizleme",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-temizleme-4",
+    "ad": "Yumuşak bez",
+    "miktar": "1 adet",
+    "projeId": "taki-temizleme",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sandigi-1",
+    "ad": "Eski resim çerçevesi",
+    "miktar": "1 adet",
+    "projeId": "taki-sandigi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sandigi-2",
+    "ad": "Tel kafes veya ızgara",
+    "miktar": "1 parça",
+    "projeId": "taki-sandigi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sandigi-3",
+    "ad": "S kanca",
+    "miktar": "20 adet",
+    "projeId": "taki-sandigi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-sandigi-4",
+    "ad": "Zımba tabancası",
+    "miktar": "1 adet",
+    "projeId": "taki-sandigi",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dijital-boyama-1",
+    "ad": "Shrink (küçülen) plastik levha",
+    "miktar": "2 adet",
+    "projeId": "taki-dijital-boyama",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dijital-boyama-2",
+    "ad": "Renkli kalem",
+    "miktar": "1 set",
+    "projeId": "taki-dijital-boyama",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dijital-boyama-3",
+    "ad": "Delgeç",
+    "miktar": "1 adet",
+    "projeId": "taki-dijital-boyama",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dijital-boyama-4",
+    "ad": "Fırın",
+    "miktar": "1 adet",
+    "projeId": "taki-dijital-boyama",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-dijital-boyama-5",
+    "ad": "Kolye zinciri + halka",
+    "miktar": "1 set",
+    "projeId": "taki-dijital-boyama",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kristal-sarma-1",
+    "ad": "Kuvars kristal ucu",
+    "miktar": "1 adet",
+    "projeId": "taki-kristal-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kristal-sarma-2",
+    "ad": "Mumlu ip 0,8 mm",
+    "miktar": "3 m",
+    "projeId": "taki-kristal-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kristal-sarma-3",
+    "ad": "Kolye ipi",
+    "miktar": "70 cm",
+    "projeId": "taki-kristal-sarma",
+    "kategoriId": "taki"
+  },
+  {
+    "id": "taki-kristal-sarma-4",
+    "ad": "Çakmak",
+    "miktar": "1 adet",
+    "projeId": "taki-kristal-sarma",
+    "kategoriId": "taki"
   },
   {
     "id": "sise-bahcesi-1",

@@ -28,10 +28,10 @@ describe("içerik", () => {
       expect([k.id, PROJELER.filter((p) => p.kategoriId === k.id).length >= 3]).toEqual([k.id, true]);
   });
 
-  // 20 projeye tamamlanan kategoriler (grup grup genişliyor)
-  const TAMAMLANAN = ["oyuncak", "maket", "rc", "balikcilik", "akvaryum", "terraryum", "kus-evi", "bahce"];
-  test("tamamlanan kategorilerde 20 proje var", () => {
-    for (const k of TAMAMLANAN) expect([k, PROJELER.filter((p) => p.kategoriId === k).length]).toEqual([k, 20]);
+  test("her kategoride tam 20 proje var (toplam 400)", () => {
+    for (const k of KATEGORILER)
+      expect([k.id, PROJELER.filter((p) => p.kategoriId === k.id).length]).toEqual([k.id, 20]);
+    expect(PROJELER.length).toBe(400);
   });
 
   test("her proje eksiksiz ve çizimli", () => {
