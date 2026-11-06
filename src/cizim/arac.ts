@@ -20,16 +20,20 @@ export function taramaYollari([x, y, w, h]: Tarama["kutu"], aralik: number, ters
   return d.join(" ");
 }
 
+// Koordinatları 2 ondalığa yuvarla (Android SVG ayrıştırıcısı katıdır)
+export const yuvarla = (x: number) => Math.round(x * 100) / 100;
+
 // Testere dişi gibi zikzak
 export function zikzak(x1: number, y1: number, x2: number, y2: number, n: number, boy: number) {
   const dx = (x2 - x1) / n,
     dy = (y2 - y1) / n;
-  const len = Math.hypot(dx, dy),
-    nx = (-dy / len) * boy,
+  const len = Math.hypot(dx, dy);
+  if (!len || n < 1) return `M${x1} ${y1} L${x2} ${y2}`; // sıfır uzunluk: NaN üretme
+  const nx = (-dy / len) * boy,
     ny = (dx / len) * boy;
   let d = `M${x1} ${y1}`;
   for (let i = 0; i < n; i++) {
-    d += ` L${x1 + dx * (i + 0.5) + nx} ${y1 + dy * (i + 0.5) + ny} L${x1 + dx * (i + 1)} ${y1 + dy * (i + 1)}`;
+    d += ` L${yuvarla(x1 + dx * (i + 0.5) + nx)} ${yuvarla(y1 + dy * (i + 0.5) + ny)} L${yuvarla(x1 + dx * (i + 1))} ${yuvarla(y1 + dy * (i + 1))}`;
   }
   return d;
 }

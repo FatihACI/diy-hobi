@@ -1,4 +1,4 @@
-import { Cizim, daire, kutu, zikzak } from "./arac";
+import { Cizim, daire, kutu } from "./arac";
 
 // 3D Baskı, Bisiklet, Ev Tamiratı projeleri (viewBox 0 0 160 160)
 export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
@@ -84,7 +84,7 @@ export const PROJE_TEKNIK_EV: Record<string, Cizim> = {
       },
     ],
     cizgiler: [
-      { d: zikzak(18, 100, 18, 100, 1, 0) + " " + daire(52, 100, 34), w: 2 },
+      { d: daire(52, 100, 34), w: 2 },
       { d: daire(52, 100, 26) + daire(52, 100, 8), w: 1.2 },
       { d: "M52 66 L140 80 M52 134 L140 120", w: 1.4, kesik: true },
       { d: "M52 66 L140 80 M52 134 L140 120", w: 3, kesik: true },

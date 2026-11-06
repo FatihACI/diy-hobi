@@ -1,10 +1,10 @@
-import { Cizim, daire, kutu } from "./arac";
+import { Cizim, daire, kutu, yuvarla } from "./arac";
 
 // Çember üzerinde eşit aralıklı noktalar (boncuk dizisi, mandala halkası)
 const halka = (cx: number, cy: number, r: number, adet: number, br: number, ry = r) =>
   Array.from({ length: adet }, (_, i) => {
     const t = (i / adet) * Math.PI * 2;
-    return daire(cx + Math.cos(t) * r, cy + Math.sin(t) * ry, br);
+    return daire(yuvarla(cx + Math.cos(t) * r), yuvarla(cy + Math.sin(t) * ry), br);
   }).join(" ");
 
 // El Sanatları projeleri (viewBox 0 0 160 160)
