@@ -1,5 +1,672 @@
 {
   "surum": 1,
-  "guncelleme": "2026-11-02T23:54:11.745Z",
-  "fiyatlar": {}
+  "guncelleme": "2026-11-06T19:05:54.110Z",
+  "fiyatlar": {
+    "bp4": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 174,
+        "url": "https://www.hepsiburada.com/attlas-eco-st-41-silikon-tabancasi-40w-pm-HB000002A22D",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "bp5": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ns1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 210.6,
+        "url": "https://motorobit.com/arduino-nano-ch340-chip-clone-type-c",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ns5": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/arduino-erkek-erkek-jumper-kablo-40-adet-10-cm-arduino-kablo-pm-HBC000003B047",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "at1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 210.6,
+        "url": "https://motorobit.com/arduino-nano-ch340-chip-clone-type-c",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "at5": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/arduino-erkek-erkek-jumper-kablo-40-adet-10-cm-arduino-kablo-pm-HBC000003B047",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ps1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 210.6,
+        "url": "https://motorobit.com/arduino-nano-ch340-chip-clone-type-c",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ps5": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/arduino-erkek-erkek-jumper-kablo-40-adet-10-cm-arduino-kablo-pm-HBC000003B047",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pm7": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "mo5": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 174,
+        "url": "https://www.hepsiburada.com/attlas-eco-st-41-silikon-tabancasi-40w-pm-HB000002A22D",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "mo6": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 374.99,
+        "url": "https://www.hepsiburada.com/sudor-akrilik-boya-12-renk-20-ml-1-paket-akrilik-boya-seti-12-li-ahsap-tuval-tas-agac-boyamalar-icin-idea-boyama-seti-pm-HBC000042UBWN",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "yk5": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "tb2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 374.99,
+        "url": "https://www.hepsiburada.com/sudor-akrilik-boya-12-renk-20-ml-1-paket-akrilik-boya-seti-12-li-ahsap-tuval-tas-agac-boyamalar-icin-idea-boyama-seti-pm-HBC000042UBWN",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kb2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "mini-sera-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kamis-halka-4": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kalibrasyon-kupu-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kablo-klipsi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "duvar-anahtar-askisi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "dis-macunu-sikacagi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "cekmece-bolme-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "vidali-kapakli-kutu-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/filetto-pla-3d-filament-1-75-mm-1-kg-haki-yesil-pm-HBC0000CG6CT2",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "surus-oncesi-kontrol-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 399,
+        "url": "https://www.hepsiburada.com/pro-tec-pro-tec-alyan-allen-anahtar-takimi-seti-9-parca-kisa-1-5-10-mm-pm-HBC00000D86GV",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "vites-ayari-1": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 399,
+        "url": "https://www.hepsiburada.com/pro-tec-pro-tec-alyan-allen-anahtar-takimi-seti-9-parca-kisa-1-5-10-mm-pm-HBC00000D86GV",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "disk-balata-3": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 399,
+        "url": "https://www.hepsiburada.com/pro-tec-pro-tec-alyan-allen-anahtar-takimi-seti-9-parca-kisa-1-5-10-mm-pm-HBC00000D86GV",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "sele-yukseklik-1": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 399,
+        "url": "https://www.hepsiburada.com/pro-tec-pro-tec-alyan-allen-anahtar-takimi-seti-9-parca-kisa-1-5-10-mm-pm-HBC00000D86GV",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "fren-kablosu-degisimi-3": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 399,
+        "url": "https://www.hepsiburada.com/pro-tec-pro-tec-alyan-allen-anahtar-takimi-seti-9-parca-kisa-1-5-10-mm-pm-HBC00000D86GV",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "deri-kulaklik-tutucu-4": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "led-yanip-sonme-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "led-yanip-sonme-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "butonlu-led-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "butonlu-led-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pot-led-parlaklik-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pot-led-parlaklik-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ldr-gece-lambasi-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "ldr-gece-lambasi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "servo-kontrol-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "servo-kontrol-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "rgb-led-renk-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "rgb-led-renk-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "buzzer-melodi-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "buzzer-melodi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "reaksiyon-oyunu-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "reaksiyon-oyunu-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "hareket-alarmi-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "hareket-alarmi-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "lcd-sicaklik-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "lcd-sicaklik-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "su-seviye-alarmi-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "akilli-saksi-pompa-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "elektronik-zar-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "elektronik-zar-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "sicaklik-fan-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "sicaklik-fan-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.9,
+        "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kapi-alarmi-1": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 315.18,
+        "url": "https://www.motorobit.com/arduino-uno-r3-smd-ch340-chip-klon-usb-kablo-dahi",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kapi-alarmi-4": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/arduino-erkek-erkek-jumper-kablo-40-adet-10-cm-arduino-kablo-pm-HBC000003B047",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-kase-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-tepsi-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-saat-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-bardak-alti-agac-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-harf-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-tabak-duvar-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "epoksi-mum-tutucu-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 890,
+        "url": "https://www.trendyol.com/epoksi-getir/epoksi-ultra-seffaf-recine-ve-sertlestirici-1-kg-quick-600a-400b-epoxy-p-212135601",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-saksi-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-mekan-plakasi-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-mum-tutucu-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-tabak-baski-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-kalemlik-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "kil-saat-1": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 425,
+        "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "mk-gs2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 374.99,
+        "url": "https://www.hepsiburada.com/sudor-akrilik-boya-12-renk-20-ml-1-paket-akrilik-boya-seti-12-li-ahsap-tuval-tas-agac-boyamalar-icin-idea-boyama-seti-pm-HBC000042UBWN",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "oy-kk3": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 174,
+        "url": "https://www.hepsiburada.com/attlas-eco-st-41-silikon-tabancasi-40w-pm-HB000002A22D",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "oy-kk4": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/genel-markalar/plastik-maket-bicagi-falcata-genis-agizli-buyuk-boy-p-77834878",
+        "guncelleme": "2026-11-06"
+      },
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 127,
+        "url": "https://www.hepsiburada.com/kraf-maket-bicagi-genis-metal-govdeli-630g-164077-pm-HBC00000C04IW",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pirografi-kesme-tahtasi-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399.47,
+        "url": "https://www.trendyol.com/reidan/lehim-havya-60w-hizli-isitma-ahsap-yakma-kiti-elektrik-havyasi-ahsap-yanan-pyrography-kalem-kiti-p-148814430",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pirografi-saat-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399.47,
+        "url": "https://www.trendyol.com/reidan/lehim-havya-60w-hizli-isitma-ahsap-yakma-kiti-elektrik-havyasi-ahsap-yanan-pyrography-kalem-kiti-p-148814430",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pirografi-kutu-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399.47,
+        "url": "https://www.trendyol.com/reidan/lehim-havya-60w-hizli-isitma-ahsap-yakma-kiti-elektrik-havyasi-ahsap-yanan-pyrography-kalem-kiti-p-148814430",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pirografi-kalemlik-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399.47,
+        "url": "https://www.trendyol.com/reidan/lehim-havya-60w-hizli-isitma-ahsap-yakma-kiti-elektrik-havyasi-ahsap-yanan-pyrography-kalem-kiti-p-148814430",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "akrilik-tuval-manzara-2": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 374.99,
+        "url": "https://www.hepsiburada.com/sudor-akrilik-boya-12-renk-20-ml-1-paket-akrilik-boya-seti-12-li-ahsap-tuval-tas-agac-boyamalar-icin-idea-boyama-seti-pm-HBC000042UBWN",
+        "guncelleme": "2026-11-06"
+      }
+    ],
+    "pirografi-isimlik-2": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399.47,
+        "url": "https://www.trendyol.com/reidan/lehim-havya-60w-hizli-isitma-ahsap-yakma-kiti-elektrik-havyasi-ahsap-yanan-pyrography-kalem-kiti-p-148814430",
+        "guncelleme": "2026-11-06"
+      }
+    ]
+  }
 }
