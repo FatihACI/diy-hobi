@@ -29,7 +29,7 @@ describe("içerik", () => {
   });
 
   // 20 projeye tamamlanan kategoriler (grup grup genişliyor)
-  const TAMAMLANAN = ["oyuncak", "maket", "rc"];
+  const TAMAMLANAN = ["oyuncak", "maket", "rc", "balikcilik", "akvaryum", "terraryum", "kus-evi", "bahce"];
   test("tamamlanan kategorilerde 20 proje var", () => {
     for (const k of TAMAMLANAN) expect([k, PROJELER.filter((p) => p.kategoriId === k).length]).toEqual([k, 20]);
   });
