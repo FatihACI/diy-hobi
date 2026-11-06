@@ -3,6 +3,7 @@ import { a, m } from "./yardimci";
 import { COCUK_DOGA } from "./projeler-cocuk-doga";
 import { EL_SANATLARI } from "./projeler-el-sanatlari";
 import { TEKNIK_EV } from "./projeler-teknik-ev";
+import { EK_PROJELER } from "./ek";
 
 // İlk 5 kategori (oyuncak, balıkçılık, akvaryum, ahşap, elektronik)
 const ILK_PROJELER: Proje[] = [
@@ -664,7 +665,7 @@ void loop() {
   },
 ];
 
-export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLARI, ...TEKNIK_EV];
+export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLARI, ...TEKNIK_EV, ...EK_PROJELER];
 
 export const projeBul = (id: string) => PROJELER.find((p) => p.id === id)!;
 export const kategoriProjeleri = (kid: string) => PROJELER.filter((p) => p.kategoriId === kid);

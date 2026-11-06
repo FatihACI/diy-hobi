@@ -2595,5 +2595,1916 @@
     "miktar": "1 adet",
     "projeId": "silikon-yenileme",
     "kategoriId": "ev-tamir"
+  },
+  {
+    "id": "oy-ay1",
+    "ad": "Kontrplak 9 mm (kavak veya huş)",
+    "miktar": "30×20 cm",
+    "projeId": "ahsap-yapboz",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ay2",
+    "ad": "Dekupaj testere + ince ahşap bıçağı",
+    "miktar": "1 adet",
+    "projeId": "ahsap-yapboz",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ay3",
+    "ad": "Zımpara 120/240",
+    "miktar": "2 adet",
+    "projeId": "ahsap-yapboz",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ay4",
+    "ad": "Su bazlı oyuncak boyası (EN 71-3)",
+    "miktar": "1 set",
+    "projeId": "ahsap-yapboz",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ay5",
+    "ad": "Karbon kağıdı",
+    "miktar": "1 yaprak",
+    "projeId": "ahsap-yapboz",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk1",
+    "ad": "Büyük koli kutusu",
+    "miktar": "1 adet",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk2",
+    "ad": "Karton rulo",
+    "miktar": "4 adet",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk3",
+    "ad": "Sıcak silikon tabancası + çubuk",
+    "miktar": "1 set",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk4",
+    "ad": "Maket bıçağı",
+    "miktar": "1 adet",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk5",
+    "ad": "Akrilik boya (gri, kahverengi)",
+    "miktar": "2 adet",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kk6",
+    "ad": "Kalın ip",
+    "miktar": "1 m",
+    "projeId": "karton-kale",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ck1",
+    "ad": "Eski temiz çorap",
+    "miktar": "1 adet",
+    "projeId": "corap-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ck2",
+    "ad": "Keçe (kırmızı, beyaz, siyah)",
+    "miktar": "3 parça",
+    "projeId": "corap-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ck3",
+    "ad": "Kalın mukavva",
+    "miktar": "10×10 cm",
+    "projeId": "corap-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ck4",
+    "ad": "Kumaş yapıştırıcısı",
+    "miktar": "1 adet",
+    "projeId": "corap-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ck5",
+    "ad": "Yün ip (saç için)",
+    "miktar": "1 yumak",
+    "projeId": "corap-kukla",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bt1",
+    "ad": "Kağıt veya plastik bardak",
+    "miktar": "2 adet",
+    "projeId": "bardak-telefon",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bt2",
+    "ad": "Sağlam ip (olta misinası veya mutfak ipi)",
+    "miktar": "5–10 m",
+    "projeId": "bardak-telefon",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bt3",
+    "ad": "Kürdan veya ataç",
+    "miktar": "2 adet",
+    "projeId": "bardak-telefon",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bt4",
+    "ad": "Çivi veya kalın iğne (delik için)",
+    "miktar": "1 adet",
+    "projeId": "bardak-telefon",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky1",
+    "ad": "Karton rulo (havlu kağıdı)",
+    "miktar": "1 adet",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky2",
+    "ad": "Aynalı akrilik levha (kırılmaz)",
+    "miktar": "20×15 cm",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky3",
+    "ad": "Şeffaf asetat",
+    "miktar": "2 parça",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky4",
+    "ad": "Renkli küçük boncuk ve pullar",
+    "miktar": "1 avuç",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky5",
+    "ad": "Yağlı kağıt",
+    "miktar": "1 parça",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ky6",
+    "ad": "Koli bandı",
+    "miktar": "1 rulo",
+    "projeId": "kaleydoskop",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc1",
+    "ad": "Ahşap çıta 5 mm (90 ve 75 cm)",
+    "miktar": "2 adet",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc2",
+    "ad": "Kalın çöp poşeti veya ripstop naylon",
+    "miktar": "1 m²",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc3",
+    "ad": "Uçurtma ipi",
+    "miktar": "50 m",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc4",
+    "ad": "İp makarası",
+    "miktar": "1 adet",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc5",
+    "ad": "Koli bandı",
+    "miktar": "1 rulo",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-uc6",
+    "ad": "Kurdele (kuyruk)",
+    "miktar": "2 m",
+    "projeId": "ucurtma",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh1",
+    "ad": "Un",
+    "miktar": "2 su bardağı",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh2",
+    "ad": "Tuz",
+    "miktar": "1/2 su bardağı",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh3",
+    "ad": "Krem tartar (veya limon tuzu)",
+    "miktar": "2 çay kaşığı",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh4",
+    "ad": "Sıvı yağ",
+    "miktar": "2 yemek kaşığı",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh5",
+    "ad": "Sıcak su",
+    "miktar": "1,5 su bardağı",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-oh6",
+    "ad": "Gıda boyası",
+    "miktar": "birkaç damla",
+    "projeId": "oyun-hamuru",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-tg1",
+    "ad": "Kontrplak 6 mm",
+    "miktar": "20×20 cm",
+    "projeId": "tangram",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-tg2",
+    "ad": "Dekupaj veya el testeresi",
+    "miktar": "1 adet",
+    "projeId": "tangram",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-tg3",
+    "ad": "Cetvel ve gönye",
+    "miktar": "1 set",
+    "projeId": "tangram",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-tg4",
+    "ad": "Zımpara 180",
+    "miktar": "1 adet",
+    "projeId": "tangram",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-tg5",
+    "ad": "Su bazlı oyuncak boyası",
+    "miktar": "1 set",
+    "projeId": "tangram",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-fr1",
+    "ad": "Çift taraflı renkli kağıt",
+    "miktar": "15×15 cm",
+    "projeId": "firildak",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-fr2",
+    "ad": "Pipet veya kalem",
+    "miktar": "1 adet",
+    "projeId": "firildak",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-fr3",
+    "ad": "Raptiye veya topluiğne",
+    "miktar": "1 adet",
+    "projeId": "firildak",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-fr4",
+    "ad": "Silgi parçası / mantar",
+    "miktar": "1 parça",
+    "projeId": "firildak",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-fr5",
+    "ad": "Makas",
+    "miktar": "1 adet",
+    "projeId": "firildak",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk1",
+    "ad": "Kalın keçe A4 (çeşitli renk)",
+    "miktar": "10 adet",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk2",
+    "ad": "Cırt cırt bant",
+    "miktar": "1 m",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk3",
+    "ad": "Fermuar 15 cm",
+    "miktar": "1 adet",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk4",
+    "ad": "Büyük düğme (2,5 cm+)",
+    "miktar": "4 adet",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk5",
+    "ad": "Dikiş ipliği ve iğne / dikiş makinesi",
+    "miktar": "1 set",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sk6",
+    "ad": "Kitap halkası",
+    "miktar": "2 adet",
+    "projeId": "sessiz-kitap",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co1",
+    "ad": "Çam tahta 2 cm",
+    "miktar": "20×15 cm",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co2",
+    "ad": "Ahşap tekerlek Ø40 mm",
+    "miktar": "2 adet",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co3",
+    "ad": "Dübel Ø6 mm",
+    "miktar": "15 cm",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co4",
+    "ad": "Pamuklu ip (kalın)",
+    "miktar": "60 cm",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co5",
+    "ad": "Ahşap boncuk (tutma ucu) Ø3 cm",
+    "miktar": "1 adet",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co6",
+    "ad": "Dekupaj testere + matkap",
+    "miktar": "1 set",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-co7",
+    "ad": "Su bazlı oyuncak boyası",
+    "miktar": "1 set",
+    "projeId": "cekme-ordek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kt1",
+    "ad": "Büyük koli kutusu",
+    "miktar": "1 adet",
+    "projeId": "kukla-tiyatrosu",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kt2",
+    "ad": "Kumaş parçası (perde)",
+    "miktar": "50×40 cm",
+    "projeId": "kukla-tiyatrosu",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kt3",
+    "ad": "Tahta şiş veya pipet (perde çubuğu)",
+    "miktar": "1 adet",
+    "projeId": "kukla-tiyatrosu",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kt4",
+    "ad": "Akrilik boya",
+    "miktar": "1 set",
+    "projeId": "kukla-tiyatrosu",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-kt5",
+    "ad": "Maket bıçağı + sıcak silikon",
+    "miktar": "1 set",
+    "projeId": "kukla-tiyatrosu",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sb1",
+    "ad": "Boş pet şişe 500 ml",
+    "miktar": "6–10 adet",
+    "projeId": "sise-bowling",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sb2",
+    "ad": "Akrilik boya veya renkli bant",
+    "miktar": "1 set",
+    "projeId": "sise-bowling",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sb3",
+    "ad": "Kum veya su (ağırlık)",
+    "miktar": "1 kg",
+    "projeId": "sise-bowling",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-sb4",
+    "ad": "Yumuşak top",
+    "miktar": "1 adet",
+    "projeId": "sise-bowling",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba1",
+    "ad": "Pet şişe veya karton gövde",
+    "miktar": "1 adet",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba2",
+    "ad": "Şişe kapağı (tekerlek)",
+    "miktar": "4 adet",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba3",
+    "ad": "Tahta şiş (aks)",
+    "miktar": "2 adet",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba4",
+    "ad": "Pipet (kalın)",
+    "miktar": "3 adet",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba5",
+    "ad": "Balon",
+    "miktar": "2 adet",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-ba6",
+    "ad": "Bant",
+    "miktar": "1 rulo",
+    "projeId": "balon-araba",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-yb1",
+    "ad": "Çam lata 4×4 cm",
+    "miktar": "2 m",
+    "projeId": "yapi-bloklari",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-yb2",
+    "ad": "Gönye testere",
+    "miktar": "1 adet",
+    "projeId": "yapi-bloklari",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-yb3",
+    "ad": "Zımpara 120/240",
+    "miktar": "2 adet",
+    "projeId": "yapi-bloklari",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-yb4",
+    "ad": "Gıdaya uygun yağ veya oyuncak boyası",
+    "miktar": "1 adet",
+    "projeId": "yapi-bloklari",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb1",
+    "ad": "Ten rengi pamuklu kumaş",
+    "miktar": "50×50 cm",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb2",
+    "ad": "Elbise için desenli kumaş",
+    "miktar": "30×30 cm",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb3",
+    "ad": "Elyaf dolgu",
+    "miktar": "150 g",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb4",
+    "ad": "Nakış ipliği",
+    "miktar": "3 renk",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb5",
+    "ad": "Yün ip (saç)",
+    "miktar": "1 yumak",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-bb6",
+    "ad": "Dikiş makinesi veya iğne iplik",
+    "miktar": "1 set",
+    "projeId": "bez-bebek",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km1",
+    "ad": "Kağıt tabak",
+    "miktar": "1 adet",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km2",
+    "ad": "Renkli kağıt / elişi kağıdı",
+    "miktar": "1 paket",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km3",
+    "ad": "Lastik ip",
+    "miktar": "40 cm",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km4",
+    "ad": "Yapıştırıcı stick",
+    "miktar": "1 adet",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km5",
+    "ad": "Pastel boya",
+    "miktar": "1 kutu",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "oy-km6",
+    "ad": "Çocuk makası",
+    "miktar": "1 adet",
+    "projeId": "kagit-maske",
+    "kategoriId": "oyuncak"
+  },
+  {
+    "id": "mk-tk1",
+    "ad": "1/35 ölçek plastik tank maketi",
+    "miktar": "1 kutu",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk2",
+    "ad": "Akrilik maket boyası (askeri renkler)",
+    "miktar": "1 set",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk3",
+    "ad": "Pigment tozu (toprak, pas)",
+    "miktar": "1 set",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk4",
+    "ad": "Panel line wash (koyu kahve)",
+    "miktar": "1 adet",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk5",
+    "ad": "Sünger parçası (yontma efekti)",
+    "miktar": "1 adet",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk6",
+    "ad": "Mat vernik sprey",
+    "miktar": "1 adet",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-tk7",
+    "ad": "Maket yapıştırıcısı + yan keski",
+    "miktar": "1 set",
+    "projeId": "tank-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg1",
+    "ad": "Boş şeffaf şişe (geniş gövdeli)",
+    "miktar": "1 adet",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg2",
+    "ad": "Balsa blok ve ince çıtalar",
+    "miktar": "1 set",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg3",
+    "ad": "İnce ip (siyah ve beyaz)",
+    "miktar": "1 makara",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg4",
+    "ad": "Kağıt (yelken için)",
+    "miktar": "1 yaprak",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg5",
+    "ad": "Mavi macun veya renkli reçine (deniz)",
+    "miktar": "1 paket",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sg6",
+    "ad": "Uzun cımbız ve tel kanca",
+    "miktar": "1 set",
+    "projeId": "sisede-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ke1",
+    "ad": "Başsız maket kibrit çöpü",
+    "miktar": "1000 adet",
+    "projeId": "kibrit-ev",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ke2",
+    "ad": "Beyaz tutkal (PVA)",
+    "miktar": "1 adet",
+    "projeId": "kibrit-ev",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ke3",
+    "ad": "Kalın mukavva (taban ve şablon)",
+    "miktar": "1 adet",
+    "projeId": "kibrit-ev",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ke4",
+    "ad": "Maket bıçağı + cetvel",
+    "miktar": "1 set",
+    "projeId": "kibrit-ev",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ke5",
+    "ad": "Ahşap verniği (mat)",
+    "miktar": "1 adet",
+    "projeId": "kibrit-ev",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pc1",
+    "ad": "Kalın kağıt 160–200 g/m²",
+    "miktar": "5 yaprak",
+    "projeId": "papercraft",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pc2",
+    "ad": "Yazıcı",
+    "miktar": "1 adet",
+    "projeId": "papercraft",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pc3",
+    "ad": "Kağıt yapıştırıcısı (sıvı, ince uçlu)",
+    "miktar": "1 adet",
+    "projeId": "papercraft",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pc4",
+    "ad": "Kesim altlığı + maket bıçağı",
+    "miktar": "1 set",
+    "projeId": "papercraft",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pc5",
+    "ad": "Kuru tükenmez kalem (katlama izi için)",
+    "miktar": "1 adet",
+    "projeId": "papercraft",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt1",
+    "ad": "N ölçek başlangıç seti (ray, tren, trafo)",
+    "miktar": "1 set",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt2",
+    "ad": "MDF taban 60×120 cm",
+    "miktar": "1 adet",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt3",
+    "ad": "Mantar levha (ray yatağı)",
+    "miktar": "1 rulo",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt4",
+    "ad": "Maket çim tozu ve ağaçlar",
+    "miktar": "1 set",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt5",
+    "ad": "N ölçek istasyon kiti",
+    "miktar": "1 adet",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-nt6",
+    "ad": "Ray çivisi ve küçük çekiç",
+    "miktar": "1 set",
+    "projeId": "n-tren",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-mm1",
+    "ad": "Köpük karton (fotoblok) 5 mm, beyaz",
+    "miktar": "3 levha",
+    "projeId": "mimari-maket",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-mm2",
+    "ad": "Çelik cetvel",
+    "miktar": "1 adet",
+    "projeId": "mimari-maket",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-mm3",
+    "ad": "Yeni uçlu maket bıçağı",
+    "miktar": "1 adet",
+    "projeId": "mimari-maket",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-mm4",
+    "ad": "Toplu iğne + köpük uyumlu yapıştırıcı",
+    "miktar": "1 set",
+    "projeId": "mimari-maket",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-mm5",
+    "ad": "Asetat (pencere camı)",
+    "miktar": "1 yaprak",
+    "projeId": "mimari-maket",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am1",
+    "ad": "1/24 ölçek otomobil maketi",
+    "miktar": "1 kutu",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am2",
+    "ad": "Sprey maket boyası (gövde rengi)",
+    "miktar": "1 adet",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am3",
+    "ad": "Parlak vernik sprey",
+    "miktar": "1 adet",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am4",
+    "ad": "Islak zımpara 1500–3000",
+    "miktar": "1 set",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am5",
+    "ad": "Maket cilası (polisaj)",
+    "miktar": "1 adet",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-am6",
+    "ad": "Krom kalem",
+    "miktar": "1 adet",
+    "projeId": "araba-maketi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-fb1",
+    "ad": "Plastik veya reçine minyatür figür",
+    "miktar": "1 adet",
+    "projeId": "figur-boyama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-fb2",
+    "ad": "Akrilik minyatür boyası seti",
+    "miktar": "1 set",
+    "projeId": "figur-boyama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-fb3",
+    "ad": "Fırça 0 ve 00 numara",
+    "miktar": "2 adet",
+    "projeId": "figur-boyama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-fb4",
+    "ad": "Islak palet (ıslak kağıt havlu + yağlı kağıt)",
+    "miktar": "1 adet",
+    "projeId": "figur-boyama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-fb5",
+    "ad": "Shade/wash boyası",
+    "miktar": "1 adet",
+    "projeId": "figur-boyama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ta1",
+    "ad": "İnce bobin teli veya çiçekçi teli",
+    "miktar": "3 m",
+    "projeId": "tel-agac",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ta2",
+    "ad": "Hazır alçı veya macun",
+    "miktar": "100 g",
+    "projeId": "tel-agac",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ta3",
+    "ad": "Maket yaprak / köpük çim (foliage)",
+    "miktar": "1 paket",
+    "projeId": "tel-agac",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ta4",
+    "ad": "Akrilik boya (kahve, gri)",
+    "miktar": "2 adet",
+    "projeId": "tel-agac",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ta5",
+    "ad": "Yan keski",
+    "miktar": "1 adet",
+    "projeId": "tel-agac",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ds1",
+    "ad": "Diorama zemini (hazır veya yeni)",
+    "miktar": "1 adet",
+    "projeId": "diorama-su",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ds2",
+    "ad": "Maket su reçinesi (iki bileşenli)",
+    "miktar": "200 ml",
+    "projeId": "diorama-su",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ds3",
+    "ad": "Su efekti jeli (dalga için)",
+    "miktar": "1 adet",
+    "projeId": "diorama-su",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ds4",
+    "ad": "Akrilik boya (koyu yeşil, kahve)",
+    "miktar": "2 adet",
+    "projeId": "diorama-su",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ds5",
+    "ad": "Koli bandı (kenar kalıbı)",
+    "miktar": "1 rulo",
+    "projeId": "diorama-su",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-id1",
+    "ad": "Diorama tabanı + küçük evler (kağıt/maket)",
+    "miktar": "1 set",
+    "projeId": "isikli-diorama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-id2",
+    "ad": "Mikro LED (sıcak beyaz, pilli veya USB)",
+    "miktar": "5 adet",
+    "projeId": "isikli-diorama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-id3",
+    "ad": "3 V pil yuvası anahtarlı (2×AA)",
+    "miktar": "1 adet",
+    "projeId": "isikli-diorama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-id4",
+    "ad": "Yapay kar tozu",
+    "miktar": "1 paket",
+    "projeId": "isikli-diorama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-id5",
+    "ad": "Havya + lehim (isteğe bağlı)",
+    "miktar": "1 set",
+    "projeId": "isikli-diorama",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-gs1",
+    "ad": "Strafor top seti (çeşitli boy)",
+    "miktar": "9 adet",
+    "projeId": "gunes-sistemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-gs2",
+    "ad": "Akrilik boya seti",
+    "miktar": "1 set",
+    "projeId": "gunes-sistemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-gs3",
+    "ad": "Misina",
+    "miktar": "5 m",
+    "projeId": "gunes-sistemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-gs4",
+    "ad": "Tahta çubuk veya çember",
+    "miktar": "1 adet",
+    "projeId": "gunes-sistemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-gs5",
+    "ad": "Kürdan",
+    "miktar": "10 adet",
+    "projeId": "gunes-sistemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-df1",
+    "ad": "Konik karton veya kalın rulo",
+    "miktar": "1 adet",
+    "projeId": "deniz-feneri",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-df2",
+    "ad": "Şeffaf plastik kapak (fener odası)",
+    "miktar": "1 adet",
+    "projeId": "deniz-feneri",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-df3",
+    "ad": "Pilli mini LED (titreşimli)",
+    "miktar": "1 adet",
+    "projeId": "deniz-feneri",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-df4",
+    "ad": "Hazır alçı + strafor (kayalık)",
+    "miktar": "1 set",
+    "projeId": "deniz-feneri",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-df5",
+    "ad": "Akrilik boya (beyaz, kırmızı, gri)",
+    "miktar": "3 adet",
+    "projeId": "deniz-feneri",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-th1",
+    "ad": "Topografik harita çıktısı",
+    "miktar": "1 yaprak",
+    "projeId": "topografik-harita",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-th2",
+    "ad": "Mukavva veya köpük karton 3 mm",
+    "miktar": "8–10 levha",
+    "projeId": "topografik-harita",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-th3",
+    "ad": "Karbon kağıdı",
+    "miktar": "2 yaprak",
+    "projeId": "topografik-harita",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-th4",
+    "ad": "Maket bıçağı veya dekupaj",
+    "miktar": "1 adet",
+    "projeId": "topografik-harita",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-th5",
+    "ad": "Yapıştırıcı",
+    "miktar": "1 adet",
+    "projeId": "topografik-harita",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag1",
+    "ad": "Başlangıç seviyesi ahşap gemi kiti",
+    "miktar": "1 kit",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag2",
+    "ad": "Ahşap tutkalı (hızlı)",
+    "miktar": "1 adet",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag3",
+    "ad": "Çıta bükme aleti veya buhar",
+    "miktar": "1 adet",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag4",
+    "ad": "Mandal ve toplu iğne",
+    "miktar": "1 paket",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag5",
+    "ad": "Mat ahşap vernik",
+    "miktar": "1 adet",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-ag6",
+    "ad": "Hassas zımpara seti",
+    "miktar": "1 set",
+    "projeId": "ahsap-gemi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pb1",
+    "ad": "Geniş, alçak saksı",
+    "miktar": "1 adet",
+    "projeId": "peri-bahcesi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pb2",
+    "ad": "Toprak ve küçük bitkiler (sukulent, yosun)",
+    "miktar": "1 set",
+    "projeId": "peri-bahcesi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pb3",
+    "ad": "Minyatür ev / kapı (kil veya hazır)",
+    "miktar": "1 adet",
+    "projeId": "peri-bahcesi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pb4",
+    "ad": "Küçük çakıl taşları",
+    "miktar": "1 avuç",
+    "projeId": "peri-bahcesi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-pb5",
+    "ad": "Dal parçaları (çit için)",
+    "miktar": "1 avuç",
+    "projeId": "peri-bahcesi",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sk1",
+    "ad": "XPS köpük levha 2–3 cm",
+    "miktar": "2 levha",
+    "projeId": "strafor-kale",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sk2",
+    "ad": "Kurşun kalem ve tükenmez (doku için)",
+    "miktar": "1 set",
+    "projeId": "strafor-kale",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sk3",
+    "ad": "Köpük kesme bıçağı / maket bıçağı",
+    "miktar": "1 adet",
+    "projeId": "strafor-kale",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sk4",
+    "ad": "Akrilik boya (siyah, gri tonları)",
+    "miktar": "1 set",
+    "projeId": "strafor-kale",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "mk-sk5",
+    "ad": "Köpük uyumlu yapıştırıcı",
+    "miktar": "1 adet",
+    "projeId": "strafor-kale",
+    "kategoriId": "maket"
+  },
+  {
+    "id": "rc-tk1",
+    "ad": "XPS köpük levha 3 cm",
+    "miktar": "1 levha",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk2",
+    "ad": "Fırçalı DC motor + su geçirmez ESC",
+    "miktar": "1 set",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk3",
+    "ad": "Pervane şaftı ve pervane (tekne tipi)",
+    "miktar": "1 set",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk4",
+    "ad": "Mikro servo (dümen)",
+    "miktar": "1 adet",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk5",
+    "ad": "2 kanallı kumanda + alıcı",
+    "miktar": "1 set",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk6",
+    "ad": "2S LiPo veya NiMH pil",
+    "miktar": "1 adet",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-tk7",
+    "ad": "Epoksi + ince fiber kumaş (su yalıtımı)",
+    "miktar": "1 set",
+    "projeId": "rc-tekne",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ra1",
+    "ad": "Silikon amortisör yağı (ör. 35 wt)",
+    "miktar": "1 şişe",
+    "projeId": "rc-araba-ayar",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ra2",
+    "ad": "Lastik yapıştırıcısı (CA, ince)",
+    "miktar": "1 adet",
+    "projeId": "rc-araba-ayar",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ra3",
+    "ad": "Altıgen tornavida seti (1,5–2,5 mm)",
+    "miktar": "1 set",
+    "projeId": "rc-araba-ayar",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ra4",
+    "ad": "Kumpas",
+    "miktar": "1 adet",
+    "projeId": "rc-araba-ayar",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ra5",
+    "ad": "Temizlik bezi + izopropil alkol",
+    "miktar": "1 set",
+    "projeId": "rc-araba-ayar",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lp1",
+    "ad": "Dengeli (balance) LiPo şarj cihazı",
+    "miktar": "1 adet",
+    "projeId": "lipo-sarj",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lp2",
+    "ad": "Yanmaz LiPo şarj çantası",
+    "miktar": "1 adet",
+    "projeId": "lipo-sarj",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lp3",
+    "ad": "Pil voltaj kontrol cihazı (checker)",
+    "miktar": "1 adet",
+    "projeId": "lipo-sarj",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lp4",
+    "ad": "Seramik karo veya metal tepsi (zemin)",
+    "miktar": "1 adet",
+    "projeId": "lipo-sarj",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lp5",
+    "ad": "Duman dedektörü",
+    "miktar": "1 adet",
+    "projeId": "lipo-sarj",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md1",
+    "ad": "Depron / XPS köpük 6 mm",
+    "miktar": "2 levha",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md2",
+    "ad": "Fırçasız motor 2204–2208 + ESC 20 A",
+    "miktar": "1 set",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md3",
+    "ad": "Pervane 8×4",
+    "miktar": "2 adet",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md4",
+    "ad": "9 g mikro servo",
+    "miktar": "3 adet",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md5",
+    "ad": "4+ kanallı kumanda ve alıcı",
+    "miktar": "1 set",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md6",
+    "ad": "3S LiPo 1000–1300 mAh",
+    "miktar": "1 adet",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-md7",
+    "ad": "Karbon çubuk (kanat kirişi) 5 mm",
+    "miktar": "1 m",
+    "projeId": "motorlu-depron",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ds1",
+    "ad": "USB destekli kumanda (EdgeTX/OpenTX vb.)",
+    "miktar": "1 adet",
+    "projeId": "drone-simulator",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ds2",
+    "ad": "Bilgisayar",
+    "miktar": "1 adet",
+    "projeId": "drone-simulator",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ds3",
+    "ad": "Drone simülatörü (ücretsiz veya ücretli)",
+    "miktar": "1 adet",
+    "projeId": "drone-simulator",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-fp1",
+    "ad": "FPV gözlük (5,8 GHz)",
+    "miktar": "1 adet",
+    "projeId": "fpv-gozluk",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-fp2",
+    "ad": "FPV kamera + video verici (VTX)",
+    "miktar": "1 set",
+    "projeId": "fpv-gozluk",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-fp3",
+    "ad": "Uygun polarizasyonlu anten (RHCP/LHCP)",
+    "miktar": "2 adet",
+    "projeId": "fpv-gozluk",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-fp4",
+    "ad": "Bilgisayar + yapılandırma yazılımı",
+    "miktar": "1 adet",
+    "projeId": "fpv-gozluk",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pd1",
+    "ad": "Manyetik pervane dengeleyici",
+    "miktar": "1 adet",
+    "projeId": "pervane-dengeleme",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pd2",
+    "ad": "Zımpara 400",
+    "miktar": "1 adet",
+    "projeId": "pervane-dengeleme",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pd3",
+    "ad": "Şeffaf bant veya oje",
+    "miktar": "1 adet",
+    "projeId": "pervane-dengeleme",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr1",
+    "ad": "Paletli robot şasi kiti (2 motorlu)",
+    "miktar": "1 kit",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr2",
+    "ad": "Arduino Uno",
+    "miktar": "1 adet",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr3",
+    "ad": "L298N motor sürücü",
+    "miktar": "1 adet",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr4",
+    "ad": "HC-05 Bluetooth modülü",
+    "miktar": "1 adet",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr5",
+    "ad": "2S LiPo veya 6×AA pil yuvası",
+    "miktar": "1 adet",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-pr6",
+    "ad": "Telefon/kamera tutucu (küçük)",
+    "miktar": "1 adet",
+    "projeId": "paletli-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci1",
+    "ad": "2WD robot şasi kiti",
+    "miktar": "1 kit",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci2",
+    "ad": "Arduino Uno",
+    "miktar": "1 adet",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci3",
+    "ad": "L298N motor sürücü",
+    "miktar": "1 adet",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci4",
+    "ad": "TCRT5000 kızılötesi çizgi sensörü modülü",
+    "miktar": "2 adet",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci5",
+    "ad": "Siyah elektrik bandı",
+    "miktar": "1 rulo",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-ci6",
+    "ad": "4×AA pil yuvası",
+    "miktar": "1 adet",
+    "projeId": "cizgi-izleyen",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er1",
+    "ad": "2WD robot şasi kiti",
+    "miktar": "1 kit",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er2",
+    "ad": "Arduino Uno",
+    "miktar": "1 adet",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er3",
+    "ad": "L298N motor sürücü",
+    "miktar": "1 adet",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er4",
+    "ad": "HC-SR04 ultrasonik sensör",
+    "miktar": "1 adet",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er5",
+    "ad": "4×AA pil yuvası",
+    "miktar": "1 adet",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-er6",
+    "ad": "Jumper kablo seti",
+    "miktar": "1 paket",
+    "projeId": "engel-robot",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-bh1",
+    "ad": "Eski CD/DVD",
+    "miktar": "1 adet",
+    "projeId": "balon-hovercraft",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-bh2",
+    "ad": "Sporcu suyu şişesi kapağı (açılır-kapanır)",
+    "miktar": "1 adet",
+    "projeId": "balon-hovercraft",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-bh3",
+    "ad": "Balon",
+    "miktar": "2 adet",
+    "projeId": "balon-hovercraft",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-bh4",
+    "ad": "Sıcak silikon veya güçlü bant",
+    "miktar": "1 adet",
+    "projeId": "balon-hovercraft",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-sr1",
+    "ad": "Gazlı içecek şişesi 1,5–2 L (basınca dayanıklı)",
+    "miktar": "2 adet",
+    "projeId": "su-roketi",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-sr2",
+    "ad": "Mukavva veya plastik levha (kanatçık)",
+    "miktar": "1 adet",
+    "projeId": "su-roketi",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-sr3",
+    "ad": "Manometreli bisiklet pompası",
+    "miktar": "1 adet",
+    "projeId": "su-roketi",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-sr4",
+    "ad": "Hazır su roketi rampası / fırlatıcı başlığı",
+    "miktar": "1 adet",
+    "projeId": "su-roketi",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-sr5",
+    "ad": "Oyun hamuru (burun ağırlığı)",
+    "miktar": "50 g",
+    "projeId": "su-roketi",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk1",
+    "ad": "Arduino Nano",
+    "miktar": "2 adet",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk2",
+    "ad": "nRF24L01 modülü",
+    "miktar": "2 adet",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk3",
+    "ad": "10 µF kondansatör",
+    "miktar": "2 adet",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk4",
+    "ad": "Analog joystick modülü",
+    "miktar": "1 adet",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk5",
+    "ad": "SG90 servo",
+    "miktar": "2 adet",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-nk6",
+    "ad": "Jumper kablo + breadboard",
+    "miktar": "1 set",
+    "projeId": "nrf-kumanda",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl1",
+    "ad": "Köpük veya balsa gövde malzemesi",
+    "miktar": "1 set",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl2",
+    "ad": "Karbon çubuk (direk ve bumba)",
+    "miktar": "1 m",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl3",
+    "ad": "Ripstop naylon veya mylar (yelken)",
+    "miktar": "50×50 cm",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl4",
+    "ad": "Yelken kumanda servosu (güçlü)",
+    "miktar": "1 adet",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl5",
+    "ad": "Mikro servo (dümen)",
+    "miktar": "1 adet",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl6",
+    "ad": "2 kanallı kumanda + alıcı",
+    "miktar": "1 set",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-yl7",
+    "ad": "Kurşun salma ağırlığı",
+    "miktar": "200 g",
+    "projeId": "rc-yelkenli",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf1",
+    "ad": "5 mm beyaz LED",
+    "miktar": "2 adet",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf2",
+    "ad": "5 mm kırmızı LED",
+    "miktar": "2 adet",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf3",
+    "ad": "Direnç 150 Ω",
+    "miktar": "4 adet",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf4",
+    "ad": "Servo uzatma kablosu (alıcıya takmak için)",
+    "miktar": "1 adet",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf5",
+    "ad": "Daralan makaron",
+    "miktar": "1 paket",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-lf6",
+    "ad": "Havya + lehim",
+    "miktar": "1 set",
+    "projeId": "rc-led-far",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-rp1",
+    "ad": "Kontrplak 9 mm",
+    "miktar": "60×40 cm",
+    "projeId": "rc-rampa",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-rp2",
+    "ad": "Menteşe",
+    "miktar": "2 adet",
+    "projeId": "rc-rampa",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-rp3",
+    "ad": "Ahşap çıta 2×4 cm",
+    "miktar": "1 m",
+    "projeId": "rc-rampa",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-rp4",
+    "ad": "Kaydırmaz zemin bandı",
+    "miktar": "1 m",
+    "projeId": "rc-rampa",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-rp5",
+    "ad": "Vida + matkap",
+    "miktar": "1 set",
+    "projeId": "rc-rampa",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-st1",
+    "ad": "Arduino Nano",
+    "miktar": "1 adet",
+    "projeId": "servo-test",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-st2",
+    "ad": "10 kΩ potansiyometre",
+    "miktar": "1 adet",
+    "projeId": "servo-test",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-st3",
+    "ad": "Buton",
+    "miktar": "1 adet",
+    "projeId": "servo-test",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-st4",
+    "ad": "Servo (test edilecek)",
+    "miktar": "1 adet",
+    "projeId": "servo-test",
+    "kategoriId": "rc"
+  },
+  {
+    "id": "rc-st5",
+    "ad": "Harici 5 V kaynak (büyük servolar için)",
+    "miktar": "1 adet",
+    "projeId": "servo-test",
+    "kategoriId": "rc"
   }
 ]

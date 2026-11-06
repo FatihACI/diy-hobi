@@ -11,6 +11,11 @@ describe("içerik", () => {
     for (const k of KATEGORILER) expect(TUM_KATEGORI_CIZIM[k.id]).toBeDefined();
   });
 
+  test("proje adları benzersiz", () => {
+    const adlar = PROJELER.map((p) => p.ad);
+    expect(adlar.filter((x, i) => adlar.indexOf(x) !== i)).toEqual([]);
+  });
+
   test("proje ve malzeme id'leri benzersiz", () => {
     const pid = PROJELER.map((p) => p.id);
     expect(new Set(pid).size).toBe(pid.length);
@@ -21,6 +26,12 @@ describe("içerik", () => {
   test("her kategoride en az 3 proje", () => {
     for (const k of KATEGORILER)
       expect([k.id, PROJELER.filter((p) => p.kategoriId === k.id).length >= 3]).toEqual([k.id, true]);
+  });
+
+  // 20 projeye tamamlanan kategoriler (grup grup genişliyor)
+  const TAMAMLANAN = ["oyuncak", "maket", "rc"];
+  test("tamamlanan kategorilerde 20 proje var", () => {
+    for (const k of TAMAMLANAN) expect([k, PROJELER.filter((p) => p.kategoriId === k).length]).toEqual([k, 20]);
   });
 
   test("her proje eksiksiz ve çizimli", () => {

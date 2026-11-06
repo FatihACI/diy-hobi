@@ -7,6 +7,8 @@ import { PROJE_CIZIM } from "../src/cizim/proje";
 import { PROJE_COCUK_DOGA } from "../src/cizim/proje-cocuk-doga";
 import { PROJE_EL_SANATLARI } from "../src/cizim/proje-el-sanatlari";
 import { PROJE_TEKNIK_EV } from "../src/cizim/proje-teknik-ev";
+import { EK_CIZIM } from "../src/cizim/ek";
+import { PROJELER } from "../src/data/projeler";
 
 const K = "#2B2B2B",
   P = "#FBF8F1";
@@ -41,7 +43,7 @@ function svg(ad: string, v: any) {
     .join("");
   return `<div><svg width="200" height="200" viewBox="0 0 160 160" style="background:${P}"><defs>${defs}</defs><g transform="translate(0.9 0.7)" opacity="0.3">${g}</g>${tara(-1)}${c}${n}</svg><p>${ad}</p></div>`;
 }
-const filtre = process.argv[2];
+const filtre = process.argv[2] ?? "";
 const hepsi: Record<string, any> = {
   ...KATEGORI_CIZIM,
   ...KATEGORI_EK,
@@ -49,17 +51,16 @@ const hepsi: Record<string, any> = {
   ...PROJE_COCUK_DOGA,
   ...PROJE_EL_SANATLARI,
   ...PROJE_TEKNIK_EV,
+  ...EK_CIZIM,
 };
-const kaynak =
-  filtre === "kategori"
-    ? { ...KATEGORI_EK }
-    : filtre === "cocuk"
-      ? PROJE_COCUK_DOGA
-      : filtre === "el"
-        ? PROJE_EL_SANATLARI
-        : filtre === "teknik"
-          ? PROJE_TEKNIK_EV
-          : hepsi;
+// "kat:oyuncak" → o kategorideki tüm projelerin çizimleri (çizimi olmayan boş görünür)
+const kaynak: Record<string, any> = filtre.startsWith("kat:")
+  ? Object.fromEntries(
+      PROJELER.filter((p) => p.kategoriId === filtre.slice(4)).map((p) => [p.id, hepsi[p.id] ?? { cizgiler: [] }]),
+    )
+  : filtre === "kategori"
+    ? { ...KATEGORI_CIZIM, ...KATEGORI_EK }
+    : hepsi;
 console.log(
   `<html><body style="font:12px sans-serif;display:flex;flex-wrap:wrap;gap:8px;margin:8px">${Object.entries(kaynak)
     .map(([k, v]) => svg(k, v))

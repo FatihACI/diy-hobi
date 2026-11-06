@@ -38,7 +38,7 @@ test("uygulama açılır ve ekranlar gezilir", async () => {
   expect((await screen.findAllByText("Arduino Trafik Lambası")).length).toBeGreaterThan(0);
 });
 
-test("16 projenin hepsi hatasız açılır", async () => {
+test("tüm projeler hatasız açılır", async () => {
   await render(<App />);
   await screen.findByText("Evde Hobi");
   for (const p of PROJELER) {
@@ -51,4 +51,4 @@ test("16 projenin hepsi hatasız açılır", async () => {
     await screen.findByText("Güvenlik");
     await geri();
   }
-});
+}, 300_000); // her projeyi tek tek açar

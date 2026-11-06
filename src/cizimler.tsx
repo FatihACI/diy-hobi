@@ -10,9 +10,16 @@ import { PROJE_CIZIM } from "./cizim/proje";
 import { PROJE_COCUK_DOGA } from "./cizim/proje-cocuk-doga";
 import { PROJE_EL_SANATLARI } from "./cizim/proje-el-sanatlari";
 import { PROJE_TEKNIK_EV } from "./cizim/proje-teknik-ev";
+import { EK_CIZIM } from "./cizim/ek";
 
 export const TUM_KATEGORI_CIZIM = { ...KATEGORI_CIZIM, ...KATEGORI_EK };
-export const TUM_PROJE_CIZIM = { ...PROJE_CIZIM, ...PROJE_COCUK_DOGA, ...PROJE_EL_SANATLARI, ...PROJE_TEKNIK_EV };
+export const TUM_PROJE_CIZIM = {
+  ...PROJE_CIZIM,
+  ...PROJE_COCUK_DOGA,
+  ...PROJE_EL_SANATLARI,
+  ...PROJE_TEKNIK_EV,
+  ...EK_CIZIM,
+};
 
 const KALEM = "#2B2B2B";
 export const KAGIT_RENGI = "#FBF8F1";
