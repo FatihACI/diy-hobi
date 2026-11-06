@@ -11,6 +11,9 @@ import { PROJE_COCUK_DOGA } from "./cizim/proje-cocuk-doga";
 import { PROJE_EL_SANATLARI } from "./cizim/proje-el-sanatlari";
 import { PROJE_TEKNIK_EV } from "./cizim/proje-teknik-ev";
 import { EK_CIZIM } from "./cizim/ek";
+import { PIKTOGRAM } from "./cizim/adim/piktogram";
+import { adimPiktogrami } from "./cizim/adim/secici";
+import type { Proje } from "./data/types";
 
 export const TUM_KATEGORI_CIZIM = { ...KATEGORI_CIZIM, ...KATEGORI_EK };
 export const TUM_PROJE_CIZIM = {
@@ -94,4 +97,11 @@ export function KategoriCizim({ id, boyut = 140 }: { id: string; boyut?: number 
 export function ProjeCizim({ id, boyut = 120 }: { id: string; boyut?: number }) {
   const v = TUM_PROJE_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`p-${id}`} boyut={boyut} /> : null;
+}
+
+// Adım çizimi: adımın metnine uygun piktogram; uygun olan yoksa projenin kendi çizimi
+export function AdimCizim({ proje, sira, boyut = 72 }: { proje: Proje; sira: number; boyut?: number }) {
+  const ad = adimPiktogrami(proje, sira);
+  if (ad) return <CizimSvg veri={PIKTOGRAM[ad]} anahtar={`a-${ad}`} boyut={boyut} />;
+  return <ProjeCizim id={proje.id} boyut={boyut} />;
 }
