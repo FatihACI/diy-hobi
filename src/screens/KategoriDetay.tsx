@@ -14,7 +14,8 @@ import { bosluk, kose, renk } from "../theme";
 
 type P = NativeStackScreenProps<RootParams, "Kategori">;
 const ZORLUKLAR: (Zorluk | "Tümü")[] = ["Tümü", "Kolay", "Orta", "Zor"];
-const BUTCELER = [0, 250, 500, 1000]; // 0 = tümü; TL üst sınır (sarf malzeme)
+const BUTCELER = [0, 250, 500, 1000, 2500]; // 0 = tümü; TL üst sınır (sarf malzeme)
+const BUTCE_ESIK = 3; // kategoride bu kadar tam fiyatlı proje yoksa bütçe filtresi gizlenir (boş liste göstermesin)
 const SIRALAR = ["Önerilen", "Kolaydan zora", "Kısadan uzuna", "Ucuzdan pahalıya"] as const;
 type Sira = (typeof SIRALAR)[number];
 const ZORLUK_SIRA: Record<Zorluk, number> = { Kolay: 0, Orta: 1, Zor: 2 };
@@ -67,6 +68,7 @@ export default function KategoriDetay({ route, navigation }: P) {
     return m.tumu > 0 && m.fiyatliSayi === m.tumu ? m.toplam : null;
   };
 
+  const butceGoster = kategoriProjeleri(k.id).filter((p) => tamFiyat(p) !== null).length >= BUTCE_ESIK;
   const projeler = kategoriProjeleri(k.id)
     .filter((p) => zorluk === "Tümü" || p.zorluk === zorluk)
     .filter((p) => sure === "Tümü" || sureSinifi(p.sure) === sure)
@@ -74,7 +76,16 @@ export default function KategoriDetay({ route, navigation }: P) {
     .sort((a, b) => {
       if (sira === "Kolaydan zora") return ZORLUK_SIRA[a.zorluk] - ZORLUK_SIRA[b.zorluk];
       if (sira === "Kısadan uzuna") return sureCoz(a.sure)[1] - sureCoz(b.sure)[1];
-      if (sira === "Ucuzdan pahalıya") return (tamFiyat(a) ?? Infinity) - (tamFiyat(b) ?? Infinity);
+      if (sira === "Ucuzdan pahalıya") {
+        // Fiyatı tam bilinenler önce, sonra kısmen bilinenler, en sonda hiç fiyatı olmayanlar
+        const anahtar = (p: Proje) => {
+          const m = fy.maliyet(p);
+          return [m.fiyatliSayi === 0 ? 2 : m.fiyatliSayi < m.tumu ? 1 : 0, m.toplam];
+        };
+        const [ga, ta] = anahtar(a);
+        const [gb, tb] = anahtar(b);
+        return ga - gb || ta - tb;
+      }
       return 0;
     });
 
@@ -102,13 +113,15 @@ export default function KategoriDetay({ route, navigation }: P) {
       <View style={{ paddingVertical: bosluk.m, gap: bosluk.s }}>
         <Cipler etiket="Zorluk" secenekler={ZORLUKLAR} deger={zorluk} sec={setZorluk} />
         <Cipler etiket="Süre" secenekler={SURE_SINIFLARI} deger={sure} sec={setSure} />
-        <Cipler
-          etiket="Bütçe (malzeme)"
-          secenekler={BUTCELER}
-          deger={butce}
-          sec={setButce}
-          yazi={(x) => (x ? `≤ ${x} TL` : "Tümü")}
-        />
+        {butceGoster && (
+          <Cipler
+            etiket="Bütçe (malzeme)"
+            secenekler={BUTCELER}
+            deger={butce}
+            sec={setButce}
+            yazi={(x) => (x ? `≤ ${x.toLocaleString("tr-TR")} TL` : "Tümü")}
+          />
+        )}
         <Cipler etiket="Sırala" secenekler={SIRALAR} deger={sira} sec={setSira} />
       </View>
       <Text style={[s.filtreBaslik, { marginBottom: bosluk.s }]}>{projeler.length} proje</Text>

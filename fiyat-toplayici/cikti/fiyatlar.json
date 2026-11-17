@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-17T19:22:29.264Z",
+  "guncelleme": "2026-11-17T19:38:13.955Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -110,6 +110,14 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "karbon-kagidi": [
+      {
+        "magaza": "idefix",
+        "fiyat": 93,
+        "url": "https://www.idefix.com/karbon-kagidi-c-330575123",
+        "guncelleme": "2026-11-17"
+      }
+    ],
     "makas": [
       {
         "magaza": "Hepsiburada",
@@ -118,12 +126,28 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "merdane": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 199,
+        "url": "https://www.trendyol.com/hobi24-x-b104681",
+        "guncelleme": "2026-11-17"
+      }
+    ],
     "saksi-topragi": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 299,
         "url": "https://www.hepsiburada.com/torubahce-bitki-yetistirme-saksi-topragi-20-lt-pm-HB00000NXN3T",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "yun-ignesi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 43,
+        "url": "https://www.trendyol.com/igne-x-c109708",
+        "guncelleme": "2026-11-17"
       }
     ],
     "akrilik-boya-seti": [
@@ -164,6 +188,20 @@
         "fiyat": 300,
         "url": "https://www.hepsiburada.com/chichi-plastik-sapli-terzi-makasi-10-inc-25-cm-gl130-pm-HBC00000ZQSL0",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "push-buton": [
+      {
+        "magaza": "Motorobit",
+        "fiyat": 2.81,
+        "url": "https://motorobit.com/12x12x5mm-4-pin-black-push-button-tact-switch",
+        "guncelleme": "2026-11-17"
+      },
+      {
+        "magaza": "idefix",
+        "fiyat": 93.11,
+        "url": "https://www.idefix.com/4-pinli-12x12x9mm-tactile-push-buton-p-31978849",
+        "guncelleme": "2026-11-17"
       }
     ],
     "su-terazisi": [

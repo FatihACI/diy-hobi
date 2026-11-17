@@ -5,7 +5,9 @@ import { Arama, Bolum, Bos, KategoriKart, ProjeKart } from "../components";
 import { KATEGORILER } from "../data/kategoriler";
 import { projeAra } from "../data/ara";
 import { kategoriProjeleri, PROJELER } from "../data/projeler";
+import { linkAc } from "../fiyat";
 import { useNav } from "../nav";
+import { GIZLILIK_URL } from "../sabitler";
 import { bosluk, renk, yazi } from "../theme";
 
 const SAYFA = 30;
@@ -103,12 +105,17 @@ export default function Kesfet() {
           </View>
         </>
       )}
+      <Pressable accessibilityRole="link" onPress={() => linkAc(GIZLILIK_URL)} style={s.altBilgi} hitSlop={8}>
+        <Text style={s.altBilgiYazi}>Gizlilik politikası</Text>
+      </Pressable>
     </ScrollView>
   );
 }
 
 const s = StyleSheet.create({
   yatayPad: { paddingHorizontal: bosluk.l },
+  altBilgi: { alignSelf: "center", marginTop: bosluk.xl, padding: bosluk.s },
+  altBilgiYazi: { color: renk.yaziIkincil, fontSize: 13, textDecorationLine: "underline" },
   dahaFazla: { alignItems: "center", paddingVertical: bosluk.m },
   selam: { ...yazi.kucuk, fontSize: 14, marginBottom: 2 },
 });
