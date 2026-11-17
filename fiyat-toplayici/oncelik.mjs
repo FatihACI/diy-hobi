@@ -24,6 +24,11 @@ const adaylar = katalog
   .sort((a, b) => b.puan - a.puan || a.id.localeCompare(b.id))
   .slice(0, 100);
 
+// Altın 40 projelerinin fiyatı eksik kalemleri: hedef bu projelerde %100 fiyat
+const altinEksik = katalog.filter((k) => k.altin && !fiyatli.has(k.id)).sort((a, b) => a.id.localeCompare(b.id));
+const altinProje = Object.keys(projeKalem).filter((p) => katalog.some((k) => k.altin && k.projeler.includes(p)));
+const altinTam = altinProje.filter((p) => eksikSayisi(p) === 0).length;
+
 const md = [
   "# Fiyat girme öncelik listesi",
   "",
@@ -35,6 +40,16 @@ const md = [
   "",
   "Nasıl girilir: `veri/manuel.csv` → `katalogId;mağaza;fiyat;ürün-linki;tarih`. Link **ürün sayfası** olmalı (kategori/arama sayfası değil).",
   "Alet olan kalemlerde (⚒) en uygun fiyatlı güvenilir ürünü seç; sarf malzemede en küçük uygun paketi seç.",
+  "",
+  `## 1) Altın 40 için eksik fiyatlar (${altinEksik.length} kalem · tam fiyatlı: ${altinTam}/40)`,
+  "",
+  "Hedef: seçkin projelerin tamamında fiyat. Önce bunları gir.",
+  "",
+  "| katalogId | Ad | Tür |",
+  "|---|---|---|",
+  ...altinEksik.map((k) => `| \`${k.id}\` | ${k.ad.replace(/\|/g, "/")} | ${k.arac ? "⚒ alet" : "sarf"} |`),
+  "",
+  "## 2) Genel öncelik (en çok projeyi etkileyen ilk 100)",
   "",
   "| # | katalogId | Ad | Proje | Tür |",
   "|---|---|---|---|---|",

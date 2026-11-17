@@ -20,7 +20,12 @@ export type Malzeme = {
   arac?: boolean; // true: alet (bir kez alınır), false: sarf malzeme
 };
 
-export type Adim = { baslik: string; aciklama: string };
+export type Adim = {
+  baslik: string;
+  aciklama: string;
+  sure?: string; // bu adımın tahmini süresi ("10 dk")
+  kontrol?: string; // "doğru oldu mu?" kontrol noktası
+};
 
 export type KategoriGrubu = "Çocuk & Oyun" | "Doğa & Hayvan" | "El Sanatları" | "Teknik & Ev";
 
@@ -47,4 +52,6 @@ export type Proje = {
   ipuclari: string[];
   guvenlik: string[];
   kod?: string; // elektronik projeleri için Arduino kodu
+  altin?: boolean; // Altın 40: derinleştirilmiş, öne çıkan proje
+  sikHatalar?: string[]; // sık yapılan hatalar ve çözümleri
 };

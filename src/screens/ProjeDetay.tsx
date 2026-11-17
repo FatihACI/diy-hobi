@@ -87,7 +87,12 @@ export default function ProjeDetay({ route, navigation }: P) {
               </Text>
             </Bilgi>
           </View>
-          {p.yas && <Rozet ikon="account-child" metin={p.yas} fg={renk.ana} bg={renk.anaAcik} />}
+          <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
+            {p.altin && (
+              <Rozet ikon="star" metin="Seçkin proje: ayrıntılı anlatım" fg={renk.uyari} bg={renk.uyariAcik} />
+            )}
+            {p.yas && <Rozet ikon="account-child" metin={p.yas} fg={renk.ana} bg={renk.anaAcik} />}
+          </View>
         </View>
 
         {/* Sekmeler */}
@@ -169,6 +174,21 @@ export default function ProjeDetay({ route, navigation }: P) {
                     <View style={{ flex: 1, gap: 4 }}>
                       <Text style={[yazi.altBaslik, ok && { textDecorationLine: "line-through" }]}>{a.baslik}</Text>
                       <Text style={yazi.govde}>{a.aciklama}</Text>
+                      {a.sure && (
+                        <View style={s.adimSure}>
+                          <Ikon name="clock-outline" size={12} color={renk.yaziIkincil} />
+                          <Text style={yazi.kucuk}>{a.sure}</Text>
+                        </View>
+                      )}
+                      {a.kontrol && (
+                        <View style={s.kontrol}>
+                          <Ikon name="check-decagram-outline" size={16} color={renk.basari} />
+                          <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
+                            <Text style={{ fontWeight: "700", color: renk.basari }}>Doğru mu? </Text>
+                            {a.kontrol}
+                          </Text>
+                        </View>
+                      )}
                     </View>
                   </Pressable>
                 );
@@ -179,6 +199,15 @@ export default function ProjeDetay({ route, navigation }: P) {
 
           {sekme === "İpuçları" && (
             <>
+              {!!p.sikHatalar?.length && (
+                <Kutu
+                  ikon="alert-circle-outline"
+                  baslik="Sık yapılan hatalar"
+                  fg={renk.tehlike}
+                  bg={renk.kart}
+                  satirlar={p.sikHatalar}
+                />
+              )}
               <Kutu
                 ikon="lightbulb-on-outline"
                 baslik="Usta ipuçları"
@@ -362,6 +391,16 @@ function Kutu({
 }
 
 const s = StyleSheet.create({
+  adimSure: { flexDirection: "row", alignItems: "center", gap: 4, marginTop: 2 },
+  kontrol: {
+    flexDirection: "row",
+    gap: 6,
+    alignItems: "flex-start",
+    backgroundColor: renk.basariAcik,
+    borderRadius: kose.s,
+    padding: bosluk.s,
+    marginTop: 4,
+  },
   bendeBtn: {
     flexDirection: "row",
     alignItems: "center",

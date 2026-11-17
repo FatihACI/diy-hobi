@@ -14,6 +14,8 @@ const SAYFA = 30;
 
 // "Yeni başlayanlar için": her gün farklı 5 kolay proje (hep aynı 5 proje görünmesin)
 const KOLAYLAR = PROJELER.filter((p) => p.zorluk === "Kolay");
+// Derin içeriği hazır olan seçkin projeler önce
+const SECKINLER = PROJELER.filter((p) => p.altin).sort((a, b) => Number(!!b.sikHatalar) - Number(!!a.sikHatalar));
 function gununKolaylari() {
   const gun = Math.floor(Date.now() / 86400000);
   const bas = (gun * 5) % KOLAYLAR.length;
@@ -81,6 +83,19 @@ export default function Kesfet() {
             )}
           />
 
+          <View style={s.yatayPad}>
+            <Bolum baslik="Seçkin projeler: adım adım" />
+          </View>
+          <FlatList
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={SECKINLER}
+            keyExtractor={(p) => p.id}
+            contentContainerStyle={{ paddingHorizontal: bosluk.l, gap: bosluk.m, paddingBottom: 6 }}
+            renderItem={({ item }) => (
+              <ProjeKart yatay p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />
+            )}
+          />
           <View style={s.yatayPad}>
             <Bolum baslik="Yeni başlayanlar için" />
           </View>

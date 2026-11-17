@@ -4,7 +4,15 @@
 import { writeFileSync } from "node:fs";
 import { PROJELER } from "../src/data/projeler";
 
-type Kalem = { id: string; ad: string; arac: boolean; evde: boolean; projeler: string[]; satirlar: string[] };
+type Kalem = {
+  id: string;
+  ad: string;
+  arac: boolean;
+  evde: boolean;
+  altin: boolean; // Altın 40 projelerinden birinde geçiyor
+  projeler: string[];
+  satirlar: string[];
+};
 const katalog = new Map<string, Kalem>();
 for (const p of PROJELER)
   for (const m of p.malzemeler) {
@@ -13,11 +21,13 @@ for (const p of PROJELER)
       ad: m.ad,
       arac: !!m.arac,
       evde: !!m.evde,
+      altin: false,
       projeler: [],
       satirlar: [],
     };
     if (!k.projeler.includes(p.id)) k.projeler.push(p.id);
     k.satirlar.push(m.id);
+    if (p.altin) k.altin = true;
     katalog.set(k.id, k);
   }
 

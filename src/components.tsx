@@ -131,6 +131,7 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
           {p.ozet}
         </Text>
         <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
+          {p.altin && <Rozet ikon="star" metin="Seçkin" fg={renk.uyari} bg={renk.uyariAcik} />}
           <ZorlukRozet z={p.zorluk} />
           <Rozet ikon="clock-outline" metin={p.sure} />
           {mal.fiyatliSayi > 0 && (

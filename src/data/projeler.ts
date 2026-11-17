@@ -1,3 +1,4 @@
+import { altinUygula } from "./altin";
 import { EVDE, katalogKimligi } from "./katalog";
 import { Proje } from "./types";
 import { a, m } from "./yardimci";
@@ -668,6 +669,7 @@ void loop() {
 ];
 
 export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLARI, ...TEKNIK_EV, ...EK_PROJELER]
+  .map(altinUygula)
   .map(guvenlikTamamla)
   .map((p) => ({
     ...p,
