@@ -31,6 +31,7 @@
     "jest": "^30.5.2",
     "jest-expo": "~58.0.14",
     "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -40,7 +41,10 @@
     "web": "expo start --web",
     "test": "jest",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "video:bul": "tsx araclar/video-bul.ts",
+    "video:sec": "tsx araclar/video-bul.ts --sec",
+    "video:yaz": "tsx araclar/video-bul.ts --yaz"
   },
   "private": true,
   "jest": {

@@ -2,13 +2,14 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { useState } from "react";
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { AdimCizim, KAGIT_RENGI, ProjeCizim } from "../cizimler";
+import { KAGIT_RENGI, ProjeCizim } from "../cizimler";
 import { Ikon, Rozet, tl, ZorlukRozet } from "../components";
 import { tarihYaz, useFiyat } from "../fiyat";
 import { kategoriBul } from "../data/kategoriler";
 import { projeBul } from "../data/projeler";
 import { IkonAdi, Malzeme } from "../data/types";
 import { RootParams } from "../nav";
+import { ProjeVideo } from "../video";
 import { useStore } from "../store";
 import { bosluk, golge, kose, renk, yazi } from "../theme";
 
@@ -123,12 +124,10 @@ export default function ProjeDetay({ route, navigation }: P) {
                       <Text style={[yazi.altBaslik, ok && { textDecorationLine: "line-through" }]}>{a.baslik}</Text>
                       <Text style={yazi.govde}>{a.aciklama}</Text>
                     </View>
-                    <View style={s.adimCizim}>
-                      <AdimCizim proje={p} sira={i} />
-                    </View>
                   </Pressable>
                 );
               })}
+              <ProjeVideo proje={p} />
             </>
           )}
 
@@ -379,7 +378,6 @@ const s = StyleSheet.create({
     marginBottom: bosluk.s,
     ...golge,
   },
-  adimCizim: { backgroundColor: KAGIT_RENGI, borderRadius: kose.m, padding: 2, alignSelf: "flex-start" },
   adimNo: { width: 30, height: 30, borderRadius: 15, alignItems: "center", justifyContent: "center" },
   adimNoYazi: { color: "#fff", fontWeight: "800" },
   kutu: { borderRadius: kose.m, padding: bosluk.l, marginBottom: bosluk.m },
