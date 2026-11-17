@@ -3,6 +3,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, Ikon, tl } from "../components";
 import { useFiyat } from "../fiyat";
 import { kategoriBul } from "../data/kategoriler";
+import { KALEMLER } from "../data/katalog-dizin";
 import { PROJELER } from "../data/projeler";
 import { useNav } from "../nav";
 import { useStore } from "../store";
@@ -14,29 +15,40 @@ export default function Liste() {
   const nav = useNav();
   const ust = useSafeAreaInsets().top;
 
-  // Listedeki malzemeleri projeye göre grupla
-  const gruplar = PROJELER.map((p) => ({ p, kalemler: p.malzemeler.filter((m) => st.liste[m.id]) })).filter(
-    (g) => g.kalemler.length,
-  );
-
-  const tumKalemler = gruplar.flatMap((g) => g.kalemler);
-  const alinan = tumKalemler.filter((m) => st.liste[m.id].alindi).length;
-  const toplam = tumKalemler.reduce((t, m) => t + (enUcuz(m)?.fiyat ?? 0), 0);
+  // Listedeki kalemler: katalog kimliğiyle tek satır (aynı malzeme 3 projede olsa da bir kez)
+  const kalemler = Object.entries(st.liste)
+    .map(([kid, v]) => ({ kalem: KALEMLER.get(kid)!, ...v }))
+    .filter((x) => x.kalem)
+    .sort((a, b) => Number(a.alindi) - Number(b.alindi) || a.kalem.ad.localeCompare(b.kalem.ad, "tr"));
+  const bolumler = [
+    { baslik: "Malzemeler", liste: kalemler.filter((x) => !x.kalem.arac) },
+    { baslik: "Aletler", liste: kalemler.filter((x) => x.kalem.arac) },
+  ].filter((b) => b.liste.length);
+  const projeIdler = [...new Set(kalemler.flatMap((x) => x.projeler))];
+  const alinan = kalemler.filter((x) => x.alindi).length;
+  const kalan = kalemler.filter((x) => !x.alindi).reduce((t, x) => t + (enUcuz(x.kalem.ornek)?.fiyat ?? 0), 0);
+  const fiyatsiz = kalemler.filter((x) => !x.alindi && !enUcuz(x.kalem.ornek)).length;
+  const projeAd = (id: string) => PROJELER.find((p) => p.id === id)?.ad ?? id;
+  const miktar = (x: (typeof kalemler)[number]) =>
+    x.projeler.length > 1
+      ? `${x.projeler.length} projede`
+      : (x.kalem.projeler.find((p) => p.projeId === x.projeler[0])?.miktar ?? "");
 
   // Listeyi düz metne çevirip telefonun paylaşım menüsünü aç (WhatsApp, SMS, not...)
   const paylas = () => {
-    const satirlar = ["🛒 Evde Hobi – Alışveriş Listesi", ""];
-    for (const { p, kalemler } of gruplar) {
-      satirlar.push(`▸ ${p.ad}`);
-      for (const m of kalemler) {
-        const f = enUcuz(m);
-        const isaret = st.liste[m.id].alindi ? "✅" : "⬜";
-        satirlar.push(`${isaret} ${m.ad} (${m.miktar})${f ? ` – ${tl(f.fiyat)}, ${f.magaza}` : ""}`);
-        if (f && !st.liste[m.id].alindi) satirlar.push(`   ${f.url}`);
+    const satirlar = ["🛒 Evde Hobi – Alışveriş Listesi", `Projeler: ${projeIdler.map(projeAd).join(", ")}`, ""];
+    for (const b of bolumler) {
+      satirlar.push(`▸ ${b.baslik}`);
+      for (const x of b.liste) {
+        const f = enUcuz(x.kalem.ornek);
+        satirlar.push(
+          `${x.alindi ? "✅" : "⬜"} ${x.kalem.ad} (${miktar(x)})${f ? ` – ${tl(f.fiyat)}, ${f.magaza}` : ""}`,
+        );
+        if (f && !x.alindi) satirlar.push(`   ${f.url}`);
       }
       satirlar.push("");
     }
-    if (toplam > 0) satirlar.push(`Tahmini toplam: ${tl(toplam)}`);
+    if (kalan > 0) satirlar.push(`Kalan tahmini tutar: ${tl(kalan)}`);
     Share.share({ message: satirlar.join("\n") }).catch(() => {});
   };
 
@@ -47,7 +59,7 @@ export default function Liste() {
     >
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
         <Text style={yazi.dev}>Alışveriş Listesi</Text>
-        {tumKalemler.length > 0 && (
+        {kalemler.length > 0 && (
           <View style={{ flexDirection: "row", gap: bosluk.m }}>
             <Pressable
               accessibilityRole="button"
@@ -76,7 +88,7 @@ export default function Liste() {
         )}
       </View>
 
-      {tumKalemler.length === 0 ? (
+      {kalemler.length === 0 ? (
         <Bos ikon="cart-outline" baslik="Listen boş" metin="Bir projeyi açıp 'Malzemeleri listeye ekle'ye dokun." />
       ) : (
         <>
@@ -84,68 +96,90 @@ export default function Liste() {
             <View>
               <Text style={yazi.kucuk}>Alınan</Text>
               <Text style={s.ozetDeger}>
-                {alinan} / {tumKalemler.length}
+                {alinan} / {kalemler.length}
               </Text>
             </View>
             <View style={{ alignItems: "flex-end" }}>
-              <Text style={yazi.kucuk}>Tahmini toplam</Text>
-              <Text style={s.ozetDeger}>{toplam > 0 ? tl(toplam) : "—"}</Text>
+              <Text style={yazi.kucuk}>Kalan tahmini tutar</Text>
+              <Text style={s.ozetDeger}>{kalan > 0 ? (fiyatsiz ? "≥ " : "") + tl(kalan) : "—"}</Text>
             </View>
           </View>
 
-          {gruplar.map(({ p, kalemler }) => {
-            const k = kategoriBul(p.kategoriId);
-            return (
-              <View key={p.id} style={{ marginTop: bosluk.l }}>
-                <Pressable onPress={() => nav.navigate("Proje", { id: p.id })} style={s.grupBaslik}>
-                  <View style={[s.grupIkon, { backgroundColor: k.renkler[0] }]}>
-                    <Ikon name={p.ikon} size={16} color="#fff" />
-                  </View>
-                  <Text style={[yazi.altBaslik, { flex: 1 }]}>{p.ad}</Text>
-                  <Ikon name="chevron-right" size={20} color={renk.yaziIkincil} />
+          {/* Listedeki projeler: dokununca projeye git */}
+          <View style={s.cipler}>
+            {projeIdler.map((pid) => {
+              const p = PROJELER.find((x) => x.id === pid);
+              if (!p) return null;
+              return (
+                <Pressable
+                  key={pid}
+                  accessibilityRole="button"
+                  onPress={() => nav.navigate("Proje", { id: pid })}
+                  style={[s.cip, { borderColor: kategoriBul(p.kategoriId).renkler[0] }]}
+                >
+                  <Ikon name={p.ikon} size={14} color={kategoriBul(p.kategoriId).renkler[0]} />
+                  <Text style={s.cipYazi}>{p.ad}</Text>
                 </Pressable>
-                <View style={s.kart}>
-                  {kalemler.map((m, i) => {
-                    const ok = st.liste[m.id].alindi;
-                    const f = enUcuz(m);
-                    return (
-                      <View key={m.id} style={[s.satir, i > 0 && s.ayrac]}>
-                        <Pressable
-                          accessibilityRole="checkbox"
-                          accessibilityState={{ checked: ok }}
-                          accessibilityLabel={`${m.ad} alındı`}
-                          onPress={() => st.alindiDegistir(m.id)}
-                          hitSlop={8}
-                        >
-                          <Ikon
-                            name={ok ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
-                            size={24}
-                            color={ok ? renk.basari : renk.yaziIkincil}
-                          />
-                        </Pressable>
-                        <View style={{ flex: 1 }}>
-                          <Text style={[yazi.govde, ok && s.ustuCizili]}>{m.ad}</Text>
-                          <Text style={yazi.kucuk}>
-                            {m.miktar}
-                            {f ? ` · ${f.magaza}` : ""}
-                          </Text>
-                        </View>
-                        <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
-                        <Pressable
-                          accessibilityRole="button"
-                          accessibilityLabel={`${m.ad}: listeden çıkar`}
-                          onPress={() => st.listedenCikar(m.id)}
-                          hitSlop={8}
-                        >
-                          <Ikon name="close" size={18} color={renk.yaziIkincil} />
-                        </Pressable>
+              );
+            })}
+          </View>
+
+          {bolumler.map((b) => (
+            <View key={b.baslik} style={{ marginTop: bosluk.l }}>
+              <Text style={[yazi.altBaslik, { marginBottom: bosluk.s }]}>
+                {b.baslik} ({b.liste.length})
+              </Text>
+              <View style={s.kart}>
+                {b.liste.map((x, i) => {
+                  const f = enUcuz(x.kalem.ornek);
+                  return (
+                    <View key={x.kalem.kid} style={[s.satir, i > 0 && s.ayrac]}>
+                      <Pressable
+                        accessibilityRole="checkbox"
+                        accessibilityState={{ checked: x.alindi }}
+                        accessibilityLabel={`${x.kalem.ad} alındı`}
+                        onPress={() => st.alindiDegistir(x.kalem.kid)}
+                        hitSlop={8}
+                      >
+                        <Ikon
+                          name={x.alindi ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
+                          size={24}
+                          color={x.alindi ? renk.basari : renk.yaziIkincil}
+                        />
+                      </Pressable>
+                      <View style={{ flex: 1 }}>
+                        <Text style={[yazi.govde, x.alindi && s.ustuCizili]}>{x.kalem.ad}</Text>
+                        <Text style={yazi.kucuk}>
+                          {miktar(x)}
+                          {f ? ` · ${f.magaza}` : ""}
+                        </Text>
                       </View>
-                    );
-                  })}
-                </View>
+                      <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
+                      <Pressable
+                        accessibilityRole="button"
+                        accessibilityLabel={`${x.kalem.ad}: bende var, listeden çıkar`}
+                        onPress={() => st.bendeDegistir(x.kalem.kid)}
+                        hitSlop={8}
+                      >
+                        <Ikon name="home-plus-outline" size={20} color={renk.yaziIkincil} />
+                      </Pressable>
+                      <Pressable
+                        accessibilityRole="button"
+                        accessibilityLabel={`${x.kalem.ad}: listeden çıkar`}
+                        onPress={() => st.listedenCikar(x.kalem.kid)}
+                        hitSlop={8}
+                      >
+                        <Ikon name="close" size={18} color={renk.yaziIkincil} />
+                      </Pressable>
+                    </View>
+                  );
+                })}
               </View>
-            );
-          })}
+            </View>
+          ))}
+          <Text style={[yazi.kucuk, { marginTop: bosluk.l }]}>
+            Evde olan bir şeyi ⌂ ile işaretle: listeden düşer ve sonraki projelerde de listeye eklenmez.
+          </Text>
         </>
       )}
     </ScrollView>
@@ -178,5 +212,17 @@ const s = StyleSheet.create({
   kart: { backgroundColor: renk.kart, borderRadius: kose.m, ...golge },
   satir: { flexDirection: "row", alignItems: "center", gap: bosluk.m, padding: bosluk.m },
   ayrac: { borderTopWidth: 1, borderColor: renk.cizgi },
+  cipler: { flexDirection: "row", flexWrap: "wrap", gap: bosluk.s, marginTop: bosluk.l },
+  cip: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 16,
+    borderWidth: 1,
+    backgroundColor: renk.kart,
+  },
+  cipYazi: { fontSize: 12, fontWeight: "600", color: renk.yazi },
   ustuCizili: { textDecorationLine: "line-through", color: renk.yaziIkincil },
 });

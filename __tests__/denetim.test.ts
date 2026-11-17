@@ -4,7 +4,7 @@ import { katla, projeAra } from "../src/data/ara";
 import { kategoriBul } from "../src/data/kategoriler";
 import { PROJELER } from "../src/data/projeler";
 import { fiyatTarihi } from "../src/fiyat";
-import { temizle } from "../src/store";
+import { temizle, v1Tasi } from "../src/store";
 
 jest.mock("@react-native-async-storage/async-storage", () =>
   require("@react-native-async-storage/async-storage/jest/async-storage-mock"),
@@ -52,17 +52,44 @@ describe("Fiyat tarihi", () => {
 
 describe("Telefondaki kayıt temizliği", () => {
   const p = PROJELER[0];
+  const kid = p.malzemeler[0].kid!;
   test("silinmiş proje/malzeme ve geçersiz adım numaraları atılır", () => {
     const sonuc = temizle({
       favoriler: [p.id, "olmayan-proje"],
-      liste: { [p.malzemeler[0].id]: { projeId: p.id, alindi: false }, "hayalet-1": { projeId: "x", alindi: false } },
+      liste: {
+        [kid]: { projeler: [p.id, "yok"], alindi: false },
+        "hayalet-kalem": { projeler: [p.id], alindi: false },
+      },
+      bende: [kid, "hayalet"],
       bitenAdimlar: { [p.id]: [0, 999, -1], yok: [0] },
     });
     expect(sonuc.favoriler).toEqual([p.id]);
-    expect(Object.keys(sonuc.liste)).toEqual([p.malzemeler[0].id]);
+    expect(sonuc.liste).toEqual({ [kid]: { projeler: [p.id], alindi: false } });
+    expect(sonuc.bende).toEqual([kid]);
     expect(sonuc.bitenAdimlar).toEqual({ [p.id]: [0] });
   });
   test("bozuk kayıt çökertmez", () => {
-    expect(temizle({} as never)).toEqual({ favoriler: [], liste: {}, bitenAdimlar: {} });
+    expect(temizle({} as never)).toEqual({ favoriler: [], liste: {}, bende: [], bitenAdimlar: {} });
+  });
+});
+
+describe("Eski (v1) kayıt katalog kimliğine taşınır", () => {
+  test("aynı malzeme iki projeden gelince tek kalem, alınmamışsa alınmadı", () => {
+    // Aynı katalog kalemini paylaşan iki farklı projedeki malzemeyi bul
+    const satirlar = PROJELER.flatMap((p) => p.malzemeler.map((m) => ({ p, m })));
+    const ilk = satirlar.find((a) => satirlar.some((b) => b.m.kid === a.m.kid && b.p.id !== a.p.id))!;
+    const ikinci = satirlar.find((b) => b.m.kid === ilk.m.kid && b.p.id !== ilk.p.id)!;
+    const d = v1Tasi({
+      favoriler: [ilk.p.id],
+      liste: {
+        [ilk.m.id]: { projeId: ilk.p.id, alindi: true },
+        [ikinci.m.id]: { projeId: ikinci.p.id, alindi: false },
+        silinmis: { projeId: "x", alindi: false },
+      },
+      bitenAdimlar: {},
+    });
+    expect(Object.keys(d.liste)).toEqual([ilk.m.kid]);
+    expect(d.liste[ilk.m.kid!]).toEqual({ projeler: [ilk.p.id, ikinci.p.id], alindi: false });
+    expect(d.favoriler).toEqual([ilk.p.id]);
   });
 });

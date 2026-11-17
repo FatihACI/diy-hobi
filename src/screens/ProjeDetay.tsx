@@ -26,11 +26,16 @@ export default function ProjeDetay({ route, navigation }: P) {
     ? ["Malzemeler", "Adımlar", "İpuçları", "Kod"]
     : ["Malzemeler", "Adımlar", "İpuçları"];
 
-  const maliyet = useFiyat().maliyet(p);
   const biten = st.bitenAdimlar[p.id] ?? [];
   const ilerleme = biten.length / p.adimlar.length;
   const fav = st.favoriMi(p.id);
-  const hepsiListede = p.malzemeler.every((m) => st.liste[m.id]);
+  const hepsiListede = p.malzemeler.every((m) => st.liste[m.kid!] || st.bendeMi(m.kid!));
+  // Kullanıcıya özel: "bende var" işaretlenenler hariç, eksikleri almanın maliyeti (alet + sarf)
+  const fy = useFiyat();
+  const maliyet = fy.maliyet(p);
+  const eksikler = p.malzemeler.filter((m) => !st.bendeMi(m.kid!));
+  const sanaMaliyet = eksikler.reduce((t, m) => t + (fy.enUcuz(m)?.fiyat ?? 0), 0);
+  const bendeSayi = p.malzemeler.length - eksikler.length;
 
   return (
     <View style={{ flex: 1, backgroundColor: renk.arkaPlan }}>
@@ -117,6 +122,14 @@ export default function ProjeDetay({ route, navigation }: P) {
               )}
               <MalzemeGrup baslik="Malzemeler" liste={p.malzemeler.filter((m) => !m.arac)} />
               <MalzemeGrup baslik="Aletler" liste={p.malzemeler.filter((m) => m.arac)} />
+              {bendeSayi > 0 && sanaMaliyet > 0 && (
+                <View style={[s.fiyatNot, { backgroundColor: renk.anaAcik }]}>
+                  <Ikon name="home-heart" size={18} color={renk.ana} />
+                  <Text style={[yazi.kucuk, { flex: 1, color: renk.ana }]}>
+                    {bendeSayi} kalem sende var. Eksikleri almak: ≈ {tl(sanaMaliyet)}
+                  </Text>
+                </View>
+              )}
               <FiyatNotu alet={maliyet.alet} />
             </>
           )}
@@ -193,7 +206,7 @@ export default function ProjeDetay({ route, navigation }: P) {
           onPress={() =>
             st.listeyeEkle(
               p.id,
-              p.malzemeler.map((m) => m.id),
+              p.malzemeler.map((m) => m.kid!),
             )
           }
           style={({ pressed }) => [
@@ -235,13 +248,16 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
         {liste.map((m, i) => {
           const teklifler = [...fy.teklifler(m)].sort((x, y) => x.fiyat - y.fiyat);
           const f = teklifler[0];
-          const listede = !!st.liste[m.id];
+          const listede = !!st.liste[m.kid!];
+          const bende = st.bendeMi(m.kid!);
           const genis = acik === m.id && teklifler.length > 1;
           return (
             <View key={m.id} style={i > 0 && s.ayrac}>
               <Pressable style={s.malzeme} disabled={teklifler.length < 2} onPress={() => setAcik(genis ? null : m.id)}>
-                <View style={{ flex: 1 }}>
-                  <Text style={[yazi.govde, { fontWeight: "600" }]}>{m.ad}</Text>
+                <View style={{ flex: 1, opacity: bende ? 0.55 : 1 }}>
+                  <Text style={[yazi.govde, { fontWeight: "600" }, bende && { textDecorationLine: "line-through" }]}>
+                    {m.ad}
+                  </Text>
                   <Text style={yazi.kucuk}>
                     {m.miktar}
                     {teklifler.length > 1 ? ` · ${teklifler.length} mağaza ${genis ? "▴" : "▾"}` : ""}
@@ -255,11 +271,21 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                 ) : (
                   <Text style={[yazi.kucuk, { fontStyle: "italic" }]}>Fiyat yakında</Text>
                 )}
-                <Ikon
-                  name={listede ? "cart-check" : "cart-outline"}
-                  size={20}
-                  color={listede ? renk.basari : renk.cizgi}
-                />
+                <Pressable
+                  accessibilityRole="checkbox"
+                  accessibilityState={{ checked: bende }}
+                  accessibilityLabel={`${m.ad}: bende var`}
+                  onPress={() => st.bendeDegistir(m.kid!)}
+                  hitSlop={8}
+                  style={[s.bendeBtn, bende && { backgroundColor: renk.anaAcik, borderColor: renk.ana }]}
+                >
+                  <Ikon
+                    name={bende ? "home-heart" : listede ? "cart-check" : "home-outline"}
+                    size={16}
+                    color={bende ? renk.ana : listede ? renk.basari : renk.yaziIkincil}
+                  />
+                  <Text style={[s.bendeYazi, bende && { color: renk.ana }]}>{bende ? "Bende" : "Bende var?"}</Text>
+                </Pressable>
               </Pressable>
               {genis &&
                 teklifler.slice(1).map((t) => (
@@ -336,6 +362,17 @@ function Kutu({
 }
 
 const s = StyleSheet.create({
+  bendeBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 3,
+    paddingHorizontal: 6,
+    paddingVertical: 4,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+  },
+  bendeYazi: { fontSize: 10, fontWeight: "600", color: renk.yaziIkincil },
   kapak: { paddingHorizontal: bosluk.l, paddingBottom: 40, backgroundColor: KAGIT_RENGI, borderTopWidth: 4 },
   ustBar: { flexDirection: "row", justifyContent: "space-between" },
   yuvarlak: {

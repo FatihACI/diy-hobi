@@ -53,3 +53,26 @@ test("tüm projeler hatasız açılır", async () => {
     await geri();
   }
 }, 300_000); // her projeyi tek tek açar
+
+test("alışveriş listesi aynı malzemeyi birleştirir; 'bende var' listeden düşürür", async () => {
+  // Aynı katalog kalemini (ör. Arduino Uno) içeren iki proje
+  const ortak = PROJELER.flatMap((p) => p.malzemeler.map((m) => ({ p, m })));
+  const a = ortak.find((x) => x.m.arac && ortak.filter((y) => y.m.kid === x.m.kid).length >= 2)!;
+  const b = ortak.find((y) => y.m.kid === a.m.kid && y.p.id !== a.p.id)!;
+
+  await render(<App />);
+  await screen.findByText("Evde Hobi");
+  for (const p of [a.p, b.p]) {
+    await fireEvent.changeText(screen.getByPlaceholderText("Proje, malzeme veya kategori ara"), p.ad);
+    await fireEvent.press((await screen.findAllByText(p.ad))[0]);
+    await fireEvent.press(await screen.findByText("Malzemeleri listeye ekle"));
+    await geri();
+  }
+  await fireEvent.press(screen.getAllByText("Liste").at(-1)!);
+  await screen.findByText("Alışveriş Listesi");
+  expect(screen.getAllByText(a.m.ad).length).toBe(1); // tek satır
+  expect(screen.getAllByText(/2 projede/).length).toBeGreaterThan(0);
+
+  await fireEvent.press(screen.getByLabelText(`${a.m.ad}: bende var, listeden çıkar`));
+  expect(screen.queryByText(a.m.ad)).toBeNull();
+});
