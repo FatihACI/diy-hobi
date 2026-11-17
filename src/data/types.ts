@@ -14,6 +14,7 @@ export type Fiyat = {
 export type Malzeme = {
   id: string;
   kid?: string; // katalog kimliği (src/data/katalog.ts); PROJELER dışa aktarılırken doldurulur
+  evde?: boolean; // evde bulunur / ücretsiz (fiyat aranmaz); PROJELER dışa aktarılırken doldurulur
   ad: string;
   miktar: string;
   arac?: boolean; // true: alet (bir kez alınır), false: sarf malzeme

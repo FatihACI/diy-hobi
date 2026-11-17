@@ -269,7 +269,7 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                     <Text style={s.magaza}>{f.magaza} ›</Text>
                   </Pressable>
                 ) : (
-                  <Text style={[yazi.kucuk, { fontStyle: "italic" }]}>Fiyat yakında</Text>
+                  <Text style={[yazi.kucuk, { fontStyle: "italic" }]}>{m.evde ? "Evde bulunur" : "Fiyat yakında"}</Text>
                 )}
                 <Pressable
                   accessibilityRole="checkbox"

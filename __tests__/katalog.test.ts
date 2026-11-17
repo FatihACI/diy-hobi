@@ -1,6 +1,6 @@
 // Merkezi malzeme kataloğu: sabit kimlikler ve fiyat verisiyle tutarlılık
 import { describe, expect, test } from "@jest/globals";
-import { katalogKimligi } from "../src/data/katalog";
+import { AYIRT, ESANLAMLI, EVDE, katalogKimligi } from "../src/data/katalog";
 import { PROJELER } from "../src/data/projeler";
 
 import ESLESME from "../fiyat-toplayici/veri/eslesme.json";
@@ -35,6 +35,11 @@ describe("katalog kimliği", () => {
 
 describe("fiyat toplayıcı verisi katalogla tutarlı", () => {
   const katalog = new Set(PROJELER.flatMap((p) => p.malzemeler.map((m) => m.kid!)));
+  test("EVDE, AYIRT ve ESANLAMLI listelerinde yazım hatası yok (hepsi katalogda)", () => {
+    expect([...EVDE].filter((id) => !katalog.has(id))).toEqual([]);
+    expect([...AYIRT].filter((id) => !katalog.has(id) && !ESANLAMLI[id])).toEqual([]);
+    expect(Object.values(ESANLAMLI).filter((id) => !katalog.has(id))).toEqual([]);
+  });
   test("manuel.csv'deki her katalogId katalogda var", () => {
     const bilinmeyen = MANUEL.split(/\r?\n/)
       .filter((s: string) => s.trim() && !s.startsWith("#") && !s.startsWith("katalogId"))

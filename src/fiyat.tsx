@@ -116,7 +116,7 @@ export function FiyatProvider({ children }: { children: ReactNode }) {
     teklifler,
     enUcuz,
     maliyet: (p) => {
-      const sarf = p.malzemeler.filter((m) => !m.arac);
+      const sarf = p.malzemeler.filter((m) => !m.arac && !m.evde);
       const fiyatli = sarf.filter((m) => enUcuz(m));
       return {
         toplam: fiyatli.reduce((t, m) => t + enUcuz(m)!.fiyat, 0),

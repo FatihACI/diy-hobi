@@ -5,8 +5,9 @@
   "scripts": {
     "aktar": "tsx malzeme-aktar.ts",
     "topla": "node topla.mjs",
-    "hepsi": "npm run aktar && npm run topla",
-    "test": "node --test test/*.test.mjs"
+    "hepsi": "npm run aktar && npm run topla && npm run oncelik",
+    "test": "node --test test/*.test.mjs",
+    "oncelik": "node oncelik.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^4.5.0"

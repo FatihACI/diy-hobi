@@ -29,6 +29,44 @@ export const ESANLAMLI: Record<string, string> = {
   "maket-bicagi-bol-yedek-uclu": "maket-bicagi",
 };
 
+// Her evde bulunan, ücretsiz veya geri dönüşümden gelen kalemler: fiyat aranmaz,
+// "Fiyat yakında" yerine "Evde bulunur" gösterilir, maliyet hesabında eksik sayılmaz.
+export const EVDE = new Set([
+  "dilimleme-yazilimi",
+  "bilgisayar",
+  "bilgisayar-ucretsiz-tinkercad-hesabi",
+  "bilgisayar-yapilandirma-yazilimi",
+  "eski-akilli-telefon",
+  "su",
+  "tuz",
+  "firin",
+  "makas",
+  "kagit-havlu",
+  "karton-rulo",
+  "karton-kutu",
+  "buyuk-karton-kutu",
+  "karton-gazete",
+  "pet-sise-1-5-l",
+  "pet-sise-2-l",
+  "1-5-l-pet-sise",
+  "bos-pet-sise-500-ml",
+  "buyuk-seffaf-pet-sise",
+  "bos-seffaf-sise",
+  "gazli-icecek-sisesi-1-5-2-l",
+  "su-haznesi",
+  "sise-kapagi",
+  "sporcu-suyu-sisesi-kapagi",
+  "temiz-kavanoz",
+  "cam-kavanoz",
+  "kapakli-kavanoz",
+  "genis-agizli-kavanoz",
+  "kucuk-kapakli-kavanoz",
+  "kavanoz-veya-kalip",
+  "pet-sise-veya-karton-govde",
+  "pet-sise-veya-plastik-kutu",
+  "silindir",
+]);
+
 export function katalogKimligi(ad: string): string {
   const tam = slug(ad);
   const anahtar = AYIRT.has(tam) ? tam : slug(ad.replace(/\(.*?\)/g, " ")) || tam;

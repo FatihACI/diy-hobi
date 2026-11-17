@@ -1,4 +1,4 @@
-import { katalogKimligi } from "./katalog";
+import { EVDE, katalogKimligi } from "./katalog";
 import { Proje } from "./types";
 import { a, m } from "./yardimci";
 import { COCUK_DOGA } from "./projeler-cocuk-doga";
@@ -669,7 +669,13 @@ void loop() {
 
 export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLARI, ...TEKNIK_EV, ...EK_PROJELER]
   .map(guvenlikTamamla)
-  .map((p) => ({ ...p, malzemeler: p.malzemeler.map((m) => ({ ...m, kid: katalogKimligi(m.ad) })) }));
+  .map((p) => ({
+    ...p,
+    malzemeler: p.malzemeler.map((m) => {
+      const kid = katalogKimligi(m.ad);
+      return { ...m, kid, evde: EVDE.has(kid) };
+    }),
+  }));
 
 export const projeBul = (id: string) => PROJELER.find((p) => p.id === id)!;
 export const kategoriProjeleri = (kid: string) => PROJELER.filter((p) => p.kategoriId === kid);

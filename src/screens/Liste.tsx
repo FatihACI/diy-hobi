@@ -27,7 +27,7 @@ export default function Liste() {
   const projeIdler = [...new Set(kalemler.flatMap((x) => x.projeler))];
   const alinan = kalemler.filter((x) => x.alindi).length;
   const kalan = kalemler.filter((x) => !x.alindi).reduce((t, x) => t + (enUcuz(x.kalem.ornek)?.fiyat ?? 0), 0);
-  const fiyatsiz = kalemler.filter((x) => !x.alindi && !enUcuz(x.kalem.ornek)).length;
+  const fiyatsiz = kalemler.filter((x) => !x.alindi && !x.kalem.ornek.evde && !enUcuz(x.kalem.ornek)).length;
   const projeAd = (id: string) => PROJELER.find((p) => p.id === id)?.ad ?? id;
   const miktar = (x: (typeof kalemler)[number]) =>
     x.projeler.length > 1
