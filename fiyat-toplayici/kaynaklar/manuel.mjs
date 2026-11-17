@@ -1,6 +1,7 @@
 // Kaynak 1: Elle girilen fiyatlar (veri/manuel.csv)
-// Biçim: malzemeId;magaza;fiyat;url;tarih
-// Örnek: aa1;Örnek Hırdavat;84,90;https://...;2026-11-03
+// Biçim: katalogId;magaza;fiyat;url;tarih   (katalogId: veri/malzemeler.json'daki "id", ör. maket-bicagi)
+// Örnek: maket-bicagi;Örnek Hırdavat;84,90;https://...;2026-11-03
+// Bir katalog kalemine girilen fiyat, o malzemenin geçtiği TÜM projelerde görünür.
 // Fiyatı sen veya bir editör mağaza sitesinde görüp girer. Her zaman çalışır, API gerekmez.
 import { existsSync, readFileSync } from "node:fs";
 
@@ -12,7 +13,7 @@ export async function topla({ malzemeler, kok }) {
   const ids = new Set(malzemeler.map((m) => m.id));
   return readFileSync(yol, "utf8")
     .split(/\r?\n/)
-    .filter((s) => s.trim() && !s.startsWith("#") && !s.startsWith("malzemeId"))
+    .filter((s) => s.trim() && !s.startsWith("#") && !/^(malzemeId|katalogId);/.test(s))
     .map((s) => {
       const [malzemeId, magaza, fiyat, url, tarih] = s.split(";").map((x) => x.trim());
       return {

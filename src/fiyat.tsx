@@ -104,7 +104,8 @@ export function FiyatProvider({ children }: { children: ReactNode }) {
     })();
   }, [indir]);
 
-  const teklifler = (m: Malzeme) => kayit?.dosya.fiyatlar[m.id] ?? [];
+  // Önce katalog kimliği (surum 2), yoksa eski malzeme kimliği (surum 1 dosyası)
+  const teklifler = (m: Malzeme) => (m.kid && kayit?.dosya.fiyatlar[m.kid]) || kayit?.dosya.fiyatlar[m.id] || [];
   const enUcuz = (m: Malzeme) => [...teklifler(m)].sort((a, b) => a.fiyat - b.fiyat)[0];
   const guncelleme = kayit ? fiyatTarihi(kayit.dosya) : null;
 

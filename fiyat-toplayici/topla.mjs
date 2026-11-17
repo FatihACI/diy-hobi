@@ -54,7 +54,8 @@ export async function calistir({ kaynaklar = KAYNAKLAR, bugun = new Date().toISO
   // Fiyatlar değişmediyse eski tarihi koru: her gün boş "güncellendi" commit'i atılmasın
   const onceki = oku("cikti/fiyatlar.json", null);
   const ayni = onceki && JSON.stringify(onceki.fiyatlar) === JSON.stringify(fiyatlar);
-  const cikti = { surum: 1, guncelleme: ayni ? onceki.guncelleme : bugun, fiyatlar };
+  // surum 2: anahtarlar katalog kimliği (uygulama eski malzeme kimliğine de geri düşer)
+  const cikti = { surum: 2, guncelleme: ayni ? onceki.guncelleme : bugun, fiyatlar };
   mkdirSync(new URL("cikti/", kok), { recursive: true });
   writeFileSync(new URL("cikti/fiyatlar.json", kok), JSON.stringify(cikti, null, 2));
   log(`✔ ${Object.keys(fiyatlar).length}/${malzemeler.length} malzemenin fiyatı bulundu → cikti/fiyatlar.json`);

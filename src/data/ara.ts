@@ -1,16 +1,9 @@
 import { KATEGORILER } from "./kategoriler";
 import { PROJELER } from "./projeler";
+import { katla } from "./metin";
 import type { Proje } from "./types";
 
-// Türkçe harfleri katlar: "Kuş evi" → "kus evi", "ÇİÇEK" → "cicek".
-// Kullanıcı Türkçe klavye kullanmasa da ("kus", "sabun kalibi") sonuç bulunur.
-const HARF: Record<string, string> = { ç: "c", ğ: "g", ı: "i", ö: "o", ş: "s", ü: "u", â: "a", î: "i", û: "u" };
-export const katla = (s: string) =>
-  s
-    .toLocaleLowerCase("tr-TR")
-    .replace(/[çğıöşüâîû]/g, (h) => HARF[h])
-    .replace(/\s+/g, " ")
-    .trim();
+export { katla };
 
 // Her projenin aranabilir metni bir kez hazırlanır (her tuşta 1874 malzemeyi yeniden katlamamak için)
 const DIZIN = PROJELER.map((p) => ({
