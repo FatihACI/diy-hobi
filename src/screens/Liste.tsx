@@ -49,10 +49,17 @@ export default function Liste() {
         <Text style={yazi.dev}>Alışveriş Listesi</Text>
         {tumKalemler.length > 0 && (
           <View style={{ flexDirection: "row", gap: bosluk.m }}>
-            <Pressable accessibilityLabel="Listeyi paylaş" onPress={paylas} hitSlop={10} style={s.ustBtn}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Listeyi paylaş"
+              onPress={paylas}
+              hitSlop={10}
+              style={s.ustBtn}
+            >
               <Ikon name="share-variant" size={20} color={renk.ana} />
             </Pressable>
             <Pressable
+              accessibilityRole="button"
               accessibilityLabel="Listeyi temizle"
               hitSlop={10}
               style={s.ustBtn}
@@ -103,7 +110,13 @@ export default function Liste() {
                     const f = enUcuz(m);
                     return (
                       <View key={m.id} style={[s.satir, i > 0 && s.ayrac]}>
-                        <Pressable onPress={() => st.alindiDegistir(m.id)} hitSlop={8}>
+                        <Pressable
+                          accessibilityRole="checkbox"
+                          accessibilityState={{ checked: ok }}
+                          accessibilityLabel={`${m.ad} alındı`}
+                          onPress={() => st.alindiDegistir(m.id)}
+                          hitSlop={8}
+                        >
                           <Ikon
                             name={ok ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
                             size={24}
@@ -118,7 +131,12 @@ export default function Liste() {
                           </Text>
                         </View>
                         <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
-                        <Pressable onPress={() => st.listedenCikar(m.id)} hitSlop={8}>
+                        <Pressable
+                          accessibilityRole="button"
+                          accessibilityLabel={`${m.ad}: listeden çıkar`}
+                          onPress={() => st.listedenCikar(m.id)}
+                          hitSlop={8}
+                        >
                           <Ikon name="close" size={18} color={renk.yaziIkincil} />
                         </Pressable>
                       </View>

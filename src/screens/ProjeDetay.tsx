@@ -1,10 +1,10 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { useState } from "react";
-import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { KAGIT_RENGI, ProjeCizim } from "../cizimler";
 import { Ikon, Rozet, tl, ZorlukRozet } from "../components";
-import { tarihYaz, useFiyat } from "../fiyat";
+import { linkAc, tarihYaz, useFiyat } from "../fiyat";
 import { kategoriBul } from "../data/kategoriler";
 import { projeBul } from "../data/projeler";
 import { IkonAdi, Malzeme } from "../data/types";
@@ -76,7 +76,7 @@ export default function ProjeDetay({ route, navigation }: P) {
             <Bilgi ikon="clock-outline" etiket="Süre">
               <Text style={s.bilgiDeger}>{p.sure}</Text>
             </Bilgi>
-            <Bilgi ikon="cash" etiket="Maliyet">
+            <Bilgi ikon="cash" etiket="Malzeme">
               <Text style={s.bilgiDeger}>
                 {maliyet.fiyatliSayi ? (maliyet.fiyatliSayi < maliyet.tumu ? "≥ " : "") + tl(maliyet.toplam) : "—"}
               </Text>
@@ -86,9 +86,15 @@ export default function ProjeDetay({ route, navigation }: P) {
         </View>
 
         {/* Sekmeler */}
-        <View style={s.sekmeler}>
+        <View style={s.sekmeler} accessibilityRole="tablist">
           {sekmeler.map((x) => (
-            <Pressable key={x} onPress={() => setSekme(x)} style={[s.sekme, sekme === x && s.sekmeAktif]}>
+            <Pressable
+              key={x}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: sekme === x }}
+              onPress={() => setSekme(x)}
+              style={[s.sekme, sekme === x && s.sekmeAktif]}
+            >
               <Text style={[s.sekmeYazi, sekme === x && { color: renk.yazi }]}>{x}</Text>
             </Pressable>
           ))}
@@ -97,14 +103,34 @@ export default function ProjeDetay({ route, navigation }: P) {
         <View style={{ paddingHorizontal: bosluk.l }}>
           {sekme === "Malzemeler" && (
             <>
+              {(p.zorluk === "Zor" || !!p.yas) && p.guvenlik.length > 0 && (
+                <Pressable
+                  accessibilityRole="button"
+                  onPress={() => setSekme("Adımlar")}
+                  style={[s.fiyatNot, { backgroundColor: renk.tehlikeAcik, marginTop: 0, marginBottom: bosluk.l }]}
+                >
+                  <Ikon name="shield-alert-outline" size={18} color={renk.tehlike} />
+                  <Text style={[yazi.kucuk, { flex: 1, color: renk.tehlike }]}>
+                    {p.guvenlik.length} güvenlik notu var. Malzeme almadan önce okumanı öneririz ›
+                  </Text>
+                </Pressable>
+              )}
               <MalzemeGrup baslik="Malzemeler" liste={p.malzemeler.filter((m) => !m.arac)} />
               <MalzemeGrup baslik="Aletler" liste={p.malzemeler.filter((m) => m.arac)} />
-              <FiyatNotu />
+              <FiyatNotu alet={maliyet.alet} />
             </>
           )}
 
           {sekme === "Adımlar" && (
             <>
+              {/* Güvenlik notları adımlardan önce: kullanıcı işe başlamadan görmeli, ayrı sekmede kaybolmamalı */}
+              <Kutu
+                ikon="shield-alert-outline"
+                baslik="Başlamadan önce: güvenlik"
+                fg={renk.tehlike}
+                bg={renk.tehlikeAcik}
+                satirlar={p.guvenlik}
+              />
               <View style={s.ilerlemeKart}>
                 <Text style={yazi.altBaslik}>
                   {biten.length} / {p.adimlar.length} adım tamamlandı
@@ -116,7 +142,14 @@ export default function ProjeDetay({ route, navigation }: P) {
               {p.adimlar.map((a, i) => {
                 const ok = biten.includes(i);
                 return (
-                  <Pressable key={i} onPress={() => st.adimDegistir(p.id, i)} style={[s.adim, ok && { opacity: 0.6 }]}>
+                  <Pressable
+                    key={i}
+                    accessibilityRole="checkbox"
+                    accessibilityState={{ checked: ok }}
+                    accessibilityLabel={`Adım ${i + 1}: ${a.baslik}`}
+                    onPress={() => st.adimDegistir(p.id, i)}
+                    style={[s.adim, ok && { opacity: 0.6 }]}
+                  >
                     <View style={[s.adimNo, { backgroundColor: ok ? renk.basari : k.renkler[0] }]}>
                       {ok ? <Ikon name="check" size={16} color="#fff" /> : <Text style={s.adimNoYazi}>{i + 1}</Text>}
                     </View>
@@ -133,13 +166,6 @@ export default function ProjeDetay({ route, navigation }: P) {
 
           {sekme === "İpuçları" && (
             <>
-              <Kutu
-                ikon="shield-alert-outline"
-                baslik="Güvenlik"
-                fg={renk.tehlike}
-                bg={renk.tehlikeAcik}
-                satirlar={p.guvenlik}
-              />
               <Kutu
                 ikon="lightbulb-on-outline"
                 baslik="Usta ipuçları"
@@ -222,7 +248,7 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                   </Text>
                 </View>
                 {f ? (
-                  <Pressable onPress={() => Linking.openURL(f.url)} style={{ alignItems: "flex-end" }} hitSlop={6}>
+                  <Pressable onPress={() => linkAc(f.url)} style={{ alignItems: "flex-end" }} hitSlop={6}>
                     <Text style={s.fiyat}>{tl(f.fiyat)}</Text>
                     <Text style={s.magaza}>{f.magaza} ›</Text>
                   </Pressable>
@@ -237,7 +263,7 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
               </Pressable>
               {genis &&
                 teklifler.slice(1).map((t) => (
-                  <Pressable key={t.magaza} onPress={() => Linking.openURL(t.url)} style={s.teklif}>
+                  <Pressable key={t.magaza} onPress={() => linkAc(t.url)} style={s.teklif}>
                     <Text style={[yazi.kucuk, { flex: 1 }]}>{t.magaza}</Text>
                     <Text style={{ fontWeight: "700", color: renk.yazi }}>{tl(t.fiyat)}</Text>
                     <Ikon name="open-in-new" size={14} color={renk.yaziIkincil} />
@@ -251,10 +277,11 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
   );
 }
 
-function FiyatNotu() {
+function FiyatNotu({ alet }: { alet: number }) {
   const fy = useFiyat();
   let metin =
-    "Fiyatlar güvenilir mağazalardan otomatik toplanır; her malzemede en düşük fiyat gösterilir. Toplam, her kalemden bir paket alındığı varsayımıyla hesaplanır.";
+    "Fiyatlar güvenilir mağazalardan toplanır; her malzemede en düşük fiyat gösterilir. Üstteki malzeme maliyeti yalnızca sarf malzemeleri kapsar ve her kalemden bir paket alındığını varsayar; kargo hariçtir.";
+  if (alet > 0) metin += `\nElinde olmayan aletler için ek: en az ${tl(alet)}.`;
   let renkNot: string = renk.yaziIkincil;
   if (fy.durum === "kapali") metin = "Fiyat servisi henüz bağlanmadı. Fiyatlar yakında burada görünecek.";
   else if (fy.durum === "yukleniyor" && !fy.guncelleme) metin = "Fiyatlar yükleniyor…";
@@ -262,7 +289,7 @@ function FiyatNotu() {
   else if (fy.guncelleme) {
     metin += `\nSon güncelleme: ${tarihYaz(fy.guncelleme)}.`;
     if (fy.eskiMi) {
-      metin += " Fiyatlar bir haftadan eski, mağazada değişmiş olabilir.";
+      metin += " Fiyatlar bir haftadan eski; mağazada değişmiş olabilir.";
       renkNot = renk.uyari;
     }
   }

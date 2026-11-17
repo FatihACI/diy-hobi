@@ -2,8 +2,9 @@
 // Video varsa kapak resmi + "YouTube'da izle"; yoksa YouTube aramasını açan buton.
 // Oynatma YouTube uygulamasında yapılır: Expo Go'da ek paket gerektirmez ve
 // gömülü oynatıcıların Android'deki "video oynatılamıyor" sorunlarından etkilenmez.
-import { Image, Linking, Pressable, StyleSheet, Text, View } from "react-native";
+import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 import { Ikon } from "./components";
+import { linkAc } from "./fiyat";
 import type { Proje } from "./data/types";
 import VIDEOLAR from "./data/videolar.json";
 import { bosluk, golge, kose, renk, yazi } from "./theme";
@@ -33,11 +34,7 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
 
   if (!v) {
     return (
-      <Pressable
-        accessibilityRole="button"
-        onPress={() => Linking.openURL(aramaAdresi(proje))}
-        style={[s.kart, s.satir]}
-      >
+      <Pressable accessibilityRole="button" onPress={() => linkAc(aramaAdresi(proje))} style={[s.kart, s.satir]}>
         <Ikon name="youtube" size={28} color="#FF0000" />
         <View style={{ flex: 1 }}>
           <Text style={yazi.altBaslik}>Uygulama videosu</Text>
@@ -52,7 +49,7 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={`Videoyu YouTube'da izle: ${v.baslik}`}
-      onPress={() => Linking.openURL(izleAdresi(v.id))}
+      onPress={() => linkAc(izleAdresi(v.id))}
       style={s.kart}
     >
       <Text style={[yazi.altBaslik, { marginBottom: bosluk.s }]}>Uygulama videosu</Text>

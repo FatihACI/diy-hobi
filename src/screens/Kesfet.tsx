@@ -1,31 +1,37 @@
 import { useMemo, useState } from "react";
-import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Arama, Bolum, Bos, KategoriKart, ProjeKart } from "../components";
 import { KATEGORILER } from "../data/kategoriler";
+import { projeAra } from "../data/ara";
 import { kategoriProjeleri, PROJELER } from "../data/projeler";
 import { useNav } from "../nav";
 import { bosluk, renk, yazi } from "../theme";
 
-// Türkçe karakter duyarsız arama
-const normal = (s: string) => s.toLocaleLowerCase("tr-TR");
+const SAYFA = 30;
+
+// "Yeni başlayanlar için": her gün farklı 5 kolay proje (hep aynı 5 proje görünmesin)
+const KOLAYLAR = PROJELER.filter((p) => p.zorluk === "Kolay");
+function gununKolaylari() {
+  const gun = Math.floor(Date.now() / 86400000);
+  const bas = (gun * 5) % KOLAYLAR.length;
+  return [...KOLAYLAR, ...KOLAYLAR].slice(bas, bas + 5);
+}
 
 export default function Kesfet() {
   const nav = useNav();
   const ust = useSafeAreaInsets().top;
   const [q, setQ] = useState("");
 
-  const sonuc = useMemo(() => {
-    const t = normal(q.trim());
-    if (!t) return [];
-    return PROJELER.filter((p) =>
-      [p.ad, p.ozet, KATEGORILER.find((k) => k.id === p.kategoriId)!.ad, ...p.malzemeler.map((m) => m.ad)].some((s) =>
-        normal(s).includes(t),
-      ),
-    );
-  }, [q]);
+  const sonuc = useMemo(() => projeAra(q), [q]);
+  // Tek harfte ~400 kart (her biri SVG çizim) birden çizilmesin: 30'ar 30'ar göster
+  const [limit, setLimit] = useState(SAYFA);
+  const ara = (t: string) => {
+    setQ(t);
+    setLimit(SAYFA);
+  };
 
-  const onecikan = PROJELER.filter((p) => p.zorluk === "Kolay").slice(0, 5);
+  const [onecikan] = useState(gununKolaylari);
   const yeni = [...PROJELER].reverse().slice(0, 6);
 
   return (
@@ -37,16 +43,21 @@ export default function Kesfet() {
         <Text style={s.selam}>Bugün ne yapıyoruz?</Text>
         <Text style={yazi.dev}>Evde Hobi</Text>
         <View style={{ height: bosluk.l }} />
-        <Arama deger={q} degis={setQ} />
+        <Arama deger={q} degis={ara} />
       </View>
 
       {q.trim() ? (
         <View style={[s.yatayPad, { gap: bosluk.m, marginTop: bosluk.l }]}>
           <Text style={yazi.kucuk}>{sonuc.length} sonuç</Text>
           {sonuc.length === 0 && <Bos ikon="magnify-close" baslik="Sonuç yok" metin="Farklı bir kelime dene." />}
-          {sonuc.map((p) => (
+          {sonuc.slice(0, limit).map((p) => (
             <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
           ))}
+          {sonuc.length > limit && (
+            <Pressable accessibilityRole="button" onPress={() => setLimit((l) => l + SAYFA)} style={s.dahaFazla}>
+              <Text style={{ color: renk.ana, fontWeight: "700" }}>Daha fazla göster ({sonuc.length - limit})</Text>
+            </Pressable>
+          )}
         </View>
       ) : (
         <>
@@ -98,5 +109,6 @@ export default function Kesfet() {
 
 const s = StyleSheet.create({
   yatayPad: { paddingHorizontal: bosluk.l },
+  dahaFazla: { alignItems: "center", paddingVertical: bosluk.m },
   selam: { ...yazi.kucuk, fontSize: 14, marginBottom: 2 },
 });

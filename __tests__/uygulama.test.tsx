@@ -47,8 +47,9 @@ test("tüm projeler hatasız açılır", async () => {
     await fireEvent.press(screen.getAllByText(p.ad)[0]);
     expect(await screen.findByText(/Malzemeleri listeye ekle|Tüm malzemeler listede/)).toBeTruthy();
     await fireEvent.press(await screen.findByText("Adımlar"));
+    await screen.findByText("Başlamadan önce: güvenlik"); // güvenlik notları adımlardan önce
     await fireEvent.press(await screen.findByText("İpuçları"));
-    await screen.findByText("Güvenlik");
+    await screen.findByText("Usta ipuçları");
     await geri();
   }
 }, 300_000); // her projeyi tek tek açar

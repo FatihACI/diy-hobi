@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
+import { PROJELER } from "./data/projeler";
 
 // Telefonda kalıcı tutulan kullanıcı verisi
 type Durum = {
@@ -23,13 +24,30 @@ type Api = Durum & {
 
 const Ctx = createContext<Api | null>(null);
 
+// Uygulama güncellenince silinen/yeniden adlandırılan proje veya malzemeler telefondaki kayıtta
+// "hayalet" olarak kalmasın (ör. sekme rozetinde sayılıp listede görünmeyen kalemler).
+export function temizle(x: Durum): Durum {
+  const projeler = new Map(PROJELER.map((p) => [p.id, p]));
+  const malzemeler = new Set(PROJELER.flatMap((p) => p.malzemeler.map((m) => m.id)));
+  const bitenAdimlar: Durum["bitenAdimlar"] = {};
+  for (const [pid, adimlar] of Object.entries(x.bitenAdimlar ?? {})) {
+    const p = projeler.get(pid);
+    if (p && Array.isArray(adimlar)) bitenAdimlar[pid] = adimlar.filter((i) => i >= 0 && i < p.adimlar.length);
+  }
+  return {
+    favoriler: (Array.isArray(x.favoriler) ? x.favoriler : []).filter((id) => projeler.has(id)),
+    liste: Object.fromEntries(Object.entries(x.liste ?? {}).filter(([mid]) => malzemeler.has(mid))),
+    bitenAdimlar,
+  };
+}
+
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [d, setD] = useState<Durum>(BOS);
   const [yuklendi, setYuklendi] = useState(false);
 
   useEffect(() => {
     AsyncStorage.getItem(ANAHTAR)
-      .then((s) => s && setD({ ...BOS, ...JSON.parse(s) }))
+      .then((s) => s && setD(temizle({ ...BOS, ...JSON.parse(s) })))
       .catch(() => {})
       .finally(() => setYuklendi(true));
   }, []);

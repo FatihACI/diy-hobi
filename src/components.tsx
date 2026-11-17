@@ -45,9 +45,17 @@ export function Arama({ deger, degis }: { deger: string; degis: (s: string) => v
         placeholder="Proje, malzeme veya kategori ara"
         placeholderTextColor={renk.yaziIkincil}
         style={{ flex: 1, fontSize: 15, color: renk.yazi }}
+        accessibilityLabel="Ara"
+        returnKeyType="search"
+        autoCorrect={false}
       />
       {deger.length > 0 && (
-        <Pressable onPress={() => degis("")} hitSlop={10}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Aramayı temizle"
+          onPress={() => degis("")}
+          hitSlop={10}
+        >
           <Ikon name="close-circle" size={18} color={renk.yaziIkincil} />
         </Pressable>
       )}
@@ -101,7 +109,13 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
     >
       <View style={[st.projeKapak, { borderTopColor: k.renkler[0] }]}>
         <ProjeCizim id={p.id} boyut={124} />
-        <Pressable onPress={() => favoriDegistir(p.id)} hitSlop={10} style={st.favBtn}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={fav ? `${p.ad}: favorilerden çıkar` : `${p.ad}: favorilere ekle`}
+          onPress={() => favoriDegistir(p.id)}
+          hitSlop={10}
+          style={st.favBtn}
+        >
           <Ikon name={fav ? "heart" : "heart-outline"} size={20} color={fav ? renk.tehlike : renk.yazi} />
         </Pressable>
         <View style={[st.kategoriEtiket, { backgroundColor: k.renkler[0] }]}>
