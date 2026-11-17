@@ -13,6 +13,8 @@ import Kesfet from "./src/screens/Kesfet";
 import Liste from "./src/screens/Liste";
 import ProjeDetay from "./src/screens/ProjeDetay";
 import { FiyatProvider } from "./src/fiyat";
+import { HataSiniri } from "./src/hata";
+import { IlkAcilisUyarisi } from "./src/uyari";
 import { StoreProvider, useStore } from "./src/store";
 import { renk } from "./src/theme";
 
@@ -59,18 +61,21 @@ const tema = { ...DefaultTheme, colors: { ...DefaultTheme.colors, background: re
 export default function App() {
   return (
     <SafeAreaProvider>
-      <StoreProvider>
-        <FiyatProvider>
-          <NavigationContainer theme={tema}>
-            <StatusBar style="dark" />
-            <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
-              <Stack.Screen name="Sekmeler" component={Sekmeler} />
-              <Stack.Screen name="Kategori" component={KategoriDetay} />
-              <Stack.Screen name="Proje" component={ProjeDetay} />
-            </Stack.Navigator>
-          </NavigationContainer>
-        </FiyatProvider>
-      </StoreProvider>
+      <HataSiniri>
+        <StoreProvider>
+          <FiyatProvider>
+            <NavigationContainer theme={tema}>
+              <StatusBar style="dark" />
+              <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
+                <Stack.Screen name="Sekmeler" component={Sekmeler} />
+                <Stack.Screen name="Kategori" component={KategoriDetay} />
+                <Stack.Screen name="Proje" component={ProjeDetay} />
+              </Stack.Navigator>
+              <IlkAcilisUyarisi />
+            </NavigationContainer>
+          </FiyatProvider>
+        </StoreProvider>
+      </HataSiniri>
     </SafeAreaProvider>
   );
 }

@@ -1,4 +1,4 @@
-import { ScrollView, Text, View } from "react-native";
+import { FlatList, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, ProjeKart } from "../components";
 import { PROJELER } from "../data/projeler";
@@ -13,20 +13,18 @@ export default function Favoriler() {
   const projeler = PROJELER.filter((p) => favoriler.includes(p.id));
 
   return (
-    <ScrollView
+    <FlatList
       style={{ backgroundColor: renk.arkaPlan }}
       contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
-    >
-      <Text style={yazi.dev}>Favoriler</Text>
-      {projeler.length === 0 ? (
+      data={projeler}
+      keyExtractor={(p) => p.id}
+      ListHeaderComponent={<Text style={[yazi.dev, { marginBottom: bosluk.l }]}>Favoriler</Text>}
+      ItemSeparatorComponent={() => <View style={{ height: bosluk.m }} />}
+      initialNumToRender={6}
+      renderItem={({ item }) => <ProjeKart p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />}
+      ListEmptyComponent={
         <Bos ikon="heart-outline" baslik="Henüz favori yok" metin="Beğendiğin projelerde ♡ simgesine dokun." />
-      ) : (
-        <View style={{ gap: bosluk.m, marginTop: bosluk.l }}>
-          {projeler.map((p) => (
-            <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
-          ))}
-        </View>
-      )}
-    </ScrollView>
+      }
+    />
   );
 }
