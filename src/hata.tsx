@@ -2,6 +2,7 @@
 // kullanıcıya anlaşılır bir mesaj ve "Tekrar dene" gösterilir.
 import { Component, ReactNode } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
+import { hataBildir } from "./sentry";
 import { bosluk, kose, renk, yazi } from "./theme";
 
 type Durum = { hata: Error | null };
@@ -14,8 +15,8 @@ export class HataSiniri extends Component<{ children: ReactNode }, Durum> {
   }
 
   componentDidCatch(hata: Error, bilgi: { componentStack?: string | null }) {
-    // İleride çökme raporlama (ör. Sentry) buraya bağlanır
     console.error("Uygulama hatası:", hata, bilgi.componentStack);
+    hataBildir(hata, bilgi.componentStack); // yayın sürümünde Sentry'ye gider
   }
 
   render() {

@@ -14,6 +14,7 @@ import Liste from "./src/screens/Liste";
 import ProjeDetay from "./src/screens/ProjeDetay";
 import { FiyatProvider } from "./src/fiyat";
 import { HataSiniri } from "./src/hata";
+import { sentrySar } from "./src/sentry";
 import { IlkAcilisUyarisi } from "./src/uyari";
 import { StoreProvider, useStore } from "./src/store";
 import { renk } from "./src/theme";
@@ -58,7 +59,7 @@ function Sekmeler() {
 
 const tema = { ...DefaultTheme, colors: { ...DefaultTheme.colors, background: renk.arkaPlan, primary: renk.ana } };
 
-export default function App() {
+function App() {
   return (
     <SafeAreaProvider>
       <HataSiniri>
@@ -79,3 +80,5 @@ export default function App() {
     </SafeAreaProvider>
   );
 }
+
+export default sentrySar(App);

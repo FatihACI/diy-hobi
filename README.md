@@ -82,6 +82,32 @@ Bitince verilen linkten APK'yı telefona indirip kur. Play Store için `--profil
 
 > ⚠️ `app.json` içindeki `android.package` (şu an geçici: `com.evdehobi.app`) Play Store'a ilk yüklemeden sonra **değiştirilemez**. Uygulama adı kesinleşince güncelle.
 
+## Çökme raporlama (Sentry)
+
+Yayın sürümünde (APK/AAB) beklenmeyen hatalar ve çökmeler Sentry'ye raporlanır. Geliştirmede ve Expo Go'da **kapalıdır**.
+Kişisel veri gönderilmez (ayrıntı: `src/sentry.ts`, `docs/gizlilik.html`).
+
+Bir kez yapılacaklar:
+
+1. https://sentry.io → ücretsiz hesap → **Create Project** → platform: **React Native** → ad: `diy-hobi`.
+2. **Settings → Projects → diy-hobi → Client Keys (DSN)**: DSN'i kopyala.
+3. **Settings → Projects → diy-hobi → Security & Privacy**: "Prevent Storing of IP Addresses" aç; "Data Scrubber" açık kalsın.
+4. **Settings → Developer Settings → Organization Tokens → Create** (kaynak haritası yükleme için).
+5. EAS ortam değişkenleri (Expo hesabında, proje bağlıyken):
+
+   ```
+   eas env:create --name EXPO_PUBLIC_SENTRY_DSN --value "<DSN>" --visibility plaintext --environment production --environment preview
+   eas env:create --name SENTRY_ORG --value "<org-slug>" --visibility plaintext --environment production --environment preview
+   eas env:create --name SENTRY_PROJECT --value "diy-hobi" --visibility plaintext --environment production --environment preview
+   eas env:create --name SENTRY_AUTH_TOKEN --value "<token>" --visibility secret --environment production --environment preview
+   eas env:create --name EXPO_PUBLIC_FIYAT_URL --value "https://raw.githubusercontent.com/FatihACI/diy-hobi/main/fiyat-toplayici/cikti/fiyatlar.json" --visibility plaintext --environment production --environment preview
+   ```
+
+   > `.env` dosyası EAS derlemesine **gitmez** (`.gitignore`). Fiyat adresi de bu yüzden EAS'a ayrıca girilmeli.
+
+6. `eas.json` içindeki `SENTRY_DISABLE_AUTO_UPLOAD` satırlarını sil (token girilene kadar derleme kırılmasın diye açık).
+7. Deneme: önizleme APK'sı kur, hata ekranını tetikle (ör. geçici bir test butonu) → Sentry → Issues'da görünmeli.
+
 ## VS Code
 
 Projeyi VS Code'da açınca önerilen eklentiler (ESLint, Prettier, React Native Tools) için kurulum bildirimi çıkar. Kayıtta otomatik biçimlendirme ve ESLint düzeltmeleri `.vscode/settings.json` ile açıktır.
