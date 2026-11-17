@@ -1,26 +1,85 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ikon, ProjeKart } from "../components";
 import { kategoriBul } from "../data/kategoriler";
 import { kategoriProjeleri } from "../data/projeler";
-import { Zorluk } from "../data/types";
+import { SURE_SINIFLARI, SureSinifi, sureCoz, sureSinifi } from "../data/sure";
+import { Proje, Zorluk } from "../data/types";
+import { useFiyat } from "../fiyat";
 import { RootParams } from "../nav";
 import { bosluk, kose, renk } from "../theme";
 
 type P = NativeStackScreenProps<RootParams, "Kategori">;
-const FILTRELER: (Zorluk | "Tümü")[] = ["Tümü", "Kolay", "Orta", "Zor"];
+const ZORLUKLAR: (Zorluk | "Tümü")[] = ["Tümü", "Kolay", "Orta", "Zor"];
+const BUTCELER = [0, 250, 500, 1000]; // 0 = tümü; TL üst sınır (sarf malzeme)
+const SIRALAR = ["Önerilen", "Kolaydan zora", "Kısadan uzuna", "Ucuzdan pahalıya"] as const;
+type Sira = (typeof SIRALAR)[number];
+const ZORLUK_SIRA: Record<Zorluk, number> = { Kolay: 0, Orta: 1, Zor: 2 };
+
+function Cipler<T extends string | number>({
+  secenekler,
+  deger,
+  sec,
+  etiket,
+  yazi: yaz = String,
+}: {
+  secenekler: readonly T[];
+  deger: T;
+  sec: (x: T) => void;
+  etiket: string;
+  yazi?: (x: T) => string;
+}) {
+  return (
+    <View>
+      <Text style={s.filtreBaslik}>{etiket}</Text>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.ciplerSatir}>
+        {secenekler.map((x) => (
+          <Pressable
+            key={String(x)}
+            accessibilityRole="button"
+            accessibilityState={{ selected: deger === x }}
+            onPress={() => sec(x)}
+            style={[s.cip, deger === x && s.cipAktif]}
+          >
+            <Text style={[s.cipYazi, deger === x && { color: "#fff" }]}>{yaz(x)}</Text>
+          </Pressable>
+        ))}
+      </ScrollView>
+    </View>
+  );
+}
 
 export default function KategoriDetay({ route, navigation }: P) {
   const k = kategoriBul(route.params.id);
   const ust = useSafeAreaInsets().top;
-  const [f, setF] = useState<(typeof FILTRELER)[number]>("Tümü");
-  const projeler = kategoriProjeleri(k.id).filter((p) => f === "Tümü" || p.zorluk === f);
+  const fy = useFiyat();
+  const [zorluk, setZorluk] = useState<(typeof ZORLUKLAR)[number]>("Tümü");
+  const [sure, setSure] = useState<SureSinifi>("Tümü");
+  const [butce, setButce] = useState(0);
+  const [sira, setSira] = useState<Sira>("Önerilen");
 
-  return (
-    <ScrollView style={{ backgroundColor: renk.arkaPlan }} contentContainerStyle={{ paddingBottom: bosluk.xxl }}>
+  // Bütçe ve "ucuzdan pahalıya" yalnızca fiyatı tam bilinen projelerde anlamlı
+  const tamFiyat = (p: Proje) => {
+    const m = fy.maliyet(p);
+    return m.tumu > 0 && m.fiyatliSayi === m.tumu ? m.toplam : null;
+  };
+
+  const projeler = kategoriProjeleri(k.id)
+    .filter((p) => zorluk === "Tümü" || p.zorluk === zorluk)
+    .filter((p) => sure === "Tümü" || sureSinifi(p.sure) === sure)
+    .filter((p) => !butce || ((t) => t !== null && t <= butce)(tamFiyat(p)))
+    .sort((a, b) => {
+      if (sira === "Kolaydan zora") return ZORLUK_SIRA[a.zorluk] - ZORLUK_SIRA[b.zorluk];
+      if (sira === "Kısadan uzuna") return sureCoz(a.sure)[1] - sureCoz(b.sure)[1];
+      if (sira === "Ucuzdan pahalıya") return (tamFiyat(a) ?? Infinity) - (tamFiyat(b) ?? Infinity);
+      return 0;
+    });
+
+  const ustBolum = (
+    <>
       <LinearGradient
         colors={k.renkler}
         start={{ x: 0, y: 0 }}
@@ -40,28 +99,45 @@ export default function KategoriDetay({ route, navigation }: P) {
         <Text style={s.baslik}>{k.ad}</Text>
         <Text style={s.alt}>{k.aciklama}</Text>
       </LinearGradient>
-
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={{ padding: bosluk.l, gap: bosluk.s }}
-      >
-        {FILTRELER.map((x) => (
-          <Pressable key={x} onPress={() => setF(x)} style={[s.cip, f === x && s.cipAktif]}>
-            <Text style={[s.cipYazi, f === x && { color: "#fff" }]}>{x}</Text>
-          </Pressable>
-        ))}
-      </ScrollView>
-
-      <View style={{ paddingHorizontal: bosluk.l, gap: bosluk.m }}>
-        {projeler.map((p) => (
-          <ProjeKart key={p.id} p={p} onPress={() => navigation.navigate("Proje", { id: p.id })} />
-        ))}
-        {projeler.length === 0 && (
-          <Text style={{ color: renk.yaziIkincil, textAlign: "center", marginTop: 20 }}>Bu zorlukta proje yok.</Text>
-        )}
+      <View style={{ paddingVertical: bosluk.m, gap: bosluk.s }}>
+        <Cipler etiket="Zorluk" secenekler={ZORLUKLAR} deger={zorluk} sec={setZorluk} />
+        <Cipler etiket="Süre" secenekler={SURE_SINIFLARI} deger={sure} sec={setSure} />
+        <Cipler
+          etiket="Bütçe (malzeme)"
+          secenekler={BUTCELER}
+          deger={butce}
+          sec={setButce}
+          yazi={(x) => (x ? `≤ ${x} TL` : "Tümü")}
+        />
+        <Cipler etiket="Sırala" secenekler={SIRALAR} deger={sira} sec={setSira} />
       </View>
-    </ScrollView>
+      <Text style={[s.filtreBaslik, { marginBottom: bosluk.s }]}>{projeler.length} proje</Text>
+    </>
+  );
+
+  return (
+    <FlatList
+      style={{ backgroundColor: renk.arkaPlan }}
+      contentContainerStyle={{ paddingBottom: bosluk.xxl }}
+      data={projeler}
+      keyExtractor={(p) => p.id}
+      ListHeaderComponent={ustBolum}
+      ItemSeparatorComponent={() => <View style={{ height: bosluk.m }} />}
+      initialNumToRender={6}
+      windowSize={7}
+      renderItem={({ item }) => (
+        <View style={{ paddingHorizontal: bosluk.l }}>
+          <ProjeKart p={item} onPress={() => navigation.navigate("Proje", { id: item.id })} />
+        </View>
+      )}
+      ListEmptyComponent={
+        <Text style={s.bos}>
+          {butce
+            ? "Bu bütçede fiyatı tam bilinen proje yok. Fiyatlar eklendikçe burada görünecek."
+            : "Bu filtrelerle proje yok."}
+        </Text>
+      }
+    />
   );
 }
 
@@ -85,8 +161,8 @@ const s = StyleSheet.create({
   baslik: { color: "#fff", fontSize: 28, fontWeight: "800" },
   alt: { color: "rgba(255,255,255,0.9)", fontSize: 15 },
   cip: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 7,
     borderRadius: 999,
     backgroundColor: renk.kart,
     borderWidth: 1,
@@ -94,4 +170,13 @@ const s = StyleSheet.create({
   },
   cipAktif: { backgroundColor: renk.yazi, borderColor: renk.yazi },
   cipYazi: { fontWeight: "600", color: renk.yazi },
+  ciplerSatir: { paddingHorizontal: bosluk.l, gap: bosluk.s },
+  filtreBaslik: {
+    paddingHorizontal: bosluk.l,
+    fontSize: 12,
+    fontWeight: "700",
+    color: renk.yaziIkincil,
+    marginBottom: 4,
+  },
+  bos: { color: renk.yaziIkincil, textAlign: "center", marginTop: 20, paddingHorizontal: bosluk.xl },
 });
