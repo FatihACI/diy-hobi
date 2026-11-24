@@ -1,8 +1,9 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { useState } from "react";
+import type { LayoutChangeEvent } from "react-native";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { KAGIT_RENGI, ProjeCizim } from "../cizimler";
+import { AdimCizim, adimCizimVar, KAGIT_RENGI, ProjeCizim } from "../cizimler";
 import { Ikon, Rozet, tl, ZorlukRozet } from "../components";
 import { linkAc, tarihYaz, useFiyat } from "../fiyat";
 import { kategoriBul } from "../data/kategoriler";
@@ -168,27 +169,30 @@ export default function ProjeDetay({ route, navigation }: P) {
                     onPress={() => st.adimDegistir(p.id, i)}
                     style={[s.adim, ok && { opacity: 0.6 }]}
                   >
-                    <View style={[s.adimNo, { backgroundColor: ok ? renk.basari : k.renkler[0] }]}>
-                      {ok ? <Ikon name="check" size={16} color="#fff" /> : <Text style={s.adimNoYazi}>{i + 1}</Text>}
-                    </View>
-                    <View style={{ flex: 1, gap: 4 }}>
-                      <Text style={[yazi.altBaslik, ok && { textDecorationLine: "line-through" }]}>{a.baslik}</Text>
-                      <Text style={yazi.govde}>{a.aciklama}</Text>
-                      {a.sure && (
-                        <View style={s.adimSure}>
-                          <Ikon name="clock-outline" size={12} color={renk.yaziIkincil} />
-                          <Text style={yazi.kucuk}>{a.sure}</Text>
-                        </View>
-                      )}
-                      {a.kontrol && (
-                        <View style={s.kontrol}>
-                          <Ikon name="check-decagram-outline" size={16} color={renk.basari} />
-                          <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
-                            <Text style={{ fontWeight: "700", color: renk.basari }}>Doğru mu? </Text>
-                            {a.kontrol}
-                          </Text>
-                        </View>
-                      )}
+                    {adimCizimVar(p.id, i) && <AdimSahne projeId={p.id} sira={i} />}
+                    <View style={s.adimSatir}>
+                      <View style={[s.adimNo, { backgroundColor: ok ? renk.basari : k.renkler[0] }]}>
+                        {ok ? <Ikon name="check" size={16} color="#fff" /> : <Text style={s.adimNoYazi}>{i + 1}</Text>}
+                      </View>
+                      <View style={{ flex: 1, gap: 4 }}>
+                        <Text style={[yazi.altBaslik, ok && { textDecorationLine: "line-through" }]}>{a.baslik}</Text>
+                        <Text style={yazi.govde}>{a.aciklama}</Text>
+                        {a.sure && (
+                          <View style={s.adimSure}>
+                            <Ikon name="clock-outline" size={12} color={renk.yaziIkincil} />
+                            <Text style={yazi.kucuk}>{a.sure}</Text>
+                          </View>
+                        )}
+                        {a.kontrol && (
+                          <View style={s.kontrol}>
+                            <Ikon name="check-decagram-outline" size={16} color={renk.basari} />
+                            <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
+                              <Text style={{ fontWeight: "700", color: renk.basari }}>Doğru mu? </Text>
+                              {a.kontrol}
+                            </Text>
+                          </View>
+                        )}
+                      </View>
                     </View>
                   </Pressable>
                 );
@@ -473,7 +477,6 @@ const s = StyleSheet.create({
   ilerlemeBar: { height: 8, borderRadius: 4, backgroundColor: renk.cizgi, overflow: "hidden" },
   ilerlemeDolu: { height: 8, borderRadius: 4 },
   adim: {
-    flexDirection: "row",
     gap: bosluk.m,
     backgroundColor: renk.kart,
     borderRadius: kose.m,
@@ -481,6 +484,8 @@ const s = StyleSheet.create({
     marginBottom: bosluk.s,
     ...golge,
   },
+  adimSatir: { flexDirection: "row", gap: bosluk.m },
+  sahne: { backgroundColor: KAGIT_RENGI, borderRadius: kose.s, overflow: "hidden", alignItems: "center" },
   adimNo: { width: 30, height: 30, borderRadius: 15, alignItems: "center", justifyContent: "center" },
   adimNoYazi: { color: "#fff", fontWeight: "800" },
   kutu: { borderRadius: kose.m, padding: bosluk.l, marginBottom: bosluk.m },
@@ -507,3 +512,18 @@ const s = StyleSheet.create({
   },
   anaBtnYazi: { color: "#fff", fontWeight: "700", fontSize: 16 },
 });
+
+// Adım kartının üstündeki karakalem sahne: kart genişliğine göre ölçeklenir
+function AdimSahne({ projeId, sira }: { projeId: string; sira: number }) {
+  const [en, setEn] = useState(0);
+  return (
+    <View
+      style={s.sahne}
+      onLayout={(e: LayoutChangeEvent) => setEn(Math.round(e.nativeEvent.layout.width))}
+      accessible
+      accessibilityLabel={`Adım ${sira + 1} çizimi`}
+    >
+      {en > 0 && <AdimCizim projeId={projeId} sira={sira} genislik={en} />}
+    </View>
+  );
+}

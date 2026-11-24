@@ -11,6 +11,7 @@ import { PROJE_COCUK_DOGA } from "./cizim/proje-cocuk-doga";
 import { PROJE_EL_SANATLARI } from "./cizim/proje-el-sanatlari";
 import { PROJE_TEKNIK_EV } from "./cizim/proje-teknik-ev";
 import { EK_CIZIM } from "./cizim/ek";
+import { ADIM_CIZIM, ADIM_VIEWBOX } from "./cizim/adim";
 
 export const TUM_KATEGORI_CIZIM = { ...KATEGORI_CIZIM, ...KATEGORI_EK };
 export const TUM_PROJE_CIZIM = {
@@ -24,7 +25,17 @@ export const TUM_PROJE_CIZIM = {
 const KALEM = "#2B2B2B";
 export const KAGIT_RENGI = "#FBF8F1";
 
-function CizimSvg({ veri, anahtar: ad, boyut }: { veri: CizimVeri; anahtar: string; boyut: number }) {
+function CizimSvg({
+  veri,
+  anahtar: ad,
+  boyut,
+  vb = { en: 160, boy: 160 },
+}: {
+  veri: CizimVeri;
+  anahtar: string;
+  boyut: number; // genişlik; yükseklik viewBox oranından
+  vb?: { en: number; boy: number };
+}) {
   // Her çizim örneğine benzersiz kimlik: aynı çizim iki ekranda aynı anda olsa da kırpma karışmasın
   const anahtar = ad + "-" + useId().replace(/[^a-zA-Z0-9]/g, "");
   const tara = (sira: number) =>
@@ -37,7 +48,7 @@ function CizimSvg({ veri, anahtar: ad, boyut }: { veri: CizimVeri; anahtar: stri
       ));
 
   return (
-    <Svg width={boyut} height={boyut} viewBox="0 0 160 160">
+    <Svg width={boyut} height={(boyut * vb.boy) / vb.en} viewBox={`0 0 ${vb.en} ${vb.boy}`}>
       <Defs>
         {veri.taramalar?.map((t) => (
           <ClipPath key={t.id} id={`${anahtar}-${t.id}`}>
@@ -94,4 +105,14 @@ export function KategoriCizim({ id, boyut = 140 }: { id: string; boyut?: number 
 export function ProjeCizim({ id, boyut = 120 }: { id: string; boyut?: number }) {
   const v = TUM_PROJE_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`p-${id}`} boyut={boyut} /> : null;
+}
+
+// Adım sahnesi (geniş 16:10). Çizimi olmayan adım için hiçbir şey döndürmez.
+export function adimCizimVar(projeId: string, sira: number) {
+  return !!ADIM_CIZIM[projeId]?.[sira];
+}
+
+export function AdimCizim({ projeId, sira, genislik }: { projeId: string; sira: number; genislik: number }) {
+  const v = ADIM_CIZIM[projeId]?.[sira];
+  return v ? <CizimSvg veri={v} anahtar={`a-${projeId}-${sira}`} boyut={genislik} vb={ADIM_VIEWBOX} /> : null;
 }
