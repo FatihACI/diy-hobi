@@ -1,4 +1,4 @@
-import { Alert, Pressable, ScrollView, Share, StyleSheet, Text, View } from "react-native";
+import { Alert, Pressable, ScrollView, Share, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, Ikon, tl } from "../components";
 import { useFiyat } from "../fiyat";
@@ -7,7 +7,7 @@ import { KALEMLER } from "../data/katalog-dizin";
 import { PROJELER } from "../data/projeler";
 import { useNav } from "../nav";
 import { useStore } from "../store";
-import { bosluk, golge, kose, renk, yazi } from "../theme";
+import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
 
 export default function Liste() {
   const st = useStore();
@@ -186,7 +186,7 @@ export default function Liste() {
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   ustBtn: {
     width: 40,
     height: 40,
@@ -225,4 +225,4 @@ const s = StyleSheet.create({
   },
   cipYazi: { fontSize: 12, fontWeight: "600", color: renk.yazi },
   ustuCizili: { textDecorationLine: "line-through", color: renk.yaziIkincil },
-});
+}));

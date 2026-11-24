@@ -5,6 +5,12 @@ export type RootParams = {
   Sekmeler: undefined;
   Kategori: { id: string };
   Proje: { id: string };
+  Yapabilir: undefined;
+  Malzemelerim: undefined;
+  Bulucu: undefined;
+  Araclar: undefined;
+  Arac: { id: string };
+  Rozetler: undefined;
 };
 
 export const useNav = () => useNavigation<NativeStackNavigationProp<RootParams>>();

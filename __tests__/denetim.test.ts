@@ -69,7 +69,7 @@ describe("Telefondaki kayıt temizliği", () => {
     expect(sonuc.bitenAdimlar).toEqual({ [p.id]: [0] });
   });
   test("bozuk kayıt çökertmez", () => {
-    expect(temizle({} as never)).toEqual({ favoriler: [], liste: {}, bende: [], bitenAdimlar: {} });
+    expect(temizle({} as never)).toEqual({ favoriler: [], liste: {}, bende: [], bitenAdimlar: {}, tamamlanan: {} });
   });
 });
 

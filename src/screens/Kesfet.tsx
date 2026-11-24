@@ -1,14 +1,14 @@
 import { useMemo, useState } from "react";
-import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, ScrollView, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { Arama, Bolum, Bos, KategoriKart, ProjeKart } from "../components";
+import { Arama, Bolum, Bos, Ikon, KategoriKart, ProjeKart } from "../components";
 import { KATEGORILER } from "../data/kategoriler";
 import { projeAra } from "../data/ara";
 import { kategoriProjeleri, PROJELER } from "../data/projeler";
 import { linkAc } from "../fiyat";
 import { useNav } from "../nav";
 import { GIZLILIK_URL } from "../sabitler";
-import { bosluk, renk, yazi } from "../theme";
+import { bosluk, renk, yazi, stil } from "../theme";
 
 const SAYFA = 30;
 
@@ -66,6 +66,22 @@ export default function Kesfet() {
       ) : (
         <>
           <View style={s.yatayPad}>
+            <Pressable
+              accessibilityRole="button"
+              onPress={() => nav.navigate("Bulucu")}
+              style={({ pressed }) => [s.bulucu, { opacity: pressed ? 0.9 : 1 }]}
+            >
+              <View style={s.bulucuIkon}>
+                <Ikon name="head-question-outline" size={26} color="#fff" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={[yazi.altBaslik, { color: "#fff" }]}>Ne yapsam?</Text>
+                <Text style={{ color: "rgba(255,255,255,0.9)", fontSize: 13 }}>
+                  4 soruyu cevapla, sana uygun projeyi bulalım
+                </Text>
+              </View>
+              <Ikon name="chevron-right" size={24} color="#fff" />
+            </Pressable>
             <Bolum baslik="Kategoriler" />
           </View>
           <FlatList
@@ -127,10 +143,27 @@ export default function Kesfet() {
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   yatayPad: { paddingHorizontal: bosluk.l },
   altBilgi: { alignSelf: "center", marginTop: bosluk.xl, padding: bosluk.s },
   altBilgiYazi: { color: renk.yaziIkincil, fontSize: 13, textDecorationLine: "underline" },
   dahaFazla: { alignItems: "center", paddingVertical: bosluk.m },
+  bulucu: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: bosluk.m,
+    backgroundColor: renk.ana,
+    borderRadius: 16,
+    padding: bosluk.l,
+    marginTop: bosluk.l,
+  },
+  bulucuIkon: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: "rgba(255,255,255,0.2)",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   selam: { ...yazi.kucuk, fontSize: 14, marginBottom: 2 },
-});
+}));

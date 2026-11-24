@@ -1,8 +1,8 @@
 // Hata sınırı: bir ekranda beklenmeyen hata olursa uygulama beyaz ekranda donmasın;
 // kullanıcıya anlaşılır bir mesaj ve "Tekrar dene" gösterilir.
 import { Component, ReactNode } from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
-import { bosluk, kose, renk, yazi } from "./theme";
+import { Pressable, Text, View } from "react-native";
+import { bosluk, kose, renk, yazi, stil } from "./theme";
 
 type Durum = { hata: Error | null };
 
@@ -36,7 +36,7 @@ export class HataSiniri extends Component<{ children: ReactNode }, Durum> {
   }
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   kap: {
     flex: 1,
     alignItems: "center",
@@ -50,4 +50,4 @@ const s = StyleSheet.create({
   btn: { backgroundColor: renk.ana, paddingHorizontal: bosluk.xl, paddingVertical: bosluk.m, borderRadius: kose.m },
   btnYazi: { color: "#fff", fontWeight: "700", fontSize: 16 },
   detay: { fontSize: 11, color: renk.yaziIkincil, textAlign: "center" },
-});
+}));

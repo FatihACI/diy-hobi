@@ -1,16 +1,16 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { Ikon, ProjeKart } from "../components";
+import { Cipler, Ikon, ProjeKart } from "../components";
 import { kategoriBul } from "../data/kategoriler";
 import { kategoriProjeleri } from "../data/projeler";
 import { SURE_SINIFLARI, SureSinifi, sureCoz, sureSinifi } from "../data/sure";
 import { Proje, Zorluk } from "../data/types";
 import { useFiyat } from "../fiyat";
 import { RootParams } from "../nav";
-import { bosluk, kose, renk } from "../theme";
+import { bosluk, kose, renk, stil } from "../theme";
 
 type P = NativeStackScreenProps<RootParams, "Kategori">;
 const ZORLUKLAR: (Zorluk | "Tümü")[] = ["Tümü", "Kolay", "Orta", "Zor"];
@@ -19,39 +19,6 @@ const BUTCE_ESIK = 3; // kategoride bu kadar tam fiyatlı proje yoksa bütçe fi
 const SIRALAR = ["Önerilen", "Kolaydan zora", "Kısadan uzuna", "Ucuzdan pahalıya"] as const;
 type Sira = (typeof SIRALAR)[number];
 const ZORLUK_SIRA: Record<Zorluk, number> = { Kolay: 0, Orta: 1, Zor: 2 };
-
-function Cipler<T extends string | number>({
-  secenekler,
-  deger,
-  sec,
-  etiket,
-  yazi: yaz = String,
-}: {
-  secenekler: readonly T[];
-  deger: T;
-  sec: (x: T) => void;
-  etiket: string;
-  yazi?: (x: T) => string;
-}) {
-  return (
-    <View>
-      <Text style={s.filtreBaslik}>{etiket}</Text>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.ciplerSatir}>
-        {secenekler.map((x) => (
-          <Pressable
-            key={String(x)}
-            accessibilityRole="button"
-            accessibilityState={{ selected: deger === x }}
-            onPress={() => sec(x)}
-            style={[s.cip, deger === x && s.cipAktif]}
-          >
-            <Text style={[s.cipYazi, deger === x && { color: "#fff" }]}>{yaz(x)}</Text>
-          </Pressable>
-        ))}
-      </ScrollView>
-    </View>
-  );
-}
 
 export default function KategoriDetay({ route, navigation }: P) {
   const k = kategoriBul(route.params.id);
@@ -154,7 +121,7 @@ export default function KategoriDetay({ route, navigation }: P) {
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   kapak: {
     paddingHorizontal: bosluk.l,
     paddingBottom: bosluk.xl,
@@ -173,17 +140,6 @@ const s = StyleSheet.create({
   },
   baslik: { color: "#fff", fontSize: 28, fontWeight: "800" },
   alt: { color: "rgba(255,255,255,0.9)", fontSize: 15 },
-  cip: {
-    paddingHorizontal: 14,
-    paddingVertical: 7,
-    borderRadius: 999,
-    backgroundColor: renk.kart,
-    borderWidth: 1,
-    borderColor: renk.cizgi,
-  },
-  cipAktif: { backgroundColor: renk.yazi, borderColor: renk.yazi },
-  cipYazi: { fontWeight: "600", color: renk.yazi },
-  ciplerSatir: { paddingHorizontal: bosluk.l, gap: bosluk.s },
   filtreBaslik: {
     paddingHorizontal: bosluk.l,
     fontSize: 12,
@@ -192,4 +148,4 @@ const s = StyleSheet.create({
     marginBottom: 4,
   },
   bos: { color: renk.yaziIkincil, textAlign: "center", marginTop: 20, paddingHorizontal: bosluk.xl },
-});
+}));

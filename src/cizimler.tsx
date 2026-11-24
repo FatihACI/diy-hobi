@@ -23,6 +23,8 @@ export const TUM_PROJE_CIZIM = {
 
 const KALEM = "#2B2B2B";
 export const KAGIT_RENGI = "#FBF8F1";
+// Kâğıt (krem) zemin üzerindeki simgeler: tema koyu olsa da kâğıt açık kalır
+export const KAGIT_YAZI = "#111827";
 
 function CizimSvg({ veri, anahtar: ad, boyut }: { veri: CizimVeri; anahtar: string; boyut: number }) {
   // Her çizim örneğine benzersiz kimlik: aynı çizim iki ekranda aynı anda olsa da kırpma karışmasın

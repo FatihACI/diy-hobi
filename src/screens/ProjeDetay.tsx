@@ -1,17 +1,19 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { KAGIT_RENGI, ProjeCizim } from "../cizimler";
+import { KAGIT_RENGI, KAGIT_YAZI, ProjeCizim } from "../cizimler";
 import { Ikon, Rozet, tl, ZorlukRozet } from "../components";
 import { linkAc, tarihYaz, useFiyat } from "../fiyat";
+import { kategoriAraclari } from "../data/araclar";
 import { kategoriBul } from "../data/kategoriler";
+import { kazanilanlar, ROZETLER } from "../data/rozet";
 import { projeBul } from "../data/projeler";
 import { IkonAdi, Malzeme } from "../data/types";
 import { RootParams } from "../nav";
 import { ProjeVideo } from "../video";
-import { useStore } from "../store";
-import { bosluk, golge, kose, renk, yazi } from "../theme";
+import { ilerlemeAl, useStore } from "../store";
+import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
 
 type P = NativeStackScreenProps<RootParams, "Proje">;
 type Sekme = "Malzemeler" | "Adımlar" | "İpuçları" | "Kod";
@@ -36,6 +38,24 @@ export default function ProjeDetay({ route, navigation }: P) {
   const eksikler = p.malzemeler.filter((m) => !st.bendeMi(m.kid!));
   const sanaMaliyet = eksikler.reduce((t, m) => t + (fy.enUcuz(m)?.fiyat ?? 0), 0);
   const bendeSayi = p.malzemeler.length - eksikler.length;
+  const araclar = kategoriAraclari(p.kategoriId);
+  const tamam = st.tamamlandiMi(p.id);
+  const hepsiBitti = biten.length === p.adimlar.length;
+  const [yeniRozet, setYeniRozet] = useState<string[]>([]);
+  const tamamla = () => {
+    if (tamam) {
+      st.tamamlaDegistir(p.id);
+      setYeniRozet([]);
+      return;
+    }
+    // Bu tamamlamayla kazanılacak rozetler (kutlama mesajı için)
+    const once = new Set(kazanilanlar(ilerlemeAl(st)));
+    const sonra = kazanilanlar(
+      ilerlemeAl({ ...st, tamamlanan: { ...st.tamamlanan, [p.id]: new Date().toISOString() } }),
+    );
+    setYeniRozet(sonra.filter((id) => !once.has(id)).map((id) => ROZETLER.find((x) => x.id === id)!.ad));
+    st.tamamlaDegistir(p.id);
+  };
 
   return (
     <View style={{ flex: 1, backgroundColor: renk.arkaPlan }}>
@@ -50,7 +70,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               style={s.yuvarlak}
               hitSlop={10}
             >
-              <Ikon name="arrow-left" size={22} color={renk.yazi} />
+              <Ikon name="arrow-left" size={22} color={KAGIT_YAZI} />
             </Pressable>
             <Pressable
               accessibilityLabel={fav ? "Favorilerden çıkar" : "Favorilere ekle"}
@@ -59,7 +79,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               style={s.yuvarlak}
               hitSlop={10}
             >
-              <Ikon name={fav ? "heart" : "heart-outline"} size={22} color={fav ? renk.tehlike : renk.yazi} />
+              <Ikon name={fav ? "heart" : "heart-outline"} size={22} color={fav ? "#DC2626" : KAGIT_YAZI} />
             </Pressable>
           </View>
           <View style={{ alignItems: "center", marginTop: -bosluk.l }}>
@@ -125,6 +145,18 @@ export default function ProjeDetay({ route, navigation }: P) {
                   </Text>
                 </Pressable>
               )}
+              {araclar.map((a) => (
+                <Pressable
+                  key={a.id}
+                  accessibilityRole="button"
+                  onPress={() => navigation.navigate("Arac", { id: a.id })}
+                  style={s.aracKisayol}
+                >
+                  <Ikon name={a.ikon} size={18} color={renk.ana} />
+                  <Text style={{ flex: 1, color: renk.yazi, fontWeight: "600" }}>Hesapla: {a.ad}</Text>
+                  <Ikon name="chevron-right" size={18} color={renk.yaziIkincil} />
+                </Pressable>
+              ))}
               <MalzemeGrup baslik="Malzemeler" liste={p.malzemeler.filter((m) => !m.arac)} />
               <MalzemeGrup baslik="Aletler" liste={p.malzemeler.filter((m) => m.arac)} />
               {bendeSayi > 0 && sanaMaliyet > 0 && (
@@ -156,6 +188,41 @@ export default function ProjeDetay({ route, navigation }: P) {
                 <View style={s.ilerlemeBar}>
                   <View style={[s.ilerlemeDolu, { width: `${ilerleme * 100}%`, backgroundColor: k.renkler[0] }]} />
                 </View>
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={tamam ? "Tamamlandı işaretini geri al" : "Projeyi tamamladım"}
+                  onPress={tamamla}
+                  style={[
+                    s.tamamBtn,
+                    tamam
+                      ? { backgroundColor: renk.basariAcik, borderColor: renk.basari }
+                      : hepsiBitti
+                        ? { backgroundColor: renk.basari, borderColor: renk.basari }
+                        : null,
+                  ]}
+                >
+                  <Ikon
+                    name={tamam ? "trophy" : "flag-checkered"}
+                    size={18}
+                    color={tamam ? renk.basari : hepsiBitti ? "#fff" : renk.yaziIkincil}
+                  />
+                  <Text
+                    style={{ fontWeight: "700", color: tamam ? renk.basari : hepsiBitti ? "#fff" : renk.yaziIkincil }}
+                  >
+                    {tamam
+                      ? `Tamamlandı · ${new Date(st.tamamlanan[p.id]).toLocaleDateString("tr-TR")} (geri al)`
+                      : "Projeyi tamamladım"}
+                  </Text>
+                </Pressable>
+                {tamam && yeniRozet.length > 0 && (
+                  <View style={s.kutlama}>
+                    <Ikon name="party-popper" size={18} color={renk.uyari} />
+                    <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
+                      Yeni rozet: <Text style={{ fontWeight: "700" }}>{yeniRozet.join(", ")}</Text>. Atölyem&apos;de
+                      gör.
+                    </Text>
+                  </View>
+                )}
               </View>
               {p.adimlar.map((a, i) => {
                 const ok = biten.includes(i);
@@ -390,7 +457,7 @@ function Kutu({
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   adimSure: { flexDirection: "row", alignItems: "center", gap: 4, marginTop: 2 },
   kontrol: {
     flexDirection: "row",
@@ -420,7 +487,7 @@ const s = StyleSheet.create({
     borderRadius: 20,
     backgroundColor: "#fff",
     borderWidth: 1,
-    borderColor: "#EDE7DA",
+    borderColor: renk.kagitCizgi,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -442,7 +509,7 @@ const s = StyleSheet.create({
   },
   bilgi: { flex: 1, gap: 6 },
   bilgiDeger: { fontSize: 14, fontWeight: "700", color: renk.yazi },
-  sekmeler: { flexDirection: "row", margin: bosluk.l, backgroundColor: "#E9EBEF", borderRadius: kose.m, padding: 4 },
+  sekmeler: { flexDirection: "row", margin: bosluk.l, backgroundColor: renk.yuzey2, borderRadius: kose.m, padding: 4 },
   sekme: { flex: 1, paddingVertical: 10, borderRadius: kose.s, alignItems: "center" },
   sekmeAktif: { backgroundColor: renk.kart, ...golge },
   sekmeYazi: { fontWeight: "600", color: renk.yaziIkincil, fontSize: 13 },
@@ -460,7 +527,7 @@ const s = StyleSheet.create({
   },
   ayrac: { borderTopWidth: 1, borderColor: renk.cizgi },
   fiyat: { fontWeight: "800", color: renk.basari, fontSize: 15 },
-  magaza: { color: "#2563EB", fontSize: 12 },
+  magaza: { color: renk.bilgi, fontSize: 12 },
   fiyatNot: { flexDirection: "row", gap: 8, alignItems: "flex-start" },
   ilerlemeKart: {
     backgroundColor: renk.kart,
@@ -472,6 +539,35 @@ const s = StyleSheet.create({
   },
   ilerlemeBar: { height: 8, borderRadius: 4, backgroundColor: renk.cizgi, overflow: "hidden" },
   ilerlemeDolu: { height: 8, borderRadius: 4 },
+  tamamBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 6,
+    paddingVertical: 10,
+    borderRadius: kose.s,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+  },
+  kutlama: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+    backgroundColor: renk.uyariAcik,
+    borderRadius: kose.s,
+    padding: bosluk.s,
+  },
+  aracKisayol: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: bosluk.s,
+    backgroundColor: renk.kart,
+    borderRadius: kose.m,
+    padding: bosluk.m,
+    marginBottom: bosluk.l,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+  },
   adim: {
     flexDirection: "row",
     gap: bosluk.m,
@@ -506,4 +602,4 @@ const s = StyleSheet.create({
     gap: 8,
   },
   anaBtnYazi: { color: "#fff", fontWeight: "700", fontSize: 16 },
-});
+}));

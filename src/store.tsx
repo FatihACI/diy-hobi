@@ -10,9 +10,10 @@ type Durum = {
   liste: { [kid: string]: { projeler: string[]; alindi: boolean } };
   bende: string[]; // "bende var" işaretli katalog kalemleri (alet/malzeme zaten evde)
   bitenAdimlar: { [projeId: string]: number[] };
+  tamamlanan: { [projeId: string]: string }; // bitirilen projeler → ISO tarih
 };
 
-const BOS: Durum = { favoriler: [], liste: {}, bende: [], bitenAdimlar: {} };
+const BOS: Durum = { favoriler: [], liste: {}, bende: [], bitenAdimlar: {}, tamamlanan: {} };
 const ANAHTAR = "evde-hobi-durum-v2";
 const ESKI_ANAHTAR = "evde-hobi-durum-v1"; // malzeme kimliğiyle tutulan eski liste
 
@@ -26,6 +27,9 @@ type Api = Durum & {
   bendeMi: (kid: string) => boolean;
   bendeDegistir: (kid: string) => void;
   adimDegistir: (pid: string, i: number) => void;
+  tamamlandiMi: (pid: string) => boolean;
+  tamamlaDegistir: (pid: string) => void;
+  bendeEkle: (kid: string) => void;
 };
 
 const Ctx = createContext<Api | null>(null);
@@ -57,11 +61,15 @@ export function temizle(x: Partial<Durum>): Durum {
   for (const [kid, v] of Object.entries(x.liste ?? {}))
     if (KALEMLER.has(kid) && v)
       liste[kid] = { projeler: (v.projeler ?? []).filter((p) => projeler.has(p)), alindi: !!v.alindi };
+  const tamamlanan: Durum["tamamlanan"] = {};
+  for (const [pid, t] of Object.entries(x.tamamlanan ?? {}))
+    if (projeler.has(pid) && typeof t === "string") tamamlanan[pid] = t;
   return {
     favoriler: (Array.isArray(x.favoriler) ? x.favoriler : []).filter((id) => projeler.has(id)),
     liste,
     bende: (Array.isArray(x.bende) ? x.bende : []).filter((kid) => KALEMLER.has(kid)),
     bitenAdimlar,
+    tamamlanan,
   };
 }
 
@@ -134,6 +142,22 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         const yeni = mevcut.includes(i) ? mevcut.filter((n) => n !== i) : [...mevcut, i];
         return { ...x, bitenAdimlar: { ...x.bitenAdimlar, [pid]: yeni } };
       }),
+    tamamlandiMi: (pid) => !!d.tamamlanan[pid],
+    tamamlaDegistir: (pid) =>
+      setD((x) => {
+        const tamamlanan = { ...x.tamamlanan };
+        if (tamamlanan[pid]) delete tamamlanan[pid];
+        else tamamlanan[pid] = new Date().toISOString();
+        return { ...x, tamamlanan };
+      }),
+    // Malzemelerim ekranından ekleme (listede varsa listeden de düşer)
+    bendeEkle: (kid) =>
+      setD((x) => {
+        if (x.bende.includes(kid) || !KALEMLER.has(kid)) return x;
+        const liste = { ...x.liste };
+        delete liste[kid];
+        return { ...x, bende: [...x.bende, kid], liste };
+      }),
   };
 
   return <Ctx.Provider value={api}>{children}</Ctx.Provider>;
@@ -144,3 +168,10 @@ export const useStore = () => {
   if (!c) throw new Error("StoreProvider eksik");
   return c;
 };
+
+// Rozet hesabı için özet (src/data/rozet.ts)
+export const ilerlemeAl = (d: Pick<Durum, "tamamlanan" | "bitenAdimlar" | "bende">) => ({
+  tamamlanan: Object.keys(d.tamamlanan),
+  bitenAdimSayisi: Object.values(d.bitenAdimlar).reduce((t, l) => t + l.length, 0),
+  bendeSayisi: d.bende.length,
+});

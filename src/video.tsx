@@ -2,12 +2,12 @@
 // Video varsa kapak resmi + "YouTube'da izle"; yoksa YouTube aramasını açan buton.
 // Oynatma YouTube uygulamasında yapılır: Expo Go'da ek paket gerektirmez ve
 // gömülü oynatıcıların Android'deki "video oynatılamıyor" sorunlarından etkilenmez.
-import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import { Image, Pressable, Text, View } from "react-native";
 import { Ikon } from "./components";
 import { linkAc } from "./fiyat";
 import type { Proje } from "./data/types";
 import VIDEOLAR from "./data/videolar.json";
-import { bosluk, golge, kose, renk, yazi } from "./theme";
+import { bosluk, golge, kose, renk, yazi, stil } from "./theme";
 
 export type Video = {
   id: string; // YouTube video kimliği (11 karakter)
@@ -73,7 +73,7 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   kart: {
     backgroundColor: renk.kart,
     borderRadius: kose.l,
@@ -108,4 +108,4 @@ const s = StyleSheet.create({
     fontSize: 12,
     fontWeight: "700",
   },
-});
+}));

@@ -1,12 +1,12 @@
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { KAGIT_RENGI, KategoriCizim } from "../cizimler";
+import { KAGIT_RENGI, KAGIT_YAZI, KategoriCizim } from "../cizimler";
 import { Ikon } from "../components";
 import { GRUPLAR, KATEGORILER } from "../data/kategoriler";
 import { KategoriGrubu } from "../data/types";
 import { kategoriProjeleri } from "../data/projeler";
 import { useNav } from "../nav";
-import { bosluk, golge, kose, renk, yazi } from "../theme";
+import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
 
 export default function Kategoriler() {
   const nav = useNav();
@@ -72,7 +72,7 @@ const GRUP_IKON: Record<KategoriGrubu, "puzzle-outline" | "pine-tree" | "palette
   "Teknik & Ev": "tools",
 };
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   grupBaslik: { flexDirection: "row", alignItems: "center", gap: 8, marginTop: bosluk.l },
   grupYazi: { fontSize: 17, fontWeight: "800", color: renk.yazi, flex: 1 },
   kart: {
@@ -82,15 +82,16 @@ const s = StyleSheet.create({
     overflow: "hidden",
     minHeight: 150,
     borderWidth: 1,
-    borderColor: "#EDE7DA",
+    borderColor: renk.kagitCizgi,
     ...golge,
   },
   serit: { width: 5 },
   metin: { flex: 1, padding: bosluk.l, paddingRight: 0, gap: 4 },
   ikon: { width: 32, height: 32, borderRadius: 10, alignItems: "center", justifyContent: "center", marginBottom: 4 },
-  ad: { fontSize: 19, fontWeight: "800", color: renk.yazi },
-  aciklama: { fontSize: 13, color: renk.yaziIkincil, lineHeight: 18 },
+  // Kart kâğıt renginde kalır (çizimler karakalem); yazılar temadan bağımsız koyu
+  ad: { fontSize: 19, fontWeight: "800", color: KAGIT_YAZI },
+  aciklama: { fontSize: 13, color: "#6B7280", lineHeight: 18 },
   alt: { flexDirection: "row", alignItems: "center", gap: 4, marginTop: "auto", paddingTop: 6 },
   sayi: { fontWeight: "700", fontSize: 13 },
   cizim: { justifyContent: "center", alignItems: "center", paddingRight: 6 },
-});
+}));

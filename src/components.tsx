@@ -1,12 +1,12 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { KAGIT_RENGI, ProjeCizim } from "./cizimler";
+import { Pressable, ScrollView, Text, TextInput, View } from "react-native";
+import { KAGIT_RENGI, KAGIT_YAZI, ProjeCizim } from "./cizimler";
 import { kategoriBul } from "./data/kategoriler";
 import { IkonAdi, Kategori, Proje, Zorluk } from "./data/types";
 import { useFiyat } from "./fiyat";
 import { useStore } from "./store";
-import { bosluk, golge, kose, renk, tl, yazi, zorlukRenk } from "./theme";
+import { bosluk, golge, kose, renk, tl, yazi, zorlukRenk, stil } from "./theme";
 
 export const Ikon = MaterialCommunityIcons;
 
@@ -15,7 +15,7 @@ export function Rozet({
   ikon,
   metin,
   fg = renk.yaziIkincil,
-  bg = "#F3F4F6",
+  bg = renk.yuzey2,
 }: {
   ikon?: IkonAdi;
   metin: string;
@@ -35,14 +35,22 @@ export const ZorlukRozet = ({ z }: { z: Zorluk }) => (
 );
 
 // ── Arama kutusu ──
-export function Arama({ deger, degis }: { deger: string; degis: (s: string) => void }) {
+export function Arama({
+  deger,
+  degis,
+  ipucu = "Proje, malzeme veya kategori ara",
+}: {
+  deger: string;
+  degis: (s: string) => void;
+  ipucu?: string;
+}) {
   return (
     <View style={st.arama}>
       <Ikon name="magnify" size={20} color={renk.yaziIkincil} />
       <TextInput
         value={deger}
         onChangeText={degis}
-        placeholder="Proje, malzeme veya kategori ara"
+        placeholder={ipucu}
         placeholderTextColor={renk.yaziIkincil}
         style={{ flex: 1, fontSize: 15, color: renk.yazi }}
         accessibilityLabel="Ara"
@@ -116,7 +124,7 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
           hitSlop={10}
           style={st.favBtn}
         >
-          <Ikon name={fav ? "heart" : "heart-outline"} size={20} color={fav ? renk.tehlike : renk.yazi} />
+          <Ikon name={fav ? "heart" : "heart-outline"} size={20} color={fav ? "#DC2626" : KAGIT_YAZI} />
         </Pressable>
         <View style={[st.kategoriEtiket, { backgroundColor: k.renkler[0] }]}>
           <Ikon name={k.ikon} size={11} color="#fff" />
@@ -148,6 +156,62 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
   );
 }
 
+// ── Seçim çipleri (filtre, soru cevapları) ──
+export function Cipler<T extends string | number>({
+  secenekler,
+  deger,
+  sec,
+  etiket,
+  yazi: yaz = String,
+}: {
+  secenekler: readonly T[];
+  deger: T;
+  sec: (x: T) => void;
+  etiket: string;
+  yazi?: (x: T) => string;
+}) {
+  return (
+    <View>
+      <Text style={st.cipEtiket}>{etiket}</Text>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={st.ciplerSatir}>
+        {secenekler.map((x) => (
+          <Pressable
+            key={String(x)}
+            accessibilityRole="button"
+            accessibilityState={{ selected: deger === x }}
+            onPress={() => sec(x)}
+            style={[st.cip, deger === x && st.cipAktif]}
+          >
+            <Text style={[st.cipYazi, deger === x && { color: renk.arkaPlan }]}>{yaz(x)}</Text>
+          </Pressable>
+        ))}
+      </ScrollView>
+    </View>
+  );
+}
+
+// ── Alt ekran başlığı (geri düğmeli) ──
+export function UstBaslik({ baslik, alt, geri }: { baslik: string; alt?: string; geri: () => void }) {
+  return (
+    <View style={st.ustBaslik}>
+      <Pressable accessibilityLabel="Geri" accessibilityRole="button" onPress={geri} style={st.geriBtn} hitSlop={10}>
+        <Ikon name="arrow-left" size={22} color={renk.yazi} />
+      </Pressable>
+      <View style={{ flex: 1 }}>
+        <Text style={[yazi.dev, { fontSize: 24 }]}>{baslik}</Text>
+        {alt ? <Text style={yazi.kucuk}>{alt}</Text> : null}
+      </View>
+    </View>
+  );
+}
+
+// ── İlerleme çubuğu ──
+export const Cubuk = ({ oran, renkDolu = renk.ana }: { oran: number; renkDolu?: string }) => (
+  <View style={st.cubuk}>
+    <View style={[st.cubukDolu, { width: `${Math.max(0, Math.min(1, oran)) * 100}%`, backgroundColor: renkDolu }]} />
+  </View>
+);
+
 // ── Bölüm başlığı ──
 export const Bolum = ({ baslik, sag }: { baslik: string; sag?: React.ReactNode }) => (
   <View style={st.bolum}>
@@ -169,7 +233,32 @@ export const Bos = ({ ikon, baslik, metin }: { ikon: IkonAdi; baslik: string; me
 
 export { tl };
 
-const st = StyleSheet.create({
+const st = stil(() => ({
+  ustBaslik: { flexDirection: "row", alignItems: "center", gap: bosluk.m, marginBottom: bosluk.l },
+  geriBtn: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: renk.kart,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  cubuk: { height: 8, borderRadius: 4, backgroundColor: renk.cizgi, overflow: "hidden" },
+  cubukDolu: { height: 8, borderRadius: 4 },
+  cip: {
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 999,
+    backgroundColor: renk.kart,
+    borderWidth: 1,
+    borderColor: renk.cizgi,
+  },
+  cipAktif: { backgroundColor: renk.yazi, borderColor: renk.yazi },
+  cipYazi: { fontWeight: "600", color: renk.yazi },
+  ciplerSatir: { paddingHorizontal: bosluk.l, gap: bosluk.s },
+  cipEtiket: { paddingHorizontal: bosluk.l, fontSize: 12, fontWeight: "700", color: renk.yaziIkincil, marginBottom: 4 },
   rozet: {
     alignSelf: "flex-start",
     flexDirection: "row",
@@ -212,7 +301,7 @@ const st = StyleSheet.create({
     backgroundColor: KAGIT_RENGI,
     borderTopWidth: 4,
     borderBottomWidth: 1,
-    borderBottomColor: "#EDE7DA",
+    borderBottomColor: renk.kagitCizgi,
   },
   favBtn: {
     position: "absolute",
@@ -223,7 +312,7 @@ const st = StyleSheet.create({
     borderRadius: 17,
     backgroundColor: "#fff",
     borderWidth: 1,
-    borderColor: "#EDE7DA",
+    borderColor: renk.kagitCizgi,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -256,4 +345,4 @@ const st = StyleSheet.create({
     justifyContent: "center",
     marginBottom: bosluk.s,
   },
-});
+}));

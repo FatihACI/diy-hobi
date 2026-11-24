@@ -2,9 +2,9 @@
 // Kullanıcı "Okudum" deyince telefonda saklanır; uygulama sürümü ilerleyip metin değişirse ANAHTAR artırılır.
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
-import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Modal, Pressable, ScrollView, Text, View } from "react-native";
 import { Ikon } from "./components";
-import { bosluk, kose, renk, yazi } from "./theme";
+import { bosluk, kose, renk, yazi, stil } from "./theme";
 
 const ANAHTAR = "evde-hobi-uyari-v1";
 
@@ -55,7 +55,7 @@ export function IlkAcilisUyarisi() {
   );
 }
 
-const s = StyleSheet.create({
+const s = stil(() => ({
   perde: { flex: 1, backgroundColor: "rgba(0,0,0,0.45)", justifyContent: "center", padding: bosluk.l },
   kart: { backgroundColor: renk.kart, borderRadius: kose.l, padding: bosluk.l, gap: bosluk.l },
   baslikSatir: { flexDirection: "row", alignItems: "center", gap: bosluk.s },
@@ -63,4 +63,4 @@ const s = StyleSheet.create({
   nokta: { color: renk.ana, fontWeight: "800", fontSize: 16 },
   btn: { backgroundColor: renk.ana, paddingVertical: bosluk.m, borderRadius: kose.m, alignItems: "center" },
   btnYazi: { color: "#fff", fontWeight: "700", fontSize: 16 },
-});
+}));
