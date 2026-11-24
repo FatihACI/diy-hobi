@@ -1,7 +1,7 @@
 // Karakalem tarzı çizimleri ekrana basan bileşen.
 // Her çizgi iki kez çizilir: koyu ana çizgi + hafif kaymış silik çizgi → kurşun kalem hissi.
 // Gölgeler ClipPath içinde çapraz tarama ile yapılır.
-import { useId } from "react";
+import { memo, useId } from "react";
 import Svg, { Circle, ClipPath, Defs, G, Path } from "react-native-svg";
 import { Cizim as CizimVeri, taramaYollari } from "./cizim/arac";
 import { KATEGORI_CIZIM } from "./cizim/kategori";
@@ -88,12 +88,12 @@ function CizimSvg({ veri, anahtar: ad, boyut }: { veri: CizimVeri; anahtar: stri
   );
 }
 
-export function KategoriCizim({ id, boyut = 140 }: { id: string; boyut?: number }) {
+export const KategoriCizim = memo(function KategoriCizim({ id, boyut = 140 }: { id: string; boyut?: number }) {
   const v = TUM_KATEGORI_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`k-${id}`} boyut={boyut} /> : null;
-}
+});
 
-export function ProjeCizim({ id, boyut = 120 }: { id: string; boyut?: number }) {
+export const ProjeCizim = memo(function ProjeCizim({ id, boyut = 120 }: { id: string; boyut?: number }) {
   const v = TUM_PROJE_CIZIM[id];
   return v ? <CizimSvg veri={v} anahtar={`p-${id}`} boyut={boyut} /> : null;
-}
+});

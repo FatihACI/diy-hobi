@@ -1,4 +1,4 @@
-import { Alert, Pressable, ScrollView, Share, Text, View } from "react-native";
+import { Alert, Pressable, SectionList, Share, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, Ikon, tl } from "../components";
 import { useFiyat } from "../fiyat";
@@ -52,11 +52,9 @@ export default function Liste() {
     Share.share({ message: satirlar.join("\n") }).catch(() => {});
   };
 
-  return (
-    <ScrollView
-      style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
-    >
+  // Üst bölüm: başlık + butonlar, boşsa uyarı, doluysa özet ve proje çipleri
+  const ustBolum = (
+    <>
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
         <Text style={yazi.dev}>Alışveriş Listesi</Text>
         {kalemler.length > 0 && (
@@ -123,66 +121,82 @@ export default function Liste() {
               );
             })}
           </View>
+        </>
+      )}
+    </>
+  );
 
-          {bolumler.map((b) => (
-            <View key={b.baslik} style={{ marginTop: bosluk.l }}>
-              <Text style={[yazi.altBaslik, { marginBottom: bosluk.s }]}>
-                {b.baslik} ({b.liste.length})
+  // Malzemeler / Aletler bölümleri SectionList ile: yalnızca ekranda görünen satırlar çizilir
+  const bolumVeri = bolumler.map((b) => ({ baslik: b.baslik, data: b.liste }));
+
+  return (
+    <SectionList
+      style={{ backgroundColor: renk.arkaPlan }}
+      contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
+      sections={bolumVeri}
+      keyExtractor={(x) => x.kalem.kid}
+      stickySectionHeadersEnabled={false}
+      initialNumToRender={20}
+      ListHeaderComponent={ustBolum}
+      renderSectionHeader={({ section }) => (
+        <Text style={[yazi.altBaslik, { marginTop: bosluk.l, marginBottom: bosluk.s }]}>
+          {section.baslik} ({section.data.length})
+        </Text>
+      )}
+      renderItem={({ item: x, index, section }) => {
+        const f = enUcuz(x.kalem.ornek);
+        const ilk = index === 0;
+        const son = index === section.data.length - 1;
+        return (
+          <View style={[s.satir, s.satirKart, ilk && s.ilkSatir, son && s.sonSatir, !ilk && s.ayrac]}>
+            <Pressable
+              accessibilityRole="checkbox"
+              accessibilityState={{ checked: x.alindi }}
+              accessibilityLabel={`${x.kalem.ad} alındı`}
+              onPress={() => st.alindiDegistir(x.kalem.kid)}
+              hitSlop={8}
+            >
+              <Ikon
+                name={x.alindi ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
+                size={24}
+                color={x.alindi ? renk.basari : renk.yaziIkincil}
+              />
+            </Pressable>
+            <View style={{ flex: 1 }}>
+              <Text style={[yazi.govde, x.alindi && s.ustuCizili]}>{x.kalem.ad}</Text>
+              <Text style={yazi.kucuk}>
+                {miktar(x)}
+                {f ? ` · ${f.magaza}` : ""}
               </Text>
-              <View style={s.kart}>
-                {b.liste.map((x, i) => {
-                  const f = enUcuz(x.kalem.ornek);
-                  return (
-                    <View key={x.kalem.kid} style={[s.satir, i > 0 && s.ayrac]}>
-                      <Pressable
-                        accessibilityRole="checkbox"
-                        accessibilityState={{ checked: x.alindi }}
-                        accessibilityLabel={`${x.kalem.ad} alındı`}
-                        onPress={() => st.alindiDegistir(x.kalem.kid)}
-                        hitSlop={8}
-                      >
-                        <Ikon
-                          name={x.alindi ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
-                          size={24}
-                          color={x.alindi ? renk.basari : renk.yaziIkincil}
-                        />
-                      </Pressable>
-                      <View style={{ flex: 1 }}>
-                        <Text style={[yazi.govde, x.alindi && s.ustuCizili]}>{x.kalem.ad}</Text>
-                        <Text style={yazi.kucuk}>
-                          {miktar(x)}
-                          {f ? ` · ${f.magaza}` : ""}
-                        </Text>
-                      </View>
-                      <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
-                      <Pressable
-                        accessibilityRole="button"
-                        accessibilityLabel={`${x.kalem.ad}: bende var, listeden çıkar`}
-                        onPress={() => st.bendeDegistir(x.kalem.kid)}
-                        hitSlop={8}
-                      >
-                        <Ikon name="home-plus-outline" size={20} color={renk.yaziIkincil} />
-                      </Pressable>
-                      <Pressable
-                        accessibilityRole="button"
-                        accessibilityLabel={`${x.kalem.ad}: listeden çıkar`}
-                        onPress={() => st.listedenCikar(x.kalem.kid)}
-                        hitSlop={8}
-                      >
-                        <Ikon name="close" size={18} color={renk.yaziIkincil} />
-                      </Pressable>
-                    </View>
-                  );
-                })}
-              </View>
             </View>
-          ))}
+            <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={`${x.kalem.ad}: bende var, listeden çıkar`}
+              onPress={() => st.bendeDegistir(x.kalem.kid)}
+              hitSlop={8}
+            >
+              <Ikon name="home-plus-outline" size={20} color={renk.yaziIkincil} />
+            </Pressable>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={`${x.kalem.ad}: listeden çıkar`}
+              onPress={() => st.listedenCikar(x.kalem.kid)}
+              hitSlop={8}
+            >
+              <Ikon name="close" size={18} color={renk.yaziIkincil} />
+            </Pressable>
+          </View>
+        );
+      }}
+      ListFooterComponent={
+        kalemler.length > 0 ? (
           <Text style={[yazi.kucuk, { marginTop: bosluk.l }]}>
             Evde olan bir şeyi ⌂ ile işaretle: listeden düşer ve sonraki projelerde de listeye eklenmez.
           </Text>
-        </>
-      )}
-    </ScrollView>
+        ) : undefined
+      }
+    />
   );
 }
 
@@ -209,7 +223,10 @@ const s = stil(() => ({
   ozetDeger: { fontSize: 22, fontWeight: "800", color: renk.yazi, marginTop: 2 },
   grupBaslik: { flexDirection: "row", alignItems: "center", gap: bosluk.s, marginBottom: bosluk.s },
   grupIkon: { width: 28, height: 28, borderRadius: 8, alignItems: "center", justifyContent: "center" },
-  kart: { backgroundColor: renk.kart, borderRadius: kose.m, ...golge },
+  // Satırlar ayrı çizildiği için kart görünümü satır bazında: ilk satır üst köşe, son satır alt köşe yuvarlak
+  satirKart: { backgroundColor: renk.kart },
+  ilkSatir: { borderTopLeftRadius: kose.m, borderTopRightRadius: kose.m },
+  sonSatir: { borderBottomLeftRadius: kose.m, borderBottomRightRadius: kose.m },
   satir: { flexDirection: "row", alignItems: "center", gap: bosluk.m, padding: bosluk.m },
   ayrac: { borderTopWidth: 1, borderColor: renk.cizgi },
   cipler: { flexDirection: "row", flexWrap: "wrap", gap: bosluk.s, marginTop: bosluk.l },

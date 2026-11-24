@@ -44,6 +44,8 @@ function Sekmeler() {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerShown: false,
+        // Görünmeyen sekmeler dondurulur: listede/favoride değişiklik olunca arkadaki sekmeler boşuna çizilmez
+        freezeOnBlur: true,
         tabBarActiveTintColor: renk.ana,
         tabBarInactiveTintColor: renk.yaziIkincil,
         tabBarStyle: { height: 64, paddingTop: 6, borderTopColor: renk.cizgi, backgroundColor: renk.kart },
@@ -87,7 +89,8 @@ function Gezinme({ durumRef }: { durumRef: { current?: NavigationState } }) {
   return (
     <NavigationContainer theme={tema} initialState={ilkDurum} onStateChange={(s) => (durumRef.current = s)}>
       <StatusBar style={koyu ? "light" : "dark"} />
-      <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
+      {/* freezeOnBlur: üstte açık ekran varken alttaki ekranlar yeniden çizilmez (ör. adım işaretlerken) */}
+      <Stack.Navigator screenOptions={{ headerShown: false, animation: "slide_from_right", freezeOnBlur: true }}>
         <Stack.Screen name="Sekmeler" component={Sekmeler} />
         <Stack.Screen name="Kategori" component={KategoriDetay} />
         <Stack.Screen name="Proje" component={ProjeDetay} />
