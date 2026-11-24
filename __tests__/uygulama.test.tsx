@@ -13,7 +13,7 @@ const geri = () => fireEvent.press(screen.getAllByLabelText("Geri").at(-1)!);
 
 test("uygulama açılır ve ekranlar gezilir", async () => {
   await render(<App />);
-  expect(await screen.findByText("Evde Hobi")).toBeTruthy();
+  expect(await screen.findByText("Protyp")).toBeTruthy();
 
   await fireEvent.press(screen.getAllByText("Kategoriler").at(-1)!);
   expect(await screen.findByText("Bir alan seç, projeleri keşfet.")).toBeTruthy();
@@ -40,7 +40,7 @@ test("uygulama açılır ve ekranlar gezilir", async () => {
 
 test("tüm projeler hatasız açılır", async () => {
   await render(<App />);
-  await screen.findByText("Evde Hobi");
+  await screen.findByText("Protyp");
   for (const p of PROJELER) {
     await fireEvent.changeText(screen.getByPlaceholderText("Proje, malzeme veya kategori ara"), p.ad);
     await screen.findByText(/\d+ sonuç/);
@@ -61,7 +61,7 @@ test("alışveriş listesi aynı malzemeyi birleştirir; 'bende var' listeden d�
   const b = ortak.find((y) => y.m.kid === a.m.kid && y.p.id !== a.p.id)!;
 
   await render(<App />);
-  await screen.findByText("Evde Hobi");
+  await screen.findByText("Protyp");
   for (const p of [a.p, b.p]) {
     await fireEvent.changeText(screen.getByPlaceholderText("Proje, malzeme veya kategori ara"), p.ad);
     await fireEvent.press((await screen.findAllByText(p.ad))[0]);

@@ -36,7 +36,7 @@ export default function Liste() {
 
   // Listeyi düz metne çevirip telefonun paylaşım menüsünü aç (WhatsApp, SMS, not...)
   const paylas = () => {
-    const satirlar = ["🛒 Evde Hobi – Alışveriş Listesi", `Projeler: ${projeIdler.map(projeAd).join(", ")}`, ""];
+    const satirlar = ["🛒 Protyp – Alışveriş Listesi", `Projeler: ${projeIdler.map(projeAd).join(", ")}`, ""];
     for (const b of bolumler) {
       satirlar.push(`▸ ${b.baslik}`);
       for (const x of b.liste) {

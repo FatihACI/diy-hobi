@@ -3,7 +3,7 @@
 //
 // Gerekenler (Amazon Gelir Ortaklığı: gelirortakligi.amazon.com.tr):
 //   AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET  → Associates Central > Tools > Creators API > Create Application
-//   AMAZON_PARTNER_TAG                      → örn. evdehobi-21
+//   AMAZON_PARTNER_TAG                      → örn. protyp-21
 // İsteğe bağlı (dokümana göre değişirse buradan düzelt):
 //   AMAZON_TOKEN_URL   (varsayılan: AB bölgesi v3.2 → https://api.amazon.co.uk/auth/o2/token)
 //   AMAZON_TOKEN_SCOPE (varsayılan: creatorsapi::default)

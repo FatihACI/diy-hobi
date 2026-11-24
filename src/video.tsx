@@ -65,7 +65,7 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
       </Text>
       <View style={[s.satir, { marginTop: 2 }]}>
         <Text style={[yazi.kucuk, { flex: 1 }]} numberOfLines={1}>
-          {v.kendi ? "Evde Hobi kanalı" : v.kanal}
+          {v.kendi ? "Protyp kanalı" : v.kanal}
         </Text>
         <Text style={[yazi.kucuk, { color: "#FF0000", fontWeight: "700" }]}>{"YouTube'da izle"}</Text>
       </View>

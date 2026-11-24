@@ -1,24 +1,24 @@
 {
   "expo": {
-    "name": "Evde Hobi",
-    "slug": "diy-hobi",
+    "name": "Protyp",
+    "slug": "protyp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.evdehobi.app"
+      "bundleIdentifier": "com.protyp.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#FBF8F1",
+        "backgroundColor": "#0F2A5C",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.evdehobi.app",
+      "package": "com.protyp.app",
       "versionCode": 1,
       "blockedPermissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
