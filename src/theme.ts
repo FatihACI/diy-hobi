@@ -10,8 +10,10 @@ const ACIK = {
   yazi: "#111827",
   yaziIkincil: "#6B7280",
   cizgi: "#E5E7EB",
-  ana: "#E8590C", // marka turuncusu
-  anaAcik: "#FFF1E8",
+  ana: "#6D28D9", // marka moru (logo)
+  anaAcik: "#F1EBFE",
+  vurgu: "#047857", // logo zümrüdü: yalnız küçük vurgular (Seçkin rozeti)
+  vurguAcik: "#D1FAE5",
   basari: "#16A34A",
   basariAcik: "#DCFCE7",
   uyari: "#D97706",
@@ -29,8 +31,10 @@ const KOYU: typeof ACIK = {
   yazi: "#F3F4F6",
   yaziIkincil: "#9CA3AF",
   cizgi: "#2E333C",
-  ana: "#F76707",
-  anaAcik: "#3A2214",
+  ana: "#8B5CF6", // beyaz yazı okunur kalsın diye orta ton
+  anaAcik: "#2A2145",
+  vurgu: "#34D399",
+  vurguAcik: "#0E3326",
   basari: "#22C55E",
   basariAcik: "#10301F",
   uyari: "#FBBF24",

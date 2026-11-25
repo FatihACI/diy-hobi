@@ -110,7 +110,7 @@ export default function ProjeDetay({ route, navigation }: P) {
           </View>
           <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
             {p.altin && (
-              <Rozet ikon="star" metin="Seçkin proje: ayrıntılı anlatım" fg={renk.uyari} bg={renk.uyariAcik} />
+              <Rozet ikon="star" metin="Seçkin proje: ayrıntılı anlatım" fg={renk.vurgu} bg={renk.vurguAcik} />
             )}
             {p.yas && <Rozet ikon="account-child" metin={p.yas} fg={renk.ana} bg={renk.anaAcik} />}
           </View>

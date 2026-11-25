@@ -139,16 +139,11 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
           {p.ozet}
         </Text>
         <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
-          {p.altin && <Rozet ikon="star" metin="Seçkin" fg={renk.uyari} bg={renk.uyariAcik} />}
+          {p.altin && <Rozet ikon="star" metin="Seçkin" fg={renk.vurgu} bg={renk.vurguAcik} />}
           <ZorlukRozet z={p.zorluk} />
           <Rozet ikon="clock-outline" metin={p.sure} />
           {mal.fiyatliSayi > 0 && (
-            <Rozet
-              ikon="cash"
-              metin={(mal.fiyatliSayi < mal.tumu ? "≥ " : "") + tl(mal.toplam)}
-              fg={renk.basari}
-              bg={renk.basariAcik}
-            />
+            <Rozet ikon="cash" metin={(mal.fiyatliSayi < mal.tumu ? "≥ " : "") + tl(mal.toplam)} />
           )}
         </View>
       </View>
