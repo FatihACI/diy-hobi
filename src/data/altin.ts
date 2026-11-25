@@ -1694,6 +1694,407 @@ export const ALTIN_ICERIK: Record<string, Icerik> = {
       "Kalemi kullanmadığın her an standına koy; sıcak ucu masaya bırakma ve fişten çekmeden yanından ayrılma.",
     ],
   },
+
+  // ───────────── Grup 4: Teknik & Ev ─────────────
+  "trafik-lambasi": {
+    adimlar: [
+      a(
+        "Arduino IDE'yi kur ve kartı dene",
+        "arduino.cc adresinden Arduino IDE'yi indirip kur. Arduino'yu USB ile bağla. Araçlar menüsünden Kart: Arduino Uno ve doğru Port'u seç. Dosya → Örnekler → Basics → Blink örneğini yükle; kart üzerindeki küçük LED yanıp sönmeli. Böylece sorun çıkarsa kartta mı devrede mi olduğunu bilirsin.",
+        "20 dk",
+        "Blink yüklendi ve kart üzerindeki 'L' LED'i saniyede bir yanıp sönüyor.",
+      ),
+      a(
+        "Breadboard'ı tanı ve USB'yi çıkar",
+        "Devreyi kurarken USB kablosunu çıkar. Breadboard'da kenardaki uzun sıralar (+ ve −) boydan boya bağlıdır; ortadaki 5'li dikey sütunlar kendi içinde bağlıdır, ortadaki oluk iki yarıyı ayırır.",
+        "5 dk",
+        "USB çıkarılmış; hangi deliklerin birbirine bağlı olduğunu biliyorsun.",
+      ),
+      a(
+        "LED'leri yerleştir",
+        "Üç LED'i breadboard'un ortasına, aralarında birer sütun boşluk bırakarak tak: kırmızı, sarı, yeşil. Her LED'in uzun bacağı (+, anot) bir sütuna, kısa bacağı (−, katot) yan sütuna girsin. Kısa bacaklar aynı tarafta kalsın.",
+        "5 dk",
+        "Üç LED'in de kısa bacağı aynı tarafta ve her bacak ayrı sütunda.",
+      ),
+      a(
+        "Dirençleri ve kabloları bağla",
+        "Her LED'in uzun bacağının sütunundan bir 220 Ω direnç çıkar ve direncin diğer ucunu boş bir sütuna tak. Bu sütunlardan Arduino'ya jumper kablo götür: kırmızı → pin 8, sarı → pin 9, yeşil → pin 10.",
+        "10 dk",
+        "Her LED'in önünde bir direnç var; kablolar 8, 9 ve 10 numaralı pinlere gidiyor.",
+      ),
+      a(
+        "GND hattını bağla",
+        "Her LED'in kısa bacağının sütununu kısa bir kabloyla breadboard'un − sırasına bağla. − sırasından bir kabloyu Arduino'nun GND pinine götür. Kabloları gözle bir kez daha takip et.",
+        "5 dk",
+        "Üç kısa bacak da − sırasına bağlı ve − sırası Arduino GND'ye gidiyor.",
+      ),
+      a(
+        "Kodu yükle",
+        "USB'yi tak. Kod sekmesindeki kodu IDE'ye yapıştır, ✓ (Doğrula) ile kontrol et, sonra → (Yükle) tuşuna bas. Alt pencerede 'Yükleme tamamlandı' yazınca LED'ler sırayla yanmaya başlar.",
+        "10 dk",
+        "Kırmızı 4 sn, sarı 1 sn, yeşil 4 sn, sarı 1 sn sırasıyla yanıyor ve döngü tekrar ediyor.",
+      ),
+      a(
+        "Geliştir",
+        "Koddaki milisaniye değerlerini değiştirip süreleri ayarla ve yeniden yükle. Yaya geçidi yapmak için pin 2 ile GND arasına bir buton bağla, setup'a pinMode(2, INPUT_PULLUP) ekle ve loop'ta digitalRead(2) LOW olduğunda kırmızıyı uzat.",
+        "15 dk",
+        "Yaptığın değişiklik yüklendikten sonra LED sürelerinde görünüyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Bir LED hiç yanmıyor: LED ters takılı. Çıkarıp çevir; uzun bacak dirence gitmeli.",
+      "Hiçbir LED yanmıyor: GND bağlı değil ya da kablolar aynı sütunda değil. − sırası ile Arduino GND bağlantısını kontrol et.",
+      "Yükleme hatası (port bulunamadı): Araçlar → Port seçilmemiş ya da kablo sadece şarj kablosu. Port'u seç, veri kablosu kullan.",
+      "LED çok sönük: Direnç değeri yüksek. 220 Ω kullan (kırmızı-kırmızı-kahverengi bantlı).",
+    ],
+  },
+
+  "park-sensoru": {
+    adimlar: [
+      a(
+        "Sensörü yerleştir",
+        "USB'yi çıkar. HC-SR04'ü breadboard'a, dört bacağı ayrı sütunlara gelecek ve 'gözleri' dışarı bakacak şekilde tak. Bacakların üstünde yazan isimleri not et: VCC, Trig, Echo, GND.",
+        "5 dk",
+        "Sensör sağlam oturmuş ve dört bacağın her biri ayrı sütunda.",
+      ),
+      a(
+        "Sensörü bağla",
+        "Jumper kablolarla bağla: VCC → 5V, GND → GND, Trig → pin 9, Echo → pin 10. VCC ve GND'yi karıştırma; ters bağlanan sensör ısınır ve bozulabilir.",
+        "10 dk",
+        "Dört kablo doğru pinlerde; VCC 5V'a, GND GND'ye gidiyor.",
+      ),
+      a(
+        "Buzzer'ı bağla",
+        "Pasif buzzer'ın + işaretli (genelde uzun) bacağını pin 8'e, diğerini GND'ye bağla. Kod tone() komutuyla farklı sesler çıkardığı için pasif buzzer gerekir; aktif buzzer tek ton öter.",
+        "5 dk",
+        "Buzzer'ın + bacağı pin 8'de, diğeri GND'de.",
+      ),
+      a(
+        "Kodu yükle",
+        "USB'yi tak. Kod sekmesindeki kodu IDE'ye yapıştır, Araçlar'dan kartı ve portu seç, Yükle'ye bas. 'Yükleme tamamlandı' yazısını bekle.",
+        "10 dk",
+        "Yükleme hatasız tamamlandı; sensörün önü boşken buzzer sessiz.",
+      ),
+      a(
+        "Test et",
+        "Elini ya da bir kitabı sensörün 1 m önünden yavaşça yaklaştır. 1 m'nin altında bip başlamalı ve yaklaştıkça hızlanmalı. Kumaş gibi yumuşak yüzeyler sesi emer; sert bir yüzeyle dene.",
+        "10 dk",
+        "Bip 1 m'de başlıyor, 10 cm'de neredeyse sürekli hale geliyor.",
+      ),
+      a(
+        "Kutula ve yerleştir",
+        "Devreyi küçük bir kutuya koy, sensörün iki gözü için kutuya iki delik aç. Garaj duvarına, aracın tamponuyla aynı yükseklikte ve önü açık olacak şekilde tak. Bilgisayar yerine 5 V'luk bir USB adaptörüyle besle.",
+        "30 dk",
+        "Sensörün gözleri açıkta, kablolar gergin değil ve adaptörle çalışıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Hiç bip yok: Echo ve Trig yer değiştirmiş. Trig → 9, Echo → 10 olmalı.",
+      "Sürekli ve rastgele bipliyor: Sensörün önünde engel ya da gevşek kablo var. Önünü boşalt, kabloları kontrol et.",
+      "Buzzer tek ton ve sesi değişmiyor: Aktif buzzer kullanılmış. Pasif buzzer kullan.",
+      "Uzak mesafeyi ölçmüyor: Hedef yumuşak ya da eğik. Sert ve sensöre dik bir yüzey kullan.",
+    ],
+  },
+
+  "ilk-baski": {
+    adimlar: [
+      a(
+        "Kur ve kontrol et",
+        "Yazıcıyı talimatına göre kur. X ve Y kayışlarına parmakla bastır: gergin olmalı, gitar teli gibi hafif tınlamalı. Çerçeve vidalarını ve tabla tekerleklerini kontrol et; tablayı elle oynatınca boşluk olmamalı.",
+        "20 dk",
+        "Kayışlar gergin, tabla elle sarsılınca boşluk yapmıyor ve tüm vidalar sıkı.",
+      ),
+      a(
+        "Filamenti yükle",
+        "Nozülü PLA için 200–210 °C'ye ısıt. Filamentin ucunu yan keskiyle 45° açıyla kes; ezik uç ekstrüdere girmez. Ekstrüderin kolunu bastırıp filamenti nozülden ince ve düzgün bir iplik akana kadar it.",
+        "10 dk",
+        "Nozülden kesintisiz, düzgün kalınlıkta filament akıyor.",
+      ),
+      a(
+        "Tablayı temizle",
+        "Tabla soğukken izopropil alkolü mikrofiber beze sür ve tablayı sil. Bundan sonra tablaya parmakla dokunma; parmak yağı ilk katmanın yapışmasını bozar.",
+        "5 dk",
+        "Tabla lekesiz ve parmak izi yok.",
+      ),
+      a(
+        "Seviyele",
+        "Tablayı 60 °C'ye ısıt; metal ısınınca genleşir, seviyeyi sıcakken ayarlamak gerekir. Manuel tablada nozülü sırayla dört köşeye götür, altına A4 kağıt koy ve tabla vidalarını kağıt hafif sürtünmeyle kayacak şekilde ayarla; 2 tur tekrarla. Otomatik seviyelemeli yazıcıda menüden otomatik seviyelemeyi çalıştır, sonra Z-ofseti kağıt testiyle ince ayarla.",
+        "20 dk",
+        "Dört köşede ve ortada kağıt aynı hafif sürtünmeyle kayıyor.",
+      ),
+      a(
+        "Dilimle",
+        "Ücretsiz bir dilimleyici (Cura, PrusaSlicer, OrcaSlicer) kur ve yazıcının hazır profilini seç. '20 mm kalibrasyon küpü' modelini indir, 0,2 mm katman, %15 doluluk ve PLA ayarlarıyla dilimle. Dosyayı kart ya da USB ile yazıcıya aktar.",
+        "15 dk",
+        "Dilimleyici tahmini baskı süresini gösteriyor ve G-code dosyası yazıcıda.",
+      ),
+      a(
+        "İlk katmanı izle",
+        "Baskıyı başlat ve ilk katman bitene kadar başında dur. Çizgiler hafif ezilmiş ve birbirine yapışık olmalı. Çizgiler arasında boşluk varsa nozül yüksek, şeffaf ve dalgalıysa alçaktır; yazıcı izin veriyorsa Z-ofseti baskı sırasında küçük adımlarla ayarla.",
+        "10 dk",
+        "İlk katman düzgün, pürüzsüz ve tablaya her yerden yapışmış.",
+      ),
+      a(
+        "Bitir ve ölç",
+        "Baskı bitince tablanın soğumasını bekle; PLA soğuyunca kendiliğinden gevşer. Spatulayı kendinden uzağa doğru iterek küpü çıkar. Kumpasla X, Y ve Z kenarlarını ölç.",
+        "15 dk",
+        "Üç ölçü de 19,9–20,1 mm arasında; köşeler keskin ve katmanlar düzgün.",
+      ),
+    ],
+    sikHatalar: [
+      "İlk katman tablaya yapışmıyor: Tabla kirli ya da nozül yüksek. Alkolle sil, seviyelemeyi tekrar yap.",
+      "İlk katman şeffaf ve dalgalı: Nozül tablaya çok yakın. Z-ofseti biraz yükselt.",
+      "Baskı yarıda köşelerden kalktı (warping): Tabla soğuk ya da cereyan var. Tablayı 60 °C'de tut, cereyandan uzak bas.",
+      "Ölçüler 20 mm'den farklı: Kayışlar gevşek ya da adım ayarı bozuk. Önce kayışları ger, sonra tekrar ölç.",
+    ],
+  },
+
+  "telefon-standi": {
+    adimlar: [
+      a(
+        "Model bul",
+        "Printables veya Thingiverse'te 'phone stand' ara. Yorumlarına ve baskı fotoğraflarına bak; telefonunun kılıflı kalınlığını açıklamadaki ölçüyle karşılaştır. Lisansın kişisel kullanıma izin verdiğini kontrol et, STL dosyasını indir.",
+        "15 dk",
+        "Seçtiğin modelin yuvası telefonunun kılıflı kalınlığından geniş ve lisans uygun.",
+      ),
+      a(
+        "Dilimleyicide yerleştir",
+        "STL'yi dilimleyiciye aç. Modeli en geniş düz yüzü tablaya gelecek şekilde döndür; çoğu stand yan yatırılınca desteksiz basılır ve daha sağlam olur. Telefonun ağırlığını taşıyacak bölgede katmanların yük yönüne paralel olmasına dikkat et.",
+        "10 dk",
+        "Model tablaya geniş yüzüyle oturuyor; önizlemede havada kalan büyük bölge yok.",
+      ),
+      a(
+        "Dilimle",
+        "0,2 mm katman, %15–20 doluluk ve 3 duvar ayarını kullan. Önizlemede destek gerekmiyorsa desteği kapat. PLA için nozül 200–210 °C, tabla 60 °C.",
+        "10 dk",
+        "Dilimleyici süreyi gösteriyor ve destek yalnızca gerçekten gereken yerde var.",
+      ),
+      a(
+        "Bas ve ilk katmanı izle",
+        "Baskıyı başlat, ilk katman bitene kadar başında dur. İlk katman düzgünse baskının bitmesini bekle; arada bir kontrol et, yazıcıyı uzun süre gözetimsiz bırakma.",
+        "2–3 saat",
+        "İlk katman tablaya her yerden yapışık ve baskı sırasında kalkma yok.",
+      ),
+      a(
+        "Çıkar",
+        "Tablanın oda sıcaklığına inmesini bekle; PLA parça genelde kendiliğinden ayrılır. Gerekirse spatulayı kendinden uzağa doğru iterek çıkar, tablayı çizme.",
+        "15 dk",
+        "Parça tabla yüzeyine zarar vermeden çıktı.",
+      ),
+      a(
+        "Bitir ve dene",
+        "Kenarlardaki çapakları 220 kum zımparayla al; destek kullandıysan penseyle kopar, izini zımparala. Altına dört keçe ayak yapıştır. Telefonu yerleştir, dikey ve yatay konumda dengede durduğunu kontrol et.",
+        "15 dk",
+        "Stand masada kaymıyor, telefon iki konumda da devrilmiyor ve şarj kablosu takılabiliyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Telefon yuvaya girmiyor: Kılıf kalınlığı hesaba katılmadı. Modeli dilimleyicide %3–5 büyüt ya da başka model seç.",
+      "Stand kırıldı: Katmanlar yük yönüne dik basıldı. Modeli yan yatırarak bas, duvar sayısını artır.",
+      "Parça tablaya yapıştı ve çıkmıyor: Tabla soğumadan zorlandı. Tamamen soğumasını bekle.",
+      "Altında çok destek izi var: Model yanlış yöne yerleştirildi. Geniş yüzü tablaya getir.",
+    ],
+  },
+
+  "ic-lastik": {
+    adimlar: [
+      a(
+        "Tekerleği sök",
+        "Arka tekerleği sökeceksen önce vitesi en küçük arka dişliye al. Bisikleti ters çevir ya da askıya al. V-frende kabloyu frenden çıkar, disk frende bir şey yapma. Çabuk sökme kolunu aç ya da somunları anahtarla gevşet ve tekerleği çıkar; arka tekerde zinciri dişliden elle ayır.",
+        "10 dk",
+        "Tekerlek bisikletten ayrılmış, zincir ve fren kablosu zarar görmemiş.",
+      ),
+      a(
+        "Lastiği çıkar",
+        "Valf kapağını çıkar, havayı tamamen indir (Presta valfte uçtaki küçük somunu gevşetip bastır). Lastiği her yerden jantın ortasına doğru it. Valfin karşısında levyeyi lastik ile jant arasına sok, lastiği jant dışına kaldır ve levyeyi teline tak. İkinci levyeyle 10 cm yanda tekrarla, sonra levyeyi jant boyunca kaydır. İç lastiği çek, valfi en son çıkar.",
+        "10 dk",
+        "Lastiğin bir yanı jantın dışında, iç lastik tamamen çıkmış.",
+      ),
+      a(
+        "Deliği bul",
+        "İç lastiği hafif şişir. Kulağını yaklaştırıp tısıltı dinle, bulamazsan bölüm bölüm su dolu kaba batır; kabarcık çıkan yer deliktir. Deliği kalemle işaretle. İç lastiği jantın yanına valf deliğine göre hizalayarak koy; delik dış lastikte hangi noktaya denk geliyor, oraya bak.",
+        "10 dk",
+        "Delik işaretli ve dış lastikteki karşılığı belli.",
+      ),
+      a(
+        "Dış lastiği kontrol et",
+        "Lastiğin içini katlanmış bir bezle yavaşça sıyırarak tara; bez cam ya da tele takılır, parmağın kesilmez. Batan şeyi penseyle dışarıdan iterek çıkar. Jant bandının tüm tel deliklerini örttüğünü de kontrol et.",
+        "10 dk",
+        "Lastiğin içinde batan bir şey kalmamış, jant bandı yerinde.",
+      ),
+      a(
+        "Yamala",
+        "Deliğin çevresini, yamadan biraz geniş bir alanda zımparayla matlaştır. İnce bir kat yapıştırıcı sür ve parlaklığı gidip mat görünene kadar (3–5 dk) bekle. Yamayı koruyucu folyosunu çıkararak yerleştir, ortadan kenarlara doğru 1 dakika sıkıca bastır.",
+        "10 dk",
+        "Yamanın kenarları kalkmıyor; iç lastiği hafif şişirip suya batırınca kabarcık çıkmıyor.",
+      ),
+      a(
+        "İç lastiği tak",
+        "İç lastiği yuvarlak şekil alacak kadar hafif şişir. Önce valfi jant deliğine geçir, sonra iç lastiği lastiğin içine yerleştir. Lastiği valfin karşısından başlayarak elle jante geçir, en son valf bölgesini geçir. Levye kullanma; iç lastiği jantla levye arasında sıkıştırıp yeniden patlatabilirsin.",
+        "10 dk",
+        "Lastik her yerden jantta; lastiği yanlardan itince altında sıkışmış iç lastik görünmüyor ve valf dik duruyor.",
+      ),
+      a(
+        "Şişir, tekerleği tak ve frenleri dene",
+        "Lastiği yanağında yazan basınca kadar şişir; maksimum değeri aşma. Tekerleği takıp çabuk sökmeyi kapat ya da somunları sık. Fren kablosunu geri tak. Tekerleği çevirip yalpalama ve sürtünme olmadığına bak, sonra binmeden önce iki freni de sık ve bisikleti iterek dene.",
+        "10 dk",
+        "Basınç doğru, tekerlek düz dönüyor ve iki fren de bisikleti tam durduruyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Yeni iç lastik hemen patladı: Dış lastikte batan şey çıkarılmadı. Lastiğin içini bezle tara.",
+      "Takarken yeniden patladı: Levye iç lastiği sıkıştırdı. Son kısmı elle geçir.",
+      "Yama tutmadı: Yapıştırıcı kurumadan yama basıldı. Mat görünene kadar bekle.",
+      "Fren tutmuyor: V-fren kablosu geri takılmadı. Binmeden önce frenleri mutlaka dene.",
+    ],
+  },
+
+  "zincir-bakim": {
+    adimlar: [
+      a(
+        "Aşınmayı ölç",
+        "Zincir ölçeri zincire tak. Ölçer tamamen oturuyorsa zincir uzamıştır: 11–12 vitesli sistemlerde %0,5'te, 10 ve daha az vitesli sistemlerde %0,75'te değiştir. Uzamış zincir dişlileri de aşındırır; zamanında değişen zincir dişliyi kurtarır.",
+        "5 dk",
+        "Ölçer sınır değerine oturmuyor; oturuyorsa zinciri değiştirmeye karar verdin.",
+      ),
+      a(
+        "Hazırlan",
+        "Bisikletin altına gazete ya da karton ser. Disk frenin varsa diskleri temiz bir bezle ya da plastikle sar; temizleyici ve yağ diskleri bozar. Arka vitesi orta dişliye al.",
+        "5 dk",
+        "Zemin korumalı, fren diskleri sarılı.",
+      ),
+      a(
+        "Temizle",
+        "Pedalı geri çevirirken zincire temizleyici sık. Fırçayla baklaların aralarını ve yan plakaları ov. Arka dişliler ve ön aynalardaki kiri de fırçayla al.",
+        "10 dk",
+        "Baklaların aralarında siyah kir topakları kalmamış.",
+      ),
+      a(
+        "Durula ve kurula",
+        "Zinciri az suyla durula; basınçlı su kullanma, rulmanlara su kaçar. Pedalı çevirirken zinciri kuru bezle sıkarak sil, sonra 15 dakika kurumaya bırak. Yağ ıslak zincire tutmaz.",
+        "20 dk",
+        "Bezle silince bez temiz kalıyor ve zincir dokununca kuru.",
+      ),
+      a(
+        "Yağla",
+        "Pedalı geri çevirirken zincirin alt tarafında, her baklanın makarasına bir damla yağ damlat. Bir tur tamamlanınca bırak. Pedalı birkaç tur çevirip vitesleri birkaç kez değiştir; yağ içeri işler.",
+        "5 dk",
+        "Her baklaya bir kez yağ damlatıldı, zincir sessiz dönüyor.",
+      ),
+      a(
+        "Fazlasını sil ve dene",
+        "5–10 dakika bekle, sonra zincirin dışını kuru bezle sıkıca sil; yağ içeride kalmalı, dışta toz toplar. Fren disklerindeki örtüyü çıkar, diske yağ bulaşmadığını kontrol et. Kısa bir sürüşte vitesleri ve frenleri dene.",
+        "10 dk",
+        "Zincirin dışı yağlı değil ama sessiz çalışıyor; vitesler geçiyor ve frenler sıkı tutuyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Zincir birkaç günde kapkara oldu: Fazla yağ silinmedi. Yağdan sonra dışını mutlaka sil.",
+      "Fren gıcırdıyor ve tutmuyor: Diske yağ bulaştı. Diski alkolle temizle; balata yağ emdiyse değiştir.",
+      "Zincir hâlâ ses yapıyor: Yağ yalnızca dış plakalara sıkıldı. Makaralara damlat.",
+      "Yağ hiç tutmadı: Zincir ıslakken yağlandı. Tamamen kuruyana kadar bekle.",
+    ],
+  },
+
+  "musluk-conta": {
+    adimlar: [
+      a(
+        "Suyu kapat ve hazırlan",
+        "Lavabo altındaki ara vanayı (yoksa evin ana vanasını) kapat. Musluğu açıp kalan suyun boşalmasını bekle. Lavabo giderini bir bezle tıka; küçük vida ve conta gidere düşmesin. Sıcak su tarafında çalışıyorsan suyun soğumasını bekle.",
+        "5 dk",
+        "Musluk sonuna kadar açıkken su gelmiyor ve gider kapalı.",
+      ),
+      a(
+        "Kolu sök",
+        "Kolun üstündeki renkli (sıcak/soğuk) kapağı düz tornavidanın ucuyla nazikçe kaldır. Altındaki vidayı yıldız tornavidayla sök ve kolu yukarı çek. Söktüğün parçaları sırasıyla bir bezin üstüne diz.",
+        "5 dk",
+        "Kol çıktı, vida ve kapak kaybolmadan bezin üstünde.",
+      ),
+      a(
+        "Mekanizmayı çıkar",
+        "Mekanizmanın altıgen somununa bez sar; krom kaplama çizilmesin. Ayarlı İngiliz anahtarıyla saat yönünün tersine çevirerek mekanizmayı (vidalı başlık) çıkar. Sıkıysa kuvveti artırmadan önce musluk gövdesini diğer elinle tut.",
+        "5 dk",
+        "Mekanizma çıktı, musluk gövdesi yerinden oynamadı.",
+      ),
+      a(
+        "Contayı değiştir",
+        "Mekanizmanın ucundaki eski lastik contayı (genelde küçük bir vidayla tutturulur) çıkar. Aynı çaptaki yenisini setten seç ve tak. Emin değilsen eskisini hırdavatçıya götür. Gövdenin içindeki conta yuvasında çizik ya da aşınma varsa yeni conta da sızdırabilir; bunu not et.",
+        "10 dk",
+        "Yeni conta eskisiyle aynı çapta, düz ve yerine tam oturmuş.",
+      ),
+      a(
+        "Geri tak",
+        "Mekanizmayı elle, dişlere düz girecek şekilde sonuna kadar çevir. Bezle sarıp anahtarla çeyrek tur kadar sık; aşırı sıkarsan yeni conta ezilir. Kolu takıp vidasını ve kapağını yerleştir. Gider bezini çıkar.",
+        "5 dk",
+        "Mekanizma elle rahat döndü, anahtarla yalnızca hafifçe sıkıldı ve kol düzgün oturdu.",
+      ),
+      a(
+        "Test et",
+        "Musluğu kapalı konuma getir. Vanayı yavaşça aç. Musluk ağzından damlama ve kol çevresinden sızıntı olup olmadığına 5 dakika bak. Musluğu birkaç kez açıp kapat.",
+        "10 dk",
+        "Musluk kapalıyken damlama yok, kol dibinde sızıntı yok ve açıp kapatma rahat.",
+      ),
+    ],
+    sikHatalar: [
+      "Değişimden sonra hâlâ damlıyor: Conta yuvası aşınmış. Yuva frezesiyle düzelt ya da mekanizmayı komple değiştir.",
+      "Kol dibinden sızıyor: Mekanizma yeterince sıkılmadı ya da o bölgedeki o-ring eskimiş. O-ring'i de değiştir.",
+      "Somun yuvarlandı: Anahtar ağzı tam oturmadan zorlandı. Anahtarı somuna sıkıca ayarla.",
+      "Vida gidere düştü: Gider tıkanmadan çalışıldı. Önce bezle tıka.",
+    ],
+  },
+
+  "duvar-tamir": {
+    adimlar: [
+      a(
+        "Temizle ve hazırlan",
+        "Delik prize ya da anahtara yakınsa ilgili sigortayı kapat. Dübel varsa penseyle çıkar. Deliğin kenarındaki gevşek sıva ve boyayı spatulayla kazı, tozu fırçayla al. Yere naylon ser.",
+        "10 dk",
+        "Deliğin kenarlarında dökülen parça yok ve toz alınmış.",
+      ),
+      a(
+        "Küçük delikleri doldur",
+        "Macunu spatulanın ucuna al, deliğe bastırarak doldur; içi boş kalmasın. Spatulayı duvara neredeyse yatık tutup tek hareketle sıyır, yüzey duvarla aynı hizada kalsın. Macun kuruyunca hafif çöker; ikinci kat bunun için atılır.",
+        "10 dk",
+        "Delik dolu, macun duvardan taşmıyor ve çevresinde fazla macun kalmamış.",
+      ),
+      a(
+        "Büyük deliklere fileli bant",
+        "3 cm'den büyük deliklerde fileli tamir bandını deliği her yönden 2–3 cm aşacak şekilde kes ve yapıştır. Macunu bandın üstüne ince bir kat halinde, bandın gözeneklerinden içeri bastırarak sür; kenarları duvara doğru incelt.",
+        "15 dk",
+        "Bant tamamen macunla örtülü, kenarlar duvara inceltilerek bağlanmış.",
+      ),
+      a(
+        "Kurut ve zımparala",
+        "Macunu ambalajdaki süre kadar (genelde 2–4 saat) kurut; renk tamamen açıldığında kurumuştur. Toz maskesi tak, takoza sarılı 120 kum zımparayla dairesel hareketlerle düzelt.",
+        "2–4 saat + 10 dk",
+        "Yüzey düz; elini duvarda gezdirince tamir yerinde basamak hissetmiyorsun.",
+      ),
+      a(
+        "İkinci kat ve son zımpara",
+        "Çöken ya da pürüzlü yerlere ince bir kat daha macun çek, tamir yerinden biraz geniş bir alana yayarak kenarları incelt. Kuruyunca 180 kumla hafifçe zımparala ve tozu kuru bezle al.",
+        "2–4 saat + 10 dk",
+        "Yandan el feneriyle bakınca tamir yerinde çukur ya da tümsek görünmüyor.",
+      ),
+      a(
+        "Astar sür",
+        "Tamir edilen yere astar sür ve kurumasını bekle (ambalajdaki süre). Astar olmazsa macun boyayı emer ve boyadan sonra tamir yeri mat bir leke gibi görünür.",
+        "10 dk + kuruma",
+        "Astar tamir yerini tamamen örtüyor ve kurumuş.",
+      ),
+      a(
+        "Boya",
+        "Mevcut duvar rengini rulo ya da fırçayla, tamir yerinden başlayıp kenarlara doğru incelterek sür. Kuruyunca rengi kontrol et; gerekirse ikinci kat at. Renk tutmazsa duvarın tamamını köşeden köşeye boyamak en temiz sonucu verir.",
+        "20 dk + kuruma",
+        "Kuruduktan sonra tamir yeri duvarın geri kalanından ayırt edilmiyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Macun kuruyunca çöktü: Tek seferde kalın dolduruldu. İnce katlar halinde, her katı kurutarak doldur.",
+      "Boyadan sonra mat leke kaldı: Astar sürülmedi. Tamir yerine astar sür, sonra boya.",
+      "Büyük delik çatladı: Fileli bant kullanılmadı. 3 cm'den büyük deliklerde bant şart.",
+      "Tamir yeri tümsek: Zımpara yetersiz. Takozla ve el feneriyle kontrol ederek zımparala.",
+    ],
+  },
 };
 
 // Proje verisine Altın işaretini ve (varsa) derin içeriği uygular

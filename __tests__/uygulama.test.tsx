@@ -23,7 +23,7 @@ test("uygulama açılır ve ekranlar gezilir", async () => {
   await fireEvent.press(await screen.findByText("Kod"));
   await fireEvent.press(screen.getByText("Adımlar"));
   await fireEvent.press(await screen.findByText("Kodu yükle")); // adım işaretle
-  expect(await screen.findByText("1 / 5 adım tamamlandı")).toBeTruthy();
+  expect(await screen.findByText("1 / 7 adım tamamlandı")).toBeTruthy();
   await fireEvent.press(screen.getByText("İpuçları"));
   await fireEvent.press(screen.getByLabelText("Favorilere ekle"));
   await fireEvent.press(screen.getByText("Malzemeleri listeye ekle"));
