@@ -1,7 +1,8 @@
 // "Elimdekilerle yap": bende var listesine göre hemen yapılabilecek ve 1–2 eksikli projeler.
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { useMemo } from "react";
+import { memo, useCallback, useLayoutEffect, useMemo, useRef } from "react";
 import { Pressable, SectionList, Text, View } from "react-native";
+import type { SectionListRenderItem } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, Ikon, ProjeKart, UstBaslik } from "../components";
 import { yapabilecekler, type Yapabilir as Y } from "../data/yapabilir";
@@ -17,9 +18,48 @@ export default function Yapabilir({ navigation }: P) {
   const st = useStore();
   const ins = useSafeAreaInsets();
   const liste = useMemo(() => yapabilecekler(st.bende), [st.bende]);
-  const bolumler = [0, 1, 2]
-    .map((e) => ({ baslik: BASLIK[e], data: liste.filter((x) => x.eksik.length === e) }))
-    .filter((b) => b.data.length);
+  // "Listede ✓" bilgisi burada hesaplanır; satırlar store'a abone olmaz, yalnız değişen satır yeniden çizilir
+  const bolumler = useMemo(
+    () =>
+      [0, 1, 2]
+        .map((e) => ({
+          baslik: BASLIK[e],
+          data: liste
+            .filter((x) => x.eksik.length === e)
+            .map((x) => ({ x, eksikListede: x.eksik.every((m) => st.liste[m.kid!]) })),
+        }))
+        .filter((b) => b.data.length),
+    [liste, st.liste],
+  );
+
+  // Store fonksiyonları her render'da yeniden oluşuyor; satırlara sabit callback için en güncelini ref'te tut
+  const stRef = useRef(st);
+  useLayoutEffect(() => {
+    stRef.current = st;
+  });
+  const ekle = useCallback(
+    (x: Y) =>
+      stRef.current.listeyeEkle(
+        x.p.id,
+        x.eksik.map((m) => m.kid!),
+      ),
+    [],
+  );
+  const ac = useCallback((id: string) => navigation.navigate("Proje", { id }), [navigation]);
+
+  type Bolum = (typeof bolumler)[number];
+  const renderItem: SectionListRenderItem<Bolum["data"][number], Bolum> = useCallback(
+    ({ item }) => <Oge x={item.x} eksikListede={item.eksikListede} ac={ac} ekle={ekle} />,
+    [ac, ekle],
+  );
+  const renderSectionHeader = useCallback(
+    ({ section }: { section: Bolum }) => (
+      <Text style={s.bolum}>
+        {section.baslik} ({section.data.length})
+      </Text>
+    ),
+    [],
+  );
 
   const ust = (
     <View>
@@ -42,17 +82,13 @@ export default function Yapabilir({ navigation }: P) {
       style={{ backgroundColor: renk.arkaPlan }}
       contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
       sections={bolumler}
-      keyExtractor={(x) => x.p.id}
+      keyExtractor={anahtar}
       ListHeaderComponent={ust}
       stickySectionHeadersEnabled={false}
       initialNumToRender={5}
-      renderSectionHeader={({ section }) => (
-        <Text style={s.bolum}>
-          {section.baslik} ({section.data.length})
-        </Text>
-      )}
-      ItemSeparatorComponent={() => <View style={{ height: bosluk.l }} />}
-      renderItem={({ item }) => <Oge x={item} ac={() => navigation.navigate("Proje", { id: item.p.id })} />}
+      renderSectionHeader={renderSectionHeader}
+      ItemSeparatorComponent={Ayrac}
+      renderItem={renderItem}
       ListEmptyComponent={
         st.bende.length === 0 ? (
           <Bos
@@ -72,12 +108,17 @@ export default function Yapabilir({ navigation }: P) {
   );
 }
 
-function Oge({ x, ac }: { x: Y; ac: () => void }) {
-  const st = useStore();
-  const eksikListede = x.eksik.every((m) => st.liste[m.kid!]);
+const anahtar = (item: { x: Y }) => item.x.p.id;
+
+// Satır içinde tanımlanırsa her render'da yeni bileşen tipi olur ve ayraçlar baştan kurulur
+const Ayrac = () => <View style={{ height: bosluk.l }} />;
+
+type OgeProps = { x: Y; eksikListede: boolean; ac: (id: string) => void; ekle: (x: Y) => void };
+
+const Oge = memo(function Oge({ x, eksikListede, ac, ekle }: OgeProps) {
   return (
     <View>
-      <ProjeKart p={x.p} onPress={ac} />
+      <ProjeKart p={x.p} onPress={() => ac(x.p.id)} />
       <View style={s.eksikKutu}>
         <Ikon
           name={x.eksik.length ? "cart-outline" : "check-circle"}
@@ -99,12 +140,7 @@ function Oge({ x, ac }: { x: Y; ac: () => void }) {
             accessibilityRole="button"
             accessibilityLabel={`${x.p.ad}: eksikleri listeye ekle`}
             disabled={eksikListede}
-            onPress={() =>
-              st.listeyeEkle(
-                x.p.id,
-                x.eksik.map((m) => m.kid!),
-              )
-            }
+            onPress={() => ekle(x)}
             hitSlop={8}
           >
             <Text style={{ color: eksikListede ? renk.basari : renk.ana, fontWeight: "700", fontSize: 13 }}>
@@ -115,7 +151,7 @@ function Oge({ x, ac }: { x: Y; ac: () => void }) {
       </View>
     </View>
   );
-}
+});
 
 const s = stil(() => ({
   duzenle: {

@@ -1,4 +1,6 @@
+import { memo, useCallback, useLayoutEffect, useMemo, useRef } from "react";
 import { Alert, Pressable, SectionList, Share, Text, View } from "react-native";
+import type { SectionListRenderItem } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Bos, Ikon, tl } from "../components";
 import { useFiyat } from "../fiyat";
@@ -9,38 +11,58 @@ import { useNav } from "../nav";
 import { useStore } from "../store";
 import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
 
+const projeAd = (id: string) => PROJELER.find((p) => p.id === id)?.ad ?? id;
+const miktar = (x: { projeler: string[]; kalem: { projeler: { projeId: string; miktar?: string }[] } }) =>
+  x.projeler.length > 1
+    ? `${x.projeler.length} projede`
+    : (x.kalem.projeler.find((p) => p.projeId === x.projeler[0])?.miktar ?? "");
+
 export default function Liste() {
   const st = useStore();
   const { enUcuz } = useFiyat();
   const nav = useNav();
   const ust = useSafeAreaInsets().top;
 
-  // Listedeki kalemler: katalog kimliğiyle tek satır (aynı malzeme 3 projede olsa da bir kez)
-  const kalemler = Object.entries(st.liste)
-    .map(([kid, v]) => ({ kalem: KALEMLER.get(kid)!, ...v }))
-    .filter((x) => x.kalem)
-    .sort((a, b) => Number(a.alindi) - Number(b.alindi) || a.kalem.ad.localeCompare(b.kalem.ad, "tr"));
-  const bolumler = [
-    { baslik: "Malzemeler", liste: kalemler.filter((x) => !x.kalem.arac) },
-    { baslik: "Aletler", liste: kalemler.filter((x) => x.kalem.arac) },
-  ].filter((b) => b.liste.length);
+  // Store fonksiyonları her render'da yeniden oluşuyor; satırlara sabit callback vermek için en güncelini ref'te tut
+  const stRef = useRef(st);
+  useLayoutEffect(() => {
+    stRef.current = st;
+  });
+  const alindiDegistir = useCallback((kid: string) => stRef.current.alindiDegistir(kid), []);
+  const bendeDegistir = useCallback((kid: string) => stRef.current.bendeDegistir(kid), []);
+  const listedenCikar = useCallback((kid: string) => stRef.current.listedenCikar(kid), []);
+
+  // Listedeki kalemler: katalog kimliğiyle tek satır (aynı malzeme 3 projede olsa da bir kez).
+  // En ucuz fiyat (sıralama yapıyor) kalem başına bir kez hesaplanır.
+  const kalemler = useMemo(
+    () =>
+      Object.entries(st.liste)
+        .map(([kid, v]) => ({ kalem: KALEMLER.get(kid)!, ...v }))
+        .filter((x) => x.kalem)
+        .map((x) => ({ ...x, f: enUcuz(x.kalem.ornek) }))
+        .sort((a, b) => Number(a.alindi) - Number(b.alindi) || a.kalem.ad.localeCompare(b.kalem.ad, "tr")),
+    [st.liste, enUcuz],
+  );
+  const bolumler = useMemo(
+    () =>
+      [
+        { baslik: "Malzemeler", data: kalemler.filter((x) => !x.kalem.arac) },
+        { baslik: "Aletler", data: kalemler.filter((x) => x.kalem.arac) },
+      ].filter((b) => b.data.length),
+    [kalemler],
+  );
   const projeIdler = [...new Set(kalemler.flatMap((x) => x.projeler))];
   const alinan = kalemler.filter((x) => x.alindi).length;
-  const kalan = kalemler.filter((x) => !x.alindi).reduce((t, x) => t + (enUcuz(x.kalem.ornek)?.fiyat ?? 0), 0);
-  const fiyatsiz = kalemler.filter((x) => !x.alindi && !x.kalem.ornek.evde && !enUcuz(x.kalem.ornek)).length;
-  const projeAd = (id: string) => PROJELER.find((p) => p.id === id)?.ad ?? id;
-  const miktar = (x: (typeof kalemler)[number]) =>
-    x.projeler.length > 1
-      ? `${x.projeler.length} projede`
-      : (x.kalem.projeler.find((p) => p.projeId === x.projeler[0])?.miktar ?? "");
+  const kalan = kalemler.filter((x) => !x.alindi).reduce((t, x) => t + (x.f?.fiyat ?? 0), 0);
+  const fiyatsiz = kalemler.filter((x) => !x.alindi && !x.kalem.ornek.evde && !x.f).length;
 
   // Listeyi düz metne çevirip telefonun paylaşım menüsünü aç (WhatsApp, SMS, not...)
   const paylas = () => {
     const satirlar = ["🛒 Evde Hobi – Alışveriş Listesi", `Projeler: ${projeIdler.map(projeAd).join(", ")}`, ""];
     for (const b of bolumler) {
       satirlar.push(`▸ ${b.baslik}`);
-      for (const x of b.liste) {
-        const f = enUcuz(x.kalem.ornek);
+      for (const x of b.data) {
+        const f = x.f;
         satirlar.push(
           `${x.alindi ? "✅" : "⬜"} ${x.kalem.ad} (${miktar(x)})${f ? ` – ${tl(f.fiyat)}, ${f.magaza}` : ""}`,
         );
@@ -126,69 +148,47 @@ export default function Liste() {
     </>
   );
 
-  // Malzemeler / Aletler bölümleri SectionList ile: yalnızca ekranda görünen satırlar çizilir
-  const bolumVeri = bolumler.map((b) => ({ baslik: b.baslik, data: b.liste }));
+  // Malzemeler / Aletler bölümleri SectionList ile: yalnızca ekranda görünen satırlar çizilir.
+  // Satıra yalnız ilkel değerler + sabit callback'ler gider; memo sayesinde sadece değişen satır yeniden çizilir.
+  type Kalem = (typeof kalemler)[number];
+  type Bolum = (typeof bolumler)[number];
+  const renderItem: SectionListRenderItem<Kalem, Bolum> = useCallback(
+    ({ item: x, index, section }) => (
+      <ListeSatiri
+        kid={x.kalem.kid}
+        ad={x.kalem.ad}
+        alindi={x.alindi}
+        altYazi={miktar(x) + (x.f ? ` · ${x.f.magaza}` : "")}
+        fiyatYazi={x.f ? tl(x.f.fiyat) : ""}
+        ilk={index === 0}
+        son={index === section.data.length - 1}
+        onAlindi={alindiDegistir}
+        onBende={bendeDegistir}
+        onCikar={listedenCikar}
+      />
+    ),
+    [alindiDegistir, bendeDegistir, listedenCikar],
+  );
+  const renderSectionHeader = useCallback(
+    ({ section }: { section: Bolum }) => (
+      <Text style={[yazi.altBaslik, { marginTop: bosluk.l, marginBottom: bosluk.s }]}>
+        {section.baslik} ({section.data.length})
+      </Text>
+    ),
+    [],
+  );
 
   return (
     <SectionList
       style={{ backgroundColor: renk.arkaPlan }}
       contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
-      sections={bolumVeri}
-      keyExtractor={(x) => x.kalem.kid}
+      sections={bolumler}
+      keyExtractor={anahtar}
       stickySectionHeadersEnabled={false}
       initialNumToRender={20}
       ListHeaderComponent={ustBolum}
-      renderSectionHeader={({ section }) => (
-        <Text style={[yazi.altBaslik, { marginTop: bosluk.l, marginBottom: bosluk.s }]}>
-          {section.baslik} ({section.data.length})
-        </Text>
-      )}
-      renderItem={({ item: x, index, section }) => {
-        const f = enUcuz(x.kalem.ornek);
-        const ilk = index === 0;
-        const son = index === section.data.length - 1;
-        return (
-          <View style={[s.satir, s.satirKart, ilk && s.ilkSatir, son && s.sonSatir, !ilk && s.ayrac]}>
-            <Pressable
-              accessibilityRole="checkbox"
-              accessibilityState={{ checked: x.alindi }}
-              accessibilityLabel={`${x.kalem.ad} alındı`}
-              onPress={() => st.alindiDegistir(x.kalem.kid)}
-              hitSlop={8}
-            >
-              <Ikon
-                name={x.alindi ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
-                size={24}
-                color={x.alindi ? renk.basari : renk.yaziIkincil}
-              />
-            </Pressable>
-            <View style={{ flex: 1 }}>
-              <Text style={[yazi.govde, x.alindi && s.ustuCizili]}>{x.kalem.ad}</Text>
-              <Text style={yazi.kucuk}>
-                {miktar(x)}
-                {f ? ` · ${f.magaza}` : ""}
-              </Text>
-            </View>
-            <Text style={{ fontWeight: "700", color: renk.yazi }}>{f ? tl(f.fiyat) : ""}</Text>
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={`${x.kalem.ad}: bende var, listeden çıkar`}
-              onPress={() => st.bendeDegistir(x.kalem.kid)}
-              hitSlop={8}
-            >
-              <Ikon name="home-plus-outline" size={20} color={renk.yaziIkincil} />
-            </Pressable>
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={`${x.kalem.ad}: listeden çıkar`}
-              onPress={() => st.listedenCikar(x.kalem.kid)}
-              hitSlop={8}
-            >
-              <Ikon name="close" size={18} color={renk.yaziIkincil} />
-            </Pressable>
-          </View>
-        );
-      }}
+      renderSectionHeader={renderSectionHeader}
+      renderItem={renderItem}
       ListFooterComponent={
         kalemler.length > 0 ? (
           <Text style={[yazi.kucuk, { marginTop: bosluk.l }]}>
@@ -199,6 +199,73 @@ export default function Liste() {
     />
   );
 }
+
+const anahtar = (x: { kalem: { kid: string } }) => x.kalem.kid;
+
+type SatirProps = {
+  kid: string;
+  ad: string;
+  alindi: boolean;
+  altYazi: string;
+  fiyatYazi: string;
+  ilk: boolean;
+  son: boolean;
+  onAlindi: (kid: string) => void;
+  onBende: (kid: string) => void;
+  onCikar: (kid: string) => void;
+};
+
+const ListeSatiri = memo(function ListeSatiri({
+  kid,
+  ad,
+  alindi,
+  altYazi,
+  fiyatYazi,
+  ilk,
+  son,
+  onAlindi,
+  onBende,
+  onCikar,
+}: SatirProps) {
+  return (
+    <View style={[s.satir, s.satirKart, ilk && s.ilkSatir, son && s.sonSatir, !ilk && s.ayrac]}>
+      <Pressable
+        accessibilityRole="checkbox"
+        accessibilityState={{ checked: alindi }}
+        accessibilityLabel={`${ad} alındı`}
+        onPress={() => onAlindi(kid)}
+        hitSlop={8}
+      >
+        <Ikon
+          name={alindi ? "checkbox-marked-circle" : "checkbox-blank-circle-outline"}
+          size={24}
+          color={alindi ? renk.basari : renk.yaziIkincil}
+        />
+      </Pressable>
+      <View style={{ flex: 1 }}>
+        <Text style={[yazi.govde, alindi && s.ustuCizili]}>{ad}</Text>
+        <Text style={yazi.kucuk}>{altYazi}</Text>
+      </View>
+      <Text style={{ fontWeight: "700", color: renk.yazi }}>{fiyatYazi}</Text>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={`${ad}: bende var, listeden çıkar`}
+        onPress={() => onBende(kid)}
+        hitSlop={8}
+      >
+        <Ikon name="home-plus-outline" size={20} color={renk.yaziIkincil} />
+      </Pressable>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={`${ad}: listeden çıkar`}
+        onPress={() => onCikar(kid)}
+        hitSlop={8}
+      >
+        <Ikon name="close" size={18} color={renk.yaziIkincil} />
+      </Pressable>
+    </View>
+  );
+});
 
 const s = stil(() => ({
   ustBtn: {

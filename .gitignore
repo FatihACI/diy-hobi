@@ -42,3 +42,6 @@ yarn-error.*
 
 # gizli anahtarlar
 .env
+
+# Google Play servis hesabı anahtarı (gizli)
+google-service-account.json

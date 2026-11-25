@@ -1,12 +1,21 @@
 {
-  "cli": { "version": ">= 16.0.0", "appVersionSource": "local" },
+  "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
   "build": {
     "onizleme": {
       "distribution": "internal",
       "android": { "buildType": "apk" }
     },
     "yayin": {
+      "autoIncrement": true,
       "android": { "buildType": "app-bundle" }
+    }
+  },
+  "submit": {
+    "yayin": {
+      "android": {
+        "serviceAccountKeyPath": "./google-service-account.json",
+        "track": "internal"
+      }
     }
   }
 }
