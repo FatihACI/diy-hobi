@@ -1,6 +1,8 @@
 This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
 
-## One session at a time (read first)
+## One session at a time (read first): CURRENTLY DISABLED
+
+> Since 25 Nov 2026 the lock is temporarily disabled by the user. You do not need to take or check the lock. Still run `git status` first and never touch uncommitted changes you did not make. When the user re-enables it, this note is removed and the rule below applies.
 
 Only one AI/Claude session may work in this folder at a time. Before touching any file run `powershell -File araclar\oturum.ps1 durum`. If it prints `KILITLI` and the lock is not yours, stop: do not edit files, switch branches, commit or install packages; tell the user who holds the lock and ask. If it prints `BOS`, take the lock with `oturum.ps1 al -Ad "<session name/link>" -Is "<task>"`, refresh it during long work (`yenile`) and release it when done (`birak`). Also run `git status` first and never touch uncommitted changes you did not make. Details (Turkish): `CLAUDE.md`.
 

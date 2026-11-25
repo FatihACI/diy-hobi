@@ -1,6 +1,8 @@
 # Protyp — Claude için çalışma kuralları
 
-## 1. Aynı anda tek oturum (önce bunu yap)
+## 1. Aynı anda tek oturum: ŞU AN DEVRE DIŞI
+
+> **25 Kasım 2026: Kullanıcının kararıyla kilit geçici olarak kapalı.** `oturum.ps1` ile kilit alma/kontrol etme zorunluluğu yok ve kilit dosyası görürsen işini engellemez. Yine de başlamadan `git status` bak; senin yapmadığın commit edilmemiş değişikliklere dokunma. Kullanıcı kilidi yeniden açınca bu not kaldırılır ve aşağıdaki akış geçerli olur. Hook'la zorunlu kılan yarım çalışma `oturum-kilidi-hook` dalında.
 
 Bu klasörde aynı anda yalnızca bir Claude / yapay zekâ oturumu çalışır. 24 Kasım 2026'da iki oturum aynı dosyaları düzenleyip çakıştı.
 
