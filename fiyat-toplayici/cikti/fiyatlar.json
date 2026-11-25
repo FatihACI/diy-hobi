@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-17T19:38:13.955Z",
+  "guncelleme": "2026-11-25T17:01:16.473Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -30,6 +30,14 @@
         "fiyat": 188.9,
         "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "polimer-kil": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 285,
+        "url": "https://www.hepsiburada.com/staedtler-fimo-soft-polimer-kil-57gr-christmas-red-p-HBV00000JAM09",
+        "guncelleme": "2026-11-25"
       }
     ],
     "maket-bicagi": [
@@ -102,6 +110,14 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "arduino-uno": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 287.73,
+        "url": "https://www.hepsiburada.com/arduino-uno-r3-klon-usb-chip-ch340-usb-kablo-hediyeli-pm-HB0000199OQM",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "jumper-kablo": [
       {
         "magaza": "Hepsiburada",
@@ -124,6 +140,14 @@
         "fiyat": 300,
         "url": "https://www.hepsiburada.com/chichi-plastik-sapli-terzi-makasi-10-inc-25-cm-gl130-pm-HBC00000ZQSL0",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "maket-bicagi-cetvel": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 427.51,
+        "url": "https://www.hepsiburada.com/30-cm-celik-cetvel-ve-kretuar-bicak-seti-cizim-seti-mimari-maket-hobi-kesim-pm-HBC0000N5S5UK",
+        "guncelleme": "2026-11-25"
       }
     ],
     "merdane": [
@@ -204,12 +228,44 @@
         "guncelleme": "2026-11-17"
       }
     ],
+    "sprey-sise": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 175,
+        "url": "https://www.hepsiburada.com/paradise-alsun-bos-fisfis-sprey-sise-500-ml-3-adet-kimyasala-dayanikli-pm-HBC00002QHO2R",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "su-bazli-oyuncak-boyasi-en-71-3": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 450,
+        "url": "https://www.hepsiburada.com/rich-funny-kids-8-2-2-multimix-set-12-renk-20ml-pm-HBC000065R0Y6",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "su-terazisi": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 305,
         "url": "https://www.hepsiburada.com/sgs-su-terazisi-40-cm-pm-HB000003GMO4",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "termometre": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 210.23,
+        "url": "https://www.hepsiburada.com/hassas-cam-termometre-vantuzlu-akvaryum-derecesi-pm-HBC00003ABLO0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "yan-keski": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 149,
+        "url": "https://www.hepsiburada.com/ivitc-mini-yan-keski-model-170-tel-kesme-makasi-kablo-kesici-elektronikci-tipi-mavi-pm-HBC0000I34ZZ0",
+        "guncelleme": "2026-11-25"
       }
     ],
     "arduino-uno-nano": [
@@ -220,12 +276,76 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "bez": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.9,
+        "url": "https://www.hepsiburada.com/pella-ithal-3-lu-mikrofiber-temizlik-bezi-60x40-cm-pm-HBC000013GLQW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "dijital-kumpas": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 339.9,
+        "url": "https://www.hepsiburada.com/gomax-dijital-kumpas-mini-150-mm-siyah-renkli-hassas-olcum-aleti-kullanim-tipi-pm-HB00000NUV8G",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "firdondu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 188.74,
+        "url": "https://www.hepsiburada.com/mso-teknoloji-olta-balikcilik-vip-kalite-paslanmaz-celik-klipsli-firdondu-p-HBCV00002SQQK5",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "firin-kagidi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/50-adet-craft-kesilmis-pisirme-kagidi-37-x-42-cm-agartilmamis-dogal-pisirme-kagidi-en-iyi-mutfak-yardimcisi-pm-HBC0000DHMGJZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "karbonat": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 114.49,
         "url": "https://www.hepsiburada.com/saf-karbonat-sodyum-bikarbonat-besin-sodasi-1kg-pm-HBC00001VZHYI",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "kontrplak-6-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 1989,
+        "url": "https://www.hepsiburada.com/30x40-cm-6-mm-kalinlik-kavak-kontrplak-1-adet-pm-HBC0000EWIW0F",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mat-vernik": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 167.2,
+        "url": "https://www.hepsiburada.com/artdeco-su-bazli-mat-vernik-120-ml-073r-002-pm-HB000007L6VB",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "matkap": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 929.9,
+        "url": "https://www.hepsiburada.com/assur-12v-1-5ah-metal-sanziman-cift-akulu-bakir-sargi-24-parca-sarjli-matkap-akulu-vidalama-pm-HBC00007ZLDZ0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mezura": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 52,
+        "url": "https://www.hepsiburada.com/150-cm-gfb-kutulu-mezura-yumusak-olcum-aleti-farkli-renk-secenekleriyle-diy-ev-el-aletleri-pm-HBC0000153MVT",
+        "guncelleme": "2026-11-25"
       }
     ],
     "sicak-silikon-tabancasi-cubuk": [
@@ -242,6 +362,1238 @@
         "fiyat": 510,
         "url": "https://www.hepsiburada.com/moon-profesyonel-8-mm-mekanik-zimba-tabancasi-ve-5000-adet-tel-pm-HB00001CE9OZ",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "a4-kagit": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 253.25,
+        "url": "https://www.hepsiburada.com/ve-ge-copier-bond-a4-fotokopi-kagidi-500-adet-1paket-p-HBCV00001T7L5Z",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "aktif-karbon": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 189.28,
+        "url": "https://www.hepsiburada.com/eurostar-active-carbon-500-ml-pm-ptm4521003",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "anahtarlik-halkasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 98,
+        "url": "https://www.hepsiburada.com/ozan-tuhafiye-zincirli-anahtarlik-halkasi-2-5-cm-50-adet-p-HBCV00000ZTHIP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "aquasoil": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 888,
+        "url": "https://www.hepsiburada.com/jbl-manado-3lt-bitki-topragi-pm-HB00000Q3XXC",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "breadboard": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 119,
+        "url": "https://www.hepsiburada.com/arduino-breadboard-buyuk-boy-830-pin-pm-HBC00000EKOLM",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cek-valf": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 74.9,
+        "url": "https://www.hepsiburada.com/sobo-akvaryum-hava-motoru-cek-valf-cekvalf-1-adet-pm-HBC00000U62DA",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cimbiz": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 74.99,
+        "url": "https://www.hepsiburada.com/solingen-7335-ince-uclu-metal-cimbiz-kas-ve-biyiklar-icin-cok-amacli-kullanim-pm-sgks9697",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "dekupaj-testere": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 2684.5,
+        "url": "https://www.hepsiburada.com/bosch-pst-650-compact-500-watt-dekupaj-testere-pm-hrbsc06033a0700",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "dogal-tas-boncuk-8-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 169.95,
+        "url": "https://www.hepsiburada.com/ucar-dogal-tas-hematit-dogal-tas-parlak-fume-8mm-dizi-pm-HBC00005CQI67",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "drenaj-cakili": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 149.99,
+        "url": "https://www.hepsiburada.com/teraryum-drenaj-malzemesi-cakil-tasi-kum-beyaz-pm-HB0000099YT0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "gidaya-uygun-mineral-yag": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 470.65,
+        "url": "https://www.hepsiburada.com/dogal-ahsap-kesme-dograma-tahtasi-bakim-yagi-pm-HBC0000C9R85X",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hava-hortumu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 103.05,
+        "url": "https://www.hepsiburada.com/mixpet-akvaryum-hava-hortumu-silikon-5-mt-pm-HBC00000C9XCJ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hc-05-bluetooth-modulu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 254.15,
+        "url": "https://www.hepsiburada.com/arduino-bluetooth-modul-hc05-kablosuz-iletisim-modulu-hc05-hc-05-pm-HB000004VA2W",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hc-sr04-ultrasonik-sensor": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 129.99,
+        "url": "https://www.hepsiburada.com/china-hc-sr04-ultrasonik-sensor-pm-HB0000046TMU",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hizli-yapistirici": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 69.9,
+        "url": "https://www.hepsiburada.com/pattex-trio-super-gel-mini-yapistirici-3x1-gr-1943764-pm-HBC0000AR7RY6",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "izopropil-alkol-sprey": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 144.78,
+        "url": "https://www.hepsiburada.com/bold-izopropil-alkol-ipa-99-9-saf-100-ml-sprey-ipa-temizlik-solventi-pm-HBC0000JMP3XT",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "jumper-kablo-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 195.9,
+        "url": "https://www.hepsiburada.com/arduino-120-li-disi-disi-erkek-erkek-erkek-disi-jumper-kablo-seti-pm-HBC00000EKO8Y",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kagit-maskeleme-bandi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 53,
+        "url": "https://www.hepsiburada.com/25mm-maskeleme-bandi-kagit-bant-pm-HB000008NORZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kapakli-cam-kavanoz": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 194.9,
+        "url": "https://www.hepsiburada.com/pasabahce-cam-kavanoz-210-cc-altin-kapakli-6-adet-bebek-mama-pm-HB00001AMQPE",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kopuk-uyumlu-yapistirici": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.99,
+        "url": "https://www.hepsiburada.com/akfix-310-kartonpiyer-strafor-yapistirici-310-ml-pm-HB00000H4J4Y",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kus-yemi-karisimi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/versele-laga-yabani-saglik-tohumu-500-gr-pm-HBC00005IKQX4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mum-esansi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 299,
+        "url": "https://www.hepsiburada.com/waxera-home-yogun-aromali-yasemin-orman-meyveleri-2-li-mum-esansi-seti-pm-HBC0000IR05ZD",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mumlu-dikis-ipi-0-6-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 464.99,
+        "url": "https://www.hepsiburada.com/sedefli-renk-0-6-mm-20-metre-mumlu-ip-sarac-deri-dikis-ipi-kolye-takitasarim-bileklik-ipi-pm-HBC0000MLNODR",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pasif-buzzer": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 69,
+        "url": "https://www.hepsiburada.com/robottr-arduino-buzzer-hoparlor-pasif-buzzer-raspberry-buzzer-hoparlor-pm-HB0000055N68",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pompa": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 155,
+        "url": "https://www.hepsiburada.com/knt-aluminyum-bisiklet-motosiklet-pompasi-ultra-guclu-el-pompasi-pm-HB00000OHKKZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "silikon-altlik-kalibi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 191.04,
+        "url": "https://www.hepsiburada.com/silikon-bardak-altligi-kalburabasti-sekillendirme-kalibi-petek-desenli-pm-HBC0000KD5HFR",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "spatula": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 249,
+        "url": "https://www.hepsiburada.com/3d-yazici-icin-1-adet-plastik-spatula-esnek-3d-baski-recine-temizleme-kaziyici-pm-HBC0000DB4OW0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "su-bazli-vernik": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 145,
+        "url": "https://www.hepsiburada.com/su-bazli-parlak-vernik-70-ml-pm-HBC00001FOQW4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "su-duzenleyici": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 290,
+        "url": "https://www.hepsiburada.com/crystalpro-aqua-conditioner-500-ml-akvaryum-su-duzenleyici-klor-ve-amonyak-giderici-mineral-takviyeli-su-bakim-cozumu-pm-HB00000EZGWZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "tarak": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 180.99,
+        "url": "https://www.hepsiburada.com/makrome-fircasi-ahsap-sapli-11cm-pm-HBC00004ZRL81",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "temiz-bez": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 209.93,
+        "url": "https://www.hepsiburada.com/senpai-potikareli-5-li-pamuklu-beslenme-sunum-ortusu-kurulama-bezi-servis-pecetesi-mutfak-havlusu-renkli-p-HBCV0000DEB6M2",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "uv-lamba": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 612,
+        "url": "https://www.hepsiburada.com/uv-led-lambasi-c4-plus-256w-57-tirnak-kurutucu-kalici-oje-protez-manikur-icin-super-guc-pm-HBC0000AKI678",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-240": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159.95,
+        "url": "https://www.hepsiburada.com/su-zimparasi-240-kum-ince-taneli-islak-kuru-zimpara-kagidi-pm-HBC0000F7F9M4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "1-72-olcek-plastik-ucak-maketi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 501.5,
+        "url": "https://www.hepsiburada.com/pm-model-northrop-f-5-a-freedom-fighter-pm-model-demonte-plastik-ucak-maket-kiti-pm-HBC00003OPCIW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "2wd-akilli-araba-sasi-kiti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 531.25,
+        "url": "https://www.hepsiburada.com/robokolik-2-tekerlekli-2wd-akilli-robot-araba-kiti-pm-HB00000B4XEN",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "6-li-aa-pil-yuvasi-6-pil": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 129.83,
+        "url": "https://www.hepsiburada.com/robodunya-6-li-aa-kapakli-anahtarli-kalin-kalem-pil-yuvasi-pm-HBC0000HNSW5L",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ahsap-cubuk-50-cm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/degerli-hobi-ahsap-kavela-cita-cubuk-kavela-1-kalite-yivsiz-6-mm-50-cm-8-adet-pm-HBC00005JCDKV",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ahsap-dubel-cubuk-6-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/degerli-hobi-ahsap-kavela-cita-cubuk-kavela-1-kalite-yivsiz-6-mm-50-cm-8-adet-pm-HBC00005JCDKV",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ahsap-veya-metal-halka-5-cm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 125,
+        "url": "https://www.hepsiburada.com/prestij-boncuk-dogal-ahsap-halka-5-cm-dis-kasiyici-makrome-halka-amigurumi-halka-10-adet-pm-HBC000070KYL3",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ahsap-vidasi-3-5-30-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 106.02,
+        "url": "https://www.hepsiburada.com/sunta-vidasi-3-5x30mm-100-li-paket-mobilya-ahsap-uygulamalari-icin-guclu-paslanmaz-vida-seti-pm-HBC0000DPSQ5D",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "akrilik-boya-yaldiz-boya": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179,
+        "url": "https://www.hepsiburada.com/cadence-antik-extra-altin-akrilik-ahsap-yaldiz-boya-120-ml-pm-HB000009FXLR",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "akrilik-merdane-veya-cam-sise": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 308.76,
+        "url": "https://www.hepsiburada.com/tues-ticaret-akrilik-rulo-merdane-pm-HBC00005P54WO",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "akvaryum-30-l": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 2507.5,
+        "url": "https://www.hepsiburada.com/keyf-cam-beyaz-akvaryum-50-x-20-x-35-cm-balik-dostu-4-mm-cam-malzeme-ile-tasarim-p-HBCV00000BJ2IN",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "akvaryum-isitici-50-w": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 924,
+        "url": "https://www.hepsiburada.com/atlantik-50w-yeni-nesil-akvaryum-isitici-yuksek-performansli-su-isitma-cihazi-pm-HB0000168G2S",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ara-boncuk": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159,
+        "url": "https://www.hepsiburada.com/yigit-aksesuar-3-mm-100-adet-altin-kaplama-gold-dorika-boncuk-ara-aparati-taki-malzemeleri-pm-HBC000014QTT5",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "aski-veya-ic-filtre": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 425,
+        "url": "https://www.hepsiburada.com/venusaqua-vs-410f-ic-filtre-400lt-h-pm-HBC00000RBYML",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "astar-ve-duvar-boyasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 749,
+        "url": "https://www.hepsiburada.com/filli-boya-ic-cephe-momento-seffaf-jel-astar-2-5lt-pm-HBC000064LVSD",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ayri-kucuk-saksi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 124,
+        "url": "https://www.hepsiburada.com/0-7-litre-10cm-kucuk-boy-tabaksiz-drenaj-izgarali-plastik-saksi-yakut-no1-p-HBCV00009FWVZZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "bisiklet-zincir-yagi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 259,
+        "url": "https://www.hepsiburada.com/proride-bisiklet-zincir-yagi-pm-HB00000DNJO4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "bitki-led-aydinlatma": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 635,
+        "url": "https://www.hepsiburada.com/orion-led-bitki-gelistirme-led-lamba-5v-usb-tam-spektrumlu-bitki-yetistirme-led-lamba-kare-gunisigi-bitki-isik-8w-pm-HBC00002YR6BO",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cam-bilye": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 71,
+        "url": "https://www.hepsiburada.com/royaleks-25-adet-karisik-renk-cam-misket-bilye-oyuncak-cam-bilya-gulle-pm-HBC00003RVJHG",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cam-kavanoz-isiya-dayanikli": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.99,
+        "url": "https://www.hepsiburada.com/2-adet-amber-bos-cam-dekoratif-krem-mum-baharat-kavanozu-siyah-metal-kapakli-2x100cc-boya-degil-pm-HBC0000BH818K",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "canli-bitki-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 195,
+        "url": "https://www.hepsiburada.com/akvaryum-bitkileri-elodea-densa-egeria-5-kok-pm-HB000012DO77",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "canli-yosun": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 644.94,
+        "url": "https://www.hepsiburada.com/kaya-yosunu-moss-1000-cm-teraryum-zemini-canli-yosun-pm-HBC00003W0R4G",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "dekor-taslari": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179.99,
+        "url": "https://www.hepsiburada.com/lin-dekor-beyaz-dolomit-tas-1-2-cm-5-kg-dere-tasi-cakil-tasi-bahce-sus-tasi-peyzaj-tasi-dekoratif-tas-pm-HBC0000AQ3WCC",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "dekoratif-kum-ince-cakil": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 191.04,
+        "url": "https://www.hepsiburada.com/vitasand-kuvars-dere-cakili-ince-kum-0-5-mm-1-kg-pm-HBC00001OH66Q",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "delik-zimbasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 349.99,
+        "url": "https://www.hepsiburada.com/sgs-kemer-delme-zimbasi-delik-acma-pensesi-6-delik-2-4-5-mm-arasi-9-225-mm-pm-HBC00009TLP5Q",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "depron-xps-kopuk-levha-3-6-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 90,
+        "url": "https://www.hepsiburada.com/europiyer-33-x-60-cm-xps-kopuk-maket-plaka-levhasi-beyaz-renk-5-mm-kalinlik-ozellikli-p-HBCV000072MRET",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "deri-bicagi-veya-maket-bicagi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 138.99,
+        "url": "https://www.hepsiburada.com/moonshop-metal-falcata-maket-bicagi-10-adet-yedek-uc-pm-HB00001CE9P5",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "deri-harf-damgasi-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 2997.13,
+        "url": "https://www.hepsiburada.com/deri-damgalama-metal-harf-ve-rakam-damga-seti-26-harf-ve-10-rakam-metal-deri-baski-6mm-pm-HBC0000MWTF24",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "deri-ignesi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 74.9,
+        "url": "https://www.hepsiburada.com/srtfootcare-deri-dikis-ignesi-2-adet-kaliteli-celikten-uretilmis-kor-uclu-p-HBCV000036JUEY",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "direnc-1-k-ve-2-k": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 98,
+        "url": "https://www.hepsiburada.com/arduino-100-adet-1-4w-direnc-paketi-10-100-330-420-1k-2k-10k-ohm-pm-HB000019SAD8",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "direnc-220": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159.58,
+        "url": "https://www.hepsiburada.com/50-adet-220r-direnc-220-ohm-1-4w-led-akim-sinirlama-arduino-devre-elektronik-pm-HBC0000G4EQAA",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "drenaj-tasi-ponza": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159.9,
+        "url": "https://www.hepsiburada.com/ponza-tasi-volkanik-curuf-5-litre-pm-HBC0000DNC11O",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "duz-puruzsuz-deniz-tasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 194.9,
+        "url": "https://www.hepsiburada.com/yassi-tas-1-kg-boyama-hobi-deniz-tasi-magnet-sus-tasi-5-9-cm-akvaryum-pm-HBC000062YY9J",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "duz-ve-yildiz-tornavida": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 164.99,
+        "url": "https://www.hepsiburada.com/neikotornavida-seti-duz-tornavida-yildiz-tornavida-kontrol-kalemi-pm-HB00000C7BSY",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "eksantrik-zimpara-makinesi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 2899,
+        "url": "https://www.hepsiburada.com/einhell-eksantrik-zimpara-tc-rs-425-e-4462005-pm-HBC00006FGF6Y",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "epoksi-pigment": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179,
+        "url": "https://www.hepsiburada.com/power-time-epoxy-opak-transparan-sivi-pigment-boya-epoksi-icin-30-gr-p-HBCV00000DE3L2",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "eritme-potu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 501.5,
+        "url": "https://www.hepsiburada.com/mum-seti-mum-eritme-kabi-500-ml-fitil-delme-aparati-hazir-mum-fitili-tutacagi-20li-mum-etiketi-pm-HBC00008GDFB2",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "fileli-tamir-bandi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 289.1,
+        "url": "https://www.hepsiburada.com/yapiskanli-derz-bandi-90-metre-ic-dis-cephe-siva-filesi-5-cm-tamir-sivasi-yalitim-montalama-bant-pm-HBC00009NA2IE",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "filtre-sungeri-10-10-15-cm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 131.67,
+        "url": "https://www.hepsiburada.com/filtre-sungeri-32x12x2-mavi-pm-HBC00007LIFIG",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "fitil-yapistiricisi-cift-tarafli-bant": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 198.99,
+        "url": "https://www.hepsiburada.com/carmelina-mum-fitili-sabitleyici-50-adet-pm-HB0000179TQ5",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "genis-agizli-cam-kase": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 184.99,
+        "url": "https://www.hepsiburada.com/20-cm-cam-salata-kasesi-orta-boy-meyve-tabagi-1-adet-aryavargas-pm-HBC000095UTJ3",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "gonye": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 145,
+        "url": "https://www.hepsiburada.com/bts-12241-marangoz-gonye-30-cm-pm-HB00000GP6N6",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "gonye-testere-veya-el-testeresi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 470,
+        "url": "https://www.hepsiburada.com/ww-ince-testere-ve-gonye-kutusu-seti-pm-HB00000Y1JEE",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hava-pompasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 330,
+        "url": "https://www.hepsiburada.com/sobo-sessiz-tek-cikisli-akvaryum-hava-motoru-3w-3-lt-dk-a-q-003-pm-HBC000097AVVW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hava-tasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 167.9,
+        "url": "https://www.hepsiburada.com/armaturk-akvaryum-hava-seti-hava-motoru-seti-3-metre-hava-hortumu-vana-cekvalf-ek-hava-tasi-pm-HB00001ADELP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hazir-dolgu-macunu-saten-alci": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/dalsan-satentek-saten-perdah-alcisi-tamir-tadilat-alci-5-kg-pm-HBC00000FRY9Z",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "hindistan-cevizi-lifi-veya-torf": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 173.27,
+        "url": "https://www.hepsiburada.com/hindistan-cevizi-torfu-100-dogal-torf-cocopeat-hindistan-cevizi-lifi-dogal-bitki-topragi-pm-HBC000094DQLT",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "igne-ve-firdondu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 259.57,
+        "url": "https://www.hepsiburada.com/hazir-olta-igne-seti-karbon-celik-4-numara-halkali-olta-kancasi-igne-seti-klipsli-firdondu-pm-HBC0000ADWHWX",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ince-matkap-ucu-igne": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 269.72,
+        "url": "https://www.hepsiburada.com/titi-cift-tarafli-mini-manuel-hobi-el-matkabi-ince-delici-kalem-matkap-pm-HBC00004IZSYP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ingiliz-anahtari": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 430.99,
+        "url": "https://www.hepsiburada.com/workpro-wp272003-250-mm-kurbagacik-anahtar-pm-HBC00006X1G8R",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "iskence": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 341.99,
+        "url": "https://www.hepsiburada.com/rox-0148-yayli-mandal-tip-kiskac-iskence-50-mm-2-li-pm-HBC00001TOGXV",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "izopropil-alkol-mikrofiber-bez": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 155.32,
+        "url": "https://www.hepsiburada.com/luxor-kimya-99-9-saf-ipa-izo-propil-temizleyici-195-ml-pm-HBC00005YB3XZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kalin-eldiven": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 510,
+        "url": "https://www.hepsiburada.com/dolphin-siyah-nitril-eldiven-pudrasiz-ekstra-kalin-l-100-lu-pm-HBC000031YDOW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kalin-ip-veya-tel": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 79,
+        "url": "https://www.hepsiburada.com/ozn-aksesuar-dogal-jut-ip-diy-orgulu-halat-ip-kirnap-amerikan-servis-yapimi-kedi-diregi-6mm-10-mt-pm-HBC00008M79GX",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "karbon-veya-ahsap-cubuk-4-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 130,
+        "url": "https://www.hepsiburada.com/sudor-ahsap-cubuk-30-cm-x-4-mm-yuvarlak-tasarim-18-adet-sanatsal-kullanim-icin-pm-HB00000W4VE2",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kaymaz-kece-ayak": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 119,
+        "url": "https://www.hepsiburada.com/kacar-yapiskanli-mobilya-masa-sandalye-parke-zemin-ayak-koruyucu-kaydirmaz-kecesi-20-mm-100-lu-paket-pm-HBC000077DC1I",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kil-kesici-kalip-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/yilbasi-temali-4-lu-kurabiye-kalibi-seti-polimer-kil-oyun-hamuru-damga-ve-kesici-sekillendirici-pm-HBC0000BF0C5T",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kiskac-mandal": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 198.16,
+        "url": "https://www.hepsiburada.com/artlantis-celik-kiskac-klips-25-mm-12-adet-1-paket-metal-mandal-binder-clips-kiska-60-sayfa-kapasiteli-cok-amacli-kullanim-pm-HBC00003YZBLD",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kostek-misinasi-0-20-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 449.99,
+        "url": "https://www.hepsiburada.com/avciadam-hunterline-0-20mm-2-4kg-100m-fluorocarbon-kostek-misinasi-pm-HBC00002LPB9G",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kozmetik-sabun-boyasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/e-m-s-mor-sivi-sabun-boyasi-sabun-bazi-boyasi-20-ml-1-kalite-pm-HBC0000506RA0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kucuk-ara-boncuk": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179,
+        "url": "https://www.hepsiburada.com/yigit-aksesuar-100-adet-gold-dorika-boncuk4-mm-ara-aparati-pm-HBC00000YWLTG",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kucuk-cakil-taslari": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.9,
+        "url": "https://www.hepsiburada.com/night-butik-orta-kucuk-boy-dogal-desenli-deniz-tasi-cakil-tasi-sus-tasi-pm-HBC000012XYF0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kucuk-kase": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 192.23,
+        "url": "https://www.hepsiburada.com/lav-vira-recellik-ballik-6-li-vir205-pm-mtyrnvir205",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kupe-kancasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 129.6,
+        "url": "https://www.hepsiburada.com/engin-tt-kupe-kancasi-nikel-kupe-aparati-20-cift-40-adet-pm-HBC000067QQ98",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kupe-kancasi-ve-halka-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 70,
+        "url": "https://www.hepsiburada.com/yigit-aksesuar-taki-malzeme-seti-120-parca-papagan-metal-halka-dugum-kapama-bileklik-sikma-kupe-kancasi-pm-HBC00000N07FP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kurutulmus-lavanta": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.99,
+        "url": "https://www.hepsiburada.com/lavanta-lavanta-cicegi-lavandula-angustifolia-kurutulmus-bitki-100-g-dogal-pm-HBC0000BJJYKQ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "l298n-motor-surucu-karti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 176,
+        "url": "https://www.hepsiburada.com/china-l298n-cift-motor-surucu-karti-pm-HB0000046T16",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "lastik-sokme-levyesi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 359,
+        "url": "https://www.hepsiburada.com/vona-trlreq-3-lu-plastik-lastik-sokme-levyesi-pm-HBC0000CZHD7X",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "led-kirmizi-sari-yesil-5-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 40,
+        "url": "https://www.hepsiburada.com/led-seti-10adet-kirmizi-sari-yesil-mavi-beyaz-5mm-pm-HB0000079I54",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "maket-astari": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 701.83,
+        "url": "https://www.hepsiburada.com/170-ml-aqueous-surfacer-1000-beyaz-sprey-astar-maket-boyasi-mr-hobby-b612-pm-HBC0000CV2ZR8",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "maket-yapistiricisi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 458.86,
+        "url": "https://www.hepsiburada.com/mr-hobby-gunze-mc127-40-ml-mr-cement-deluxe-plastik-yapistiricisi-pm-HBC00001HFB58",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "matkap-4-mm-uc": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 409.5,
+        "url": "https://www.hepsiburada.com/bosch-ahsap-matkap-ucu-set-2-6-mm-1-4-hex-saft-2608595525-pm-HB000001648L",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "matkap-7-mm-ahsap-ucu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.14,
+        "url": "https://www.hepsiburada.com/bosch-ahsap-matkap-ucu-7-105-mm-p-HRBSC2608596304",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "metal-tabanli-pamuk-fitil": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 149,
+        "url": "https://www.hepsiburada.com/citcitli-mum-fitili-16-numara-25-adet-11-cm-pm-HBC0000CMKMV9",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mikro-yesillik-tohumu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 119.9,
+        "url": "https://www.hepsiburada.com/garden-narter-mikro-yesillik-icin-microgreen-organik-kirmizi-lahana-tohumu-7-gr-1750-tohum-pm-HBC00007AZCFS",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mini-sukulent-ve-kaktus": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 200,
+        "url": "https://www.hepsiburada.com/5-li-sukulent-seti-5-5-cm-saksida-canli-mini-sukulentler-pm-HBC0000CE4W1A",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "misina-0-25-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 136.52,
+        "url": "https://www.hepsiburada.com/asso-universal-0-25-mm-100m-beyaz-monofilament-misina-3-8kg-ceker-pm-HBC0000FKOY68",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "misina-makasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 45.8,
+        "url": "https://www.hepsiburada.com/powerex-misina-ip-makasi-ergonomik-balikci-makasi-10-cm-uzunlukta-14-gram-agirlik-pm-HB00000RYZD0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "misina-makasi-tirnak-makasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 109.99,
+        "url": "https://www.hepsiburada.com/anchor-tirnak-makasi-buyuk-duz-pm-HBC0000M4LDZQ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "monofilament-misina-0-30-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159,
+        "url": "https://www.hepsiburada.com/optimus-pro-imroz-100-metre-monofilament-misina-p-HBCV000081PJ57",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "musluk-contasi-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159,
+        "url": "https://www.hepsiburada.com/ilhan-musluk-contasi-10-lu-pm-HBC000048OM7E",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mutfak-termometresi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 122,
+        "url": "https://www.hepsiburada.com/my-birdie-dijital-gida-termometresi-sut-mama-yogurt-corba-mayalama-mutfak-ozel-kutulu-pm-HBC000064UJVR",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "nem-seven-kucuk-bitki": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 249.9,
+        "url": "https://www.hepsiburada.com/isparta-hypoestes-hostes-fittonia-cicegi-cilli-kirmizi-10-20-cm-pm-HBC000050R8AS",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "nitril-eldiven-maske": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 352,
+        "url": "https://www.hepsiburada.com/dolphin-siyah-cok-amacli-nitril-muayene-eldiveni-m-beden-100-adet-mdr-p-HBV00000KNS2M",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "noktalama-kalemi-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 185,
+        "url": "https://www.hepsiburada.com/craft-hobi-cicek-top-utu-3-lu-set-cift-tarafli-tirnak-noktalama-aparati-dot-kalem-pm-HBC0000490NBD",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "ot-fideleri": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 306.98,
+        "url": "https://www.hepsiburada.com/bilgarden-geleneksel-anadolu-feslegen-reyhan-fidesi-5-adet-fide-pm-HBC00000DRRRE",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "oyun-hamuru-veya-kursun-macun": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 79,
+        "url": "https://www.hepsiburada.com/play-doh-4-lu-hamur-2-y-urun-rengi-degisiklik-gosterebilir-pm-HB00000575PH",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pamuk-makrome-ipi-3-5-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 193.99,
+        "url": "https://www.hepsiburada.com/makromecity-3-bukum-pamuk-makrome-ipi-3-mm-taranan-makrome-halat-ip-500-gr-ekru-p-HBV000019OAKW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pamuklu-bez": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199,
+        "url": "https://www.hepsiburada.com/pamuklu-muslin-10-lu-karisik-desen-bebek-agiz-mendili-cift-tarafli-pm-HBC0000B16R84",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "panc-delik-testere-32-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 379,
+        "url": "https://www.hepsiburada.com/biotech-16-parca-agac-ahsap-delme-alcipan-seti-panc-seti-delik-testere-kartonpiyer-seti-pm-HB000019P8SX",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "paslanmaz-ahsap-vidasi-3-5-35": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 106.02,
+        "url": "https://www.hepsiburada.com/sunta-vidasi-3-5x30mm-100-li-paket-mobilya-ahsap-uygulamalari-icin-guclu-paslanmaz-vida-seti-pm-HBC0000DPSQ5D",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pla-veya-petg-filament": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 730,
+        "url": "https://www.hepsiburada.com/creality-creality-ender-pla-filament-beyaz-1-75mm-1kg-standart-pm-HBC00004NNV4K",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "preslenmis-kuru-cicek": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 657.25,
+        "url": "https://www.hepsiburada.com/cnk-craft-shop-epoksi-recine-icin-dogal-preslenmis-cicek-seti-recine-ve-taki-icin-renkli-el-sanatlari-dekor-10-adet-pm-HBC0000G8C9HK",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "samandira-stoperi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/remixon-7015-s-stoper-balikcilik-urunu-s-boy-olcu-ile-samandira-kullanimina-uygun-p-OUTAVS91641183-S",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "seffaf-elastik-ip-0-8-mm": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 70,
+        "url": "https://www.hepsiburada.com/yigit-aksesuar-esnek-siyah-misina-lastik-ip-0-8-mm-5-metre-pm-HBC00008LXYYY",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "seffaf-epoksi-recine-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 510,
+        "url": "https://www.hepsiburada.com/stonechem-stonemix-super-seffaf-epoksi-recine-750gr-pm-HBC00005BPNAO",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "seffaf-gliserin-sabun-bazi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 636.65,
+        "url": "https://www.hepsiburada.com/seffaf-sabun-bazi-2-kg-yuksek-miktarda-gliserin-icerir-pm-HBC0000AGE8HB",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "silikon-kolye-ucu-kalibi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 259.24,
+        "url": "https://www.hepsiburada.com/kolye-ucu-silikon-kalibi-pm-HBC0000G8RBFI",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "silikon-sabun-kalibi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 171.93,
+        "url": "https://www.hepsiburada.com/andela-anne-cocuk-mum-beton-sabun-polyester-poliuretan-ve-kokulu-tas-silikon-kalibi-pm-HBC0000DTYIQW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "soya-mumu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 549,
+        "url": "https://www.hepsiburada.com/100-doga-golden-soya-wax-flake-yaprak-seklinde-organik-soya-wax-1-kg-mum-yapma-malzemesi-pm-HBC00007KKRRP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "spatula-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179,
+        "url": "https://www.hepsiburada.com/3-parca-dar-agiz-celik-spatula-seti-50-60-80-mm-macun-kazima-siva-spatulasi-pm-HBC0000RDFYD3",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "su-dolu-kap": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 179.9,
+        "url": "https://www.hepsiburada.com/plastart-5-5-lt-yuvarlak-renkli-badya-legen-pm-HB00000RSVNQ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "tahta-kasik": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 160,
+        "url": "https://www.hepsiburada.com/und-trade-4-lu-bambu-yemek-gerecleri-4-boy-bambu-kasik-ahsap-set-tahta-kasik-23-cm-28-cm-32-cm-pm-HBC00006AACO3",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "teflon-bant": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 53,
+        "url": "https://www.hepsiburada.com/muhtelif-nalburiye-teflon-bant-buyuk-pm-HBC00000446AW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "terraryum-topragi-torf-karisimi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 130,
+        "url": "https://www.hepsiburada.com/mf-botanik-ozel-kaktus-sukulent-teraryum-topragi-2-5-lt-p-HBV00000QW1PW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "tokmak-ve-kesim-altligi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 419.9,
+        "url": "https://www.hepsiburada.com/a3-kesme-mati-cift-tarafli-patchwork-kesme-tablasi-kesim-altligi-42-30-cm-yesil-pm-HBC000045N2M0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "toprak-ve-kucuk-bitkiler": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 200,
+        "url": "https://www.hepsiburada.com/5-li-sukulent-seti-5-5-cm-saksida-canli-mini-sukulentler-pm-HBC0000CE4W1A",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "usb-kablo": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 150,
+        "url": "https://www.hepsiburada.com/epson-103-l3250-1-5-metre-yazici-kablosu-usb-a-to-b-printer-cable-tum-markalara-uyumludur-1-5mt-pm-HBC0000B3AOB4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "uv-recine-veya-hizli-epoksi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 509.92,
+        "url": "https://www.hepsiburada.com/uv-recine-epoksi-seffaf-hard-type-kolye-anahtarlik-kupe-obje-yapimina-uygun-uv-resin-50-gr-pm-HBC00007TOR2P",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "uzun-cimbiz-ve-kasik": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 269.99,
+        "url": "https://www.hepsiburada.com/transformacion-uzun-30-cm-celik-cimbiz-akvaryum-masasi-719807-pm-HBC0000IQYFRJ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "yama-seti": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 142.92,
+        "url": "https://www.hepsiburada.com/lastik-yama-24-lu-ic-lastik-tamir-kiti-samyel-soguk-yama-seti-pm-HBC000083SKMZ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "yedek-ic-lastik": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 166.6,
+        "url": "https://www.hepsiburada.com/26-jant-uyumlu-oto-kalin-sibop-bisiklet-ic-lastik-26x1-90-2-15-pm-HBC0000O44ZT8",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "yuvarlak-agizli-pense-keski": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 199.9,
+        "url": "https://www.hepsiburada.com/yuvarlak-uclu-kargaburun-pense-taki-yapimi-tel-bukme-ve-halka-sekillendirme-pensesi-pm-HBC0000P53F4P",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-120-180-takoz": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 294.5,
+        "url": "https://www.hepsiburada.com/kubik-sunger-zimpara-120-ve-180-kum-100x70x25-mm-2-adet-takoz-el-zimparasi-pm-HBC0000IBGZGE",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-180-240": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 191.99,
+        "url": "https://www.hepsiburada.com/mobilyap-baytec-10-adet-180-kum-8-delikli-125-mm-cirt-zimpara-kagidi-el-zimparalari-avuc-ici-spiral-taslama-pm-HBC0000CQCVCJ",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-220": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 60,
+        "url": "https://www.hepsiburada.com/su-zimparasi-220-kum-5-adet-pm-HBC00001V0DO9",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-80-120-180-240": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 290,
+        "url": "https://www.hepsiburada.com/ugr-kagit-zimpara-su-zimpara-seti-60-80-120-240-2-ser-adet-a4-kagit-boyutunda-pm-HBC00004QNWCP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-cubugu": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 217,
+        "url": "https://www.hepsiburada.com/hobbytime-modelkits-ht764-zimpara-cubugu-320-800-grid-180-x-30-x-4-mm-pm-HBC0000D8MD0R",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-kagidi-120-240": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 290,
+        "url": "https://www.hepsiburada.com/ugr-kagit-zimpara-su-zimpara-seti-60-80-120-240-2-ser-adet-a4-kagit-boyutunda-pm-HBC00004QNWCP",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimpara-kagidi-240": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 159.95,
+        "url": "https://www.hepsiburada.com/su-zimparasi-240-kum-ince-taneli-islak-kuru-zimpara-kagidi-pm-HBC0000F7F9M4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zincir-temizleme-fircasi": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 96,
+        "url": "https://www.hepsiburada.com/motosiklet-ve-bisiklet-zincir-temizleme-fircasi-cift-tarafli-pm-HBC0000LDOSFC",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zincir-temizleyici": [
+      {
+        "magaza": "Hepsiburada",
+        "fiyat": 459,
+        "url": "https://www.hepsiburada.com/motul-yeni-c1-zincir-temizleme-spreyi-pm-HBC00004X3GBL",
+        "guncelleme": "2026-11-25"
       }
     ]
   }

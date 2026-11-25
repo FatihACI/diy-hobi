@@ -2,6 +2,7 @@
 // cikti/fiyatlar.json dosyasına yazar. Uygulama bu dosyayı internetten okur.
 // Çalıştırma: npm run topla   (önce bir kez: npm run aktar)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { pathToFileURL } from "node:url";
 import { kuralOlustur } from "./eslestir.mjs";
 import * as amazon from "./kaynaklar/amazon-tr.mjs";
 import * as manuel from "./kaynaklar/manuel.mjs";
@@ -62,7 +63,8 @@ export async function calistir({ kaynaklar = KAYNAKLAR, bugun = new Date().toISO
   return cikti;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Windows'ta da çalışsın: argv yolunu URL'ye çevirerek karşılaştır
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   calistir().catch((e) => {
     console.error(e.message);
     process.exit(1);
