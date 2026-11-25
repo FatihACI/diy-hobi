@@ -35,6 +35,12 @@
       "expo-asset",
       "expo-font",
       "@sentry/react-native"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "533a84d3-0ad0-4197-a2c0-985eb35d13cd"
+      }
+    },
+    "owner": "fatihaci"
   }
 }
