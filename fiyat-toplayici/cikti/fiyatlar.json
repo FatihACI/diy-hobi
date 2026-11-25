@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-25T17:01:16.473Z",
+  "guncelleme": "2026-11-25T17:08:28.325Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -316,6 +316,14 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "kolye-halkasi-zincir": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 415.8,
+        "url": "https://www.trendyol.com/tasmir/paslanmaz-celik-kolye-yapim-seti-klips-uzatma-zinciri-halka-ve-kapama-malzemeleri-p-1203029909",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "kontrplak-6-mm": [
       {
         "magaza": "Hepsiburada",
@@ -337,6 +345,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 929.9,
         "url": "https://www.hepsiburada.com/assur-12v-1-5ah-metal-sanziman-cift-akulu-bakir-sargi-24-parca-sarjli-matkap-akulu-vidalama-pm-HBC00007ZLDZ0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "mentese": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 199,
+        "url": "https://www.trendyol.com/bruel/antik-papatya-mentese-kucuk-desenli-ahsap-kutu-taki-tesbih-kapak-mentesesi-4-adet-p-1200320810",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -612,6 +628,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "testere": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 327.8,
+        "url": "https://www.trendyol.com/rox-wood/ryoba-cift-tarafli-ahsap-testere-160mm-p-1070883687",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "uv-lamba": [
       {
         "magaza": "Hepsiburada",
@@ -625,6 +649,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 159.95,
         "url": "https://www.hepsiburada.com/su-zimparasi-240-kum-ince-taneli-islak-kuru-zimpara-kagidi-pm-HBC0000F7F9M4",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zincir-asinma-olcer": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 179.9,
+        "url": "https://www.trendyol.com/asroya/bisiklet-zincir-olcum-olcme-aleti-asinma-olcme-p-125069836",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -668,6 +700,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "ahsap-kutuk-dilimi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 140,
+        "url": "https://www.trendyol.com/mutkin/dogal-agac-dilimi-13-14-cm-1-adet-kutuk-dilimi-1-5-cm-kalinlik-odun-dilimi-hobi-boyama-dekoratif-susleme-p-1172419774",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "ahsap-veya-metal-halka-5-cm": [
       {
         "magaza": "Hepsiburada",
@@ -689,6 +729,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 179,
         "url": "https://www.hepsiburada.com/cadence-antik-extra-altin-akrilik-ahsap-yaldiz-boya-120-ml-pm-HB000009FXLR",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "akrilik-maket-boyasi-seti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 195.04,
+        "url": "https://www.trendyol.com/nuvva/akrilik-boya-seti-6-renk-x-60-ml-buyuk-boy-tas-ahsap-seramik-tisort-tuval-boyama-acrylic-paint-set-p-1197217630",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -764,11 +812,35 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "bitkisel-tabaklanmis-deri-1-2-1-5-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 499,
+        "url": "https://www.trendyol.com/ipekbazaar/full-vejetal-vaketa-parca-deri-a5-14-8x21-cm-deri-hobi-icin-desene-ve-boyamaya-uygun-hakiki-deri-p-311971979",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "cam-bilye": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 71,
         "url": "https://www.hepsiburada.com/royaleks-25-adet-karisik-renk-cam-misket-bilye-oyuncak-cam-bilya-gulle-pm-HBC00003RVJHG",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cam-blok-4-8-18-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 550,
+        "url": "https://www.trendyol.com/ahsap/5x8-cm-x-100-cm-1-adet-cam-cita-ahsap-taslak-tahta-blok-kup-ve-kereste-p-741427582",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cam-damla-boncuk": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 29.9,
+        "url": "https://www.trendyol.com/yfhobi/5-adet-12-mm-damla-kristal-ustten-delik-cam-boncuk-seffaf-janjanli-mix-renk-1-kalite-p-949194048",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -793,6 +865,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 644.94,
         "url": "https://www.hepsiburada.com/kaya-yosunu-moss-1000-cm-teraryum-zemini-canli-yosun-pm-HBC00003W0R4G",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "cift-basli-percin-cakma-aparati": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 185.89,
+        "url": "https://www.trendyol.com/srtfootcare/percin-33-no-7mm-iki-taraf-kafa-250-adet-nikel-renk-p-1200202840",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -900,6 +980,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "el-testeresi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 327.8,
+        "url": "https://www.trendyol.com/rox-wood/ryoba-cift-tarafli-ahsap-testere-160mm-p-1070883687",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "epoksi-pigment": [
       {
         "magaza": "Hepsiburada",
@@ -945,6 +1033,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 184.99,
         "url": "https://www.hepsiburada.com/20-cm-cam-salata-kasesi-orta-boy-meyve-tabagi-1-adet-aryavargas-pm-HBC000095UTJ3",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "genis-alcak-saksi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 349.98,
+        "url": "https://www.trendyol.com/toxa/ayakli-kure-saksi-5-litre-25cm-plastik-drenajli-suzgecli-bonsai-bitki-cicek-saksisi-ufo-no2-p-625916922",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -1004,6 +1100,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "ince-firca-seti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 299,
+        "url": "https://www.trendyol.com/mynivora/craft-10-lu-6-renk-akrilik-boya-seti-ve-10-ince-uclu-firca-hobi-boyama-etkinligi-p-1252345690",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "ince-matkap-ucu-igne": [
       {
         "magaza": "Hepsiburada",
@@ -1060,11 +1164,27 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "kaydirmali-samandira-3-5-g": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 335,
+        "url": "https://www.trendyol.com/bozok-balikcilik/samandira-seti-15-adet-samandira-p-196759320",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "kaymaz-kece-ayak": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 119,
         "url": "https://www.hepsiburada.com/kacar-yapiskanli-mobilya-masa-sandalye-parke-zemin-ayak-koruyucu-kaydirmaz-kecesi-20-mm-100-lu-paket-pm-HBC000077DC1I",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kenar-yuvarlatici-kenar-cilasi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 269.9,
+        "url": "https://www.trendyol.com/derby/ep-silikonlu-deri-kenar-boyasi-mat-100ml-leathercraft-deri-hobi-siyah-p-123357458",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -1097,6 +1217,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 150,
         "url": "https://www.hepsiburada.com/e-m-s-mor-sivi-sabun-boyasi-sabun-bazi-boyasi-20-ml-1-kalite-pm-HBC0000506RA0",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "kozmetik-uyumlu-esans": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 178.63,
+        "url": "https://www.trendyol.com/lucas-romes/gul-esansi-25-ml-parfum-sabun-krem-yapimina-uygun-p-1146818606",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -1228,6 +1356,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "minyatur-ev-kapi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 150,
+        "url": "https://www.trendyol.com/top-collection/minyatur-peri-bahce-buyulu-gnome-ev-kapisi-kahverengi-p-1180609351",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "misina-0-25-mm": [
       {
         "magaza": "Hepsiburada",
@@ -1300,6 +1436,22 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "olcu-kabi-ve-karistirma-cubugu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 149,
+        "url": "https://www.trendyol.com/home/epoksi-plastik-olcu-kabi-karistirma-kabi-10-adet-40ml-olcu-kabi-recine-epoksi-mum-kokulutas-olcu-p-870626259",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "olta-ignesi-no-8-10": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 450,
+        "url": "https://www.trendyol.com/vmc/9224-bl-8-numara-igne-capraz-100-lu-kutu-siyah-p-666765458",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "ot-fideleri": [
       {
         "magaza": "Hepsiburada",
@@ -1321,6 +1473,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 193.99,
         "url": "https://www.hepsiburada.com/makromecity-3-bukum-pamuk-makrome-ipi-3-mm-taranan-makrome-halat-ip-500-gr-ekru-p-HBV000019OAKW",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pamuk-makrome-ipi-4-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 49.95,
+        "url": "https://www.trendyol.com/makromips/makrome-ip-10-metre-4-mm-pamuk-somek-burgulu-buklumlu-bukumlu-halat-ipi-hobi-p-336797634",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -1361,6 +1521,22 @@
         "magaza": "Hepsiburada",
         "fiyat": 657.25,
         "url": "https://www.hepsiburada.com/cnk-craft-shop-epoksi-recine-icin-dogal-preslenmis-cicek-seti-recine-ve-taki-icin-renkli-el-sanatlari-dekor-10-adet-pm-HBC0000G8C9HK",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pvc-boru-20-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 92.66,
+        "url": "https://www.trendyol.com/pimtas/u-pvc-yapistirma-muflu-boru-20-mm-3-metre-p-1204842318",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "pvc-kapak-20-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 17.07,
+        "url": "https://www.trendyol.com/pimtas/uh-pvc-kor-tapa-20-mm-1-adet-p-1204842444",
         "guncelleme": "2026-11-25"
       }
     ],
@@ -1492,6 +1668,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "uzun-balkon-saksisi-60-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 169.99,
+        "url": "https://www.trendyol.com/genel-markalar/hak-plastik-no2-uzun-balkon-saksisi-9-5-litre-17x18x50-cm-saksi-p-98233103",
+        "guncelleme": "2026-11-25"
+      }
+    ],
     "uzun-cimbiz-ve-kasik": [
       {
         "magaza": "Hepsiburada",
@@ -1521,6 +1705,14 @@
         "magaza": "Hepsiburada",
         "fiyat": 199.9,
         "url": "https://www.hepsiburada.com/yuvarlak-uclu-kargaburun-pense-taki-yapimi-tel-bukme-ve-halka-sekillendirme-pensesi-pm-HBC0000P53F4P",
+        "guncelleme": "2026-11-25"
+      }
+    ],
+    "zimba-4-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 250,
+        "url": "https://www.trendyol.com/ipekbazaar/tekli-vurma-zimba-deri-delik-delme-el-aleti-deri-hobi-icin-1-adet-p-837099426",
         "guncelleme": "2026-11-25"
       }
     ],
