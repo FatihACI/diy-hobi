@@ -1302,6 +1302,398 @@ export const ALTIN_ICERIK: Record<string, Icerik> = {
       "İp yetmedi: Başta kısa kesildi. Kısa kesmektense uzun kes; fazlası saçak olur.",
     ],
   },
+
+  // ───────────── Grup 3: El Sanatları (2/2) ─────────────
+  "kil-kupe": {
+    adimlar: [
+      a(
+        "Masayı hazırla ve kili yoğur",
+        "Polimer kil toz ve tüyü hemen tutar: masayı ve ellerini yıka, fırın kağıdı ser. Kili küçük parçalar halinde avucunda ısınana ve kolayca bükülene kadar yoğur. Açık renkle başla; koyu renkten sonra ellerini ıslak mendille sil.",
+        "10 dk",
+        "Kil ince rulo yapılıp katlanınca çatlamıyor; üstünde tüy ya da toz yok.",
+      ),
+      a(
+        "Mermer deseni yap",
+        "Seçtiğin 2–3 rengi kalem kalınlığında rulolar haline getir. Ruloları yan yana koyup birlikte bük, ikiye katla ve tekrar bük. 3–4 tekrar sonra durdur; fazla yoğurursan renkler karışıp tek renk olur.",
+        "10 dk",
+        "Renkler belirgin damarlar halinde, birbirine karışıp çamurlaşmamış.",
+      ),
+      a(
+        "3 mm aç ve kes",
+        "Kilin iki yanına 3 mm kalınlığında iki çubuk (ör. üst üste konmuş dondurma çubukları) koy, merdaneyi çubukların üstünde gezdirerek aç; kalınlık her yerde eşit olur. Kalıbı bastırıp düz kaldır, şekilleri fırın kağıdının üstünde bırak.",
+        "15 dk",
+        "Parçalar aynı kalınlıkta ve kenarları net; çifti birbirinin aynısı.",
+      ),
+      a(
+        "Kenarları ve yüzeyi düzelt",
+        "Kesim kenarlarındaki çapakları parmağınla yumuşakça yuvarlat. Parmak izlerini alkole batırılmış pamukla hafifçe sil.",
+        "10 dk",
+        "Yüzeyde parmak izi yok, kenarlarda keskin çapak kalmamış.",
+      ),
+      a(
+        "Halka deliğini aç",
+        "Kalın bir iğne ya da kürdanla kenardan 3 mm içeride delik aç; çok kenara açarsan pişince kırılır. Deliği iki yönden açarsan kenarı kabarmaz.",
+        "5 dk",
+        "Delik kenardan 3 mm içeride, iki yüzde de düzgün ve halka rahatça geçecek genişlikte.",
+      ),
+      a(
+        "Fırında pişir",
+        "Fırını ambalajdaki sıcaklığa önceden ısıt (genelde 110–130 °C); ev fırınları sapabildiği için mümkünse fırın termometresiyle kontrol et. Parçaları fırın kağıdında, seramik karo ya da tepsi üstünde ambalajdaki süre kadar (genelde 15–30 dk) pişir. Ortamı havalandır; kil yanarsa hemen fırını kapat ve pencereyi aç.",
+        "30 dk",
+        "Parçalar renk değiştirmemiş ya da kararmamış; soğuduktan sonra hafifçe bükülüyor ama kırılmıyor.",
+      ),
+      a(
+        "Soğut ve monte et",
+        "Parçaları fırın kağıdında tamamen soğut. Halkayı penseyle yana doğru aç (dışa açarsan şekli bozulur), küpe deliğinden ve kancanın alt halkasından geçir, aynı şekilde kapat.",
+        "15 dk",
+        "Halkalar kapalı ve aralıksız; küpeler kancadan sallandığında düz duruyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Pişen küpe kırılıyor: Az pişti ya da fırın düşük ısıtıyor. Ambalaj süresine uy, fırın termometresiyle kontrol et.",
+      "Kil kararıp yandı: Fırın ambalajdaki sıcaklığı aştı. Ev fırınları sapar; termometre kullan.",
+      "Renkler çamur gibi karıştı: Mermer deseni fazla yoğruldu. 3–4 bükme yeterli.",
+      "Yüzey toz ve tüy dolu: Masa ve eller temiz değildi. Fırın kağıdı üstünde, temiz ellerle çalış.",
+    ],
+  },
+
+  "taki-tabagi": {
+    adimlar: [
+      a(
+        "Kili 5 mm aç",
+        "Masaya fırın kağıdı ya da streç film ser. Kili avucunda biraz yoğur, iki yanına 5 mm kalınlığında çubuk koyarak merdane ya da şişeyle yuvarlak aç. Açtığın kili kase çapından 2–3 cm büyük bir daire olarak kes.",
+        "10 dk",
+        "Kil her yerde 5 mm, yüzeyinde çatlak yok.",
+      ),
+      a(
+        "Şekil ver",
+        "Kaseyi streç filmle sar; kil yapışmasın. Kili kasenin içine bastırarak ya da ters çevrilmiş kasenin üstüne yerleştirerek çanak şekli ver. Kenarları ıslak parmakla düzelt, fazla kili kes.",
+        "15 dk",
+        "Tabak kaseye eşit oturmuş, kenar kalınlığı her yerde aynı.",
+      ),
+      a(
+        "Kurumaya bırak",
+        "Tabağı kasenin üstünde, güneş ve kalorifer olmayan bir yerde kurut. 12 saat sonra kaseden ayır, ters çevir ki alt yüz de kurusun; toplam 24–48 saat bekle. Çatlak oluşursa biraz kili suyla macun kıvamına getirip doldur.",
+        "24–48 saat",
+        "Tabak her yerde açık renkli ve sert; dokununca serin gelmiyor (serinse içi hâlâ nemli).",
+      ),
+      a(
+        "Zımparala",
+        "Kenarları ve pürüzlü yerleri 240 kum zımparayla hafifçe düzelt. Tozu kuru bir fırçayla al; ıslak bezle silme, kil yumuşar.",
+        "10 dk",
+        "Kenarlar pürüzsüz, yüzeyde toz kalmamış.",
+      ),
+      a(
+        "Boya ve yaldız sür",
+        "Akrilik boyayla zemini ince 2 kat boya, katlar arasında 30 dakika beklet. Desenini çiz, en son kenarı yaldız boyayla boya. Her renk tamamen kuruduktan sonra diğerine geç.",
+        "30 dk + kuruma",
+        "Boya eşit, fırça izi az ve renkler birbirine akmamış.",
+      ),
+      a(
+        "Vernikle",
+        "Boya tamamen kuruyunca su bazlı verniği ince bir kat sür, 2 saat kurut, ikinci katı at. Vernik tabağı nem ve kire karşı korur ama suya dayanıklı yapmaz.",
+        "15 dk + 4 saat",
+        "Yüzey eşit parlak ve elle dokununca yapışmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Kururken çatladı: Çok hızlı kurudu (güneş, kalorifer) ya da kalınlık eşit değil. Serin yerde, eşit kalınlıkta kurut.",
+      "Kaseden çıkmıyor: Kase streç filmle sarılmadı. Önce kaseyi sar.",
+      "Tabak yumuşadı: Islak bezle silindi ya da su değdi. Hava ile kuruyan kil suya dayanıksızdır; içine su koyma.",
+      "Boya kabarcık yaptı: Kil tam kurumadan boyandı. En az 24 saat bekle.",
+    ],
+  },
+
+  "deri-anahtarlik": {
+    adimlar: [
+      a(
+        "Uçları yuvarlat",
+        "Deri şeridi kesim altlığına koy. Bir bozuk parayı şeridin ucuna dayayıp kenarından kalemle çiz. Maket bıçağını çizgi boyunca kısa ve dikkatli hareketlerle sürerek iki ucu da yuvarlat.",
+        "10 dk",
+        "İki uç aynı yuvarlaklıkta, kesik kenarda tırtık yok.",
+      ),
+      a(
+        "Harflerin yerini işaretle",
+        "Damgalayacağın yazıyı şeridin hangi yüzüne ve nereye basacağına karar ver: katlanınca öne gelen yarıya. Harflerin ortasını kurşun kalemle çok hafif işaretle; aralıkları önceden görürsün.",
+        "5 dk",
+        "Yazı katlanınca görünecek tarafta ve ortalanmış.",
+      ),
+      a(
+        "Nemlendir ve damgala",
+        "Deriyi nemli süngerle sil; renk koyulaşıp yeniden açılmaya başlayınca damgalamaya hazırdır. Deriyi sert bir zemine (mermer, tezgâh) koy. Damgayı dik tut, tokmakla tek ve kararlı bir vuruş yap; ikinci vuruş gölge yapar.",
+        "15 dk",
+        "Harfler net ve eşit derinlikte; çift iz ya da kayma yok.",
+      ),
+      a(
+        "Kurumasını bekle",
+        "Deriyi 30 dakika oda sıcaklığında kurut. Saç kurutma makinesi ya da güneş kullanma; deri sertleşir ve çatlar.",
+        "30 dk",
+        "Deri eski rengine dönmüş ve dokununca nemli değil.",
+      ),
+      a(
+        "Delik aç",
+        "Şeridi anahtarlık halkasından geçir ve uçları üst üste gelecek şekilde katla. İki katı birlikte mandalla tut, kesim altlığı üstünde delik zımbasıyla, uçtan 1 cm içeride del.",
+        "5 dk",
+        "İki kattaki delikler tam üst üste.",
+      ),
+      a(
+        "Perçinle",
+        "Perçinin uzun (erkek) parçasını alttan, şapka (dişi) parçasını üstten deliğe yerleştir. Çakma aparatını şapkanın üstüne koy, sert zeminde tokmakla 2–3 kez vur.",
+        "5 dk",
+        "Perçin sıkı, döndürünce oynamıyor ve şapka yamulmamış.",
+      ),
+    ],
+    sikHatalar: [
+      "Harfler silik çıktı: Deri kuru ya da zemin yumuşaktı. Nemlendir ve mermer gibi sert zeminde vur.",
+      "Harfler çift görünüyor: İki kez vuruldu ve damga kaydı. Tek, kararlı vuruş yap.",
+      "Perçin dönüyor: Perçin boyu deriye göre uzun. İki kat deri kalınlığına uygun perçin seç.",
+      "Damga tutmadı: Krom tabaklanmış deri kullanıldı. Bitkisel tabaklanmış deri kullan.",
+    ],
+  },
+
+  "deri-kartlik": {
+    adimlar: [
+      a(
+        "Kalıbı kes",
+        "Önce kartondan şablon hazırla: gövde 10 × 7 cm, cepler 10 × 5,5 cm. Şablonu deriye koyup kalemle çiz. Çelik cetveli parmaklarının önünde tutarak keskin bıçakla, bastırmadan 2–3 hafif geçişte kes.",
+        "30 dk",
+        "Kenarlar düz ve dik, köşeler 90°; parçalar şablonla birebir aynı.",
+      ),
+      a(
+        "Parçaları hizala",
+        "Cepleri gövdenin üstüne alt kenarlar ve yanlar tam üst üste gelecek şekilde koy. Mandal ya da kıskaçla tut; dikiş boyunca kaymamalılar.",
+        "10 dk",
+        "Kenarlar tam üst üste, parmakla dokununca basamak hissedilmiyor.",
+      ),
+      a(
+        "Dikiş çizgisini çiz",
+        "Kenardan 3 mm içeride, yanlar ve alt boyunca bir çizgi çiz (pergel ya da cetvel ile). Üst kenar açık kalacak; kartlar oradan girer.",
+        "10 dk",
+        "Çizgi her yerde kenardan 3 mm içeride ve üst kenar boş.",
+      ),
+      a(
+        "Dikiş deliklerini aç",
+        "Parçaları üst üste tutarak kesim altlığına koy. Zımbanın dişlerini çizgiye oturt, tokmakla dik vur. Bir sonraki vuruşta zımbanın ilk dişini son açılan deliğe koy; aralıklar böylece eşit kalır. Köşede zımbayı köşegene göre çevir.",
+        "30 dk",
+        "Delikler eşit aralıklı, çizginin üstünde ve tüm katlardan geçmiş.",
+      ),
+      a(
+        "Saraç dikişiyle dik",
+        "İpi dikiş boyunun 4 katı uzunlukta kes, iki ucuna birer iğne tak. İlk delikten geçirip iki ucu eşitle. Her delikte önce bir iğneyi, sonra diğerini aynı delikten karşı yönden geçir ve ikisini eşit kuvvetle çek. İki iğnenin geçiş sırasını hiç değiştirme.",
+        "60 dk",
+        "Dikişler iki yüzde de eşit eğimli ve aynı gerginlikte.",
+      ),
+      a(
+        "Dikişi bitir",
+        "Son delikten sonra 2 delik geri dikerek ipi kilitle. İpi deriye yakın kes; açılmasın diye ucuna bir damla yapıştırıcı sür. Dikişleri tokmağın düz yüzüyle hafifçe dövmek onları deriye oturtur.",
+        "10 dk",
+        "Uçlar görünmüyor ve çekince dikiş sökülmüyor.",
+      ),
+      a(
+        "Kenarları bitir",
+        "Kenarları zımparayla hizala, kenar yuvarlatıcıyla köşeleri al. Kenar cilasını ince sür, kuruyunca kanvas bezle hızlıca ovarak parlat; ısınan cila kenarı mühürler.",
+        "30 dk",
+        "Katlar kenarda tek parça gibi görünüyor, kenar parlak ve tüylenmiyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Dikişler eğri ve düzensiz: İğne sırası arada değişti. Her delikte aynı iğneyle başla.",
+      "Delikler kaydı: Parçalar sabitlenmeden delindi. Mandalla tut, tüm katları birlikte del.",
+      "Kartlar sığmıyor: Dikiş çok içeriden geçti. Dikiş çizgisini kenardan 3 mm'de tut.",
+      "Bıçak kaydı ve deri yırtıldı: Tek seferde bastırılarak kesildi. Hafif ve birkaç geçişle kes.",
+    ],
+  },
+
+  "dogal-tas-bileklik": {
+    adimlar: [
+      a(
+        "Bileğini ölç",
+        "Mezurayı bileğin kemiğinin hemen üstünden, sıkmadan sar. Ölçüye 1–1,5 cm ekle; bu bilekliğin rahat oturacağı uzunluktur (çoğu yetişkin için 17–18 cm). Mezura yoksa bir ip sarıp cetvelle ölç.",
+        "5 dk",
+        "Ölçü not edildi ve 1–1,5 cm pay eklendi.",
+      ),
+      a(
+        "İpi gerdir",
+        "Elastik ipten bilek ölçüsü + 15 cm kes. İpi iki elinle birkaç kez uzunlamasına gerdir; ilk gerilmeyi şimdi yaparsan bileklik takıldıktan sonra gevşemez.",
+        "2 dk",
+        "Bıraktığında ip eski boyuna dönüyor ve gerdirirken kopmadı.",
+      ),
+      a(
+        "Deseni masada dene",
+        "Boncukları bir havlu üstünde ya da bir oluğa (ör. katlanmış kâğıt) düz dizip deseni gör. Toplam uzunluğun bilek ölçüsüne eşit olduğunu cetvelle kontrol et; gerekiyorsa boncuk ekle ya da çıkar.",
+        "10 dk",
+        "Dizilen boncukların uzunluğu ölçüye eşit ve desen beğendiğin gibi.",
+      ),
+      a(
+        "Boncukları diz",
+        "İpin bir ucunu mandalla tut ki boncuklar kaçmasın. Boncukları masadaki sırayla ipe geçir.",
+        "10 dk",
+        "Tüm boncuklar ipte, desen sırası bozulmamış.",
+      ),
+      a(
+        "Cerrah düğümüyle bağla",
+        "İki ucu çaprazla ve bir kez değil iki kez birbirinin içinden geçirerek düğüm at; boncuklar arasında boşluk kalmayacak kadar gerdir ve sık. Üstüne bir düğüm daha at. Düğüme sadece bir damla jel yapıştırıcı sür; fazlası ipi sertleştirip kırar.",
+        "5 dk",
+        "Düğüm sıkı, boncuklar arasında ip görünmüyor ve yapıştırıcı sadece düğümde.",
+      ),
+      a(
+        "Uçları kes ve düğümü gizle",
+        "Yapıştırıcı kuruyunca (ambalajdaki süre, genelde 10–15 dk) uçları düğümden 2–3 mm bırakarak kes. Düğümü, deliği biraz geniş bir boncuğun ya da ara boncuğun içine kaydır.",
+        "15 dk",
+        "Düğüm görünmüyor ve bileklik takılıp çıkarılınca açılmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Bileklik birkaç günde gevşedi: İp önceden gerdirilmedi. Dizmeden önce gerdir.",
+      "Düğüm açıldı: Tek düğüm atıldı ya da yapıştırıcı kullanılmadı. Cerrah düğümü + bir damla yapıştırıcı.",
+      "İp düğümden koptu: Fazla yapıştırıcı ipi sertleştirdi. Sadece bir damla sür.",
+      "Bileklik dar geldi: Ölçüye pay eklenmedi. 1–1,5 cm ekle.",
+    ],
+  },
+
+  "boncuk-kupe": {
+    adimlar: [
+      a(
+        "Boncukları diz",
+        "İğne çiviye sırasıyla bir ara boncuk, damla boncuk ve iki ara boncuk geçir. Çivinin başı en alttaki boncuğu tutar; boncuk çivi başından kayıp çıkıyorsa en alta bir küçük ara boncuk daha koy.",
+        "5 dk",
+        "Boncuklar çivinin başına oturmuş ve aşağıdan kayıp çıkmıyor.",
+      ),
+      a(
+        "Fazla teli kes",
+        "En üstteki boncuğun üstünde 1 cm tel bırak, gerisini keskiyle kes. Keserken telin uçan ucunu parmağınla tut ve yüzünü uzak tut; küçük tel parçası göze sıçrayabilir.",
+        "2 dk",
+        "Boncukların üstünde tam 1 cm tel kalmış.",
+      ),
+      a(
+        "Teli 90° bük",
+        "Teli en üstteki boncuğun hemen üstünden parmağınla ya da düz penseyle yana doğru 90° bük.",
+        "2 dk",
+        "Bükülen tel, boncuk sırasına dik ve büküm boncuğun tam üstünde.",
+      ),
+      a(
+        "Halka yap",
+        "Yuvarlak penseyle telin ucunu tut, bileğini çevirerek teli pensenin ağzı etrafına sar ve bükümün olduğu yere kadar kapat. Halka ortalanmış ve kapalı olmalı.",
+        "5 dk",
+        "Halka tam yuvarlak, kapalı ve boncuk sırasının tam üstünde ortalanmış.",
+      ),
+      a(
+        "Kancaya tak",
+        "Halkayı penseyle yana doğru biraz aç (dışa doğru açarsan yuvarlaklığı bozulur), kancanın alt halkasına geçir ve aynı şekilde kapat.",
+        "3 dk",
+        "Halka aralıksız kapanmış ve küpe kancadan düz sarkıyor.",
+      ),
+      a(
+        "Eşini yap ve karşılaştır",
+        "İkinci küpeyi aynı sırayla yap. İkisini yan yana tutup boylarını karşılaştır; farklıysa halkayı açıp teli düzelt.",
+        "10 dk",
+        "İki küpe aynı boyda ve aynı açıyla sallanıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Halka açılıp boncuk düştü: Halka tam kapatılmadı. Bükümün olduğu yere kadar sar.",
+      "Halka yamuk ve oval: Dışa doğru açıldı. Halkaları her zaman yana doğru aç-kapat.",
+      "Küpeler farklı boyda: Tel farklı uzunlukta kesildi. Her ikisinde de 1 cm bırak.",
+      "Kulakta kızarıklık yaptı: Kanca nikelli. Nikelsiz ya da cerrahi çelik kanca kullan.",
+    ],
+  },
+
+  "tas-boyama": {
+    adimlar: [
+      a(
+        "Taşı temizle",
+        "Taşları ılık sabunlu suyla fırçalayarak yıka, tamamen kurut (en az 1 saat ya da bir gece). Nemli taşa boya tutmaz ve sonradan kabarır.",
+        "10 dk + kuruma",
+        "Taş kuru, üstünde toz ve kum yok.",
+      ),
+      a(
+        "Zemin rengini sür",
+        "Taşın üst yüzünü koyu bir renkle (lacivert, siyah) fırçayla boya. 30 dakika kurut, ikinci katı at; koyu zemin noktaların parlak görünmesini sağlar.",
+        "15 dk + 1 saat",
+        "Zemin örtücü, alttan taşın rengi görünmüyor ve boya yapışkan değil.",
+      ),
+      a(
+        "Merkezi belirle ve büyük noktayı koy",
+        "Taşın ortasını gözle ya da kurşun kalemle hafifçe işaretle. En büyük noktalama ucunu boyaya batırıp merkeze dik olarak bastır ve kaldır.",
+        "5 dk",
+        "Merkez noktası yuvarlak ve taşın ortasında.",
+      ),
+      a(
+        "Halkaları diz",
+        "Merkezin etrafına bir halka halinde eşit aralıklı noktalar koy. Her noktadan önce ucu boyaya yeniden batır; böylece noktalar eşit büyüklükte olur. Dışa doğru her halkada bir boy küçük ya da büyük uç kullanarak 4–6 halka yap.",
+        "40 dk",
+        "Her halkadaki noktalar aynı boyda ve merkezden eşit uzaklıkta.",
+      ),
+      a(
+        "Noktaların üstüne detay ekle",
+        "Büyük noktalar kuruyunca (15–20 dk) üstlerine farklı renkte daha küçük noktalar koy. Islakken üst üste koyarsan renkler karışır.",
+        "20 dk",
+        "Üstteki noktalar alttakilerin ortasında ve renkler karışmamış.",
+      ),
+      a(
+        "Kurut ve vernikle",
+        "Taşı 24 saat kurut; kalın noktaların içi geç kurur. Su bazlı verniği yumuşak fırçayla, noktaları ezmemek için tek yönde ve ince sür.",
+        "24 saat + 15 dk",
+        "Vernik eşit parlak, noktalar dağılmamış ve yüzey yapışmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Noktalar giderek küçüldü: Her noktadan önce boyaya batırılmadı. Her noktada yeniden batır.",
+      "Vernik noktaları dağıttı: Boya tam kurumadan verniklendi. 24 saat bekle.",
+      "Halkalar yamuk: Merkez belirlenmeden başlandı. Önce merkezi işaretle, halkaları ona göre diz.",
+      "Boya kabardı: Taş nemliydi. Taşı tamamen kurut.",
+    ],
+  },
+
+  "pirografi-pano": {
+    adimlar: [
+      a(
+        "Yüzeyi hazırla",
+        "Kütük dilimini 180, sonra 240 kumla lif yönünde zımparala; pürüzsüz yüzeyde kalem takılmadan kayar. Tozu kuru fırçayla al. Yüzeyde vernik, boya ya da cila olmadığından emin ol.",
+        "20 dk",
+        "Yüzey pürüzsüz ve çıplak ahşap; eli gezdirince takılma yok.",
+      ),
+      a(
+        "Deseni aktar",
+        "Karbon kağıdını boya yüzü ahşaba gelecek şekilde koy, deseni üstüne yerleştir ve bantla sabitle. Desenin hatlarını kurşun kalemle hafif bastırarak çiz. Köşeyi kaldırıp aktarılıp aktarılmadığını kontrol et.",
+        "20 dk",
+        "Desenin tüm hatları ahşapta ince ve net görünüyor.",
+      ),
+      a(
+        "Hurda ahşapta dene",
+        "Kalemi standına koyup fişe tak, orta ısıya ayarla ve 2 dakika ısınmasını bekle. Aynı ağaçtan bir hurda parçada çizgi çek: ısıyı ve hızı, çizgi kahverengi olup yanık siyah halka bırakmayacak şekilde ayarla.",
+        "10 dk",
+        "Deneme çizgisi eşit renkli; başında ve sonunda yanık leke yok.",
+      ),
+      a(
+        "Ana hatları yak",
+        "Kalemi kurşun kalem gibi tut, bileğini masaya daya. Ucu ahşaba bastırmadan değdir ve sabit hızda çek; yavaşlarsan koyulaşır, durursan yanık nokta kalır. Uzun çizgilere hareket ederken başla, hareket ederken bitir.",
+        "60 dk",
+        "Hatlar sürekli ve eşit kalınlıkta; çizgi başlarında siyah nokta yok.",
+      ),
+      a(
+        "Gölgelendir",
+        "Düz (kürek) uca geç ve ısıyı düşür. Uç değiştirmeden önce kalemi kapat ve ucun soğumasını bekle, penseyle değiştir. Gölge alanlarında küçük dairesel hareketlerle açıktan koyuya doğru katman katman çalış; bir anda koyulaştırmaya çalışma.",
+        "60 dk",
+        "Gölgeler açıktan koyuya yumuşak geçiyor, belirgin leke yok.",
+      ),
+      a(
+        "Temizle ve vernikle",
+        "Kalemi kapatıp standında soğumaya bırak. Görünen karbon izlerini yumuşak silgiyle sil, tozu fırçayla al. Mat verniği ince bir kat sür, kuruyunca ikinci kat at.",
+        "15 dk + kuruma",
+        "Karbon izi kalmamış, vernik eşit ve parlama yapmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Çizgi başlarında siyah noktalar var: Kalem ahşapta bekletildi. Ucu hareket halindeyken değdir ve kaldır.",
+      "Çizgi kalınlığı değişiyor: Hız sabit değil. Bileğini masaya dayayıp eşit hızda çek.",
+      "Gölge lekeli: Isı çok yüksek. Isıyı düşür, katman katman koyulaştır.",
+      "Kalem takılıyor: Yüzey yeterince zımparalanmadı. 240 kumla pürüzsüzleştir.",
+    ],
+    guvenlikEk: [
+      "Kalemi kullanmadığın her an standına koy; sıcak ucu masaya bırakma ve fişten çekmeden yanından ayrılma.",
+    ],
+  },
 };
 
 // Proje verisine Altın işaretini ve (varsa) derin içeriği uygular
