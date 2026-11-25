@@ -435,3 +435,171 @@ export const kabarcik = (x: number, y: number): Cizgi => ({
   d: [daire(x, y, 2), daire(x + 3, y - 9, 2.5), daire(x - 2, y - 19, 2), daire(x + 2, y - 28, 3)].join(" "),
   w: 0.9,
 });
+
+// ---------- El sanatları parçaları ----------
+// Tahta (üstten): sol üst (x,y); lif çizgileri uzun kenar boyunca
+export function tahta(x: number, y: number, en: number, boy: number, lif = true): Cizgi[] {
+  const liste: Cizgi[] = [{ d: kutu(x, y, en, boy), w: 1.8, dolgu: true }];
+  if (lif) {
+    let d = "";
+    for (let j = 1; j <= 3; j++) {
+      const yy = r(y + (boy * j) / 4);
+      d += `M${x + 6} ${yy} Q${r(x + en * 0.3)} ${yy - 2} ${r(x + en * 0.55)} ${yy} T${x + en - 6} ${yy} `;
+    }
+    liste.push({ d: d.trim(), w: 0.5 });
+  }
+  return liste;
+}
+
+// İşkence (C-klemp, yandan): sıkma noktası (x,y) üst çene, kol aşağı
+export const iskence = (x: number, y: number, ac = 24): Cizgi[] => [
+  {
+    d: `M${x - 6} ${y - 6} L${x - 6} ${y - 12} L${x + 26} ${y - 12} L${x + 26} ${y + ac + 12} L${x - 6} ${y + ac + 12} L${x - 6} ${y + ac + 6}`,
+    w: 2,
+  },
+  { d: `M${x} ${y - 6} L${x} ${y - 2} M${x - 6} ${y - 6} L${x + 6} ${y - 6}`, w: 1.6 },
+  { d: `M${x} ${y + ac + 6} L${x} ${y + ac} M${x - 6} ${y + ac + 6} L${x + 6} ${y + ac + 6}`, w: 1.6 },
+  { d: `M${x} ${y + ac + 12} L${x} ${y + ac + 26} M${x - 7} ${y + ac + 26} L${x + 7} ${y + ac + 26}`, w: 1.8 },
+];
+
+// Dekupaj / kıl testere: bıçak üstten (x,y) aşağı boy; C çerçeve sağa, sap altta
+export const dekupaj = (x: number, y: number, boy = 34): Cizgi[] => [
+  { d: `M${x} ${y} L${x} ${y + boy}`, w: 0.9 },
+  { d: `M${x} ${y} C${x + boy * 1.2} ${y - boy * 0.25} ${x + boy * 1.2} ${y + boy * 1.25} ${x} ${y + boy}`, w: 1.8 },
+  { d: `M${x} ${y + boy} L${r(x - 6)} ${r(y + boy + 14)}`, w: 3.4 },
+];
+
+// El testeresi: diş hattı sol uç (x,y) → sağa en; sap sağda
+export function testere(x: number, y: number, en = 80): Cizgi[] {
+  let dis = `M${x} ${y}`;
+  for (let i = 4; i <= en; i += 4) dis += ` L${x + i - 2} ${y + 3} L${x + i} ${y}`;
+  return [
+    { d: `M${x} ${y} L${x} ${y - 10} L${x + en} ${y - 16} L${x + en} ${y}`, w: 1.4, dolgu: true },
+    { d: dis, w: 0.7 },
+    {
+      d: `M${x + en} ${y - 18} L${x + en + 20} ${y - 22} Q${x + en + 26} ${y - 8} ${x + en + 20} ${y + 4} L${x + en} ${y + 2} Z`,
+      w: 1.6,
+      dolgu: true,
+    },
+  ];
+}
+
+// Gönye (L): iç köşe (x,y), kollar sağa ve aşağı
+export const gonye = (x: number, y: number, k = 40): Cizgi[] => [
+  {
+    d: `M${x} ${y} L${x + k} ${y} L${x + k} ${y - 6} L${x - 6} ${y - 6} L${x - 6} ${y + k} L${x} ${y + k} Z`,
+    w: 1.5,
+    dolgu: true,
+  },
+];
+
+// Zımpara takozu: sol üst (x,y); alt yüz zımparalı
+export const zimpara = (x: number, y: number, en = 36, boy = 14): Cizgi[] => [
+  { d: kutu(x, y, en, boy), w: 1.6, dolgu: true },
+  { d: zikzakYol(x + 2, y + boy, x + en - 2, y + boy), w: 0.6 },
+];
+function zikzakYol(x1: number, y1: number, x2: number, y2: number) {
+  let d = `M${x1} ${y1 + 1}`;
+  for (let x = x1 + 3; x <= x2; x += 3) d += ` L${x} ${y1 + (((x - x1) / 3) % 2 ? 3 : 1)}`;
+  return d;
+}
+
+// Bez (buruşuk kumaş): merkez (x,y)
+export const bez = (x: number, y: number): Cizgi[] => [
+  {
+    d: `M${x - 18} ${y + 6} Q${x - 22} ${y - 6} ${x - 10} ${y - 10} Q${x} ${y - 16} ${x + 10} ${y - 9} Q${x + 22} ${y - 6} ${x + 18} ${y + 6} Q${x} ${y + 12} ${x - 18} ${y + 6} Z`,
+    w: 1.4,
+    dolgu: true,
+  },
+  {
+    d: `M${x - 10} ${y - 2} Q${x - 2} ${y - 6} ${x + 6} ${y - 1} M${x - 6} ${y + 4} Q${x + 2} ${y + 1} ${x + 10} ${y + 4}`,
+    w: 0.7,
+  },
+];
+
+// Termometre (çubuk): üst (x,y), boy aşağı, uçta hazne
+export const termometre = (x: number, y: number, boy = 50): Cizgi[] => [
+  {
+    d: `M${x - 2.5} ${y} L${x - 2.5} ${y + boy} M${x + 2.5} ${y} L${x + 2.5} ${y + boy} M${x - 2.5} ${y} Q${x} ${y - 4} ${x + 2.5} ${y}`,
+    w: 1.3,
+  },
+  { d: daire(x, y + boy + 3, 4), w: 1.3, dolgu: true },
+  { d: `M${x} ${y + 12} L${x} ${y + boy}`, w: 1.6 },
+];
+
+// Tencere (yandan): üst kenar ortası (cx,y)
+export const tencere = (cx: number, y: number, en = 80, boy = 34): Cizgi[] => [
+  {
+    d: `M${cx - en / 2} ${y} L${cx - en / 2 + 4} ${y + boy} L${cx + en / 2 - 4} ${y + boy} L${cx + en / 2} ${y}`,
+    w: 1.8,
+    dolgu: true,
+  },
+  {
+    d: `M${cx - en / 2 - 12} ${y + 6} L${cx - en / 2} ${y + 6} M${cx + en / 2} ${y + 6} L${cx + en / 2 + 12} ${y + 6}`,
+    w: 2.2,
+  },
+];
+
+// Küçük alev: taban ortası (x,y)
+export const alev = (x: number, y: number, s = 1): Cizgi => ({
+  d: `M${x} ${y} Q${r(x - 5 * s)} ${r(y - 6 * s)} ${x} ${r(y - 14 * s)} Q${r(x + 5 * s)} ${r(y - 6 * s)} ${x} ${y} Z`,
+  w: 1.1,
+  dolgu: true,
+});
+
+// Silikon kalıp (yandan kesit): sol üst (x,y), n göz
+export function kalip(x: number, y: number, n = 3, goz = 30, derin = 16): Cizgi[] {
+  const en = n * goz + (n + 1) * 6;
+  let ic = "";
+  for (let i = 0; i < n; i++) {
+    const gx = x + 6 + i * (goz + 6);
+    ic += `M${gx} ${y} L${gx + 2} ${y + derin} L${gx + goz - 2} ${y + derin} L${gx + goz} ${y} `;
+  }
+  return [
+    { d: kutu(x, y, en, derin + 6), w: 1.8, dolgu: true },
+    { d: ic.trim(), w: 1.2 },
+  ];
+}
+
+// Damlalıklı şişe: taban ortası (x,y), uç yukarıda
+export const damlalik = (x: number, y: number): Cizgi[] => [
+  { d: kutu(x - 8, y - 26, 16, 26), w: 1.5, dolgu: true },
+  { d: `M${x - 4} ${y - 26} L${x - 3} ${y - 34} L${x + 3} ${y - 34} L${x + 4} ${y - 26}`, w: 1.3, dolgu: true },
+  { d: `M${x - 2} ${y - 34} L${x} ${y - 40} L${x + 2} ${y - 34}`, w: 1.1 },
+];
+
+// Kase (yandan): üst kenar ortası (cx,y)
+export const kase = (cx: number, y: number, en = 50, boy = 24): Cizgi => ({
+  d: `M${cx - en / 2} ${y} Q${cx - en / 2} ${y + boy} ${cx} ${y + boy} Q${cx + en / 2} ${y + boy} ${cx + en / 2} ${y}`,
+  w: 1.8,
+  dolgu: true,
+});
+
+// Matkap ucu + gövde: uç (x,y) aşağı bakar
+export const matkap = (x: number, y: number): Cizgi[] => [
+  { d: `M${x} ${y} L${x} ${y - 18}`, w: 1.6 },
+  { d: zikzakDik(x, y - 2, y - 16), w: 0.6 },
+  { d: `M${x - 6} ${y - 18} L${x + 6} ${y - 18} L${x + 5} ${y - 26} L${x - 5} ${y - 26} Z`, w: 1.4, dolgu: true },
+  { d: `M${x - 10} ${y - 26} L${x + 26} ${y - 26} L${x + 26} ${y - 46} L${x - 10} ${y - 46} Z`, w: 1.6, dolgu: true },
+  { d: `M${x + 14} ${y - 26} L${x + 18} ${y - 6} L${x + 28} ${y - 6} L${x + 24} ${y - 26}`, w: 1.6, dolgu: true },
+];
+function zikzakDik(x: number, y1: number, y2: number) {
+  let d = `M${x} ${y1}`;
+  for (let y = y1 - 3, i = 0; y >= y2; y -= 3, i++) d += ` L${x + (i % 2 ? -2 : 2)} ${y}`;
+  return d;
+}
+
+// Vida başı (üstten): merkez (x,y)
+export const vida = (x: number, y: number, rr = 3): Cizgi => ({
+  d: daire(x, y, rr) + ` M${x - rr + 1} ${y} L${x + rr - 1} ${y}`,
+  w: 1,
+});
+
+// Şişe (ince boyunlu, yağ/esans): taban ortası (x,y)
+export const yagSisesi = (x: number, y: number, en = 18, boy = 40): Cizgi[] => [
+  {
+    d: `M${x - en / 2} ${y} L${x - en / 2} ${y - boy + 12} Q${x - en / 2} ${y - boy + 6} ${x - 3} ${y - boy + 4} L${x - 3} ${y - boy} L${x + 3} ${y - boy} L${x + 3} ${y - boy + 4} Q${x + en / 2} ${y - boy + 6} ${x + en / 2} ${y - boy + 12} L${x + en / 2} ${y} Z`,
+    w: 1.6,
+    dolgu: true,
+  },
+];

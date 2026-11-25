@@ -915,7 +915,7 @@ export const ALTIN_ICERIK: Record<string, Icerik> = {
         "Kuruduktan sonra eli gezdirince yüzey yine pürüzsüz, kadife gibi.",
       ),
       a(
-        "Gıdaya uygun yağla yağla",
+        "Gıdaya uygun yağla",
         "Mineral yağı bolca dök, bezle tüm yüzeylere ve kenarlara yay; ağaç yağı içer. 20 dakika beklet, emilmeyen fazlayı kuru bezle sil. 3–4 kat tekrarla, son kattan sonra 24 saat kurusun. Yağlı bezleri açık havada sererek kurut, buruşturup çöpe atma.",
         "1 saat + 24 saat",
         "Yüzeye su damlatınca boncuk gibi duruyor, emilmiyor; tahta elde yağlı bırakmıyor.",
