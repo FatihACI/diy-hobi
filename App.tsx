@@ -3,7 +3,7 @@ import { DarkTheme, DefaultTheme, NavigationContainer, NavigationState } from "@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StatusBar } from "expo-status-bar";
 import { useRef } from "react";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ikon } from "./src/components";
 import { IkonAdi } from "./src/data/types";
 import { RootParams } from "./src/nav";
@@ -39,6 +39,8 @@ const IKONLAR: Record<string, [IkonAdi, IkonAdi]> = {
 };
 
 function Sekmeler() {
+  // Telefonun alt navigasyon tuşları (geri/ana ekran) sekme çubuğunun üstüne binmesin
+  const alt = useSafeAreaInsets().bottom;
   const { liste } = useStore();
   const bekleyen = Object.values(liste).filter((x) => !x.alindi).length;
   return (
@@ -49,7 +51,13 @@ function Sekmeler() {
         freezeOnBlur: true,
         tabBarActiveTintColor: renk.ana,
         tabBarInactiveTintColor: renk.yaziIkincil,
-        tabBarStyle: { height: 64, paddingTop: 6, borderTopColor: renk.cizgi, backgroundColor: renk.kart },
+        tabBarStyle: {
+          height: 64 + alt,
+          paddingTop: 6,
+          paddingBottom: alt,
+          borderTopColor: renk.cizgi,
+          backgroundColor: renk.kart,
+        },
         tabBarLabelStyle: { fontSize: 12, fontWeight: "600", marginBottom: 6 },
         tabBarIcon: ({ focused, color }) => (
           <Ikon name={IKONLAR[route.name][focused ? 0 : 1]} size={24} color={color} />

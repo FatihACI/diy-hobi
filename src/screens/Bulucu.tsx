@@ -54,7 +54,11 @@ export default function Bulucu({ navigation }: P) {
   return (
     <ScrollView
       style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{
+        padding: bosluk.l,
+        paddingTop: ins.top + bosluk.l,
+        paddingBottom: bosluk.xxl + ins.bottom,
+      }}
     >
       <UstBaslik baslik="Proje Bulucu" alt={`Soru ${adim + 1} / ${SORULAR.length}`} geri={geri} />
       <Cubuk oran={adim / SORULAR.length} />
@@ -139,7 +143,11 @@ function Sonuc({ c, bastan, geri }: { c: Cevaplar; bastan: () => void; geri: () 
   return (
     <FlatList
       style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{
+        padding: bosluk.l,
+        paddingTop: ins.top + bosluk.l,
+        paddingBottom: bosluk.xxl + ins.bottom,
+      }}
       data={liste}
       keyExtractor={(p) => p.id}
       initialNumToRender={5}

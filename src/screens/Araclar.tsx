@@ -17,7 +17,7 @@ export default function Araclar({ navigation }: NativeStackScreenProps<RootParam
       contentContainerStyle={{
         padding: bosluk.l,
         paddingTop: ins.top + bosluk.l,
-        paddingBottom: bosluk.xxl,
+        paddingBottom: bosluk.xxl + ins.bottom,
         gap: bosluk.m,
       }}
     >
@@ -65,7 +65,11 @@ export function AracDetay({ route, navigation }: NativeStackScreenProps<RootPara
     <ScrollView
       style={{ backgroundColor: renk.arkaPlan }}
       keyboardShouldPersistTaps="handled"
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{
+        padding: bosluk.l,
+        paddingTop: ins.top + bosluk.l,
+        paddingBottom: bosluk.xxl + ins.bottom,
+      }}
     >
       <UstBaslik baslik={a.ad} alt={a.ozet} geri={navigation.goBack} />
 

@@ -22,7 +22,8 @@ const ZORLUK_SIRA: Record<Zorluk, number> = { Kolay: 0, Orta: 1, Zor: 2 };
 
 export default function KategoriDetay({ route, navigation }: P) {
   const k = kategoriBul(route.params.id);
-  const ust = useSafeAreaInsets().top;
+  const ins = useSafeAreaInsets();
+  const ust = ins.top;
   const fy = useFiyat();
   const [zorluk, setZorluk] = useState<(typeof ZORLUKLAR)[number]>("Tümü");
   const [sure, setSure] = useState<SureSinifi>("Tümü");
@@ -98,7 +99,7 @@ export default function KategoriDetay({ route, navigation }: P) {
   return (
     <FlatList
       style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{ paddingBottom: bosluk.xxl + ins.bottom }}
       data={projeler}
       keyExtractor={(p) => p.id}
       ListHeaderComponent={ustBolum}

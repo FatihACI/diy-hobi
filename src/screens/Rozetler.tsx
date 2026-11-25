@@ -23,7 +23,11 @@ export default function Rozetler({ navigation }: NativeStackScreenProps<RootPara
   return (
     <ScrollView
       style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{
+        padding: bosluk.l,
+        paddingTop: ins.top + bosluk.l,
+        paddingBottom: bosluk.xxl + ins.bottom,
+      }}
     >
       <UstBaslik
         baslik="Rozetler"

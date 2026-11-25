@@ -80,7 +80,11 @@ export default function Yapabilir({ navigation }: P) {
   return (
     <SectionList
       style={{ backgroundColor: renk.arkaPlan }}
-      contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: bosluk.xxl }}
+      contentContainerStyle={{
+        padding: bosluk.l,
+        paddingTop: ins.top + bosluk.l,
+        paddingBottom: bosluk.xxl + ins.bottom,
+      }}
       sections={bolumler}
       keyExtractor={anahtar}
       ListHeaderComponent={ust}
