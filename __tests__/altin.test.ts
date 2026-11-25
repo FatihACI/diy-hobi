@@ -16,7 +16,8 @@ describe("Altın 40", () => {
     for (const [id, ic] of Object.entries(ALTIN_ICERIK)) {
       expect(ALTIN_40).toContain(id);
       const p = PROJELER.find((x) => x.id === id)!;
-      expect(p.adimlar.length).toBeGreaterThanOrEqual(6);
+      // Kısa projeler (ör. kuş yemliği) 4–5 adımda biter; adım sayısı çizimlerle birebir eşleşir
+      expect(p.adimlar.length).toBeGreaterThanOrEqual(4);
       for (const a of p.adimlar) {
         expect(a.sure).toBeTruthy();
         expect(a.kontrol).toBeTruthy();
