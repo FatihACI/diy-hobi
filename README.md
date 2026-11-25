@@ -1,4 +1,4 @@
-# Evde Hobi (geçici ad)
+# Protyp
 
 Evde yapılabilecek hobi projelerini adım adım anlatan, malzeme listesini (BOM) ve güvenilir mağazalardaki en düşük fiyatı gösteren Android uygulaması. Expo / React Native ile yazıldı.
 
@@ -80,7 +80,7 @@ eas build -p android --profile onizleme
 
 Bitince verilen linkten APK'yı telefona indirip kur. Play Store için `--profile yayin` (AAB) kullanılır.
 
-> ⚠️ `app.json` içindeki `android.package` (şu an geçici: `com.evdehobi.app`) Play Store'a ilk yüklemeden sonra **değiştirilemez**. Uygulama adı kesinleşince güncelle.
+> ⚠️ `app.json` içindeki `android.package` (`com.protyp.app`) Play Store'a ilk yüklemeden sonra **değiştirilemez**.
 
 ## Çökme raporlama (Sentry)
 

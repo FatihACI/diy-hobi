@@ -45,7 +45,7 @@ export default function Kesfet() {
     >
       <View style={s.yatayPad}>
         <Text style={s.selam}>Bugün ne yapıyoruz?</Text>
-        <Text style={yazi.dev}>Evde Hobi</Text>
+        <Text style={yazi.dev}>Protyp</Text>
         <View style={{ height: bosluk.l }} />
         <Arama deger={q} degis={ara} />
       </View>

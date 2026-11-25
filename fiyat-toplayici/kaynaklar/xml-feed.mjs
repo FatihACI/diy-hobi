@@ -49,7 +49,7 @@ export async function topla({ malzemeler, kurallar, kok, log }) {
     try {
       xml = f.dosya
         ? readFileSync(new URL(f.dosya, kok), "utf8")
-        : await (await fetch(f.url, { headers: { "User-Agent": "EvdeHobi-FiyatToplayici/1.0" } })).text();
+        : await (await fetch(f.url, { headers: { "User-Agent": "Protyp-FiyatToplayici/1.0" } })).text();
     } catch (e) {
       log(`  ! ${f.magaza}: feed okunamadı (${e.message})`);
       continue;

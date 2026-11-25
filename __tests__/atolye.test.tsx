@@ -202,7 +202,7 @@ const geri = () => fireEvent.press(screen.getAllByLabelText("Geri").at(-1)!);
 
 test("Atölyem ekranları gezilir; proje tamamlanınca rozet kazanılır; koyu tema", async () => {
   await render(<App />);
-  expect(await screen.findByText("Evde Hobi")).toBeTruthy();
+  expect(await screen.findByText("Protyp")).toBeTruthy();
 
   // Keşfet → Proje Bulucu
   await fireEvent.press(screen.getByText("Ne yapsam?"));
