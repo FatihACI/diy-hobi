@@ -5924,5 +5924,2674 @@
       }
     ],
     "ilgisiz": false
+  },
+  "su-seviye-alarmi": {
+    "tarih": "2026-11-25T17:03:56.310Z",
+    "sorgu": "Su Taşma Alarmı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "Tkgy8rwztSM",
+        "baslik": "Su Taşma Alarm Sistemi Nasıl Yapılır",
+        "kanal": "Hobi",
+        "sure": "9:04",
+        "saniye": 544,
+        "izlenme": 1518,
+        "puan": 15.8
+      },
+      {
+        "id": "ZOx7GJPAyWw",
+        "baslik": "Akvaryum Su Taşma Alarm Sistemi",
+        "kanal": "Akvaryum Ilan",
+        "sure": "4:30",
+        "saniye": 270,
+        "izlenme": 987,
+        "puan": 13.5
+      },
+      {
+        "id": "UWdypAqwur0",
+        "baslik": "Su baskın alarm devresi  BASİT SESLİ  SU DEDEKTÖR YAPIMI",
+        "kanal": "Basit İcatlar",
+        "sure": "3:13",
+        "saniye": 193,
+        "izlenme": 3194,
+        "puan": 10.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "akilli-saksi-pompa": {
+    "tarih": "2026-11-25T17:03:56.861Z",
+    "sorgu": "Otomatik Bitki Sulama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "iIslxy1NZh4",
+        "baslik": "Arduino İle Akıllı Bitki Sulama Sistemi | Toprak Nem Sensörü İle Otomatik Sulama      #arduino",
+        "kanal": "ELEKTRONİK BİLGİ BANKASI",
+        "sure": "8:31",
+        "saniye": 511,
+        "izlenme": 28474,
+        "puan": 19.7
+      },
+      {
+        "id": "sYXZ7Pq4vs4",
+        "baslik": "Arduino ile Otomatik Sulama Sistemi | Akıllı Bitki Sulama Projesi | (Kod+Şema)",
+        "kanal": "Orhan Celep - Robotik Projeler ",
+        "sure": "12:53",
+        "saniye": 773,
+        "izlenme": 2685,
+        "puan": 19.1
+      },
+      {
+        "id": "Fd8OsduLpV8",
+        "baslik": "250 TL'ye Otomatik Sulama Sistemi Kurulumu - Verve Elektronik Dijital Zamanlayıcı",
+        "kanal": "Tarla Tv",
+        "sure": "6:05",
+        "saniye": 365,
+        "izlenme": 376761,
+        "puan": 18.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "elektronik-zar": {
+    "tarih": "2026-11-25T17:03:57.420Z",
+    "sorgu": "Elektronik Zar nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "m6YjJWF_l18",
+        "baslik": "Temassız Hilesiz Elektronik Zar || Arduino & PCBWay & DIY",
+        "kanal": "Emre Konca",
+        "sure": "10:59",
+        "saniye": 659,
+        "izlenme": 18689,
+        "puan": 15.9
+      },
+      {
+        "id": "iQDMyXJPODw",
+        "baslik": "Arduino ile Zar Uygulaması Yaptık ! #direncnet #dıy",
+        "kanal": "direncnet",
+        "sure": "3:56",
+        "saniye": 236,
+        "izlenme": 11978,
+        "puan": 14.1
+      },
+      {
+        "id": "3oVyMclFISM",
+        "baslik": "Ceviz ağacından elektronik zar kutu. ( electronic box from walnut tree )",
+        "kanal": "buyur burdan yap",
+        "sure": "7:23",
+        "saniye": 443,
+        "izlenme": 413,
+        "puan": 13.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "sicaklik-fan": {
+    "tarih": "2026-11-25T17:03:58.039Z",
+    "sorgu": "Sıcaklığa Göre Çalışan Fan nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "8IvWC-jHCKI",
+        "baslik": "NTC İLE ISI SENSÖRLÜ ÇALIŞAN FAN DEVRESİ - WORKING FAN CIRCUIT WITH HEAT SENSOR WITH NTC",
+        "kanal": "Evdeki Atölyem",
+        "sure": "4:01",
+        "saniye": 241,
+        "izlenme": 5869,
+        "puan": 16.2
+      },
+      {
+        "id": "0hRS9P4qLU0",
+        "baslik": "Çok Basit Sıcaklık Kontrollü Fan Hız Kontrol Devresi [Nasıl Yapılır]",
+        "kanal": "ismailTPC_Hastanesi",
+        "sure": "20:19",
+        "saniye": 1219,
+        "izlenme": 1328,
+        "puan": 14.7
+      },
+      {
+        "id": "LhcCogoPzQE",
+        "baslik": "SICAKLIK AYARLI FAN KONTROL DEVRESİ / NTC ISI SENSÖRÜ DEVRESİ / FAN SICAKLIK KONTROL DEVRESİ #ntc",
+        "kanal": "HOBİ ELEKTRONİK",
+        "sure": "11:33",
+        "saniye": 693,
+        "izlenme": 1820,
+        "puan": 13.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kapi-alarmi": {
+    "tarih": "2026-11-25T17:03:58.524Z",
+    "sorgu": "Manyetik Kapı / Dolap Alarmı nasıl yapılır",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "0w17IpV8lxo",
+        "baslik": "Kapı Alarmı | Kapı Pencere Alarmı Montaj",
+        "kanal": "Hayatın İçinden Seda",
+        "sure": "3:32",
+        "saniye": 212,
+        "izlenme": 22342,
+        "puan": 15.5
+      },
+      {
+        "id": "rYKxAZtZUm8",
+        "baslik": "Kapı Alarmı Yapımı / Thief door alarm",
+        "kanal": "SıradanBiri ",
+        "sure": "3:27",
+        "saniye": 207,
+        "izlenme": 532,
+        "puan": 14.1
+      },
+      {
+        "id": "OTyM_OmvIXU",
+        "baslik": "basit kapı veya dolap kapağı alarm devresi",
+        "kanal": "Ömer Çaçur",
+        "sure": "4:03",
+        "saniye": 243,
+        "izlenme": 105,
+        "puan": 13.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "lehim-baslangic": {
+    "tarih": "2026-11-25T17:03:58.991Z",
+    "sorgu": "İlk Lehim: LED Kit Montajı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "hzwsk1bJcpQ",
+        "baslik": "RGB led nasıl lehim yapılır",
+        "kanal": "Abdullah fervati",
+        "sure": "4:20",
+        "saniye": 260,
+        "izlenme": 11993,
+        "puan": 14.6
+      },
+      {
+        "id": "enjRWBpRXz4",
+        "baslik": "Basit Bir Lehim nasıl yapılır 2",
+        "kanal": "Burak Yeler",
+        "sure": "2:50",
+        "saniye": 170,
+        "izlenme": 146558,
+        "puan": 13.7
+      },
+      {
+        "id": "2biEg8uS3FY",
+        "baslik": "Lehim Nasıl Yapılır? - Lehim Seti İncelemesi ve Ekipman Tavsiyesi -",
+        "kanal": "Robo90",
+        "sure": "17:41",
+        "saniye": 1061,
+        "izlenme": 572192,
+        "puan": 12.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-anahtarlik": {
+    "tarih": "2026-11-25T17:03:59.477Z",
+    "sorgu": "Harfli Epoksi Anahtarlık nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "2n6aQA9tefI",
+        "baslik": "Epoksi Gerçek Çiçekli Harf Anahtarlık Yapımı - Epoxy",
+        "kanal": "Leyla Tekin Gökduman - Sultan Tasarım",
+        "sure": "8:41",
+        "saniye": 521,
+        "izlenme": 16024,
+        "puan": 19.8
+      },
+      {
+        "id": "QR0ymjszxuk",
+        "baslik": "Papatyalı Harf Anahtarlık Yapımı - Toplu Siparişimi Hazırlıyorum #epoksi #anahtarlıkyapımı",
+        "kanal": "Studio Rein",
+        "sure": "7:14",
+        "saniye": 434,
+        "izlenme": 3344,
+        "puan": 19.3
+      },
+      {
+        "id": "K2hIM-k1Bng",
+        "baslik": "Çok kolay 22 farklı epoksi anahtarlık tasarımları - harf anahtarlık - nasıl yapılır  - how to make",
+        "kanal": "mydesign",
+        "sure": "8:55",
+        "saniye": 535,
+        "izlenme": 1050,
+        "puan": 17.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-kase": {
+    "tarih": "2026-11-25T17:04:00.016Z",
+    "sorgu": "Epoksi Takı Kasesi nasıl yapılır",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "YszUmit_Oj0",
+        "baslik": "1. Ders : EPOKSİ MALZEMELERİ NELERDİR⁉️✨ Hangi Malzeme ne için kullanılır?",
+        "kanal": "Papatyamepoksi",
+        "sure": "22:18",
+        "saniye": 1338,
+        "izlenme": 144668,
+        "puan": 14.7
+      },
+      {
+        "id": "ZlRBlm-3jlA",
+        "baslik": "Epoksi Reçine Nasıl Yapılır? Epoksi Reçine Yapımı",
+        "kanal": "Kimyacınız",
+        "sure": "12:26",
+        "saniye": 746,
+        "izlenme": 136722,
+        "puan": 14.2
+      },
+      {
+        "id": "yL7PGZmMLAk",
+        "baslik": "Minik odunlar ve epoksi ile kase yapımı 😍",
+        "kanal": "Pisi Pisi94",
+        "sure": "2:57",
+        "saniye": 177,
+        "izlenme": 398,
+        "puan": 9.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-tepsi": {
+    "tarih": "2026-11-25T17:04:00.462Z",
+    "sorgu": "Geode Desenli Epoksi Tepsi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "5l5Fyd-kEbg",
+        "baslik": "Mermer Görünümlü Epoksi Tepsi Yapımı- Marble Looking Epoxy Resin Tray - DIY",
+        "kanal": "Hobby Trends",
+        "sure": "17:02",
+        "saniye": 1022,
+        "izlenme": 682475,
+        "puan": 16.3
+      },
+      {
+        "id": "mnoswPMhGj0",
+        "baslik": "Epoksi Tepsi ve Bardak Altlığı Takımı Yapım Aşamaları - Epoxy",
+        "kanal": "Leyla Tekin Gökduman - Sultan Tasarım",
+        "sure": "5:49",
+        "saniye": 349,
+        "izlenme": 1140,
+        "puan": 15.1
+      },
+      {
+        "id": "4vk3pRlTOlg",
+        "baslik": "Epoksi Recineyle Cicek Desenli Bardak Altlığı Yapımı",
+        "kanal": "Studio Rein",
+        "sure": "5:09",
+        "saniye": 309,
+        "izlenme": 3782,
+        "puan": 14.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-saat": {
+    "tarih": "2026-11-25T17:04:01.018Z",
+    "sorgu": "Epoksi Duvar Saati nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "_jjKnSuYXaA",
+        "baslik": "Epoksi duvar saati yapımı. ( Epoxy wall clock making. )",
+        "kanal": "Atölyem28",
+        "sure": "9:22",
+        "saniye": 562,
+        "izlenme": 2159,
+        "puan": 19
+      },
+      {
+        "id": "aGhwEg5kCco",
+        "baslik": "Epoksi saat yapımı ( Epoxy clock making )#epoksireçine #epoksitasarım #resin #epoxy #deniz #dalga",
+        "kanal": "𝐘ı𝐥𝐝ı𝐳 𝐇𝐨𝐛𝐢 𝐒𝐚𝐧𝐚𝐭",
+        "sure": "12:30",
+        "saniye": 750,
+        "izlenme": 17082,
+        "puan": 16.8
+      },
+      {
+        "id": "yM96nIQHDxU",
+        "baslik": "EN GÜZEL 10 EPOKSİ SAAT TASARIMI / TOP 10 BEAUTIFUL EPOXY WALL CLOCK DESIGNS #epoxy #resin #epoksi",
+        "kanal": "EpoksiTv",
+        "sure": "5:23",
+        "saniye": 323,
+        "izlenme": 1011,
+        "puan": 14.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-bardak-alti-agac": {
+    "tarih": "2026-11-25T17:04:01.441Z",
+    "sorgu": "Ahşap Dilimli Epoksi Altlık nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "01KKGufFWjU",
+        "baslik": "ArtResin Epoksi Reçine ile sanat eserinize hayat verin",
+        "kanal": "ArtResin",
+        "sure": "1:42",
+        "saniye": 102,
+        "izlenme": 533,
+        "puan": 10.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-harf": {
+    "tarih": "2026-11-25T17:04:01.831Z",
+    "sorgu": "Işıklı Epoksi Harf Lamba nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "A2RMGwVs8FI",
+        "baslik": "EPOKSİ GECE LAMBASI YAPIMI / GECE LAMBASI YAPIMI / SİLİKON HARF KALIBI / EPOXY NIGHT LAMP [2021]",
+        "kanal": "ZERMİNA TAKI & HOBİ",
+        "sure": "8:37",
+        "saniye": 517,
+        "izlenme": 207,
+        "puan": 17
+      },
+      {
+        "id": "N5dY1rMXn0M",
+        "baslik": "Epoksi Harf Lamba Yapımı",
+        "kanal": "Ask Tasarım",
+        "sure": "2:19",
+        "saniye": 139,
+        "izlenme": 190,
+        "puan": 15.4
+      },
+      {
+        "id": "21iSwpLI_3Y",
+        "baslik": "Epoksi Reçineli İnanılmaz Modern Mavi Gece Lambası - (Epoksi Reçine Gece Lambası Nasıl Yapılır)",
+        "kanal": "Bsb Designn",
+        "sure": "10:36",
+        "saniye": 636,
+        "izlenme": 1585,
+        "puan": 14.8
+      }
+    ],
+    "ilgisiz": false
+  },
+  "telefon-kilifi-recine": {
+    "tarih": "2026-11-25T17:04:02.389Z",
+    "sorgu": "Kuru Çiçekli Şeffaf Telefon Kılıfı nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "s7SjtfB_JvU",
+        "baslik": "Soğuk Silikonla, Telefon Kılıfı Nasıl Yapılır - DIY Phonecase",
+        "kanal": "Marifetli İşler",
+        "sure": "11:03",
+        "saniye": 663,
+        "izlenme": 213643,
+        "puan": 15.5
+      },
+      {
+        "id": "65If3ahoGTM",
+        "baslik": "Telefon Kılıfı Yapımı | KENDİN YAP | Hot Glue Phone Case | DIY",
+        "kanal": "Cansu Neler Yapar",
+        "sure": "2:26",
+        "saniye": 146,
+        "izlenme": 239928,
+        "puan": 14.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-kesme-tahtasi-sap": {
+    "tarih": "2026-11-25T17:04:02.769Z",
+    "sorgu": "Epoksi Saplı Peynir Tahtası nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "3oS32NKJXNM",
+        "baslik": "Epoksi Servis Tepsisi / Epoxy Serving Board / Epoksi Sunum Tahtası / Making an Epoxy Serving Board",
+        "kanal": "Hakanın Atölyesi",
+        "sure": "10:24",
+        "saniye": 624,
+        "izlenme": 2627,
+        "puan": 16.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-kitap-ayraci": {
+    "tarih": "2026-11-25T17:04:03.339Z",
+    "sorgu": "Epoksi Kitap Ayracı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "Ehzp19RwT4Y",
+        "baslik": "Epoksiden kitap ayraci yapımı/ epoksi nasıl yapılır püf notaları nelerdir",
+        "kanal": "Ayşe CanCeylan",
+        "sure": "13:41",
+        "saniye": 821,
+        "izlenme": 20366,
+        "puan": 20.5
+      },
+      {
+        "id": "bzd3uFtv24Y",
+        "baslik": "Epoksi kitap ayracı yapımı | Epoksi reçine nasıl yapılır? | Resin Basics",
+        "kanal": "El Sanatları Öğreniyorum",
+        "sure": "4:51",
+        "saniye": 291,
+        "izlenme": 1215,
+        "puan": 17.6
+      },
+      {
+        "id": "MRORT6dbO08",
+        "baslik": "Epoksi kitap ayracı yapımı #epoksi #epoxy #resinart #epoksisanatı",
+        "kanal": "Epoksi Sanatı",
+        "sure": "5:42",
+        "saniye": 342,
+        "izlenme": 4442,
+        "puan": 17
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-kolye-sise": {
+    "tarih": "2026-11-25T17:04:03.742Z",
+    "sorgu": "Mini Şişe Manzaralı Kolye nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "epoksi-masa-kaplama": {
+    "tarih": "2026-11-25T17:04:04.386Z",
+    "sorgu": "Eski Masaya Epoksi Kaplama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "3ZTbXr8foyU",
+        "baslik": "EPOKSİ AĞAÇ MASA NASIL YAPILIR ?",
+        "kanal": "Halil Kaya",
+        "sure": "17:58",
+        "saniye": 1078,
+        "izlenme": 93655,
+        "puan": 16
+      },
+      {
+        "id": "i-9g592Nujc",
+        "baslik": "EPOKSİ MASA YAPIMI 1 püf noktaları",
+        "kanal": "DOĞA&SANAT",
+        "sure": "5:32",
+        "saniye": 332,
+        "izlenme": 51833,
+        "puan": 14.6
+      },
+      {
+        "id": "MPvwzd4LNZA",
+        "baslik": "Epoksi Parlatmanın Beş farklı yolu. ( Five different ways to polish epoxy.)",
+        "kanal": "𝐘ı𝐥𝐝ı𝐳 𝐇𝐨𝐛𝐢 𝐒𝐚𝐧𝐚𝐭",
+        "sure": "6:37",
+        "saniye": 397,
+        "izlenme": 17933,
+        "puan": 14.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-tabak-duvar": {
+    "tarih": "2026-11-25T17:04:04.919Z",
+    "sorgu": "Epoksi Duvar Panosu (Resin Art) nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "V0QktD5ZIgQ",
+        "baslik": "Epoksi pano yapımı✨#epoksi #epoxy #epoksipano #resinart #epoksisanatı",
+        "kanal": "Epoksi Sanatı",
+        "sure": "20:52",
+        "saniye": 1252,
+        "izlenme": 521,
+        "puan": 20.6
+      },
+      {
+        "id": "LWF3PqD_-Ng",
+        "baslik": "Epoksi lavanta pano nasıl yapılır💫#epoksi #epoxy #resinart #lavanta #saat #epoksisaat #epoksisanatı",
+        "kanal": "Epoksi Sanatı",
+        "sure": "14:14",
+        "saniye": 854,
+        "izlenme": 641,
+        "puan": 20.2
+      },
+      {
+        "id": "SzlcGCdukHg",
+        "baslik": "Epoksi fotoğraf pano nasıl  yapılır💯 #epoksi #epoxy  #panoyapımı #fotograf #resinart #epoksisanatı",
+        "kanal": "Epoksi Sanatı",
+        "sure": "20:57",
+        "saniye": 1257,
+        "izlenme": 13460,
+        "puan": 18.7
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-dugme": {
+    "tarih": "2026-11-25T17:04:05.523Z",
+    "sorgu": "Epoksi Düğme Yapımı nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "x9lQAYH3J1o",
+        "baslik": "Yüksek hızlı ve verimli akıllı Epoksi button Metal renk düğme makine",
+        "kanal": "Supply Machine Material and Training",
+        "sure": "1:42",
+        "saniye": 102,
+        "izlenme": 3742,
+        "puan": 13.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-tamir": {
+    "tarih": "2026-11-25T17:04:05.924Z",
+    "sorgu": "Ahşap Çatlağını Epoksiyle Doldurma nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "ShHJMfSjiYg",
+        "baslik": "Epoxy Table/ How To Fill Voids in Wood / Epoksi Kütük Masa Yapımı",
+        "kanal": "Ahşap Kokusu",
+        "sure": "9:03",
+        "saniye": 543,
+        "izlenme": 57152,
+        "puan": 11.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "epoksi-mum-tutucu": {
+    "tarih": "2026-11-25T17:04:06.166Z",
+    "sorgu": "Epoksi Tealight Tutucu nasıl yapılır",
+    "secim": 0,
+    "adaylar": []
+  },
+  "epoksi-kalem": {
+    "tarih": "2026-11-25T17:04:06.377Z",
+    "sorgu": "Epoksi Gövdeli Tükenmez Kalem nasıl yapılır",
+    "secim": 0,
+    "adaylar": []
+  },
+  "epoksi-kabarcik-onleme": {
+    "tarih": "2026-11-25T17:04:06.767Z",
+    "sorgu": "Epoksi Kabarcık ve Hata Giderme nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "XqkZxBgnrBg",
+        "baslik": "Epokside hava kabarcıkları tamamen nasıl yok edilir? Ders 3",
+        "kanal": "Odywood",
+        "sure": "4:41",
+        "saniye": 281,
+        "izlenme": 10277,
+        "puan": 17
+      },
+      {
+        "id": "elKWS1jTf1o",
+        "baslik": "5 Ways to Get Bubbles Out of Resin | Resin ART",
+        "kanal": "BuzzingFish",
+        "sure": "8:37",
+        "saniye": 517,
+        "izlenme": 4731965,
+        "puan": 10
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kapi-gicirtisi": {
+    "tarih": "2026-11-25T17:04:07.194Z",
+    "sorgu": "Gıcırdayan Kapıyı Susturma nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "GHdwnTmsTOw",
+        "baslik": "Kapı Gıcırtısı Nasıl Giderilir",
+        "kanal": "Aşkın Sağlam",
+        "sure": "7:51",
+        "saniye": 471,
+        "izlenme": 13333,
+        "puan": 13.2
+      },
+      {
+        "id": "MDTAD2soOFk",
+        "baslik": "Kapı Gıcırtısına İllet Olanlara Hemen Çözüm Yolu",
+        "kanal": "BENALİ VİDEOLARI",
+        "sure": "2:39",
+        "saniye": 159,
+        "izlenme": 45335,
+        "puan": 13
+      },
+      {
+        "id": "Ubtwpf1b9f4",
+        "baslik": "Evdeki O Gıcır Gıcır Ses 10 Saniyede Bitiyor! | Gıcırdayan Kapı Menteşesi Sesi Giderme",
+        "kanal": "Her Şey Evde",
+        "sure": "1:38",
+        "saniye": 98,
+        "izlenme": 2109,
+        "puan": 9.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kapi-ayari": {
+    "tarih": "2026-11-25T17:04:07.754Z",
+    "sorgu": "Yere Sürten / Kapanmayan Kapı Ayarı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "U0AveeLz29g",
+        "baslik": "Bir Türlü Kapanmayan Kapılar. Eğik Kapı Nasıl Tamir Edilir.",
+        "kanal": "Arkamahalle",
+        "sure": "5:47",
+        "saniye": 347,
+        "izlenme": 233400,
+        "puan": 18.6
+      },
+      {
+        "id": "ftTy65m0RsE",
+        "baslik": "KAPANMAYAN PVC (PİMAPEN) KAPI AYARI",
+        "kanal": "Hulusi Palta",
+        "sure": "2:39",
+        "saniye": 159,
+        "izlenme": 114718,
+        "puan": 18.6
+      },
+      {
+        "id": "JwZ2Y-UqMYs",
+        "baslik": "Kapatırken Sürten Ahşap Oda, Bonyo, Tuvalet, Wc Kapısı Nasıl Tamir Edilir",
+        "kanal": "BENALİ VİDEOLARI",
+        "sure": "10:19",
+        "saniye": 619,
+        "izlenme": 96988,
+        "puan": 16
+      }
+    ],
+    "ilgisiz": false
+  },
+  "lavabo-sifon-temizligi": {
+    "tarih": "2026-11-25T17:04:08.240Z",
+    "sorgu": "Tıkalı Lavabo Sifonu Temizleme nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "BG8Y3_xGoRg",
+        "baslik": "3 Dakika'da Tıkanan Lavaboyu Açma Kesin Çözüm",
+        "kanal": "mustilife23",
+        "sure": "3:01",
+        "saniye": 181,
+        "izlenme": 285628,
+        "puan": 17.2
+      },
+      {
+        "id": "YhNFK79g-l4",
+        "baslik": "SADECE 1 DAKİKA'DA TIKANAN LAVABO NASIL AÇILIR? KOKUYA SON!",
+        "kanal": "Pratik Tamir Videoları",
+        "sure": "5:12",
+        "saniye": 312,
+        "izlenme": 46803,
+        "puan": 16.5
+      },
+      {
+        "id": "CDdHonE7T3E",
+        "baslik": "Tıkalı lavabo nasıl açılır",
+        "kanal": "washing dishes",
+        "sure": "2:30",
+        "saniye": 150,
+        "izlenme": 76794,
+        "puan": 16.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "rezervuar-ic-takim": {
+    "tarih": "2026-11-25T17:04:08.811Z",
+    "sorgu": "Sürekli Su Akıtan Rezervuar Tamiri nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "l7b5Eg_of9k",
+        "baslik": "Eyvah ! Klozet Su Kaçırıyor - Klozet Rezervuar İç Takımı Tamiri - Klozetten Su Neden Gelir - Tamirat",
+        "kanal": "Yaşar Alanoğlu",
+        "sure": "5:03",
+        "saniye": 303,
+        "izlenme": 633176,
+        "puan": 19.7
+      },
+      {
+        "id": "eLA0UQvn-9U",
+        "baslik": "Serel Gömme Rezervuar Su Kaçırıyor? Conta Değişimi!",
+        "kanal": "Macit Tesisat",
+        "sure": "3:35",
+        "saniye": 215,
+        "izlenme": 359166,
+        "puan": 15.8
+      },
+      {
+        "id": "a1i0pneZhdw",
+        "baslik": "VİTRA GÖMME REZERVUAR KLOZETİN İÇİNE SU KAÇIRIYOR NEDEN?",
+        "kanal": "Macit Tesisat",
+        "sure": "10:27",
+        "saniye": 627,
+        "izlenme": 490589,
+        "puan": 15
+      }
+    ],
+    "ilgisiz": false
+  },
+  "dolap-mentese-ayari": {
+    "tarih": "2026-11-25T17:04:09.352Z",
+    "sorgu": "Dolap Kapağı Menteşe Ayarı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "bNbKEEgPH1M",
+        "baslik": "Dolap kapağı ve Menteşe ayarı nasıl yapılır",
+        "kanal": "kendin yaparsın",
+        "sure": "3:04",
+        "saniye": 184,
+        "izlenme": 1140574,
+        "puan": 24.1
+      },
+      {
+        "id": "3qw8pcFvpq4",
+        "baslik": "Dolap Kapağı Menteşe Ayarı Nasıl Yapılır? Dolap Kapağı Yükseklik Ayarı. Dolap Kapağı Yukarı Kaldırma",
+        "kanal": "Benim Evim",
+        "sure": "3:31",
+        "saniye": 211,
+        "izlenme": 47447,
+        "puan": 22.5
+      },
+      {
+        "id": "nLrM9k9h9Ys",
+        "baslik": "DOLAP KAPAĞI NASIL AYARLANIR (Sesli Anlatım)",
+        "kanal": "kendin yaparsın",
+        "sure": "3:51",
+        "saniye": 231,
+        "izlenme": 392505,
+        "puan": 21.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "raf-montaji": {
+    "tarih": "2026-11-25T17:04:09.899Z",
+    "sorgu": "Duvara Sağlam Raf Montajı nasıl yapılır",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "s5pfGPgKS9U",
+        "baslik": "Portatif duvar rafi saber home 3'lü duvar rafı kutu açılım montaj",
+        "kanal": "Muhammed Reşit",
+        "sure": "4:33",
+        "saniye": 273,
+        "izlenme": 229882,
+        "puan": 22
+      },
+      {
+        "id": "W8_WTzu3nkw",
+        "baslik": "Duvara Raf Nasıl Monte Edilir? 3' lü Duvar Rafı Montajı, Gizli Uçan Raf Nasıl Monte Edilir?",
+        "kanal": "Benim Evim",
+        "sure": "3:51",
+        "saniye": 231,
+        "izlenme": 53245,
+        "puan": 20.6
+      },
+      {
+        "id": "osZDRyJe2I4",
+        "baslik": "Duvara Gizli Raf Tutucu Montajı Nasıl Yapılır?",
+        "kanal": "NDemiş",
+        "sure": "5:03",
+        "saniye": 303,
+        "izlenme": 67770,
+        "puan": 20.2
+      }
+    ],
+    "ilgisiz": false
+  },
+  "duvar-boyama": {
+    "tarih": "2026-11-25T17:04:10.384Z",
+    "sorgu": "Oda Duvarı Boyama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "C_AnlbCzUVI",
+        "baslik": "Duvar Nasıl Boyanır? - Duvar Boyama Teknikleri",
+        "kanal": "Koçtaş",
+        "sure": "3:32",
+        "saniye": 212,
+        "izlenme": 531967,
+        "puan": 19.1
+      },
+      {
+        "id": "2T3RPmK05M0",
+        "baslik": "Duvar Boyama Teknikleri - Boya Nasıl Boyanır - Ev Boyası için Detaylı Anlatım",
+        "kanal": "Mecit Korkut",
+        "sure": "8:00",
+        "saniye": 480,
+        "izlenme": 757413,
+        "puan": 17.3
+      },
+      {
+        "id": "piXpN29Kosg",
+        "baslik": "EV NASIL BOYANIR? BOYA BADANA NASIL YAPILIR TÜM TEKNİK DETAYLARI İLE 👍👍",
+        "kanal": "kendin yaparsın",
+        "sure": "11:35",
+        "saniye": 695,
+        "izlenme": 970169,
+        "puan": 17
+      }
+    ],
+    "ilgisiz": false
+  },
+  "fayans-derz-yenileme": {
+    "tarih": "2026-11-25T17:04:10.990Z",
+    "sorgu": "Banyo Fayans Derzi Yenileme nasıl yapılır",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "UHHsggP-YVE",
+        "baslik": "#reklam Fayans Derz Yenileme - Derz Dolgu Nasıl Yapılır - Fayans Derzi Nasıl Sökülür - Derz Kazıma",
+        "kanal": "Yaşar Alanoğlu",
+        "sure": "5:01",
+        "saniye": 301,
+        "izlenme": 874090,
+        "puan": 22.9
+      },
+      {
+        "id": "6fMgYyrSPo4",
+        "baslik": "Ustasından En Doğru Ve En kolay Derz  Nasıl  Yenilenir",
+        "kanal": "OLCAY USTA",
+        "sure": "6:11",
+        "saniye": 371,
+        "izlenme": 1116388,
+        "puan": 17.6
+      },
+      {
+        "id": "YWaZZXjWCT0",
+        "baslik": "Derz Yenileme Nasıl Yapılır ❓",
+        "kanal": "RS DekoR",
+        "sure": "5:42",
+        "saniye": 342,
+        "izlenme": 70726,
+        "puan": 17.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "pencere-fitili": {
+    "tarih": "2026-11-25T17:04:11.491Z",
+    "sorgu": "Pencere ve Kapı Fitili Değişimi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "E0ulUKx4PsQ",
+        "baslik": "pvc pencere fitili değişimi",
+        "kanal": "Sen De Yap!",
+        "sure": "3:56",
+        "saniye": 236,
+        "izlenme": 274476,
+        "puan": 22.2
+      },
+      {
+        "id": "UTAjeP5ucsI",
+        "baslik": "Pvc Pencere Contası Nasıl Değiştirilir - pvc pencere fitili değişimi",
+        "kanal": "Nasıl Yapılır Kendin Yap",
+        "sure": "15:48",
+        "saniye": 948,
+        "izlenme": 100121,
+        "puan": 21
+      },
+      {
+        "id": "jC_mBipwmdI",
+        "baslik": "PVC KAPI VE PENCERE FİTİLİ NASIL DEĞİŞTİRİLİR",
+        "kanal": "Serdar KILIÇ",
+        "sure": "3:28",
+        "saniye": 208,
+        "izlenme": 74289,
+        "puan": 20.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kapi-kolu-degisimi": {
+    "tarih": "2026-11-25T17:04:12.055Z",
+    "sorgu": "Kapı Kolu Değişimi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "_9VIhrsX0ws",
+        "baslik": "Kapı Kolu Nasıl Değiştirilir-Kapı Kolu Değiştirme-Evde Kapı Kolu Değişimi-Kapı Kolu çeşitleri.",
+        "kanal": "Gör Yap Atölyesi",
+        "sure": "8:10",
+        "saniye": 490,
+        "izlenme": 150415,
+        "puan": 21.8
+      },
+      {
+        "id": "KpOxNXUWC0s",
+        "baslik": "Ev Kapı Kolu Nasıl Değişir  I Detaylarıyla Anlatmaya Çalıştık.",
+        "kanal": "TavSiye EdiLebiLirLik",
+        "sure": "3:56",
+        "saniye": 236,
+        "izlenme": 32880,
+        "puan": 19.3
+      },
+      {
+        "id": "t7sxRyF9EGA",
+        "baslik": "Topuzlu Kapı Kolu Otel Tipi Yuvarlak Topuz Kapı Kolu Nasıl Sökülür Nasıl Takılır Nasıl Değiştirilir",
+        "kanal": "Technical Hands",
+        "sure": "4:13",
+        "saniye": 253,
+        "izlenme": 279215,
+        "puan": 18.7
+      }
+    ],
+    "ilgisiz": false
+  },
+  "laminat-cizik-tamiri": {
+    "tarih": "2026-11-25T17:04:12.450Z",
+    "sorgu": "Parke / Laminat Çizik Tamiri nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "eg3PLWQB0lk",
+        "baslik": "Çizilen, ezilen, deformasyona uğrayan laminat parkenin tamiri nasıl yapılır",
+        "kanal": "Dekorasyon Trendi",
+        "sure": "17:35",
+        "saniye": 1055,
+        "izlenme": 344496,
+        "puan": 22.8
+      },
+      {
+        "id": "C1rCqrfzSiM",
+        "baslik": "Mobilya Çizikleri Nasıl Giderilir? | Koçtaş ile Kendin Yap!",
+        "kanal": "Koçtaş",
+        "sure": "2:05",
+        "saniye": 125,
+        "izlenme": 360819,
+        "puan": 14.3
+      },
+      {
+        "id": "wKa4pg5eWks",
+        "baslik": "LAMİNANT PARKE ONARIMI‼️ HASARLI LAMİNANTI İRMİK VE OJE İLE KOLAYCA ONARIN",
+        "kanal": "kendin yaparsın",
+        "sure": "4:05",
+        "saniye": 245,
+        "izlenme": 8380,
+        "puan": 13.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "dus-basligi-kirec": {
+    "tarih": "2026-11-25T17:04:13.051Z",
+    "sorgu": "Duş Başlığı Kireç Temizliği nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "5d7FQqUcH3c",
+        "baslik": "Duş Başlığı Nasıl Temizlenir? İçindeki Kireçleri Ve Kirleri Kolayca Temizleyin!",
+        "kanal": "Emine Deligoz",
+        "sure": "10:09",
+        "saniye": 609,
+        "izlenme": 171972,
+        "puan": 21.9
+      },
+      {
+        "id": "SjRBbd69dhU",
+        "baslik": "🚿 Duş Başlığı Temizliği ve Tamiri | Delik Temizleme & İç Açma",
+        "kanal": "Tesisatçı Hasan",
+        "sure": "7:51",
+        "saniye": 471,
+        "izlenme": 108757,
+        "puan": 19.6
+      },
+      {
+        "id": "nIbGT4zEsiU",
+        "baslik": "TIKANMIŞ DUŞ BAŞLIĞI NASIL AÇILIR",
+        "kanal": "turan64",
+        "sure": "1:57",
+        "saniye": 117,
+        "izlenme": 63361,
+        "puan": 14.7
+      }
+    ],
+    "ilgisiz": false
+  },
+  "tv-duvar-montaji": {
+    "tarih": "2026-11-25T17:04:13.524Z",
+    "sorgu": "Televizyonu Duvara Asma nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "5t18qAujwno",
+        "baslik": "TV Askı Aparatı Montajı | Televizyon Duvara Nasıl Monte Edilir | Everest Evrensel TV Askı Aparatı",
+        "kanal": "Metin Aygun",
+        "sure": "4:20",
+        "saniye": 260,
+        "izlenme": 378180,
+        "puan": 19.4
+      },
+      {
+        "id": "OT91pe1bBrI",
+        "baslik": "Duvara Televizyon Nasıl Monte Edilir | Ustadan Televizyonun Duvara Montajı",
+        "kanal": "Semih Bulgur (Crystal Engineer)",
+        "sure": "3:29",
+        "saniye": 209,
+        "izlenme": 60963,
+        "puan": 17.2
+      },
+      {
+        "id": "ef3UAh3CiYQ",
+        "baslik": "Televizyonu Duvara Nasıl Montaj Edilir,  LCD, LED TV, PLAZMA  Duvara Askı Aparatı ile Montaj Yapın",
+        "kanal": "Çoko MF",
+        "sure": "11:47",
+        "saniye": 707,
+        "izlenme": 268316,
+        "puan": 16.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kornis-montaji": {
+    "tarih": "2026-11-25T17:04:13.964Z",
+    "sorgu": "Korniş / Perde Rayı Takma nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "KBOotZGgPYQ",
+        "baslik": "Korniş nasıl takılır?  korniş montajı nasıl yapılır? Hızlı anlatım",
+        "kanal": "Kendin Yapabilirsin",
+        "sure": "2:53",
+        "saniye": 173,
+        "izlenme": 673019,
+        "puan": 14.7
+      },
+      {
+        "id": "2L9aJuTY854",
+        "baslik": "Korniş Montaji Nasıl Yapılır - Dikkat Edilmesi Gerekenler",
+        "kanal": "ÖZÜN YAP",
+        "sure": "1:50",
+        "saniye": 110,
+        "izlenme": 54360,
+        "puan": 9.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "duvar-kagidi": {
+    "tarih": "2026-11-25T17:04:14.452Z",
+    "sorgu": "Duvar Kağıdı Uygulama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "FX_vlbod-B4",
+        "baslik": "Duvar Kağıdı Nasıl Yapıştırılır? - (Uygulamalı Duvar Kağıdı Kaplama)",
+        "kanal": "Koçtaş",
+        "sure": "4:20",
+        "saniye": 260,
+        "izlenme": 863436,
+        "puan": 21.4
+      },
+      {
+        "id": "GwrzPiI6ZJs",
+        "baslik": "Ustasından Tv Arkası 3 Boyutlu Duvar Kağıdı Uygulaması - How to Paste 3D wallpaper?",
+        "kanal": "şehmus kalkan",
+        "sure": "8:03",
+        "saniye": 483,
+        "izlenme": 1468696,
+        "puan": 20.8
+      },
+      {
+        "id": "phm7GFbvrP8",
+        "baslik": "DuVar Kağıdı Duvara nasıl uygulanıyor - Ustasından",
+        "kanal": "şehmus kalkan",
+        "sure": "5:07",
+        "saniye": 307,
+        "izlenme": 45732,
+        "puan": 19
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kuf-temizligi": {
+    "tarih": "2026-11-25T17:04:14.866Z",
+    "sorgu": "Banyo ve Duvar Küfü Temizliği nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "PkEFaUuvsPE",
+        "baslik": "Küflü Duvar Nasıl Temizlenir | Rutubet ve Kararmış Duvar Temizliği",
+        "kanal": "Tepe Tesisat",
+        "sure": "3:06",
+        "saniye": 186,
+        "izlenme": 341330,
+        "puan": 17.8
+      },
+      {
+        "id": "Aa_WzurKSOI",
+        "baslik": "KÜFLÜ DUVAR/TAVAN NASIL TEMİZLENİR?",
+        "kanal": "Tesisat Servisim",
+        "sure": "3:55",
+        "saniye": 235,
+        "izlenme": 901772,
+        "puan": 16.4
+      },
+      {
+        "id": "5LsQhPQNMt8",
+        "baslik": "Rutubetinizi Bu Şekilde Kolayca Silin! | Küf Ve Kokuda Etkili!",
+        "kanal": "Emine Deligoz",
+        "sure": "11:23",
+        "saniye": 683,
+        "izlenme": 487125,
+        "puan": 13.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "radyator-hava-alma": {
+    "tarih": "2026-11-25T17:04:15.292Z",
+    "sorgu": "Radyatör Hava Alma nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "vQSpPsAYKWQ",
+        "baslik": "OTO RADYATÖR VE KALORİFER PETĞİNİN HAVASINI ALDINIZ MI ? (pratik hava alma yöntemi)",
+        "kanal": "otomobil 44",
+        "sure": "5:18",
+        "saniye": 318,
+        "izlenme": 443535,
+        "puan": 22
+      },
+      {
+        "id": "b2qn9Wtr_lc",
+        "baslik": "Radyatör Hava Yaptığı Nasıl Anlaşılır, Motor Suyu Hava Yaparsa Ne Olur, Radyatör Hava Nasıl Alınır",
+        "kanal": "Oto Klinik",
+        "sure": "9:57",
+        "saniye": 597,
+        "izlenme": 443103,
+        "puan": 15
+      },
+      {
+        "id": "H3lbAetTolA",
+        "baslik": "CHEVROLET CRUZE ve OPEL ASTRA Radyatör Havası Nasıl Alınır?",
+        "kanal": "Mustafa Tayfur",
+        "sure": "2:58",
+        "saniye": 178,
+        "izlenme": 33412,
+        "puan": 14.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-saksi": {
+    "tarih": "2026-11-25T17:04:15.788Z",
+    "sorgu": "Hava ile Kuruyan Kilden Mini Saksı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "oAQwKFqajcw",
+        "baslik": "KİLDEN AYAKLI MİNİ SAKSILAR NASIL YAPILIR ? // CLAY MINIATURE FLOWER POD",
+        "kanal": "Belcimms",
+        "sure": "21:29",
+        "saniye": 1289,
+        "izlenme": 82832,
+        "puan": 18.4
+      },
+      {
+        "id": "3Fh1TLPf03s",
+        "baslik": "DIY I Kilden Mini Saksı Yapımı #benimle #evdekal",
+        "kanal": "trynshare",
+        "sure": "4:57",
+        "saniye": 297,
+        "izlenme": 3472,
+        "puan": 15.3
+      },
+      {
+        "id": "odQsDPA4Qbs",
+        "baslik": "Seramik Hamuruyla Minyatür Saksı Yapımı - Kolay ve Basit! / Air Dry Clay Miniature Pots",
+        "kanal": "Sezenmade",
+        "sure": "3:33",
+        "saniye": 213,
+        "izlenme": 3163,
+        "puan": 12.8
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-boncuk": {
+    "tarih": "2026-11-25T17:04:16.346Z",
+    "sorgu": "Polimer Kil Boncuk nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "qLA8NV9SQ4M",
+        "baslik": "POLİMER KİL BONCUK YAPIMI - FIMO BONCUK ŞEKİLLENDİRİCİ",
+        "kanal": "Kıvılcığım ve Şeyler",
+        "sure": "8:58",
+        "saniye": 538,
+        "izlenme": 3112,
+        "puan": 18.2
+      },
+      {
+        "id": "mc8T7mnnBgU",
+        "baslik": "İlk defa POLİMER KİL ile takı yapıyorum. (Yeni Başlayanlar İçin)",
+        "kanal": "Ayşegül Tayar",
+        "sure": "23:01",
+        "saniye": 1381,
+        "izlenme": 71698,
+        "puan": 16.8
+      },
+      {
+        "id": "IcfO_nbWsNI",
+        "baslik": "Polimer Kil ile Takı  yapımı",
+        "kanal": "Hobium & Örgü Modelleri",
+        "sure": "9:03",
+        "saniye": 543,
+        "izlenme": 36936,
+        "puan": 15.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-hayvan-figur": {
+    "tarih": "2026-11-25T17:04:16.789Z",
+    "sorgu": "Polimer Kil Hayvan Figürü nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "lewy2RIU8wc",
+        "baslik": "KİL KÖPEK FİGÜRÜ, siparişi birlikte hazırlıyoruz!",
+        "kanal": "Kıvılcığım ve Şeyler",
+        "sure": "6:43",
+        "saniye": 403,
+        "izlenme": 3657,
+        "puan": 15.3
+      },
+      {
+        "id": "vsqLTv_rxrA",
+        "baslik": "Havayla kuruyan kil ile hayvan figürü çalışması 1 #seramic #seramikhamuru #kil #clay #heykel",
+        "kanal": "SemraY",
+        "sure": "16:26",
+        "saniye": 986,
+        "izlenme": 273,
+        "puan": 13.7
+      },
+      {
+        "id": "42TRgjkw0us",
+        "baslik": "Oyun Hamuru Şekilleri Gotenks Karakterileri Yapımı - Play Doh Şekilleri - Polimer Kil Şekilleri",
+        "kanal": "DoDo KiDS",
+        "sure": "22:58",
+        "saniye": 1378,
+        "izlenme": 81,
+        "puan": 10.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-mekan-plakasi": {
+    "tarih": "2026-11-25T17:04:17.264Z",
+    "sorgu": "Kil Kapı İsimliği nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "l2NMUM_tnC8",
+        "baslik": "Kapı İsimliği , door name 🌲",
+        "kanal": "Osman SADIÇ",
+        "sure": "11:46",
+        "saniye": 706,
+        "izlenme": 9820,
+        "puan": 16.5
+      },
+      {
+        "id": "fMRfwLbA48U",
+        "baslik": "ScrollSaw / Kıl Testeresi İle Kapı İsimliği Yapımı",
+        "kanal": "Osman SADIÇ",
+        "sure": "11:40",
+        "saniye": 700,
+        "izlenme": 2726,
+        "puan": 16.2
+      },
+      {
+        "id": "f-VaBQdoO9U",
+        "baslik": "Kapı İsim Ve Numara Plakalarına Nasıl Yazı Yazılır?",
+        "kanal": "Bugra",
+        "sure": "3:36",
+        "saniye": 216,
+        "izlenme": 9931,
+        "puan": 13
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-yuzuk-tabagi": {
+    "tarih": "2026-11-25T17:04:17.597Z",
+    "sorgu": "Polimer Kil Yüzük Tutucu (El Şekli) nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "g2gM-g0Ml9Q",
+        "baslik": "Kil Not Tutucu Yapımı | How To Make a Note Holder With Clay",
+        "kanal": "İlayda'nın Blogu",
+        "sure": "5:06",
+        "saniye": 306,
+        "izlenme": 1100,
+        "puan": 15.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-miknatis-meyve": {
+    "tarih": "2026-11-25T17:04:17.844Z",
+    "sorgu": "Kil Meyve Dilimi Magnetler nasıl yapılır",
+    "secim": 0,
+    "adaylar": []
+  },
+  "seramik-kupa-boyama": {
+    "tarih": "2026-11-25T17:04:18.419Z",
+    "sorgu": "Porselen Kupa Boyama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "cQ9nA75rij8",
+        "baslik": "Kupa & Bardak Boyama - Kupaya Yazı Yazma - Porselen Kalemi Nasıl Kullanılır? | 10marifet",
+        "kanal": "10marifet",
+        "sure": "5:57",
+        "saniye": 357,
+        "izlenme": 56924,
+        "puan": 19.6
+      },
+      {
+        "id": "kuMNvyO_xoI",
+        "baslik": "Porselen Kupa Boyama / Güzel Yazı / Lettering / Porselen Kalemi / Sevgililer Günü Hediye | 10marifet",
+        "kanal": "10marifet",
+        "sure": "2:42",
+        "saniye": 162,
+        "izlenme": 4122,
+        "puan": 17.4
+      },
+      {
+        "id": "TukgkSrU8t8",
+        "baslik": "Porselen Kupa Boyama / Güzel Yazı / Lettering / Porselen Kalemi | 10marifet",
+        "kanal": "10marifet",
+        "sure": "3:39",
+        "saniye": 219,
+        "izlenme": 6323,
+        "puan": 17.2
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-mum-tutucu": {
+    "tarih": "2026-11-25T17:04:18.970Z",
+    "sorgu": "Kil Mumluk nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "RJ8cvfypggY",
+        "baslik": "Seramik Hamuru İle Mumluk Yapımı / Seramik Hamuru Nasıl Kullanılır / Kilden Neler Yapılır/ DIY",
+        "kanal": "Beyza Özyurt Karaman",
+        "sure": "4:08",
+        "saniye": 248,
+        "izlenme": 20912,
+        "puan": 16.5
+      },
+      {
+        "id": "7GLHrpQy3-M",
+        "baslik": "Havayla Kuruyan Kil ile Pinterest Çiçek Mumluk Yapımı 🌷",
+        "kanal": "nui artworks",
+        "sure": "15:45",
+        "saniye": 945,
+        "izlenme": 478,
+        "puan": 12.5
+      },
+      {
+        "id": "hqGbdqomfug",
+        "baslik": "Kilden Mumluk Nasıl Yapılır? | Kendin Yap Dekorasyon",
+        "kanal": "Kağıtların Dünyası (Radicatus Arbour)",
+        "sure": "8:59",
+        "saniye": 539,
+        "izlenme": 73,
+        "puan": 11.8
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-kase-carkli": {
+    "tarih": "2026-11-25T17:04:19.440Z",
+    "sorgu": "Çömlek Çarkında İlk Kase nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "mfhtFpzQ3Xw",
+        "baslik": "Çömlekçi Çarkı Öğreniyorum 1. Ders",
+        "kanal": "Elimin Çamuru",
+        "sure": "10:39",
+        "saniye": 639,
+        "izlenme": 9047,
+        "puan": 13.9
+      },
+      {
+        "id": "B1lMMz2KuZg",
+        "baslik": "Çömlekçi çarkında seri üretim tekniği. #seramik #elyapımı #buhurdanlık",
+        "kanal": "Seyfart Seramik",
+        "sure": "18:51",
+        "saniye": 1131,
+        "izlenme": 322,
+        "puan": 13.3
+      },
+      {
+        "id": "d7pkJ3VYWM0",
+        "baslik": "Çömlekçi Tornası Ders 1 (Merkezleme-Yükseltme)/ First Lesson in a Pottery's Turn (Centering-Raising)",
+        "kanal": "Muun",
+        "sure": "12:13",
+        "saniye": 733,
+        "izlenme": 3769,
+        "puan": 12.9
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-sabunluk": {
+    "tarih": "2026-11-25T17:04:20.015Z",
+    "sorgu": "Polimer Kil Sabunluk nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "28zhkfoqSu8",
+        "baslik": "Polimer Kilden Tabak ve Sabunluk Yapımı",
+        "kanal": "Renkli Keşifler",
+        "sure": "5:36",
+        "saniye": 336,
+        "izlenme": 841,
+        "puan": 18.4
+      },
+      {
+        "id": "Ol_4zritC5s",
+        "baslik": "Polimer kil (fimo) ile renkli ve çiçekli zemin nasıl yapılır? - 10marifet",
+        "kanal": "10marifet",
+        "sure": "8:33",
+        "saniye": 513,
+        "izlenme": 30436,
+        "puan": 13.2
+      },
+      {
+        "id": "M2gBmU692Uk",
+        "baslik": "Polimer Kil Fimo Uygulamaları - Gün Işığı Pervanesi",
+        "kanal": "Hobi Dünyası",
+        "sure": "9:47",
+        "saniye": 587,
+        "izlenme": 2298,
+        "puan": 13
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-isim-kolye": {
+    "tarih": "2026-11-25T17:04:20.457Z",
+    "sorgu": "Polimer Kil Harf Kolye nasıl yapılır",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "BgbmKuz5DUI",
+        "baslik": "Polimer Kili Boyamak Hata mı? | Akrilik ve Pastel Boya Gerçeği",
+        "kanal": "Polymer_clay Türkiye",
+        "sure": "3:22",
+        "saniye": 202,
+        "izlenme": 964,
+        "puan": 15
+      },
+      {
+        "id": "e_g4G1nt0I8",
+        "baslik": "Havayla Kuruyan Kil ile Harf Süsü Yapımı ",
+        "kanal": "nui artworks",
+        "sure": "5:27",
+        "saniye": 327,
+        "izlenme": 419,
+        "puan": 13.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-tabak-baski": {
+    "tarih": "2026-11-25T17:04:20.848Z",
+    "sorgu": "Yaprak Baskılı Kil Tabak nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "6-2WqVb33R4",
+        "baslik": "Havayla Kuruyan Kilden Tabak Yapımı! | DIY - Kendin Yap",
+        "kanal": "Meritb Art ",
+        "sure": "11:15",
+        "saniye": 675,
+        "izlenme": 317452,
+        "puan": 18.8
+      },
+      {
+        "id": "nRCu2jd8aRA",
+        "baslik": "Seramik Hamurundan Tabak Yapımı- Air Dry Clay -Diy- Kendin Yap",
+        "kanal": "Gezente",
+        "sure": "18:37",
+        "saniye": 1117,
+        "izlenme": 58091,
+        "puan": 13.1
+      },
+      {
+        "id": "07iirTsALZ0",
+        "baslik": "Dekoratif yaprak obje",
+        "kanal": "mutluhayatlartasarim Evi",
+        "sure": "13:27",
+        "saniye": 807,
+        "izlenme": 1791,
+        "puan": 8.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-minyatur-pasta": {
+    "tarih": "2026-11-25T17:04:21.360Z",
+    "sorgu": "Minyatür Pasta (Dekoratif) nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "UbaH5Lr-6Dg",
+        "baslik": "Sevcan ile Mini Mutfakta Çilekli bahçe pastası yapıyoruz",
+        "kanal": "MiniBiz",
+        "sure": "14:52",
+        "saniye": 892,
+        "izlenme": 34370739,
+        "puan": 18.8
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-kalemlik": {
+    "tarih": "2026-11-25T17:04:21.773Z",
+    "sorgu": "Kil Kalemlik (Bobin Tekniği) nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "oI78I8jJBok",
+        "baslik": "hurdaya atılmış servet / atma değerlendir",
+        "kanal": "Zaman Buldukca Hobi",
+        "sure": "4:37",
+        "saniye": 277,
+        "izlenme": 334,
+        "puan": 5.8
+      }
+    ],
+    "ilgisiz": true
+  },
+  "kil-esarp-halkasi": {
+    "tarih": "2026-11-25T17:04:22.025Z",
+    "sorgu": "Polimer Kil Fular/Eşarp Halkası nasıl yapılır",
+    "secim": 0,
+    "adaylar": []
+  },
+  "kil-saat": {
+    "tarih": "2026-11-25T17:04:22.587Z",
+    "sorgu": "Kil Duvar Saati nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "9wY7bpuYtPI",
+        "baslik": "EVDE İLK KIL TESTERE ÇALIŞMAM DUVAR SAATİ YAPIMI SCROLL SAW (BEGINNER)",
+        "kanal": "Her Şeyden Bir Şey",
+        "sure": "1:44",
+        "saniye": 104,
+        "izlenme": 1974,
+        "puan": 13.9
+      },
+      {
+        "id": "OY-1A6L8FIg",
+        "baslik": "Tasarım Harikası Duvar Saati // DIY Elegant Wall Clock",
+        "kanal": "TornHands",
+        "sure": "6:34",
+        "saniye": 394,
+        "izlenme": 259,
+        "puan": 13.6
+      },
+      {
+        "id": "Zgk655fmKP0",
+        "baslik": "ihlas suresi duvar saati kıl testere çalışması ahşap dilegeldi",
+        "kanal": "ahşap dilegeldi",
+        "sure": "25:40",
+        "saniye": 1540,
+        "izlenme": 1899,
+        "puan": 12.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kil-hediye-etiketi": {
+    "tarih": "2026-11-25T17:04:23.025Z",
+    "sorgu": "Kil Hediye Etiketi ve Süs nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "kus-banyosu": {
+    "tarih": "2026-11-25T17:04:23.233Z",
+    "sorgu": "Saksı Altlığından Kuş Banyosu nasıl yapılır",
+    "secim": 0,
+    "adaylar": []
+  },
+  "kus-keki": {
+    "tarih": "2026-11-25T17:04:23.676Z",
+    "sorgu": "Kış İçin Kuş Yağlı Yem Keki nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "kedi-yatagi": {
+    "tarih": "2026-11-25T17:04:24.131Z",
+    "sorgu": "Eski Kazaktan Kedi Yatağı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "gQzr297nHzg",
+        "baslik": "Kazaktan Kedi Yatağı Yapımı",
+        "kanal": "Ne Beslesem?",
+        "sure": "10:34",
+        "saniye": 634,
+        "izlenme": 114574,
+        "puan": 21.6
+      },
+      {
+        "id": "gasstwoypD0",
+        "baslik": "Eski Kazaktan Hiç Dikiş Makinası Kullanmadan Trend Kedi Yatağı Dikimi ",
+        "kanal": "PRATİK  Dikiş",
+        "sure": "4:14",
+        "saniye": 254,
+        "izlenme": 2356,
+        "puan": 20.6
+      },
+      {
+        "id": "RYatlJ54Qfg",
+        "baslik": "ESKİ KAZAKTAN,Gelinimin Köpeği Peri'ye, YATAK Yaptım #diy #recycle #kendinyap #köpekyatağı #dogbeds",
+        "kanal": "HATİCE TAŞKOYAN İLE HOBİ SAATİ",
+        "sure": "7:46",
+        "saniye": 466,
+        "izlenme": 20251,
+        "puan": 20
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kedi-oltasi": {
+    "tarih": "2026-11-25T17:04:24.655Z",
+    "sorgu": "Tüylü Kedi Oltası Oyuncağı nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "kopek-kulubesi": {
+    "tarih": "2026-11-25T17:04:25.098Z",
+    "sorgu": "Ahşap Köpek Kulübesi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "V4V8adFnUgA",
+        "baslik": "Ahşap köpek kulübesi yapım aşamaları",
+        "kanal": "Wood Master Abi",
+        "sure": "6:05",
+        "saniye": 365,
+        "izlenme": 28249,
+        "puan": 20.2
+      },
+      {
+        "id": "9mEdCJk37e8",
+        "baslik": "AHŞAP ÜÇGEN KÖPEK KULÜBESİ YAPIMI | MALİYET ve MALZEME LİSTESİ AÇIKLAMADA | TÜM AŞAMALARI",
+        "kanal": "Tolga Yalçın",
+        "sure": "10:18",
+        "saniye": 618,
+        "izlenme": 61204,
+        "puan": 19.2
+      },
+      {
+        "id": "zu2KOk4A0iE",
+        "baslik": "KÖPEK KULÜBESİ YAPIMI-(Eski Tahta Paletleri Kullanarak)",
+        "kanal": "PAS TALAŞ",
+        "sure": "9:59",
+        "saniye": 599,
+        "izlenme": 88982,
+        "puan": 17.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kopek-halat-oyuncak": {
+    "tarih": "2026-11-25T17:04:25.734Z",
+    "sorgu": "Tişörtten Örgü Halat Köpek Oyuncağı nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "VaYMswO9tLY",
+        "baslik": "TIĞ İŞİ ÖRGÜ ( KEDİ-KÖPEK ) OYUNCAĞI NASIL YAPILIR ?",
+        "kanal": "ÖRGÜPEREST",
+        "sure": "5:35",
+        "saniye": 335,
+        "izlenme": 4641,
+        "puan": 19.5
+      },
+      {
+        "id": "Dhm78kFns0w",
+        "baslik": "Kedi ve köpeğinizin seveceği bir oyuncak yapalım, zıpzıp top, DIY",
+        "kanal": "Kedi Lolayla",
+        "sure": "2:35",
+        "saniye": 155,
+        "izlenme": 7217,
+        "puan": 10.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kopek-odulu": {
+    "tarih": "2026-11-25T17:04:26.164Z",
+    "sorgu": "Ev Yapımı Köpek Ödül Kurabiyesi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "BEUGikD2cMQ",
+        "baslik": "Köpekler İçin Ödül Kurabiyesi | Emir Yargın'la Çakal Lezzetler",
+        "kanal": "Çakal Lezzetler",
+        "sure": "10:22",
+        "saniye": 622,
+        "izlenme": 59308,
+        "puan": 20.7
+      },
+      {
+        "id": "XmBYvrZUpek",
+        "baslik": "KÖPEKLER İÇİN SAĞLIKLI ÖDÜL BİSKÜVİSİ 🍪",
+        "kanal": "Bengi Kızmaz",
+        "sure": "11:11",
+        "saniye": 671,
+        "izlenme": 31782,
+        "puan": 17.8
+      },
+      {
+        "id": "jdBdhyh_7po",
+        "baslik": "KÖPEKLER İÇİN SAĞLIKLI ÖDÜL KURABİYESİ YAPIMI 🐩 SUZİ MUTFAKTA",
+        "kanal": "Suzi'nin Dünyası",
+        "sure": "5:32",
+        "saniye": 332,
+        "izlenme": 3639,
+        "puan": 16.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "hamster-labirent": {
+    "tarih": "2026-11-25T17:04:26.691Z",
+    "sorgu": "Kartondan Hamster Labirenti nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "YOoLsPQKjTM",
+        "baslik": "Kartondan DEVASA Rengârenk Hamster Evi 🐹 || Sevimli Evcil Hayvanınız için KENDİN YAP Labirent!",
+        "kanal": "5 DAKİKADA HALLET",
+        "sure": "9:33",
+        "saniye": 573,
+        "izlenme": 39458,
+        "puan": 17.4
+      },
+      {
+        "id": "5aiQIEw5HAY",
+        "baslik": "Hamster Oscara Masura Kartondan Parkur Yaptık",
+        "kanal": "Berat'ın Abisi",
+        "sure": "10:01",
+        "saniye": 601,
+        "izlenme": 204054,
+        "puan": 14.5
+      },
+      {
+        "id": "eBLvTHl4aqM",
+        "baslik": "Complex DIY Hamster Obstracle Course: Professional Maze Build",
+        "kanal": "Mister Hamster",
+        "sure": "22:21",
+        "saniye": 1341,
+        "izlenme": 36323615,
+        "puan": 12.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kedi-cimi": {
+    "tarih": "2026-11-25T17:04:27.270Z",
+    "sorgu": "Kedi Çimi Yetiştirme nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "YEycSMs8QZU",
+        "baslik": "Buğday Nasıl Çimlendirilir? Evde Kolay Kedi Çimi Yapımı / Detaylı Anlatımla Kendin Yap",
+        "kanal": "Sezenmade",
+        "sure": "7:30",
+        "saniye": 450,
+        "izlenme": 79800,
+        "puan": 18.4
+      },
+      {
+        "id": "JHnYm5JM2aI",
+        "baslik": "Kedi Çimi Ekimi ve Bakımı Nasıl Yapılır?",
+        "kanal": "PETNET TV",
+        "sure": "5:33",
+        "saniye": 333,
+        "izlenme": 34117,
+        "puan": 17.3
+      },
+      {
+        "id": "xs0qbHSsZ3Q",
+        "baslik": "Kedi Çimi Nedir? Evde Kedi Çimi Nasıl Yapılır? Topraksız Çim Yapımı",
+        "kanal": "Pet Terapi",
+        "sure": "6:24",
+        "saniye": 384,
+        "izlenme": 10253,
+        "puan": 15.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "mama-standi": {
+    "tarih": "2026-11-25T17:04:27.765Z",
+    "sorgu": "Yükseltilmiş Mama Kabı Standı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "RZHVAUz8GsQ",
+        "baslik": "KEDİ & KÖPEK MAMALIĞI YAPIMI / HOW TO MAKE CAT & DOGS FOOD / DİY",
+        "kanal": "Yapıyapıve",
+        "sure": "7:51",
+        "saniye": 471,
+        "izlenme": 792,
+        "puan": 10.8
+      },
+      {
+        "id": "qr0KohrKv_Q",
+        "baslik": "Kırmızı solucan ailemiz  büyüyor! | 66 solucandan 1516 solucana",
+        "kanal": "Pürçüklü TV",
+        "sure": "9:13",
+        "saniye": 553,
+        "izlenme": 18093,
+        "puan": 7.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kedi-raflari": {
+    "tarih": "2026-11-25T17:04:28.281Z",
+    "sorgu": "Duvara Kedi Tırmanma Rafları nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "wnMgVbFY0T8",
+        "baslik": "KEDİLERİMİZE İKİ KATLI RANZA YAPTIM",
+        "kanal": "DOĞA&SANAT",
+        "sure": "2:14",
+        "saniye": 134,
+        "izlenme": 218,
+        "puan": 6.5
+      },
+      {
+        "id": "sfj1yDGM868",
+        "baslik": "Ahşap Terek Yapımı - DIY - Make a Wooden Shelves",
+        "kanal": "Yapıyapıve",
+        "sure": "8:32",
+        "saniye": 512,
+        "izlenme": 2292,
+        "puan": 5.5
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kus-tunegi": {
+    "tarih": "2026-11-25T17:04:28.638Z",
+    "sorgu": "Doğal Daldan Kafes Tüneği nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "vp6XGtU2Qio",
+        "baslik": "Dal parçası Tünek Nasıl yapılır??? - Basit Tünek Yapımı",
+        "kanal": "Lim ON Numara",
+        "sure": "6:39",
+        "saniye": 399,
+        "izlenme": 14242,
+        "puan": 13.2
+      },
+      {
+        "id": "ngiIsb952uU",
+        "baslik": "Budanan Ağaçlar ile Tünek Yapıyoruz",
+        "kanal": "Lim ON Numara",
+        "sure": "10:51",
+        "saniye": 651,
+        "izlenme": 33741,
+        "puan": 12.8
+      },
+      {
+        "id": "IqNHeNd86CY",
+        "baslik": "papağana ağaçtan tünek yaptık",
+        "kanal": "asiyürek",
+        "sure": "5:06",
+        "saniye": 306,
+        "izlenme": 146,
+        "puan": 8.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "paracord-tasma": {
+    "tarih": "2026-11-25T17:04:29.248Z",
+    "sorgu": "Paracord Örgü Köpek Tasması nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "-_5rGMf_kl4",
+        "baslik": "Cobra Braid Dog Collar | Full Step-by-Step Tutorial",
+        "kanal": "D.I.Y Pet Accessories",
+        "sure": "14:37",
+        "saniye": 877,
+        "izlenme": 460461,
+        "puan": 7
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kedi-tuvalet-dolabi": {
+    "tarih": "2026-11-25T17:04:29.912Z",
+    "sorgu": "Kedi Kum Kabı Dolabı nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "qsqeq2ecWi4",
+        "baslik": "Kapalı Kedi Tuvaleti Yapımı",
+        "kanal": "Kerem Cimen",
+        "sure": "4:32",
+        "saniye": 272,
+        "izlenme": 112827,
+        "puan": 15.6
+      },
+      {
+        "id": "Z8JT_8jq-H4",
+        "baslik": "KT-9401.21 | Kedi Dolabı",
+        "kanal": "Benimodam Kurulum",
+        "sure": "5:11",
+        "saniye": 311,
+        "izlenme": 199,
+        "puan": 13
+      },
+      {
+        "id": "OCdPid-eF-8",
+        "baslik": "Kedi tuvaleti nasıl yapılır?",
+        "kanal": "Rabia Aras",
+        "sure": "3:23",
+        "saniye": 203,
+        "izlenme": 11385,
+        "puan": 12.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "bocek-oteli": {
+    "tarih": "2026-11-25T17:04:30.428Z",
+    "sorgu": "Böcek Oteli nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "r0kfqOqRsaY",
+        "baslik": "Ege ile Gaga | Böcek Oteli",
+        "kanal": "TRT Çocuk",
+        "sure": "8:03",
+        "saniye": 483,
+        "izlenme": 286578,
+        "puan": 18.7
+      },
+      {
+        "id": "55anqSSB3Hw",
+        "baslik": "Böcek Oteli",
+        "kanal": "Galik Kids",
+        "sure": "5:34",
+        "saniye": 334,
+        "izlenme": 1555,
+        "puan": 15.8
+      },
+      {
+        "id": "LUxX-38Eoe8",
+        "baslik": "HİKAYE:BÖCEK OTELİ",
+        "kanal": "Aylin ÖZÇAKA",
+        "sure": "5:02",
+        "saniye": 302,
+        "izlenme": 567,
+        "puan": 14.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kirpi-evi": {
+    "tarih": "2026-11-25T17:04:31.779Z",
+    "sorgu": "Kirpi Kış Yuvası nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "0BvVFG9hQ6g",
+        "baslik": "Kirpi Kışın Neden Uyur? 🦔 Kış Uykusuna Yatan Hayvanlar | Okul Öncesi Eğitici Çizgi Film",
+        "kanal": "Öğretmenimin Sesi",
+        "sure": "6:41",
+        "saniye": 401,
+        "izlenme": 1351,
+        "puan": 15.2
+      },
+      {
+        "id": "p4DFwXUqYz8",
+        "baslik": "Kirpi Tarçın'ın Sabretmeyi Öğrendiği Kış Yuvası Masalı 🦔🍂🏠 Eğitici Masallar",
+        "kanal": "Çocuk Masalları ve Şarkılar",
+        "sure": "9:11",
+        "saniye": 551,
+        "izlenme": 16,
+        "puan": 13.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "yemlik-kamerasi": {
+    "tarih": "2026-11-25T17:04:32.220Z",
+    "sorgu": "Eski Telefonla Kuş Yemliği Kamerası nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "-UvzucSnd50",
+        "baslik": "WiFi Birdhouse Camera Operation on Mobile Phone",
+        "kanal": "Green-Backyard",
+        "sure": "2:15",
+        "saniye": 135,
+        "izlenme": 25405,
+        "puan": 4.6
+      }
+    ],
+    "ilgisiz": true
+  },
+  "tank-maketi": {
+    "tarih": "2026-11-25T17:04:32.776Z",
+    "sorgu": "Tank Maketi ve Eskitme (Weathering) nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "ntXhBxAgftQ",
+        "baslik": "T-54 B Tank maketi Yapıyoruz! (1/72 - Ammo Mig) English Subtitles",
+        "kanal": "Çağıl İçen",
+        "sure": "18:04",
+        "saniye": 1084,
+        "izlenme": 14312,
+        "puan": 16.2
+      },
+      {
+        "id": "JeeyuU06Skk",
+        "baslik": "Academy M-51 Super Sherman 1/35 Yapım Boyama ve Eskitme - Building And weathering",
+        "kanal": "Çağıl İçen",
+        "sure": "49:23",
+        "saniye": 2963,
+        "izlenme": 35199,
+        "puan": 15.8
+      },
+      {
+        "id": "yIffuXOUFzg",
+        "baslik": "Italeri T-55 Tankı plastik maketinde palet eskitme yapıyoruz",
+        "kanal": "HobbyTime",
+        "sure": "8:39",
+        "saniye": 519,
+        "izlenme": 272,
+        "puan": 14.7
+      }
+    ],
+    "ilgisiz": false
+  },
+  "sisede-gemi": {
+    "tarih": "2026-11-25T17:04:33.220Z",
+    "sorgu": "Şişe İçinde Gemi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "YQ6QL8gzm0I",
+        "baslik": "Şişe İçinde Gemi Yapımı. shipbuilding in a bottle",
+        "kanal": "YAPABİLİRSİN!!!",
+        "sure": "24:36",
+        "saniye": 1476,
+        "izlenme": 22377,
+        "puan": 19.5
+      },
+      {
+        "id": "qPFxkBbxTLc",
+        "baslik": "How to make a wooden ship into a bottle /Como hacer un barco de modera en una botella / #maket #gemi",
+        "kanal": "Tolga Turhan",
+        "sure": "23:14",
+        "saniye": 1394,
+        "izlenme": 9148,
+        "puan": 7.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "kibrit-ev": {
+    "tarih": "2026-11-25T17:04:33.683Z",
+    "sorgu": "Kibrit Çöpünden Ev Maketi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "A-Bs_ebbKPM",
+        "baslik": "kibritten ev yapımı (abone almayı unutmayın)",
+        "kanal": "İşte Hikayelerim",
+        "sure": "8:36",
+        "saniye": 516,
+        "izlenme": 13234,
+        "puan": 14.2
+      },
+      {
+        "id": "NUIaqS2ok8Q",
+        "baslik": "dondurma çubukları evi! kibrit çöpü evi nasıl yapılır",
+        "kanal": "Hayal evi projesi",
+        "sure": "3:52",
+        "saniye": 232,
+        "izlenme": 9455,
+        "puan": 13.5
+      },
+      {
+        "id": "uxqiRTVQodQ",
+        "baslik": "Kibritten Ev Nasıl Yapılır ?",
+        "kanal": "BilgiLab",
+        "sure": "5:09",
+        "saniye": 309,
+        "izlenme": 55929,
+        "puan": 13.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "papercraft": {
+    "tarih": "2026-11-25T17:04:34.217Z",
+    "sorgu": "Kağıt Maket (Papercraft) Bina nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "n-tren": {
+    "tarih": "2026-11-25T17:04:34.733Z",
+    "sorgu": "Küçük Masa Üstü Tren Hattı nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "mimari-maket": {
+    "tarih": "2026-11-25T17:04:35.340Z",
+    "sorgu": "Köpük Kartonla Mimari Maket nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "Wu_gA5_26cc",
+        "baslik": "Köpük (Strafor) Kutudan Ev- Mimari Tasarım",
+        "kanal": "Selma Kaya ile Teknoloji Tasarım",
+        "sure": "8:09",
+        "saniye": 489,
+        "izlenme": 1258,
+        "puan": 15.7
+      },
+      {
+        "id": "c5--M920zNs",
+        "baslik": "Karton ve Strafor ile  Ev Yapımı",
+        "kanal": "Serkan Erdoğan",
+        "sure": "3:09",
+        "saniye": 189,
+        "izlenme": 175629,
+        "puan": 15.4
+      },
+      {
+        "id": "rDAHabuZqLw",
+        "baslik": "Ev Yapımı Stadyum Maketi",
+        "kanal": "Serkan Erdoğan",
+        "sure": "10:09",
+        "saniye": 609,
+        "izlenme": 124521,
+        "puan": 12.6
+      }
+    ],
+    "ilgisiz": false
+  },
+  "araba-maketi": {
+    "tarih": "2026-11-25T17:04:35.820Z",
+    "sorgu": "Plastik Otomobil Maketi (Parlak Boya) nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "xd_-8dsQHTI",
+        "baslik": "Plastik nasıl boyanır, How to paint plastic",
+        "kanal": "Usta Tv",
+        "sure": "7:23",
+        "saniye": 443,
+        "izlenme": 121792,
+        "puan": 18.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "figur-boyama": {
+    "tarih": "2026-11-25T17:04:36.395Z",
+    "sorgu": "Minyatür Figür Boyama nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "X6P3IyfxlKE",
+        "baslik": "Minyatür Figür Boyama (kuru fırça)",
+        "kanal": "Mrtks3d",
+        "sure": "9:49",
+        "saniye": 589,
+        "izlenme": 1531,
+        "puan": 17.3
+      },
+      {
+        "id": "3a6fty8e99M",
+        "baslik": "Minyatür Figür Boyama İçin Gerekli Ekipmanlar",
+        "kanal": "Fırçagah",
+        "sure": "29:02",
+        "saniye": 1742,
+        "izlenme": 499,
+        "puan": 16
+      },
+      {
+        "id": "sTL98DdyTFw",
+        "baslik": "3d Yazıcı Figür Boyama - 3d Yazıcı Model Boyama Malzemeleri",
+        "kanal": "Bişeyler Yapalım",
+        "sure": "18:19",
+        "saniye": 1099,
+        "izlenme": 78416,
+        "puan": 15.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "tel-agac": {
+    "tarih": "2026-11-25T17:04:36.973Z",
+    "sorgu": "Telden Minyatür Ağaç nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "JLhvS_LmQho",
+        "baslik": "Kendin Yap - Çimento ve BAKIR TELDEN BONZAİ AĞACI NASIL YAPILIR",
+        "kanal": "Doğadan Manzaralar ",
+        "sure": "13:26",
+        "saniye": 806,
+        "izlenme": 886,
+        "puan": 10.4
+      }
+    ],
+    "ilgisiz": false
+  },
+  "diorama-su": {
+    "tarih": "2026-11-25T17:04:37.427Z",
+    "sorgu": "Diorama Suyu: Dere ve Gölet nasıl yapılır",
+    "secim": 0,
+    "adaylar": [],
+    "ilgisiz": false
+  },
+  "isikli-diorama": {
+    "tarih": "2026-11-25T17:04:38.104Z",
+    "sorgu": "LED Işıklı Gece Dioraması nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "36z3H5JVldI",
+        "baslik": "Modern Loft Minyatür Maket Yapımı – LED Işıklı, Gerçekçi ve Şık!",
+        "kanal": "minyaturia",
+        "sure": "11:27",
+        "saniye": 687,
+        "izlenme": 5992,
+        "puan": 15.2
+      },
+      {
+        "id": "uQk8jI07B2c",
+        "baslik": "BİR AMPUL'DEN NELER YAPABİLİRİZ? | DIY NIGHT LIGHT",
+        "kanal": "Nejdat Delioğlu",
+        "sure": "12:08",
+        "saniye": 728,
+        "izlenme": 8512,
+        "puan": 10.4
+      },
+      {
+        "id": "21iSwpLI_3Y",
+        "baslik": "Epoksi Reçineli İnanılmaz Modern Mavi Gece Lambası - (Epoksi Reçine Gece Lambası Nasıl Yapılır)",
+        "kanal": "Bsb Designn",
+        "sure": "10:36",
+        "saniye": 636,
+        "izlenme": 1585,
+        "puan": 9.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "gunes-sistemi": {
+    "tarih": "2026-11-25T17:04:38.577Z",
+    "sorgu": "Asılı Güneş Sistemi Maketi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "3MiL6iueQK8",
+        "baslik": "Güneş Sistemi Maketi Nasıl Yapılır? 6. Sınıf Fen Proje Ödevi #fenbilgisi",
+        "kanal": "Kral Efe TV",
+        "sure": "2:48",
+        "saniye": 168,
+        "izlenme": 15719,
+        "puan": 20.8
+      },
+      {
+        "id": "yiCCm3aeHQ4",
+        "baslik": "GÜNEŞ SİSTEMİ MAKETİ (FEN BİLİMLERİ GEZEGENLER 6. SINIF)",
+        "kanal": "EĞİTİM DURAĞIM",
+        "sure": "13:07",
+        "saniye": 787,
+        "izlenme": 168676,
+        "puan": 19.8
+      },
+      {
+        "id": "avQfn80n6ns",
+        "baslik": "GÜNEŞ SİSTEMİ MAKETİ... Solar Sistem 🤔🤔🤔 #keşfet #kendinyap #ödev #project #amazing #viral #diy ",
+        "kanal": "KAPLAN ORİGAMİ",
+        "sure": "5:03",
+        "saniye": 303,
+        "izlenme": 749,
+        "puan": 18.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "deniz-feneri": {
+    "tarih": "2026-11-25T17:04:39.131Z",
+    "sorgu": "Işıklı Deniz Feneri Maketi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "qPWR9Pbj6F0",
+        "baslik": "Dekoratif led ışıklı deniz feneri / how to make lighthouse",
+        "kanal": "erhancadays",
+        "sure": "1:58",
+        "saniye": 118,
+        "izlenme": 64,
+        "puan": 14.7
+      },
+      {
+        "id": "6b9qwt8J9YM",
+        "baslik": "Deniz Feneri maket Kartondan",
+        "kanal": "feritcetin0205 cetin",
+        "sure": "3:00",
+        "saniye": 180,
+        "izlenme": 3293,
+        "puan": 14.3
+      },
+      {
+        "id": "PkgdIx0bcv0",
+        "baslik": "Deniz Feneri Mumluk Maketi Klavuzu",
+        "kanal": "Es Tasarım",
+        "sure": "4:22",
+        "saniye": 262,
+        "izlenme": 255,
+        "puan": 12.1
+      }
+    ],
+    "ilgisiz": false
+  },
+  "topografik-harita": {
+    "tarih": "2026-11-25T17:04:39.493Z",
+    "sorgu": "Katmanlı Topografik Harita nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "ITHUqARI36E",
+        "baslik": "Parsel Sorgu Uygulaması Harita Katmanları Menüsü - Tapu ve Kadastro Genel Müdürlüğü",
+        "kanal": "Tapu ve Kadastro Genel Müdürlüğü",
+        "sure": "5:33",
+        "saniye": 333,
+        "izlenme": 50125,
+        "puan": 15.1
+      },
+      {
+        "id": "u2pk__lflBY",
+        "baslik": "Topografik haritada Grid Koordinat Sisteminde Noktanın Adresini ve Koordinatın yerini bulmak Part 2",
+        "kanal": "demirkan sarıkaya",
+        "sure": "13:19",
+        "saniye": 799,
+        "izlenme": 10720,
+        "puan": 14.5
+      },
+      {
+        "id": "QtQPa3oCHCw",
+        "baslik": "25000 Ölçekli Topgrafik Harita Eğitimi Haritayı Tanıyorum Part 1",
+        "kanal": "demirkan sarıkaya",
+        "sure": "13:54",
+        "saniye": 834,
+        "izlenme": 6864,
+        "puan": 13.8
+      }
+    ],
+    "ilgisiz": false
+  },
+  "ahsap-gemi": {
+    "tarih": "2026-11-25T17:04:39.919Z",
+    "sorgu": "Ahşap Yelkenli Maket Kiti nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "VPDib9R2uHw",
+        "baslik": "Yelkenli maket gemi yapımı omurga birleştirme #PART02 Sailnpat model shipbuilding keel joint",
+        "kanal": "HOBİ ALETLERİ YAPIMI",
+        "sure": "4:21",
+        "saniye": 261,
+        "izlenme": 14569,
+        "puan": 14.2
+      },
+      {
+        "id": "c2RLiWjZhbg",
+        "baslik": "Evde model gemi yapımı. Yelkenli Çektirme-5 #gemi #ahşap gemi #modelboat #gemimodeli #yelkenli",
+        "kanal": "Ahşap Gemi Modelciliği",
+        "sure": "13:10",
+        "saniye": 790,
+        "izlenme": 1365,
+        "puan": 13.2
+      },
+      {
+        "id": "lxVMc7l9DOw",
+        "baslik": "Hobby Maket Ertuğrul Evcimen - Gemi Maketi",
+        "kanal": "Hobby Maket",
+        "sure": "3:49",
+        "saniye": 229,
+        "izlenme": 1630,
+        "puan": 12.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "peri-bahcesi": {
+    "tarih": "2026-11-25T17:04:40.366Z",
+    "sorgu": "Saksıda Peri Bahçesi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "nghkWvLCWYc",
+        "baslik": "Gerçek Çimli Sihirli Peri Bahçesi Yaptık!",
+        "kanal": "Lina Çetinkaya",
+        "sure": "11:48",
+        "saniye": 708,
+        "izlenme": 20495986,
+        "puan": 20
+      }
+    ],
+    "ilgisiz": false
+  },
+  "strafor-kale": {
+    "tarih": "2026-11-25T17:04:40.764Z",
+    "sorgu": "Strafordan Taş Duvarlı Kale nasıl yapılır",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "kC-UjQD9xG8",
+        "baslik": "Doğal Taş ile Duvar Kaplama, Kendin Yap",
+        "kanal": "HAYALLERİMİ YAŞIYORUM",
+        "sure": "4:13",
+        "saniye": 253,
+        "izlenme": 142061,
+        "puan": 16.2
+      }
+    ],
+    "ilgisiz": false
+  },
+  "makrome-anahtarlik": {
+    "tarih": "2026-11-25T17:04:41.232Z",
+    "sorgu": "Makrome Anahtarlık nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "bw6AnlA4E1s",
+        "baslik": "Makrome Anahtarlık Yapımı|10 Dakikada Detaylı Anlatım | Macrame Keychain| MAKRODOKU",
+        "kanal": "Cansu Neler Yapar",
+        "sure": "9:33",
+        "saniye": 573,
+        "izlenme": 365990,
+        "puan": 19.3
+      },
+      {
+        "id": "BtySaFQrBzg",
+        "baslik": "MAKROME ANAHTARLIK NASIL YAPILIR? HEDİYELİK İÇİN HARİKA DENİZ KABUĞU MODELİ | MACRAME KEYCHAIN",
+        "kanal": "Beyzaca Design",
+        "sure": "13:44",
+        "saniye": 824,
+        "izlenme": 243722,
+        "puan": 18.1
+      },
+      {
+        "id": "s-Z3-DfFF9E",
+        "baslik": "Makrome Anahtarlık Yapılışı",
+        "kanal": "Makrobel",
+        "sure": "9:28",
+        "saniye": 568,
+        "izlenme": 36423,
+        "puan": 17.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "makrome-bileklik": {
+    "tarih": "2026-11-25T17:04:41.710Z",
+    "sorgu": "Makrome Bileklik (Ayarlanabilir) nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "s4ow2WjxUA8",
+        "baslik": "Kolay Makrome Bileklik Yapımı 🥰🦋Ayarlanabilir Bileklik Yapımı | Arkadaş Bilekliği | Easy Wristband",
+        "kanal": "Tansu M.",
+        "sure": "9:06",
+        "saniye": 546,
+        "izlenme": 345833,
+        "puan": 22.3
+      },
+      {
+        "id": "-dcMQtkPons",
+        "baslik": "Kolay Makrome Bileklik Yapımı 🥰🦋 Part1 Ayarlanabilir Bileklik | Arkadaş Bilekliği | Easy Wristband",
+        "kanal": "Tansu M.",
+        "sure": "5:52",
+        "saniye": 352,
+        "izlenme": 154746,
+        "puan": 20.3
+      },
+      {
+        "id": "01ZZd5icAbs",
+        "baslik": "Makrome Bileklik Yapımı | Kolay Ayarlanabilir Bileklik Yapımı",
+        "kanal": "F. Cantürk",
+        "sure": "13:58",
+        "saniye": 838,
+        "izlenme": 704308,
+        "puan": 20.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "makrome-ayna": {
+    "tarih": "2026-11-25T17:04:42.156Z",
+    "sorgu": "Makrome Çerçeveli Duvar Aynası nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "vh7tHiGuovA",
+        "baslik": "KOLAY MAKROME AYNA YAPIMI-MANDALA MODELİ // MACRAME MIRROR MAKING-MANDALA MODEL",
+        "kanal": "Pinarus",
+        "sure": "10:09",
+        "saniye": 609,
+        "izlenme": 69652,
+        "puan": 18.3
+      },
+      {
+        "id": "HlvDytpkWXI",
+        "baslik": "DEKORATİF MAKROME AYNA YAPIMI l MAKROME AYNA NASIL YAPILIR?",
+        "kanal": "Selin ",
+        "sure": "19:13",
+        "saniye": 1153,
+        "izlenme": 313126,
+        "puan": 16.7
+      },
+      {
+        "id": "-H8YZSS--lY",
+        "baslik": "DIY/AÇIKLAMALI MAKROME AYNA YAPIMI/MACRAME MIRROR /Fena Woman",
+        "kanal": "Fena Woman",
+        "sure": "14:17",
+        "saniye": 857,
+        "izlenme": 32036,
+        "puan": 16.3
+      }
+    ],
+    "ilgisiz": false
+  },
+  "makrome-perde": {
+    "tarih": "2026-11-25T17:04:42.541Z",
+    "sorgu": "Makrome Kapı / Pencere Perdesi nasıl yapılır",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "IulQXW9PQ48",
+        "baslik": "Yeni Başlayanlar İçin Kolay Makrome Perde Yapımı",
+        "kanal": "Ayşegül Alanlı",
+        "sure": "32:52",
+        "saniye": 1972,
+        "izlenme": 159479,
+        "puan": 16.8
+      },
+      {
+        "id": "2yadiqNQVzM",
+        "baslik": "MAKROME PERDE YAPIMI + MAKROME DÜĞÜM TEKNİKLERİ 'BARREL KNOT' + GELSİN SORULAR",
+        "kanal": "Pınar Sarıgöl",
+        "sure": "14:14",
+        "saniye": 854,
+        "izlenme": 283322,
+        "puan": 15.7
+      },
+      {
+        "id": "MedXaH6aj2U",
+        "baslik": "Makrome Perde Yapımı",
+        "kanal": "Ayşegül Alanlı",
+        "sure": "27:26",
+        "saniye": 1646,
+        "izlenme": 100610,
+        "puan": 15.5
+      }
+    ],
+    "ilgisiz": false
   }
 }
