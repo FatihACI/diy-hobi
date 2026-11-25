@@ -39,6 +39,16 @@ import {
   TAKI_TABAGI_ADIM,
   TAS_BOYAMA_ADIM,
 } from "./el-sanatlari";
+import {
+  DUVAR_TAMIR_ADIM,
+  IC_LASTIK_ADIM,
+  ILK_BASKI_ADIM,
+  MUSLUK_CONTA_ADIM,
+  PARK_SENSORU_ADIM,
+  TELEFON_STANDI_ADIM,
+  TRAFIK_LAMBASI_ADIM,
+  ZINCIR_BAKIM_ADIM,
+} from "./teknik-ev";
 
 export const ADIM_VIEWBOX = { en: 240, boy: 150 };
 
@@ -75,4 +85,12 @@ export const ADIM_CIZIM: Record<string, Cizim[]> = {
   "boncuk-kupe": BONCUK_KUPE_ADIM,
   "tas-boyama": TAS_BOYAMA_ADIM,
   "pirografi-pano": PIROGRAFI_PANO_ADIM,
+  "trafik-lambasi": TRAFIK_LAMBASI_ADIM,
+  "park-sensoru": PARK_SENSORU_ADIM,
+  "ilk-baski": ILK_BASKI_ADIM,
+  "telefon-standi": TELEFON_STANDI_ADIM,
+  "ic-lastik": IC_LASTIK_ADIM,
+  "zincir-bakim": ZINCIR_BAKIM_ADIM,
+  "musluk-conta": MUSLUK_CONTA_ADIM,
+  "duvar-tamir": DUVAR_TAMIR_ADIM,
 };
