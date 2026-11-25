@@ -1,5 +1,9 @@
 This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
 
+## One session at a time (read first)
+
+Only one AI/Claude session may work in this folder at a time. Before touching any file run `powershell -File araclar\oturum.ps1 durum`. If it prints `KILITLI` and the lock is not yours, stop: do not edit files, switch branches, commit or install packages; tell the user who holds the lock and ask. If it prints `BOS`, take the lock with `oturum.ps1 al -Ad "<session name/link>" -Is "<task>"`, refresh it during long work (`yenile`) and release it when done (`birak`). Also run `git status` first and never touch uncommitted changes you did not make. Details (Turkish): `CLAUDE.md`.
+
 ## Expo has changed — do not trust your training data
 
 Expo ships breaking changes every SDK release. APIs you remember are likely renamed, moved, or removed. Before writing any code that touches an Expo, EAS, or React Native API:

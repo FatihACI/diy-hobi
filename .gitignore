@@ -45,3 +45,6 @@ yarn-error.*
 
 # Google Play servis hesabı anahtarı (gizli)
 google-service-account.json
+
+# Oturum kilidi (aynı anda tek Claude oturumu; araclar/oturum.ps1)
+.oturum-kilidi
