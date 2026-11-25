@@ -303,3 +303,135 @@ export const toprak = (x: number, y: number): Cizgi => ({
   d: `M${x} ${y} L${x} ${y + 6} M${x - 8} ${y + 6} L${x + 8} ${y + 6} M${x - 5} ${y + 9} L${x + 5} ${y + 9} M${x - 2} ${y + 12} L${x + 2} ${y + 12}`,
   w: 1.2,
 });
+
+// ---------- Doğa & hayvan parçaları ----------
+// Su yüzeyi (dalgalı): x1 → x2
+export function suYuzu(x1: number, x2: number, y: number): Cizgi {
+  let d = `M${x1} ${y}`;
+  for (let x = x1; x < x2; x += 16) d += ` q4 -3 8 0 q4 3 8 0`;
+  return { d, w: 1 };
+}
+
+// Şamandıra: dikey, gövde ortası (x,y)
+export const samandira = (x: number, y: number): Cizgi[] => [
+  { d: `M${x} ${y - 20} Q${x + 7} ${y - 6} ${x} ${y + 10} Q${x - 7} ${y - 6} ${x} ${y - 20} Z`, w: 1.5, dolgu: true },
+  { d: `M${x} ${y - 20} L${x} ${y - 36}`, w: 2 },
+  { d: `M${x - 6} ${y - 6} L${x + 6} ${y - 6}`, w: 0.8 },
+];
+
+// Saçma kurşun
+export const kursun = (x: number, y: number, rr = 3): Cizgi => ({ d: daire(x, y, rr), w: 1.2, dolgu: true });
+
+// Fırdöndü: dikey, orta (x,y)
+export const firdondu = (x: number, y: number): Cizgi[] => [
+  { d: daire(x, y - 9, 3) + " " + daire(x, y + 9, 3), w: 1.2 },
+  {
+    d: `M${x - 3} ${y - 5} Q${x - 5} ${y} ${x - 3} ${y + 5} L${x + 3} ${y + 5} Q${x + 5} ${y} ${x + 3} ${y - 5} Z`,
+    w: 1.3,
+    dolgu: true,
+  },
+];
+
+// İğne: göz üstte (x,y), kanca sağa kıvrılır
+export const igne = (x: number, y: number, s = 1): Cizgi[] => [
+  { d: daire(x, y, 2.5 * s), w: 1.1 },
+  {
+    d: `M${x} ${r(y + 2.5 * s)} L${x} ${r(y + 20 * s)} Q${x} ${r(y + 28 * s)} ${r(x + 7 * s)} ${r(y + 28 * s)} Q${r(x + 13 * s)} ${r(y + 28 * s)} ${r(x + 13 * s)} ${r(y + 20 * s)} L${r(x + 10 * s)} ${r(y + 23 * s)}`,
+    w: 1.4,
+  },
+];
+
+// Akvaryum (önden): sol üst (x,y); su çizgisi üstten 8 aşağıda
+export const akvaryum = (x: number, y: number, en: number, boy: number): Cizgi[] => [
+  { d: kutu(x, y, en, boy), w: 1.8 },
+  { d: `M${x - 3} ${y} L${x + en + 3} ${y} M${x - 3} ${y + boy} L${x + en + 3} ${y + boy}`, w: 2.4 },
+  suYuzu(x + 2, x + en - 10, y + 8),
+];
+
+// Cımbız: uç (x,y), sap sağ üste uzun
+export const cimbiz = (x: number, y: number): Cizgi[] => [
+  { d: `M${x} ${y} L${x + 50} ${y - 54} M${x + 4} ${y + 2} L${x + 56} ${y - 50}`, w: 1.6 },
+  { d: `M${x + 50} ${y - 54} L${x + 56} ${y - 50}`, w: 1.6 },
+];
+
+// Gövdeli bitki (sap + karşılıklı yapraklar): taban (x,y), boy
+export function sapBitki(x: number, y: number, boy: number): Cizgi[] {
+  let yap = "";
+  for (let h = 8; h < boy; h += 8) {
+    const yy = y - h;
+    yap += `M${x} ${yy} Q${x - 6} ${yy - 4} ${x - 9} ${yy - 1} Q${x - 5} ${yy + 2} ${x} ${yy} M${x} ${yy - 3} Q${x + 6} ${yy - 7} ${x + 9} ${yy - 4} Q${x + 5} ${yy - 1} ${x} ${yy - 3} `;
+  }
+  return [
+    { d: `M${x} ${y} Q${x - 2} ${y - boy / 2} ${x} ${y - boy}`, w: 1.2 },
+    { d: yap.trim(), w: 0.9, dolgu: true },
+  ];
+}
+
+// Kavanoz: alt orta (cx, y), genişlik en, yükseklik boy; kapaklı
+export const kavanoz = (cx: number, y: number, en: number, boy: number, kapak = true): Cizgi[] => {
+  const l = cx - en / 2,
+    rr = cx + en / 2;
+  const liste: Cizgi[] = [
+    {
+      d: `M${l + 8} ${y - boy + 10} Q${l} ${y - boy + 18} ${l} ${y - boy + 30} L${l} ${y - 8} Q${l} ${y} ${l + 8} ${y} L${rr - 8} ${y} Q${rr} ${y} ${rr} ${y - 8} L${rr} ${y - boy + 30} Q${rr} ${y - boy + 18} ${rr - 8} ${y - boy + 10}`,
+      w: 1.8,
+    },
+    { d: `M${l + 10} ${y - boy + 22} Q${l + 6} ${y - boy + 40} ${l + 8} ${y - 20}`, w: 0.6 },
+  ];
+  if (kapak) liste.push({ d: kutu(l + 6, y - boy, en - 12, 10), w: 1.8, dolgu: true });
+  return liste;
+};
+
+// Kuş evi (önden): taban orta (cx,y)
+export const kusEvi = (cx: number, y: number, en = 40, boy = 56, delik = true): Cizgi[] => {
+  const l = cx - en / 2,
+    rr = cx + en / 2;
+  const liste: Cizgi[] = [
+    {
+      d: `M${l} ${y} L${l} ${y - boy} L${cx} ${y - boy - en * 0.45} L${rr} ${y - boy} L${rr} ${y} Z`,
+      w: 1.8,
+      dolgu: true,
+    },
+    { d: `M${l - 6} ${y - boy + 4} L${cx} ${y - boy - en * 0.55} L${rr + 6} ${y - boy + 4}`, w: 2.4 },
+  ];
+  if (delik) liste.push({ d: daire(cx, y - boy + 14, en * 0.16), w: 1.4 });
+  return liste;
+};
+
+// Pet şişe: alt orta (cx,y)
+export const sise = (cx: number, y: number, en = 30, boy = 84): Cizgi[] => {
+  const l = cx - en / 2,
+    rr = cx + en / 2;
+  return [
+    {
+      d: `M${l} ${y} L${l} ${y - boy + 26} Q${l} ${y - boy + 14} ${cx - 5} ${y - boy + 8} L${cx - 5} ${y - boy} L${cx + 5} ${y - boy} L${cx + 5} ${y - boy + 8} Q${rr} ${y - boy + 14} ${rr} ${y - boy + 26} L${rr} ${y} Z`,
+      w: 1.7,
+      dolgu: true,
+    },
+    { d: kutu(cx - 6, y - boy - 6, 12, 6), w: 1.5, dolgu: true },
+    { d: `M${l + 4} ${y - boy + 30} L${l + 4} ${y - 10}`, w: 0.6 },
+  ];
+};
+
+// Makas: uç (x,y), saplar sağda
+export const makas = (x: number, y: number): Cizgi[] => [
+  { d: `M${x} ${y} L${x + 30} ${y - 8} M${x} ${y} L${x + 30} ${y + 8}`, w: 1.6 },
+  { d: daire(x + 38, y - 10, 7) + " " + daire(x + 38, y + 10, 7), w: 1.6, dolgu: true },
+  { d: daire(x + 24, y, 1.5), w: 1 },
+];
+
+// Fide / ot: taban (x,y)
+export const fide = (x: number, y: number, s = 1): Cizgi[] => [
+  { d: `M${x} ${y} L${x} ${r(y - 14 * s)}`, w: 1.1 },
+  {
+    d: `M${x} ${r(y - 8 * s)} Q${r(x - 10 * s)} ${r(y - 14 * s)} ${r(x - 12 * s)} ${r(y - 6 * s)} Q${r(x - 5 * s)} ${r(y - 4 * s)} ${x} ${r(y - 8 * s)} M${x} ${r(y - 12 * s)} Q${r(x + 10 * s)} ${r(y - 18 * s)} ${r(x + 12 * s)} ${r(y - 10 * s)} Q${r(x + 5 * s)} ${r(y - 8 * s)} ${x} ${r(y - 12 * s)} M${x} ${r(y - 14 * s)} Q${r(x - 4 * s)} ${r(y - 24 * s)} ${x} ${r(y - 26 * s)} Q${r(x + 4 * s)} ${r(y - 24 * s)} ${x} ${r(y - 14 * s)}`,
+    w: 1,
+    dolgu: true,
+  },
+];
+
+// Hava kabarcıkları: (x,y) etrafında yükselen küçük daireler
+export const kabarcik = (x: number, y: number): Cizgi => ({
+  d: [daire(x, y, 2), daire(x + 3, y - 9, 2.5), daire(x - 2, y - 19, 2), daire(x + 2, y - 28, 3)].join(" "),
+  w: 0.9,
+});
