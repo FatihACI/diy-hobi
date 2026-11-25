@@ -880,6 +880,428 @@ export const ALTIN_ICERIK: Record<string, Icerik> = {
       "Küf çıktı: Üstten fazla sulandı veya hava almadı. Alttan sula, tepsiyi havalandırılmış yerde tut.",
     ],
   },
+
+  // ───────────── Grup 3: El Sanatları (1/2) ─────────────
+  "kesme-tahtasi": {
+    adimlar: [
+      a(
+        "Tahtayı seç ve formu çiz",
+        "Budaksız, çatlaksız ve düz bir tahta seç; lifler uzun kenar boyunca gitsin. Köşeleri yuvarlatmak için bir bardağı köşeye dayayıp çevresinden çiz. Sap istersen bir kısa kenarda 8–10 cm'lik bir çıkıntı bırak; asmak için ucuna Ø20 mm delik işaretle.",
+        "15 dk",
+        "Çizim simetrik, dört köşe aynı bardakla çizilmiş ve tahtada çatlak ya da gevşek budak yok.",
+      ),
+      a(
+        "Kes",
+        "Tahtayı işkenceyle masaya sabitle; kesilecek kısım masanın dışında kalsın. Dekupaj testereyle çizginin 1–2 mm dışından kes, testereyi zorlamadan kendi hızında ilerlet. Sap deliği varsa matkapla aç; alt tarafa hurda tahta koy ki çıkış ağzı patlamasın.",
+        "30 dk",
+        "Kesim çizgiyi hiçbir yerde geçmemiş, kenarlarda kopma ya da derin yanık izi yok.",
+      ),
+      a(
+        "Kenarları yuvarlat",
+        "80 kum zımparayla kesim payını çizgiye kadar al. Üst ve alt kenarları zımparayı 45° tutarak hafifçe pahla ya da yuvarlat; keskin kenar hem eli keser hem de kolay ezilir.",
+        "20 dk",
+        "Kenar çizgisi düzgün, eli kenarda gezdirince keskin köşe hissedilmiyor.",
+      ),
+      a(
+        "Kademeli zımparala",
+        "Tüm yüzeyleri sırasıyla 80 → 120 → 180 → 240 kumla, lif yönünde zımparala. Bir sonraki kuma geçmeden önce önceki kumun çizikleri tamamen kaybolmalı. Toz maskesi tak; her kumdan sonra tozu fırça ya da kuru bezle al.",
+        "60 dk",
+        "Yüzeyi yandan ışığa tutunca enine çizik görünmüyor.",
+      ),
+      a(
+        "Lifleri kaldır",
+        "Yüzeyi nemli bezle sil ve tamamen kurumasını bekle (yaklaşık 30 dk). Su, ezilmiş lifleri kaldırır; yüzey hafifçe pürüzlenir. 240 kumla tek bir hafif geçişle bu lifleri al. Böylece tahta ilk yıkamada tüylenmez.",
+        "40 dk",
+        "Kuruduktan sonra eli gezdirince yüzey yine pürüzsüz, kadife gibi.",
+      ),
+      a(
+        "Gıdaya uygun yağla yağla",
+        "Mineral yağı bolca dök, bezle tüm yüzeylere ve kenarlara yay; ağaç yağı içer. 20 dakika beklet, emilmeyen fazlayı kuru bezle sil. 3–4 kat tekrarla, son kattan sonra 24 saat kurusun. Yağlı bezleri açık havada sererek kurut, buruşturup çöpe atma.",
+        "1 saat + 24 saat",
+        "Yüzeye su damlatınca boncuk gibi duruyor, emilmiyor; tahta elde yağlı bırakmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Yağdan sonra yüzey tüylendi: Lif kaldırma adımı atlandı. Nemli bez + 240 kum adımını yap, yeniden yağla.",
+      "Zımpara çizikleri yağlayınca ortaya çıktı: Kum atlandı (ör. 80'den 240'a geçildi). Sırayla zımparala.",
+      "Tahta yıkamadan sonra çatladı: Bulaşık makinesine girdi ya da suda bekletildi. Elde yıka, hemen kurula, ayda bir yağla.",
+      "Zeytinyağı kullanıldı ve koku yaptı: Mutfak yağları ağaçta acır. Sadece gıdaya uygun mineral yağ kullan.",
+    ],
+  },
+
+  "ahsap-kutu": {
+    adimlar: [
+      a(
+        "Ölç ve kes",
+        "Tahtaya 2 × 30 cm (uzun kenar) ve 2 × 16,4 cm (kısa kenar) işaretle; kısa kenarlar uzunların arasına girer, 1,8 cm kalınlıkla dış ölçü 30 × 20 cm olur. Çizgileri gönyeyle çek. Tahtayı işkenceyle sabitle, testere ağzını çizginin dış tarafına koyarak kes.",
+        "40 dk",
+        "Eş parçalar üst üste konunca boyları aynı ve uçlar gönyeyle bakınca tam dik.",
+      ),
+      a(
+        "Kuru dene ve işaretle",
+        "Parçaları tutkalsız olarak kutu şeklinde diz. Dış ölçünün 30 × 20 cm olduğunu kontrol et. Her köşeye eşleşen bir harf yaz (A-A, B-B); birleştirirken parçalar karışmasın.",
+        "10 dk",
+        "Kuru dizilmiş kutunun köşelerinde aralık yok, dış ölçü 30 × 20 cm.",
+      ),
+      a(
+        "Vida yerlerine ön delik aç",
+        "Uzun kenarların her iki ucunda, uçtan 9 mm içeriye (tahta kalınlığının ortasına), alttan ve üstten 3 cm'ye birer işaret koy. Ø2,5 mm uçla del, sonra havşa ucuyla vida başı gömülecek kadar genişlet. Ön delik vidanın ahşabı yarmasını önler.",
+        "20 dk",
+        "Her köşede iki delik var, delikler tahtanın ortasından ve havşalar vida başını alacak derinlikte.",
+      ),
+      a(
+        "Tutkalla, sık ve vidala",
+        "Kısa kenarların uçlarına ince bir tutkal şeridi sür. Parçaları işaretlere göre birleştir, işkenceyle hafifçe sık. Köşegenleri ölç: iki köşegen eşitse kutu tam gönyededir; değilse uzun köşegen yönünde hafifçe bastır. Sonra vidaları tak; taşan tutkalı hemen nemli bezle sil.",
+        "30 dk",
+        "İki köşegen arasındaki fark 1 mm'den az ve köşelerde tutkal izi kalmamış.",
+      ),
+      a(
+        "Tabanı tak",
+        "Kutuyu ters çevir, alt kenarlara tutkal sür. Kontrplak tabanı kenarlarla aynı hizaya getirip yerleştir. Her kenara 10–12 cm arayla 20 mm çivi çak. Taban kenardan taşıyorsa tutkal kuruduktan sonra zımparayla hizala. Tutkal 1 saat sıkılı kalsın.",
+        "20 dk + 1 saat",
+        "Taban kenarlarla aynı hizada, kutuyu kaldırınca taban esnemiyor ve köşelerde aralık yok.",
+      ),
+      a(
+        "Zımparala ve bitir",
+        "Köşeleri ve üst kenarları 120 kumla yuvarlat, sonra tüm yüzeyi 180 kumla geç. Tozu al. Yağ ya da su bazlı vernik sür, ambalajdaki süre kadar kurut; ikinci kattan önce 240 kumla hafifçe geç. Kutuda yiyecek saklayacaksan içini vernikleme, gıdaya uygun yağ kullan.",
+        "40 dk + kuruma",
+        "Yüzey pürüzsüz, vernik akıntısız ve elle dokununca yapışmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Vida takarken tahta yarıldı: Ön delik açılmadı ya da uca çok yakın açıldı. Uçtan 9 mm içeriden, Ø2,5 mm uçla del.",
+      "Kutu yamuk çıktı: Köşegenler ölçülmeden vidalandı. Tutkal kurumadan köşegen kontrolü yap.",
+      "Vernik köşelerde tutmadı: Taşan tutkal silinmemiş. Tutkalı ıslakken nemli bezle al.",
+      "Taban sallanıyor: Kenarlar aynı boyda kesilmemiş. Kesimden sonra eş parçaları üst üste koyup kontrol et.",
+    ],
+  },
+
+  "soya-mum": {
+    adimlar: [
+      a(
+        "Kavanozu hazırla",
+        "Kavanozu sıcak suyla yıka ve tamamen kurula; içerideki nem ya da toz mumun cama yapışmasını bozar. Isıya dayanıklı, kalın tabanlı kavanoz kullan; ince camlar yanarken çatlayabilir. Mumu tartmak için kavanozu suyla doldurup ağırlığına bak; mum suyun yaklaşık %90'ı kadar gelir.",
+        "10 dk",
+        "Kavanoz kuru ve temiz; ne kadar mum eriteceğini biliyorsun.",
+      ),
+      a(
+        "Fitili sabitle",
+        "Fitilin metal tabanına yapıştırıcı ya da çift taraflı bant koy, kavanozun dibinin tam ortasına bastır. Üstte iki çubuk ya da mandal arasına sıkıştırarak fitili dik tut.",
+        "5 dk",
+        "Fitil tam ortada ve dik; kavanozu hafifçe sallayınca yerinden kaymıyor.",
+      ),
+      a(
+        "Benmari ile erit",
+        "Tencereye birkaç parmak su koy, ısıt; eritme potunu suyun içine oturt. Soya pullarını pota koy, kısık-orta ateşte karıştırarak erit. Termometreyle ölç; 85 °C'yi geçme. Mumu asla doğrudan ateşe koyma ve ocağın başından ayrılma.",
+        "20 dk",
+        "Mum tamamen şeffaf, içinde katı pul kalmamış ve termometre 85 °C'nin altında.",
+      ),
+      a(
+        "Kokuyu ekle",
+        "Ocağı kapat. Mum yaklaşık 80 °C'deyken esansı ekle: mum ağırlığının %6–8'i kadar (500 g muma 30–40 g). Esansın ambalajında daha düşük bir üst sınır yazıyorsa ona uy. 2 dakika yavaşça ama sürekli karıştır; koku mumla ancak böyle bağlanır.",
+        "5 dk",
+        "Karıştırma 2 dakika sürdü ve mumun yüzeyinde ayrışmış yağ damlası yok.",
+      ),
+      a(
+        "55–60 °C'de dök",
+        "Mumun 55–60 °C'ye düşmesini termometreyle bekle. Kavanoza yavaşça, kenardan akıtarak dök; üstte 1–1,5 cm boşluk bırak. Potta biraz mum ayır; yüzeyde çukur oluşursa doldurmak için.",
+        "10 dk",
+        "Dökerken kabarcık oluşmadı, mum seviyesi düz ve fitil hâlâ ortada.",
+      ),
+      a(
+        "24 saat soğut",
+        "Kavanozu cereyansız, oda sıcaklığında (20–24 °C) bir yerde 24 saat hiç kıpırdatmadan beklet. Buzdolabına koyma; hızlı soğuma çatlak ve camdan ayrılma yapar. Yüzeyde çukur oluşursa ayırdığın mumu ısıtıp ince bir kat dök.",
+        "24 saat",
+        "Yüzey düz ve mat; camla mum arasında belirgin boşluk yok.",
+      ),
+      a(
+        "Fitili kes ve dinlendir",
+        "Fitili mum yüzeyinden 5 mm kalacak şekilde kes. Kokunun mumla tam oturması için mumu en az 2 gün, mümkünse 1 hafta kapalı ve serin bir yerde beklet; bu sürede koku belirgin şekilde güçlenir.",
+        "5 dk + 2–7 gün",
+        "Fitil 5 mm; mumun kokusu soğukken bile hissediliyor.",
+      ),
+      a(
+        "İlk yakış",
+        "İlk yakışta mumu, yüzeyin tamamı kenarlara kadar eriyene kadar söndürme; bu genelde 2–3 saat sürer. Böylece mum her yakışta tünel yapmadan erir. Tek seferde 4 saatten fazla yakma, her yakıştan önce fitili 5 mm'ye kes.",
+        "2–3 saat",
+        "Erimiş havuz kavanozun kenarına ulaşmış, alev sakin ve dumansız.",
+      ),
+    ],
+    sikHatalar: [
+      "Mum ortadan tünel açarak yanıyor: İlk yakışta erken söndürüldü. Bir sonraki yakışta yüzey tamamen eriyene kadar yak.",
+      "Koku zayıf: Esans çok sıcakta eklendi ya da dinlendirme atlandı. 80 °C'de ekle, en az 2 gün beklet.",
+      "Alev çok büyük ve isliyor: Fitil uzun ya da kavanoza göre kalın. Fitili 5 mm'ye kes; sürerse bir ince fitil kullan.",
+      "Yüzey pürüzlü ve çatlak: Çok sıcakken döküldü ya da hızlı soğudu. 55–60 °C'de dök, cereyansız yerde soğut.",
+    ],
+    guvenlikEk: [
+      "Evde kedi veya köpek varsa esans seçerken dikkat et; çay ağacı, okaliptüs ve nane gibi bazı uçucu yağlar hayvanlar için zararlıdır. Mumu hayvanın uzanamayacağı yerde yak.",
+    ],
+  },
+
+  "gliserin-sabun": {
+    adimlar: [
+      a(
+        "Kalıbı hazırla",
+        "Silikon kalıbı yıka ve tamamen kurula. Düz bir tepsiye koy; sabun döküldükten sonra kalıbı taşıman gerekirse tepsiyle taşırsın. Alkol spreyini, boyayı ve esansı hazır et; baz çabuk donar.",
+        "5 dk",
+        "Kalıp kuru ve düz duruyor, tüm malzemeler elinin altında.",
+      ),
+      a(
+        "Kes ve erit",
+        "Bazı yetişkin 2 cm'lik küplere kessin. Küpleri mikrodalgaya uygun bir kaba koy, 20–30 saniyelik aralıklarla ısıtıp her seferinde karıştır. Birkaç küçük parça kalınca ısıtmayı bırak, karıştırarak erit. Baz kaynarsa köpürür ve sabun lastik gibi olur.",
+        "10 dk",
+        "Baz tamamen sıvı ve şeffaf, köpük yok; kabın kenarı elle tutulamayacak kadar sıcak değil.",
+      ),
+      a(
+        "Renk ve koku ekle",
+        "Önce boyadan 1–2 damla ekle, karıştır, rengi gör; koyulaştırmak için damla damla ekle. Sonra bazın ağırlığının %1–2'si kadar esans ekle (500 g baza 5–10 g). Köpük oluşturmamak için çırpmadan, yavaşça karıştır.",
+        "5 dk",
+        "Renk eşit dağılmış, yüzeyde köpük ya da yağ damlası yok.",
+      ),
+      a(
+        "Kalıba dök",
+        "Bazı kalıba yavaşça, kalıbın kenarından akıtarak dök. Hemen yüzeye alkol sprey sık; kabarcıklar patlar. Alkolü ateşten ve ocaktan uzakta kullan.",
+        "5 dk",
+        "Yüzey düz ve kabarcıksız.",
+      ),
+      a(
+        "Süsle ya da katman ekle",
+        "Lavanta ya da kuru çiçek kullanacaksan, yüzey hafifçe kabuk bağlayınca (5–10 dk) üstüne serp ve alkol sık. Yeni bir kat dökeceksen önce yüzeye alkol sık, ikinci katı yaklaşık 50 °C'ye soğumuş bazla dök; çok sıcak dökersen alt kat erir ve renkler karışır.",
+        "10 dk",
+        "Süslemeler yüzeyde duruyor; katmanlar arasında net bir çizgi var ve ayrılmıyor.",
+      ),
+      a(
+        "Donmasını bekle",
+        "Kalıbı oda sıcaklığında 1–2 saat kıpırdatmadan beklet. Acelen varsa son 30 dakikayı buzdolabında geçirebilir; dondurucuya koyma, çatlar ve terler.",
+        "1–2 saat",
+        "Sabun tamamen sertleşmiş; parmakla bastırınca iz kalmıyor.",
+      ),
+      a(
+        "Kalıptan çıkar ve sar",
+        "Kalıbın kenarlarını sabundan ayır, alttan iterek çıkar. Gliserin havadaki nemi çeker ve sabunun yüzeyinde damlacıklar oluşur (terleme). Bunu önlemek için her sabunu hemen streç filmle sıkıca sar.",
+        "10 dk",
+        "Sabun kırılmadan çıktı, köşeleri net ve streç filmle hava almayacak şekilde sarılı.",
+      ),
+    ],
+    sikHatalar: [
+      "Sabun kauçuk gibi ve bulanık: Baz kaynatıldı. Kısa aralıklarla ısıt, birkaç parça kalınca dur.",
+      "Yüzeyde damlacıklar oluştu: Gliserin nem çekti. Sabunu çıkarır çıkarmaz streç filmle sar.",
+      "Katmanlar birbirinden ayrıldı: Araya alkol sıkılmadı ya da alt kat çok soğudu. Her kattan önce alkol sık, alt kat tamamen soğumadan dök.",
+      "Lavanta kahverengiye döndü: Kuru bitkiler şeffaf bazda zamanla kararır. Yalnızca yüzeyde süs olarak kullan.",
+    ],
+  },
+
+  "epoksi-kolye": {
+    adimlar: [
+      a(
+        "Hazırlan",
+        "Masaya naylon ser, nitril eldiven giy, pencereyi aç. Çiçeklerin tamamen kuru olduğunu kontrol et; preslenmiş ve kâğıt gibi kuru olmalı. UV reçine kullanacaksan lambayı, epoksi kullanacaksan iki bileşeni ve ölçü kabını hazırla.",
+        "10 dk",
+        "Eldiven takılı, ortam havalanıyor ve çiçekler parmakta kıtır kıtır kırılacak kadar kuru.",
+      ),
+      a(
+        "İnce ilk katı dök ve kürle",
+        "Kalıbın tabanına 1–2 mm reçine dök. UV reçineyi lambanın altında 2 dakika kürle. Epoksi kullanıyorsan iki bileşeni ambalajdaki oranda karıştırıp dök, jel kıvamına gelmesini bekle (genelde 1–2 saat). Bu kat çiçeğin ön yüzünü korur.",
+        "5 dk (UV) / 1–2 saat (epoksi)",
+        "İlk kat parmakla dokununca akmıyor (UV'de tamamen sert, epokside jel).",
+      ),
+      a(
+        "Çiçeği yerleştir",
+        "Çiçeği cımbızla, görünmesini istediğin yüzü aşağı bakacak şekilde ilk katın üstüne koy; kalıbın tabanı kolyenin ön yüzü olur. Üstüne bir damla reçine damlat, cımbızla hafifçe bastırarak altında hava kalmamasını sağla.",
+        "5 dk",
+        "Kalıbı ters çevirip alttan bakınca çiçek düzgün yerleşmiş ve altında hava kabarcığı yok.",
+      ),
+      a(
+        "Kalıbı doldur, kabarcıkları al",
+        "Kalıbı reçineyle doldur. UV reçinede tek seferde en fazla 3 mm dök ve her katı ayrı kürle; kalın dökülen UV reçinenin içi kürlenmez. Yüzeye çıkan kabarcıkları kürdanla patlat ya da dışarı çek.",
+        "10 dk",
+        "Reçine kalıbın ağzıyla aynı seviyede, yüzeyde kabarcık yok.",
+      ),
+      a(
+        "Kürle ve kalıptan çıkar",
+        "UV reçineyi her yönden toplam 3–5 dakika kürle; çıkardıktan sonra arka yüzü de 1–2 dakika lambaya tut. Epoksiyi tozdan korunmuş halde 24 saat beklet. Kalıbı esneterek parçayı çıkar.",
+        "5 dk (UV) / 24 saat (epoksi)",
+        "Parça her yüzünde sert, tırnakla bastırınca iz kalmıyor ve yapışkanlık yok.",
+      ),
+      a(
+        "Kenarları düzelt",
+        "Kenardaki çapakları ince zımparayla (400 kum, ıslak) al. Zımparalanan yer matlaşırsa üstüne çok ince bir kat reçine sürüp tekrar kürle; parlaklık geri gelir.",
+        "15 dk",
+        "Kenarda keskin çapak yok, yüzey her yerde parlak.",
+      ),
+      a(
+        "Delik aç ve halkayı tak",
+        "Parçayı bir tahtanın üstünde mandal ya da küçük işkenceyle tut, koruyucu gözlük tak. Üst kenara, kenardan 2 mm içeride, 1–1,5 mm uçla yavaşça delik aç. Halkayı pense ile yanlara doğru açıp delikten geçir, kapat ve zinciri tak.",
+        "10 dk",
+        "Delik kırılma yapmadan açılmış; halka kapalı ve zincir çekilince çıkmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Reçinenin içi yapış yapış kaldı: UV reçine tek seferde kalın döküldü. 3 mm'den kalın katları ayrı ayrı kürle.",
+      "Çiçek kararıp kahverengileşti: Çiçek nemliydi. Haftalarca preslenmiş, tamamen kuru çiçek kullan.",
+      "Çiçeğin altında hava kabarcığı var: İlk kat atlandı ya da çiçek bastırılmadı. Önce ince kat dök, çiçeği damla reçineyle bastır.",
+      "Delik açarken parça çatladı: Kenara çok yakın ya da hızlı delindi. Kenardan 2 mm içeride, yavaş del.",
+    ],
+  },
+
+  "epoksi-altlik": {
+    adimlar: [
+      a(
+        "Ortamı hazırla",
+        "Odayı 20–25 °C'ye getir; soğukta reçine bulanıklaşır ve geç kurur. Düz bir masaya naylon ser, kalıbı su terazisiyle kontrol et. Nitril eldiven ve maske tak, pencereyi aç. Kalıbın içindeki tozu bantla al.",
+        "15 dk",
+        "Kalıp tam düz, oda 20 °C'nin üstünde ve havalandırma açık.",
+      ),
+      a(
+        "Ölç ve karıştır",
+        "Reçine ve sertleştiriciyi ambalajda yazan oranda (çoğu sette hacimce 1:1) ayrı ölçü kaplarında ölç, sonra tek kapta birleştir. 3 dakika boyunca yavaşça karıştır; kabın kenarlarını ve dibini çubukla sıyır. Hızlı çırparsan kabarcık dolar, karıştırılmayan kenar ise hiç kurumaz.",
+        "5 dk",
+        "Karışım tamamen berrak; içinde dalgalı çizgiler ya da bulanık bölge kalmamış.",
+      ),
+      a(
+        "Renklere ayır",
+        "Karışımı üç kaba böl: en çoğu koyu mavi, ortası turkuaz, en azı beyaz olsun (yaklaşık 3:2:1). Pigmenti çubuğun ucuyla az az ekle; çok pigment reçinenin kurumasını bozar. Beyazı yoğun yap ki dalga görünsün.",
+        "5 dk",
+        "Üç renk de homojen; beyaz örtücü, mavi tonlar yarı saydam.",
+      ),
+      a(
+        "Katmanlarla dök",
+        "Kalıbın bir yarısına koyu maviyi dök, yanına turkuazı dök; iki renk ortada hafifçe birbirine karışsın. Beyazı turkuazın dış kenarına, kumsal çizgisi gibi ince bir şerit halinde dök. Kalıbı fazla doldurma; kenardan 1–2 mm aşağıda kal.",
+        "10 dk",
+        "Renkler yan yana ve kalıp taşmamış; beyaz ince bir şerit halinde duruyor.",
+      ),
+      a(
+        "Dalgayı oluştur",
+        "Isı tabancasını en düşük ayarda, yüzeyden 15–20 cm uzakta tutarak beyazı turkuazın üstüne doğru üfle. Beyaz incelip dantel gibi hücreler oluşturur. Tabancayı tek noktada tutma; kalıp ve reçine aşırı ısınır. Alevli şalümo kullanma.",
+        "10 dk",
+        "Beyazın içinde dantel gibi hücreler oluşmuş ve yüzeyde kabarcık yok.",
+      ),
+      a(
+        "Kurut ve kalıptan çıkar",
+        "Kalıbın üstünü ters çevrilmiş bir kutuyla tozdan koru. 24–48 saat düz zeminde, dokunmadan beklet. Tamamen sertleşince kalıbı esneterek altlıkları çıkar.",
+        "48 saat",
+        "Altlık her yerde sert, tırnakla bastırınca iz kalmıyor ve yapışkanlık yok.",
+      ),
+      a(
+        "Kenarı düzelt ve tam kürü bekle",
+        "Kenar çapaklarını ıslak 400 kum zımparayla al. Altına keçe ped yapıştır. Epoksi tam dayanımına yaklaşık 7 günde ulaşır; bu süreden önce sıcak bardak koyma. Kürlenmiş epoksi de çok sıcak demlikte iz alabilir, demlik altlığı olarak kullanma.",
+        "15 dk + 7 gün",
+        "Kenar pürüzsüz, altta keçe var; altlık masa üstünde sallanmıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Bir köşesi hiç kurumadı: Kabın kenarı sıyırılmadan karıştırıldı. Kenarları ve dibi sıyırarak 3 dakika karıştır.",
+      "Yüzey kabarcık dolu: Hızlı çırpıldı ya da oda soğuktu. Yavaş karıştır, ortamı 20–25 °C'ye getir.",
+      "Dalga oluşmadı, beyaz yayıldı: Beyaz çok sulu ya da tabanca çok yakın. Beyazı yoğun yap, tabancayı uzaktan tut.",
+      "Sıcak bardak iz bıraktı: Tam kür beklenmedi ya da kap çok sıcaktı. 7 gün bekle, demlik için kullanma.",
+    ],
+  },
+
+  "makrome-aski": {
+    adimlar: [
+      a(
+        "İpleri kes",
+        "Mezurayla 2,5 m ölç ve 8 parça kes. Ölçüyü bir kez kesip diğerlerini bu ipe göre kesersen hepsi eşit olur. İp uçlarına bant sararsan çalışırken açılmaz.",
+        "10 dk",
+        "8 ipin hepsi aynı boyda; uçlar açılmıyor.",
+      ),
+      a(
+        "Halkaya tak ve topla",
+        "8 ipi halkadan geçir ve ortadan katla; 16 uç aşağı sarksın. Ayrı bir 1 m ip parçasıyla halkanın hemen altına sarma düğüm at: ipin bir ucunu aşağı doğru katla, uzun ucu demetin etrafına sıkıca 8–10 tur sar, ucu alttaki halkadan geçir ve üst ucu çekerek halkayı sarımın içine gizle.",
+        "15 dk",
+        "Sarma düğüm sıkı ve düzgün; halkayı tutup sallayınca ipler kaymıyor.",
+      ),
+      a(
+        "Gruplara ayır, kare düğüm at",
+        "16 ucu 4'lü 4 gruba ayır. Her grupta ortadaki iki ip kılavuz kalır, dıştaki iki iple kare düğüm atılır: sol ipi kılavuzların üstünden geçir, sağ ipi onun üstünden ve kılavuzların altından sol halkaya geçir, sık; sonra aynısını ters yönden yap. Her gruba 5 kare düğüm at.",
+        "25 dk",
+        "Dört grupta da 5'er düzgün kare düğüm var ve düğüm zincirleri aynı uzunlukta.",
+      ),
+      a(
+        "Çapraz bağla",
+        "Son düğümden 10 cm aşağıda, yan yana duran iki grubun komşu ikişer ipini al ve tek bir kare düğüm at. Bunu dört grup arasında çepeçevre yap; son düğüm ilk ve dördüncü grubu birleştirir.",
+        "15 dk",
+        "Dört çapraz düğüm aynı yükseklikte ve ipler bir kafes oluşturuyor.",
+      ),
+      a(
+        "Sepeti kapat",
+        "Çapraz düğümlerden 8 cm aşağıda, yine komşu ipleri birleştirerek bir sıra daha kare düğüm at. Bu iki sıra saksının oturacağı sepeti oluşturur. Saksıyı içine koyup dene; dar ya da bol gelirse düğüm aralıklarını ayarla.",
+        "15 dk",
+        "Saksı sepete oturduğunda düğümler saksının yan yüzünü sarıyor, saksı kaymıyor.",
+      ),
+      a(
+        "Altta topla",
+        "İkinci sıradan 5–6 cm aşağıda tüm ipleri bir araya getir ve 2. adımdaki gibi sarma düğüm at. Saksıyı içine koy ve askıyı halkadan kaldırarak dengeyi kontrol et.",
+        "10 dk",
+        "Saksı dik duruyor, askı bir yana yatmıyor.",
+      ),
+      a(
+        "Uçları eşitle ve as",
+        "Sarma düğümün altındaki uçları eşit boyda kes, istersen tarakla açarak püskül yap. Tavana saksı ve suyun ağırlığını taşıyacak dübel ve kanca tak; askıyı kancaya as.",
+        "15 dk",
+        "Püskül uçları eşit; dolu saksı asılıyken kanca oynamıyor.",
+      ),
+    ],
+    sikHatalar: [
+      "Kare düğümler spiral gibi dönüyor: Hep aynı taraftan başlandı. Her düğümde sol ve sağ başlangıcı sırayla değiştir.",
+      "Saksı yana yatıyor: Gruplar farklı uzunlukta. Düğümleri saymadan değil, mezurayla aralık ölçerek at.",
+      "Saksı sepetten kayıp düşüyor: Çapraz sıralar arası çok açık. Aralığı saksıya göre daralt.",
+      "Kanca tavandan çıktı: Dübel kullanılmadı. Saksı + su ağırlığına uygun dübel tak.",
+    ],
+  },
+
+  "makrome-duvar": {
+    adimlar: [
+      a(
+        "Çubuğu as ve ipleri kes",
+        "Ahşap çubuğu iki ucundan bir iple bağlayıp kapı koluna ya da askılığa as; göz hizasında çalışmak işi kolaylaştırır. 16 parça 2,5 m ip kes.",
+        "15 dk",
+        "Çubuk yere paralel asılı ve 16 ip aynı boyda.",
+      ),
+      a(
+        "İpleri ters baş düğümüyle tak",
+        "Her ipi ortadan katla, katlı kısmı çubuğun önünden arkasına geçir ve iki ucu katlı kısmın oluşturduğu halkanın içinden çekerek sık. 16 ipi eşit aralıkla diz; 32 uç sarkar.",
+        "15 dk",
+        "16 düğüm çubukta eşit aralıklı ve hepsi aynı yöne bakıyor.",
+      ),
+      a(
+        "İlk kare düğüm sırası",
+        "32 ucu 4'lü 8 gruba ayır. Her gruba çubuktan 3 cm aşağıda bir kare düğüm at. Düğümleri aynı yükseklikte tutmak için çubuğa paralel bir cetvel ya da ip gerebilirsin.",
+        "20 dk",
+        "8 düğüm aynı hizada, aralarında eşit boşluk var.",
+      ),
+      a(
+        "Kaydırmalı ikinci sıra",
+        "İlk ve son ikişer ipi bırak. Kalanları yeniden 4'lü gruplara ayır: her grup, üstteki iki komşu düğümün yarısından ikişer ip alır. 2 cm aşağıda bu gruplara kare düğüm at. Bu kaydırma ağ desenini oluşturur.",
+        "20 dk",
+        "İkinci sıradaki düğümler, birinci sıradaki düğümlerin tam arasına denk geliyor.",
+      ),
+      a(
+        "Ters üçgen deseni",
+        "Kaydırmalı sıraları sürdür ama her yeni sırada iki kenardan birer grup eksilt. Sıralar daraldıkça ortada tek bir düğüme inen bir ters üçgen oluşur.",
+        "40 dk",
+        "Üçgenin iki kenarı simetrik ve en altta tek bir düğüm var.",
+      ),
+      a(
+        "Çapraz şerit (çift yarım düğüm)",
+        "Üçgenin altında en soldaki ipi kılavuz olarak al ve sağa doğru aşağı eğimli tut. Yanındaki her ipi kılavuzun etrafına iki kez sararak (çift yarım düğüm) sık. Sonra sağdan sola aynısını yaparak ortada buluşan bir V çizgisi oluştur.",
+        "40 dk",
+        "Şerit düz bir çizgi halinde, düğümler sıkı ve kılavuz ip görünmüyor.",
+      ),
+      a(
+        "Saçağı kes ve tara",
+        "Çalışmayı düz bir zemine yatır. Uçları ortası en uzun olacak şekilde V biçiminde kes. Her ipin ucunu açıp tarakla, iplikler ayrılana kadar tara. Kabaran saçağı makasla son kez düzelt.",
+        "25 dk",
+        "Saçak simetrik V şeklinde ve uçlar yumuşak püskül gibi açılmış.",
+      ),
+    ],
+    sikHatalar: [
+      "Desen bir yana kayıyor: Düğümler farklı sıkılıkta. Her düğümü aynı kuvvetle sık.",
+      "Üçgen asimetrik: Sıralarda yalnızca bir kenardan eksiltildi. Her sırada iki kenardan birer grup bırak.",
+      "Çapraz şerit dalgalı: Kılavuz ip gergin tutulmadı. Kılavuzu tek elle eğimli ve gergin tut.",
+      "İp yetmedi: Başta kısa kesildi. Kısa kesmektense uzun kes; fazlası saçak olur.",
+    ],
+  },
 };
 
 // Proje verisine Altın işaretini ve (varsa) derin içeriği uygular
