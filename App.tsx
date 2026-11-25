@@ -21,6 +21,7 @@ import Rozetler from "./src/screens/Rozetler";
 import Yapabilir from "./src/screens/Yapabilir";
 import { FiyatProvider } from "./src/fiyat";
 import { HataSiniri } from "./src/hata";
+import { sentrySar } from "./src/sentry";
 import { IlkAcilisUyarisi } from "./src/uyari";
 import { StoreProvider, useStore } from "./src/store";
 import { TemaProvider, useTema } from "./src/tema";
@@ -105,7 +106,7 @@ function Gezinme({ durumRef }: { durumRef: { current?: NavigationState } }) {
     </NavigationContainer>
   );
 }
-export default function App() {
+function App() {
   const gezinmeDurumu = useRef<NavigationState | undefined>(undefined);
   return (
     <SafeAreaProvider>
@@ -121,3 +122,5 @@ export default function App() {
     </SafeAreaProvider>
   );
 }
+
+export default sentrySar(App);

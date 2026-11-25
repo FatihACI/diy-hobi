@@ -3,11 +3,15 @@
   "build": {
     "onizleme": {
       "distribution": "internal",
-      "android": { "buildType": "apk" }
+      "android": { "buildType": "apk" },
+      "environment": "preview",
+      "env": { "SENTRY_DISABLE_AUTO_UPLOAD": "true" }
     },
     "yayin": {
       "autoIncrement": true,
-      "android": { "buildType": "app-bundle" }
+      "android": { "buildType": "app-bundle" },
+      "environment": "production",
+      "env": { "SENTRY_DISABLE_AUTO_UPLOAD": "true" }
     }
   },
   "submit": {
