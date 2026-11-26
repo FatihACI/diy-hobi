@@ -18,8 +18,6 @@ import {
   zimpara,
 } from "./parca";
 
-type Nokta = [number, number, number];
-
 // ---------- Ortak parçalar ----------
 const takvim = (x: number, y: number): Cizgi[] => [
   { d: kutu(x, y, 30, 28), w: 1.4, dolgu: true },
