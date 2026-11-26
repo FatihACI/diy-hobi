@@ -15,7 +15,6 @@ import {
   parmak,
   saat,
   saksi,
-  sapBitki,
   sis,
   sprey,
   sukulent,
