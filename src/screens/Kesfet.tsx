@@ -7,9 +7,9 @@ import { projeAra } from "../data/ara";
 import { kategoriProjeleri, PROJELER, sonEklenenler } from "../data/projeler";
 import { linkAc } from "../fiyat";
 import { useNav } from "../nav";
-import { GIZLILIK_URL } from "../sabitler";
+import { GIZLILIK_URL, GIZLILIK_URL_EN } from "../sabitler";
 import { bosluk, renk, yazi, stil } from "../theme";
-import { t, tn } from "../i18n";
+import { aktifDil, t, tn } from "../i18n";
 
 const SAYFA = 30;
 
@@ -141,7 +141,7 @@ export default function Kesfet() {
           </View>
         </>
       )}
-      <Pressable accessibilityRole="link" onPress={() => linkAc(GIZLILIK_URL)} style={s.altBilgi} hitSlop={8}>
+      <Pressable accessibilityRole="link" onPress={() => linkAc(aktifDil() === "en" ? GIZLILIK_URL_EN : GIZLILIK_URL)} style={s.altBilgi} hitSlop={8}>
         <Text style={s.altBilgiYazi}>{t("Gizlilik politikası")}</Text>
       </Pressable>
     </ScrollView>
