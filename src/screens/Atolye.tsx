@@ -1,4 +1,4 @@
-// Atölyem: seviye, kısayollar (Elimdekilerle yap, Proje Bulucu, Malzemelerim, Araçlar), rozetler, görünüm.
+// Atölyem: seviye, kısayollar (Elimdekilerle yap, Proje Bulucu, Malzemelerim, Araçlar), rozetler, görünüm, dil.
 import { Pressable, ScrollView, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Cubuk, Ikon } from "../components";
@@ -10,6 +10,8 @@ import { useNav } from "../nav";
 import { ilerlemeAl, useStore } from "../store";
 import { useTema } from "../tema";
 import { bosluk, golge, kose, renk, stil, TemaTercihi, yazi } from "../theme";
+import { DilTercihi, useDil } from "../dil";
+import { t, tn } from "../i18n";
 
 const GORUNUM: { deger: TemaTercihi; etiket: string; ikon: IkonAdi }[] = [
   { deger: "sistem", etiket: "Sistem", ikon: "cellphone-cog" },
@@ -17,10 +19,18 @@ const GORUNUM: { deger: TemaTercihi; etiket: string; ikon: IkonAdi }[] = [
   { deger: "koyu", etiket: "Koyu", ikon: "weather-night" },
 ];
 
+// Dil adları her dilde kendi adıyla yazılır (yanlış dile geçen kullanıcı geri bulabilsin)
+const DILLER: { deger: DilTercihi; etiket: string; ikon: IkonAdi }[] = [
+  { deger: "sistem", etiket: "Sistem", ikon: "cellphone-cog" },
+  { deger: "tr", etiket: "Türkçe", ikon: "translate" },
+  { deger: "en", etiket: "English", ikon: "translate" },
+];
+
 export default function Atolye() {
   const st = useStore();
   const nav = useNav();
   const tema = useTema();
+  const dil = useDil();
   const ust = useSafeAreaInsets().top;
   const x = ilerlemeAl(st);
   const sv = seviye(x.tamamlanan.length);
@@ -33,12 +43,12 @@ export default function Atolye() {
       style={{ backgroundColor: renk.arkaPlan }}
       contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
     >
-      <Text style={yazi.dev}>Atölyem</Text>
+      <Text style={yazi.dev}>{t("Atölyem")}</Text>
 
       {/* Seviye kartı */}
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel={`Seviye ${sv.simdiki.ad}, rozetleri gör`}
+        accessibilityLabel={t("Seviye {ad}, rozetleri gör", { ad: t(sv.simdiki.ad) })}
         onPress={() => nav.navigate("Rozetler")}
         style={({ pressed }) => [s.seviye, { opacity: pressed ? 0.9 : 1 }]}
       >
@@ -46,12 +56,13 @@ export default function Atolye() {
           <Ikon name={sv.simdiki.ikon} size={30} color={sv.simdiki.renk} />
         </View>
         <View style={{ flex: 1, gap: 6 }}>
-          <Text style={yazi.baslik}>{sv.simdiki.ad}</Text>
+          <Text style={yazi.baslik}>{t(sv.simdiki.ad)}</Text>
           <Text style={yazi.kucuk}>
-            {x.tamamlanan.length} proje tamamlandı
+            {tn("{n} proje tamamlandı", x.tamamlanan.length)}
             {sv.sonraki
-              ? ` · ${sv.sonraki.ad} için ${sv.sonraki.esik - x.tamamlanan.length} proje`
-              : " · en üst seviye!"}
+              ? " · " +
+                tn("{seviye} için {n} proje", sv.sonraki.esik - x.tamamlanan.length, { seviye: t(sv.sonraki.ad) })
+              : " · " + t("en üst seviye!")}
           </Text>
           <Cubuk oran={sv.oran} renkDolu={sv.sonraki?.renk ?? sv.simdiki.renk} />
         </View>
@@ -62,36 +73,36 @@ export default function Atolye() {
       <View style={s.izgara}>
         <Kisayol
           ikon="hammer-screwdriver"
-          baslik="Elimdekilerle yap"
-          alt={st.bende.length ? `${hazir} proje hazır` : "Önce malzeme ekle"}
+          baslik={t("Elimdekilerle yap")}
+          alt={st.bende.length ? tn("{n} proje hazır", hazir) : t("Önce malzeme ekle")}
           bas={() => nav.navigate("Yapabilir")}
         />
         <Kisayol
           ikon="head-question-outline"
-          baslik="Proje Bulucu"
-          alt="4 soruda öneri"
+          baslik={t("Proje Bulucu")}
+          alt={t("4 soruda öneri")}
           bas={() => nav.navigate("Bulucu")}
         />
         <Kisayol
           ikon="toolbox-outline"
-          baslik="Malzemelerim"
-          alt={`${st.bende.length} kalem`}
+          baslik={t("Malzemelerim")}
+          alt={tn("{n} kalem", st.bende.length)}
           bas={() => nav.navigate("Malzemelerim")}
         />
         <Kisayol
           ikon="calculator-variant-outline"
-          baslik="Araçlar"
-          alt={`${ARACLAR.length} hesaplayıcı`}
+          baslik={t("Araçlar")}
+          alt={tn("{n} hesaplayıcı", ARACLAR.length)}
           bas={() => nav.navigate("Araclar")}
         />
       </View>
 
       {/* Rozet önizleme */}
       <View style={s.bolumSatir}>
-        <Text style={yazi.baslik}>Rozetler</Text>
+        <Text style={yazi.baslik}>{t("Rozetler")}</Text>
         <Pressable accessibilityRole="button" onPress={() => nav.navigate("Rozetler")} hitSlop={8}>
           <Text style={{ color: renk.ana, fontWeight: "700" }}>
-            {kazanilan.length} / {rozetler.length} · Tümü ›
+            {kazanilan.length} / {rozetler.length} · {t("Tümü")} ›
           </Text>
         </Pressable>
       </View>
@@ -100,14 +111,14 @@ export default function Atolye() {
           <View key={d.r.id} style={[s.rozet, !d.kazanildi && { opacity: 0.4 }]}>
             <Ikon name={d.r.ikon} size={24} color={d.kazanildi ? renk.uyari : renk.yaziIkincil} />
             <Text style={s.rozetYazi} numberOfLines={2}>
-              {d.r.ad}
+              {t(d.r.ad)}
             </Text>
           </View>
         ))}
       </ScrollView>
 
       {/* Görünüm */}
-      <Text style={[yazi.baslik, { marginTop: bosluk.xl, marginBottom: bosluk.m }]}>Görünüm</Text>
+      <Text style={[yazi.baslik, { marginTop: bosluk.xl, marginBottom: bosluk.m }]}>{t("Görünüm")}</Text>
       <View style={s.segment} accessibilityRole="radiogroup">
         {GORUNUM.map((g) => {
           const secili = tema.tercih === g.deger;
@@ -116,12 +127,35 @@ export default function Atolye() {
               key={g.deger}
               accessibilityRole="radio"
               accessibilityState={{ checked: secili }}
-              accessibilityLabel={`Görünüm: ${g.etiket}`}
+              accessibilityLabel={`${t("Görünüm")}: ${t(g.etiket)}`}
               onPress={() => tema.tercihDegistir(g.deger)}
               style={[s.segmentOge, secili && s.segmentSecili]}
             >
               <Ikon name={g.ikon} size={18} color={secili ? renk.ana : renk.yaziIkincil} />
-              <Text style={[s.segmentYazi, secili && { color: renk.yazi }]}>{g.etiket}</Text>
+              <Text style={[s.segmentYazi, secili && { color: renk.yazi }]}>{t(g.etiket)}</Text>
+            </Pressable>
+          );
+        })}
+      </View>
+
+      {/* Dil */}
+      <Text style={[yazi.baslik, { marginTop: bosluk.xl, marginBottom: bosluk.m }]}>{t("Dil / Language")}</Text>
+      <View style={s.segment} accessibilityRole="radiogroup">
+        {DILLER.map((g) => {
+          const secili = dil.tercih === g.deger;
+          return (
+            <Pressable
+              key={g.deger}
+              accessibilityRole="radio"
+              accessibilityState={{ checked: secili }}
+              accessibilityLabel={`${t("Dil / Language")}: ${g.deger === "sistem" ? t(g.etiket) : g.etiket}`}
+              onPress={() => dil.tercihDegistir(g.deger)}
+              style={[s.segmentOge, secili && s.segmentSecili]}
+            >
+              <Ikon name={g.ikon} size={18} color={secili ? renk.ana : renk.yaziIkincil} />
+              <Text style={[s.segmentYazi, secili && { color: renk.yazi }]}>
+                {g.deger === "sistem" ? t(g.etiket) : g.etiket}
+              </Text>
             </Pressable>
           );
         })}

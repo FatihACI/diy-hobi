@@ -8,6 +8,7 @@ import { rozetDurumlari, seviye, SEVIYELER } from "../data/rozet";
 import { RootParams } from "../nav";
 import { ilerlemeAl, useStore } from "../store";
 import { bosluk, golge, kose, renk, stil, yazi } from "../theme";
+import { t, tn } from "../i18n";
 
 export default function Rozetler({ navigation }: NativeStackScreenProps<RootParams, "Rozetler">) {
   const st = useStore();
@@ -30,8 +31,8 @@ export default function Rozetler({ navigation }: NativeStackScreenProps<RootPara
       }}
     >
       <UstBaslik
-        baslik="Rozetler"
-        alt={`${durumlar.filter((d) => d.kazanildi).length} / ${durumlar.length} kazanıldı`}
+        baslik={t("Rozetler")}
+        alt={t("{a} / {b} kazanıldı", { a: durumlar.filter((d) => d.kazanildi).length, b: durumlar.length })}
         geri={navigation.goBack}
       />
 
@@ -42,28 +43,34 @@ export default function Rozetler({ navigation }: NativeStackScreenProps<RootPara
           return (
             <View key={l.ad} style={[s.seviye, !ulasti && { opacity: 0.35 }]}>
               <Ikon name={l.ikon} size={26} color={l.renk} />
-              <Text style={[yazi.kucuk, { color: renk.yazi, fontWeight: "700" }]}>{l.ad}</Text>
-              <Text style={[yazi.kucuk, { fontSize: 11 }]}>{l.esik} proje</Text>
+              <Text style={[yazi.kucuk, { color: renk.yazi, fontWeight: "700" }]}>{t(l.ad)}</Text>
+              <Text style={[yazi.kucuk, { fontSize: 11 }]}>{tn("{n} proje", l.esik)}</Text>
             </View>
           );
         })}
       </View>
       {sv.sonraki && (
         <Text style={[yazi.kucuk, { marginTop: bosluk.s }]}>
-          {sv.sonraki.ad} seviyesine {sv.sonraki.esik - x.tamamlanan.length} proje kaldı.
+          {tn("{seviye} seviyesine {n} proje kaldı.", sv.sonraki.esik - x.tamamlanan.length, {
+            seviye: t(sv.sonraki.ad),
+          })}
         </Text>
       )}
 
-      <Text style={s.baslik}>Rozetler</Text>
+      <Text style={s.baslik}>{t("Rozetler")}</Text>
       <View style={{ gap: bosluk.s }}>
         {durumlar.map((d) => (
-          <View key={d.r.id} style={s.rozet} accessibilityLabel={`${d.r.ad}: ${d.kazanildi ? "kazanıldı" : "kilitli"}`}>
+          <View
+            key={d.r.id}
+            style={s.rozet}
+            accessibilityLabel={`${t(d.r.ad)}: ${d.kazanildi ? t("kazanıldı") : t("kilitli")}`}
+          >
             <View style={[s.rozetIkon, d.kazanildi && { backgroundColor: renk.uyariAcik }]}>
               <Ikon name={d.r.ikon} size={24} color={d.kazanildi ? renk.uyari : renk.yaziIkincil} />
             </View>
             <View style={{ flex: 1, gap: 4 }}>
-              <Text style={[yazi.altBaslik, !d.kazanildi && { color: renk.yaziIkincil }]}>{d.r.ad}</Text>
-              <Text style={yazi.kucuk}>{d.r.aciklama}</Text>
+              <Text style={[yazi.altBaslik, !d.kazanildi && { color: renk.yaziIkincil }]}>{t(d.r.ad)}</Text>
+              <Text style={yazi.kucuk}>{t(d.r.aciklama)}</Text>
               {!d.kazanildi && d.hedef > 1 && (
                 <View style={{ flexDirection: "row", alignItems: "center", gap: bosluk.s }}>
                   <View style={{ flex: 1 }}>
@@ -80,10 +87,10 @@ export default function Rozetler({ navigation }: NativeStackScreenProps<RootPara
         ))}
       </View>
 
-      <Text style={s.baslik}>Tamamlanan projeler ({biten.length})</Text>
+      <Text style={s.baslik}>{t("Tamamlanan projeler ({n})", { n: biten.length })}</Text>
       {biten.length === 0 ? (
         <Text style={yazi.kucuk}>
-          Bir projenin Adımlar sekmesinde &quot;Projeyi tamamladım&quot; düğmesine dokunduğunda burada görünür.
+          {t('Bir projenin Adımlar sekmesinde "Projeyi tamamladım" düğmesine dokunduğunda burada görünür.')}
         </Text>
       ) : (
         <View style={{ gap: bosluk.m }}>

@@ -25,6 +25,8 @@ import { sentrySar } from "./src/sentry";
 import { IlkAcilisUyarisi } from "./src/uyari";
 import { StoreProvider, useStore } from "./src/store";
 import { TemaProvider, useTema } from "./src/tema";
+import { DilProvider } from "./src/dil";
+import { t } from "./src/i18n";
 import { renk } from "./src/theme";
 
 const Stack = createNativeStackNavigator<RootParams>();
@@ -64,20 +66,24 @@ function Sekmeler() {
         ),
       })}
     >
-      <Tab.Screen name="Keşfet" component={Kesfet} />
-      <Tab.Screen name="Kategoriler" component={Kategoriler} />
+      <Tab.Screen name="Keşfet" component={Kesfet} options={{ tabBarLabel: t("Keşfet") }} />
+      <Tab.Screen name="Kategoriler" component={Kategoriler} options={{ tabBarLabel: t("Kategoriler") }} />
       <Tab.Screen
         name="Liste"
         component={Liste}
-        options={{ tabBarBadge: bekleyen || undefined, tabBarBadgeStyle: { backgroundColor: renk.ana } }}
+        options={{
+          tabBarLabel: t("Liste"),
+          tabBarBadge: bekleyen || undefined,
+          tabBarBadgeStyle: { backgroundColor: renk.ana },
+        }}
       />
-      <Tab.Screen name="Favoriler" component={Favoriler} />
-      <Tab.Screen name="Atölyem" component={Atolye} />
+      <Tab.Screen name="Favoriler" component={Favoriler} options={{ tabBarLabel: t("Favoriler") }} />
+      <Tab.Screen name="Atölyem" component={Atolye} options={{ tabBarLabel: t("Atölyem") }} />
     </Tab.Navigator>
   );
 }
 
-// Tema değişince gezinme ağacı yeniden kurulur; kullanıcı bulunduğu ekranda kalsın diye durum saklanır
+// Tema veya dil değişince gezinme ağacı yeniden kurulur; kullanıcı bulunduğu ekranda kalsın diye durum saklanır
 function Gezinme({ durumRef }: { durumRef: { current?: NavigationState } }) {
   const { koyu } = useTema();
   const taban = koyu ? DarkTheme : DefaultTheme;
@@ -122,7 +128,9 @@ function App() {
         <StoreProvider>
           <FiyatProvider>
             <TemaProvider>
-              <Gezinme durumRef={gezinmeDurumu} />
+              <DilProvider>
+                <Gezinme durumRef={gezinmeDurumu} />
+              </DilProvider>
             </TemaProvider>
           </FiyatProvider>
         </StoreProvider>

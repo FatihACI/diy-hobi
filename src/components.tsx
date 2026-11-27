@@ -7,6 +7,7 @@ import { IkonAdi, Kategori, Proje, Zorluk } from "./data/types";
 import { useFiyat } from "./fiyat";
 import { useStore } from "./store";
 import { bosluk, golge, kose, renk, tl, yazi, zorlukRenk, stil } from "./theme";
+import { sureDil, t, tn } from "./i18n";
 
 export const Ikon = MaterialCommunityIcons;
 
@@ -31,14 +32,14 @@ export function Rozet({
 }
 
 export const ZorlukRozet = ({ z }: { z: Zorluk }) => (
-  <Rozet ikon="signal-cellular-2" metin={z} fg={zorlukRenk[z].fg} bg={zorlukRenk[z].bg} />
+  <Rozet ikon="signal-cellular-2" metin={t(z)} fg={zorlukRenk[z].fg} bg={zorlukRenk[z].bg} />
 );
 
 // ── Arama kutusu ──
 export function Arama({
   deger,
   degis,
-  ipucu = "Proje, malzeme veya kategori ara",
+  ipucu = t("Proje, malzeme veya kategori ara"),
 }: {
   deger: string;
   degis: (s: string) => void;
@@ -53,14 +54,14 @@ export function Arama({
         placeholder={ipucu}
         placeholderTextColor={renk.yaziIkincil}
         style={{ flex: 1, fontSize: 15, color: renk.yazi }}
-        accessibilityLabel="Ara"
+        accessibilityLabel={t("Ara")}
         returnKeyType="search"
         autoCorrect={false}
       />
       {deger.length > 0 && (
         <Pressable
           accessibilityRole="button"
-          accessibilityLabel="Aramayı temizle"
+          accessibilityLabel={t("Aramayı temizle")}
           onPress={() => degis("")}
           hitSlop={10}
         >
@@ -96,7 +97,7 @@ export function KategoriKart({
         </View>
         <View style={genis ? { flex: 1 } : undefined}>
           <Text style={st.kategoriAd}>{k.ad}</Text>
-          <Text style={st.kategoriSayi}>{genis ? k.aciklama : `${sayi} proje`}</Text>
+          <Text style={st.kategoriSayi}>{genis ? k.aciklama : tn("{n} proje", sayi)}</Text>
         </View>
         {genis && <Text style={st.kategoriSayiGenis}>{sayi}</Text>}
       </LinearGradient>
@@ -119,7 +120,9 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
         <ProjeCizim id={p.id} boyut={124} />
         <Pressable
           accessibilityRole="button"
-          accessibilityLabel={fav ? `${p.ad}: favorilerden çıkar` : `${p.ad}: favorilere ekle`}
+          accessibilityLabel={
+            fav ? t("{ad}: favorilerden çıkar", { ad: p.ad }) : t("{ad}: favorilere ekle", { ad: p.ad })
+          }
           onPress={() => favoriDegistir(p.id)}
           hitSlop={10}
           style={st.favBtn}
@@ -139,9 +142,9 @@ export function ProjeKart({ p, onPress, yatay }: { p: Proje; onPress: () => void
           {p.ozet}
         </Text>
         <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
-          {p.altin && <Rozet ikon="star" metin="Seçkin" fg={renk.vurgu} bg={renk.vurguAcik} />}
+          {p.altin && <Rozet ikon="star" metin={t("Seçkin")} fg={renk.vurgu} bg={renk.vurguAcik} />}
           <ZorlukRozet z={p.zorluk} />
-          <Rozet ikon="clock-outline" metin={p.sure} />
+          <Rozet ikon="clock-outline" metin={sureDil(p.sure)} />
           {mal.fiyatliSayi > 0 && (
             <Rozet ikon="cash" metin={(mal.fiyatliSayi < mal.tumu ? "≥ " : "") + tl(mal.toplam)} />
           )}
@@ -157,7 +160,7 @@ export function Cipler<T extends string | number>({
   deger,
   sec,
   etiket,
-  yazi: yaz = String,
+  yazi: yaz = (x) => t(String(x)),
 }: {
   secenekler: readonly T[];
   deger: T;
@@ -189,7 +192,13 @@ export function Cipler<T extends string | number>({
 export function UstBaslik({ baslik, alt, geri }: { baslik: string; alt?: string; geri: () => void }) {
   return (
     <View style={st.ustBaslik}>
-      <Pressable accessibilityLabel="Geri" accessibilityRole="button" onPress={geri} style={st.geriBtn} hitSlop={10}>
+      <Pressable
+        accessibilityLabel={t("Geri")}
+        accessibilityRole="button"
+        onPress={geri}
+        style={st.geriBtn}
+        hitSlop={10}
+      >
         <Ikon name="arrow-left" size={22} color={renk.yazi} />
       </Pressable>
       <View style={{ flex: 1 }}>

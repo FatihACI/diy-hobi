@@ -15,6 +15,7 @@ import { RootParams } from "../nav";
 import { ProjeVideo } from "../video";
 import { ilerlemeAl, useStore } from "../store";
 import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
+import { sureDil, t, tarihDil, tn, yasDil, yerel } from "../i18n";
 
 type P = NativeStackScreenProps<RootParams, "Proje">;
 type Sekme = "Malzemeler" | "Adımlar" | "İpuçları" | "Kod";
@@ -54,7 +55,7 @@ export default function ProjeDetay({ route, navigation }: P) {
     const sonra = kazanilanlar(
       ilerlemeAl({ ...st, tamamlanan: { ...st.tamamlanan, [p.id]: new Date().toISOString() } }),
     );
-    setYeniRozet(sonra.filter((id) => !once.has(id)).map((id) => ROZETLER.find((x) => x.id === id)!.ad));
+    setYeniRozet(sonra.filter((id) => !once.has(id)).map((id) => t(ROZETLER.find((x) => x.id === id)!.ad)));
     st.tamamlaDegistir(p.id);
   };
 
@@ -65,7 +66,7 @@ export default function ProjeDetay({ route, navigation }: P) {
         <View style={[s.kapak, { paddingTop: ins.top + bosluk.s, borderTopColor: k.renkler[0] }]}>
           <View style={s.ustBar}>
             <Pressable
-              accessibilityLabel="Geri"
+              accessibilityLabel={t("Geri")}
               accessibilityRole="button"
               onPress={navigation.goBack}
               style={s.yuvarlak}
@@ -74,7 +75,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               <Ikon name="arrow-left" size={22} color={KAGIT_YAZI} />
             </Pressable>
             <Pressable
-              accessibilityLabel={fav ? "Favorilerden çıkar" : "Favorilere ekle"}
+              accessibilityLabel={fav ? t("Favorilerden çıkar") : t("Favorilere ekle")}
               accessibilityRole="button"
               onPress={() => st.favoriDegistir(p.id)}
               style={s.yuvarlak}
@@ -91,18 +92,18 @@ export default function ProjeDetay({ route, navigation }: P) {
         {/* Başlık kartı */}
         <View style={s.baslikKart}>
           <Text style={[yazi.kucuk, { color: k.renkler[0], fontWeight: "700" }]}>
-            {k.ad.toLocaleUpperCase("tr-TR")}
+            {k.ad.toLocaleUpperCase(yerel())}
           </Text>
           <Text style={[yazi.dev, { fontSize: 24 }]}>{p.ad}</Text>
           <Text style={[yazi.govde, { color: renk.yaziIkincil }]}>{p.ozet}</Text>
           <View style={s.bilgiSatir}>
-            <Bilgi ikon="signal-cellular-2" etiket="Zorluk">
+            <Bilgi ikon="signal-cellular-2" etiket={t("Zorluk")}>
               <ZorlukRozet z={p.zorluk} />
             </Bilgi>
-            <Bilgi ikon="clock-outline" etiket="Süre">
-              <Text style={s.bilgiDeger}>{p.sure}</Text>
+            <Bilgi ikon="clock-outline" etiket={t("Süre")}>
+              <Text style={s.bilgiDeger}>{sureDil(p.sure)}</Text>
             </Bilgi>
-            <Bilgi ikon="cash" etiket="Malzeme">
+            <Bilgi ikon="cash" etiket={t("Malzeme")}>
               <Text style={s.bilgiDeger}>
                 {maliyet.fiyatliSayi ? (maliyet.fiyatliSayi < maliyet.tumu ? "≥ " : "") + tl(maliyet.toplam) : "—"}
               </Text>
@@ -110,9 +111,9 @@ export default function ProjeDetay({ route, navigation }: P) {
           </View>
           <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
             {p.altin && (
-              <Rozet ikon="star" metin="Seçkin proje: ayrıntılı anlatım" fg={renk.vurgu} bg={renk.vurguAcik} />
+              <Rozet ikon="star" metin={t("Seçkin proje: ayrıntılı anlatım")} fg={renk.vurgu} bg={renk.vurguAcik} />
             )}
-            {p.yas && <Rozet ikon="account-child" metin={p.yas} fg={renk.ana} bg={renk.anaAcik} />}
+            {p.yas && <Rozet ikon="account-child" metin={yasDil(p.yas)} fg={renk.ana} bg={renk.anaAcik} />}
           </View>
         </View>
 
@@ -126,7 +127,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               onPress={() => setSekme(x)}
               style={[s.sekme, sekme === x && s.sekmeAktif]}
             >
-              <Text style={[s.sekmeYazi, sekme === x && { color: renk.yazi }]}>{x}</Text>
+              <Text style={[s.sekmeYazi, sekme === x && { color: renk.yazi }]}>{t(x)}</Text>
             </Pressable>
           ))}
         </View>
@@ -142,7 +143,7 @@ export default function ProjeDetay({ route, navigation }: P) {
                 >
                   <Ikon name="shield-alert-outline" size={18} color={renk.tehlike} />
                   <Text style={[yazi.kucuk, { flex: 1, color: renk.tehlike }]}>
-                    {p.guvenlik.length} güvenlik notu var. Malzeme almadan önce okumanı öneririz ›
+                    {tn("{n} güvenlik notu var. Malzeme almadan önce okumanı öneririz ›", p.guvenlik.length)}
                   </Text>
                 </Pressable>
               )}
@@ -154,17 +155,19 @@ export default function ProjeDetay({ route, navigation }: P) {
                   style={s.aracKisayol}
                 >
                   <Ikon name={a.ikon} size={18} color={renk.ana} />
-                  <Text style={{ flex: 1, color: renk.yazi, fontWeight: "600" }}>Hesapla: {a.ad}</Text>
+                  <Text style={{ flex: 1, color: renk.yazi, fontWeight: "600" }}>
+                    {t("Hesapla: {ad}", { ad: t(a.ad) })}
+                  </Text>
                   <Ikon name="chevron-right" size={18} color={renk.yaziIkincil} />
                 </Pressable>
               ))}
-              <MalzemeGrup baslik="Malzemeler" liste={p.malzemeler.filter((m) => !m.arac)} />
-              <MalzemeGrup baslik="Aletler" liste={p.malzemeler.filter((m) => m.arac)} />
+              <MalzemeGrup baslik={t("Malzemeler")} liste={p.malzemeler.filter((m) => !m.arac)} />
+              <MalzemeGrup baslik={t("Aletler")} liste={p.malzemeler.filter((m) => m.arac)} />
               {bendeSayi > 0 && sanaMaliyet > 0 && (
                 <View style={[s.fiyatNot, { backgroundColor: renk.anaAcik }]}>
                   <Ikon name="home-heart" size={18} color={renk.ana} />
                   <Text style={[yazi.kucuk, { flex: 1, color: renk.ana }]}>
-                    {bendeSayi} kalem sende var. Eksikleri almak: ≈ {tl(sanaMaliyet)}
+                    {tn("{n} kalem sende var. Eksikleri almak: ≈ {tutar}", bendeSayi, { tutar: tl(sanaMaliyet) })}
                   </Text>
                 </View>
               )}
@@ -177,21 +180,21 @@ export default function ProjeDetay({ route, navigation }: P) {
               {/* Güvenlik notları adımlardan önce: kullanıcı işe başlamadan görmeli, ayrı sekmede kaybolmamalı */}
               <Kutu
                 ikon="shield-alert-outline"
-                baslik="Başlamadan önce: güvenlik"
+                baslik={t("Başlamadan önce: güvenlik")}
                 fg={renk.tehlike}
                 bg={renk.tehlikeAcik}
                 satirlar={p.guvenlik}
               />
               <View style={s.ilerlemeKart}>
                 <Text style={yazi.altBaslik}>
-                  {biten.length} / {p.adimlar.length} adım tamamlandı
+                  {t("{a} / {b} adım tamamlandı", { a: biten.length, b: p.adimlar.length })}
                 </Text>
                 <View style={s.ilerlemeBar}>
                   <View style={[s.ilerlemeDolu, { width: `${ilerleme * 100}%`, backgroundColor: k.renkler[0] }]} />
                 </View>
                 <Pressable
                   accessibilityRole="button"
-                  accessibilityLabel={tamam ? "Tamamlandı işaretini geri al" : "Projeyi tamamladım"}
+                  accessibilityLabel={tamam ? t("Tamamlandı işaretini geri al") : t("Projeyi tamamladım")}
                   onPress={tamamla}
                   style={[
                     s.tamamBtn,
@@ -211,16 +214,16 @@ export default function ProjeDetay({ route, navigation }: P) {
                     style={{ fontWeight: "700", color: tamam ? renk.basari : hepsiBitti ? "#fff" : renk.yaziIkincil }}
                   >
                     {tamam
-                      ? `Tamamlandı · ${new Date(st.tamamlanan[p.id]).toLocaleDateString("tr-TR")} (geri al)`
-                      : "Projeyi tamamladım"}
+                      ? t("Tamamlandı · {tarih} (geri al)", { tarih: tarihDil(st.tamamlanan[p.id]) })
+                      : t("Projeyi tamamladım")}
                   </Text>
                 </Pressable>
                 {tamam && yeniRozet.length > 0 && (
                   <View style={s.kutlama}>
                     <Ikon name="party-popper" size={18} color={renk.uyari} />
                     <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
-                      Yeni rozet: <Text style={{ fontWeight: "700" }}>{yeniRozet.join(", ")}</Text>. Atölyem&apos;de
-                      gör.
+                      {t("Yeni rozet:")} <Text style={{ fontWeight: "700" }}>{yeniRozet.join(", ")}</Text>.{" "}
+                      {t("Atölyem'de gör.")}
                     </Text>
                   </View>
                 )}
@@ -232,7 +235,7 @@ export default function ProjeDetay({ route, navigation }: P) {
                     key={i}
                     accessibilityRole="checkbox"
                     accessibilityState={{ checked: ok }}
-                    accessibilityLabel={`Adım ${i + 1}: ${a.baslik}`}
+                    accessibilityLabel={t("Adım {n}: {baslik}", { n: i + 1, baslik: a.baslik })}
                     onPress={() => st.adimDegistir(p.id, i)}
                     style={[s.adim, ok && { opacity: 0.6 }]}
                   >
@@ -247,14 +250,14 @@ export default function ProjeDetay({ route, navigation }: P) {
                         {a.sure && (
                           <View style={s.adimSure}>
                             <Ikon name="clock-outline" size={12} color={renk.yaziIkincil} />
-                            <Text style={yazi.kucuk}>{a.sure}</Text>
+                            <Text style={yazi.kucuk}>{sureDil(a.sure)}</Text>
                           </View>
                         )}
                         {a.kontrol && (
                           <View style={s.kontrol}>
                             <Ikon name="check-decagram-outline" size={16} color={renk.basari} />
                             <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
-                              <Text style={{ fontWeight: "700", color: renk.basari }}>Doğru mu? </Text>
+                              <Text style={{ fontWeight: "700", color: renk.basari }}>{t("Doğru mu?")} </Text>
                               {a.kontrol}
                             </Text>
                           </View>
@@ -273,7 +276,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               {!!p.sikHatalar?.length && (
                 <Kutu
                   ikon="alert-circle-outline"
-                  baslik="Sık yapılan hatalar"
+                  baslik={t("Sık yapılan hatalar")}
                   fg={renk.tehlike}
                   bg={renk.kart}
                   satirlar={p.sikHatalar}
@@ -281,7 +284,7 @@ export default function ProjeDetay({ route, navigation }: P) {
               )}
               <Kutu
                 ikon="lightbulb-on-outline"
-                baslik="Usta ipuçları"
+                baslik={t("Usta ipuçları")}
                 fg={renk.uyari}
                 bg={renk.uyariAcik}
                 satirlar={p.ipuclari}
@@ -315,7 +318,7 @@ export default function ProjeDetay({ route, navigation }: P) {
           ]}
         >
           <Ikon name={hepsiListede ? "check-circle" : "cart-plus"} size={20} color="#fff" />
-          <Text style={s.anaBtnYazi}>{hepsiListede ? "Tüm malzemeler listede" : "Malzemeleri listeye ekle"}</Text>
+          <Text style={s.anaBtnYazi}>{hepsiListede ? t("Tüm malzemeler listede") : t("Malzemeleri listeye ekle")}</Text>
         </Pressable>
       </View>
     </View>
@@ -360,7 +363,7 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                   </Text>
                   <Text style={yazi.kucuk}>
                     {m.miktar}
-                    {teklifler.length > 1 ? ` · ${teklifler.length} mağaza ${genis ? "▴" : "▾"}` : ""}
+                    {teklifler.length > 1 ? ` · ${tn("{n} mağaza", teklifler.length)} ${genis ? "▴" : "▾"}` : ""}
                   </Text>
                 </View>
                 {f ? (
@@ -369,12 +372,14 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                     <Text style={s.magaza}>{f.magaza} ›</Text>
                   </Pressable>
                 ) : (
-                  <Text style={[yazi.kucuk, { fontStyle: "italic" }]}>{m.evde ? "Evde bulunur" : "Fiyat yakında"}</Text>
+                  <Text style={[yazi.kucuk, { fontStyle: "italic" }]}>
+                    {m.evde ? t("Evde bulunur") : t("Fiyat yakında")}
+                  </Text>
                 )}
                 <Pressable
                   accessibilityRole="checkbox"
                   accessibilityState={{ checked: bende }}
-                  accessibilityLabel={`${m.ad}: bende var`}
+                  accessibilityLabel={t("{ad}: bende var", { ad: m.ad })}
                   onPress={() => st.bendeDegistir(m.kid!)}
                   hitSlop={8}
                   style={[s.bendeBtn, bende && { backgroundColor: renk.anaAcik, borderColor: renk.ana }]}
@@ -384,14 +389,16 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
                     size={16}
                     color={bende ? renk.ana : listede ? renk.basari : renk.yaziIkincil}
                   />
-                  <Text style={[s.bendeYazi, bende && { color: renk.ana }]}>{bende ? "Bende" : "Bende var?"}</Text>
+                  <Text style={[s.bendeYazi, bende && { color: renk.ana }]}>
+                    {bende ? t("Bende") : t("Bende var?")}
+                  </Text>
                 </Pressable>
               </Pressable>
               {genis &&
-                teklifler.slice(1).map((t) => (
-                  <Pressable key={t.magaza} onPress={() => linkAc(t.url)} style={s.teklif}>
-                    <Text style={[yazi.kucuk, { flex: 1 }]}>{t.magaza}</Text>
-                    <Text style={{ fontWeight: "700", color: renk.yazi }}>{tl(t.fiyat)}</Text>
+                teklifler.slice(1).map((tk) => (
+                  <Pressable key={tk.magaza} onPress={() => linkAc(tk.url)} style={s.teklif}>
+                    <Text style={[yazi.kucuk, { flex: 1 }]}>{tk.magaza}</Text>
+                    <Text style={{ fontWeight: "700", color: renk.yazi }}>{tl(tk.fiyat)}</Text>
                     <Ikon name="open-in-new" size={14} color={renk.yaziIkincil} />
                   </Pressable>
                 ))}
@@ -405,17 +412,18 @@ function MalzemeGrup({ baslik, liste }: { baslik: string; liste: Malzeme[] }) {
 
 function FiyatNotu({ alet }: { alet: number }) {
   const fy = useFiyat();
-  let metin =
-    "Fiyatlar güvenilir mağazalardan toplanır; her malzemede en düşük fiyat gösterilir. Üstteki malzeme maliyeti yalnızca sarf malzemeleri kapsar ve her kalemden bir paket alındığını varsayar; kargo hariçtir.";
-  if (alet > 0) metin += `\nElinde olmayan aletler için ek: en az ${tl(alet)}.`;
+  let metin = t(
+    "Fiyatlar güvenilir mağazalardan toplanır; her malzemede en düşük fiyat gösterilir. Üstteki malzeme maliyeti yalnızca sarf malzemeleri kapsar ve her kalemden bir paket alındığını varsayar; kargo hariçtir.",
+  );
+  if (alet > 0) metin += "\n" + t("Elinde olmayan aletler için ek: en az {tutar}.", { tutar: tl(alet) });
   let renkNot: string = renk.yaziIkincil;
-  if (fy.durum === "kapali") metin = "Fiyat servisi henüz bağlanmadı. Fiyatlar yakında burada görünecek.";
-  else if (fy.durum === "yukleniyor" && !fy.guncelleme) metin = "Fiyatlar yükleniyor…";
-  else if (fy.durum === "hata" && !fy.guncelleme) metin = "Fiyatlara ulaşılamadı. İnternet bağlantını kontrol et.";
+  if (fy.durum === "kapali") metin = t("Fiyat servisi henüz bağlanmadı. Fiyatlar yakında burada görünecek.");
+  else if (fy.durum === "yukleniyor" && !fy.guncelleme) metin = t("Fiyatlar yükleniyor…");
+  else if (fy.durum === "hata" && !fy.guncelleme) metin = t("Fiyatlara ulaşılamadı. İnternet bağlantını kontrol et.");
   else if (fy.guncelleme) {
-    metin += `\nSon güncelleme: ${tarihYaz(fy.guncelleme)}.`;
+    metin += "\n" + t("Son güncelleme: {tarih}.", { tarih: tarihYaz(fy.guncelleme) });
     if (fy.eskiMi) {
-      metin += " Fiyatlar bir haftadan eski; mağazada değişmiş olabilir.";
+      metin += " " + t("Fiyatlar bir haftadan eski; mağazada değişmiş olabilir.");
       renkNot = renk.uyari;
     }
   }
@@ -425,7 +433,7 @@ function FiyatNotu({ alet }: { alet: number }) {
       <Text style={[yazi.kucuk, { flex: 1, color: renkNot }]}>{metin}</Text>
       {fy.durum === "hata" && (
         <Pressable onPress={fy.yenile} hitSlop={8}>
-          <Text style={{ color: renk.ana, fontWeight: "700" }}>Tekrar dene</Text>
+          <Text style={{ color: renk.ana, fontWeight: "700" }}>{t("Tekrar dene")}</Text>
         </Pressable>
       )}
     </View>
@@ -617,7 +625,7 @@ function AdimSahne({ projeId, sira }: { projeId: string; sira: number }) {
       style={s.sahne}
       onLayout={(e: LayoutChangeEvent) => setEn(Math.round(e.nativeEvent.layout.width))}
       accessible
-      accessibilityLabel={`Adım ${sira + 1} çizimi`}
+      accessibilityLabel={t("Adım {n} çizimi", { n: sira + 1 })}
     >
       {en > 0 && <AdimCizim projeId={projeId} sira={sira} genislik={en} />}
     </View>

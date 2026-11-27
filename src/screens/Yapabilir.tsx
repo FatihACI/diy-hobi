@@ -9,6 +9,7 @@ import { yapabilecekler, type Yapabilir as Y } from "../data/yapabilir";
 import { RootParams } from "../nav";
 import { useStore } from "../store";
 import { bosluk, kose, renk, stil, yazi } from "../theme";
+import { t, tn } from "../i18n";
 
 type P = NativeStackScreenProps<RootParams, "Yapabilir">;
 
@@ -23,7 +24,7 @@ export default function Yapabilir({ navigation }: P) {
     () =>
       [0, 1, 2]
         .map((e) => ({
-          baslik: BASLIK[e],
+          baslik: t(BASLIK[e]),
           data: liste
             .filter((x) => x.eksik.length === e)
             .map((x) => ({ x, eksikListede: x.eksik.every((m) => st.liste[m.kid!]) })),
@@ -64,16 +65,18 @@ export default function Yapabilir({ navigation }: P) {
   const ust = (
     <View>
       <UstBaslik
-        baslik="Elimdekilerle yap"
-        alt={`${st.bende.length} alet ve malzeme sende · ${liste.length} proje`}
+        baslik={t("Elimdekilerle yap")}
+        alt={`${tn("{n} alet ve malzeme sende", st.bende.length)} · ${tn("{n} proje", liste.length)}`}
         geri={navigation.goBack}
       />
       <Pressable accessibilityRole="button" onPress={() => navigation.navigate("Malzemelerim")} style={s.duzenle}>
         <Ikon name="toolbox-outline" size={18} color={renk.ana} />
-        <Text style={{ flex: 1, color: renk.ana, fontWeight: "700" }}>Malzemelerimi düzenle</Text>
+        <Text style={{ flex: 1, color: renk.ana, fontWeight: "700" }}>{t("Malzemelerimi düzenle")}</Text>
         <Ikon name="chevron-right" size={18} color={renk.ana} />
       </Pressable>
-      <Text style={[yazi.kucuk, { marginTop: bosluk.s }]}>Evde bulunanlar (su, kâğıt, pet şişe…) eksik sayılmaz.</Text>
+      <Text style={[yazi.kucuk, { marginTop: bosluk.s }]}>
+        {t("Evde bulunanlar (su, kâğıt, pet şişe…) eksik sayılmaz.")}
+      </Text>
     </View>
   );
 
@@ -97,14 +100,14 @@ export default function Yapabilir({ navigation }: P) {
         st.bende.length === 0 ? (
           <Bos
             ikon="toolbox-outline"
-            baslik="Önce elindekileri ekle"
-            metin="Malzemelerim'e aletlerini ve malzemelerini ekle; hangi projeleri yapabileceğini gösterelim."
+            baslik={t("Önce elindekileri ekle")}
+            metin={t("Malzemelerim'e aletlerini ve malzemelerini ekle; hangi projeleri yapabileceğini gösterelim.")}
           />
         ) : (
           <Bos
             ikon="package-variant"
-            baslik="Henüz uygun proje yok"
-            metin="Elindekilerle en fazla 2 eksikle yapılabilecek proje bulunamadı. Birkaç alet daha ekle."
+            baslik={t("Henüz uygun proje yok")}
+            metin={t("Elindekilerle en fazla 2 eksikle yapılabilecek proje bulunamadı. Birkaç alet daha ekle.")}
           />
         )
       }
@@ -132,23 +135,23 @@ const Oge = memo(function Oge({ x, eksikListede, ac, ekle }: OgeProps) {
         <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
           {x.eksik.length ? (
             <>
-              <Text style={{ fontWeight: "700" }}>Eksik: </Text>
+              <Text style={{ fontWeight: "700" }}>{t("Eksik:")} </Text>
               {x.eksik.map((m) => m.ad).join(", ")}
             </>
           ) : (
-            `Gereken ${x.gerekli} kalemin hepsi sende`
+            tn("Gereken {n} kalemin hepsi sende", x.gerekli)
           )}
         </Text>
         {x.eksik.length > 0 && (
           <Pressable
             accessibilityRole="button"
-            accessibilityLabel={`${x.p.ad}: eksikleri listeye ekle`}
+            accessibilityLabel={t("{ad}: eksikleri listeye ekle", { ad: x.p.ad })}
             disabled={eksikListede}
             onPress={() => ekle(x)}
             hitSlop={8}
           >
             <Text style={{ color: eksikListede ? renk.basari : renk.ana, fontWeight: "700", fontSize: 13 }}>
-              {eksikListede ? "Listede ✓" : "Listeye ekle"}
+              {eksikListede ? t("Listede ✓") : t("Listeye ekle")}
             </Text>
           </Pressable>
         )}

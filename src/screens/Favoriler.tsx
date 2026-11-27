@@ -5,6 +5,7 @@ import { PROJELER } from "../data/projeler";
 import { useNav } from "../nav";
 import { useStore } from "../store";
 import { bosluk, renk, yazi } from "../theme";
+import { t } from "../i18n";
 
 export default function Favoriler() {
   const { favoriler } = useStore();
@@ -18,12 +19,16 @@ export default function Favoriler() {
       contentContainerStyle={{ padding: bosluk.l, paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
       data={projeler}
       keyExtractor={(p) => p.id}
-      ListHeaderComponent={<Text style={[yazi.dev, { marginBottom: bosluk.l }]}>Favoriler</Text>}
+      ListHeaderComponent={<Text style={[yazi.dev, { marginBottom: bosluk.l }]}>{t("Favoriler")}</Text>}
       ItemSeparatorComponent={() => <View style={{ height: bosluk.m }} />}
       initialNumToRender={6}
       renderItem={({ item }) => <ProjeKart p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />}
       ListEmptyComponent={
-        <Bos ikon="heart-outline" baslik="Henüz favori yok" metin="Beğendiğin projelerde ♡ simgesine dokun." />
+        <Bos
+          ikon="heart-outline"
+          baslik={t("Henüz favori yok")}
+          metin={t("Beğendiğin projelerde ♡ simgesine dokun.")}
+        />
       }
     />
   );

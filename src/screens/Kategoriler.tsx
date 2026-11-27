@@ -7,6 +7,7 @@ import { KategoriGrubu } from "../data/types";
 import { kategoriProjeleri } from "../data/projeler";
 import { useNav } from "../nav";
 import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
+import { t, tn } from "../i18n";
 
 export default function Kategoriler() {
   const nav = useNav();
@@ -21,15 +22,15 @@ export default function Kategoriler() {
         paddingBottom: bosluk.xxl,
       }}
     >
-      <Text style={yazi.dev}>Kategoriler</Text>
-      <Text style={[yazi.kucuk, { fontSize: 15, marginBottom: bosluk.s }]}>Bir alan seç, projeleri keşfet.</Text>
+      <Text style={yazi.dev}>{t("Kategoriler")}</Text>
+      <Text style={[yazi.kucuk, { fontSize: 15, marginBottom: bosluk.s }]}>{t("Bir alan seç, projeleri keşfet.")}</Text>
 
       {GRUPLAR.map((g) => (
         <View key={g} style={{ gap: bosluk.m }}>
           <View style={s.grupBaslik}>
             <Ikon name={GRUP_IKON[g]} size={18} color={renk.yaziIkincil} />
-            <Text style={s.grupYazi}>{g}</Text>
-            <Text style={yazi.kucuk}>{KATEGORILER.filter((k) => k.grup === g).length} kategori</Text>
+            <Text style={s.grupYazi}>{t(g)}</Text>
+            <Text style={yazi.kucuk}>{tn("{n} kategori", KATEGORILER.filter((k) => k.grup === g).length)}</Text>
           </View>
           {KATEGORILER.filter((k) => k.grup === g).map((k) => {
             const sayi = kategoriProjeleri(k.id).length;
@@ -49,7 +50,7 @@ export default function Kategoriler() {
                     {k.aciklama}
                   </Text>
                   <View style={s.alt}>
-                    <Text style={[s.sayi, { color: k.renkler[0] }]}>{sayi} proje</Text>
+                    <Text style={[s.sayi, { color: k.renkler[0] }]}>{tn("{n} proje", sayi)}</Text>
                     <Ikon name="arrow-right" size={16} color={k.renkler[0]} />
                   </View>
                 </View>

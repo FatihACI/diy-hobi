@@ -1,5 +1,6 @@
 // "Elimdekilerle ne yapabilirim?": "bende var" listesine göre projeleri sıralar.
 // Evde bulunan kalemler (su, pet şişe…) eksik sayılmaz.
+import { icerikDili, trKalemAd } from "./ceviri";
 import { KALEMLER, type Kalem } from "./katalog-dizin";
 import { katla } from "./metin";
 import { PROJELER } from "./projeler";
@@ -39,12 +40,22 @@ export function yapabilecekler(bende: Iterable<string>, projeler: Proje[] = PROJ
 const ALINABILIR = [...KALEMLER.values()]
   .filter((k) => !k.ornek.evde)
   .sort((a, b) => b.projeler.length - a.projeler.length || a.ad.localeCompare(b.ad, "tr"));
-const KALEM_DIZIN = ALINABILIR.map((k) => ({ k, ad: katla(k.ad) }));
+// Dizin dil başına hazırlanır; Türkçe ad her zaman aranır
+let kalemDizin: { k: Kalem; ad: string }[] = [];
+let kalemDizinDili: string | null = null;
+function kalemDizinAl() {
+  if (kalemDizinDili !== icerikDili()) {
+    kalemDizinDili = icerikDili();
+    kalemDizin = ALINABILIR.map((k) => ({ k, ad: katla(k.ad + " " + trKalemAd(k.kid)) }));
+  }
+  return kalemDizin;
+}
 
 export function kalemAra(sorgu: string, sinir = 40): Kalem[] {
   const kelimeler = katla(sorgu).split(" ").filter(Boolean);
   if (!kelimeler.length) return [];
-  return KALEM_DIZIN.filter((d) => kelimeler.every((w) => d.ad.includes(w)))
+  return kalemDizinAl()
+    .filter((d) => kelimeler.every((w) => d.ad.includes(w)))
     .slice(0, sinir)
     .map((d) => d.k);
 }

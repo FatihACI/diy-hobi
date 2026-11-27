@@ -34,7 +34,8 @@
     "plugins": [
       "expo-asset",
       "expo-font",
-      "@sentry/react-native"
+      "@sentry/react-native",
+      "expo-localization"
     ],
     "extra": {
       "eas": {

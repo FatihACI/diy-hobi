@@ -9,6 +9,7 @@ import { GRUPLAR } from "../data/kategoriler";
 import type { IkonAdi, KategoriGrubu, Proje } from "../data/types";
 import { RootParams, useNav } from "../nav";
 import { bosluk, golge, kose, renk, stil, yazi } from "../theme";
+import { t, tn } from "../i18n";
 
 type P = NativeStackScreenProps<RootParams, "Bulucu">;
 type Secenek<T> = { deger: T; etiket: string; alt?: string; ikon: IkonAdi };
@@ -60,9 +61,9 @@ export default function Bulucu({ navigation }: P) {
         paddingBottom: bosluk.xxl + ins.bottom,
       }}
     >
-      <UstBaslik baslik="Proje Bulucu" alt={`Soru ${adim + 1} / ${SORULAR.length}`} geri={geri} />
+      <UstBaslik baslik={t("Proje Bulucu")} alt={t("Soru {a} / {b}", { a: adim + 1, b: SORULAR.length })} geri={geri} />
       <Cubuk oran={adim / SORULAR.length} />
-      <Text style={[yazi.baslik, { marginTop: bosluk.xl, marginBottom: bosluk.l }]}>{SORULAR[adim]}</Text>
+      <Text style={[yazi.baslik, { marginTop: bosluk.xl, marginBottom: bosluk.l }]}>{t(SORULAR[adim])}</Text>
 
       <View style={{ gap: bosluk.m }}>
         {adim === 0 &&
@@ -75,7 +76,7 @@ export default function Bulucu({ navigation }: P) {
           ))}
         {adim === 3 && (
           <>
-            <Text style={yazi.kucuk}>Birden fazla seçebilirsin. Hiç seçmezsen hepsine bakarız.</Text>
+            <Text style={yazi.kucuk}>{t("Birden fazla seçebilirsin. Hiç seçmezsen hepsine bakarız.")}</Text>
             {GRUPLAR.map((g) => {
               const secili = gruplar.includes(g);
               return (
@@ -92,7 +93,7 @@ export default function Bulucu({ navigation }: P) {
             })}
             <Pressable accessibilityRole="button" onPress={() => setAdim(SORULAR.length)} style={s.anaBtn}>
               <Ikon name="magnify" size={20} color="#fff" />
-              <Text style={s.anaBtnYazi}>{gruplar.length ? "Projeleri göster" : "Hepsine bak"}</Text>
+              <Text style={s.anaBtnYazi}>{gruplar.length ? t("Projeleri göster") : t("Hepsine bak")}</Text>
             </Pressable>
           </>
         )}
@@ -113,8 +114,8 @@ function Kart<T>({ x, secili, bas, coklu }: { x: Secenek<T>; secili: boolean; ba
         <Ikon name={x.ikon} size={22} color={secili ? "#fff" : renk.ana} />
       </View>
       <View style={{ flex: 1 }}>
-        <Text style={yazi.altBaslik}>{x.etiket}</Text>
-        {x.alt && <Text style={yazi.kucuk}>{x.alt}</Text>}
+        <Text style={yazi.altBaslik}>{t(x.etiket)}</Text>
+        {x.alt && <Text style={yazi.kucuk}>{t(x.alt)}</Text>}
       </View>
       <Ikon
         name={coklu ? (secili ? "checkbox-marked" : "checkbox-blank-outline") : "chevron-right"}
@@ -154,24 +155,30 @@ function Sonuc({ c, bastan, geri }: { c: Cevaplar; bastan: () => void; geri: () 
       ItemSeparatorComponent={() => <View style={{ height: bosluk.m }} />}
       ListHeaderComponent={
         <View style={{ marginBottom: bosluk.l, gap: bosluk.m }}>
-          <UstBaslik baslik="Sana önerilenler" alt={`${liste.length} proje`} geri={geri} />
+          <UstBaslik baslik={t("Sana önerilenler")} alt={tn("{n} proje", liste.length)} geri={geri} />
           {gevsetilen.length > 0 && liste.length > 0 && (
             <View style={s.not}>
               <Ikon name="information-outline" size={18} color={renk.uyari} />
               <Text style={[yazi.kucuk, { flex: 1, color: renk.yazi }]}>
-                Tüm cevaplarına uyan proje yoktu; {gevsetilen.join(" ve ")} esnetildi.
+                {t("Tüm cevaplarına uyan proje yoktu; {neler} esnetildi.", {
+                  neler: gevsetilen.map((g) => t(g)).join(t(" ve ")),
+                })}
               </Text>
             </View>
           )}
           <Pressable accessibilityRole="button" onPress={bastan} style={s.bastan}>
             <Ikon name="restart" size={18} color={renk.ana} />
-            <Text style={{ color: renk.ana, fontWeight: "700" }}>Baştan başla</Text>
+            <Text style={{ color: renk.ana, fontWeight: "700" }}>{t("Baştan başla")}</Text>
           </Pressable>
         </View>
       }
       renderItem={({ item }) => <ProjeKart p={item} onPress={() => nav.navigate("Proje", { id: item.id })} />}
       ListEmptyComponent={
-        <Bos ikon="magnify-close" baslik="Uygun proje bulunamadı" metin="Cevaplarını değiştirip yeniden dene." />
+        <Bos
+          ikon="magnify-close"
+          baslik={t("Uygun proje bulunamadı")}
+          metin={t("Cevaplarını değiştirip yeniden dene.")}
+        />
       }
     />
   );

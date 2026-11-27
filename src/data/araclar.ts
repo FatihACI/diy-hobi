@@ -1,6 +1,8 @@
 // Hobi hesaplayıcıları. Her araç: giriş alanları + hesaplama fonksiyonu (ekran bunları genel olarak çizer).
+// Metinler Türkçe yazılır; ekran t() ile çevirir (sözlük: src/i18n/en.ts).
 // Sonuçlar YAKLAŞIKTIR; malzeme etiketi/üretici önerisi her zaman önceliklidir.
 // Soğuk sabun (kostik) hesabı bilerek yok: yanlış değer kimyasal yanığa yol açar, uzman kontrolü gerekir.
+import { sayiDil, t } from "../i18n";
 import type { IkonAdi } from "./types";
 
 export type Deger = number | string;
@@ -43,8 +45,7 @@ export const sayiOku = (s: string) => {
   const t = s.trim().replace(/\s/g, "").replace(",", ".");
   return t === "" || !/^-?\d*\.?\d+$/.test(t) ? NaN : Number(t);
 };
-export const sayiYaz = (n: number, ond = 0) =>
-  n.toLocaleString("tr-TR", { minimumFractionDigits: ond, maximumFractionDigits: ond });
+export const sayiYaz = (n: number, ond = 0) => sayiDil(n, ond);
 const para = (n: number) => sayiYaz(n, 2) + " ₺";
 const n = (v: Degerler, k: string) => Number(v[k]);
 
@@ -239,7 +240,10 @@ export const ARACLAR: Arac[] = [
       const vf = n(v, "vf");
       const i = n(v, "ma") / 1000;
       if (vs <= vf)
-        return { sonuclar: [], uyari: `Besleme gerilimi LED'in ${sayiYaz(vf, 1)} V eşiğinden yüksek olmalı.` };
+        return {
+          sonuclar: [],
+          uyari: t("Besleme gerilimi LED'in {v} V eşiğinden yüksek olmalı.", { v: sayiYaz(vf, 1) }),
+        };
       const r = (vs - vf) / i;
       const std = e12Ust(r);
       const gercekI = (vs - vf) / std;

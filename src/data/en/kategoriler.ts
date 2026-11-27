@@ -1,0 +1,23 @@
+// Kategori adları ve açıklamaları (İngilizce)
+export const EN_KATEGORI: Record<string, { ad: string; aciklama: string }> = {
+  oyuncak: { ad: "Toys", aciklama: "Wooden, felt and cardboard toys for kids" },
+  maket: { ad: "Models & Dioramas", aciklama: "Plastic kits, diorama bases and miniature rooms" },
+  rc: { ad: "RC & Drones", aciklama: "Remote-controlled vehicles, gliders and mini drones" },
+  balikcilik: { ad: "Fishing", aciklama: "Rigs, handmade lures and tackle" },
+  akvaryum: { ad: "Aquarium", aciklama: "Setup, filters and planted tanks" },
+  terraryum: { ad: "Terrarium", aciklama: "Miniature gardens under glass" },
+  "kus-evi": { ad: "Birdhouses & Pets", aciklama: "Nest boxes, feeders and cat accessories" },
+  bahce: { ad: "Garden & Pots", aciklama: "Hydroponics, irrigation and compost" },
+  ahsap: { ad: "Woodworking", aciklama: "Shelves, boxes, cutting boards and more" },
+  "mum-sabun": { ad: "Candles & Soap", aciklama: "Scented candles and handmade soap" },
+  epoksi: { ad: "Epoxy Resin", aciklama: "Coasters, river tables and resin jewelry" },
+  makrome: { ad: "Macramé & Knitting", aciklama: "Knotted hangers, wall hangings and amigurumi" },
+  kil: { ad: "Polymer Clay & Ceramics", aciklama: "Earrings, trinket dishes and miniatures" },
+  deri: { ad: "Leathercraft", aciklama: "Card holders, key fobs and belts" },
+  taki: { ad: "Jewelry Making", aciklama: "Bracelets, wire-wrapped necklaces and earrings" },
+  pirografi: { ad: "Pyrography & Painting", aciklama: "Wood burning, rock painting and fluid art" },
+  elektronik: { ad: "Electronics", aciklama: "Sensor projects with Arduino" },
+  baski3d: { ad: "3D Printing", aciklama: "Calibration, first prints and your own designs" },
+  bisiklet: { ad: "Bike Maintenance", aciklama: "Tire, chain and brake care" },
+  "ev-tamir": { ad: "Home Repair", aciklama: "Faucet, wall and sealant repairs" },
+};

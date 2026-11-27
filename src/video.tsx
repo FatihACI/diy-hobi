@@ -8,6 +8,7 @@ import { linkAc } from "./fiyat";
 import type { Proje } from "./data/types";
 import VIDEOLAR from "./data/videolar.json";
 import { bosluk, golge, kose, renk, yazi, stil } from "./theme";
+import { aktifDil, t } from "./i18n";
 
 export type Video = {
   id: string; // YouTube video kimliği (11 karakter)
@@ -27,7 +28,7 @@ export function projeVideosu(projeId: string): Video | undefined {
 
 export const izleAdresi = (id: string) => `https://www.youtube.com/watch?v=${id}`;
 export const aramaAdresi = (proje: Proje) =>
-  `https://www.youtube.com/results?search_query=${encodeURIComponent(`${proje.ad} nasıl yapılır`)}`;
+  `https://www.youtube.com/results?search_query=${encodeURIComponent(t("{ad} nasıl yapılır", { ad: proje.ad }))}`;
 
 export function ProjeVideo({ proje }: { proje: Proje }) {
   const v = projeVideosu(proje.id);
@@ -37,8 +38,8 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
       <Pressable accessibilityRole="button" onPress={() => linkAc(aramaAdresi(proje))} style={[s.kart, s.satir]}>
         <Ikon name="youtube" size={28} color="#FF0000" />
         <View style={{ flex: 1 }}>
-          <Text style={yazi.altBaslik}>Uygulama videosu</Text>
-          <Text style={yazi.kucuk}>Bu proje için video hazırlanıyor. {"Şimdilik YouTube'da arayabilirsin."}</Text>
+          <Text style={yazi.altBaslik}>{t("Uygulama videosu")}</Text>
+          <Text style={yazi.kucuk}>{t("Bu proje için video hazırlanıyor. Şimdilik YouTube'da arayabilirsin.")}</Text>
         </View>
         <Ikon name="open-in-new" size={18} color={renk.yaziIkincil} />
       </Pressable>
@@ -48,11 +49,14 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`Videoyu YouTube'da izle: ${v.baslik}`}
+      accessibilityLabel={t("Videoyu YouTube'da izle: {baslik}", { baslik: v.baslik })}
       onPress={() => linkAc(izleAdresi(v.id))}
       style={s.kart}
     >
-      <Text style={[yazi.altBaslik, { marginBottom: bosluk.s }]}>Uygulama videosu</Text>
+      <Text style={[yazi.altBaslik, { marginBottom: bosluk.s }]}>
+        {t("Uygulama videosu")}
+        {aktifDil() === "en" ? " (Turkish)" : ""}
+      </Text>
       <View style={s.kapak}>
         <Image source={{ uri: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg` }} style={s.resim} resizeMode="cover" />
         <View style={s.oynat}>
@@ -65,9 +69,9 @@ export function ProjeVideo({ proje }: { proje: Proje }) {
       </Text>
       <View style={[s.satir, { marginTop: 2 }]}>
         <Text style={[yazi.kucuk, { flex: 1 }]} numberOfLines={1}>
-          {v.kendi ? "Protyp kanalı" : v.kanal}
+          {v.kendi ? t("Protyp kanalı") : v.kanal}
         </Text>
-        <Text style={[yazi.kucuk, { color: "#FF0000", fontWeight: "700" }]}>{"YouTube'da izle"}</Text>
+        <Text style={[yazi.kucuk, { color: "#FF0000", fontWeight: "700" }]}>{t("YouTube'da izle")}</Text>
       </View>
     </Pressable>
   );

@@ -8,6 +8,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Linking } from "react-native";
 import { createContext, ReactNode, useCallback, useContext, useEffect, useState } from "react";
 import { Fiyat, Malzeme, Proje } from "./data/types";
+import { tarihDil } from "./i18n";
 
 const ADRES = process.env.EXPO_PUBLIC_FIYAT_URL;
 const ONBELLEK = "evde-hobi-fiyatlar-v1";
@@ -142,5 +143,4 @@ export const linkAc = (url: string) => {
   Linking.openURL(url).catch(() => {});
 };
 
-export const tarihYaz = (iso: string) =>
-  new Date(iso).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
+export const tarihYaz = (iso: string) => tarihDil(iso, true);

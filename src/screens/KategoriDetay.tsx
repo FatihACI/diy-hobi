@@ -11,6 +11,7 @@ import { Proje, Zorluk } from "../data/types";
 import { useFiyat } from "../fiyat";
 import { RootParams } from "../nav";
 import { bosluk, kose, renk, stil } from "../theme";
+import { sayiDil, t, tn } from "../i18n";
 
 type P = NativeStackScreenProps<RootParams, "Kategori">;
 const ZORLUKLAR: (Zorluk | "Tümü")[] = ["Tümü", "Kolay", "Orta", "Zor"];
@@ -66,7 +67,7 @@ export default function KategoriDetay({ route, navigation }: P) {
         style={[s.kapak, { paddingTop: ust + bosluk.s }]}
       >
         <Pressable
-          accessibilityLabel="Geri"
+          accessibilityLabel={t("Geri")}
           accessibilityRole="button"
           onPress={navigation.goBack}
           style={s.geri}
@@ -79,20 +80,20 @@ export default function KategoriDetay({ route, navigation }: P) {
         <Text style={s.alt}>{k.aciklama}</Text>
       </LinearGradient>
       <View style={{ paddingVertical: bosluk.m, gap: bosluk.s }}>
-        <Cipler etiket="Zorluk" secenekler={ZORLUKLAR} deger={zorluk} sec={setZorluk} />
-        <Cipler etiket="Süre" secenekler={SURE_SINIFLARI} deger={sure} sec={setSure} />
+        <Cipler etiket={t("Zorluk")} secenekler={ZORLUKLAR} deger={zorluk} sec={setZorluk} />
+        <Cipler etiket={t("Süre")} secenekler={SURE_SINIFLARI} deger={sure} sec={setSure} />
         {butceGoster && (
           <Cipler
-            etiket="Bütçe (malzeme)"
+            etiket={t("Bütçe (malzeme)")}
             secenekler={BUTCELER}
             deger={butce}
             sec={setButce}
-            yazi={(x) => (x ? `≤ ${x.toLocaleString("tr-TR")} TL` : "Tümü")}
+            yazi={(x) => (x ? `≤ ${sayiDil(x)} TL` : t("Tümü"))}
           />
         )}
-        <Cipler etiket="Sırala" secenekler={SIRALAR} deger={sira} sec={setSira} />
+        <Cipler etiket={t("Sırala")} secenekler={SIRALAR} deger={sira} sec={setSira} />
       </View>
-      <Text style={[s.filtreBaslik, { marginBottom: bosluk.s }]}>{projeler.length} proje</Text>
+      <Text style={[s.filtreBaslik, { marginBottom: bosluk.s }]}>{tn("{n} proje", projeler.length)}</Text>
     </>
   );
 
@@ -114,8 +115,8 @@ export default function KategoriDetay({ route, navigation }: P) {
       ListEmptyComponent={
         <Text style={s.bos}>
           {butce
-            ? "Bu bütçede fiyatı tam bilinen proje yok. Fiyatlar eklendikçe burada görünecek."
-            : "Bu filtrelerle proje yok."}
+            ? t("Bu bütçede fiyatı tam bilinen proje yok. Fiyatlar eklendikçe burada görünecek.")
+            : t("Bu filtrelerle proje yok.")}
         </Text>
       }
     />

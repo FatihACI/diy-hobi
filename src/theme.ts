@@ -2,6 +2,7 @@
 // Açık/koyu tema: renk, yazi, golge ve zorlukRenk nesneleri YERİNDE güncellenir (temaUygula);
 // ekran stilleri stil(() => ({...})) ile yazılır ve tema değişince kendiliğinden yeniden üretilir.
 import { StyleSheet } from "react-native";
+import { sayiDil } from "./i18n";
 
 const ACIK = {
   arkaPlan: "#F6F7F9",
@@ -111,5 +112,4 @@ export function stil<T extends Stiller>(fabrika: () => T & Stiller): Readonly<T>
   });
 }
 
-export const tl = (n: number) =>
-  n.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " ₺";
+export const tl = (n: number) => sayiDil(n, 2) + " ₺";

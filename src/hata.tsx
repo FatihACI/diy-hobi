@@ -4,6 +4,7 @@ import { Component, ReactNode } from "react";
 import { Pressable, Text, View } from "react-native";
 import { hataBildir } from "./sentry";
 import { bosluk, kose, renk, yazi, stil } from "./theme";
+import { t } from "./i18n";
 
 type Durum = { hata: Error | null };
 
@@ -24,12 +25,12 @@ export class HataSiniri extends Component<{ children: ReactNode }, Durum> {
     return (
       <View style={s.kap}>
         <Text style={s.emoji}>🛠️</Text>
-        <Text style={yazi.baslik}>Bir şeyler ters gitti</Text>
+        <Text style={yazi.baslik}>{t("Bir şeyler ters gitti")}</Text>
         <Text style={[yazi.govde, s.metin]}>
-          Bu ekran açılırken beklenmeyen bir hata oldu. Favorilerin ve listen kayıtlı; tekrar deneyebilirsin.
+          {t("Bu ekran açılırken beklenmeyen bir hata oldu. Favorilerin ve listen kayıtlı; tekrar deneyebilirsin.")}
         </Text>
         <Pressable accessibilityRole="button" onPress={() => this.setState({ hata: null })} style={s.btn}>
-          <Text style={s.btnYazi}>Tekrar dene</Text>
+          <Text style={s.btnYazi}>{t("Tekrar dene")}</Text>
         </Pressable>
         {__DEV__ && <Text style={s.detay}>{String(this.state.hata.message)}</Text>}
       </View>

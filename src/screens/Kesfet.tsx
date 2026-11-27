@@ -9,6 +9,7 @@ import { linkAc } from "../fiyat";
 import { useNav } from "../nav";
 import { GIZLILIK_URL } from "../sabitler";
 import { bosluk, renk, yazi, stil } from "../theme";
+import { t, tn } from "../i18n";
 
 const SAYFA = 30;
 
@@ -44,7 +45,7 @@ export default function Kesfet() {
       contentContainerStyle={{ paddingTop: ust + bosluk.l, paddingBottom: bosluk.xxl }}
     >
       <View style={s.yatayPad}>
-        <Text style={s.selam}>Bugün ne yapıyoruz?</Text>
+        <Text style={s.selam}>{t("Bugün ne yapıyoruz?")}</Text>
         <Text style={yazi.dev}>Protyp</Text>
         <View style={{ height: bosluk.l }} />
         <Arama deger={q} degis={ara} />
@@ -52,14 +53,18 @@ export default function Kesfet() {
 
       {q.trim() ? (
         <View style={[s.yatayPad, { gap: bosluk.m, marginTop: bosluk.l }]}>
-          <Text style={yazi.kucuk}>{sonuc.length} sonuç</Text>
-          {sonuc.length === 0 && <Bos ikon="magnify-close" baslik="Sonuç yok" metin="Farklı bir kelime dene." />}
+          <Text style={yazi.kucuk}>{tn("{n} sonuç", sonuc.length)}</Text>
+          {sonuc.length === 0 && (
+            <Bos ikon="magnify-close" baslik={t("Sonuç yok")} metin={t("Farklı bir kelime dene.")} />
+          )}
           {sonuc.slice(0, limit).map((p) => (
             <ProjeKart key={p.id} p={p} onPress={() => nav.navigate("Proje", { id: p.id })} />
           ))}
           {sonuc.length > limit && (
             <Pressable accessibilityRole="button" onPress={() => setLimit((l) => l + SAYFA)} style={s.dahaFazla}>
-              <Text style={{ color: renk.ana, fontWeight: "700" }}>Daha fazla göster ({sonuc.length - limit})</Text>
+              <Text style={{ color: renk.ana, fontWeight: "700" }}>
+                {t("Daha fazla göster ({n})", { n: sonuc.length - limit })}
+              </Text>
             </Pressable>
           )}
         </View>
@@ -75,14 +80,14 @@ export default function Kesfet() {
                 <Ikon name="head-question-outline" size={26} color="#fff" />
               </View>
               <View style={{ flex: 1 }}>
-                <Text style={[yazi.altBaslik, { color: "#fff" }]}>Ne yapsam?</Text>
+                <Text style={[yazi.altBaslik, { color: "#fff" }]}>{t("Ne yapsam?")}</Text>
                 <Text style={{ color: "rgba(255,255,255,0.9)", fontSize: 13 }}>
-                  4 soruyu cevapla, sana uygun projeyi bulalım
+                  {t("4 soruyu cevapla, sana uygun projeyi bulalım")}
                 </Text>
               </View>
               <Ikon name="chevron-right" size={24} color="#fff" />
             </Pressable>
-            <Bolum baslik="Kategoriler" />
+            <Bolum baslik={t("Kategoriler")} />
           </View>
           <FlatList
             horizontal
@@ -100,7 +105,7 @@ export default function Kesfet() {
           />
 
           <View style={s.yatayPad}>
-            <Bolum baslik="Seçkin projeler: adım adım" />
+            <Bolum baslik={t("Seçkin projeler: adım adım")} />
           </View>
           <FlatList
             horizontal
@@ -113,7 +118,7 @@ export default function Kesfet() {
             )}
           />
           <View style={s.yatayPad}>
-            <Bolum baslik="Yeni başlayanlar için" />
+            <Bolum baslik={t("Yeni başlayanlar için")} />
           </View>
           <FlatList
             horizontal
@@ -127,7 +132,7 @@ export default function Kesfet() {
           />
 
           <View style={s.yatayPad}>
-            <Bolum baslik="Son eklenenler" />
+            <Bolum baslik={t("Son eklenenler")} />
           </View>
           <View style={[s.yatayPad, { gap: bosluk.m }]}>
             {yeni.map((p) => (
@@ -137,7 +142,7 @@ export default function Kesfet() {
         </>
       )}
       <Pressable accessibilityRole="link" onPress={() => linkAc(GIZLILIK_URL)} style={s.altBilgi} hitSlop={8}>
-        <Text style={s.altBilgiYazi}>Gizlilik politikası</Text>
+        <Text style={s.altBilgiYazi}>{t("Gizlilik politikası")}</Text>
       </Pressable>
     </ScrollView>
   );

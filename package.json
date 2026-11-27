@@ -13,6 +13,7 @@
     "expo-asset": "~58.0.19",
     "expo-font": "~58.0.11",
     "expo-linear-gradient": "~58.0.3",
+    "expo-localization": "~58.0.5",
     "expo-status-bar": "~58.0.4",
     "react": "19.3.0",
     "react-dom": "19.3.0",
@@ -50,6 +51,9 @@
   "private": true,
   "jest": {
     "preset": "jest-expo/android",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/fiyat-toplayici/"

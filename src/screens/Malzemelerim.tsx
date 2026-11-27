@@ -9,6 +9,7 @@ import { kalemAra, sikKalemler, yapabilecekler } from "../data/yapabilir";
 import { RootParams } from "../nav";
 import { useStore } from "../store";
 import { bosluk, golge, kose, renk, stil, yazi } from "../theme";
+import { t, tn, yerel } from "../i18n";
 
 type P = NativeStackScreenProps<RootParams, "Malzemelerim">;
 
@@ -20,7 +21,7 @@ export default function Malzemelerim({ navigation }: P) {
   const benim = st.bende
     .map((kid) => KALEMLER.get(kid))
     .filter((k): k is Kalem => !!k)
-    .sort((a, b) => a.ad.localeCompare(b.ad, "tr"));
+    .sort((a, b) => a.ad.localeCompare(b.ad, yerel()));
   const oneriler = sikKalemler(st.bende, 10);
   const yapilabilir = yapabilecekler(st.bende).length;
 
@@ -31,15 +32,17 @@ export default function Malzemelerim({ navigation }: P) {
         contentContainerStyle={{ padding: bosluk.l, paddingTop: ins.top + bosluk.l, paddingBottom: 120 }}
       >
         <UstBaslik
-          baslik="Malzemelerim"
-          alt="Elindekileri ekle; sana uygun projeleri bulalım."
+          baslik={t("Malzemelerim")}
+          alt={t("Elindekileri ekle; sana uygun projeleri bulalım.")}
           geri={navigation.goBack}
         />
-        <Arama deger={q} degis={setQ} ipucu="Alet veya malzeme ara (ör. tutkal)" />
+        <Arama deger={q} degis={setQ} ipucu={t("Alet veya malzeme ara (ör. tutkal)")} />
 
         {q.trim() ? (
           <View style={[s.kart, { marginTop: bosluk.m }]}>
-            {sonuc.length === 0 && <Text style={[yazi.kucuk, { padding: bosluk.m }]}>Katalogda bulunamadı.</Text>}
+            {sonuc.length === 0 && (
+              <Text style={[yazi.kucuk, { padding: bosluk.m }]}>{t("Katalogda bulunamadı.")}</Text>
+            )}
             {sonuc.map((k, i) => (
               <Satir key={k.kid} k={k} ilk={i === 0} />
             ))}
@@ -48,13 +51,13 @@ export default function Malzemelerim({ navigation }: P) {
           <>
             {oneriler.length > 0 && (
               <>
-                <Text style={s.baslik}>Sık kullanılanlar: dokun, ekle</Text>
+                <Text style={s.baslik}>{t("Sık kullanılanlar: dokun, ekle")}</Text>
                 <View style={s.cipler}>
                   {oneriler.map((k) => (
                     <Pressable
                       key={k.kid}
                       accessibilityRole="button"
-                      accessibilityLabel={`${k.ad}: ekle`}
+                      accessibilityLabel={t("{ad}: ekle", { ad: k.ad })}
                       onPress={() => st.bendeEkle(k.kid)}
                       style={s.cip}
                     >
@@ -67,12 +70,12 @@ export default function Malzemelerim({ navigation }: P) {
                 </View>
               </>
             )}
-            <Text style={s.baslik}>Sende olanlar ({benim.length})</Text>
+            <Text style={s.baslik}>{t("Sende olanlar ({n})", { n: benim.length })}</Text>
             {benim.length === 0 ? (
               <Bos
                 ikon="toolbox-outline"
-                baslik="Henüz bir şey eklemedin"
-                metin="Yukarıdan ara ya da proje sayfalarında 'Bende var?' düğmesine dokun."
+                baslik={t("Henüz bir şey eklemedin")}
+                metin={t("Yukarıdan ara ya da proje sayfalarında 'Bende var?' düğmesine dokun.")}
               />
             ) : (
               <View style={s.kart}>
@@ -108,19 +111,19 @@ function Satir({ k, ilk }: { k: Kalem; ilk: boolean }) {
       <View style={{ flex: 1 }}>
         <Text style={[yazi.govde, { fontWeight: "600" }]}>{k.ad}</Text>
         <Text style={yazi.kucuk}>
-          {k.arac ? "Alet" : "Malzeme"} · {k.projeler.length} projede
+          {k.arac ? t("Alet") : t("Malzeme (tekil)")} · {tn("{n} projede", k.projeler.length)}
         </Text>
       </View>
       <Pressable
         accessibilityRole="checkbox"
         accessibilityState={{ checked: bende }}
-        accessibilityLabel={bende ? `${k.ad}: bende yok, çıkar` : `${k.ad}: bende var`}
+        accessibilityLabel={bende ? t("{ad}: bende yok, çıkar", { ad: k.ad }) : t("{ad}: bende var", { ad: k.ad })}
         onPress={() => st.bendeDegistir(k.kid)}
         hitSlop={8}
         style={[s.btn, bende && { backgroundColor: renk.anaAcik, borderColor: renk.ana }]}
       >
         <Ikon name={bende ? "check" : "plus"} size={16} color={bende ? renk.ana : renk.yaziIkincil} />
-        <Text style={[s.btnYazi, bende && { color: renk.ana }]}>{bende ? "Bende" : "Ekle"}</Text>
+        <Text style={[s.btnYazi, bende && { color: renk.ana }]}>{bende ? t("Bende") : t("Ekle")}</Text>
       </Pressable>
     </View>
   );

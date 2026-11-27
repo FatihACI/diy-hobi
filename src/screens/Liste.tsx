@@ -10,11 +10,12 @@ import { PROJELER } from "../data/projeler";
 import { useNav } from "../nav";
 import { useStore } from "../store";
 import { bosluk, golge, kose, renk, yazi, stil } from "../theme";
+import { t, tn, yerel } from "../i18n";
 
 const projeAd = (id: string) => PROJELER.find((p) => p.id === id)?.ad ?? id;
 const miktar = (x: { projeler: string[]; kalem: { projeler: { projeId: string; miktar?: string }[] } }) =>
   x.projeler.length > 1
-    ? `${x.projeler.length} projede`
+    ? tn("{n} projede", x.projeler.length)
     : (x.kalem.projeler.find((p) => p.projeId === x.projeler[0])?.miktar ?? "");
 
 export default function Liste() {
@@ -40,14 +41,14 @@ export default function Liste() {
         .map(([kid, v]) => ({ kalem: KALEMLER.get(kid)!, ...v }))
         .filter((x) => x.kalem)
         .map((x) => ({ ...x, f: enUcuz(x.kalem.ornek) }))
-        .sort((a, b) => Number(a.alindi) - Number(b.alindi) || a.kalem.ad.localeCompare(b.kalem.ad, "tr")),
+        .sort((a, b) => Number(a.alindi) - Number(b.alindi) || a.kalem.ad.localeCompare(b.kalem.ad, yerel())),
     [st.liste, enUcuz],
   );
   const bolumler = useMemo(
     () =>
       [
-        { baslik: "Malzemeler", data: kalemler.filter((x) => !x.kalem.arac) },
-        { baslik: "Aletler", data: kalemler.filter((x) => x.kalem.arac) },
+        { baslik: t("Malzemeler"), data: kalemler.filter((x) => !x.kalem.arac) },
+        { baslik: t("Aletler"), data: kalemler.filter((x) => x.kalem.arac) },
       ].filter((b) => b.data.length),
     [kalemler],
   );
@@ -58,7 +59,11 @@ export default function Liste() {
 
   // Listeyi düz metne çevirip telefonun paylaşım menüsünü aç (WhatsApp, SMS, not...)
   const paylas = () => {
-    const satirlar = ["🛒 Protyp – Alışveriş Listesi", `Projeler: ${projeIdler.map(projeAd).join(", ")}`, ""];
+    const satirlar = [
+      "🛒 Protyp – " + t("Alışveriş Listesi"),
+      t("Projeler: {liste}", { liste: projeIdler.map(projeAd).join(", ") }),
+      "",
+    ];
     for (const b of bolumler) {
       satirlar.push(`▸ ${b.baslik}`);
       for (const x of b.data) {
@@ -70,7 +75,7 @@ export default function Liste() {
       }
       satirlar.push("");
     }
-    if (kalan > 0) satirlar.push(`Kalan tahmini tutar: ${tl(kalan)}`);
+    if (kalan > 0) satirlar.push(t("Kalan tahmini tutar: {tutar}", { tutar: tl(kalan) }));
     Share.share({ message: satirlar.join("\n") }).catch(() => {});
   };
 
@@ -78,12 +83,12 @@ export default function Liste() {
   const ustBolum = (
     <>
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-        <Text style={yazi.dev}>Alışveriş Listesi</Text>
+        <Text style={yazi.dev}>{t("Alışveriş Listesi")}</Text>
         {kalemler.length > 0 && (
           <View style={{ flexDirection: "row", gap: bosluk.m }}>
             <Pressable
               accessibilityRole="button"
-              accessibilityLabel="Listeyi paylaş"
+              accessibilityLabel={t("Listeyi paylaş")}
               onPress={paylas}
               hitSlop={10}
               style={s.ustBtn}
@@ -92,13 +97,13 @@ export default function Liste() {
             </Pressable>
             <Pressable
               accessibilityRole="button"
-              accessibilityLabel="Listeyi temizle"
+              accessibilityLabel={t("Listeyi temizle")}
               hitSlop={10}
               style={s.ustBtn}
               onPress={() =>
-                Alert.alert("Listeyi temizle", "Tüm malzemeler listeden silinsin mi?", [
-                  { text: "Vazgeç", style: "cancel" },
-                  { text: "Temizle", style: "destructive", onPress: st.listeyiTemizle },
+                Alert.alert(t("Listeyi temizle"), t("Tüm malzemeler listeden silinsin mi?"), [
+                  { text: t("Vazgeç"), style: "cancel" },
+                  { text: t("Temizle"), style: "destructive", onPress: st.listeyiTemizle },
                 ])
               }
             >
@@ -109,18 +114,22 @@ export default function Liste() {
       </View>
 
       {kalemler.length === 0 ? (
-        <Bos ikon="cart-outline" baslik="Listen boş" metin="Bir projeyi açıp 'Malzemeleri listeye ekle'ye dokun." />
+        <Bos
+          ikon="cart-outline"
+          baslik={t("Listen boş")}
+          metin={t("Bir projeyi açıp 'Malzemeleri listeye ekle'ye dokun.")}
+        />
       ) : (
         <>
           <View style={s.ozet}>
             <View>
-              <Text style={yazi.kucuk}>Alınan</Text>
+              <Text style={yazi.kucuk}>{t("Alınan")}</Text>
               <Text style={s.ozetDeger}>
                 {alinan} / {kalemler.length}
               </Text>
             </View>
             <View style={{ alignItems: "flex-end" }}>
-              <Text style={yazi.kucuk}>Kalan tahmini tutar</Text>
+              <Text style={yazi.kucuk}>{t("Kalan tahmini tutar")}</Text>
               <Text style={s.ozetDeger}>{kalan > 0 ? (fiyatsiz ? "≥ " : "") + tl(kalan) : "—"}</Text>
             </View>
           </View>
@@ -192,7 +201,7 @@ export default function Liste() {
       ListFooterComponent={
         kalemler.length > 0 ? (
           <Text style={[yazi.kucuk, { marginTop: bosluk.l }]}>
-            Evde olan bir şeyi ⌂ ile işaretle: listeden düşer ve sonraki projelerde de listeye eklenmez.
+            {t("Evde olan bir şeyi ⌂ ile işaretle: listeden düşer ve sonraki projelerde de listeye eklenmez.")}
           </Text>
         ) : undefined
       }
@@ -232,7 +241,7 @@ const ListeSatiri = memo(function ListeSatiri({
       <Pressable
         accessibilityRole="checkbox"
         accessibilityState={{ checked: alindi }}
-        accessibilityLabel={`${ad} alındı`}
+        accessibilityLabel={t("{ad} alındı", { ad })}
         onPress={() => onAlindi(kid)}
         hitSlop={8}
       >
@@ -249,7 +258,7 @@ const ListeSatiri = memo(function ListeSatiri({
       <Text style={{ fontWeight: "700", color: renk.yazi }}>{fiyatYazi}</Text>
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel={`${ad}: bende var, listeden çıkar`}
+        accessibilityLabel={t("{ad}: bende var, listeden çıkar", { ad })}
         onPress={() => onBende(kid)}
         hitSlop={8}
       >
@@ -257,7 +266,7 @@ const ListeSatiri = memo(function ListeSatiri({
       </Pressable>
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel={`${ad}: listeden çıkar`}
+        accessibilityLabel={t("{ad}: listeden çıkar", { ad })}
         onPress={() => onCikar(kid)}
         hitSlop={8}
       >
