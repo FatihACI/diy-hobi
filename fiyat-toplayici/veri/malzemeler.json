@@ -2403,7 +2403,7 @@
     "id": "desen-sablonu",
     "ad": "Desen şablonu",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -3301,7 +3301,7 @@
     "id": "sablon",
     "ad": "Şablon",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -6058,7 +6058,7 @@
     "id": "bicak",
     "ad": "Bıçak (kil için)",
     "arac": true,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -6156,7 +6156,7 @@
     "id": "bisiklet-standi",
     "ad": "Bisiklet standı (veya ters çevirme)",
     "arac": true,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -11732,7 +11732,7 @@
     "id": "kalin-kalem-veya-boru",
     "ad": "Kalın kalem veya boru (kalıp)",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -12012,7 +12012,7 @@
     "id": "kaplar-ve-cubuklar",
     "ad": "Kaplar ve çubuklar",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -13692,7 +13692,7 @@
     "id": "kurdan-veya-boncuk-ignesi",
     "ad": "Kürdan veya boncuk iğnesi",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -19286,7 +19286,7 @@
     "id": "tabla-seviyeleme-test-dosyasi",
     "ad": "Tabla seviyeleme test dosyası",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -19740,7 +19740,7 @@
     "id": "test-modeli",
     "ad": "Test modeli (stringing test)",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -20804,7 +20804,7 @@
     "id": "yazdirilmis-yazi-sablonu",
     "ad": "Yazdırılmış yazı şablonu",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -20818,7 +20818,7 @@
     "id": "yazi-sablonu",
     "ad": "Yazı şablonu",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [

@@ -72,6 +72,17 @@ export const EVDE = new Set([
   "buyuk-koli-kutusu",
   "kagit-huni",
   "yumusak-bez",
+  "tabla-seviyeleme-test-dosyasi",
+  "test-modeli",
+  "yazdirilmis-yazi-sablonu",
+  "yazi-sablonu",
+  "desen-sablonu",
+  "sablon",
+  "kalin-kalem-veya-boru",
+  "kurdan-veya-boncuk-ignesi",
+  "bicak",
+  "bisiklet-standi",
+  "kaplar-ve-cubuklar",
 ]);
 
 export function katalogKimligi(ad: string): string {
