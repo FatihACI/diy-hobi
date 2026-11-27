@@ -1,6 +1,6 @@
 # Video önerileri
 
-389 / 400 proje için arama yapıldı.
+400 / 400 proje için arama yapıldı.
 
 Her proje için 1. aday seçili gelir. Değiştirmek için: `npm run video:sec -- <projeId> <n>` (0 = reddet).
 Onaylayınca: `npm run video:yaz`.
@@ -143,6 +143,17 @@ Onaylayınca: `npm run video:yaz`.
 | Etçil Bitki Terraryumu `etcil-terraryum` | **reddedildi** | 1. [Yeni Etobur Bitkilerim - Kutu Açılımı 🌱 Mobuflora](https://youtu.be/EcW0SOU7EME) — Sürüngen Dostları, 6:29, 1.536 izlenme<br>2. [Etobur Bitki Tankı 3 Aylık Oldu - Bakım, Temizlik vs](https://youtu.be/0L3gamzvkCI) — Sürüngen Dostları, 8:52, 2.383 izlenme<br>3. [Etobur Bitki kutu açılımı   Nepenthes tobaica   Nepenthes tobaica Unboxing](https://youtu.be/F8lnOF83qNc) — Sürüngen Dostları, 4:59, 4.250 izlenme |
 | Katmanlı Çöl Terraryumu `col-terraryum` | **kontrol et:** başlıklar projeyle eşleşmedi, alternatiflerden birini seç | 1. [Ev & El İşi - Eski Akvaryumdan Yeni Teraryum](https://youtu.be/VnHNQ64TbiM) — Turuncu TV, 16:09, 3.028 izlenme<br>2. [MİNİ BETA AKVARYUMU - (diy) - Pimaş Boru ile Beta Akvaryum Nasıl Yapılır](https://youtu.be/5jOyStD1rxU) — İlhami Kul, 12:28, 5.211 izlenme<br>3. [Teraryum Nasıl Yapılır](https://youtu.be/EPuLRfd69IA) — Balıkesir Buse Çiçekçilik & Hediyem Kapıda, 17:23, 691 izlenme |
 | LED Işıklı Gece Terraryumu `led-terraryum` | **reddedildi** | 1. [Özel Ledli ve Prizli Gece Lambası](https://youtu.be/MRMJN4SClN8) — Dreamland Teraryum & Flowers, 1:45, 209 izlenme<br>2. [Teraryum nasıl yapılır? Hangi hastalıklara iyi gelir?](https://youtu.be/c9GcB7GNl28) — Hayatta Her Şey Var, 20:04, 2.484 izlenme<br>3. [EPOKSİ TERARYUM!Deniz Feneri Epoksi Teraryum! HANDMADE EPOXY DIY! Lighthouse Epoxy Terrarium!](https://youtu.be/uEDdY92w3Kc) — MFC resin art, 9:44, 4.999 izlenme |
+| Duvara Asılı Yarım Küre Terraryum `duvar-terraryumu` | uygun video yok |  |
+| Ahşap ve Camdan Wardian Kutusu `wardian-kutusu` | uygun video yok |  |
+| Eski Akvaryumu Terraryuma Dönüştürme `akvaryumdan-terraryum` | **kontrol et:** başlıklar projeyle eşleşmedi, alternatiflerden birini seç | 1. [1.000 Sinek Çıkardım... Ve Kanla Besledim](https://youtu.be/jzev9nVGqWs) — TerraYeşil Türkçe, 15:48, 767.240 izlenme |
+| Kokedama (Yosun Topu Bitki) `kokedama` | 3. [Evde Kokedama (Yosun topu) Yapımı](https://youtu.be/0HFOFNBTtLk) — Kırmızı Valiz Yollarda, 22:52, 2.477 izlenme | 1. [KOKEDAMA NEDİR?  Japon Bitki Yetiştirme Tekniği Yosun Topu - “Anne ben televizyona çıktım!”](https://youtu.be/RVTuTLWvQ24) — GÖZDE ÖZUĞUR, 7:22, 1.509 izlenme<br>2. [Kokedama (Yosun Topu) Bakım ve Sulaması](https://youtu.be/nDCSYLFl3ec) — Sihirli Bahcem by Şükran Karabulut, 10:38, 1.125 izlenme |
+| Biyoaktif Terraryum (İzopodlu) `biyoaktif-terraryum` | uygun video yok |  |
+| Masa Üstü Zen Bahçesi `zen-bahcesi` | 1. [How To Make A Miniature Winter Zen Garden – DIY Stress-Relieving Desk Decoration](https://youtu.be/_lsk--Q5RMA) — IdunnGoddess, 11:20, 18.163.480 izlenme | 2. [Zen Mind, Garden Design: The Profound Philosophy of Shunmyo Masuno](https://youtu.be/hqDfLFeFTBU) — Shizen Style, 11:31, 44.513 izlenme<br>3. [Making a Zen Garden Part 1](https://youtu.be/1v32FuI7dhI) — Acutabove Woodworking, 16:17, 1.221 izlenme |
+| Terraryuma Minyatür Sahne Kurma `minyatur-sahne` | uygun video yok |  |
+| Terraryum Bakımı: Budama ve Küf `terraryum-bakimi` | **reddedildi** | 1. [✨ Düğme Sukulent Bakımı   Budama, Sulama, Işık ve Çoğaltma Rehberi ✨](https://youtu.be/IQ3bp7VDPxM) — Bir Demet Tecrübelerim, 3:01, 152 izlenme<br>2. [Fittonya ( Fittonia hypoestes ) bakımı ve çoğaltılması](https://youtu.be/nk1vsuuBqYA) — Kübra Demiralay, 3:39, 25.761 izlenme<br>3. [Aylarca Temizlemediğim Akvaryumun Sırrı!](https://youtu.be/gudhixLAzuA) — Siphonist, 5:22, 7.567 izlenme |
+| Yapraktan Sukulent Çoğaltma `sukulent-cogaltma` | 1. [Yapraktan Sukulent Çoğaltma   Sık Sorulan Sorular ve Yanıtları](https://youtu.be/GgP6UFVQQ04) — Ev Yeşili, 8:16, 66.380 izlenme | 2. [EN KOLAY SUKULENT ÇOĞALTMA YÖNTEMİ, ÇELİKTEN VE YAPRAKTAN  NASIL ÇOGALTILIR](https://youtu.be/nPEKKJ5fhh4) — Nur'un Renkli Bahçesi, 13:39, 2.491 izlenme<br>3. [Sukulent Üretim 🌱 Yapraktan Sukulent Çoğaltma Nasıl Olur](https://youtu.be/zdyguMjVKkg) — Aslan Kaktüs Sukulent, 1:40, 1.320 izlenme |
+| Hava Bitkisi Duvar Izgarası `hava-bitkisi-duvari` | uygun video yok |  |
+| Hediyelik Mini Kavanoz Terraryum `teraryum-hediye` | 3. [Mini Teraryum Yapımı](https://youtu.be/XSwjsM3trYg) — Orkan Mordonlu, 11:25, 5.343 izlenme | 1. [Çok Basit! Tuzluktan Kendi Mini Ekosistemini Yap! #teraryum #kendinyap #ekosistem](https://youtu.be/_AEtfJsi1VM) — TerraMix, 7:19, 4.296 izlenme<br>2. [Kapalı Teraryum Yapımı - La Planta](https://youtu.be/BVgwA2nLRfE) — Damla Saydam, 7:36, 17.494 izlenme |
 
 ## Kuş Evi & Evcil Hayvan
 
