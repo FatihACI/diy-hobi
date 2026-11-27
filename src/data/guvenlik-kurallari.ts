@@ -45,7 +45,7 @@ export const GUVENLIK_KURALLARI: GuvenlikKurali[] = [
   {
     ad: "recine-eldiven",
     tetik: /epoksi|uv reçine|döküm reçine|reçine seti/,
-    var: /eldiven/,
+    var: /eldiven|çıplak el/,
     not: "Reçine ve sertleştiriciye çıplak elle dokunma; nitril eldiven kullan. Tekrarlanan temas kalıcı alerji yapabilir.",
   },
   {
@@ -75,7 +75,7 @@ export const GUVENLIK_KURALLARI: GuvenlikKurali[] = [
   {
     ad: "polimer-kil",
     tetik: /polimer kil|fimo/,
-    var: /havaland|yiyecek|gıda/,
+    var: /havaland|yiyecek|yemek|gıda/,
     not: "Polimer kili üreticinin önerdiği sıcaklıkta pişir; aşırı ısınırsa zararlı duman çıkar. Ortamı havalandır ve kil için kullandığın kapları yiyecek için kullanma.",
   },
   {
@@ -92,8 +92,14 @@ export const GUVENLIK_KURALLARI: GuvenlikKurali[] = [
     not: "Yanan mumu gözetimsiz bırakma; perde, kağıt gibi yanıcı eşyalardan, çocuklardan ve evcil hayvanlardan uzak tut.",
   },
   {
+    ad: "duvar-delme",
+    tetik: /darbeli matkap|duvar dübel|uygun dübel|dübel \+ vida|dübel ve vida|dübelle/,
+    var: /gözlük/,
+    not: "Delme sırasında koruyucu gözlük ve toz maskesi tak.",
+  },
+  {
     ad: "kesici-alet",
-    tetik: /dekupaj|daire testere|taşlama|dremel|gravür|freze|matkap/,
+    tetik: /dekupaj(?! tutkal)|daire testere|taşlama|dremel|gravür|freze|matkap/,
     var: /gözlük/,
     not: "Kesme, delme ve taşlama sırasında koruyucu gözlük tak; parçayı elle değil mengene veya işkenceyle sabitle.",
   },
@@ -164,6 +170,26 @@ export const EK_GUVENLIK_NOTLARI: Record<string, string[]> = {
   "rc-yelkenli": ["Salmadaki kurşunu boyayarak veya kaplayarak kapat; kurşuna dokunduktan sonra ellerini yıka."],
   "gliserin-sabun": ["Sabun bazını mikrodalgada kısa aralıklarla (20–30 sn) karıştırarak erit; kaynatma."],
   "kalipli-sabun-hediye": ["Sabun bazını mikrodalgada kısa aralıklarla (20–30 sn) karıştırarak erit; kaynatma."],
+  // 27 Kasım 2026 ön kontrolü (claude/guvenlik-raporu.md, 2. tur)
+  "pirografi-kasik": [
+    "Deseni ağza giren çanak kısmına değil sapa yak; bitirince yalnız gıdaya uygun yağ sür, vernik kullanma.",
+  ],
+  "pirografi-kesme-tahtasi": [
+    "İsmi kesim yüzeyine değil tahtanın arka yüzüne veya kenarına yak; kesim yüzeyinde yanık iz kalmasın, yalnız gıdaya uygun yağ kullan.",
+  ],
+  "motorlu-depron": [
+    "Türkiye'de azami kalkış ağırlığı 500 g ve üzeri İHA'lar (model uçaklar dahil) SHGM İHA Kayıt Sistemi'ne kaydedilmeden uçurulamaz; uçuştan önce bölgenin uçuşa açık olup olmadığını SHGM'den kontrol et.",
+  ],
+  "tuz-banyosu": [
+    "Uçucu yağı tuza eklemeden önce bir tatlı kaşığı badem yağıyla karıştır; seyreltilmemiş uçucu yağ suda dağılmaz ve cildi tahriş edebilir.",
+  ],
+  "epoksi-altlik": ["Çok sıcak demlik veya tencere koyma; epoksi ısıyla yumuşayıp iz alabilir."],
+  "bez-bebek": [
+    "Saç için kullandığın yün ipleri kısa kes ve sıkıca dik; uzun, gevşek saç dolanma ve yutma riski taşır.",
+  ],
+  "ahsap-fitil-mum": [
+    "Ahşap fitil yanarken çıtırdar ve küçük kıvılcım atabilir; yanıcı eşyalardan uzak tut, gözetimsiz yakma.",
+  ],
 };
 
 const kucuk = (s: string) => s.toLocaleLowerCase("tr");

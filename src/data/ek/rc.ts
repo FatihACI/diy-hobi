@@ -86,7 +86,7 @@ export const RC_EK: Proje[] = [
     ipuclari: ["Uçuştan hemen sonra sıcak pili şarj etme; oda sıcaklığına inmesini bekle."],
     guvenlik: [
       "LiPo pili ASLA gözetimsiz şarj etme.",
-      "Şişmiş, darbe almış veya ısınan pili kullanma; tuzlu suda deşarj edip geri dönüşüme ver.",
+      "Şişmiş, darbe almış veya ısınan pili kullanma; yanmaz bir kapta, açık havada beklet ve pil toplama noktasına teslim et. Tuzlu su yöntemini kullanma; güvenilir değildir.",
       "Pil yanarsa suyla söndürmeye çalışma; ortamdan uzaklaş, kum ile örtmeye çalış ve gerekirse 112'yi ara.",
       "Hücre başına 4,2 V'un üzerinde şarj etme, 3,0 V'un altına deşarj etme.",
     ],

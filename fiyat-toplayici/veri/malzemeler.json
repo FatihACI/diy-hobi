@@ -3961,8 +3961,8 @@
     ]
   },
   {
-    "id": "ahsap-boncuk-3-cm",
-    "ad": "Ahşap boncuk (tutma ucu) Ø3 cm",
+    "id": "ahsap-boncuk-4-cm",
+    "ad": "Ahşap boncuk (tutma ucu) Ø4 cm",
     "arac": false,
     "evde": false,
     "altin": false,
@@ -5925,7 +5925,7 @@
   },
   {
     "id": "buyuk-dugme",
-    "ad": "Büyük düğme (2,5 cm+)",
+    "ad": "Büyük düğme (3,5 cm+)",
     "arac": false,
     "evde": false,
     "altin": false,
@@ -9642,6 +9642,19 @@
     ]
   },
   {
+    "id": "ihlamur-pano-30-30-cm",
+    "ad": "Ihlamur pano 30×30 cm (masif, işlenmemiş)",
+    "arac": false,
+    "evde": false,
+    "altin": false,
+    "projeler": [
+      "pirografi-mandala"
+    ],
+    "satirlar": [
+      "pirografi-mandala-1"
+    ]
+  },
+  {
     "id": "ihlamur-veya-kavak-pano-20-25-cm",
     "ad": "Ihlamur veya kavak pano 20×25 cm",
     "arac": false,
@@ -11732,19 +11745,6 @@
     ],
     "satirlar": [
       "akvaryum-sehpasi-2"
-    ]
-  },
-  {
-    "id": "kontrplak-pano-30-30-cm",
-    "ad": "Kontrplak pano 30×30 cm",
-    "arac": false,
-    "evde": false,
-    "altin": false,
-    "projeler": [
-      "pirografi-mandala"
-    ],
-    "satirlar": [
-      "pirografi-mandala-1"
     ]
   },
   {

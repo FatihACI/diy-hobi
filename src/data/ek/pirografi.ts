@@ -110,7 +110,7 @@ export const PIROGRAFI_EK: Proje[] = [
     "4 saat",
     "Pergel ve iletki ile çizilen simetrik mandala.",
     [
-      ["Kontrplak pano 30×30 cm", "1 adet"],
+      ["Ihlamur pano 30×30 cm (masif, işlenmemiş)", "1 adet"],
       ["Pergel + iletki", "1 set", true],
       ["Pirografi kalemi + bilye uç", "1 set", true],
       ["Kurşun kalem", "1 adet"],
