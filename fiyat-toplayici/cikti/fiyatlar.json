@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-27T16:09:10.777Z",
+  "guncelleme": "2026-11-27T16:20:10.613Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -624,6 +624,30 @@
         "guncelleme": "2026-11-27"
       }
     ],
+    "2wd-robot-sasi-kiti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 310,
+        "url": "https://www.trendyol.com/genel-markalar/2wd-akilli-robot-araba-sasi-kiti-diy-pleksi-tekerlek-motor-cizgi-izleyen-engelden-kacma-p-1180515732",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "4-aa-pil-yuvasi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 165.55,
+        "url": "https://www.trendyol.com/robocombo/4xaa-pil-yuvasi-p-32802130",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "5-v-usb-adaptor": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 299,
+        "url": "https://www.trendyol.com/adapthor/tta-521d-10w-5v-2-1a-cift-usb-usb-to-micro-kablolu-sarj-aleti-p-949133542",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "a4-kagit": [
       {
         "magaza": "Hepsiburada",
@@ -632,12 +656,52 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "ahsap-halka": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 346.56,
+        "url": "https://www.trendyol.com/fiolimore/10-cm-ahsap-halka-5-adet-dis-kasima-amigurumi-makrome-halka-aksesuar-canta-taki-p-943602622",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "ahsap-kutu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 44,
+        "url": "https://www.trendyol.com/veguba/ahsap-boyanabilir-kus-evi-12-cm-12cm-12-cm-p-995733258",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "ahsap-vernik-veya-yag": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 179.66,
+        "url": "https://www.trendyol.com/terlans/keten-yagi-100-ml-resim-yagi-ahsap-koruyucu-p-263166442",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "ahsap-yagi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 179.66,
+        "url": "https://www.trendyol.com/terlans/keten-yagi-100-ml-resim-yagi-ahsap-koruyucu-p-263166442",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "aktif-karbon": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 189.28,
         "url": "https://www.hepsiburada.com/eurostar-active-carbon-500-ml-pm-ptm4521003",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "akvaryum-silikonu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 375,
+        "url": "https://www.trendyol.com/sista/akvaryum-silikonu-seffaf-1-adet-p-85585821",
+        "guncelleme": "2026-11-27"
       }
     ],
     "aluminyum-folyo": [
@@ -664,6 +728,30 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "arduino-nano": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 252.49,
+        "url": "https://www.trendyol.com/genel-markalar/arduino-nano-klon-usb-chip-ch340-usb-kablo-p-316611083",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "balon": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 20,
+        "url": "https://www.trendyol.com/balon-diyari/5-parca-siyah-gumus-ve-seffaf-balon-seti-dogum-gunu-ve-parti-dekoru-p-940968957",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "beyaz-tutkal": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 70.11,
+        "url": "https://www.trendyol.com/genel-markalar/ahsap-karton-kagit-icin-su-bazli-pva-esasli-cok-amacli-beyaz-tutkal-200-gram-p-86174772",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "breadboard": [
       {
         "magaza": "Hepsiburada",
@@ -678,6 +766,14 @@
         "fiyat": 74.9,
         "url": "https://www.hepsiburada.com/sobo-akvaryum-hava-motoru-cek-valf-cekvalf-1-adet-pm-HBC00000U62DA",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "cift-basli-percin": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 499.9,
+        "url": "https://www.trendyol.com/zephoo/kemer-delme-pense-seti-ve-percin-pensesi-100-adet-percin-dahil-deri-kumas-kemer-canta-ayakkabi-delme-ve-percinleme-aparati-profesyonel-tamir-ve-hobi-seti-p-1151309861",
+        "guncelleme": "2026-11-27"
       }
     ],
     "cimbiz": [
@@ -702,6 +798,22 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "delik-testere-dekupaj": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 1059.9,
+        "url": "https://www.trendyol.com/assur/profesyonel-550w-devir-ayarli-dekupaj-testere-makinesi-p-896242964",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "deri-yapistiricisi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 157.5,
+        "url": "https://www.trendyol.com/pattex/conttact-liquid-deri-kaucuk-ahsap-yapistirici-seffaf-50-gr-p-785519031",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "dogal-tas-boncuk-8-mm": [
       {
         "magaza": "Hepsiburada",
@@ -718,6 +830,30 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "dubel-ve-vida": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399,
+        "url": "https://www.trendyol.com/5n-vera/361-parca-ekonomik-vida-dubel-seti-sunta-vidasi-ahsap-vidasi-plastik-dubel-pul-pz2-bits-uc-organizer-kutulu-tamir-ve-montaj-seti-p-1252500359",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "duvar-tipine-uygun-dubel-vida": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 399,
+        "url": "https://www.trendyol.com/5n-vera/361-parca-ekonomik-vida-dubel-seti-sunta-vidasi-ahsap-vidasi-plastik-dubel-pul-pz2-bits-uc-organizer-kutulu-tamir-ve-montaj-seti-p-1252500359",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "el-blenderi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 654,
+        "url": "https://www.trendyol.com/genel-markalar/siyah-cubuk-blender-p-764533886",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "gidaya-uygun-mineral-yag": [
       {
         "magaza": "Hepsiburada",
@@ -726,12 +862,44 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "guclu-yapistirici": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 199,
+        "url": "https://www.trendyol.com/limelia/e6000-yapistirici-110-ml-p-303433273",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "halka": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 24.99,
+        "url": "https://www.trendyol.com/hobimos/anahtarlik-aparati-zincirli-halka-gumus-2-5-cm-10-adet-p-797422033",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "harf-silikon-kalibi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 396,
+        "url": "https://www.trendyol.com/genel-markalar/epoksi-anahtarlik-buyuk-harf-silikon-kalibi-epoksi-alfabe-harf-sayi-silikon-kalibi-deliksiz-model-p-282803640",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "hava-hortumu": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 103.05,
         "url": "https://www.hepsiburada.com/mixpet-akvaryum-hava-hortumu-silikon-5-mt-pm-HBC00000C9XCJ",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "havya-lehim": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 412.5,
+        "url": "https://www.trendyol.com/solinpatech/60w-sicaklik-ayarli-kalem-havya-stand-lehim-bant-lehim-pastasi-seti-p-109613528",
+        "guncelleme": "2026-11-27"
       }
     ],
     "hc-05-bluetooth-modulu": [
@@ -748,6 +916,14 @@
         "fiyat": 129.99,
         "url": "https://www.hepsiburada.com/china-hc-sr04-ultrasonik-sensor-pm-HB0000046TMU",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "hindistan-cevizi-yagi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 489.33,
+        "url": "https://www.trendyol.com/arifoglu/hindistan-cevizi-yagi-330-ml-arifoglu-soguk-sikim-cold-pressed-virgin-coconut-oil-p-96535114",
+        "guncelleme": "2026-11-27"
       }
     ],
     "hizli-yapistirici": [
@@ -788,6 +964,14 @@
         "fiyat": 53,
         "url": "https://www.hepsiburada.com/25mm-maskeleme-bandi-kagit-bant-pm-HB000008NORZ",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "kalin-ip": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 213.34,
+        "url": "https://www.trendyol.com/cecen-home/2-adet-hasir-jut-ip-kalin-halat-cap-kalinlik-6mm-uzunluk-boy-10mt-p-713576096",
+        "guncelleme": "2026-11-27"
       }
     ],
     "kapakli-cam-kavanoz": [
@@ -870,6 +1054,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "saat-mekanizmasi-ibreler": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 125.56,
+        "url": "https://www.trendyol.com/genel-markalar/sessiz-akar-askili-duvar-saati-mekanizmasi-akrep-yelkovan-ve-saniye-ibreli-p-1213870094",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "sig-tepsi": [
       {
         "magaza": "Trendyol",
@@ -948,6 +1140,22 @@
         "fiyat": 612,
         "url": "https://www.hepsiburada.com/uv-led-lambasi-c4-plus-256w-57-tirnak-kurutucu-kalici-oje-protez-manikur-icin-super-guc-pm-HBC0000AKI678",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "vernik": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 191.33,
+        "url": "https://www.trendyol.com/terlans/su-bazli-parlak-vernik-100-ml-akrilik-ve-yagli-boya-ahsap-koruyucu-p-264162454",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "yildiz-tornavida": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 199.9,
+        "url": "https://www.trendyol.com/dexpa/3-parca-tornavida-seti-duz-yildiz-ve-kontrol-kalemi-p-1253255151",
+        "guncelleme": "2026-11-27"
       }
     ],
     "zimpara-240": [

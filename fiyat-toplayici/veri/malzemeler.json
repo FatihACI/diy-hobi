@@ -2219,7 +2219,7 @@
     "id": "buyuk-koli-kutusu",
     "ad": "Büyük koli kutusu",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -2519,7 +2519,7 @@
     "id": "eski-dis-fircasi",
     "ad": "Eski diş fırçası",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -2789,7 +2789,7 @@
     "id": "kagit-huni",
     "ad": "Kağıt huni",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -3317,7 +3317,7 @@
     "id": "sac-kurutma-makinesi",
     "ad": "Saç kurutma makinesi",
     "arac": true,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -3365,7 +3365,7 @@
     "id": "sicak-su",
     "ad": "Sıcak su",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [
@@ -3752,7 +3752,7 @@
     "id": "yumusak-bez",
     "ad": "Yumuşak bez",
     "arac": false,
-    "evde": false,
+    "evde": true,
     "altin": false,
     "altinProjeler": [],
     "projeler": [

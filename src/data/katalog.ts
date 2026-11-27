@@ -66,6 +66,12 @@ export const EVDE = new Set([
   "pet-sise-veya-karton-govde",
   "pet-sise-veya-plastik-kutu",
   "silindir",
+  "sicak-su",
+  "sac-kurutma-makinesi",
+  "eski-dis-fircasi",
+  "buyuk-koli-kutusu",
+  "kagit-huni",
+  "yumusak-bez",
 ]);
 
 export function katalogKimligi(ad: string): string {
