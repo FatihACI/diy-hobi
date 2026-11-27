@@ -6,6 +6,7 @@ import { COCUK_DOGA } from "./projeler-cocuk-doga";
 import { EL_SANATLARI } from "./projeler-el-sanatlari";
 import { TEKNIK_EV } from "./projeler-teknik-ev";
 import { EK_PROJELER } from "./ek";
+import EKLENME from "./eklenme.json";
 import { guvenlikTamamla } from "./guvenlik-kurallari";
 
 // İlk 5 kategori (oyuncak, balıkçılık, akvaryum, ahşap, elektronik)
@@ -673,6 +674,7 @@ export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLAR
   .map(guvenlikTamamla)
   .map((p) => ({
     ...p,
+    eklenme: (EKLENME as Record<string, string>)[p.id],
     malzemeler: p.malzemeler.map((m) => {
       const kid = katalogKimligi(m.ad);
       return { ...m, kid, evde: EVDE.has(kid) };
@@ -681,3 +683,10 @@ export const PROJELER: Proje[] = [...ILK_PROJELER, ...COCUK_DOGA, ...EL_SANATLAR
 
 export const projeBul = (id: string) => PROJELER.find((p) => p.id === id)!;
 export const kategoriProjeleri = (kid: string) => PROJELER.filter((p) => p.kategoriId === kid);
+
+// "Son eklenenler": eklenme tarihine göre yeniden eskiye; aynı gün eklenenlerde listede sonra gelen önce
+export const sonEklenenler = (adet: number) =>
+  PROJELER.map((p, i) => ({ p, i }))
+    .sort((a, b) => (b.p.eklenme ?? "").localeCompare(a.p.eklenme ?? "") || b.i - a.i)
+    .slice(0, adet)
+    .map((x) => x.p);

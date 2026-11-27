@@ -54,4 +54,5 @@ export type Proje = {
   kod?: string; // elektronik projeleri için Arduino kodu
   altin?: boolean; // Altın 40: derinleştirilmiş, öne çıkan proje
   sikHatalar?: string[]; // sık yapılan hatalar ve çözümleri
+  eklenme?: string; // uygulamaya eklendiği gün (YYYY-MM-DD); src/data/eklenme.json'dan PROJELER dışa aktarılırken doldurulur
 };

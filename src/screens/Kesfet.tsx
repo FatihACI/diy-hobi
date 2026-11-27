@@ -4,7 +4,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Arama, Bolum, Bos, Ikon, KategoriKart, ProjeKart } from "../components";
 import { KATEGORILER } from "../data/kategoriler";
 import { projeAra } from "../data/ara";
-import { kategoriProjeleri, PROJELER } from "../data/projeler";
+import { kategoriProjeleri, PROJELER, sonEklenenler } from "../data/projeler";
 import { linkAc } from "../fiyat";
 import { useNav } from "../nav";
 import { GIZLILIK_URL } from "../sabitler";
@@ -36,7 +36,7 @@ export default function Kesfet() {
   };
 
   const [onecikan] = useState(gununKolaylari);
-  const yeni = [...PROJELER].reverse().slice(0, 6);
+  const yeni = useMemo(() => sonEklenenler(6), []);
 
   return (
     <ScrollView
