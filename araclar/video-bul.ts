@@ -54,7 +54,7 @@ async function api(yol: string, p: Record<string, string>, key: string) {
   const j = (await r.json()) as any;
   if (!r.ok) {
     const neden = j?.error?.errors?.[0]?.reason ?? "";
-    if (r.status === 403 && /quota|rateLimit/i.test(neden)) throw new KotaDoldu(neden);
+    if (r.status === 429 || (r.status === 403 && /quota|rateLimit/i.test(neden))) throw new KotaDoldu(neden || "429");
     throw new Error(`YouTube API hatası ${r.status}: ${j?.error?.message ?? r.statusText}`);
   }
   return j;

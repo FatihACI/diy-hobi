@@ -1,6 +1,6 @@
 # Video önerileri
 
-380 / 400 proje için arama yapıldı.
+389 / 400 proje için arama yapıldı.
 
 Her proje için 1. aday seçili gelir. Değiştirmek için: `npm run video:sec -- <projeId> <n>` (0 = reddet).
 Onaylayınca: `npm run video:yaz`.
@@ -137,6 +137,12 @@ Onaylayınca: `npm run video:yaz`.
 | Kapalı Yosun Terraryumu `kapali-terraryum` | 3. [YOSUN TERARYUM YAPIMI - Moss Terrarium DIY - ( home made terrarium )](https://youtu.be/A39jBH2Hf-k) — Ays Art, 6:08, 16.541 izlenme | 1. [Doğadan Teraryum Kurmak !?!   Moss Çiftliği Kurulum Rehberi](https://youtu.be/_1uWcLsQcMI) — Karınca Sanatı, 22:57, 39.434 izlenme<br>2. [Teraryum Nasıl Yapılır   Canlı Teraryum](https://youtu.be/OhUC66RnEt4) — Bitki Mühendisi, 8:21, 32.271 izlenme |
 | Açık Sukulent Terraryumu `sukulent-terraryum` | 1. [How to make a Succulent Terrarium - Sukulent teraryum yapımı](https://youtu.be/2az3absgsaM) — Ritzz Art, 6:21, 27.704 izlenme | 2. [Sukulent Aranjman Yapımı   Teraryum Yapımı   Kendin Yap   DIY](https://youtu.be/lrJVIjmgJeA) — Senay Design, 9:12, 670 izlenme<br>3. [Teraryum nasıl yapılır? Diy Terrarium - Sukulent Aranjman Nasıl Yapılır?](https://youtu.be/mMrbd7jfdvU) — fundaschannel, 9:39, 418 izlenme |
 | Asılı Hava Bitkisi Terraryumu `asili-terraryum` | uygun video yok |  |
+| Dar Ağızlı Şişe Bahçesi `sise-bahcesi` | uygun video yok |  |
+| Cam Fanus Altında Yosun Bahçesi `cam-fanus` | uygun video yok |  |
+| Geometrik Çerçeveli Terraryum `geometrik-terraryum` | 3. [Geometric Terrarium](https://youtu.be/3u7z7O63bvo) — BuzzFeed Nifty, 2:13, 56.485 izlenme | 1. [GEOMETRİK TERRARIUM](https://youtu.be/JPTbbrX8JiQ) — Sun Floral School, 7:23, 91 izlenme<br>2. [RESİM ÇERÇEVESİNDEN TERARYUM NASIL YAPILIR / DIY TERRARİUM](https://youtu.be/DlylM99MAYg) — Serap'ın Cin Fikirleri, 14:11, 586 izlenme |
+| Etçil Bitki Terraryumu `etcil-terraryum` | **reddedildi** | 1. [Yeni Etobur Bitkilerim - Kutu Açılımı 🌱 Mobuflora](https://youtu.be/EcW0SOU7EME) — Sürüngen Dostları, 6:29, 1.536 izlenme<br>2. [Etobur Bitki Tankı 3 Aylık Oldu - Bakım, Temizlik vs](https://youtu.be/0L3gamzvkCI) — Sürüngen Dostları, 8:52, 2.383 izlenme<br>3. [Etobur Bitki kutu açılımı   Nepenthes tobaica   Nepenthes tobaica Unboxing](https://youtu.be/F8lnOF83qNc) — Sürüngen Dostları, 4:59, 4.250 izlenme |
+| Katmanlı Çöl Terraryumu `col-terraryum` | **kontrol et:** başlıklar projeyle eşleşmedi, alternatiflerden birini seç | 1. [Ev & El İşi - Eski Akvaryumdan Yeni Teraryum](https://youtu.be/VnHNQ64TbiM) — Turuncu TV, 16:09, 3.028 izlenme<br>2. [MİNİ BETA AKVARYUMU - (diy) - Pimaş Boru ile Beta Akvaryum Nasıl Yapılır](https://youtu.be/5jOyStD1rxU) — İlhami Kul, 12:28, 5.211 izlenme<br>3. [Teraryum Nasıl Yapılır](https://youtu.be/EPuLRfd69IA) — Balıkesir Buse Çiçekçilik & Hediyem Kapıda, 17:23, 691 izlenme |
+| LED Işıklı Gece Terraryumu `led-terraryum` | **reddedildi** | 1. [Özel Ledli ve Prizli Gece Lambası](https://youtu.be/MRMJN4SClN8) — Dreamland Teraryum & Flowers, 1:45, 209 izlenme<br>2. [Teraryum nasıl yapılır? Hangi hastalıklara iyi gelir?](https://youtu.be/c9GcB7GNl28) — Hayatta Her Şey Var, 20:04, 2.484 izlenme<br>3. [EPOKSİ TERARYUM!Deniz Feneri Epoksi Teraryum! HANDMADE EPOXY DIY! Lighthouse Epoxy Terrarium!](https://youtu.be/uEDdY92w3Kc) — MFC resin art, 9:44, 4.999 izlenme |
 
 ## Kuş Evi & Evcil Hayvan
 
@@ -359,6 +365,9 @@ Onaylayınca: `npm run video:yaz`.
 | Kumaş ve Boncuk Broş `taki-brosh` | 1. [Çiçek broş nasıl yapılır? Boncuk işleri & Beadworks / How to make flower brosch?](https://youtu.be/RwIypItQuK4) — 3E Ailesi , 16:19, 21.491 izlenme | 2. [Afgan Boncuk ve Fimo Boncukla Kolye Yapımı - Göz İşlemeli Kolye   DIY👁✨🦋 #beads #kolyeyapımı](https://youtu.be/ZMST2aQk-yQ) — Tansu M., 10:01, 43.476 izlenme<br>3. [Boncuk işleme ve taş bezeme nasıl yapılır? #DIY](https://youtu.be/mFK_Z7MJaHs) — İlknur Öztürk, 24:17, 95.203 izlenme |
 | Katmanlı Zincir Kolye Kombini `taki-kolye-uzunluk` | 1. [Kış Şıklığı: Zincir Boyu Ayarlama ve Katmanlı Kolye Kuralları](https://youtu.be/RbtnVshRMCg) — Yellow Stone, 4:17, 84 izlenme |  |
 | Gümüş Takı Temizleme `taki-temizleme` | 2. [Gümüş nasıl parlatılır?](https://youtu.be/V4Q8qkYs6ZA) — Kendine İyi Bak, 3:49, 655.989 izlenme | 1. [ÇIKAN SUYA İNANAMAYACAKSINIZ 🤮 SADECE 2 MALZEME❗KARARMIŞ GÜMÜŞ TAKILARINIZI HİÇ YORULMADAN PARLATIN](https://youtu.be/Qpn4_rhp2eM) — Kolay Yaşam, 3:40, 886.867 izlenme<br>3. [Gümüş nasıl parlatılır?   Kendine İyi Bak](https://youtu.be/s0kuKKW_itY) — Show TV Arşiv, 3:49, 64.674 izlenme |
+| Takı Düzenleyici Pano `taki-sandigi` | uygun video yok |  |
+| Shrink Plastik Küçülen Kolye `taki-dijital-boyama` | 1. [Küçülen Kağıt İle Küpe ve Anahtarlık Yapımı   Kendin Yap   Shrink Plastic Keychain and Earrings DIY](https://youtu.be/HAGXnhHLmwk) — Berry's, 15:12, 18.040 izlenme | 2. [Küçülen KAĞITLA neler yapılır ?   anahtarlık   how to make shrinking paper   evde etkinlik](https://youtu.be/VId9nelI0Qo) — Zeynep Öğretmen, 4:54, 4.277 izlenme<br>3. [Küçülen Kağıt ile Ördek Buzdolabı Mıknatısı 🦆   Küçülen Kağıt Nasıl Kullanılır?](https://youtu.be/eY4lv2E_E6o) — kagitvs, 7:29, 4.632 izlenme |
+| Kristal Uçlu Makrome Kolye `taki-kristal-sarma` | **reddedildi** | 1. [Yeni başlayanlar için bit ve bit kapama nasıl kullanılır ve kolye nasıl yapılır ?](https://youtu.be/mC0jh2rh6lw) — Ceren Yakupoğlu, 7:16, 66.718 izlenme<br>2. [Kristal kelebek küpe ve kolye yapımı. Crystal butterfly earrings and necklace pendant making. 🦋](https://youtu.be/BC-9GUG4gWw) — Aurora Takı Tasarım, 13:57, 1.099 izlenme<br>3. [Kristal Boncuklu Kolye Yapımı 2   KENDİN YAP   Easy and Elegant Necklace Making diy](https://youtu.be/cpra4I-YC00) — Feyza’yla Kendin Yap, 11:06, 69.148 izlenme |
 
 ## Pirografi & Resim
 
