@@ -34,12 +34,12 @@ makas;Hepsiburada;300,00;https://www.hepsiburada.com/chichi-plastik-sapli-terzi-
 koli-bandi;Hepsiburada;74,90;https://www.hepsiburada.com/mas-koli-bandi-seffaf-45-mm-x-100-m-pm-ofismas2604;2026-11-06
 koli-bandi;Hepsiburada;130,00;https://www.hepsiburada.com/one-bant-bopp-koli-bandi-hotm-seffaf-45-mm-x-100-mt-p-hbcv000015v8lk;2026-11-06
 kil-aletleri;Hepsiburada;146,00;https://www.hepsiburada.com/sudor-ebesuar-modelaj-kalem-seti-5-li-bs79-pm-HB0000088ILC;2026-11-06
-# 2026-11-17: kalan sık malzemeler. NOT: yün iğnesi, karbon kağıdı, merdane satırlarında ürün değil liste/marka sayfası linki var (ürün adı yanda) — doğrulamada ürün linkiyle değiştir. | Yün iğnesi: Prestij Boncuk 20 adet 9 cm plastik yün iğnesi | Karbon kağıdı: Picador A4 siyah karbon kağıdı 10 adet | Merdane: Hobi24 akrilik rulo merdane 20 cm | Push buton: 12x12x5 mm 4 pin tact switch
-yun-ignesi;Trendyol;43,00;https://www.trendyol.com/igne-x-c109708;2026-11-17
-karbon-kagidi;idefix;93,00;https://www.idefix.com/karbon-kagidi-c-330575123;2026-11-17
+# 2026-11-17: kalan sık malzemeler. (2026-11-27: yün iğnesi, karbon kağıdı, merdane linkleri ürün sayfasıyla değiştirildi.) | Yün iğnesi: Prestij Boncuk 20 adet 9 cm plastik yün iğnesi | Karbon kağıdı: Picador A4 siyah karbon kağıdı 10 adet | Merdane: Hobi24 akrilik rulo merdane 20 cm | Push buton: 12x12x5 mm 4 pin tact switch
+yun-ignesi;Trendyol;19,42;https://www.trendyol.com/prestij-boncuk/20-adet-9-cm-boyutlarinda-karisik-plastik-yun-igne-p-260097464;2026-11-27
+karbon-kagidi;Trendyol;119,55;https://www.trendyol.com/picador/kopya-icin-karbon-kagidi-siyah-200c-a4-10-adet-set-p-784069299;2026-11-27
 push-buton;Motorobit;2,81;https://motorobit.com/12x12x5mm-4-pin-black-push-button-tact-switch;2026-11-17
 push-buton;idefix;93,11;https://www.idefix.com/4-pinli-12x12x9mm-tactile-push-buton-p-31978849;2026-11-17
-merdane;Trendyol;199,00;https://www.trendyol.com/hobi24-x-b104681;2026-11-17
+merdane;Trendyol;177,11;https://www.trendyol.com/hobi24/akrilik-rulo-merdane-20cm-p-124489892;2026-11-27
 # 2026-11-25: Altın 40 eksikleri — Hepsiburada arama sonuçlarından, en uygun fiyatlı uygun ürün (169 kalem). Bulunamayanlar: yapilacaklar.md
 1-72-olcek-plastik-ucak-maketi;Hepsiburada;501,50;https://www.hepsiburada.com/pm-model-northrop-f-5-a-freedom-fighter-pm-model-demonte-plastik-ucak-maket-kiti-pm-HBC00003OPCIW;2026-11-25
 2wd-akilli-araba-sasi-kiti;Hepsiburada;531,25;https://www.hepsiburada.com/robokolik-2-tekerlekli-2wd-akilli-robot-araba-kiti-pm-HB00000B4XEN;2026-11-25
@@ -245,3 +245,10 @@ igne-civi-5-cm;Trendyol;65,90;https://www.trendyol.com/yfhobi/30-adet-30-mm-nike
 cam-tahta-1-8-12-cm;Trendyol;520,00;https://www.trendyol.com/agac/ahsap-cam-kereste-12li-k-300cm-boyunda-tahta-p-952707910;2026-11-27
 islenmemis-cam-tahta-15-mm;Trendyol;458,54;https://www.trendyol.com/agac/ahsap-cam-kereste-15lik-300cm-boyunda-tahta-p-952715878;2026-11-27
 masif-sert-agac-35-22-2-cm;Trendyol;855,36;https://www.trendyol.com/woodlife/kayin-ahsap-plaka-1-sinif-masif-panel-eni-30cm-boyu-50cm-kalinligi-18mm-p-106465264;2026-11-27
+# 2026-11-27: fiyat kontrolü — pahalı tek satıcılı kalemlere ikinci satıcı (Trendyol ürün sayfası)
+kontrplak-6-mm;Trendyol;450,00;https://www.trendyol.com/diporpa/hus-kontrplak-6mm-30x40-cm-1-parca-p-990910215;2026-11-27
+deri-harf-damgasi-seti;Trendyol;1.299,99;https://www.trendyol.com/tuhafiyecimiz/deri-damgalama-metal-harf-ve-rakam-damga-seti-26-harf-ve-10-rakam-metal-deri-baski-6mm-p-1142793834;2026-11-27
+akvaryum-isitici-50-w;Trendyol;888,00;https://www.trendyol.com/atlantik/50w-akvaryum-yatak-p-45341991;2026-11-27
+eksantrik-zimpara-makinesi;Trendyol;1.547,14;https://www.trendyol.com/steiner/700w-6-kademe-devir-ayarli-125mm-toz-toplama-sistemli-eksantrik-zimpara-makinesi-kirmizi-p-1204602099;2026-11-27
+dekupaj-testere;Trendyol;1.059,90;https://www.trendyol.com/assur/profesyonel-550w-devir-ayarli-dekupaj-testere-makinesi-p-896242964;2026-11-27
+matkap;Trendyol;859,90;https://www.trendyol.com/assur/12v-metal-sanziman-cift-akulu-bakir-sargi-sarjli-matkap-akulu-vidalama-p-339322670;2026-11-27
