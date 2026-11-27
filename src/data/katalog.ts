@@ -48,6 +48,7 @@ export const EVDE = new Set([
   "karton-gazete",
   "pet-sise-1-5-l",
   "pet-sise-2-l",
+  "dal-parcalari",
   "1-5-l-pet-sise",
   "bos-pet-sise-500-ml",
   "buyuk-seffaf-pet-sise",

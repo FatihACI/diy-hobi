@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-25T17:08:28.325Z",
+  "guncelleme": "2026-11-27T13:50:28.497Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -372,6 +372,14 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "su-test-kiti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 1900,
+        "url": "https://www.trendyol.com/jbl/easy-test-7-in-1-50-test-p-1123044921",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "zimba-tabancasi": [
       {
         "magaza": "Hepsiburada",
@@ -578,6 +586,14 @@
         "fiyat": 155,
         "url": "https://www.hepsiburada.com/knt-aluminyum-bisiklet-motosiklet-pompasi-ultra-guclu-el-pompasi-pm-HB00000OHKKZ",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "sig-tepsi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 159.9,
+        "url": "https://www.trendyol.com/karaoglu-vakum-ambalaj/fide-viyol-tepsisi-viyol-altligi-fidelik-altligi-derin-5-cm-viyol-tepsisi-p-1121547069",
+        "guncelleme": "2026-11-27"
       }
     ],
     "silikon-altlik-kalibi": [
@@ -852,6 +868,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "cam-tahta-1-8-12-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 520,
+        "url": "https://www.trendyol.com/agac/ahsap-cam-kereste-12li-k-300cm-boyunda-tahta-p-952707910",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "canli-bitki-seti": [
       {
         "magaza": "Hepsiburada",
@@ -874,6 +898,14 @@
         "fiyat": 185.89,
         "url": "https://www.trendyol.com/srtfootcare/percin-33-no-7mm-iki-taraf-kafa-250-adet-nikel-renk-p-1200202840",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "dekor-tasi-kok": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 1289,
+        "url": "https://www.trendyol.com/rofo/akvaryum-dekoru-dogal-mangrov-koku-21x8-cm-p-122524504",
+        "guncelleme": "2026-11-27"
       }
     ],
     "dekor-taslari": [
@@ -1092,6 +1124,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "igne-civi-5-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 65.9,
+        "url": "https://www.trendyol.com/yfhobi/30-adet-30-mm-nikel-kaplama-tepeli-duz-taki-civisi-bijuteri-tepeli-igne-p-192706608",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "igne-ve-firdondu": [
       {
         "magaza": "Hepsiburada",
@@ -1130,6 +1170,14 @@
         "fiyat": 341.99,
         "url": "https://www.hepsiburada.com/rox-0148-yayli-mandal-tip-kiskac-iskence-50-mm-2-li-pm-HBC00001TOGXV",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "islenmemis-cam-tahta-15-mm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 458.54,
+        "url": "https://www.trendyol.com/agac/ahsap-cam-kereste-15lik-300cm-boyunda-tahta-p-952715878",
+        "guncelleme": "2026-11-27"
       }
     ],
     "izopropil-alkol-mikrofiber-bez": [
@@ -1314,6 +1362,14 @@
         "fiyat": 458.86,
         "url": "https://www.hepsiburada.com/mr-hobby-gunze-mc127-40-ml-mr-cement-deluxe-plastik-yapistiricisi-pm-HBC00001HFB58",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "masif-sert-agac-35-22-2-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 855.36,
+        "url": "https://www.trendyol.com/woodlife/kayin-ahsap-plaka-1-sinif-masif-panel-eni-30cm-boyu-50cm-kalinligi-18mm-p-106465264",
+        "guncelleme": "2026-11-27"
       }
     ],
     "matkap-4-mm-uc": [
@@ -1538,6 +1594,14 @@
         "fiyat": 17.07,
         "url": "https://www.trendyol.com/pimtas/uh-pvc-kor-tapa-20-mm-1-adet-p-1204842444",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "sacma-kursun-seti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 300,
+        "url": "https://www.trendyol.com/genel-markalar/100-gr-kutu-kistirma-kursun-7-boy-p-652773881",
+        "guncelleme": "2026-11-27"
       }
     ],
     "samandira-stoperi": [
