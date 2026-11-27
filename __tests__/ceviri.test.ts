@@ -25,6 +25,11 @@ describe("içerik çevirisi", () => {
     expect(Object.keys(EN_KATALOG).filter((k) => !KALEMLER.has(k))).toEqual([]);
   });
 
+  test("her proje ve her katalog kalemi İngilizceye çevrili", () => {
+    expect(PROJELER.filter((p) => !EN_PROJELER[p.id]).map((p) => p.id)).toEqual([]);
+    expect([...KALEMLER.keys()].filter((k) => !EN_KATALOG[k])).toEqual([]);
+  });
+
   test("çevrilen projelerde dizi uzunlukları Türkçe asılla aynı", () => {
     const hatali: string[] = [];
     for (const [id, en] of Object.entries(EN_PROJELER)) {
