@@ -6,6 +6,8 @@
  *   npm run video:sec -- <projeId> <n>  → o projede n. alternatifi seç (1 = ilk öneri)
  *   npm run video:sec -- <projeId> 0    → o projeyi reddet (video eklenmez)
  *   npm run video:yaz               → onaylanan önerileri src/data/videolar.json'a yazar
+ *   npm run video:bul -- --yeniden  → videosuz projeleri araclar/video-sorgular.json'daki özel sorguyla
+ *                                     yeniden arar (2. tur); hiçbir aday otomatik seçilmez, elle incelenir
  *
  * Anahtar: proje klasöründeki .env dosyasında YOUTUBE_API_KEY=... (GitHub'a gitmez).
  * Kota: YouTube arama isteği günde ~100 ile sınırlı; dolunca araç durur, ertesi gün kaldığı yerden devam eder.
@@ -19,12 +21,13 @@ import type { Proje } from "../src/data/types";
 
 type Video = { id: string; baslik: string; kanal: string; sure?: string; kendi?: boolean };
 type Aday = Video & { saniye: number; izlenme: number; puan: number };
-type Oneri = { tarih: string; sorgu: string; secim: number; adaylar: Aday[]; ilgisiz?: boolean }; // secim: 1..n, 0 = red
+type Oneri = { tarih: string; sorgu: string; secim: number; adaylar: Aday[]; ilgisiz?: boolean; tur?: number }; // secim: 1..n, 0 = red
 
 const KOK = join(__dirname, "..");
 const VIDEOLAR = join(KOK, "src/data/videolar.json");
 const ONERI_JSON = join(KOK, "araclar/video-oneriler.json");
 const ONERI_MD = join(KOK, "araclar/video-oneriler.md");
+const SORGULAR = join(KOK, "araclar/video-sorgular.json");
 
 const oku = <T>(yol: string, bos: T): T => (existsSync(yol) ? (JSON.parse(readFileSync(yol, "utf8")) as T) : bos);
 const yaz = (yol: string, veri: unknown) => writeFileSync(yol, JSON.stringify(veri, null, 2) + "\n", "utf8");
@@ -102,8 +105,8 @@ function puanla(p: Proje, v: { baslik: string; saniye: number; izlenme: number; 
   return Math.round(puan * 10) / 10;
 }
 
-async function bul(p: Proje, key: string): Promise<Oneri> {
-  const sorgu = `${p.ad} nasıl yapılır`;
+async function bul(p: Proje, key: string, ozel?: string): Promise<Oneri> {
+  const sorgu = ozel ?? `${p.ad} nasıl yapılır`;
   const ara = await api(
     "search",
     {
@@ -139,7 +142,7 @@ async function bul(p: Proje, key: string): Promise<Oneri> {
     })
     .filter((a: Aday) => a.puan >= 0)
     .sort((a: Aday, b: Aday) => b.puan - a.puan)
-    .slice(0, 3);
+    .slice(0, ozel ? 5 : 3);
   // En iyi adayın başlığında proje adından hiçbir kelime yoksa otomatik seçme; elle kontrol edilsin
   const ilgisiz = adaylar.length > 0 && ortakKelime(p, adaylar[0].baslik) === 0;
   return { tarih: new Date().toISOString(), sorgu, secim: adaylar.length && !ilgisiz ? 1 : 0, adaylar, ilgisiz };
@@ -214,6 +217,32 @@ async function main() {
     const sirali = Object.fromEntries(Object.entries(videolar).sort(([a], [b]) => a.localeCompare(b)));
     yaz(VIDEOLAR, sirali);
     console.log(`${eklenen} video yazıldı. Toplam videolu proje: ${Object.keys(sirali).length} / ${PROJELER.length}`);
+    return;
+  }
+
+  if (arg[0] === "--yeniden") {
+    const sorgular = oku<Record<string, string>>(SORGULAR, {});
+    const key = anahtar();
+    const bekleyen = PROJELER.filter((p) => !videolar[p.id] && sorgular[p.id] && oneriler[p.id]?.tur !== 2);
+    console.log(`2. tur bekleyen: ${bekleyen.length}`);
+    let yapilan = 0;
+    for (const p of bekleyen) {
+      try {
+        const o = await bul(p, key, sorgular[p.id]);
+        oneriler[p.id] = { ...o, secim: 0, ilgisiz: o.adaylar.length > 0, tur: 2 };
+        yapilan++;
+        console.log(`✓ ${p.id}: ${o.adaylar.length} aday`);
+        yaz(ONERI_JSON, oneriler);
+      } catch (e) {
+        if (e instanceof KotaDoldu) {
+          console.log("\nGünlük YouTube arama kotası doldu. Yarın aynı komutla devam et.");
+          break;
+        }
+        throw e;
+      }
+    }
+    mdYaz(oneriler);
+    console.log(`\n${yapilan} proje yeniden arandı. Kalan: ${bekleyen.length - yapilan}`);
     return;
   }
 

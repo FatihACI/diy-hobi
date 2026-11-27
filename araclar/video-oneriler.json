@@ -455,74 +455,112 @@
     "ilgisiz": false
   },
   "nem-sensoru": {
-    "tarih": "2026-11-17T18:38:35.695Z",
-    "sorgu": "Saksı Toprak Nem Uyarıcısı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:08.301Z",
+    "sorgu": "arduino toprak nem sensörü",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "qINz22k6lrQ",
-        "baslik": "Sadece 1 Kaşık Ver! Çiceksiz Menekşe Aniden filizlendi ve bol çiçek açti",
-        "kanal": "HayataDairPüfNoktalar",
-        "sure": "11:29",
-        "saniye": 689,
-        "izlenme": 42232,
+        "id": "817StfP5-Lc",
+        "baslik": "Arduino Toprak Nem Ölçer Yapımı (Toprak Nem Sensörü Kullanımı)",
+        "kanal": "Robotistan",
+        "sure": "9:13",
+        "saniye": 553,
+        "izlenme": 85948,
+        "puan": 18.4
+      },
+      {
+        "id": "Nk80L7zp5_4",
+        "baslik": "Toprak Nem Sensörü Arduino İle Nasıl Kullanılır ?",
+        "kanal": "Lezzetli Robot Tarifleri",
+        "sure": "14:25",
+        "saniye": 865,
+        "izlenme": 57113,
+        "puan": 17.6
+      },
+      {
+        "id": "iIslxy1NZh4",
+        "baslik": "Arduino İle Akıllı Bitki Sulama Sistemi | Toprak Nem Sensörü İle Otomatik Sulama      #arduino",
+        "kanal": "ELEKTRONİK BİLGİ BANKASI",
+        "sure": "8:31",
+        "saniye": 511,
+        "izlenme": 28530,
+        "puan": 15.2
+      },
+      {
+        "id": "XTI59_gen_o",
+        "baslik": "Arduino LCD Ekranlı Toprak Nem Sensörü Devresi - Toprak Nem Ölçer",
+        "kanal": "Ahmet Candemir",
+        "sure": "15:32",
+        "saniye": 932,
+        "izlenme": 2470,
+        "puan": 14.6
+      },
+      {
+        "id": "czlJz6UPPq4",
+        "baslik": "Arduino Dersleri #35 Toprak Nem Sensörü Kullanımı",
+        "kanal": "Robokit",
+        "sure": "12:21",
+        "saniye": 741,
+        "izlenme": 4557,
+        "puan": 14.5
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "akvaryum-termometre": {
+    "tarih": "2026-11-27T13:40:08.775Z",
+    "sorgu": "arduino ds18b20 sıcaklık lcd",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "csSPMWQXHdk",
+        "baslik": "Arduino analog ısı sensörü LM35 ve Dijital ısı sensörü Ds18b20 kullanımı - Arduino Proje  -Ders 36-",
+        "kanal": "Görsel İşitsel Teknoloji",
+        "sure": "15:34",
+        "saniye": 934,
+        "izlenme": 4000,
+        "puan": 11.4
+      },
+      {
+        "id": "SrRv-obPrBQ",
+        "baslik": "Arduino ile Termometre yapımı  I2c ekran ve Ds18b20",
+        "kanal": "EKTekNO",
+        "sure": "10:05",
+        "saniye": 605,
+        "izlenme": 4289,
         "puan": 10.4
       },
       {
-        "id": "ms_o1IPLFmE",
-        "baslik": "Monstera Hakkında Bilmen Gereken Her Şey | Eksiksiz Bakım Rehberi",
-        "kanal": "KUK PEYZAJ",
-        "sure": "10:07",
-        "saniye": 607,
-        "izlenme": 956,
-        "puan": 6
+        "id": "dswFx0rnaMc",
+        "baslik": "Arduino ile DS18B20 su geçirmez sıcaklık sensörü kullanımı",
+        "kanal": "Sedat Devran",
+        "sure": "5:17",
+        "saniye": 317,
+        "izlenme": 3343,
+        "puan": 10.3
       },
       {
-        "id": "aiwIQODAOy4",
-        "baslik": "Aşk Merdiveni Çiçeği Nerede Büyütülür?Aşk Merdiveni Çiçeği Nasıl Çoğaltılır?#flowers #keşfet #bilgi ",
-        "kanal": "HuzurDoğa",
-        "sure": "4:26",
-        "saniye": 266,
-        "izlenme": 30,
-        "puan": 3.2
+        "id": "I89foL4n4YU",
+        "baslik": "ARDUİNO İLE DS18B20 SICAKLIK SENSÖRÜ KULLANIMI",
+        "kanal": "AKCA",
+        "sure": "10:36",
+        "saniye": 636,
+        "izlenme": 4691,
+        "puan": 9
+      },
+      {
+        "id": "SYgq1cSFSdo",
+        "baslik": "arduino DS18B20 temperature sensor tutorial with LCD",
+        "kanal": "DPV TECHNOLOGY",
+        "sure": "3:29",
+        "saniye": 209,
+        "izlenme": 28306,
+        "puan": 7.7
       }
     ],
-    "ilgisiz": true
-  },
-  "akvaryum-termometre": {
-    "tarih": "2026-11-17T18:38:36.237Z",
-    "sorgu": "Akvaryum Dijital Termometre nasıl yapılır",
-    "secim": 0,
-    "adaylar": [
-      {
-        "id": "rjVRYSMkK-c",
-        "baslik": "Akvaryumda  Derece Kullanımı, Hangi Dereceyi Kullanabiliriz",
-        "kanal": "Evde Akvaryum Hobim",
-        "sure": "4:46",
-        "saniye": 286,
-        "izlenme": 24629,
-        "puan": 14.6
-      },
-      {
-        "id": "G9ZtP-xZmoU",
-        "baslik": "AKVARYUMDAKİ TEHLİKE ISITICI, akvaryum balıkları",
-        "kanal": "AKVARYUM EXPRESS",
-        "sure": "9:26",
-        "saniye": 566,
-        "izlenme": 51185,
-        "puan": 14.6
-      },
-      {
-        "id": "oHJN87SHtQ0",
-        "baslik": "AKVARYUM ISITICISI NASIL KURULUR??   NELERE DİKKAT EDILMELI??",
-        "kanal": "Mereklısına",
-        "sure": "3:06",
-        "saniye": 186,
-        "izlenme": 28018,
-        "puan": 12.7
-      }
-    ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "park-sensoru": {
     "tarih": "2026-11-17T18:38:36.747Z",
@@ -595,39 +633,40 @@
     "ilgisiz": false
   },
   "diorama-zemin": {
-    "tarih": "2026-11-17T18:38:37.666Z",
-    "sorgu": "Diorama Zemini: Çim, Toprak ve Kaya nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:09.326Z",
+    "sorgu": "diorama zemin yapımı maket çim",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "KUfOANCsil4",
-        "baslik": "Mini Clay Oven That Works – I Baked Real Bread in It",
-        "kanal": "Mini Arc",
-        "sure": "7:09",
-        "saniye": 429,
-        "izlenme": 3744,
-        "puan": 5.9
+        "id": "XVznFSwm8Kc",
+        "baslik": "Diorama nasıl yapılır? / How to build a simple diorama base?",
+        "kanal": "Çağıl İçen",
+        "sure": "10:20",
+        "saniye": 620,
+        "izlenme": 20030,
+        "puan": 12
       },
       {
-        "id": "H8iGlgTIgRg",
-        "baslik": "Türkiye’nin en güzel bitkili akvaryum @adtalos  mağazasını gezdim vlog",
-        "kanal": "Mini Hobihanem",
-        "sure": "12:46",
-        "saniye": 766,
-        "izlenme": 1266,
-        "puan": 5.2
+        "id": "Pjmygvvr-Kc",
+        "baslik": "1:18 Ölçekli Parke Taşlı Yol Dioraması",
+        "kanal": "Dioramasal İşler",
+        "sure": "7:51",
+        "saniye": 471,
+        "izlenme": 242,
+        "puan": 11.1
       },
       {
-        "id": "rkoMkNhEwMM",
-        "baslik": "SHREK ORJİNAL Mİ GERCEK Mİ?( IS SHREK ORIGINAL OR REAL?)",
-        "kanal": "B.S.diorama",
-        "sure": "13:16",
-        "saniye": 796,
-        "izlenme": 269,
-        "puan": 5.1
+        "id": "RaS5wHbyJd8",
+        "baslik": "How To Make Realistic Diorama Base | Tutorial for Beginners ",
+        "kanal": "sense makes craft",
+        "sure": "9:14",
+        "saniye": 554,
+        "izlenme": 245625,
+        "puan": 11.1
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
   },
   "mini-oda": {
     "tarih": "2026-11-17T18:38:38.221Z",
@@ -691,10 +730,58 @@
     "ilgisiz": false
   },
   "depron-planor": {
-    "tarih": "2026-11-17T18:38:39.049Z",
-    "sorgu": "Elle Atılan Depron Planör nasıl yapılır",
-    "secim": 0,
-    "adaylar": []
+    "tarih": "2026-11-27T13:40:09.827Z",
+    "sorgu": "depron planör yapımı",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "UQjBAYDdKTU",
+        "baslik": "KIZIL ELMA MODEL UÇAK YAPIMI | Depron Köpükten Planör",
+        "kanal": "KUANTUM KIDS",
+        "sure": "14:44",
+        "saniye": 884,
+        "izlenme": 204,
+        "puan": 14
+      },
+      {
+        "id": "9VWuscnLPpw",
+        "baslik": "DEPRON UZAY MEKİĞİ PLANÖR MODELİ NASIL YAPILIR? HOW TO MAKE DEPRON SPACE SHUTTLE GLIDER MODEL?",
+        "kanal": "MİKRO TARİH",
+        "sure": "11:52",
+        "saniye": 712,
+        "izlenme": 307,
+        "puan": 13.7
+      },
+      {
+        "id": "80ri5DxIZck",
+        "baslik": "DEPRON ŞAHİN PLANÖR NASIL YAPILIR? | KOLAY MODEL UÇAK YAPIMI - HOW TO BUILD A DEPRON FALCON GLIDER?",
+        "kanal": "KUANTUM KIDS",
+        "sure": "2:44",
+        "saniye": 164,
+        "izlenme": 120,
+        "puan": 12.1
+      },
+      {
+        "id": "C1prJ4qkngc",
+        "baslik": "DEPRON (KÖPÜK) EBABİL KUŞU PLANÖR MODELİ NASIL YAPILIR? HOW TO MAKE DEPRONSWIFT BIRD GLIDER MODEL?",
+        "kanal": "MİKRO TARİH",
+        "sure": "8:17",
+        "saniye": 497,
+        "izlenme": 116,
+        "puan": 12.1
+      },
+      {
+        "id": "ZWjiN1PltHE",
+        "baslik": "DEPRONDAN UZAY MEKİĞİ PLANÖR MODELİ - HOW TO MAKE DEPRON SPACE SHUTTLE GLIDER MODEL",
+        "kanal": "KUANTUM KIDS",
+        "sure": "4:48",
+        "saniye": 288,
+        "izlenme": 44,
+        "puan": 12
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "mini-drone": {
     "tarih": "2026-11-17T18:38:39.485Z",
@@ -802,11 +889,12 @@
     "ilgisiz": false
   },
   "asili-terraryum": {
-    "tarih": "2026-11-17T18:38:40.792Z",
-    "sorgu": "Asılı Hava Bitkisi Terraryumu nasıl yapılır",
+    "tarih": "2026-11-27T13:40:10.210Z",
+    "sorgu": "hava bitkisi tillandsia cam küre",
     "secim": 0,
     "adaylar": [],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kus-yuvasi": {
     "tarih": "2026-11-17T18:38:41.242Z",
@@ -879,11 +967,31 @@
     "ilgisiz": false
   },
   "kedi-tirmalama": {
-    "tarih": "2026-11-17T18:38:42.040Z",
-    "sorgu": "Sisal İpli Kedi Tırmalama Direği nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:10.765Z",
+    "sorgu": "kedi tırmalama tahtası yapımı sisal",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "l4k9bcHWM94",
+        "baslik": "Kolayca kedi tırmalama matı yapıp mobilyalarınızı kurtarın",
+        "kanal": "Kedi Lolayla",
+        "sure": "8:05",
+        "saniye": 485,
+        "izlenme": 147274,
+        "puan": 14.8
+      },
+      {
+        "id": "VdVJasxgvQw",
+        "baslik": "Cat Scratching Post with PVC pipes, rope and glue | DIY",
+        "kanal": "Woodmaker",
+        "sure": "3:35",
+        "saniye": 215,
+        "izlenme": 381711,
+        "puan": 6.9
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kratky-marul": {
     "tarih": "2026-11-17T18:38:42.460Z",
@@ -1367,21 +1475,22 @@
     "ilgisiz": false
   },
   "kil-miknatis": {
-    "tarih": "2026-11-17T18:38:49.554Z",
-    "sorgu": "Minyatür Yiyecek Buzdolabı Magneti nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:11.259Z",
+    "sorgu": "polimer kil minyatür yiyecek magnet",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "OC4l1nQZfG8",
-        "baslik": "Mini Brands Fridge Serisi Açılımı 🤯💥 İnanamayacaksınız! 😱💥 #shorts  #minibrands #unboxing #toys",
-        "kanal": "Benbukii",
-        "sure": "2:59",
-        "saniye": 179,
-        "izlenme": 3081566,
-        "puan": 10.7
+        "id": "l49nGYg1T9s",
+        "baslik": "DIY clay fridge Magnet Tutorial | miniature food | Easy DIY clay art at home | art & craft",
+        "kanal": "What_e_Kala",
+        "sure": "2:53",
+        "saniye": 173,
+        "izlenme": 1089,
+        "puan": 4.6
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
   },
   "deri-kartlik": {
     "tarih": "2026-11-17T18:38:50.013Z",
@@ -1734,74 +1843,103 @@
     "ilgisiz": false
   },
   "telefon-standi": {
-    "tarih": "2026-11-17T18:38:55.094Z",
-    "sorgu": "Telefon Standı Basma nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:11.918Z",
+    "sorgu": "3d yazıcı telefon standı baskı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "bpoE_1HJHJA",
-        "baslik": "Kağıttan Telefon Standı Nasıl Yapılır? Origami Kolay Telefon Tablet Tutucu Yapımı",
-        "kanal": "Origami Mate",
-        "sure": "8:02",
-        "saniye": 482,
-        "izlenme": 18133,
-        "puan": 16.4
+        "id": "_dTIDoVxpGQ",
+        "baslik": "3D yazıcıda telefon standı bastık ve boyadık!",
+        "kanal": "Teknolojioku",
+        "sure": "6:51",
+        "saniye": 411,
+        "izlenme": 1233,
+        "puan": 15.6
       },
       {
-        "id": "4ijCnvmGcYw",
-        "baslik": "Kağıttan telefon tutucu yapımı(origami)",
-        "kanal": "kağıt sanatı",
-        "sure": "4:10",
-        "saniye": 250,
-        "izlenme": 364534,
-        "puan": 16.3
+        "id": "K7bSPo7-YAA",
+        "baslik": "telefon tutucu yapımı 3d yazıcı  - 3d yazıcı telefon standı yapımı -  diy",
+        "kanal": "muzur maker",
+        "sure": "8:44",
+        "saniye": 524,
+        "izlenme": 582,
+        "puan": 13.6
       },
       {
-        "id": "GEDRV-YvIzk",
-        "baslik": "Kağıttan Kolay Telefon Tutucu Yapımı | Origami Telefon-Tablet Standı Nasıl Yapılır? | Kendin Yap",
-        "kanal": "Baş Art",
-        "sure": "2:39",
-        "saniye": 159,
-        "izlenme": 49329,
-        "puan": 15.5
+        "id": "AA8zhbfIPY8",
+        "baslik": "3D Yazıcı ile Kalemlik, Telefon tutucu ve USB Çoğaltıcı ( Makara Tasarımı )",
+        "kanal": "Volkan ÜNVER",
+        "sure": "10:22",
+        "saniye": 622,
+        "izlenme": 641,
+        "puan": 11.2
+      },
+      {
+        "id": "FooigZ3SRic",
+        "baslik": "3D BASKI İLE YAPILAN TELEFON TUTUCU.EĞİM AYARLI VE TEK PARÇA BASKI !",
+        "kanal": "TEKNO EVRENİ ",
+        "sure": "4:32",
+        "saniye": 272,
+        "izlenme": 402,
+        "puan": 8.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "tinkercad-kutu": {
-    "tarih": "2026-11-17T18:38:55.457Z",
-    "sorgu": "Kendi Ölçünde Kapaklı Kutu Tasarlama nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:12.393Z",
+    "sorgu": "tinkercad kutu tasarımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "a2DCAFm8cyY",
-        "baslik": "Kağıttan kapaklı kutu yapımı(origami)",
-        "kanal": "kağıt sanatı",
-        "sure": "6:19",
-        "saniye": 379,
-        "izlenme": 97904,
-        "puan": 15.5
+        "id": "vbbpSAtKYdk",
+        "baslik": "Tinkercad-Hediyelik Kutu Yapımı",
+        "kanal": "Robotçu Dayı",
+        "sure": "9:33",
+        "saniye": 573,
+        "izlenme": 6260,
+        "puan": 13.7
       },
       {
-        "id": "vb8aw37FscQ",
-        "baslik": "Origami A4 Kağıttan Kutu Yapımı ✨️| Açılır Kapanır Çok Kullanışlı Takı Kutusu| Making Peaper Box DIY",
-        "kanal": "Beril Eren",
-        "sure": "5:16",
-        "saniye": 316,
-        "izlenme": 428836,
-        "puan": 15.4
+        "id": "EA4aM01xqrQ",
+        "baslik": "Tinkercad 3d Devre Kutusu Tasarımı",
+        "kanal": "Eyüp Irgat",
+        "sure": "17:11",
+        "saniye": 1031,
+        "izlenme": 3669,
+        "puan": 12.8
       },
       {
-        "id": "dEIbewUxlKY",
-        "baslik": "Kağıttan kutu yapımı(origami)",
-        "kanal": "kağıt sanatı",
-        "sure": "4:11",
-        "saniye": 251,
-        "izlenme": 810064,
-        "puan": 13.4
+        "id": "UzXLqiDkdH8",
+        "baslik": "Tinkercad Dersleri - 16. Ders - Karton Kutu Tasarımı",
+        "kanal": "MuBa",
+        "sure": "3:32",
+        "saniye": 212,
+        "izlenme": 2251,
+        "puan": 12
+      },
+      {
+        "id": "o_O8jIltqzM",
+        "baslik": "5- Tinkercad 3D ile 3D Kutu Tasarımı",
+        "kanal": "İsmail Haymana",
+        "sure": "4:01",
+        "saniye": 241,
+        "izlenme": 63,
+        "puan": 8.7
+      },
+      {
+        "id": "duaA2WcNDRk",
+        "baslik": "3D Yazıcı ile Işıklı Tabela Harfi Nasıl Çizilir? (Ücretsiz Program)",
+        "kanal": "Bişeyler Yapalım",
+        "sure": "5:04",
+        "saniye": 304,
+        "izlenme": 10868,
+        "puan": 8.1
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "ic-lastik": {
     "tarih": "2026-11-17T18:38:55.910Z",
@@ -2049,44 +2187,166 @@
     "ilgisiz": false
   },
   "cicek-kutusu": {
-    "tarih": "2026-11-17T18:38:59.477Z",
-    "sorgu": "Pencere Önü Çiçek Kutusu nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
-  },
-  "servis-tepsisi": {
-    "tarih": "2026-11-17T18:39:00.069Z",
-    "sorgu": "Kulplu Servis Tepsisi nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
-  },
-  "kitap-standi": {
-    "tarih": "2026-11-17T18:39:00.496Z",
-    "sorgu": "Ayarlanabilir Kitap / Tablet Standı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:12.932Z",
+    "sorgu": "ahşap saksı kutusu yapımı",
+    "secim": 5,
     "adaylar": [
       {
-        "id": "42eZYHh6iYw",
-        "baslik": "Kullandığım En İyi Tablet Standı | Ayarlanabilir Tablet Tutucu",
-        "kanal": "Volkan Sel",
-        "sure": "8:26",
-        "saniye": 506,
-        "izlenme": 22411,
-        "puan": 20.5
+        "id": "lCEtJsOdpgM",
+        "baslik": "DIY Benzersiz Ahşap Saksı Kutusu",
+        "kanal": "mehmet yener",
+        "sure": "8:23",
+        "saniye": 503,
+        "izlenme": 401,
+        "puan": 11.4
       },
       {
-        "id": "ok3ai8X-abA",
-        "baslik": "Elbise Askısından Kitap Standı Yapımı",
-        "kanal": "ZS G",
-        "sure": "3:59",
-        "saniye": 239,
-        "izlenme": 4160,
-        "puan": 12.4
+        "id": "pX83bZJqzaU",
+        "baslik": "DIY Çöp Şişten Saksı  Tahta Karıştırıcıdan Mücevher Kutusu nasıl yapılır?  (ice cream stick)",
+        "kanal": "Ulus El Sanatları ",
+        "sure": "19:45",
+        "saniye": 1185,
+        "izlenme": 106,
+        "puan": 9.5
+      },
+      {
+        "id": "3dfs6Hq24Wg",
+        "baslik": "Dekoratif Ahşap Saksı Yapımı Ayrıntılı Sesli Anlatım.Decorative Wooden Flower Pot.DIY",
+        "kanal": "SEVDADANDIR ",
+        "sure": "3:16",
+        "saniye": 196,
+        "izlenme": 4236,
+        "puan": 9.4
+      },
+      {
+        "id": "BadWvvELu48",
+        "baslik": "Ahşap saksı yapımı // Wooden flower pot making.",
+        "kanal": "Fatih Erenoğlu ",
+        "sure": "20:01",
+        "saniye": 1201,
+        "izlenme": 10954,
+        "puan": 8.1
+      },
+      {
+        "id": "k7DgoGTMb8s",
+        "baslik": "DEKORATİF AHŞAP SAKSI YAPIMI (DECORATİVE WOODEN FLOWERPOT MAKING)",
+        "kanal": "Ahşap'a Dair",
+        "sure": "9:51",
+        "saniye": 591,
+        "izlenme": 11791,
+        "puan": 7.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "servis-tepsisi": {
+    "tarih": "2026-11-27T13:40:13.431Z",
+    "sorgu": "ahşap servis tepsisi yapımı",
+    "secim": 4,
+    "adaylar": [
+      {
+        "id": "eZb_BPrmoVw",
+        "baslik": "el işi ahşap sunum servis tepsisi / woodworking",
+        "kanal": "Mk Ahsap Atölye",
+        "sure": "6:11",
+        "saniye": 371,
+        "izlenme": 2339,
+        "puan": 16.1
+      },
+      {
+        "id": "97NpdRBDdfU",
+        "baslik": "Making a Serving Tray // Ahşap Tepsi Yapımı // Woodworking Projects // Woodworking ideas",
+        "kanal": "Ufuk Kablan",
+        "sure": "13:54",
+        "saniye": 834,
+        "izlenme": 2757,
+        "puan": 15.7
+      },
+      {
+        "id": "dGqqkSxYQUk",
+        "baslik": "Paletten tepsi yapimi / Making a tray from pallet / Wooden tray diy / Serving tray from pallet",
+        "kanal": "Celal Ünal",
+        "sure": "10:04",
+        "saniye": 604,
+        "izlenme": 165909,
+        "puan": 13.8
+      },
+      {
+        "id": "RGWnOVjZcec",
+        "baslik": "Ahşap sunum tepsisi yapımı",
+        "kanal": "Şahane bilgiler",
+        "sure": "10:15",
+        "saniye": 615,
+        "izlenme": 6114,
+        "puan": 12.2
+      },
+      {
+        "id": "sl3wnW5ZrUA",
+        "baslik": "TEPSİ YAPIMI. SUNUM TEPSİSİ YAPIMI. OVAL AHŞAP TABANLI ÖRGÜ TEPSİ.",
+        "kanal": "Canan Karadayi",
+        "sure": "32:32",
+        "saniye": 1952,
+        "izlenme": 35830,
+        "puan": 11.8
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "kitap-standi": {
+    "tarih": "2026-11-27T13:40:13.863Z",
+    "sorgu": "ahşap tablet standı yapımı",
+    "secim": 4,
+    "adaylar": [
+      {
+        "id": "qmh3cD2zv0c",
+        "baslik": "Tablet telefon stand yapımı -Kendin yap",
+        "kanal": "Şahane bilgiler",
+        "sure": "5:27",
+        "saniye": 327,
+        "izlenme": 11931,
+        "puan": 17.1
+      },
+      {
+        "id": "xpE3k9Wgflg",
+        "baslik": "Evdeki Malzemelerle Telefon & Tablet Standı Yapımı",
+        "kanal": "BAY MERAKLI",
+        "sure": "10:10",
+        "saniye": 610,
+        "izlenme": 1589,
+        "puan": 14.8
+      },
+      {
+        "id": "RbBJG2O0OkA",
+        "baslik": "Ahşap Telefon - Tablet Tutucu Yapımı | Wooden Phone Stand | DIY #ahşap #wooden",
+        "kanal": "Şirin Dekorist",
+        "sure": "9:42",
+        "saniye": 582,
+        "izlenme": 939,
+        "puan": 11.5
+      },
+      {
+        "id": "dKA7otOnKNg",
+        "baslik": "Ahşap Tablet Standı Yapımı | Making a Wooden Tablet Stand",
+        "kanal": "Pin Pallet Ideas",
+        "sure": "6:44",
+        "saniye": 404,
+        "izlenme": 2273,
+        "puan": 11.5
+      },
+      {
+        "id": "pwqujxCkrLQ",
+        "baslik": "Ahşap Yakma Telefon Standı ( İbrahim Emre'ye Hediye)",
+        "kanal": "osman zinnuri özsu",
+        "sure": "15:18",
+        "saniye": 918,
+        "izlenme": 1416,
+        "puan": 11.2
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "ayakkabilik": {
     "tarih": "2026-11-17T18:39:00.917Z",
@@ -2124,39 +2384,58 @@
     "ilgisiz": false
   },
   "duvar-askilik": {
-    "tarih": "2026-11-17T18:39:01.419Z",
-    "sorgu": "Duvar Askılığı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:14.354Z",
+    "sorgu": "ahşap duvar askılığı yapımı",
+    "secim": 3,
     "adaylar": [
       {
-        "id": "5t18qAujwno",
-        "baslik": "TV Askı Aparatı Montajı | Televizyon Duvara Nasıl Monte Edilir | Everest Evrensel TV Askı Aparatı",
-        "kanal": "Metin Aygun",
-        "sure": "4:20",
-        "saniye": 260,
-        "izlenme": 371305,
-        "puan": 15.4
+        "id": "-tQxb-ZaFn8",
+        "baslik": "Paletten askılık yapımı // Making a coat hanger from pallet",
+        "kanal": "Celal Ünal",
+        "sure": "6:41",
+        "saniye": 401,
+        "izlenme": 605741,
+        "puan": 14.7
       },
       {
-        "id": "Bx6V_CC5g-0",
-        "baslik": "Mutfak askısı nasıl takılır? Ferforje sepetli kancalı duvar rayı montajı",
-        "kanal": "kendin yaparsın",
-        "sure": "4:00",
-        "saniye": 240,
-        "izlenme": 79042,
-        "puan": 13.8
+        "id": "TgIjeaLv7Do",
+        "baslik": "making a wooden hanger / ahşap askılık yapımı / diy hanger #askılık #kendinyap #decorativecraft",
+        "kanal": "KENDİN YAP, DOĞAL YAŞA",
+        "sure": "7:04",
+        "saniye": 424,
+        "izlenme": 3777,
+        "puan": 13.4
       },
       {
-        "id": "hZmgnpBOIg0",
-        "baslik": "bsh gülbay mobilya Askılık Portmanto Duvar Askılığı Elbise Askısı Venüs Askılık  kurulum videosu",
-        "kanal": "Bshgulbaymobilya",
-        "sure": "1:47",
-        "saniye": 107,
-        "izlenme": 4228,
-        "puan": 10.9
+        "id": "ZUBGf-dx0x8",
+        "baslik": "Ahşap Askılık Nasıl Yapılır?",
+        "kanal": "Metin Menteşe",
+        "sure": "9:02",
+        "saniye": 542,
+        "izlenme": 3912,
+        "puan": 12.9
+      },
+      {
+        "id": "-6BFqg1domw",
+        "baslik": "Tahtadan Duvar Rafı Yapımı | Dekoratif Raflı Askılık Yapımı",
+        "kanal": "Salim Tugay Günaydın",
+        "sure": "8:05",
+        "saniye": 485,
+        "izlenme": 2931,
+        "puan": 12.7
+      },
+      {
+        "id": "PoPomq7JxGk",
+        "baslik": "Ahşap Duvar Askıları İçin 50 Fikir",
+        "kanal": "Tasarım Budur",
+        "sure": "10:50",
+        "saniye": 650,
+        "izlenme": 4236,
+        "puan": 12.4
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "ahsap-saat": {
     "tarih": "2026-11-17T18:39:01.928Z",
@@ -2299,56 +2578,112 @@
     "ilgisiz": false
   },
   "baharat-rafi": {
-    "tarih": "2026-11-17T18:39:04.055Z",
-    "sorgu": "Duvar Tipi Baharat Rafı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:14.870Z",
+    "sorgu": "ahşap baharatlık yapımı",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "Hk2NJZ4b9yE",
-        "baslik": "DUVARA BAHARATLIK NASIL MONTE EDİLİR? İKEA AHŞAP BAHARATLIK SETİ.KOLAY KURULUM.PAZAR AKSİYONU #ikea",
-        "kanal": "Ahmet TURHAT",
-        "sure": "5:47",
-        "saniye": 347,
-        "izlenme": 11527,
-        "puan": 14.1
+        "id": "4CvI6vXaf7k",
+        "baslik": "#Diy ahşap baharat rafı/wooden spice rack#woodworking#asmr #ahsap #ağaçlar #spice#rack",
+        "kanal": "Kanal atölye",
+        "sure": "9:35",
+        "saniye": 575,
+        "izlenme": 3177,
+        "puan": 15.8
+      },
+      {
+        "id": "--jTHBCIHF4",
+        "baslik": "AHŞAP BAHARATLIK / MUTFAĞINIZIN VAZGEÇİLMEZİ / HOW TO MAKE WOODEN SPİCE RACK",
+        "kanal": "Yapıyapıve",
+        "sure": "9:32",
+        "saniye": 572,
+        "izlenme": 6202,
+        "puan": 12.2
+      },
+      {
+        "id": "Y_xMkSt_QRU",
+        "baslik": "Ahşap VİNTAGE Baharatlık ",
+        "kanal": "Ahşap Ruhu",
+        "sure": "11:42",
+        "saniye": 702,
+        "izlenme": 220,
+        "puan": 11.5
+      },
+      {
+        "id": "w8Yx7gS6vxM",
+        "baslik": "40 adet baharatlık yaptık, ahşap kutu yapımı. ( Spice rack, wooden box making. )",
+        "kanal": "Atölyem28",
+        "sure": "10:01",
+        "saniye": 601,
+        "izlenme": 212,
+        "puan": 10.5
+      },
+      {
+        "id": "_TR5nN1iZmA",
+        "baslik": "baharatlık raf yapımı",
+        "kanal": "serhat ayer",
+        "sure": "9:08",
+        "saniye": 548,
+        "izlenme": 1994,
+        "puan": 9.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "anahtar-panosu": {
-    "tarih": "2026-11-17T18:39:04.451Z",
-    "sorgu": "Anahtar Askı Panosu nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:15.378Z",
+    "sorgu": "ahşap anahtar askısı yapımı",
+    "secim": 4,
     "adaylar": [
       {
-        "id": "rYbA2nZDWvo",
-        "baslik": "Atölye El Aletleri Düzenleyici Panosu // Kendin Yap // Workshop Hand Tools Organizer Board DIY",
-        "kanal": "BC Tasarım",
-        "sure": "3:36",
-        "saniye": 216,
-        "izlenme": 204300,
-        "puan": 16
+        "id": "IUq3eqtvxXU",
+        "baslik": "Ahşaptan Anahtar Askılığı Anahtar Askısı Nasıl Yapılır? | Wooden Key Hanger DIY",
+        "kanal": "HepsiNalburda",
+        "sure": "9:20",
+        "saniye": 560,
+        "izlenme": 3649,
+        "puan": 15.3
       },
       {
-        "id": "uwC3ynM1n7c",
-        "baslik": "Atölyemi Düzenliyorum. Alet Edavat Panosu Nasıl Yapılır,DIY Proje, Workshop Organization Tool Board",
-        "kanal": "Ulvi Erkılıç",
-        "sure": "5:53",
-        "saniye": 353,
-        "izlenme": 6218,
-        "puan": 12.2
+        "id": "gGJwBehQyYU",
+        "baslik": "DIY Ahşap Anahtar askılığı nasıl yapılır? ( key chain )",
+        "kanal": "Ulus El Sanatları ",
+        "sure": "7:01",
+        "saniye": 421,
+        "izlenme": 369,
+        "puan": 14.9
       },
       {
-        "id": "0sfplk6Npb0",
-        "baslik": "Anahtarlık nasıl yapılır. aksesuarlar #kokulutaş DIY .pano",
-        "kanal": "Bir Avuç Tasarım",
-        "sure": "5:40",
-        "saniye": 340,
-        "izlenme": 282,
-        "puan": 12.2
+        "id": "nXPG7RStMUU",
+        "baslik": "AHŞAP ANAHTAR ASKILIĞI YAPIMI / MAKİNG WOODEN KEY HANGER",
+        "kanal": "Muhammed Ali ARICAN",
+        "sure": "12:23",
+        "saniye": 743,
+        "izlenme": 987,
+        "puan": 13.5
+      },
+      {
+        "id": "PApCskEBafw",
+        "baslik": "AHŞAP ANAHTAR ASKILIĞI YAPIMI / DIY / KEY HOLDER SHELF",
+        "kanal": "Yapıyapıve",
+        "sure": "10:06",
+        "saniye": 606,
+        "izlenme": 6180,
+        "puan": 12.7
+      },
+      {
+        "id": "A0ojRhhMDSE",
+        "baslik": "Anahtar askısı yapımı - kendin yap - geri dönüşüm",
+        "kanal": "Fatih Cerit",
+        "sure": "18:30",
+        "saniye": 1110,
+        "izlenme": 933,
+        "puan": 12.5
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "resim-cercevesi": {
     "tarih": "2026-11-17T18:39:04.836Z",
@@ -2473,74 +2808,76 @@
     "ilgisiz": false
   },
   "havlu-askisi": {
-    "tarih": "2026-11-17T18:39:07.105Z",
-    "sorgu": "Kağıt Havlu Askısı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:15.858Z",
+    "sorgu": "ahşap kağıt havluluk yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "EyyJAul3ojI",
-        "baslik": "Makrome Kağıt Havlu Askı Yapımı- Kendin yap- DIY",
-        "kanal": "Funda'nın Hayal Dünyası",
-        "sure": "3:44",
-        "saniye": 224,
-        "izlenme": 12773,
-        "puan": 18.2
-      },
-      {
-        "id": "HeJzQqbraFo",
-        "baslik": "KAĞIT HAVLU ASKISI MAKROME İLE..     #kağıthavluaskısı  #makromeipi #Paper towel #Apparatus",
-        "kanal": "Aydan Balcı",
-        "sure": "12:37",
-        "saniye": 757,
-        "izlenme": 15633,
-        "puan": 15.8
-      },
-      {
-        "id": "eZJlUyxap6A",
-        "baslik": "HAVLU ASKILIĞI YAPIMI🌸 Örgü havlu askısı 💖",
-        "kanal": "İlmek Tutkum",
-        "sure": "15:22",
-        "saniye": 922,
-        "izlenme": 138944,
-        "puan": 15.2
+        "id": "cR1Je_MH5Ag",
+        "baslik": "DIY Creative & Unique Woodworking Project – Wooden Paper Towel Holder with Drawer.",
+        "kanal": "ZagWood",
+        "sure": "14:45",
+        "saniye": 885,
+        "izlenme": 8186,
+        "puan": 6.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "su-degisimi": {
-    "tarih": "2026-11-17T18:39:07.664Z",
-    "sorgu": "Haftalık Su Değişimi ve Sifon nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:16.436Z",
+    "sorgu": "akvaryum su değişimi dip temizliği",
+    "secim": 3,
     "adaylar": [
       {
-        "id": "gZyDQFu01GY",
-        "baslik": "Aslında Çok Basit Klozet Su Kaçırıyor, Sifon Su Kaçırıyor Sorunu, Çözümü",
-        "kanal": "BENALİ VİDEOLARI",
-        "sure": "4:30",
-        "saniye": 270,
-        "izlenme": 2048384,
-        "puan": 16.5
+        "id": "VWXtKJHlWcc",
+        "baslik": "akvaryum su değişimi ve dip çekimi#akvaryum#aquarium",
+        "kanal": "balık & balık   fish & fish",
+        "sure": "6:07",
+        "saniye": 367,
+        "izlenme": 3176,
+        "puan": 13.3
       },
       {
-        "id": "eLA0UQvn-9U",
-        "baslik": "Serel Gömme Rezervuar Su Kaçırıyor? Conta Değişimi!",
-        "kanal": "Macit Tesisat",
-        "sure": "3:35",
-        "saniye": 215,
-        "izlenme": 353007,
-        "puan": 15.8
+        "id": "G9FN4z7Gp6o",
+        "baslik": "HAFTALIK SU DEGİŞİMİ NASIL YAPILIR",
+        "kanal": "GURBETTEKI AYKUTU'NUZ ",
+        "sure": "9:53",
+        "saniye": 593,
+        "izlenme": 44033,
+        "puan": 13
       },
       {
-        "id": "SZZ_oqpuSvg",
-        "baslik": "NAsıl yapılır? Çekmeli sifon iç takım değiştirme #kendinyap #kolay",
-        "kanal": "Brahma Kümesi ",
-        "sure": "20:29",
-        "saniye": 1229,
-        "izlenme": 76362,
-        "puan": 13.8
+        "id": "1c85EgB42lQ",
+        "baslik": "AKVARYUMDA SU DEĞİŞİMİ- Su Değişimi Nasıl Yapılır,  Su Değişimi Neden Yapılır,",
+        "kanal": "Akvaryum Kültürü",
+        "sure": "7:08",
+        "saniye": 428,
+        "izlenme": 16045,
+        "puan": 11.8
+      },
+      {
+        "id": "1MpHJY2ssBI",
+        "baslik": "Akvaryumda su değişimi nasıl yapılır? | Dip çekimi ve önemli noktalar",
+        "kanal": "Fish Hotel",
+        "sure": "7:15",
+        "saniye": 435,
+        "izlenme": 1102,
+        "puan": 11.6
+      },
+      {
+        "id": "5r4UBVCa01Y",
+        "baslik": "Akvaryum Su Değişimi Nasıl yapılır Dip temizliği Detaylar",
+        "kanal": "Akvaryum Gunluklerim",
+        "sure": "2:30",
+        "saniye": 150,
+        "izlenme": 242,
+        "puan": 9.1
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "karides-akvaryumu": {
     "tarih": "2026-11-17T18:39:08.113Z",
@@ -2998,30 +3335,58 @@
     "ilgisiz": false
   },
   "bitki-budama": {
-    "tarih": "2026-11-17T18:39:14.261Z",
-    "sorgu": "Sap Bitkilerini Budama ve Çoğaltma nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:16.923Z",
+    "sorgu": "akvaryum bitki budama kesim",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "2qrffztXuz0",
-        "baslik": "Bahçenizde Mucize Yaratan Ağaç Budama Teknikleri",
-        "kanal": "Mühendis Fatih",
-        "sure": "3:17",
-        "saniye": 197,
-        "izlenme": 414403,
-        "puan": 15.9
+        "id": "PDwsPOEouvc",
+        "baslik": "Akvaryum bitkilerinde budama nasıl yapılır?",
+        "kanal": "bitkidji",
+        "sure": "11:45",
+        "saniye": 705,
+        "izlenme": 21797,
+        "puan": 17.5
       },
       {
-        "id": "EWY8K7JcSOs",
-        "baslik": "Ağaç Budama Nasıl Yapılır? En İyi Teknikler ve İpuçlarıyla Bahçenizi Güzelleştirin!",
-        "kanal": "Aydın Bulgurcuoğlu",
-        "sure": "8:40",
-        "saniye": 520,
-        "izlenme": 170732,
-        "puan": 15.8
+        "id": "SsFkH5yJOa4",
+        "baslik": "Bitkili Akvaryum Budama ve Bakım. Bitkilerinizi Yenilemek, güçlendirmek için bu yöntemi uygulayın.",
+        "kanal": "AquascapeTR",
+        "sure": "15:29",
+        "saniye": 929,
+        "izlenme": 1639,
+        "puan": 14.8
+      },
+      {
+        "id": "_9ocsCqxCuQ",
+        "baslik": "Akvaryum Bitkisi Nasıl Budanır? | Akvaryum Bitkisi Çoğaltma",
+        "kanal": "MGM Balık",
+        "sure": "8:29",
+        "saniye": 509,
+        "izlenme": 3636,
+        "puan": 14.8
+      },
+      {
+        "id": "fA-19pA7Dv8",
+        "baslik": "Akvaryum Gül Bitkisi Çoğaltma Budama Renklendirme",
+        "kanal": "Akvaryum Bitki Dünyası",
+        "sure": "4:27",
+        "saniye": 267,
+        "izlenme": 13546,
+        "puan": 12.7
+      },
+      {
+        "id": "J3OSyNKJ5zQ",
+        "baslik": "BİTKİLİ AKVARYUM DA BİTKİ BUDAMA VE DÜZENLEME -  BİTKİ EKİMİ",
+        "kanal": "Akvarist Ömer",
+        "sure": "9:42",
+        "saniye": 582,
+        "izlenme": 864,
+        "puan": 11.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "karantina-tanki": {
     "tarih": "2026-11-17T18:39:14.883Z",
@@ -3469,18 +3834,18 @@
     "ilgisiz": false
   },
   "aski-sepet": {
-    "tarih": "2026-11-24T15:26:11.997Z",
-    "sorgu": "Asma Çiçek Sepeti nasıl yapılır",
+    "tarih": "2026-11-27T13:40:17.440Z",
+    "sorgu": "asma saksı çiçek sepeti dikimi",
     "secim": 0,
     "adaylar": [
       {
-        "id": "0FXfKZPGLFU",
-        "baslik": "Çiçeksepeti'nde Sipariş Nasıl Verilir? 💐🎁 | Adım Adım Online Sipariş Süreci",
-        "kanal": "Çiçeksepeti",
-        "sure": "1:40",
-        "saniye": 100,
-        "izlenme": 9718,
-        "puan": 13
+        "id": "HH_gAmtQkuw",
+        "baslik": "İple asma saksılık yapımı. Pratik, kolay, saksı askılığı yapımı. Balkondaki çiçeklere.",
+        "kanal": "EVDEKİ ÇİÇEKLERİM",
+        "sure": "3:00",
+        "saniye": 180,
+        "izlenme": 368189,
+        "puan": 16.8
       },
       {
         "id": "QA11zyxLXTw",
@@ -3488,20 +3853,30 @@
         "kanal": "@my.handmadebags",
         "sure": "45:40",
         "saniye": 2740,
-        "izlenme": 60600,
+        "izlenme": 61481,
         "puan": 12.7
       },
       {
-        "id": "WjumMTUDC3Q",
-        "baslik": "Çiçek Sepeti Not Nasıl Eklenir - Çiçek Sepetinde Not Ekleme Nasıl Yapılır",
-        "kanal": "Hızlı Bilgi",
-        "sure": "2:04",
-        "saniye": 124,
-        "izlenme": 18329,
-        "puan": 12.4
+        "id": "A3CaOqKik9A",
+        "baslik": "Makrome Asma Saksılık Yapımı",
+        "kanal": "Gülcan Volkan Duran",
+        "sure": "5:10",
+        "saniye": 310,
+        "izlenme": 204603,
+        "puan": 12
+      },
+      {
+        "id": "6dQRi-nd3ec",
+        "baslik": "İple pratik saksı askılığı yapımı",
+        "kanal": "EVDEKİ ÇİÇEKLERİM",
+        "sure": "2:13",
+        "saniye": 133,
+        "izlenme": 1160,
+        "puan": 7.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "toprak-ph": {
     "tarih": "2026-11-24T15:26:12.655Z",
@@ -3906,11 +4281,49 @@
     "ilgisiz": false
   },
   "takim-kutusu": {
-    "tarih": "2026-11-24T15:26:19.302Z",
-    "sorgu": "Balıkçı Takım Kutusu Düzenleme nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:18.018Z",
+    "sorgu": "balıkçı takım çantası düzenleme",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "21YHQTJ9r38",
+        "baslik": "Efsane Kutu Açılışı !! / Yeni Balıkçılık Malzemelerini Tanıttım ( Unboxing )",
+        "kanal": "Balık Günlükleri",
+        "sure": "31:14",
+        "saniye": 1874,
+        "izlenme": 172240,
+        "puan": 15.4
+      },
+      {
+        "id": "lTrVrlnFi4o",
+        "baslik": "Balık tutmak için balık avı çantanızda neler olmalı?",
+        "kanal": "Kaan Kıvanç",
+        "sure": "8:21",
+        "saniye": 501,
+        "izlenme": 18985,
+        "puan": 14.4
+      },
+      {
+        "id": "TZZqCNEw9gY",
+        "baslik": "Balık Çantamda Ne Var? | Tüm Ekipmanlarım (FUBELO Balık Çantası)",
+        "kanal": "Bars",
+        "sure": "14:58",
+        "saniye": 898,
+        "izlenme": 4973,
+        "puan": 13
+      },
+      {
+        "id": "uMB4Iaq8gYA",
+        "baslik": "SUPER-BAG ASR-2089 Mini tanıtım. Olta malzemeleri için uygun mu?",
+        "kanal": "Murat ÖZBEK",
+        "sure": "1:41",
+        "saniye": 101,
+        "izlenme": 5229,
+        "puan": 7.6
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "balik-fileto": {
     "tarih": "2026-11-24T15:26:19.767Z",
@@ -3948,30 +4361,58 @@
     "ilgisiz": false
   },
   "hamur-yemi": {
-    "tarih": "2026-11-24T15:26:20.249Z",
-    "sorgu": "Ekmek ve Mısır Hamur Yemi nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:18.450Z",
+    "sorgu": "sazan hamur yemi yapımı",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "7gV4PdmUvZc",
-        "baslik": "Karadeniz’in baz geçilmezi Mısır ekmeği..",
-        "kanal": "Son Yaylacı",
-        "sure": "2:07",
-        "saniye": 127,
-        "izlenme": 173916,
-        "puan": 15.9
+        "id": "IhrG3lwbatQ",
+        "baslik": "Sazan Hamuru Nasıl Hazırlanır [ Sazan Yemi Hazırlama ]",
+        "kanal": "7/24 BALIK AVI",
+        "sure": "11:03",
+        "saniye": 663,
+        "izlenme": 69570,
+        "puan": 15.3
       },
       {
-        "id": "EqTf1sUGWTA",
-        "baslik": "GERÇEK EKMEK TARİFİ ✅ BİREBİR FIRINDAKİNİN AYNISI 💯",
-        "kanal": "Nefis Yemek Tarifleri",
-        "sure": "6:14",
-        "saniye": 374,
-        "izlenme": 9038311,
-        "puan": 15.9
+        "id": "AOZQOQqTP28",
+        "baslik": "Sazan Hamuru Nasıl Hazırlanır? Sazan Yemi Hazırlama",
+        "kanal": "Gölboyu",
+        "sure": "10:33",
+        "saniye": 633,
+        "izlenme": 237606,
+        "puan": 15.1
+      },
+      {
+        "id": "t_iYTDGnCAA",
+        "baslik": "Dünyanın En Etkili Balık Yemi / The World's Most Effective Fish Food /Fishing",
+        "kanal": "RAMPE",
+        "sure": "4:51",
+        "saniye": 291,
+        "izlenme": 1703079,
+        "puan": 14.8
+      },
+      {
+        "id": "SSx0m93ad5Y",
+        "baslik": "Sazan hamuru en verimli sazan hamuru budur #sazanavı #sazan #kızılırmak",
+        "kanal": "Ömer Ali KYC",
+        "sure": "11:13",
+        "saniye": 673,
+        "izlenme": 78458,
+        "puan": 14.3
+      },
+      {
+        "id": "3_J0z-AeaJ4",
+        "baslik": "ON KAT GÜÇLÜ SARIMSAKLI BALIK HAMURU TARİFİ (kanıtlı yem)",
+        "kanal": "DOĞA&SANAT",
+        "sure": "10:25",
+        "saniye": 625,
+        "izlenme": 23350,
+        "puan": 14.1
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "surf-casting": {
     "tarih": "2026-11-24T15:26:20.833Z",
@@ -4131,74 +4572,76 @@
     "ilgisiz": false
   },
   "birak-yakala": {
-    "tarih": "2026-11-24T15:26:23.206Z",
-    "sorgu": "Bırak-Yakala (Catch & Release) Seti nasıl yapılır",
+    "tarih": "2026-11-27T13:40:19.119Z",
+    "sorgu": "balık tut bırak nasıl yapılır",
     "secim": 0,
     "adaylar": [
       {
-        "id": "wF3kFAc7UKg",
-        "baslik": "Ayvalık Lrf Takımı ile Spin Levrek (İspendek) Avı Yakala Bırak (Seabass Bass Hunt Catch and Release)",
-        "kanal": "Özgür Güler",
-        "sure": "2:41",
-        "saniye": 161,
-        "izlenme": 3807,
-        "puan": 20.4
+        "id": "_lWCdbWDxSY",
+        "baslik": "Sazan balığı suya nasıl salınır Tut bırak yöntemi",
+        "kanal": "Balık avı peşinde",
+        "sure": "1:32",
+        "saniye": 92,
+        "izlenme": 34,
+        "puan": 7.8
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "kalibrasyon-kupu": {
+    "tarih": "2026-11-27T13:40:19.589Z",
+    "sorgu": "3d yazıcı kalibrasyon küpü",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "HUb-LpI09SI",
+        "baslik": "Ender 3 Kalibrasyon ve XYZ Küpü",
+        "kanal": "Mechatronics 3D",
+        "sure": "5:32",
+        "saniye": 332,
+        "izlenme": 1053,
+        "puan": 15.5
       },
       {
-        "id": "SIWLlg6fDlM",
-        "baslik": "İzmir Körfezi LRF Micro Jigging Levrek Yakala Bırak",
-        "kanal": "GocvaLI",
-        "sure": "5:57",
-        "saniye": 357,
-        "izlenme": 880,
+        "id": "0hAq8RVc14s",
+        "baslik": "3D Yazıcı Tabla Kalibrasyonu Nasıl Yapılır?",
+        "kanal": "Robotistan",
+        "sure": "11:34",
+        "saniye": 694,
+        "izlenme": 73836,
+        "puan": 14.3
+      },
+      {
+        "id": "2vWH3XJYpG0",
+        "baslik": "3d Yazıcı Kalibrasyon Nasıl Yapılır ? X,Y,Z Eksen Kalibrasyonu",
+        "kanal": "Bişeyler Yapalım",
+        "sure": "17:30",
+        "saniye": 1050,
+        "izlenme": 43446,
+        "puan": 13.5
+      },
+      {
+        "id": "Xg3scS8cf0A",
+        "baslik": "Ender 3 Max 3D Yazıcı Kalibrasyonu ve Kalibrasyon Küpü Baskısının Hazırlanması - Bölüm 2",
+        "kanal": "Limenitis Reducta",
+        "sure": "8:29",
+        "saniye": 509,
+        "izlenme": 400,
         "puan": 12.9
       },
       {
-        "id": "0R35JHS3K50",
-        "baslik": "Daiwa Legalis 1-12 228 Hakkında Bilgilendirme",
-        "kanal": "Bilal Ünaldı",
-        "sure": "4:30",
-        "saniye": 270,
-        "izlenme": 14150,
-        "puan": 6.7
+        "id": "OD4eLfp6RB0",
+        "baslik": "CREALİTY ENDER-3 V2 KURULUM VE KALİBRASYON | 3D YAZICI",
+        "kanal": "3D TeknoMarket",
+        "sure": "6:42",
+        "saniye": 402,
+        "izlenme": 22086,
+        "puan": 12
       }
     ],
-    "ilgisiz": false
-  },
-  "kalibrasyon-kupu": {
-    "tarih": "2026-11-24T15:26:23.708Z",
-    "sorgu": "Kalibrasyon Küpü ve Ölçü Kontrolü nasıl yapılır",
-    "secim": 0,
-    "adaylar": [
-      {
-        "id": "xDIMg90T9nA",
-        "baslik": "DOĞRU KAN ŞEKERİ ÖLÇÜMÜ NASIL YAPILIR?👍✅#keşfet #youtube #diyabet #şekerhastalığı #shorts #bestvideo",
-        "kanal": "Hobby Evi",
-        "sure": "1:55",
-        "saniye": 115,
-        "izlenme": 205967,
-        "puan": 14
-      },
-      {
-        "id": "XYO4dolyKUk",
-        "baslik": "Tork Anahtarı Nasıl Yapılır? Nasıl Kullanılır? Tork Nedir? Nm Newton Metre nedir?  Tork Hesaplama",
-        "kanal": "parçala behçet",
-        "sure": "9:04",
-        "saniye": 544,
-        "izlenme": 96639,
-        "puan": 8
-      },
-      {
-        "id": "I8MRCAhD1_8",
-        "baslik": "kalorimetre kullanımı",
-        "kanal": "Bülent NAYKI",
-        "sure": "4:53",
-        "saniye": 293,
-        "izlenme": 42005,
-        "puan": 7.9
-      }
-    ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "tabla-seviyeleme": {
     "tarih": "2026-11-24T15:26:24.220Z",
@@ -4218,30 +4661,49 @@
     "ilgisiz": false
   },
   "kablo-klipsi": {
-    "tarih": "2026-11-24T15:26:24.689Z",
-    "sorgu": "Masa Kenarı Kablo Klipsi nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:20.069Z",
+    "sorgu": "3d yazıcı kablo tutucu baskı",
+    "secim": 4,
     "adaylar": [
       {
-        "id": "5eaPoLH-fU4",
-        "baslik": "Ethernet Pensesi Olmadan Ethernet Kablosu Bağlama | Pensesiz RJ45 Konnektörü Nasıl Bağlanır?",
-        "kanal": "Metin Aygun",
-        "sure": "6:36",
-        "saniye": 396,
-        "izlenme": 90767,
-        "puan": 11.9
+        "id": "Y2U_w0mvqJA",
+        "baslik": "Fusion 360 ile Pratik Priz Çerçevesi Tasarımı! (Kablo Tutucu) 3D Yazıcı Baskı & Uygulama ve İnceleme",
+        "kanal": "LUX 3D TASARIM",
+        "sure": "14:13",
+        "saniye": 853,
+        "izlenme": 741,
+        "puan": 12.3
       },
       {
-        "id": "eX7fbUEY_ew",
-        "baslik": "Kablo Sabitleyici Aparat - Multipurpose Cable Clips",
-        "kanal": "Kertenpelex",
-        "sure": "1:55",
-        "saniye": 115,
-        "izlenme": 231,
-        "puan": 3.5
+        "id": "I3du1pmferc",
+        "baslik": "3D Yazıcı ile Kablo Düzenleyici Basımı",
+        "kanal": "Serkan",
+        "sure": "1:44",
+        "saniye": 104,
+        "izlenme": 92,
+        "puan": 6.5
+      },
+      {
+        "id": "AA8zhbfIPY8",
+        "baslik": "3D Yazıcı ile Kalemlik, Telefon tutucu ve USB Çoğaltıcı ( Makara Tasarımı )",
+        "kanal": "Volkan ÜNVER",
+        "sure": "10:22",
+        "saniye": 622,
+        "izlenme": 641,
+        "puan": 5.7
+      },
+      {
+        "id": "kNdcYP4GPcM",
+        "baslik": "Kablo Tutucu - #3DPazartesi",
+        "kanal": "Ali Öztürk",
+        "sure": "11:17",
+        "saniye": 677,
+        "izlenme": 44,
+        "puan": 4.5
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "duvar-anahtar-askisi": {
     "tarih": "2026-11-24T15:26:25.210Z",
@@ -4375,88 +4837,192 @@
     "ilgisiz": false
   },
   "kurabiye-kalibi-3d": {
-    "tarih": "2026-11-24T15:26:27.303Z",
-    "sorgu": "Özel Kurabiye Kalıbı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:20.531Z",
+    "sorgu": "3d yazıcı kurabiye kalıbı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "txvOdHj25lU",
-        "baslik": "Şekilli Kurabiye Tarifi | Nasıl Yapılır?",
-        "kanal": "Nefis Yemek Tarifleri | Bugün Ne Pişirsem?",
-        "sure": "5:00",
-        "saniye": 300,
-        "izlenme": 2488779,
-        "puan": 17.1
+        "id": "VdwJmIRSAME",
+        "baslik": "Tinkercad Kurabiye Kalıbı(Shape Özelliklerini Kullanarak)",
+        "kanal": "Pelin Yazar Tunç",
+        "sure": "2:13",
+        "saniye": 133,
+        "izlenme": 1455,
+        "puan": 15.7
       },
       {
-        "id": "JFApB0KFcCM",
-        "baslik": "Şekilli Kurabiye Tarifi | Nasıl Yapılır?",
-        "kanal": "Nefis Yemek Tarifleri | Çay Saati Tarifleri",
-        "sure": "2:08",
-        "saniye": 128,
-        "izlenme": 572422,
-        "puan": 10.6
+        "id": "5MHvcDsFYO4",
+        "baslik": "Fusion 360 ile Modelle Yap ve Sat! 1- Bulut Kurabiye Kalıbı",
+        "kanal": "Zeynep Yavuz",
+        "sure": "23:16",
+        "saniye": 1396,
+        "izlenme": 1117,
+        "puan": 15.1
+      },
+      {
+        "id": "PuhsP8HyhsQ",
+        "baslik": "3D Printer Kaktüs Kurabiye Kalıbı",
+        "kanal": "Aras Çalış",
+        "sure": "2:57",
+        "saniye": 177,
+        "izlenme": 349,
+        "puan": 10.8
+      },
+      {
+        "id": "7RTtdEc6kBI",
+        "baslik": "How I Make Custom Cookie Cutters with a 3D Printer | Easy Step-by-Step Guide",
+        "kanal": "Alina Craft Studio",
+        "sure": "5:04",
+        "saniye": 304,
+        "izlenme": 28286,
+        "puan": 7.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "cekmece-bolme": {
-    "tarih": "2026-11-24T15:26:27.783Z",
-    "sorgu": "Çekmece Düzenleyici Bölmeler nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:20.962Z",
+    "sorgu": "gridfinity çekmece düzenleyici",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "zsye6uaY1MU",
+        "baslik": "How We 3D Print Gridfinity Kitchen Organizers #gridfinity",
+        "kanal": "Crafted Catastrophes",
+        "sure": "4:14",
+        "saniye": 254,
+        "izlenme": 24388,
+        "puan": 8.1
+      },
+      {
+        "id": "e3EhJJlWwws",
+        "baslik": "This FREE AI Tool Auto-Generates Gridfinity Bins!",
+        "kanal": "CNC Kitchen",
+        "sure": "13:36",
+        "saniye": 816,
+        "izlenme": 785125,
+        "puan": 7.8
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "renkli-anahtarlik-3d": {
-    "tarih": "2026-11-24T15:26:28.418Z",
-    "sorgu": "Çift Renkli İsim Anahtarlığı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:21.513Z",
+    "sorgu": "3d yazıcı filament değiştirme iki renk",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "f8RSlUj43t0",
-        "baslik": "DIY Deri Anahtarlık Büyük Isim Baş Harfı - Deri Anahtarlık Nasıl Yapılır ? - DIY Türkçe",
-        "kanal": "Kendin yap - Tutorials - Turkish Türkçe",
-        "sure": "3:40",
-        "saniye": 220,
-        "izlenme": 4526,
-        "puan": 10.5
+        "id": "CPAX66WYEdI",
+        "baslik": "Anahtarlık basanlar dikkat! Bambu Studio’da filament israfını azaltan ayarlarla kâr edin l 3D Print",
+        "kanal": "tou tv",
+        "sure": "11:42",
+        "saniye": 702,
+        "izlenme": 27045,
+        "puan": 11.6
+      },
+      {
+        "id": "J2CGwdIiHbg",
+        "baslik": "3D Yazıcı Ender 3 Pro Filament Değiştirme",
+        "kanal": "onrycsy",
+        "sure": "4:16",
+        "saniye": 256,
+        "izlenme": 33219,
+        "puan": 10.8
+      },
+      {
+        "id": "_Xzud-UuZMg",
+        "baslik": "Creality K1C Yazıcıda Filament Değiştirme – İpucu & Hızlı & Sorunsuz",
+        "kanal": "Ahmet Candemir",
+        "sure": "5:30",
+        "saniye": 330,
+        "izlenme": 5504,
+        "puan": 10.6
+      },
+      {
+        "id": "ccJoLlPzuhU",
+        "baslik": "BambuLab Filament değiştirme ve Filament takma rehberi",
+        "kanal": "Oktay Mercan",
+        "sure": "10:44",
+        "saniye": 644,
+        "izlenme": 19428,
+        "puan": 9.9
+      },
+      {
+        "id": "y2uWtYvwzX8",
+        "baslik": "creality k1 max 3d  yazıcı filament degistirme.",
+        "kanal": "ilyas kaya",
+        "sure": "4:14",
+        "saniye": 254,
+        "izlenme": 18117,
+        "puan": 7.4
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "vidali-kapakli-kutu": {
-    "tarih": "2026-11-24T15:26:28.995Z",
-    "sorgu": "Vidalı Kapaklı Küçük Kutu nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:21.926Z",
+    "sorgu": "3d yazıcı vidalı kutu",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "tb0yn45rEAM",
-        "baslik": "Vida kutusu yapımı (dekotadan) Kendin Yap- Screw Box by dekota (Do it yourself)",
-        "kanal": "Emre Çetin",
-        "sure": "14:27",
-        "saniye": 867,
-        "izlenme": 15890,
-        "puan": 16.3
+        "id": "gE8Ore_omYw",
+        "baslik": "Vidalı Kapaklı Kutu Nasıl Tasarlanır? | Threaded Container Fusion 360",
+        "kanal": "LUX 3D TASARIM",
+        "sure": "18:34",
+        "saniye": 1114,
+        "izlenme": 1519,
+        "puan": 18.3
+      },
+      {
+        "id": "Ozuc7_bXreI",
+        "baslik": "3D Yazıcılarda vida somun ve iç içe geçme sorunu Horizontal Expansion improvements tölerans ayarları",
+        "kanal": "Hepsinden Biraz",
+        "sure": "4:43",
+        "saniye": 283,
+        "izlenme": 13556,
+        "puan": 11.7
+      },
+      {
+        "id": "eMFsDymDymE",
+        "baslik": "Bambu Studio Başlangıç Rehberi | 3D Yazıcı Dilimleme Programı Detaylı Anlatım",
+        "kanal": "SHAN3D",
+        "sure": "22:56",
+        "saniye": 1376,
+        "izlenme": 13163,
+        "puan": 11.2
+      },
+      {
+        "id": "svhhsGC6ovw",
+        "baslik": "bambu studio #bağlayıclar  pratik kısa bir eğitim içeriği sizlerle #bambulab #bambustudio #1million",
+        "kanal": "lysia3design",
+        "sure": "2:14",
+        "saniye": 134,
+        "izlenme": 11979,
+        "puan": 7.6
+      },
+      {
+        "id": "PwiYuQ6Dc_c",
+        "baslik": "3D Yazıcı İyileştirme #102",
+        "kanal": "hüseyin güngör",
+        "sure": "9:42",
+        "saniye": 582,
+        "izlenme": 2759,
+        "puan": 6.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "tpu-telefon-kilifi": {
-    "tarih": "2026-11-24T15:26:29.438Z",
-    "sorgu": "Esnek TPU Telefon Kılıfı nasıl yapılır",
+    "tarih": "2026-11-27T13:40:22.444Z",
+    "sorgu": "tpu telefon kılıfı baskı",
     "secim": 0,
-    "adaylar": [
-      {
-        "id": "6oU5_T_M10E",
-        "baslik": "👉 En Esnek Filament: TPU Nedir? Artıları & Eksileri",
-        "kanal": "Denetix3D",
-        "sure": "1:36",
-        "saniye": 96,
-        "izlenme": 13960,
-        "puan": 14.7
-      }
-    ],
-    "ilgisiz": false
+    "adaylar": [],
+    "ilgisiz": false,
+    "tur": 2
   },
   "nozul-degisimi": {
     "tarih": "2026-11-24T15:26:29.950Z",
@@ -4511,47 +5077,76 @@
     "ilgisiz": false
   },
   "eklemli-ejderha": {
-    "tarih": "2026-11-24T15:26:30.908Z",
-    "sorgu": "Eklemli Esnek Ejderha (Yerinde Baskı) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:22.884Z",
+    "sorgu": "3d yazıcı eklemli ejderha",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "i7vjEJm1LGM",
-        "baslik": "The Best 3D Printed Cool Things - Ender 3 S1 ile 3D Baskı Örnekleri",
-        "kanal": "Caner Yalabık",
-        "sure": "6:56",
-        "saniye": 416,
-        "izlenme": 79,
-        "puan": 7.9
+        "id": "sG7Ph-P3Dvc",
+        "baslik": "3D Yazıcı ile EJDERHA Yaptım!",
+        "kanal": "Mendebur Lemur",
+        "sure": "15:52",
+        "saniye": 952,
+        "izlenme": 770986,
+        "puan": 15.3
       },
       {
-        "id": "VUlKRfnujh8",
-        "baslik": "timelapse 3d baskı / 3d yazıcı / hızlandırılmış video / gopro",
-        "kanal": "3d Eko",
-        "sure": "9:28",
-        "saniye": 568,
-        "izlenme": 127,
-        "puan": 7.2
+        "id": "XgMDv1XudrM",
+        "baslik": "I 3D Printed VHAGAR from House of the Dragon",
+        "kanal": "Trevor Austin",
+        "sure": "4:12",
+        "saniye": 252,
+        "izlenme": 14779,
+        "puan": 7.8
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kulaklik-askisi": {
-    "tarih": "2026-11-24T15:26:31.388Z",
-    "sorgu": "Masa Altı Kulaklık Askısı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:23.425Z",
+    "sorgu": "kulaklık askısı yapımı",
+    "secim": 4,
     "adaylar": [
       {
-        "id": "Q-5DcvNKo4s",
-        "baslik": "MASA ALTI KABLO RAFI VE KULAKLIK ASKI APARATI İNCELEMESİ KURULUMU",
-        "kanal": "Web Klasör",
-        "sure": "13:19",
-        "saniye": 799,
-        "izlenme": 1125,
-        "puan": 19.1
+        "id": "rwAf3PmR-_Y",
+        "baslik": "TIĞ İŞİ KULAKLIK İÇİN YAPRAK SÜSÜ 🌱 | KOLAY | HEADPHONE ACCESSORY🎧 | CROCHET LEAF [subtitles]",
+        "kanal": "Buse",
+        "sure": "15:29",
+        "saniye": 929,
+        "izlenme": 85349,
+        "puan": 13.4
+      },
+      {
+        "id": "VVl0dZghCWg",
+        "baslik": "Cute Crochet Bear Cable Holder 🧸 | Amigurumi Kulaklık Tutucu & Kalem Düzenleyici Yapımı",
+        "kanal": "Ebru KAYNAR",
+        "sure": "12:45",
+        "saniye": 765,
+        "izlenme": 500,
+        "puan": 11
+      },
+      {
+        "id": "fovK7vYlSd4",
+        "baslik": "RGB Ledli Kulaklık Tutucu (2. Modelim)",
+        "kanal": "KASA MODİFİYEM",
+        "sure": "5:26",
+        "saniye": 326,
+        "izlenme": 1062,
+        "puan": 8
+      },
+      {
+        "id": "JmaiGPfJGUI",
+        "baslik": "Kulaklığınız için kulaklık tutucu yapımı",
+        "kanal": "iki oyuncu",
+        "sure": "2:47",
+        "saniye": 167,
+        "izlenme": 240,
+        "puan": 5.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "baski-hata-cozumu": {
     "tarih": "2026-11-24T15:26:31.880Z",
@@ -4589,46 +5184,94 @@
     "ilgisiz": false
   },
   "surus-oncesi-kontrol": {
-    "tarih": "2026-11-24T15:26:32.436Z",
-    "sorgu": "Sürüş Öncesi 2 Dakikalık Kontrol nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
-  },
-  "lastik-basinci": {
-    "tarih": "2026-11-24T15:26:32.916Z",
-    "sorgu": "Doğru Lastik Basıncı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:23.864Z",
+    "sorgu": "bisiklet sürüş öncesi kontrol",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "dPwxq_HHovs",
-        "baslik": "Lastik Basıncınızı 32 PSİ 'ye Ayarlamayı Bırakın! (Arabanızı Mahvediyorsunuz!)",
-        "kanal": "Direksiyon Ustası",
-        "sure": "13:05",
-        "saniye": 785,
-        "izlenme": 296201,
-        "puan": 18.7
+        "id": "8ttO3QphWQs",
+        "baslik": "Eti Sarı Bisiklet - Sürüş Öncesi Güvenlik Kontrolü Nasıl Yapılır?",
+        "kanal": "Eti",
+        "sure": "3:21",
+        "saniye": 201,
+        "izlenme": 34495,
+        "puan": 20.8
       },
       {
-        "id": "H7RnDCv44G0",
-        "baslik": "LASTİK BASINCINIZI 32 PSİ 'YE AYALAMAYI HEMEN BIRAKIN! (Arabanızın Yürüyen Aksamını Mahvediyorsunuz)",
-        "kanal": "Gaz Fren Şanzıman",
-        "sure": "8:18",
-        "saniye": 498,
-        "izlenme": 172584,
-        "puan": 17.9
+        "id": "gTHHr1fWfWs",
+        "baslik": "Bisikletçi Sürüş Öncesi - Sürüş Esnasında Ne Yer Ne İçer?Temel Beslenme #bisiklet #cycling #bicycle",
+        "kanal": "Kilitli Pedal ",
+        "sure": "4:13",
+        "saniye": 253,
+        "izlenme": 143,
+        "puan": 12.7
       },
       {
-        "id": "p4t85ko5Z5s",
-        "baslik": "Lastik Hava Basıncı Kaç Olmalı? Lastik Hava Basıncı Yüksek Olursa yada Az Olursa Ne Olur?",
-        "kanal": "Online Tamirci",
-        "sure": "8:25",
-        "saniye": 505,
-        "izlenme": 986436,
-        "puan": 16.5
+        "id": "ud5Nr45QPmE",
+        "baslik": "Trafikte Bisiklet Kuralları ve Sürüş Teknikleri",
+        "kanal": "PedallıYorum",
+        "sure": "3:05",
+        "saniye": 185,
+        "izlenme": 588,
+        "puan": 11.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "lastik-basinci": {
+    "tarih": "2026-11-27T13:40:24.423Z",
+    "sorgu": "bisiklet lastik basıncı kaç olmalı",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "6CvGXAbKqRs",
+        "baslik": "Bisiklette Doğru Lastik Basıncı Nedir?",
+        "kanal": "İki Teker Bir Adam",
+        "sure": "5:50",
+        "saniye": 350,
+        "izlenme": 119712,
+        "puan": 17.6
+      },
+      {
+        "id": "Oh7tOCAVVi8",
+        "baslik": "Bisiklet Lastiği Hava Basıncı Ne Kadar Olmalı?",
+        "kanal": "Şimdi Başla",
+        "sure": "6:13",
+        "saniye": 373,
+        "izlenme": 278543,
+        "puan": 17.2
+      },
+      {
+        "id": "rp6LVC2Enlg",
+        "baslik": "Bisiklet lastik hava basıncı kaç psı olmalı? Cevap - lastik üzerinde yazıyor",
+        "kanal": "Her Bilgi Paylaşmaya Değer",
+        "sure": "1:39",
+        "saniye": 99,
+        "izlenme": 127341,
+        "puan": 16.7
+      },
+      {
+        "id": "rOjWX49XIPM",
+        "baslik": "Bisiklet Lastik Ebatları. Standartları (inç, mm, iso etrto). Hava Basıncı (bar, psi) Detaylı Anlatım",
+        "kanal": "Cevdet Çağatay",
+        "sure": "5:23",
+        "saniye": 323,
+        "izlenme": 42793,
+        "puan": 15.4
+      },
+      {
+        "id": "o_06ukef3gY",
+        "baslik": "Neden Bisiklet Lastiğinin Basıncı Yüksektir?2 Dakikada Bilim",
+        "kanal": "bilim365",
+        "sure": "2:24",
+        "saniye": 144,
+        "izlenme": 2098,
+        "puan": 13
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "vites-ayari": {
     "tarih": "2026-11-24T15:26:33.353Z",
@@ -4858,21 +5501,58 @@
     "ilgisiz": false
   },
   "pedal-degisimi": {
-    "tarih": "2026-11-24T15:26:37.885Z",
-    "sorgu": "Pedal Değişimi (Ters Diş Dikkat) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:25.004Z",
+    "sorgu": "bisiklet pedal sökme takma",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "GUvL639dlRg",
-        "baslik": "Ayna kol tamiri  diş sıyırmış pedal yerini tamir ettim aleminyum ayna kol.",
-        "kanal": "Zeh1R9",
-        "sure": "15:28",
-        "saniye": 928,
-        "izlenme": 5620,
-        "puan": 15.6
+        "id": "wZW1SezY09I",
+        "baslik": "Bisiklet Pedal Kolu Nasıl Takılır Ve  Nelere Dikkat Etmeliyiz",
+        "kanal": "Murat Anlı",
+        "sure": "3:39",
+        "saniye": 219,
+        "izlenme": 58362,
+        "puan": 17.1
+      },
+      {
+        "id": "eNe7ePylgZM",
+        "baslik": "PEDAL NASIL SÖKÜLÜ / TAKILIR ? - HOW TO CHANGE YOUR PEDALS",
+        "kanal": "Şimdi Başla",
+        "sure": "6:56",
+        "saniye": 416,
+        "izlenme": 84008,
+        "puan": 15.4
+      },
+      {
+        "id": "_ndJVT-uJ6k",
+        "baslik": "Bisiklet Tamir Aletleri-Pedal Sökme ve Takma Aletleri-Pedal Nasıl Sökülür?",
+        "kanal": "Bisiklete Dair Her Şey",
+        "sure": "5:07",
+        "saniye": 307,
+        "izlenme": 22965,
+        "puan": 14
+      },
+      {
+        "id": "1iJKx8-jxIc",
+        "baslik": "Bisiklet Pedalı Nasıl Sökülür / Takılır? Sıkışan Pedalı Sökmenin Kolay Yolu",
+        "kanal": "Cevdet Çağatay",
+        "sure": "7:21",
+        "saniye": 441,
+        "izlenme": 20513,
+        "puan": 11.5
+      },
+      {
+        "id": "aKb3V-3CRa4",
+        "baslik": "Aynakol Nasıl Sökülür ve Değiştirilir? Yeni Aynakol Montajı Yaptık.",
+        "kanal": "Bisiklete Dair Her Şey",
+        "sure": "7:31",
+        "saniye": 451,
+        "izlenme": 81581,
+        "puan": 8.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "fren-kablosu-degisimi": {
     "tarih": "2026-11-24T15:26:38.344Z",
@@ -4910,10 +5590,58 @@
     "ilgisiz": false
   },
   "tubeless-donusum": {
-    "tarih": "2026-11-24T15:26:38.591Z",
-    "sorgu": "Şamandırasız (Tubeless) Dönüşüm nasıl yapılır",
-    "secim": 0,
-    "adaylar": []
+    "tarih": "2026-11-27T13:40:25.455Z",
+    "sorgu": "bisiklet tubeless dönüşüm",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "CEmhkckrNCQ",
+        "baslik": "Bisiklet Lastiği Nasıl İç Lastiksiz Yapılır? Tubeless Uygulaması! Detaylı Anlatım!-Muc-Off Tubeless",
+        "kanal": "Bisiklete Dair Her Şey",
+        "sure": "14:38",
+        "saniye": 878,
+        "izlenme": 15812,
+        "puan": 14.3
+      },
+      {
+        "id": "S2HM5FIlSRU",
+        "baslik": "Tubeless Nedir? Maliyeti Ne Kadar? Tubeless Tamiri Nasıl Yapılır?",
+        "kanal": "Bisiklete Dair Her Şey",
+        "sure": "8:24",
+        "saniye": 504,
+        "izlenme": 3365,
+        "puan": 11.8
+      },
+      {
+        "id": "cTrUWS--Ivc",
+        "baslik": "Yol Bisikletinde Tubeless Lastik Pişmanlık mı?",
+        "kanal": "Atölye 25.4",
+        "sure": "2:26",
+        "saniye": 146,
+        "izlenme": 4828,
+        "puan": 9.5
+      },
+      {
+        "id": "5f6XKCojP5k",
+        "baslik": "Tubeless Lastik Nasıl Takılır?",
+        "kanal": "Giant Bicycles Türkiye",
+        "sure": "2:53",
+        "saniye": 173,
+        "izlenme": 6797,
+        "puan": 9.2
+      },
+      {
+        "id": "o2Hf0tFl0S0",
+        "baslik": "Tubeless Sıvısı Nasıl Koyulur?",
+        "kanal": "Giant Bicycles Türkiye",
+        "sure": "3:59",
+        "saniye": 239,
+        "izlenme": 4664,
+        "puan": 9
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kaset-temizligi": {
     "tarih": "2026-11-24T15:26:39.034Z",
@@ -4951,30 +5679,40 @@
     "ilgisiz": false
   },
   "bisiklet-isik-montaji": {
-    "tarih": "2026-11-24T15:26:39.550Z",
-    "sorgu": "Ön-Arka Işık ve Reflektör Montajı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:25.943Z",
+    "sorgu": "bisiklet far stop takma",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "vUBgHghOKjE",
-        "baslik": "Tampon Reflektörüne LED Uygulaması (Sinyal özellikli)",
-        "kanal": "Emre A. Bayar",
-        "sure": "10:46",
-        "saniye": 646,
-        "izlenme": 70478,
-        "puan": 14.8
+        "id": "Y6BPO8cB5BM",
+        "baslik": "PANTHER PT-6005 BİSİKLET LED IŞIK SETİ",
+        "kanal": "Deneyen Adam",
+        "sure": "9:51",
+        "saniye": 591,
+        "izlenme": 19295,
+        "puan": 13.4
       },
       {
-        "id": "1eDy0Jmk9gc",
-        "baslik": "Reflektörü çekime götürmeyi unutmayın #reflektör #reflector #videography #photography #videoçekimi",
-        "kanal": "Efe Can Aktaşlı",
-        "sure": "1:32",
-        "saniye": 92,
-        "izlenme": 2706,
-        "puan": 11.1
+        "id": "-uKW4z9d9p0",
+        "baslik": "Bisiklet sinyal ışığı montajı nasıl yapılır? #bisikletsinyallambasi #bisikletsinyali",
+        "kanal": "fπi§d🔦",
+        "sure": "2:21",
+        "saniye": 141,
+        "izlenme": 4186,
+        "puan": 11.4
+      },
+      {
+        "id": "AueCyh-qZkk",
+        "baslik": "RKS-KUBA E.BİSİKLET ARKA STOP LAMBASINI PİLLİDEN ELEKTRİKLİYE ÇEVİRME",
+        "kanal": "NihaT Toprak",
+        "sure": "1:51",
+        "saniye": 111,
+        "izlenme": 1766,
+        "puan": 8.4
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "bisiklet-yikama": {
     "tarih": "2026-11-24T15:26:40.157Z",
@@ -5012,11 +5750,12 @@
     "ilgisiz": false
   },
   "kis-depolama": {
-    "tarih": "2026-11-24T15:26:40.653Z",
-    "sorgu": "Kış Depolama ve Bakım nasıl yapılır",
+    "tarih": "2026-11-27T13:40:26.443Z",
+    "sorgu": "bisiklet kış bakımı saklama",
     "secim": 0,
     "adaylar": [],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "dis-lastik-degisimi": {
     "tarih": "2026-11-24T15:26:41.162Z",
@@ -5264,98 +6003,184 @@
     "ilgisiz": false
   },
   "deri-kulaklik-tutucu": {
-    "tarih": "2026-11-24T15:26:45.047Z",
-    "sorgu": "Deri Kablo/Kulaklık Toplayıcı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:26.887Z",
+    "sorgu": "deri kablo toplayıcı yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "2zLwnZ2gflI",
-        "baslik": "çok işinize yarayacak #tığişiörgü#kulaklık tutucu#",
-        "kanal": "ÖrenEller",
-        "sure": "11:27",
-        "saniye": 687,
-        "izlenme": 810,
-        "puan": 11.4
+        "id": "0ynBeGd4hnY",
+        "baslik": "Parça Deri Projeleri #7 – Kablo Toplayıcı",
+        "kanal": "Çalı Krallığı",
+        "sure": "3:57",
+        "saniye": 237,
+        "izlenme": 480,
+        "puan": 18
       },
       {
-        "id": "eviCuhhLrcc",
-        "baslik": "260 TL MARKA Oyuncu Kulaklığı! Fondaki Sesleri Yükseltiyor (RGB CoolerMaster CH321)",
-        "kanal": "Frekans TV",
-        "sure": "5:32",
-        "saniye": 332,
-        "izlenme": 23150,
-        "puan": 10
+        "id": "Q0xX7r_1TRI",
+        "baslik": "Kablo Toplayıcı Set , Hakiki Deri , The Qualitala İstanbul",
+        "kanal": "The Qualitala Istanbul",
+        "sure": "3:33",
+        "saniye": 213,
+        "izlenme": 68,
+        "puan": 14.8
+      },
+      {
+        "id": "3WtwfpV0d10",
+        "baslik": "Kablo Tutucusu | Cable Holder",
+        "kanal": "Tamer Çevik Sanat Atölyesi",
+        "sure": "8:36",
+        "saniye": 516,
+        "izlenme": 1506,
+        "puan": 9.3
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "deri-makas-kilifi": {
-    "tarih": "2026-11-24T15:26:45.564Z",
-    "sorgu": "Deri Bıçak / Makas Kını nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:27.361Z",
+    "sorgu": "deri bıçak kını yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "60Gwo5lfxjc",
-        "baslik": "Kiridashi zanaatkar bıçağı yapımı",
-        "kanal": "Altuğ'un atölyesi",
-        "sure": "15:33",
-        "saniye": 933,
-        "izlenme": 76019,
-        "puan": 13.8
+        "id": "Qyf35j_636U",
+        "baslik": "Kendin Yap Bıçak Kını | Kamp Bıçağı İçin Deri Kılıf Yapıyoruz",
+        "kanal": "Velespit.net",
+        "sure": "10:11",
+        "saniye": 611,
+        "izlenme": 11168,
+        "puan": 18.6
       },
       {
-        "id": "skpoveSe6Vs",
-        "baslik": "Adım adım bıçak yapımı, kabza montajı",
-        "kanal": "Altuğ'un atölyesi",
-        "sure": "11:38",
-        "saniye": 698,
-        "izlenme": 285770,
-        "puan": 13.7
+        "id": "F2bVYfvdfOw",
+        "baslik": "Deri Bıçak Kılıfı Yapımı 4.",
+        "kanal": "Devri Ahşap Deri ve Bıçak Atölyesi",
+        "sure": "9:03",
+        "saniye": 543,
+        "izlenme": 6470,
+        "puan": 16.2
       },
       {
-        "id": "Cdsn9Mbt1Qo",
-        "baslik": "2 Dakikada Bıçak Bilemeyi Öğren",
-        "kanal": "EDCTURK",
-        "sure": "2:13",
-        "saniye": 133,
-        "izlenme": 8905220,
-        "puan": 12.9
+        "id": "Cs5ZGK-vAnA",
+        "baslik": "Making a Leather Pancake Style Swiss Army Knife Sheath  / Deri Bıçak Kılıfı Yapımı",
+        "kanal": "Teurji Crafts Handmade",
+        "sure": "18:55",
+        "saniye": 1135,
+        "izlenme": 50074,
+        "puan": 15.5
+      },
+      {
+        "id": "4pzLPmSVf-g",
+        "baslik": "Deri Bıçak Kılıfı Yapımı 3.",
+        "kanal": "Devri Ahşap Deri ve Bıçak Atölyesi",
+        "sure": "5:54",
+        "saniye": 354,
+        "izlenme": 1321,
+        "puan": 14.7
+      },
+      {
+        "id": "2-xoDnA7TG0",
+        "baslik": "Deriden bıçak kılıfı yapımı | Doğadaki İnsan 27. Bölüm",
+        "kanal": "Doğadaki İnsan",
+        "sure": "16:27",
+        "saniye": 987,
+        "izlenme": 7182,
+        "puan": 13.3
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "deri-anahtar-cebi": {
-    "tarih": "2026-11-24T15:26:46.048Z",
-    "sorgu": "Deri Anahtar Kılıfı (Kapaklı) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:27.913Z",
+    "sorgu": "deri anahtarlık kılıfı yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "yX5KavS-4m0",
-        "baslik": "Deri Çakı Kılıfı Nasıl Yapılır?  Deri hobi işleri",
-        "kanal": "Ahmet Tasci",
-        "sure": "5:31",
-        "saniye": 331,
-        "izlenme": 2700,
-        "puan": 15.1
+        "id": "SDh6K6izKsI",
+        "baslik": "Honda Anahtarına El Yapımı Deri Kılıf 🔑 | Handmade Leather Honda Key Cover",
+        "kanal": "Doğadaki Maceracı",
+        "sure": "8:15",
+        "saniye": 495,
+        "izlenme": 377,
+        "puan": 15.9
       },
       {
-        "id": "UdIcLKcnOEI",
-        "baslik": "Deritel Gerçek Deri Cüzdan Kılıfı www.deritel.com",
-        "kanal": "Nihat Vural",
-        "sure": "1:55",
-        "saniye": 115,
-        "izlenme": 115,
-        "puan": 9.6
+        "id": "hJCi3TgHZNE",
+        "baslik": "Evde Deri İşçiliğine Başlamak | Ders 3– “Deri Minimal Anahtarlık Yapımı” #diy #handmade #keşfet ",
+        "kanal": "Zbk Atölyem",
+        "sure": "13:08",
+        "saniye": 788,
+        "izlenme": 728,
+        "puan": 14.3
+      },
+      {
+        "id": "rOS3eE7A4LQ",
+        "baslik": "Crazy Deriden Anahtarlık Yapımı | Crazy Leather Keychain Making | Deri el sanatları |  DIY",
+        "kanal": "atleather craft",
+        "sure": "6:48",
+        "saniye": 408,
+        "izlenme": 2416,
+        "puan": 13.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "deri-tabak-tepsi": {
-    "tarih": "2026-11-24T15:26:46.478Z",
-    "sorgu": "Katlanır Deri Tepsi (Vide Poche) nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:28.366Z",
+    "sorgu": "deri tepsi yapımı",
+    "secim": 5,
+    "adaylar": [
+      {
+        "id": "UJRRaKwsdZ0",
+        "baslik": "Hakiki deriden el yapımı tepsi",
+        "kanal": "Deer Logo Leather",
+        "sure": "4:05",
+        "saniye": 245,
+        "izlenme": 457,
+        "puan": 15
+      },
+      {
+        "id": "WSQi7Swy8hM",
+        "baslik": "Deri Bardak Altlığı Seti - Başlangıç Seviyesine Uygun",
+        "kanal": "Daffodil Leather",
+        "sure": "16:28",
+        "saniye": 988,
+        "izlenme": 941,
+        "puan": 12
+      },
+      {
+        "id": "hy4BPXP2elk",
+        "baslik": "Sunum Tepsi Yapımı Ayrıntılı Anlatım #handmade #diy #youtube #crochet #tepsi",
+        "kanal": "Nevin Sevim Ağ (Nev Design)",
+        "sure": "18:56",
+        "saniye": 1136,
+        "izlenme": 23322,
+        "puan": 11.6
+      },
+      {
+        "id": "sl3wnW5ZrUA",
+        "baslik": "TEPSİ YAPIMI. SUNUM TEPSİSİ YAPIMI. OVAL AHŞAP TABANLI ÖRGÜ TEPSİ.",
+        "kanal": "Canan Karadayi",
+        "sure": "32:32",
+        "saniye": 1952,
+        "izlenme": 35830,
+        "puan": 8.8
+      },
+      {
+        "id": "_hFUHJgJasE",
+        "baslik": "zamaniscraft Deri Kase Yapımı / Leather Tray DIY",
+        "kanal": "zamaniscraft",
+        "sure": "6:34",
+        "saniye": 394,
+        "izlenme": 173,
+        "puan": 7.9
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "deri-damgalama": {
     "tarih": "2026-11-24T15:26:46.998Z",
@@ -5550,9 +6375,9 @@
     "ilgisiz": false
   },
   "deri-canta-sapi": {
-    "tarih": "2026-11-24T15:26:49.979Z",
-    "sorgu": "Çantaya Deri Sap Değiştirme nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:28.896Z",
+    "sorgu": "çanta sapı değiştirme deri",
+    "secim": 3,
     "adaylar": [
       {
         "id": "1Bo6FoE59XA",
@@ -5560,8 +6385,8 @@
         "kanal": "zeliha boz",
         "sure": "10:30",
         "saniye": 630,
-        "izlenme": 1232,
-        "puan": 18.1
+        "izlenme": 1245,
+        "puan": 15.6
       },
       {
         "id": "cQX_m4y-drE",
@@ -5569,8 +6394,17 @@
         "kanal": "Hobisever",
         "sure": "1:31",
         "saniye": 91,
-        "izlenme": 34326,
-        "puan": 15.8
+        "izlenme": 34489,
+        "puan": 15.3
+      },
+      {
+        "id": "oBnSIutz7Fk",
+        "baslik": "Ayarlı çanta sapı nasıl yapılır",
+        "kanal": "AzN LEATHER CRAFT",
+        "sure": "2:44",
+        "saniye": 164,
+        "izlenme": 1645,
+        "puan": 13.8
       },
       {
         "id": "BaKZt0pGkZ0",
@@ -5578,11 +6412,21 @@
         "kanal": "Hobisever",
         "sure": "1:47",
         "saniye": 107,
-        "izlenme": 14123,
-        "puan": 14.2
+        "izlenme": 14204,
+        "puan": 13.7
+      },
+      {
+        "id": "6-M09Ne-EtY",
+        "baslik": "Hazır Çanta Sapı Kulp Nasıl dikilir / Örgü Çanta Sapı Modelleri / Crochet Bag",
+        "kanal": "Hobisever",
+        "sure": "2:38",
+        "saniye": 158,
+        "izlenme": 19918,
+        "puan": 11.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "led-yanip-sonme": {
     "tarih": "2026-11-24T15:26:50.549Z",
@@ -5690,39 +6534,58 @@
     "ilgisiz": false
   },
   "ldr-gece-lambasi": {
-    "tarih": "2026-11-24T15:26:52.101Z",
-    "sorgu": "Işık Sensörlü Gece Lambası nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:29.391Z",
+    "sorgu": "arduino ldr led",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "0bg8pH0z0pI",
-        "baslik": "Xiaomi Mijia Smart Home Hareket Sensörlü Gece Lambası (Mijia Mi Light 2) Kutu Açılımı ve İncelemesi.",
-        "kanal": "TeknoMap",
-        "sure": "8:20",
-        "saniye": 500,
-        "izlenme": 36014,
-        "puan": 19.8
+        "id": "T_g24kVahpY",
+        "baslik": "10- Mblock 5 - Arduino LDR Işık Sensörü Uygulaması Karanlık Olunca Otomatik Yanan Led Lamba",
+        "kanal": "Cezeri Lab",
+        "sure": "7:41",
+        "saniye": 461,
+        "izlenme": 10177,
+        "puan": 17
       },
       {
-        "id": "iHSpgJed9_E",
-        "baslik": "sensörlü lamba ayarı nasıl yapılır / sensör gece gündüz ayarı / #evhanımı #usta #tamir #elektronik",
-        "kanal": "Evinizin Ustası",
-        "sure": "4:40",
-        "saniye": 280,
-        "izlenme": 62110,
-        "puan": 19.2
+        "id": "9d8P6_HrgUY",
+        "baslik": "Arduino İle LDR Kullanımı - (LDR İle LED Kontrolü)  #7 - Robotistan",
+        "kanal": "Robotistan",
+        "sure": "8:00",
+        "saniye": 480,
+        "izlenme": 207413,
+        "puan": 12
       },
       {
-        "id": "JK4N8qrATLo",
-        "baslik": "Hareket sensörlü şarjlı led lamba | Hareket ve ışık sensörlü usb şarjlı yuvarlak led lamba | LED",
-        "kanal": "NILAK TADEV",
-        "sure": "4:31",
-        "saniye": 271,
-        "izlenme": 1732,
-        "puan": 18.9
+        "id": "vw-82k5tvQQ",
+        "baslik": "Arduino LDR sensor + LED Tutorial",
+        "kanal": "Maker Tutor",
+        "sure": "2:05",
+        "saniye": 125,
+        "izlenme": 38736,
+        "puan": 6.9
+      },
+      {
+        "id": "QriEDuFSI7Q",
+        "baslik": "arduino ldr ile led kontrolü - arduino ldr modülü kullanımı - ldr devresi",
+        "kanal": "Elektronik Arşivi | Electronic Archive",
+        "sure": "3:31",
+        "saniye": 211,
+        "izlenme": 343,
+        "puan": 6.3
+      },
+      {
+        "id": "7e6uuSfpLdY",
+        "baslik": "LDR Arduino - Saiba como ligar e programar",
+        "kanal": "Guia Robótica",
+        "sure": "11:51",
+        "saniye": 711,
+        "izlenme": 24165,
+        "puan": 4.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "servo-kontrol": {
     "tarih": "2026-11-24T15:26:52.588Z",
@@ -5830,30 +6693,31 @@
     "ilgisiz": false
   },
   "reaksiyon-oyunu": {
-    "tarih": "2026-11-24T15:26:54.246Z",
-    "sorgu": "Refleks Ölçme Oyunu nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:29.824Z",
+    "sorgu": "arduino reaksiyon oyunu",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "ieqMj6x7TUI",
-        "baslik": "Reflex Oyunu Nedir?",
-        "kanal": "Seren Öğretmen Kutu Oyunları",
-        "sure": "1:34",
-        "saniye": 94,
-        "izlenme": 229,
-        "puan": 7.5
+        "id": "_k_MLkyb7cY",
+        "baslik": "Arduino Reaksiyon Oyunu Yapımı: Ne Kadar Hızlısın?",
+        "kanal": "OzanDamcı",
+        "sure": "3:58",
+        "saniye": 238,
+        "izlenme": 74,
+        "puan": 10.8
       },
       {
-        "id": "E-8xUcEsdaU",
-        "baslik": "Psikoteknik Testi Nedir? Nasıl yapılır?",
-        "kanal": "Ets Psikoteknik Sancaktepe",
-        "sure": "2:00",
-        "saniye": 120,
-        "izlenme": 258421,
-        "puan": 6.6
+        "id": "UGNlkRVXBBA",
+        "baslik": "Tam 10.00'da Durdurabilir misin? (İmkânsız Refleks Cihazı)",
+        "kanal": "ElectroCode",
+        "sure": "9:17",
+        "saniye": 557,
+        "izlenme": 664,
+        "puan": 10.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "hareket-alarmi": {
     "tarih": "2026-11-24T15:26:54.831Z",
@@ -6276,21 +7140,31 @@
     "ilgisiz": false
   },
   "epoksi-bardak-alti-agac": {
-    "tarih": "2026-11-25T17:04:01.441Z",
-    "sorgu": "Ahşap Dilimli Epoksi Altlık nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:30.208Z",
+    "sorgu": "epoksi kütük bardak altlığı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "01KKGufFWjU",
-        "baslik": "ArtResin Epoksi Reçine ile sanat eserinize hayat verin",
-        "kanal": "ArtResin",
-        "sure": "1:42",
-        "saniye": 102,
-        "izlenme": 533,
-        "puan": 10.1
+        "id": "fze1sSg_cnM",
+        "baslik": "Epoksi- Reçine bardak altlıkları tüm ayrıntılarıyla",
+        "kanal": "Mrs EMBEL",
+        "sure": "5:19",
+        "saniye": 319,
+        "izlenme": 7469,
+        "puan": 14.3
+      },
+      {
+        "id": "4U2R_-FVQ_E",
+        "baslik": "Epoksi bardak altlığı yapımı #epoxyresin #epoxy #epoksireçine #epoksi #epoxyart #reçine",
+        "kanal": "Epoxytasarim_",
+        "sure": "3:43",
+        "saniye": 223,
+        "izlenme": 66,
+        "puan": 12.7
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-harf": {
     "tarih": "2026-11-25T17:04:01.831Z",
@@ -6328,30 +7202,22 @@
     "ilgisiz": false
   },
   "telefon-kilifi-recine": {
-    "tarih": "2026-11-25T17:04:02.389Z",
-    "sorgu": "Kuru Çiçekli Şeffaf Telefon Kılıfı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:30.663Z",
+    "sorgu": "kuru çiçekli telefon kılıfı reçine",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "s7SjtfB_JvU",
-        "baslik": "Soğuk Silikonla, Telefon Kılıfı Nasıl Yapılır - DIY Phonecase",
-        "kanal": "Marifetli İşler",
-        "sure": "11:03",
-        "saniye": 663,
-        "izlenme": 213643,
-        "puan": 15.5
-      },
-      {
-        "id": "65If3ahoGTM",
-        "baslik": "Telefon Kılıfı Yapımı | KENDİN YAP | Hot Glue Phone Case | DIY",
-        "kanal": "Cansu Neler Yapar",
-        "sure": "2:26",
-        "saniye": 146,
-        "izlenme": 239928,
-        "puan": 14.6
+        "id": "uRsms-CY5s0",
+        "baslik": "Epoksi Reçineden Gerçek Çiçekli Telefon Kılıfı Yaptım!",
+        "kanal": "Anna Gulsoy (Ania Handmade)",
+        "sure": "11:39",
+        "saniye": 699,
+        "izlenme": 12568,
+        "puan": 19.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-kesme-tahtasi-sap": {
     "tarih": "2026-11-25T17:04:02.769Z",
@@ -6406,11 +7272,40 @@
     "ilgisiz": false
   },
   "epoksi-kolye-sise": {
-    "tarih": "2026-11-25T17:04:03.742Z",
-    "sorgu": "Mini Şişe Manzaralı Kolye nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:31.086Z",
+    "sorgu": "epoksi deniz kolye yapımı",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "BeQjnTGeb1E",
+        "baslik": "Deniz Taşları İle Kolye Yapımı / Epoksi / Reçine",
+        "kanal": "Mery'ce Tasarımlar",
+        "sure": "5:50",
+        "saniye": 350,
+        "izlenme": 1667,
+        "puan": 12.3
+      },
+      {
+        "id": "DUn71C0wubs",
+        "baslik": "EPOKSİ KOLYE NASIL YAPILIR?",
+        "kanal": "xenacraft",
+        "sure": "10:27",
+        "saniye": 627,
+        "izlenme": 2408,
+        "puan": 11.1
+      },
+      {
+        "id": "9jdPKjs6LQw",
+        "baslik": "Epoksi recine deniz dalga yapımı ve kolye yapılışı @tosta_sanat_atolyesi",
+        "kanal": "tosya_sanat_atolyesi",
+        "sure": "17:27",
+        "saniye": 1047,
+        "izlenme": 212,
+        "puan": 9
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-masa-kaplama": {
     "tarih": "2026-11-25T17:04:04.386Z",
@@ -6483,8 +7378,8 @@
     "ilgisiz": false
   },
   "epoksi-dugme": {
-    "tarih": "2026-11-25T17:04:05.523Z",
-    "sorgu": "Epoksi Düğme Yapımı nasıl yapılır",
+    "tarih": "2026-11-27T13:40:31.625Z",
+    "sorgu": "epoksi düğme yapımı",
     "secim": 0,
     "adaylar": [
       {
@@ -6495,9 +7390,19 @@
         "saniye": 102,
         "izlenme": 3742,
         "puan": 13.9
+      },
+      {
+        "id": "3UX91bjI0Sk",
+        "baslik": "Epoksi düğme! bebek saçından kolye epoksi takı  kurutulmuş çiçekten epoksi takı yapımı",
+        "kanal": "İpucu TV",
+        "sure": "2:45",
+        "saniye": 165,
+        "izlenme": 625,
+        "puan": 10.7
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-tamir": {
     "tarih": "2026-11-25T17:04:05.924Z",
@@ -6517,16 +7422,49 @@
     "ilgisiz": false
   },
   "epoksi-mum-tutucu": {
-    "tarih": "2026-11-25T17:04:06.166Z",
-    "sorgu": "Epoksi Tealight Tutucu nasıl yapılır",
+    "tarih": "2026-11-27T13:40:32.060Z",
+    "sorgu": "epoksi mumluk yapımı",
     "secim": 0,
-    "adaylar": []
+    "adaylar": [
+      {
+        "id": "YszUmit_Oj0",
+        "baslik": "1. Ders : EPOKSİ MALZEMELERİ NELERDİR⁉️✨ Hangi Malzeme ne için kullanılır?",
+        "kanal": "Papatyamepoksi",
+        "sure": "22:18",
+        "saniye": 1338,
+        "izlenme": 145016,
+        "puan": 14.7
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-kalem": {
-    "tarih": "2026-11-25T17:04:06.377Z",
-    "sorgu": "Epoksi Gövdeli Tükenmez Kalem nasıl yapılır",
-    "secim": 0,
-    "adaylar": []
+    "tarih": "2026-11-27T13:40:32.638Z",
+    "sorgu": "epoksi kalem torna",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "dQzVG4wVISE",
+        "baslik": "Epoxy Resin & Pine Cone Fountain Pen | Complete Turning Tutorial",
+        "kanal": "PipejaWood Woodturning",
+        "sure": "13:12",
+        "saniye": 792,
+        "izlenme": 1332,
+        "puan": 6.2
+      },
+      {
+        "id": "UD352PyBFg8",
+        "baslik": "30-Min Epoxy Pen",
+        "kanal": "Burl and Feather",
+        "sure": "1:54",
+        "saniye": 114,
+        "izlenme": 2161,
+        "puan": 2.5
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "epoksi-kabarcik-onleme": {
     "tarih": "2026-11-25T17:04:06.767Z",
@@ -7106,39 +8044,58 @@
     "ilgisiz": false
   },
   "radyator-hava-alma": {
-    "tarih": "2026-11-25T17:04:15.292Z",
-    "sorgu": "Radyatör Hava Alma nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:33.035Z",
+    "sorgu": "kalorifer peteği hava alma",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "vQSpPsAYKWQ",
-        "baslik": "OTO RADYATÖR VE KALORİFER PETĞİNİN HAVASINI ALDINIZ MI ? (pratik hava alma yöntemi)",
-        "kanal": "otomobil 44",
-        "sure": "5:18",
-        "saniye": 318,
-        "izlenme": 443535,
-        "puan": 22
+        "id": "U-w78t1O6TM",
+        "baslik": "PETEK HAVASI ALMA [ RADYATÖRDEN] EN DOĞRU HAVA ALMA ŞEKLİ 2021",
+        "kanal": "tuna ısıtma",
+        "sure": "4:41",
+        "saniye": 281,
+        "izlenme": 269223,
+        "puan": 19.1
       },
       {
-        "id": "b2qn9Wtr_lc",
-        "baslik": "Radyatör Hava Yaptığı Nasıl Anlaşılır, Motor Suyu Hava Yaparsa Ne Olur, Radyatör Hava Nasıl Alınır",
-        "kanal": "Oto Klinik",
-        "sure": "9:57",
-        "saniye": 597,
-        "izlenme": 443103,
-        "puan": 15
+        "id": "OsXbME-ayx8",
+        "baslik": "Kalorifer Peteği Isınmıyor Diyenlere Çok Etkili Petek Hava Alma Yöntemi",
+        "kanal": "Bav YapHele",
+        "sure": "3:50",
+        "saniye": 230,
+        "izlenme": 2201436,
+        "puan": 19
       },
       {
-        "id": "H3lbAetTolA",
-        "baslik": "CHEVROLET CRUZE ve OPEL ASTRA Radyatör Havası Nasıl Alınır?",
-        "kanal": "Mustafa Tayfur",
-        "sure": "2:58",
-        "saniye": 178,
-        "izlenme": 33412,
-        "puan": 14.3
+        "id": "iuf_D3vK7Xs",
+        "baslik": "#reklam Tüm yüzeyi eşit ısınmayan petek sorunu | Petek hava alma işlemi | Hava yapan",
+        "kanal": "Yaşar Alanoğlu",
+        "sure": "5:08",
+        "saniye": 308,
+        "izlenme": 202124,
+        "puan": 17
+      },
+      {
+        "id": "7ZSoFh60b2M",
+        "baslik": "Kalorifer Peteğinin Havası Nasıl Alınır | Isıtmayan Petek Havası Nasıl Alınır | Yanmayan Petek",
+        "kanal": "Tesisatçı Genç",
+        "sure": "3:05",
+        "saniye": 185,
+        "izlenme": 166900,
+        "puan": 14.8
+      },
+      {
+        "id": "RaLzaDggAiY",
+        "baslik": "PETEK (RADYATÖR) HAVASI NASIL ALINIR",
+        "kanal": "Tesisat Servisim",
+        "sure": "4:36",
+        "saniye": 276,
+        "izlenme": 129497,
+        "puan": 14.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kil-saksi": {
     "tarih": "2026-11-25T17:04:15.788Z",
@@ -7246,62 +8203,102 @@
     "ilgisiz": false
   },
   "kil-mekan-plakasi": {
-    "tarih": "2026-11-25T17:04:17.264Z",
-    "sorgu": "Kil Kapı İsimliği nasıl yapılır",
+    "tarih": "2026-11-27T13:40:33.440Z",
+    "sorgu": "seramik kil kapı isimliği yapımı",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "eyg0h9CoG_k",
+        "baslik": "İşim Ekmeğim 28. Bölüm (Kapı - Tokmak Yapımı - Aydan Birdevrim)",
+        "kanal": "TV100",
+        "sure": "5:05",
+        "saniye": 305,
+        "izlenme": 960,
+        "puan": 11.5
+      },
+      {
+        "id": "Xr9758vERBY",
+        "baslik": "How to make Door Name Plate at home||Wall decor || Decorative door name plate",
+        "kanal": "Backyard Gardening",
+        "sure": "8:01",
+        "saniye": 481,
+        "izlenme": 4847,
+        "puan": 5.5
+      },
+      {
+        "id": "Ocgr3_QplqY",
+        "baslik": "DIY Door Name Plate | Personalised Name Plate  | Clay crafts",
+        "kanal": "BKSUNSHINE Crafty DIY Ideas",
+        "sure": "6:16",
+        "saniye": 376,
+        "izlenme": 812,
+        "puan": 4.9
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "kil-yuzuk-tabagi": {
+    "tarih": "2026-11-27T13:40:33.946Z",
+    "sorgu": "polimer kil yüzüklük el",
     "secim": 0,
     "adaylar": [
       {
-        "id": "l2NMUM_tnC8",
-        "baslik": "Kapı İsimliği , door name 🌲",
-        "kanal": "Osman SADIÇ",
-        "sure": "11:46",
-        "saniye": 706,
-        "izlenme": 9820,
+        "id": "nKSuWeWUfLo",
+        "baslik": "KİLDEN HARİKA YÜZÜK YAPIMI💍//RING FROM CLAY",
+        "kanal": "Makas Eller",
+        "sure": "11:56",
+        "saniye": 716,
+        "izlenme": 7333,
+        "puan": 16.8
+      },
+      {
+        "id": "wz6m85yVBck",
+        "baslik": "POLİMER KİLDEN YAPABİLECEĞİNİZ ŞİRİN VE RENGARENK EL İŞLERİ",
+        "kanal": "5 Dakikada Hallet OYUN",
+        "sure": "16:01",
+        "saniye": 961,
+        "izlenme": 49966,
         "puan": 16.5
       },
       {
-        "id": "fMRfwLbA48U",
-        "baslik": "ScrollSaw / Kıl Testeresi İle Kapı İsimliği Yapımı",
-        "kanal": "Osman SADIÇ",
-        "sure": "11:40",
-        "saniye": 700,
-        "izlenme": 2726,
-        "puan": 16.2
+        "id": "z22FTi-2tV8",
+        "baslik": "Polimer Kil Hakkında Genel Bilgiler, Bölüm 2 🎨 | Yeni Başlayanlar İçin Pişirme ve Püf Noktaları",
+        "kanal": "kagitvs",
+        "sure": "10:53",
+        "saniye": 653,
+        "izlenme": 116609,
+        "puan": 15.6
       },
       {
-        "id": "f-VaBQdoO9U",
-        "baslik": "Kapı İsim Ve Numara Plakalarına Nasıl Yazı Yazılır?",
-        "kanal": "Bugra",
-        "sure": "3:36",
-        "saniye": 216,
-        "izlenme": 9931,
-        "puan": 13
-      }
-    ],
-    "ilgisiz": false
-  },
-  "kil-yuzuk-tabagi": {
-    "tarih": "2026-11-25T17:04:17.597Z",
-    "sorgu": "Polimer Kil Yüzük Tutucu (El Şekli) nasıl yapılır",
-    "secim": 0,
-    "adaylar": [
+        "id": "axO7QZzAoV0",
+        "baslik": "EL NAKIŞI ÇİÇEK VE POLİMER KİL SAKSI /HAND EMBROIDERY  & POLYMER CLAY",
+        "kanal": "Emine Seremet Embroidery",
+        "sure": "10:12",
+        "saniye": 612,
+        "izlenme": 97,
+        "puan": 12
+      },
       {
-        "id": "g2gM-g0Ml9Q",
-        "baslik": "Kil Not Tutucu Yapımı | How To Make a Note Holder With Clay",
-        "kanal": "İlayda'nın Blogu",
-        "sure": "5:06",
-        "saniye": 306,
-        "izlenme": 1100,
-        "puan": 15.6
+        "id": "SWWJcNnHhPc",
+        "baslik": "DIY Takı Yapımı Seramik Hamurundan Kolye",
+        "kanal": "Özgülle Tasarla Boya Özgül ",
+        "sure": "2:06",
+        "saniye": 126,
+        "izlenme": 4535,
+        "puan": 7.5
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kil-miknatis-meyve": {
-    "tarih": "2026-11-25T17:04:17.844Z",
-    "sorgu": "Kil Meyve Dilimi Magnetler nasıl yapılır",
+    "tarih": "2026-11-27T13:40:34.269Z",
+    "sorgu": "polimer kil meyve kanyon",
     "secim": 0,
-    "adaylar": []
+    "adaylar": [],
+    "ilgisiz": false,
+    "tur": 2
   },
   "seramik-kupa-boyama": {
     "tarih": "2026-11-25T17:04:18.419Z",
@@ -7505,99 +8502,283 @@
     "ilgisiz": false
   },
   "kil-minyatur-pasta": {
-    "tarih": "2026-11-25T17:04:21.360Z",
-    "sorgu": "Minyatür Pasta (Dekoratif) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:34.820Z",
+    "sorgu": "polimer kil minyatür pasta",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "UbaH5Lr-6Dg",
-        "baslik": "Sevcan ile Mini Mutfakta Çilekli bahçe pastası yapıyoruz",
-        "kanal": "MiniBiz",
-        "sure": "14:52",
-        "saniye": 892,
-        "izlenme": 34370739,
-        "puan": 18.8
+        "id": "rY4sbxEbGWk",
+        "baslik": "Polimer kil (fimo) minyatür pasta nasıl yapılır?-2 - 10marifet",
+        "kanal": "10marifet",
+        "sure": "6:18",
+        "saniye": 378,
+        "izlenme": 11443,
+        "puan": 16.6
+      },
+      {
+        "id": "RBrhJcGJC0Y",
+        "baslik": "Polimer kil (fimo) minyatür pasta nasıl yapılır?-1 - 10marifet",
+        "kanal": "10marifet",
+        "sure": "5:46",
+        "saniye": 346,
+        "izlenme": 4366,
+        "puan": 15.5
+      },
+      {
+        "id": "UYfjito7-4Y",
+        "baslik": "minyatür pasta nasıl yapılır? kolay kremalı pasta yapımı #dıy #nasılyapılır #minyatür #polymerclay",
+        "kanal": "Minyatür Yemek",
+        "sure": "4:08",
+        "saniye": 248,
+        "izlenme": 275,
+        "puan": 14.7
+      },
+      {
+        "id": "TpN3FEANH9Y",
+        "baslik": "YENİ BAŞLAYANLAR İÇİN 20 POLİMER KİL MİNYATÜR EL İŞİ",
+        "kanal": "5 DAKİKADA HALLET",
+        "sure": "6:13",
+        "saniye": 373,
+        "izlenme": 61176,
+        "puan": 13.7
+      },
+      {
+        "id": "s50PxpF1oJw",
+        "baslik": "Miniature Polymer Clay Chocolate Cake Tutorial / Polimer Kil Çikolatalı Pasta Yapımı",
+        "kanal": "Anna Gulsoy (Ania Handmade)",
+        "sure": "7:52",
+        "saniye": 472,
+        "izlenme": 1115,
+        "puan": 9.6
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kil-kalemlik": {
-    "tarih": "2026-11-25T17:04:21.773Z",
-    "sorgu": "Kil Kalemlik (Bobin Tekniği) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:35.285Z",
+    "sorgu": "kil kalemlik yapımı",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "oI78I8jJBok",
-        "baslik": "hurdaya atılmış servet / atma değerlendir",
-        "kanal": "Zaman Buldukca Hobi",
-        "sure": "4:37",
-        "saniye": 277,
-        "izlenme": 334,
-        "puan": 5.8
-      }
-    ],
-    "ilgisiz": true
-  },
-  "kil-esarp-halkasi": {
-    "tarih": "2026-11-25T17:04:22.025Z",
-    "sorgu": "Polimer Kil Fular/Eşarp Halkası nasıl yapılır",
-    "secim": 0,
-    "adaylar": []
-  },
-  "kil-saat": {
-    "tarih": "2026-11-25T17:04:22.587Z",
-    "sorgu": "Kil Duvar Saati nasıl yapılır",
-    "secim": 0,
-    "adaylar": [
-      {
-        "id": "9wY7bpuYtPI",
-        "baslik": "EVDE İLK KIL TESTERE ÇALIŞMAM DUVAR SAATİ YAPIMI SCROLL SAW (BEGINNER)",
-        "kanal": "Her Şeyden Bir Şey",
-        "sure": "1:44",
-        "saniye": 104,
-        "izlenme": 1974,
+        "id": "ZqCzAYVr6kQ",
+        "baslik": "EVDE KENDİM KİLDEN TABAK VE KALEMLİK YAPTIM / DIY!!",
+        "kanal": "Aslıyarence",
+        "sure": "14:31",
+        "saniye": 871,
+        "izlenme": 19911,
         "puan": 13.9
       },
       {
-        "id": "OY-1A6L8FIg",
-        "baslik": "Tasarım Harikası Duvar Saati // DIY Elegant Wall Clock",
-        "kanal": "TornHands",
-        "sure": "6:34",
-        "saniye": 394,
-        "izlenme": 259,
-        "puan": 13.6
+        "id": "s68t_4gvfJg",
+        "baslik": "Seramik Hamuru ile Kalemlik Yapalım",
+        "kanal": "Mimesis Art",
+        "sure": "11:41",
+        "saniye": 701,
+        "izlenme": 2046,
+        "puan": 12.5
       },
       {
-        "id": "Zgk655fmKP0",
-        "baslik": "ihlas suresi duvar saati kıl testere çalışması ahşap dilegeldi",
-        "kanal": "ahşap dilegeldi",
-        "sure": "25:40",
-        "saniye": 1540,
-        "izlenme": 1899,
-        "puan": 12.4
+        "id": "CwxK93-SEDI",
+        "baslik": "Kalemlik Yapımı / Kağıttan Kalem Kutusu Klasörü Yapımı / Kolay Kalemlik Yapımı",
+        "kanal": "Bizimle Yap",
+        "sure": "6:34",
+        "saniye": 394,
+        "izlenme": 1003347,
+        "puan": 12.5
+      },
+      {
+        "id": "KhajQ0tvHJE",
+        "baslik": "SERAMİK HAMURU İLE KALEMLİK YAPIMI (Fırınlama gerekmeden)",
+        "kanal": " Toprak's Design Studio ",
+        "sure": "25:25",
+        "saniye": 1525,
+        "izlenme": 6590,
+        "puan": 11.7
+      },
+      {
+        "id": "fNFhCLVrjyk",
+        "baslik": "DIY-Seramik hamurundan kalemlik- Pencil box with ceramic clay",
+        "kanal": "Sen de yaparsın",
+        "sure": "9:04",
+        "saniye": 544,
+        "izlenme": 3357,
+        "puan": 7.8
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "kil-esarp-halkasi": {
+    "tarih": "2026-11-27T13:40:35.720Z",
+    "sorgu": "polimer kil yüzük yapımı",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "IcfO_nbWsNI",
+        "baslik": "Polimer Kil ile Takı  yapımı",
+        "kanal": "Hobium & Örgü Modelleri",
+        "sure": "9:03",
+        "saniye": 543,
+        "izlenme": 36948,
+        "puan": 13.9
+      },
+      {
+        "id": "nKSuWeWUfLo",
+        "baslik": "KİLDEN HARİKA YÜZÜK YAPIMI💍//RING FROM CLAY",
+        "kanal": "Makas Eller",
+        "sure": "11:56",
+        "saniye": 716,
+        "izlenme": 7333,
+        "puan": 12.3
+      },
+      {
+        "id": "0gIpmpXKcbQ",
+        "baslik": "Kilden yüzük yapımı",
+        "kanal": "Minnos Seyler",
+        "sure": "5:16",
+        "saniye": 316,
+        "izlenme": 155031,
+        "puan": 12.3
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "kil-saat": {
+    "tarih": "2026-11-27T13:40:36.233Z",
+    "sorgu": "seramik kil duvar saati",
+    "secim": 0,
+    "adaylar": [
+      {
+        "id": "1QJ4sQsVHuY",
+        "baslik": "Seramik Hamuru ile Akan Saatler Yapımı",
+        "kanal": "Mimesis Art",
+        "sure": "14:22",
+        "saniye": 862,
+        "izlenme": 993,
+        "puan": 12.5
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kil-hediye-etiketi": {
-    "tarih": "2026-11-25T17:04:23.025Z",
-    "sorgu": "Kil Hediye Etiketi ve Süs nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:36.636Z",
+    "sorgu": "hava ile kuruyan kil yılbaşı süsü",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "helgUZa6N-Q",
+        "baslik": "🎄 Lena ile Yılbaşı Ağacı Süsleri Yapıyoruz | Air Clay (Havayla Kuruyan Kil) | Bölüm 1",
+        "kanal": "Lena TV",
+        "sure": "5:21",
+        "saniye": 321,
+        "izlenme": 38,
+        "puan": 13.4
+      },
+      {
+        "id": "RjpAk-q-lBI",
+        "baslik": "Fırın Yok, Torna Yok! 🎄 Evde Yılbaşı Süsü Yapımı I No Kiln Needed! 🎄 Easy DIY Christmas Ornaments",
+        "kanal": "Ceyda Bozkurt Art Studio",
+        "sure": "11:53",
+        "saniye": 713,
+        "izlenme": 330,
+        "puan": 13.3
+      },
+      {
+        "id": "oWFxaR7Omh0",
+        "baslik": "Havayla Kuruyan Kil Tasarımı | Başlangıç Rehberi (Bölüm 1)",
+        "kanal": "nui artworks",
+        "sure": "2:52",
+        "saniye": 172,
+        "izlenme": 13374,
+        "puan": 9.7
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kus-banyosu": {
-    "tarih": "2026-11-25T17:04:23.233Z",
-    "sorgu": "Saksı Altlığından Kuş Banyosu nasıl yapılır",
+    "tarih": "2026-11-27T13:40:37.065Z",
+    "sorgu": "kuş banyosu yapımı",
     "secim": 0,
-    "adaylar": []
+    "adaylar": [
+      {
+        "id": "Xu22S4jkySg",
+        "baslik": "Su Şişesi Kuş Banyosu Yapımı Muhabbet Kuşu Papağan",
+        "kanal": "ÜNAL VLOG",
+        "sure": "3:58",
+        "saniye": 238,
+        "izlenme": 4029377,
+        "puan": 19.4
+      },
+      {
+        "id": "pEDPOKsFgtg",
+        "baslik": "Kuş Banyosu Yapımı, Ahşap Tabaktan Duş Banyoluk Kuş havuzu Yapımı  Muhabbet kuşu Papağan",
+        "kanal": "EV KUŞLARI",
+        "sure": "8:56",
+        "saniye": 536,
+        "izlenme": 124871,
+        "puan": 18.1
+      },
+      {
+        "id": "MZPIweG1Qyc",
+        "baslik": "Muhabbet Kuşu Nasıl Yıkanır?| Muhabbet Kuşu Banyo Yaptırma",
+        "kanal": "EV KUŞLARI",
+        "sure": "5:18",
+        "saniye": 318,
+        "izlenme": 4689428,
+        "puan": 18
+      },
+      {
+        "id": "UfWgVzAsAbY",
+        "baslik": "Evcil Kuşlarımız İçin Pet Şişeden Banyoluk Yapımı!",
+        "kanal": "Maskeli Papağan",
+        "sure": "4:28",
+        "saniye": 268,
+        "izlenme": 9505,
+        "puan": 13.5
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kus-keki": {
-    "tarih": "2026-11-25T17:04:23.676Z",
-    "sorgu": "Kış İçin Kuş Yağlı Yem Keki nasıl yapılır",
+    "tarih": "2026-11-27T13:40:37.520Z",
+    "sorgu": "kuşlar için yağlı yem yapımı",
     "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "adaylar": [
+      {
+        "id": "NN4zD7ENknc",
+        "baslik": "Muhabbet Kuşu Mama Tarifi Bu Mamayı Yemeyecek Kuş Yok - 2022",
+        "kanal": "Sefa Erdoğan",
+        "sure": "19:59",
+        "saniye": 1199,
+        "izlenme": 88701,
+        "puan": 16.4
+      },
+      {
+        "id": "_ZPOzG2Nq6o",
+        "baslik": "Yavrusu Olan Muhabbet Kuşuna Hangi Besinler Verilmeli",
+        "kanal": "ÜNAL VLOG",
+        "sure": "8:31",
+        "saniye": 511,
+        "izlenme": 455516,
+        "puan": 15
+      },
+      {
+        "id": "-DBk0Zn5TAU",
+        "baslik": "KUŞLAR İÇİN MAMA YAPIMI (KANARYALAR  MUHABBET KUŞLARI İÇİN YUMURTA MAMASI) MAKING EGGFOOD FOR BIRDS",
+        "kanal": "Kanarya Evi",
+        "sure": "3:30",
+        "saniye": 210,
+        "izlenme": 35501,
+        "puan": 14.8
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kedi-yatagi": {
     "tarih": "2026-11-25T17:04:24.131Z",
@@ -7635,11 +8816,58 @@
     "ilgisiz": false
   },
   "kedi-oltasi": {
-    "tarih": "2026-11-25T17:04:24.655Z",
-    "sorgu": "Tüylü Kedi Oltası Oyuncağı nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:38.010Z",
+    "sorgu": "kedi oltası yapımı",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "Z6l9lWQ_5qU",
+        "baslik": "Evde kedi oyuncağı yapımı: Kedi Oltası, DIY",
+        "kanal": "Kedi Lolayla",
+        "sure": "4:17",
+        "saniye": 257,
+        "izlenme": 50167,
+        "puan": 20.1
+      },
+      {
+        "id": "uNBDGGWt9rI",
+        "baslik": "KEDİ OLTASI Oyuncağı Yapımı",
+        "kanal": "Alican Akhan",
+        "sure": "6:35",
+        "saniye": 395,
+        "izlenme": 1569,
+        "puan": 18.8
+      },
+      {
+        "id": "GpB04jJpWco",
+        "baslik": "Kedi oyuncağı yapımı, kendin yap, DIY",
+        "kanal": "Kedi Lolayla",
+        "sure": "12:38",
+        "saniye": 758,
+        "izlenme": 87955,
+        "puan": 17.9
+      },
+      {
+        "id": "8mQmKzlkHm0",
+        "baslik": "KEDİLERİ MUTLU ETMENİN YOLUNU BULDUM | KEDİ OLTASI NASIL YAPILIR | DIY",
+        "kanal": "Yasemin Can Yatağan",
+        "sure": "8:56",
+        "saniye": 536,
+        "izlenme": 6185,
+        "puan": 15.2
+      },
+      {
+        "id": "wVbnNg2e4MI",
+        "baslik": "🐾 Kedi Oltası Yapımı 🐾 | Sürpriz Sonlu 😍💕 | Ebrar Yazıcı",
+        "kanal": "Ebrar Yazıcı",
+        "sure": "10:03",
+        "saniye": 603,
+        "izlenme": 2279,
+        "puan": 14
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kopek-kulubesi": {
     "tarih": "2026-11-25T17:04:25.098Z",
@@ -7677,30 +8905,49 @@
     "ilgisiz": false
   },
   "kopek-halat-oyuncak": {
-    "tarih": "2026-11-25T17:04:25.734Z",
-    "sorgu": "Tişörtten Örgü Halat Köpek Oyuncağı nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:38.416Z",
+    "sorgu": "tişörtten köpek oyuncağı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "VaYMswO9tLY",
-        "baslik": "TIĞ İŞİ ÖRGÜ ( KEDİ-KÖPEK ) OYUNCAĞI NASIL YAPILIR ?",
-        "kanal": "ÖRGÜPEREST",
-        "sure": "5:35",
-        "saniye": 335,
-        "izlenme": 4641,
-        "puan": 19.5
+        "id": "9qmnKlTNI_Q",
+        "baslik": "Eski kıyafetlerden köpek oyuncağı yapımı 🐕",
+        "kanal": "Ezgi Eryılmaz",
+        "sure": "5:20",
+        "saniye": 320,
+        "izlenme": 2770,
+        "puan": 15.7
       },
       {
-        "id": "Dhm78kFns0w",
-        "baslik": "Kedi ve köpeğinizin seveceği bir oyuncak yapalım, zıpzıp top, DIY",
-        "kanal": "Kedi Lolayla",
-        "sure": "2:35",
-        "saniye": 155,
-        "izlenme": 7217,
-        "puan": 10.3
+        "id": "Ba7cK1k0jOg",
+        "baslik": "Eski Tişört ve Tenis Topundan Köpek Oyuncağına İleri Dönüşüm",
+        "kanal": "Anadolu Hayat Emeklilik",
+        "sure": "7:21",
+        "saniye": 441,
+        "izlenme": 209,
+        "puan": 14.5
+      },
+      {
+        "id": "VnsZa2ZcerE",
+        "baslik": "Keçe ve Tişörtlerden Köpek Oyuncağı ve Kırlent Yapıyoruz w/ @TarzMeselesi & @bizdegeziyoruz",
+        "kanal": "Lider Pet Food",
+        "sure": "11:29",
+        "saniye": 689,
+        "izlenme": 407,
+        "puan": 13.4
+      },
+      {
+        "id": "L8uJpg8rjbQ",
+        "baslik": "DIY Dog Toy Making Video",
+        "kanal": "Houston Humane Society",
+        "sure": "4:12",
+        "saniye": 252,
+        "izlenme": 204754,
+        "puan": 6.5
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kopek-odulu": {
     "tarih": "2026-11-25T17:04:26.164Z",
@@ -7834,30 +9081,12 @@
     "ilgisiz": false
   },
   "kedi-raflari": {
-    "tarih": "2026-11-25T17:04:28.281Z",
-    "sorgu": "Duvara Kedi Tırmanma Rafları nasıl yapılır",
+    "tarih": "2026-11-27T13:40:38.899Z",
+    "sorgu": "kedi rafı yapımı duvar",
     "secim": 0,
-    "adaylar": [
-      {
-        "id": "wnMgVbFY0T8",
-        "baslik": "KEDİLERİMİZE İKİ KATLI RANZA YAPTIM",
-        "kanal": "DOĞA&SANAT",
-        "sure": "2:14",
-        "saniye": 134,
-        "izlenme": 218,
-        "puan": 6.5
-      },
-      {
-        "id": "sfj1yDGM868",
-        "baslik": "Ahşap Terek Yapımı - DIY - Make a Wooden Shelves",
-        "kanal": "Yapıyapıve",
-        "sure": "8:32",
-        "saniye": 512,
-        "izlenme": 2292,
-        "puan": 5.5
-      }
-    ],
-    "ilgisiz": false
+    "adaylar": [],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kus-tunegi": {
     "tarih": "2026-11-25T17:04:28.638Z",
@@ -7947,9 +9176,9 @@
     "ilgisiz": false
   },
   "bocek-oteli": {
-    "tarih": "2026-11-25T17:04:30.428Z",
-    "sorgu": "Böcek Oteli nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:39.308Z",
+    "sorgu": "böcek oteli yapımı",
+    "secim": 4,
     "adaylar": [
       {
         "id": "r0kfqOqRsaY",
@@ -7957,8 +9186,8 @@
         "kanal": "TRT Çocuk",
         "sure": "8:03",
         "saniye": 483,
-        "izlenme": 286578,
-        "puan": 18.7
+        "izlenme": 286899,
+        "puan": 17.7
       },
       {
         "id": "55anqSSB3Hw",
@@ -7966,63 +9195,102 @@
         "kanal": "Galik Kids",
         "sure": "5:34",
         "saniye": 334,
-        "izlenme": 1555,
+        "izlenme": 1566,
         "puan": 15.8
       },
       {
-        "id": "LUxX-38Eoe8",
-        "baslik": "HİKAYE:BÖCEK OTELİ",
-        "kanal": "Aylin ÖZÇAKA",
-        "sure": "5:02",
-        "saniye": 302,
-        "izlenme": 567,
-        "puan": 14.1
-      }
-    ],
-    "ilgisiz": false
-  },
-  "kirpi-evi": {
-    "tarih": "2026-11-25T17:04:31.779Z",
-    "sorgu": "Kirpi Kış Yuvası nasıl yapılır",
-    "secim": 0,
-    "adaylar": [
-      {
-        "id": "0BvVFG9hQ6g",
-        "baslik": "Kirpi Kışın Neden Uyur? 🦔 Kış Uykusuna Yatan Hayvanlar | Okul Öncesi Eğitici Çizgi Film",
-        "kanal": "Öğretmenimin Sesi",
-        "sure": "6:41",
-        "saniye": 401,
-        "izlenme": 1351,
-        "puan": 15.2
+        "id": "bBZOzE6tKrU",
+        "baslik": "PALETTEN ADIM ADIM YABAN ARISI VE BÖCEK OTELİ YAPIMI.BAHÇENİZDE DOĞAL DÖNGÜYÜ DESTEKLEYİN#INSEKTOTEL",
+        "kanal": "ACEMiBAHCIVAN",
+        "sure": "7:50",
+        "saniye": 470,
+        "izlenme": 25,
+        "puan": 12.1
       },
       {
-        "id": "p4DFwXUqYz8",
-        "baslik": "Kirpi Tarçın'ın Sabretmeyi Öğrendiği Kış Yuvası Masalı 🦔🍂🏠 Eğitici Masallar",
-        "kanal": "Çocuk Masalları ve Şarkılar",
-        "sure": "9:11",
-        "saniye": 551,
-        "izlenme": 16,
-        "puan": 13.3
+        "id": "gMt1KSS_kwY",
+        "baslik": "Bir böcek oteli yapma",
+        "kanal": "SKIL Türkiye",
+        "sure": "1:49",
+        "saniye": 109,
+        "izlenme": 2277,
+        "puan": 12
+      },
+      {
+        "id": "hKpC5RcZFRY",
+        "baslik": "PALETTEN ADIM ADIM YABAN ARISI VE BÖCEK OTELİ YAPIMI.BAHÇENİZDE DOĞAL DÖNGÜYÜ ( 2.BÖLÜM )#INSEKTOTEL",
+        "kanal": "ACEMiBAHCIVAN",
+        "sure": "11:22",
+        "saniye": 682,
+        "izlenme": 76,
+        "puan": 10.8
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
-  "yemlik-kamerasi": {
-    "tarih": "2026-11-25T17:04:32.220Z",
-    "sorgu": "Eski Telefonla Kuş Yemliği Kamerası nasıl yapılır",
+  "kirpi-evi": {
+    "tarih": "2026-11-27T13:40:39.744Z",
+    "sorgu": "kirpi evi yapımı",
     "secim": 0,
     "adaylar": [
       {
-        "id": "-UvzucSnd50",
-        "baslik": "WiFi Birdhouse Camera Operation on Mobile Phone",
-        "kanal": "Green-Backyard",
-        "sure": "2:15",
-        "saniye": 135,
-        "izlenme": 25405,
-        "puan": 4.6
+        "id": "UJHsSieNHEs",
+        "baslik": "Dekoratif Kirpi Nasıl Yapılır",
+        "kanal": "İŞSİZLİKTEN",
+        "sure": "1:55",
+        "saniye": 115,
+        "izlenme": 752,
+        "puan": 8.3
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "yemlik-kamerasi": {
+    "tarih": "2026-11-27T13:40:40.174Z",
+    "sorgu": "eski telefonu güvenlik kamerası yapma",
+    "secim": 4,
+    "adaylar": [
+      {
+        "id": "pGXA0vrJ8LI",
+        "baslik": "ESKİ TELEFON VE TABLETLERİNİZİ GÜVENLİK KAMERASI OLARAK KULLANMA YOLU !! TELEFONU KAMERAYA ÇEVİRMEK.",
+        "kanal": "Cankan Taş",
+        "sure": "4:17",
+        "saniye": 257,
+        "izlenme": 6680,
+        "puan": 19.7
+      },
+      {
+        "id": "7oU3NeHfqFg",
+        "baslik": "Eski Telefonunu Çöpe Atan Pişman! 0 TL'ye Profesyonel Güvenlik Kamerası",
+        "kanal": "Pratik Teknoloji",
+        "sure": "3:33",
+        "saniye": 213,
+        "izlenme": 2736,
+        "puan": 18.7
+      },
+      {
+        "id": "Le5X7oVwH5g",
+        "baslik": "Telefonu güvenlik kamerası yapma. boşta duran telefon nasıl güvenlik kamerası yapılır Bebek kamerası",
+        "kanal": "DEBUDE",
+        "sure": "5:34",
+        "saniye": 334,
+        "izlenme": 6375,
+        "puan": 14.2
+      },
+      {
+        "id": "cBAsDcQ1wU8",
+        "baslik": "Evde Bedavaya Güvenlik Kamerası Yaptık!",
+        "kanal": "Webtekno Plus",
+        "sure": "4:24",
+        "saniye": 264,
+        "izlenme": 86971,
+        "puan": 11.4
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "tank-maketi": {
     "tarih": "2026-11-25T17:04:32.776Z",
@@ -8121,18 +9389,94 @@
     "ilgisiz": false
   },
   "papercraft": {
-    "tarih": "2026-11-25T17:04:34.217Z",
-    "sorgu": "Kağıt Maket (Papercraft) Bina nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:40.651Z",
+    "sorgu": "papercraft kağıt maket ev",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "jDyd3VYz5rk",
+        "baslik": "Atık Kağıttan Dağ Evi Yapımı -  How to Make House From Waste Paper - DIY Mini Log Cabin",
+        "kanal": "Bir Parça Kağıt",
+        "sure": "13:12",
+        "saniye": 792,
+        "izlenme": 1817702,
+        "puan": 17.9
+      },
+      {
+        "id": "CGfdnzux4rM",
+        "baslik": "KAĞITTAN EV YAPIMI",
+        "kanal": "Origami Kültür",
+        "sure": "4:33",
+        "saniye": 273,
+        "izlenme": 259630,
+        "puan": 15.1
+      },
+      {
+        "id": "OJGs2zUluBQ",
+        "baslik": "How To Make Easy Paper House | Easy paper toys",
+        "kanal": "123 Easy Paper Crafts DIY",
+        "sure": "4:12",
+        "saniye": 252,
+        "izlenme": 2554152,
+        "puan": 14.1
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "n-tren": {
-    "tarih": "2026-11-25T17:04:34.733Z",
-    "sorgu": "Küçük Masa Üstü Tren Hattı nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:41.113Z",
+    "sorgu": "maket tren hattı yapımı",
+    "secim": 2,
+    "adaylar": [
+      {
+        "id": "N152X5MSqs4",
+        "baslik": "Atık Kağıttan Tren Nasıl Yapılır / How to Make a Train from Waste Paper",
+        "kanal": "Bir Parça Kağıt",
+        "sure": "11:45",
+        "saniye": 705,
+        "izlenme": 143138,
+        "puan": 13.2
+      },
+      {
+        "id": "PjcDnuPYwy8",
+        "baslik": "model tren diorama 1/87 ölçek yapım aşamaları",
+        "kanal": "BİR DÜNYA HOBİ Turgut KIZILTAŞ",
+        "sure": "3:34",
+        "saniye": 214,
+        "izlenme": 550,
+        "puan": 12.1
+      },
+      {
+        "id": "I9BIHu822NY",
+        "baslik": "Maket Tren istasyonu yapımı / Afyon şehir istasyonu maketi",
+        "kanal": "Burhan GEÇER",
+        "sure": "9:02",
+        "saniye": 542,
+        "izlenme": 1139,
+        "puan": 12.1
+      },
+      {
+        "id": "mRD3tk2zL7I",
+        "baslik": "Hobi dünyası Maket Tren",
+        "kanal": "HAKKI BAKIRCIALİOĞLU",
+        "sure": "5:15",
+        "saniye": 315,
+        "izlenme": 43,
+        "puan": 7.5
+      },
+      {
+        "id": "v1zYIWcFxWs",
+        "baslik": "Sıfırdan Tren Dioraması Yaptık. Müşterimiz için tren dioraması yaptık.",
+        "kanal": "HobbyTime",
+        "sure": "2:07",
+        "saniye": 127,
+        "izlenme": 1249,
+        "puan": 6.1
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "mimari-maket": {
     "tarih": "2026-11-25T17:04:35.340Z",
@@ -8170,21 +9514,58 @@
     "ilgisiz": false
   },
   "araba-maketi": {
-    "tarih": "2026-11-25T17:04:35.820Z",
-    "sorgu": "Plastik Otomobil Maketi (Parlak Boya) nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:41.658Z",
+    "sorgu": "maket araba boyama",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "xd_-8dsQHTI",
-        "baslik": "Plastik nasıl boyanır, How to paint plastic",
-        "kanal": "Usta Tv",
-        "sure": "7:23",
-        "saniye": 443,
-        "izlenme": 121792,
-        "puan": 18.1
+        "id": "2jZokD4Kae4",
+        "baslik": "MAKETLERDE KULLANILAN BOYALAR!!! ARADIĞINIZ TÜM DETAYLAR !!! | | MEKANİK EXPRESS 6",
+        "kanal": "Mekanik Doktoru",
+        "sure": "9:10",
+        "saniye": 550,
+        "izlenme": 12797,
+        "puan": 17.2
+      },
+      {
+        "id": "eDcab-z8xmw",
+        "baslik": "Maket yapımında hangi boyalar kullanılır?",
+        "kanal": "Çağıl İçen",
+        "sure": "9:10",
+        "saniye": 550,
+        "izlenme": 31865,
+        "puan": 16.8
+      },
+      {
+        "id": "qpZExH7KepA",
+        "baslik": "DİECAST MODEL ARABA NASIL BOYANIR BOYAMA AŞAMALARI BÖLÜM.1",
+        "kanal": "SamsunDiecast Model",
+        "sure": "5:59",
+        "saniye": 359,
+        "izlenme": 63910,
+        "puan": 14.7
+      },
+      {
+        "id": "0p5x3SrdcIc",
+        "baslik": "Nasıl maket yapılır? 3. Kısım boyama aşaması.",
+        "kanal": "Çağıl İçen",
+        "sure": "24:43",
+        "saniye": 1483,
+        "izlenme": 19884,
+        "puan": 13.4
+      },
+      {
+        "id": "AC_MUMc-lGE",
+        "baslik": "Model Araba Diorama Garaj Yapımı 1:18 Diecast | Part 1",
+        "kanal": "Biberoğlu Diecast",
+        "sure": "15:23",
+        "saniye": 923,
+        "izlenme": 643616,
+        "puan": 11.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "figur-boyama": {
     "tarih": "2026-11-25T17:04:36.395Z",
@@ -8239,11 +9620,12 @@
     "ilgisiz": false
   },
   "diorama-su": {
-    "tarih": "2026-11-25T17:04:37.427Z",
-    "sorgu": "Diorama Suyu: Dere ve Gölet nasıl yapılır",
+    "tarih": "2026-11-27T13:40:42.094Z",
+    "sorgu": "maket su efekti reçine diorama",
     "secim": 0,
     "adaylar": [],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "isikli-diorama": {
     "tarih": "2026-11-25T17:04:38.104Z",
@@ -8351,39 +9733,58 @@
     "ilgisiz": false
   },
   "topografik-harita": {
-    "tarih": "2026-11-25T17:04:39.493Z",
-    "sorgu": "Katmanlı Topografik Harita nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:42.532Z",
+    "sorgu": "katmanlı topografik maket",
+    "secim": 3,
     "adaylar": [
       {
-        "id": "ITHUqARI36E",
-        "baslik": "Parsel Sorgu Uygulaması Harita Katmanları Menüsü - Tapu ve Kadastro Genel Müdürlüğü",
-        "kanal": "Tapu ve Kadastro Genel Müdürlüğü",
-        "sure": "5:33",
-        "saniye": 333,
-        "izlenme": 50125,
-        "puan": 15.1
+        "id": "pAKcMKY7ZI4",
+        "baslik": "ARAZİ MAKETİ  YAPIMI - İZOHİPS HARİTASI ÇIKARMA -İPUÇLARI",
+        "kanal": "SEMA KARAKUŞ",
+        "sure": "6:22",
+        "saniye": 382,
+        "izlenme": 6082,
+        "puan": 12.2
       },
       {
-        "id": "u2pk__lflBY",
-        "baslik": "Topografik haritada Grid Koordinat Sisteminde Noktanın Adresini ve Koordinatın yerini bulmak Part 2",
-        "kanal": "demirkan sarıkaya",
-        "sure": "13:19",
-        "saniye": 799,
-        "izlenme": 10720,
-        "puan": 14.5
+        "id": "J6RZwD-hKlU",
+        "baslik": "10 DK'DA ARAZİ MAKETİ (Yeni Başlayanlar İçin)",
+        "kanal": "ricosult",
+        "sure": "8:45",
+        "saniye": 525,
+        "izlenme": 8954,
+        "puan": 9.9
       },
       {
-        "id": "QtQPa3oCHCw",
-        "baslik": "25000 Ölçekli Topgrafik Harita Eğitimi Haritayı Tanıyorum Part 1",
-        "kanal": "demirkan sarıkaya",
-        "sure": "13:54",
-        "saniye": 834,
-        "izlenme": 6864,
-        "puan": 13.8
+        "id": "xldRHov6-VE",
+        "baslik": "Kartondan Arazi Maketi Yapımı",
+        "kanal": "mimerd",
+        "sure": "2:59",
+        "saniye": 179,
+        "izlenme": 23083,
+        "puan": 9.5
+      },
+      {
+        "id": "-v6WIVzWkuM",
+        "baslik": "Arazi Maketimi Nasıl Yapıyorum? || Site Model",
+        "kanal": "Özge Deniz Doğan",
+        "sure": "20:14",
+        "saniye": 1214,
+        "izlenme": 15439,
+        "puan": 8.8
+      },
+      {
+        "id": "UwjW6SB7MsM",
+        "baslik": "Paint 3D Topoğrafya Haritası Manipülasyonu - Topographic Map Manipulation",
+        "kanal": "Deniz Özgür",
+        "sure": "17:28",
+        "saniye": 1048,
+        "izlenme": 597,
+        "puan": 8.7
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "ahsap-gemi": {
     "tarih": "2026-11-25T17:04:39.919Z",
@@ -8438,21 +9839,12 @@
     "ilgisiz": false
   },
   "strafor-kale": {
-    "tarih": "2026-11-25T17:04:40.764Z",
-    "sorgu": "Strafordan Taş Duvarlı Kale nasıl yapılır",
+    "tarih": "2026-11-27T13:40:42.943Z",
+    "sorgu": "straforda taş duvar efekti",
     "secim": 0,
-    "adaylar": [
-      {
-        "id": "kC-UjQD9xG8",
-        "baslik": "Doğal Taş ile Duvar Kaplama, Kendin Yap",
-        "kanal": "HAYALLERİMİ YAŞIYORUM",
-        "sure": "4:13",
-        "saniye": 253,
-        "izlenme": 142061,
-        "puan": 16.2
-      }
-    ],
-    "ilgisiz": false
+    "adaylar": [],
+    "ilgisiz": false,
+    "tur": 2
   },
   "makrome-anahtarlik": {
     "tarih": "2026-11-25T17:04:41.232Z",
@@ -8980,39 +10372,58 @@
     "ilgisiz": false
   },
   "tel-tava-orgu": {
-    "tarih": "2026-11-26T09:08:31.838Z",
-    "sorgu": "Tığ İşi Bitki Askısı (Saksı Kılıfı) nasıl yapılır",
+    "tarih": "2026-11-27T13:40:43.349Z",
+    "sorgu": "tığ işi saksı askısı",
     "secim": 0,
     "adaylar": [
-      {
-        "id": "TC2ZJPKNAIk",
-        "baslik": "Subtitled Tutorial❤ EASY CROCHET❤ MUHTEŞEM OLDU🎁Tığ işi Saksıda Çiçek Salkımları Yapımı❤Örgü Saksı",
-        "kanal": "birsepetyumakkcrochet",
-        "sure": "50:26",
-        "saniye": 3026,
-        "izlenme": 32040,
-        "puan": 18.8
-      },
       {
         "id": "scjidKE0d54",
         "baslik": "Makrome Askılı Saksı Sepeti - D I Y Macrame Plant Hanger",
         "kanal": "BuCu's Handmade",
         "sure": "11:01",
         "saniye": 661,
-        "izlenme": 1567,
-        "puan": 16.3
+        "izlenme": 1571,
+        "puan": 18.8
       },
       {
-        "id": "BW2aOILNb0g",
-        "baslik": "Herkes Örsün Diye 🎁 Örgü Sarmaşık Çiçek Yapımı ✅️ Saksıda Çiçek ✅️ Yapay Çiçek ✅️ Kolay Çiçek Yapımı",
-        "kanal": "Ören Hanım",
-        "sure": "33:55",
-        "saniye": 2035,
-        "izlenme": 62804,
-        "puan": 12.7
+        "id": "HH_gAmtQkuw",
+        "baslik": "İple asma saksılık yapımı. Pratik, kolay, saksı askılığı yapımı. Balkondaki çiçeklere.",
+        "kanal": "EVDEKİ ÇİÇEKLERİM",
+        "sure": "3:00",
+        "saniye": 180,
+        "izlenme": 368189,
+        "puan": 18.8
+      },
+      {
+        "id": "TC2ZJPKNAIk",
+        "baslik": "Subtitled Tutorial❤ EASY CROCHET❤ MUHTEŞEM OLDU🎁Tığ işi Saksıda Çiçek Salkımları Yapımı❤Örgü Saksı",
+        "kanal": "birsepetyumakkcrochet",
+        "sure": "50:26",
+        "saniye": 3026,
+        "izlenme": 32145,
+        "puan": 18.3
+      },
+      {
+        "id": "lejSZSD7Z1o",
+        "baslik": "Making a gorgeous crocheted daisy motif✅️Tığ işi kolay örgü papatya çiçek yapılışı",
+        "kanal": "Cute Knitting",
+        "sure": "11:04",
+        "saniye": 664,
+        "izlenme": 630165,
+        "puan": 18.2
+      },
+      {
+        "id": "DJeFjn2Tsis",
+        "baslik": "Tığ İşi Örgü Ayçiçeği Bardak Altlığı Yapımı ~ amigurumi easy  crochet sunflower coasters örgü modeli",
+        "kanal": "Hobisever",
+        "sure": "21:49",
+        "saniye": 1309,
+        "izlenme": 133020,
+        "puan": 16.7
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "makrome-duvar-rafi": {
     "tarih": "2026-11-26T09:08:32.376Z",
@@ -9050,28 +10461,67 @@
     "ilgisiz": false
   },
   "ahsap-fitil-mum": {
-    "tarih": "2026-11-26T09:08:32.745Z",
-    "sorgu": "Çıtırdayan Ahşap Fitilli Mum nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
-  },
-  "bal-mumu-mum": {
-    "tarih": "2026-11-26T09:08:33.133Z",
-    "sorgu": "Bal Mumundan Rulo Mum nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:43.915Z",
+    "sorgu": "ahşap fitilli mum yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "UpxXfrlbSAk",
-        "baslik": "Ham petek temel petek 44 gram",
-        "kanal": "Ahmet Billor",
-        "sure": "4:33",
-        "saniye": 273,
-        "izlenme": 642,
-        "puan": 2.7
+        "id": "amZrQupTORg",
+        "baslik": "Ahşap Fitilli Mum Yapımı",
+        "kanal": "Nail 05",
+        "sure": "3:13",
+        "saniye": 193,
+        "izlenme": 7366,
+        "puan": 19.8
+      },
+      {
+        "id": "H01q8-ZYLkw",
+        "baslik": "PORTAKALLI MUM NASIL YAPILIR :) AHŞAP FİTİL, DOĞAL AROMALI, ESANSLI MUM YAPIMI VE KISA BİR HİKAYE :)",
+        "kanal": "SULTAN DEMİREL ",
+        "sure": "24:56",
+        "saniye": 1496,
+        "izlenme": 2266,
+        "puan": 17.5
+      },
+      {
+        "id": "FEs9SUTbEFI",
+        "baslik": "Evde Hazır Mum Fitili Nasıl Yapılır? How To Make Candle Wicks -Mum Fitili Yapımı #candlemakingathome",
+        "kanal": "Nutra Candle Hobi Atölyem",
+        "sure": "6:36",
+        "saniye": 396,
+        "izlenme": 80044,
+        "puan": 14.4
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
+  },
+  "bal-mumu-mum": {
+    "tarih": "2026-11-27T13:40:44.280Z",
+    "sorgu": "bal mumu levha mum sarma",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "4ScZ_GQ0DDc",
+        "baslik": "Balmumundan Mum Yapımı, Bal Peteğinden Mum Yapımı | Doğal Mum Yapımı, Beeswax Candles DIY ⭐️",
+        "kanal": "Begum Yonca Gerek",
+        "sure": "8:18",
+        "saniye": 498,
+        "izlenme": 39668,
+        "puan": 20.9
+      },
+      {
+        "id": "AUwMwtH7pZM",
+        "baslik": "Balmumu Heykel Sanatçısı Osmancık'ta Atölye Açtı",
+        "kanal": "Kızılırmak Haber Tv",
+        "sure": "3:10",
+        "saniye": 190,
+        "izlenme": 32864,
+        "puan": 17.3
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kalip-mum": {
     "tarih": "2026-11-26T09:08:33.518Z",
@@ -9144,39 +10594,40 @@
     "ilgisiz": false
   },
   "masaj-mumu": {
-    "tarih": "2026-11-26T09:08:34.460Z",
-    "sorgu": "Soya Bazlı Masaj Mumu nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:44.796Z",
+    "sorgu": "masaj mumu yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "FAAL9fbEiPQ",
-        "baslik": "Tasarlayanların Zekasına Hayran Kalacağınız Harika Mum Tasarımları",
-        "kanal": "Sıradan Adam",
-        "sure": "4:10",
-        "saniye": 250,
-        "izlenme": 315138,
-        "puan": 10.7
+        "id": "otty-q2JkOA",
+        "baslik": "Masaj Mumu Nedir ? | Evde Kokulu Masaj Yağı Nasıl Yapılır ? Losyon Krem Mum Yapımı",
+        "kanal": "AYSU INAN",
+        "sure": "5:35",
+        "saniye": 335,
+        "izlenme": 6759,
+        "puan": 16.7
       },
       {
-        "id": "R6WvvX1vkjM",
-        "baslik": "Kokulu Mum Yapımı",
-        "kanal": "Arzu Güney",
-        "sure": "9:17",
-        "saniye": 557,
-        "izlenme": 77,
-        "puan": 3.8
+        "id": "71YRhzTsFUY",
+        "baslik": "İyileştirici \"Organique\" Masaj Mumu Kullanımı",
+        "kanal": "Ayşenur Yazıcı Ve Hayat Dersleri",
+        "sure": "2:49",
+        "saniye": 169,
+        "izlenme": 5892,
+        "puan": 13.7
       },
       {
-        "id": "9l0SRsHOf8Q",
-        "baslik": "KATI LOSYON BARI NASIL YAPILIR?",
-        "kanal": "sabun fabrikası",
-        "sure": "1:32",
-        "saniye": 92,
-        "izlenme": 1025,
-        "puan": 1
+        "id": "PG3849e2Enw",
+        "baslik": "Protez tırnak sonrası masaj mumu🕯️💆🏼‍♀️ #proteztırnak #ısparta #türkiye",
+        "kanal": "Ayss Nail Studio",
+        "sure": "1:33",
+        "saniye": 93,
+        "izlenme": 826,
+        "puan": 8.9
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
   },
   "sivi-sabun": {
     "tarih": "2026-11-26T09:08:34.969Z",
@@ -9389,11 +10840,31 @@
     "ilgisiz": false
   },
   "kahve-sabunu": {
-    "tarih": "2026-11-26T09:08:37.563Z",
-    "sorgu": "Kahve Telveli Mutfak Sabunu nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:45.205Z",
+    "sorgu": "kahve telvesi sabun",
+    "secim": 1,
+    "adaylar": [
+      {
+        "id": "yqf1O37Z5f0",
+        "baslik": "Kahveli Sabun Nasıl Yapılır?            #kahve #kahvelisabun #sabun #ciltbakımı",
+        "kanal": "Cem Külahçı",
+        "sure": "3:02",
+        "saniye": 182,
+        "izlenme": 801,
+        "puan": 15.4
+      },
+      {
+        "id": "U3ugl37IYbM",
+        "baslik": "DIY -Mis gibi kahve kokulu peeling etkili sabun - coffee soap -beauty#DIY#BEAUTY#COFFEE",
+        "kanal": "NaturalisRosa",
+        "sure": "2:48",
+        "saniye": 168,
+        "izlenme": 71,
+        "puan": 6.8
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "zeytinyagli-kastil": {
     "tarih": "2026-11-26T09:08:38.019Z",
@@ -9536,39 +11007,12 @@
     "ilgisiz": false
   },
   "mum-vazosu": {
-    "tarih": "2026-11-26T09:08:39.782Z",
-    "sorgu": "Kuru Çiçekli Mum Fenerleri nasıl yapılır",
+    "tarih": "2026-11-27T13:40:45.639Z",
+    "sorgu": "kuru çiçekli mumluk",
     "secim": 0,
-    "adaylar": [
-      {
-        "id": "z0gvLJeLl2A",
-        "baslik": "Mum Eritme Nasıl Yapılır ? Evde Kendin Yap | Dıy",
-        "kanal": "Büşra'nın Deneyim Atölyesi",
-        "sure": "3:24",
-        "saniye": 204,
-        "izlenme": 8869,
-        "puan": 12.4
-      },
-      {
-        "id": "FU0vaex5d5w",
-        "baslik": "#geridönüşüm #dekorasyon #kendinyap Kavanozdan fener yapımı| Doğal dallardan dekoratif merdiven DIY",
-        "kanal": "Fatoş Karacan",
-        "sure": "6:55",
-        "saniye": 415,
-        "izlenme": 1164,
-        "puan": 9.6
-      },
-      {
-        "id": "2okIrRpoCLM",
-        "baslik": "Jel Mum Nasıl Yapılır | Atma Dönüştür Geri Dönüşüm Projeleri | Kendin Yap Dıy",
-        "kanal": "Büşra'nın Deneyim Atölyesi",
-        "sure": "5:43",
-        "saniye": 343,
-        "izlenme": 1397,
-        "puan": 8.7
-      }
-    ],
-    "ilgisiz": false
+    "adaylar": [],
+    "ilgisiz": false,
+    "tur": 2
   },
   "ahsap-yapboz": {
     "tarih": "2026-11-26T09:08:40.360Z",
@@ -9597,11 +11041,58 @@
     "ilgisiz": false
   },
   "karton-kale": {
-    "tarih": "2026-11-26T09:08:40.924Z",
-    "sorgu": "Kartondan Şövalye Kalesi nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:46.016Z",
+    "sorgu": "kartondan kale yapımı",
+    "secim": 4,
+    "adaylar": [
+      {
+        "id": "4p-PgRxdP6o",
+        "baslik": "KARTONDAN YAPTIĞIM KALE'DE 24 SAAT !",
+        "kanal": "Mertlia",
+        "sure": "22:22",
+        "saniye": 1342,
+        "izlenme": 718618,
+        "puan": 18.8
+      },
+      {
+        "id": "mca_Vys5iks",
+        "baslik": "ÇOCUĞUMA GERÇEKÇİ KARTON KALE YAPTIM! 😱 - Minecraft",
+        "kanal": "Ferited",
+        "sure": "12:47",
+        "saniye": 767,
+        "izlenme": 3771551,
+        "puan": 15.9
+      },
+      {
+        "id": "h0KI8kEPB5Y",
+        "baslik": "KALE VE SUR YAPTIM KARTONDAN (EV ÖDEVİ İÇİN)",
+        "kanal": "HOBİ",
+        "sure": "9:31",
+        "saniye": 571,
+        "izlenme": 336,
+        "puan": 14.3
+      },
+      {
+        "id": "mvZqAcOsSf0",
+        "baslik": "How To Make Castle Cardboard  Model /How To Make Castle Cardboard Details  / Kartondan Kale Yapımı",
+        "kanal": "Make it",
+        "sure": "7:01",
+        "saniye": 421,
+        "izlenme": 2657,
+        "puan": 13.6
+      },
+      {
+        "id": "vCxdb9t180A",
+        "baslik": "KARTONDAN KÖPRÜ YAPIMI / CARDBOARD BRİDGE/  TEKNOLOJİ TASARIM/ MÜHENDİSLİK TASARIM",
+        "kanal": "Minnos Seyler",
+        "sure": "3:41",
+        "saniye": 221,
+        "izlenme": 269116,
+        "puan": 11.6
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "corap-kukla": {
     "tarih": "2026-11-26T09:08:41.410Z",
@@ -9761,39 +11252,40 @@
     "ilgisiz": false
   },
   "tangram": {
-    "tarih": "2026-11-26T09:08:43.693Z",
-    "sorgu": "Ahşap Tangram Seti nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:46.504Z",
+    "sorgu": "tangram yapımı",
+    "secim": 1,
     "adaylar": [
       {
-        "id": "xsBstlx1Xog",
-        "baslik": "Ahşap oyuncak #8 öğretici oyuncak. / kutu açılımı// Holz Lernbox Tangram",
-        "kanal": "Usta oyuncu",
-        "sure": "5:12",
-        "saniye": 312,
-        "izlenme": 65,
-        "puan": 13.2
+        "id": "5ouZC4xJE_E",
+        "baslik": "Akıl Oyunları- TANGRAM nasıl yapılır? (tangram tutorial)",
+        "kanal": "Sade Çocuk",
+        "sure": "9:28",
+        "saniye": 568,
+        "izlenme": 55230,
+        "puan": 13.1
       },
       {
-        "id": "MxkGP4AfVlI",
-        "baslik": "Trendy toys ahşap hayvanlar tangram",
-        "kanal": "2cocuk1kedi",
-        "sure": "12:43",
-        "saniye": 763,
-        "izlenme": 988,
-        "puan": 12
+        "id": "AAqMUoWDFUM",
+        "baslik": "KLASİK TANGRAM PUZZLE 🤔 YAPIMI ♦️ 7 PARÇALI | KENDİN YAP | DIY #9",
+        "kanal": "YAPSEMİN - Kendin Yap - DIY",
+        "sure": "2:42",
+        "saniye": 162,
+        "izlenme": 33040,
+        "puan": 12.8
       },
       {
-        "id": "cxzI5aHS3pk",
-        "baslik": "EĞLENCELİ MATEMATİK-YUMURTA TANGRAM YAPIMI/5.-6.-7. SINIF",
-        "kanal": "Zeliha Öğretmen",
-        "sure": "7:28",
-        "saniye": 448,
-        "izlenme": 451,
-        "puan": 10
+        "id": "pYLdPEiqHF0",
+        "baslik": "KALP TANGRAM PUZZLE ♥ YAPIMI 😍 9 PARÇALI | KENDİN YAP | DIY #12",
+        "kanal": "YAPSEMİN - Kendin Yap - DIY",
+        "sure": "3:27",
+        "saniye": 207,
+        "izlenme": 1571,
+        "puan": 8.3
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "firildak": {
     "tarih": "2026-11-26T09:08:44.077Z",
@@ -9866,11 +11358,49 @@
     "ilgisiz": false
   },
   "cekme-ordek": {
-    "tarih": "2026-11-26T09:08:44.902Z",
-    "sorgu": "Ahşap Çekmeli Ördek nasıl yapılır",
+    "tarih": "2026-11-27T13:40:46.946Z",
+    "sorgu": "ahşap çekme oyuncak yapımı",
     "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "adaylar": [
+      {
+        "id": "ZfOyj_aFYCE",
+        "baslik": "hobi amaçlı başladım asıl işim oldu. Ahşap oyuncak atölyesi.",
+        "kanal": "Merih Caba",
+        "sure": "3:43",
+        "saniye": 223,
+        "izlenme": 29911,
+        "puan": 14.7
+      },
+      {
+        "id": "3sS9baotCIM",
+        "baslik": "Ahşap Oyuncak Sallanan At Nasıl Yapılır? How to make Wooden Rocking Horse",
+        "kanal": "Metin Menteşe",
+        "sure": "21:36",
+        "saniye": 1296,
+        "izlenme": 6301,
+        "puan": 13.2
+      },
+      {
+        "id": "n6SHhTqYu9o",
+        "baslik": "Ahşap oyuncakçı olmak | \"Herkes oyuncakta kendini bulur, kendi hayaliyle oynar\"",
+        "kanal": "+90",
+        "sure": "6:00",
+        "saniye": 360,
+        "izlenme": 35456,
+        "puan": 12.8
+      },
+      {
+        "id": "DACrDTzEoFY",
+        "baslik": "Emekli Tornacı ahşap oyuncak yapmaya başladı",
+        "kanal": "iskenderunorg TV",
+        "sure": "3:05",
+        "saniye": 185,
+        "izlenme": 4551,
+        "puan": 10.5
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "kukla-tiyatrosu": {
     "tarih": "2026-11-26T09:08:45.420Z",
@@ -9978,62 +11508,90 @@
     "ilgisiz": false
   },
   "yapi-bloklari": {
-    "tarih": "2026-11-26T09:08:46.701Z",
-    "sorgu": "Ahşap Yapı Blokları Seti nasıl yapılır",
+    "tarih": "2026-11-27T13:40:47.437Z",
+    "sorgu": "ahşap blok oyuncak yapımı",
     "secim": 0,
     "adaylar": [
-      {
-        "id": "k6NZ6GfDZsY",
-        "baslik": "100 parça ahşap bloklar seti açtık kule yaptık",
-        "kanal": "Oyuncak Dükkanı",
-        "sure": "4:02",
-        "saniye": 242,
-        "izlenme": 5515,
-        "puan": 17.6
-      },
-      {
-        "id": "eimu6hnHHS4",
-        "baslik": "Kapla Blokları  ile Ev Yapımı | Building a House with Kapla Blocks",
-        "kanal": "İndi Oyuncak",
-        "sure": "4:59",
-        "saniye": 299,
-        "izlenme": 43006,
-        "puan": 17.5
-      },
       {
         "id": "KhEpC3jRxFk",
         "baslik": "100 Parça Ahşap Bloklar │ Hayallerini Gerçeğe Dönüştür │ Eğitici Oyuncak",
         "kanal": "KAYHANCA",
         "sure": "15:57",
         "saniye": 957,
-        "izlenme": 8696,
+        "izlenme": 8712,
         "puan": 15.9
+      },
+      {
+        "id": "barE-S0BlUk",
+        "baslik": "AHŞAP BLOK | KURBAĞA YAPIMI #eğlenceliçocukvideosu #game #oyun #hashtag",
+        "kanal": "eymenediz kardesler",
+        "sure": "8:10",
+        "saniye": 490,
+        "izlenme": 628,
+        "puan": 14.7
+      },
+      {
+        "id": "9p9PVSKx1rM",
+        "baslik": "Ahşap bloklar ile oynadım ahşap oyuncak #2",
+        "kanal": "Usta oyuncu",
+        "sure": "6:47",
+        "saniye": 407,
+        "izlenme": 664,
+        "puan": 13.2
+      },
+      {
+        "id": "RH97eAxVrsI",
+        "baslik": "100 parça Renkli Ahşap Blok Kutusunu açtık. Şekillerine göre ayırdık. Eğitici zeka çocuk oyunu.",
+        "kanal": "Atlas'ın Günlüğü",
+        "sure": "5:14",
+        "saniye": 314,
+        "izlenme": 3073,
+        "puan": 11.7
+      },
+      {
+        "id": "kkzfpKQJD3c",
+        "baslik": "Hape - 101 Parça Ahşap Blok Seti - Oyuncaksitesi.com",
+        "kanal": "Oyuncak Sitesi",
+        "sure": "1:31",
+        "saniye": 91,
+        "izlenme": 184,
+        "puan": 9.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "bez-bebek": {
-    "tarih": "2026-11-26T09:08:47.145Z",
-    "sorgu": "Pamuklu Bez Bebek nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:47.906Z",
+    "sorgu": "bez bebek dikimi",
+    "secim": 3,
     "adaylar": [
-      {
-        "id": "eA3s_CHD1_o",
-        "baslik": "ÇORAPTAN OYUNCAK BEBEK YAPIMI / RECYCLE / DIY 🧦🤩",
-        "kanal": "ETKİNLİK SAATİ",
-        "sure": "8:08",
-        "saniye": 488,
-        "izlenme": 5433979,
-        "puan": 17.6
-      },
       {
         "id": "E_DfnMJe-bw",
         "baslik": "ÇORAPTAN BEBEK YAPIMI / RECYCLE / DIY",
         "kanal": "ETKİNLİK SAATİ",
         "sure": "8:50",
         "saniye": 530,
-        "izlenme": 604487,
-        "puan": 16.7
+        "izlenme": 604883,
+        "puan": 16.2
+      },
+      {
+        "id": "eA3s_CHD1_o",
+        "baslik": "ÇORAPTAN OYUNCAK BEBEK YAPIMI / RECYCLE / DIY 🧦🤩",
+        "kanal": "ETKİNLİK SAATİ",
+        "sure": "8:08",
+        "saniye": 488,
+        "izlenme": 5434957,
+        "puan": 15.1
+      },
+      {
+        "id": "XApg8cZMMAo",
+        "baslik": "Bez Bebek Yapımı",
+        "kanal": "Ankara SOKUM",
+        "sure": "16:45",
+        "saniye": 1005,
+        "izlenme": 49759,
+        "puan": 14
       },
       {
         "id": "6bQEOJt9epI",
@@ -10041,11 +11599,21 @@
         "kanal": "Sanat Sevgim",
         "sure": "18:09",
         "saniye": 1089,
-        "izlenme": 782833,
-        "puan": 15.8
+        "izlenme": 783169,
+        "puan": 13.3
+      },
+      {
+        "id": "vP1g3GSKh3w",
+        "baslik": "3 dakikada oyuncak yap / havludan oyuncak yapımı",
+        "kanal": "Minnos Seyler",
+        "sure": "2:54",
+        "saniye": 174,
+        "izlenme": 410864,
+        "puan": 6.9
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "kagit-maske": {
     "tarih": "2026-11-26T09:08:47.690Z",
@@ -10083,38 +11651,67 @@
     "ilgisiz": false
   },
   "pirografi-kasik": {
-    "tarih": "2026-11-26T09:08:48.268Z",
-    "sorgu": "Pirografi Desenli Ahşap Kaşık nasıl yapılır",
+    "tarih": "2026-11-27T13:40:48.333Z",
+    "sorgu": "ahşap kaşık yakma",
     "secim": 0,
     "adaylar": [
       {
-        "id": "UYfGWpHq7ho",
-        "baslik": "Ahşap yakma BEŞİKTAŞLI Kartal ve Amblem(2)",
-        "kanal": "Selma Kurnaz",
-        "sure": "10:15",
-        "saniye": 615,
-        "izlenme": 107,
-        "puan": 11.1
+        "id": "uKi_2PnJASY",
+        "baslik": "İki Taraflı Ahşap Tatlı Kaşığı Yapımı / Making Wooden Dessert Spoon (Yakma Kalemi Olmadan Yakma)",
+        "kanal": "Aile Atölyesi",
+        "sure": "10:43",
+        "saniye": 643,
+        "izlenme": 326,
+        "puan": 14.3
+      },
+      {
+        "id": "czXqYTVMGGU",
+        "baslik": "Kamp Ortamında Geleneksel Yöntemlerle Kaşık Yapımı / Spoon Carving  / Cemil Akdoğan",
+        "kanal": "Sercan Samancı",
+        "sure": "10:29",
+        "saniye": 629,
+        "izlenme": 832,
+        "puan": 8.9
+      },
+      {
+        "id": "EMcTAY0FQwM",
+        "baslik": "TAHTA KAŞIK 08 08 2015",
+        "kanal": "Altaş Tv",
+        "sure": "37:21",
+        "saniye": 2241,
+        "izlenme": 133,
+        "puan": 5.2
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "pirografi-kesme-tahtasi": {
-    "tarih": "2026-11-26T09:08:48.930Z",
-    "sorgu": "Kesme Tahtasına İsim Yakma nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:48.988Z",
+    "sorgu": "kesme tahtası yakma isim",
+    "secim": 2,
     "adaylar": [
       {
-        "id": "MD9jqBUwC88",
-        "baslik": "MUTFAK DOĞRAMA TAHTASI | Ahşah Kesme Tahtası | Kitchen Chopping Board - Wooden Cutting Board",
-        "kanal": "BC Tasarım",
-        "sure": "4:22",
-        "saniye": 262,
-        "izlenme": 758,
-        "puan": 12.8
+        "id": "-j9-LbC3kE8",
+        "baslik": "Havana Isı Ayarlı 37li Ahşap Yakma Kalemi ve Elektrik Havya Seti 60W",
+        "kanal": "Havana Bilgisayar (Havana Elektronik)",
+        "sure": "3:28",
+        "saniye": 208,
+        "izlenme": 14192,
+        "puan": 12.2
+      },
+      {
+        "id": "KGBEBjNPYF0",
+        "baslik": "#65 - #lily Ahşap Yakma Sunum Tepsisinin Hazırlanışı #ahşapyakma #ahşapyakmateknikleri #sunumtepsisi",
+        "kanal": "Doğa Sanat",
+        "sure": "14:25",
+        "saniye": 865,
+        "izlenme": 337,
+        "puan": 8.8
       }
     ],
-    "ilgisiz": false
+    "ilgisiz": false,
+    "tur": 2
   },
   "pirografi-portre": {
     "tarih": "2026-11-26T09:08:49.292Z",
@@ -10169,46 +11766,112 @@
     "ilgisiz": false
   },
   "pirografi-mandala": {
-    "tarih": "2026-11-26T09:08:50.033Z",
-    "sorgu": "Pirografi Mandala Pano nasıl yapılır",
-    "secim": 0,
+    "tarih": "2026-11-27T13:40:49.417Z",
+    "sorgu": "ahşap yakma mandala",
+    "secim": 5,
     "adaylar": [
       {
-        "id": "nE15T6gxSKs",
-        "baslik": "Ahşap yakma (pyrohgravy)(5)",
-        "kanal": "Selma Kurnaz",
-        "sure": "22:39",
-        "saniye": 1359,
-        "izlenme": 24,
-        "puan": 6.6
+        "id": "msh2oDbc1Do",
+        "baslik": "AHŞAP BOYAMA ( mandala boyama) Ahşap Üzerine Mandala",
+        "kanal": "Esra Akyürek",
+        "sure": "5:50",
+        "saniye": 350,
+        "izlenme": 1346,
+        "puan": 12.2
       },
       {
-        "id": "XKtgeOXaJ6Q",
-        "baslik": "Pirografia atelie",
-        "kanal": "Ateliê Cantinho do Céu",
-        "sure": "5:24",
-        "saniye": 324,
-        "izlenme": 63,
-        "puan": 5.7
+        "id": "dAKQxxzDwHs",
+        "baslik": "LAZER AHŞAP YAKMA MANDALA ÇİZİM EM 2030",
+        "kanal": "Makine Channel",
+        "sure": "3:41",
+        "saniye": 221,
+        "izlenme": 2142,
+        "puan": 10
       },
       {
-        "id": "trOhpHCmZeM",
-        "baslik": "PIROGRAFIA EM CAIXA DE COMPENSADO",
-        "kanal": "Pedroso Arteiro",
-        "sure": "5:52",
-        "saniye": 352,
-        "izlenme": 1887,
-        "puan": 5.4
+        "id": "VbB1xkkgrno",
+        "baslik": "Yakma Sanatı ile Nazar Boncuğu Mandala Yapıyoruz. #AhşapYakma #NazarBoncuğu #mandala  #DIY #Hobi",
+        "kanal": "Gezginin Atölyesi ",
+        "sure": "15:49",
+        "saniye": 949,
+        "izlenme": 46,
+        "puan": 8.5
+      },
+      {
+        "id": "qZWNfVd9enc",
+        "baslik": "Ahşap MDF Kutu Üzerine Mandala Resim İşleme \"SH350G\"",
+        "kanal": "Makine Channel",
+        "sure": "1:53",
+        "saniye": 113,
+        "izlenme": 302,
+        "puan": 8.2
+      },
+      {
+        "id": "hJsaTCnouo4",
+        "baslik": "Ahşap Yakma Tekniği İle Mandala Çizimi",
+        "kanal": "Hasan İNCE",
+        "sure": "2:45",
+        "saniye": 165,
+        "izlenme": 959,
+        "puan": 8
       }
     ],
-    "ilgisiz": true
+    "ilgisiz": false,
+    "tur": 2
   },
   "pirografi-kutu": {
-    "tarih": "2026-11-26T09:08:50.615Z",
-    "sorgu": "Pirografi Hatıra Kutusu nasıl yapılır",
-    "secim": 0,
-    "adaylar": [],
-    "ilgisiz": false
+    "tarih": "2026-11-27T13:40:49.901Z",
+    "sorgu": "ahşap kutu yakma",
+    "secim": 3,
+    "adaylar": [
+      {
+        "id": "7ohKQ8VJw3s",
+        "baslik": "Lazer Ahşap (MDF) Kutu Yapımı \"SH350G\"",
+        "kanal": "Makine Channel",
+        "sure": "3:18",
+        "saniye": 198,
+        "izlenme": 98172,
+        "puan": 11
+      },
+      {
+        "id": "8hZ8qrA7uvg",
+        "baslik": "Ahşap Kutu Yapımı | Yakma Tekniği ile Eskitme / Wooden Box Making | Aging with Burn Technique",
+        "kanal": "Kendime İşler",
+        "sure": "34:17",
+        "saniye": 2057,
+        "izlenme": 3461,
+        "puan": 10.8
+      },
+      {
+        "id": "8QnSFDnUG10",
+        "baslik": "DEKORATİF AHŞAP YAKMA KUTU YAPIMI (DECORATIVE WOODEN BOX MAKING)",
+        "kanal": "Ahşap'a Dair",
+        "sure": "15:54",
+        "saniye": 954,
+        "izlenme": 490,
+        "puan": 10.5
+      },
+      {
+        "id": "jtzWUKOX1c8",
+        "baslik": "GAUSS AHŞAP YAKMA DAĞLAMA MAKİNASI - KUTU AÇILIŞI - ÜRÜN İNCELEME - TEST",
+        "kanal": "NDemiş",
+        "sure": "14:19",
+        "saniye": 859,
+        "izlenme": 4110,
+        "puan": 9.9
+      },
+      {
+        "id": "w3eSswmmBkc",
+        "baslik": "Ahşap Yakmaya Yeni Başlayanlar için TAMAMI ANLATIMLI | Yakma Tablo Yapımı | Pyrography | Woodburning",
+        "kanal": "Ahşap uğraşlar",
+        "sure": "8:43",
+        "saniye": 523,
+        "izlenme": 15574,
+        "puan": 9.3
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "pirografi-deri": {
     "tarih": "2026-11-26T09:08:50.951Z",
@@ -10246,10 +11909,49 @@
     "ilgisiz": false
   },
   "pirografi-kalemlik": {
-    "tarih": "2026-11-26T09:08:51.145Z",
-    "sorgu": "Pirografi Desenli Kalemlik nasıl yapılır",
+    "tarih": "2026-11-27T13:40:50.348Z",
+    "sorgu": "ahşap yakma kalemlik",
     "secim": 0,
-    "adaylar": []
+    "adaylar": [
+      {
+        "id": "WA0nmAp2HkI",
+        "baslik": "Ahşap Kalemlik // wooden pen Holder",
+        "kanal": "Yakup Kılınçarslan",
+        "sure": "9:47",
+        "saniye": 587,
+        "izlenme": 2206,
+        "puan": 12.5
+      },
+      {
+        "id": "EdXmRyW_m8w",
+        "baslik": "How to make pencil holder from wooden sticks. Ahşap karıştırıcıdan kalemlik yapımı.",
+        "kanal": "Kılınç Tasarım  Atölyesi",
+        "sure": "3:07",
+        "saniye": 187,
+        "izlenme": 7942,
+        "puan": 10.8
+      },
+      {
+        "id": "zRdO5FKOPEA",
+        "baslik": "Sıfır (0) Tl'ye Ahşap Yakma Kalemi Yapımı (el yapımı)",
+        "kanal": "Bilgi inc.",
+        "sure": "5:18",
+        "saniye": 318,
+        "izlenme": 4483,
+        "puan": 10.5
+      },
+      {
+        "id": "P9QJqeLTE1g",
+        "baslik": "Ahşap Kalemlik Yapımı Wood Pencil Holder",
+        "kanal": "Bilal SÜRÜCÜ",
+        "sure": "33:03",
+        "saniye": 1983,
+        "izlenme": 1022,
+        "puan": 6
+      }
+    ],
+    "ilgisiz": false,
+    "tur": 2
   },
   "akrilik-tuval-manzara": {
     "tarih": "2026-11-26T09:08:51.555Z",
