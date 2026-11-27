@@ -43,6 +43,7 @@ export const RC_EK: Proje[] = [
     ad: "RC Araba Süspansiyon ve Lastik Bakımı",
     zorluk: "Orta",
     sure: "2 saat",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Amortisör yağı yenileme, lastik yapıştırma ve yol ayarı.",
     malzemeler: [
       m("rc-ra1", "Silikon amortisör yağı (ör. 35 wt)", "1 şişe"),
@@ -68,6 +69,7 @@ export const RC_EK: Proje[] = [
     ad: "LiPo Pil Güvenli Şarj ve Saklama",
     zorluk: "Kolay",
     sure: "1 saat",
+    yas: "14+ yaş (gözetimle)",
     ozet: "RC ve drone pilleri için güvenli şarj istasyonu ve saklama düzeni.",
     malzemeler: [
       m("rc-lp1", "Dengeli (balance) LiPo şarj cihazı", "1 adet", true),
@@ -134,6 +136,7 @@ export const RC_EK: Proje[] = [
     ad: "Simülatörde Drone Uçuşu Öğrenme",
     zorluk: "Kolay",
     sure: "1 saat kurulum + pratik",
+    yas: "8+ yaş",
     ozet: "Gerçek kumandayı bilgisayara bağlayıp kaza riski olmadan pratik yapma.",
     malzemeler: [
       m("rc-ds1", "USB destekli kumanda (EdgeTX/OpenTX vb.)", "1 adet", true),
@@ -157,6 +160,7 @@ export const RC_EK: Proje[] = [
     ad: "FPV Kamera ve Gözlük Kanal Ayarı",
     zorluk: "Orta",
     sure: "1 saat",
+    yas: "14+ yaş (gözetimle)",
     ozet: "Analog FPV sistemde verici, anten ve gözlük kanalını eşleştirme.",
     malzemeler: [
       m("rc-fp1", "FPV gözlük (5,8 GHz)", "1 adet", true),
@@ -184,6 +188,7 @@ export const RC_EK: Proje[] = [
     ad: "Pervane Dengeleme",
     zorluk: "Kolay",
     sure: "30 dk",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Titreşimi azaltmak için pervaneyi manyetik dengeleyiciyle dengeleme.",
     malzemeler: [
       m("rc-pd1", "Manyetik pervane dengeleyici", "1 adet", true),
@@ -406,6 +411,7 @@ void loop() {
     ad: "İki Arduino ile Kablosuz Kumanda",
     zorluk: "Zor",
     sure: "4 saat",
+    yas: "12+ yaş (gözetimle)",
     ozet: "nRF24L01 modülleriyle joystick'ten servoya kablosuz kontrol.",
     malzemeler: [
       m("rc-nk1", "Arduino Nano", "2 adet", true),
@@ -475,6 +481,7 @@ void loop() {
     ad: "Mini RC Yelkenli",
     zorluk: "Zor",
     sure: "3 gün",
+    yas: "14+ yaş (gözetimle)",
     ozet: "Yelken servosu ve dümenle rüzgârla giden 50 cm'lik yelkenli.",
     malzemeler: [
       m("rc-yl1", "Köpük veya balsa gövde malzemesi", "1 set"),
@@ -504,6 +511,7 @@ void loop() {
     ad: "RC Arabaya LED Far ve Stop Lambası",
     zorluk: "Kolay",
     sure: "1 saat",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Alıcının boş kanalından beslenen ön far ve arka stop LED'leri.",
     malzemeler: [
       m("rc-lf1", "5 mm beyaz LED", "2 adet"),
@@ -530,6 +538,7 @@ void loop() {
     ad: "RC Araba Atlama Rampası",
     zorluk: "Kolay",
     sure: "2 saat",
+    yas: "10+ yaş (gözetimle)",
     ozet: "Kontrplaktan katlanabilir, açısı ayarlanabilir atlama rampası.",
     malzemeler: [
       m("rc-rp1", "Kontrplak 9 mm", "60×40 cm"),
@@ -554,6 +563,7 @@ void loop() {
     ad: "Potansiyometreli Servo Test Cihazı",
     zorluk: "Kolay",
     sure: "45 dk",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Servoları kumandasız test etmek ve orta noktayı bulmak için cihaz.",
     malzemeler: [
       m("rc-st1", "Arduino Nano", "1 adet", true),

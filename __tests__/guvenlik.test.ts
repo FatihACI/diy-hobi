@@ -27,6 +27,7 @@ describe("güvenlik notları", () => {
       const eksik = PROJELER.filter(
         (p) =>
           (!k.sadeceCocuk || p.yas) &&
+          (!k.yasAlti || !(parseInt(p.yas ?? "", 10) >= k.yasAlti)) &&
           (!k.kategoriler || k.kategoriler.includes(p.kategoriId)) &&
           k.tetik.test(metin(p)) &&
           !k.var.test(kucuk(p.guvenlik.join(" "))),

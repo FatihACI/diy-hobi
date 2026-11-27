@@ -42,6 +42,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Şişe İçinde Gemi",
     zorluk: "Zor",
     sure: "2–3 gün",
+    yas: "14+ yaş",
     ozet: "Direkleri katlanarak şişeye sokulan, içeride açılan yelkenli.",
     malzemeler: [
       m("mk-sg1", "Boş şeffaf şişe (geniş gövdeli)", "1 adet"),
@@ -124,6 +125,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Küçük Masa Üstü Tren Hattı",
     zorluk: "Zor",
     sure: "1 hafta",
+    yas: "8+ yaş (gözetimle)",
     ozet: "N ölçek rayla oval hat, istasyon ve basit manzara.",
     malzemeler: [
       m("mk-nt1", "N ölçek başlangıç seti (ray, tren, trafo)", "1 set"),
@@ -150,6 +152,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Köpük Kartonla Mimari Maket",
     zorluk: "Orta",
     sure: "1 gün",
+    yas: "14+ yaş",
     ozet: "Beyaz köpük kartondan 1/100 ölçekli ev maketi.",
     malzemeler: [
       m("mk-mm1", "Köpük karton (fotoblok) 5 mm, beyaz", "3 levha"),
@@ -228,6 +231,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Telden Minyatür Ağaç",
     zorluk: "Kolay",
     sure: "1,5 saat",
+    yas: "10+ yaş (gözetimle)",
     ozet: "Bükülmüş telden gerçekçi gövdeli diorama ağacı.",
     malzemeler: [
       m("mk-ta1", "İnce bobin teli veya çiçekçi teli", "3 m"),
@@ -253,6 +257,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Diorama Suyu: Dere ve Gölet",
     zorluk: "Orta",
     sure: "2 gün",
+    yas: "14+ yaş",
     ozet: "Reçine ve jel ile derinlik hissi veren gerçekçi su.",
     malzemeler: [
       m("mk-ds1", "Diorama zemini (hazır veya yeni)", "1 adet"),
@@ -278,6 +283,7 @@ export const MAKET_EK: Proje[] = [
     ad: "LED Işıklı Gece Dioraması",
     zorluk: "Orta",
     sure: "1 gün",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Pencereleri ve sokak lambası yanan küçük kış köyü sahnesi.",
     malzemeler: [
       m("mk-id1", "Diorama tabanı + küçük evler (kağıt/maket)", "1 set"),
@@ -330,6 +336,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Işıklı Deniz Feneri Maketi",
     zorluk: "Orta",
     sure: "4 saat",
+    yas: "8+ yaş (gözetimle)",
     ozet: "Karton rulo ve kayalıklardan, tepesi yanan fener.",
     malzemeler: [
       m("mk-df1", "Konik karton veya kalın rulo", "1 adet"),
@@ -355,6 +362,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Katmanlı Topografik Harita",
     zorluk: "Orta",
     sure: "1 gün",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Eş yükselti eğrilerinden kesilmiş kartonlarla kabartma dağ haritası.",
     malzemeler: [
       m("mk-th1", "Topografik harita çıktısı", "1 yaprak"),
@@ -433,6 +441,7 @@ export const MAKET_EK: Proje[] = [
     ad: "Strafordan Taş Duvarlı Kale",
     zorluk: "Orta",
     sure: "2 gün",
+    yas: "10+ yaş (gözetimle)",
     ozet: "XPS köpükten taş dokulu ortaçağ kalesi ve surları.",
     malzemeler: [
       m("mk-sk1", "XPS köpük levha 2–3 cm", "2 levha"),

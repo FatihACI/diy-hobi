@@ -14,6 +14,7 @@ export type GuvenlikKurali = {
   var: RegExp;
   not: string;
   sadeceCocuk?: boolean; // yalnızca yaş bilgisi olan (çocuklara yönelik) projelerde
+  yasAlti?: number; // sadeceCocuk ile: yalnızca alt yaş sınırı bu değerin altında olan projelerde
   kategoriler?: string[]; // yalnızca bu kategorilerde uygula
 };
 
@@ -109,6 +110,7 @@ export const GUVENLIK_KURALLARI: GuvenlikKurali[] = [
     var: /yetişkin/,
     not: "Maket bıçağıyla kesimi yetişkin yapmalı; bıçağı her zaman kendinden uzağa doğru çek.",
     sadeceCocuk: true,
+    yasAlti: 12,
   },
   {
     ad: "kursun",
@@ -202,6 +204,7 @@ export function guvenlikTamamla(p: Proje): Proje {
   const mevcut = () => kucuk(notlar.join(" "));
   for (const k of GUVENLIK_KURALLARI) {
     if (k.sadeceCocuk && !p.yas) continue;
+    if (k.yasAlti && parseInt(p.yas ?? "", 10) >= k.yasAlti) continue;
     if (k.kategoriler && !k.kategoriler.includes(p.kategoriId)) continue;
     if (k.tetik.test(metin) && !k.var.test(mevcut())) notlar.push(k.not);
   }

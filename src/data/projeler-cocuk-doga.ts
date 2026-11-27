@@ -60,6 +60,7 @@ export const COCUK_DOGA: Proje[] = [
     ad: "Diorama Zemini: Çim, Toprak ve Kaya",
     zorluk: "Kolay",
     sure: "3 saat + 1 gün kuruma",
+    yas: "12+ yaş (gözetimle)",
     ozet: "Maketlerin altına koymak için gerçekçi doğa zemini.",
     malzemeler: [
       m("dz1", "MDF taban 20×30 cm", "1 adet"),
@@ -96,6 +97,7 @@ export const COCUK_DOGA: Proje[] = [
     ad: "Kutu İçinde Minyatür Oda (Roombox)",
     zorluk: "Orta",
     sure: "1–2 gün",
+    yas: "10+ yaş (gözetimle)",
     ozet: "Ayakkabı kutusu boyutunda, ışıklı minyatür bir oda.",
     malzemeler: [
       m("mo1", "Kontrplak veya kalın mukavva 3 mm", "1 levha"),
@@ -249,6 +251,7 @@ void loop() {
     ad: "Mini FPV Drone (Tiny Whoop) Montajı",
     zorluk: "Zor",
     sure: "1 gün",
+    yas: "14+ yaş (gözetimle)",
     ozet: "Pervane korumalı, evde uçabilen küçük drone'u parça parça birleştirme.",
     malzemeler: [
       m("md1", "65–75 mm whoop gövdesi (pervane korumalı)", "1 adet"),
