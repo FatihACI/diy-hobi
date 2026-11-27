@@ -26,7 +26,8 @@ const adaylar = katalog
 
 // Altın 40 projelerinin fiyatı eksik kalemleri: hedef bu projelerde %100 fiyat
 const altinEksik = katalog.filter((k) => k.altin && !fiyatli.has(k.id)).sort((a, b) => a.id.localeCompare(b.id));
-const altinProje = Object.keys(projeKalem).filter((p) => katalog.some((k) => k.altin && k.projeler.includes(p)));
+// Altın projeler: kalemin geçtiği tüm projeler değil, yalnız Altın 40 olanlar (eski hesap 41/40 gösteriyordu)
+const altinProje = [...new Set(oku("./veri/malzemeler.json").flatMap((k) => k.altinProjeler ?? []))];
 const altinTam = altinProje.filter((p) => eksikSayisi(p) === 0).length;
 
 const md = [
@@ -41,7 +42,7 @@ const md = [
   "Nasıl girilir: `veri/manuel.csv` → `katalogId;mağaza;fiyat;ürün-linki;tarih`. Link **ürün sayfası** olmalı (kategori/arama sayfası değil).",
   "Alet olan kalemlerde (⚒) en uygun fiyatlı güvenilir ürünü seç; sarf malzemede en küçük uygun paketi seç.",
   "",
-  `## 1) Altın 40 için eksik fiyatlar (${altinEksik.length} kalem · tam fiyatlı: ${altinTam}/40)`,
+  `## 1) Altın 40 için eksik fiyatlar (${altinEksik.length} kalem · tam fiyatlı: ${altinTam}/${altinProje.length})`,
   "",
   "Hedef: seçkin projelerin tamamında fiyat. Önce bunları gir.",
   "",

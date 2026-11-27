@@ -1,6 +1,6 @@
 {
   "surum": 2,
-  "guncelleme": "2026-11-27T14:27:02.674Z",
+  "guncelleme": "2026-11-27T16:09:10.777Z",
   "fiyatlar": {
     "fdm-3d-yazici": [
       {
@@ -30,6 +30,14 @@
         "fiyat": 188.9,
         "url": "https://www.hepsiburada.com/arduino-buyuk-boy-830-pin-breadboard-ve-40-li-erkek-erkek-jumper-kablo-set-pm-HBC00003VUA8O",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "akrilik-boya": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 163.99,
+        "url": "https://www.trendyol.com/genel-markalar/mydido-akrilik-boya-set-12x9-ml-tup-p-6316269",
+        "guncelleme": "2026-11-27"
       }
     ],
     "polimer-kil": [
@@ -76,6 +84,14 @@
         "fiyat": 425,
         "url": "https://www.trendyol.com/das/kil-model-hamuru-hava-ile-kuruyan-seramik-porselen-hamuru-dogal-1-kg-beyaz-p-121814603",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "pigment": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 330,
+        "url": "https://www.trendyol.com/mh-toys/epoksi-sivi-pigment-seti-opak-8-renk-x-13-gr-kirmizi-mavi-yesil-sari-kiremit-siyah-beyaz-lacivert-p-1138679888",
+        "guncelleme": "2026-11-27"
       }
     ],
     "pla-filament-1-75-mm": [
@@ -182,6 +198,14 @@
         "guncelleme": "2026-11-06"
       }
     ],
+    "dikis-ipi-igne": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 74,
+        "url": "https://www.trendyol.com/albertos/kutulu-mini-dikis-seti-igne-iplik-makas-dugme-cengelli-igne-seyahat-seti-p-1204738798",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "izopropil-alkol-bez": [
       {
         "magaza": "Hepsiburada",
@@ -228,6 +252,14 @@
         "guncelleme": "2026-11-17"
       }
     ],
+    "saf-su": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 187.22,
+        "url": "https://www.trendyol.com/dr-goo-beauty/distile-su-5-lt-saf-damitilmis-su-medikal-cihaz-ve-ev-kullanimi-icin-p-970716083",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "sprey-sise": [
       {
         "magaza": "Hepsiburada",
@@ -268,12 +300,44 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "10-k-potansiyometre": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 9,
+        "url": "https://www.trendyol.com/arduino-projeleri/10k-potansiyometre-p-91965082",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "220-direnc": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 15,
+        "url": "https://www.trendyol.com/arduino/220-ohm-direnc-10-adet-p-124934906",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "aktif-buzzer": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 19.5,
+        "url": "https://www.trendyol.com/arduino/5v-aktif-sesli-buzzer-devreli-pic-vb-p-315349072",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "arduino-uno-nano": [
       {
         "magaza": "Motorobit",
         "fiyat": 210.6,
         "url": "https://motorobit.com/arduino-nano-ch340-chip-clone-type-c",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "bant": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 42.11,
+        "url": "https://www.trendyol.com/garaccu/maskeleme-boya-bandi-kagit-bant-18-mm-genislik-25-metre-1-adet-p-939117209",
+        "guncelleme": "2026-11-27"
       }
     ],
     "bez": [
@@ -284,12 +348,28 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "cakmak": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 123,
+        "url": "https://www.trendyol.com/cricket/cep-boy-tasli-cakmak-tekli-mum-alev-gri-renk-p-1058517694",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "dijital-kumpas": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 339.9,
         "url": "https://www.hepsiburada.com/gomax-dijital-kumpas-mini-150-mm-siyah-renkli-hassas-olcum-aleti-kullanim-tipi-pm-HB00000NUV8G",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "elyaf-dolgu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 169.99,
+        "url": "https://www.trendyol.com/genel-markalar/boncuk-elyaf-500-gr-yastik-kirlent-ve-oyuncak-dolgusu-p-1214314795",
+        "guncelleme": "2026-11-27"
       }
     ],
     "firdondu": [
@@ -306,6 +386,30 @@
         "fiyat": 199,
         "url": "https://www.hepsiburada.com/50-adet-craft-kesilmis-pisirme-kagidi-37-x-42-cm-agartilmamis-dogal-pisirme-kagidi-en-iyi-mutfak-yardimcisi-pm-HBC0000DHMGJZ",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "gidaya-uygun-yag": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 403.78,
+        "url": "https://www.trendyol.com/zag-kimya/parafin-sivi-farmasotik-kalite-1-lt-p-234228644",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "halka-belirleyici": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 25,
+        "url": "https://www.trendyol.com/mir-plastik/ilmek-belirleyici-plastik-cengelli-igne-10-adet-karisik-p-266430891",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "isi-tabancasi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 889.9,
+        "url": "https://www.trendyol.com/assur/2000-watt-2-kademeli-4-baslikli-sicak-hava-tabancasi-p-1149669327",
+        "guncelleme": "2026-11-27"
       }
     ],
     "karbonat": [
@@ -336,6 +440,38 @@
         "fiyat": 1989,
         "url": "https://www.hepsiburada.com/30x40-cm-6-mm-kalinlik-kavak-kontrplak-1-adet-pm-HBC0000EWIW0F",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "kostik-soda-sodyum-hidroksit-saf": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 247,
+        "url": "https://www.trendyol.com/elischem/payet-kostik-sabun-yapimi-soda-lavabo-logar-gider-acici-sodyum-hidroksit-99-saf-1kg-p-1233052022",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "kova": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 289.9,
+        "url": "https://www.trendyol.com/akay-plastik/3-no-pls-sapli-seffaf-su-kovasi-10-lt-p-33305905",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "kursun-kalem": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 64.5,
+        "url": "https://www.trendyol.com/genel-markalar/fatih-12-li-hb-mercanli-kursun-kalem-p-79025648",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "l298n-motor-surucu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 132.05,
+        "url": "https://www.trendyol.com/arduino/l298n-motor-surucu-karti-p-40632603",
+        "guncelleme": "2026-11-27"
       }
     ],
     "mat-vernik": [
@@ -376,6 +512,46 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "mikrofiber-bez": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 159.96,
+        "url": "https://www.trendyol.com/silver-home/mikrofiber-3lu-dekoratif-cam-bezi-40x60-cm-iz-birakmaz-p-250803322",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "nitril-eldiven": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 319.9,
+        "url": "https://www.trendyol.com/drema-medikal/drema-nitril-muayene-eldiveni-mavi-1-kutu-100-adet-small-medium-large-p-1184475913",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "pamuk-fitil": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 161.34,
+        "url": "https://www.trendyol.com/genel-markalar/citcitli-kopcali-mumlanmis-10-cm-100-pamuk-25-adet-hazir-mum-fitili-parafin-inci-mum-soya-jel-mum-p-923961973",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "pense-seti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 510,
+        "url": "https://www.trendyol.com/genel-markalar/mini-kivirma-taki-pensesi-karga-burun-pense-yan-keski-3-lu-set-hobi-p-298041941",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "pipet": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 124.28,
+        "url": "https://www.trendyol.com/dolphin/jelatinli-koruklu-frozen-pipet-5-mm-x-23-5-cm-100-adet-p-1112639682",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "sicak-silikon-tabancasi-cubuk": [
       {
         "magaza": "Hepsiburada",
@@ -392,12 +568,60 @@
         "guncelleme": "2026-11-27"
       }
     ],
+    "terraryum-topragi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 74.95,
+        "url": "https://www.trendyol.com/mf-botanik/kaktus-sukulent-topragi-5-lt-teraryum-icin-uygun-toprak-p-33626278",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "uv-recine": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 899.9,
+        "url": "https://www.trendyol.com/epoksimod/uv-recine-epoksi-seffaf-hard-type-kolye-anahtarlik-kupe-obje-yapimina-uygun-uv-resin-100-gr-p-896832901",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "uzun-cimbiz": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 199.99,
+        "url": "https://www.trendyol.com/transformacion/uzun-30-cm-celik-cimbiz-akvaryum-masasi-p-798554696",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "zimba-seti": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 499,
+        "url": "https://www.trendyol.com/airyfoot/deri-hobi-coklu-vurma-zimba-el-dikis-deligi-acmak-icin-deri-el-aleti-4-mm-4-lu-p-749227008",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "zimba-tabancasi": [
       {
         "magaza": "Hepsiburada",
         "fiyat": 510,
         "url": "https://www.hepsiburada.com/moon-profesyonel-8-mm-mekanik-zimba-tabancasi-ve-5000-adet-tel-pm-HB00001CE9OZ",
         "guncelleme": "2026-11-06"
+      }
+    ],
+    "zincir-yagi": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 166,
+        "url": "https://www.trendyol.com/genel-markalar/zincir-yaglayici-sprey-400ml-p-1100309381",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "16-2-lcd-i2c-modulu": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 179,
+        "url": "https://www.trendyol.com/arduino/16x2-lcd-ekran-i2c-iic-modulu-ile-2x16-p-88388670",
+        "guncelleme": "2026-11-27"
       }
     ],
     "a4-kagit": [
@@ -414,6 +638,14 @@
         "fiyat": 189.28,
         "url": "https://www.hepsiburada.com/eurostar-active-carbon-500-ml-pm-ptm4521003",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "aluminyum-folyo": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 129,
+        "url": "https://www.trendyol.com/broken-stone/aluminyum-folyo-30-cm-x-10-m-10mic-p-1015751588",
+        "guncelleme": "2026-11-27"
       }
     ],
     "anahtarlik-halkasi": [
@@ -542,6 +774,14 @@
         "guncelleme": "2026-11-25"
       }
     ],
+    "kablo-kesici": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 149.9,
+        "url": "https://www.trendyol.com/xzz/ivitc-mini-yan-keski-model-170-tel-kesme-makasi-kablo-kesici-elektronikci-tipi-mavi-p-1192675618",
+        "guncelleme": "2026-11-27"
+      }
+    ],
     "kagit-maskeleme-bandi": [
       {
         "magaza": "Hepsiburada",
@@ -564,6 +804,14 @@
         "fiyat": 199.99,
         "url": "https://www.hepsiburada.com/akfix-310-kartonpiyer-strafor-yapistirici-310-ml-pm-HB00000H4J4Y",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "kumpas": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 345,
+        "url": "https://www.trendyol.com/genel-markalar/dijital-kumpas-150-mm-pil-hediyeli-p-82453757",
+        "guncelleme": "2026-11-27"
       }
     ],
     "kus-yemi-karisimi": [
@@ -596,6 +844,22 @@
         "fiyat": 69,
         "url": "https://www.hepsiburada.com/robottr-arduino-buzzer-hoparlor-pasif-buzzer-raspberry-buzzer-hoparlor-pm-HB0000055N68",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "petg-filament": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 491.03,
+        "url": "https://www.trendyol.com/filenta/siyah-petg-filament-1-75mm-1kg-p-1147480479",
+        "guncelleme": "2026-11-27"
+      }
+    ],
+    "pla-filament": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 518,
+        "url": "https://www.trendyol.com/filenta/siyah-pla-premium-filament-1-75mm-1kg-p-1045481470",
+        "guncelleme": "2026-11-27"
       }
     ],
     "pompa": [
@@ -668,6 +932,14 @@
         "fiyat": 327.8,
         "url": "https://www.trendyol.com/rox-wood/ryoba-cift-tarafli-ahsap-testere-160mm-p-1070883687",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "toz-pastel": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 299,
+        "url": "https://www.trendyol.com/sudor/soft-pastel-toz-pastel-12-renk-p-14596459",
+        "guncelleme": "2026-11-27"
       }
     ],
     "uv-lamba": [
@@ -992,6 +1264,14 @@
         "fiyat": 74.9,
         "url": "https://www.hepsiburada.com/srtfootcare-deri-dikis-ignesi-2-adet-kaliteli-celikten-uretilmis-kor-uclu-p-HBCV000036JUEY",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "deri-serit-2-5-20-cm": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 192,
+        "url": "https://www.trendyol.com/airyfoot/crazy-parca-deri-21-x-30-cm-deri-hobi-icin-crazy-deri-hakiki-deri-parcasi-p-809246870",
+        "guncelleme": "2026-11-27"
       }
     ],
     "direnc-1-k-ve-2-k": [
@@ -1438,6 +1718,14 @@
         "fiyat": 119.9,
         "url": "https://www.hepsiburada.com/garden-narter-mikro-yesillik-icin-microgreen-organik-kirmizi-lahana-tohumu-7-gr-1750-tohum-pm-HBC00007AZCFS",
         "guncelleme": "2026-11-25"
+      }
+    ],
+    "mini-isi-tabancasi-kurdan": [
+      {
+        "magaza": "Trendyol",
+        "fiyat": 889.9,
+        "url": "https://www.trendyol.com/assur/2000-watt-2-kademeli-4-baslikli-sicak-hava-tabancasi-p-1149669327",
+        "guncelleme": "2026-11-27"
       }
     ],
     "mini-sukulent-ve-kaktus": [

@@ -10,6 +10,7 @@ type Kalem = {
   arac: boolean;
   evde: boolean;
   altin: boolean; // Altın 40 projelerinden birinde geçiyor
+  altinProjeler: string[]; // geçtiği Altın 40 projeleri (öncelik raporu için)
   projeler: string[];
   satirlar: string[];
 };
@@ -22,12 +23,16 @@ for (const p of PROJELER)
       arac: !!m.arac,
       evde: !!m.evde,
       altin: false,
+      altinProjeler: [],
       projeler: [],
       satirlar: [],
     };
     if (!k.projeler.includes(p.id)) k.projeler.push(p.id);
     k.satirlar.push(m.id);
-    if (p.altin) k.altin = true;
+    if (p.altin) {
+      k.altin = true;
+      if (!k.altinProjeler.includes(p.id)) k.altinProjeler.push(p.id);
+    }
     katalog.set(k.id, k);
   }
 
